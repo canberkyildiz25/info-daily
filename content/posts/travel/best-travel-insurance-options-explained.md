@@ -3,7 +3,7 @@ title: "Best Travel Insurance Options Explained"
 excerpt: "Travel insurance sounds boring until you need it. Understanding what's covered — and what isn't — can save you tens of thousands of dollars and enormous stress."
 date: "2025-12-21"
 author: "Sophie Martinez"
-coverImage: "https://source.unsplash.com/800x450/?insurance,travel,safety&sig=508"
+coverImage: "https://picsum.photos/seed/508/800/450"
 tags: ["travel insurance", "travel tips", "trip protection", "health insurance abroad", "travel planning"]
 ---
 

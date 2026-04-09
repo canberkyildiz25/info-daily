@@ -3,7 +3,7 @@ title: "How to Lower Cortisol Naturally"
 excerpt: "Chronic stress raises cortisol and damages your health. Learn proven, natural ways to bring it back down and feel calmer every day."
 date: "2025-09-05"
 author: "Dr. Sarah Collins"
-coverImage: "https://source.unsplash.com/800x450/?meditation,calm&sig=101"
+coverImage: "https://picsum.photos/seed/101/800/450"
 tags: ["cortisol", "stress relief", "hormones", "wellness", "mental health"]
 ---
 

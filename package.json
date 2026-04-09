@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "generate:article": "node generate-article.js",
+    "generate:daily": "node generate-article.js --batch daily-articles.txt",
+    "automate:start": "node automate-daily-articles.js",
+    "setup:scheduler": "node setup-windows-scheduler.bat",
+    "setup:cron": "chmod +x setup-linux-cron.sh && ./setup-linux-cron.sh"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.86.1",

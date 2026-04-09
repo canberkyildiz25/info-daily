@@ -3,7 +3,7 @@ title: "Best Side Hustles for Busy Professionals"
 excerpt: "Limited time doesn't mean limited income options. These side hustles are specifically suited to professionals with demanding schedules — high hourly value, flexible timing."
 date: "2025-10-01"
 author: "David Kim"
-coverImage: "https://source.unsplash.com/800x450/?side,hustle,business&sig=702"
+coverImage: "https://picsum.photos/seed/702/800/450"
 tags: ["side hustle", "extra income", "freelancing", "business", "passive income"]
 ---
 

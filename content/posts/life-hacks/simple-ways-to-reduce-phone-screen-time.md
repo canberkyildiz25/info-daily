@@ -3,7 +3,7 @@ title: "Simple Ways to Reduce Phone Screen Time"
 excerpt: "The average person spends 4+ hours daily on their phone. These practical techniques help you reclaim that time without eliminating the genuine utility of your device."
 date: "2025-12-05"
 author: "Emma Johnson"
-coverImage: "https://source.unsplash.com/800x450/?phone,screen,digital&sig=407"
+coverImage: "https://picsum.photos/seed/407/800/450"
 tags: ["screen time", "phone addiction", "digital wellness", "habits", "focus"]
 ---
 

@@ -3,7 +3,7 @@ title: "How to Boost Your Metabolism After 40"
 excerpt: "Metabolism does slow with age, but it's far more controllable than you think. These science-backed strategies can reignite your calorie burn after 40."
 date: "2025-12-13"
 author: "Dr. Sarah Collins"
-coverImage: "https://source.unsplash.com/800x450/?fitness,healthy,active&sig=108"
+coverImage: "https://picsum.photos/seed/108/800/450"
 tags: ["metabolism", "over 40", "weight loss", "hormones", "fitness"]
 ---
 

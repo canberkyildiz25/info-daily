@@ -3,7 +3,7 @@ title: "10 Things to Know Before Visiting Japan"
 excerpt: "Japan rewards prepared travelers enormously. These practical tips will help you avoid common mistakes and get far more out of your trip."
 date: "2025-09-27"
 author: "Sophie Martinez"
-coverImage: "https://source.unsplash.com/800x450/?japan,tokyo,travel&sig=502"
+coverImage: "https://picsum.photos/seed/502/800/450"
 tags: ["Japan travel", "Tokyo", "travel tips", "Asia travel", "cultural tips"]
 ---
 

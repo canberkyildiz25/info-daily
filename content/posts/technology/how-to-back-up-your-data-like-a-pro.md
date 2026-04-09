@@ -3,7 +3,7 @@ title: "How to Back Up Your Data Like a Pro"
 excerpt: "Hard drives fail. Phones get lost. Ransomware encrypts everything. A proper backup strategy means none of these events destroy your irreplaceable files."
 date: "2025-11-05"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?backup,data,cloud&sig=305"
+coverImage: "https://picsum.photos/seed/305/800/450"
 tags: ["data backup", "cloud storage", "data recovery", "technology", "cybersecurity"]
 ---
 

@@ -23,7 +23,7 @@ export default function ArticleCard({ post, featured = false }: ArticleCardProps
     return (
       <Link href={`/${post.category}/${post.slug}`} className="group block">
         <article className="bg-white dark:bg-slate-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg dark:shadow-slate-900/50 transition-all duration-300 border border-gray-100 dark:border-slate-700 h-full">
-          <div className="relative h-48 overflow-hidden">
+          <div className="relative h-48 overflow-hidden bg-gray-100 dark:bg-slate-700">
             {post.coverImage ? (
               <Image
                 src={post.coverImage}
@@ -31,6 +31,7 @@ export default function ArticleCard({ post, featured = false }: ArticleCardProps
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                priority={featured}
               />
             ) : (
               <div className={`bg-gradient-to-br ${gradient} h-full flex items-center justify-center text-6xl`}>
@@ -62,7 +63,7 @@ export default function ArticleCard({ post, featured = false }: ArticleCardProps
   return (
     <Link href={`/${post.category}/${post.slug}`} className="group block">
       <article className="flex gap-4 py-4 border-b border-gray-100 dark:border-slate-700 last:border-0 hover:bg-gray-50 dark:hover:bg-slate-800/50 -mx-2 px-2 rounded-lg transition-colors">
-        <div className="relative w-16 h-16 rounded-xl overflow-hidden flex-shrink-0">
+        <div className="relative w-16 h-16 rounded-xl overflow-hidden flex-shrink-0 bg-gray-100 dark:bg-slate-700">
           {post.coverImage ? (
             <Image
               src={post.coverImage}

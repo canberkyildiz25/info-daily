@@ -3,7 +3,7 @@ title: "How to Use ChatGPT for Work"
 excerpt: "ChatGPT has moved from novelty to essential work tool. Here are the most practical, time-saving ways to use it in your daily workflow — with real examples."
 date: "2025-12-31"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?chatgpt,AI,computer&sig=309"
+coverImage: "https://picsum.photos/seed/309/800/450"
 tags: ["ChatGPT", "AI tools", "productivity", "work", "automation"]
 ---
 

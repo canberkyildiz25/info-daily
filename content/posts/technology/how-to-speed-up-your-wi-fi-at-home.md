@@ -3,7 +3,7 @@ title: "How to Speed Up Your Wi-Fi at Home"
 excerpt: "Slow Wi-Fi is rarely an ISP problem — usually the fix is in your home setup. These practical changes can double or triple your wireless speeds."
 date: "2025-11-19"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?wifi,router,internet&sig=306"
+coverImage: "https://picsum.photos/seed/306/800/450"
 tags: ["Wi-Fi", "router", "internet speed", "home network", "technology"]
 ---
 

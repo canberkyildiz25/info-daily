@@ -3,7 +3,7 @@ title: "The Best Anti-Inflammatory Foods"
 excerpt: "Chronic inflammation drives heart disease, cancer, and diabetes. The right foods are among the most powerful tools to fight it naturally."
 date: "2025-11-01"
 author: "Dr. Sarah Collins"
-coverImage: "https://source.unsplash.com/800x450/?berries,vegetables,healthy&sig=105"
+coverImage: "https://picsum.photos/seed/105/800/450"
 tags: ["anti-inflammatory", "diet", "nutrition", "inflammation", "health"]
 ---
 

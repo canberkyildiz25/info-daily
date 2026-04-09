@@ -6,12 +6,29 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'images.unsplash.com',
+        pathname: '/**',
       },
       {
         protocol: 'https',
-        hostname: 'source.unsplash.com',
+        hostname: 'picsum.photos',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.pexels.com',
+      },
+      {
+        protocol: 'https',
+        hostname: '**.pixabay.com',
       },
     ],
+    unoptimized: process.env.NEXT_PUBLIC_DISABLE_STATIC_OPTIMIZATION === 'true',
+    minimumCacheTTL: 60,
+    formats: ['image/webp', 'image/avif'],
   },
 };
 

@@ -3,7 +3,7 @@ title: "How to Build a Personal Brand from Zero"
 excerpt: "A strong personal brand opens doors that skills alone don't open. Here's a practical, non-cringe guide to building one authentically — starting from scratch."
 date: "2025-10-29"
 author: "David Kim"
-coverImage: "https://source.unsplash.com/800x450/?brand,personal,social&sig=704"
+coverImage: "https://picsum.photos/seed/704/800/450"
 tags: ["personal brand", "career", "social media", "LinkedIn", "networking"]
 ---
 

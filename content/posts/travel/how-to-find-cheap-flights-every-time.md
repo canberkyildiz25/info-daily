@@ -3,7 +3,7 @@ title: "How to Find Cheap Flights Every Time"
 excerpt: "Flight prices are dynamic and often unfair, but they follow patterns. These proven strategies will consistently get you lower fares on almost every route."
 date: "2025-10-25"
 author: "Sophie Martinez"
-coverImage: "https://source.unsplash.com/800x450/?flight,airport,travel&sig=504"
+coverImage: "https://picsum.photos/seed/504/800/450"
 tags: ["cheap flights", "travel hacks", "flight booking", "budget travel", "airfare"]
 ---
 

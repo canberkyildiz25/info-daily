@@ -3,7 +3,7 @@ title: "How to Build an Emergency Fund from Scratch"
 excerpt: "An emergency fund is the foundation of financial security. Here's exactly how to build one even when you feel like you have nothing left to save."
 date: "2025-09-07"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?savings,money,jar&sig=201"
+coverImage: "https://picsum.photos/seed/201/800/450"
 tags: ["emergency fund", "savings", "personal finance", "budgeting", "financial security"]
 ---
 

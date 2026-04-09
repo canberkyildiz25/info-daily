@@ -3,7 +3,7 @@ title: "Best Password Managers in 2025"
 excerpt: "Reusing passwords is the #1 account security mistake. A password manager eliminates the problem entirely — here are the best options this year."
 date: "2025-09-23"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?password,security,lock&sig=302"
+coverImage: "https://picsum.photos/seed/302/800/450"
 tags: ["password manager", "cybersecurity", "online security", "privacy", "technology"]
 ---
 

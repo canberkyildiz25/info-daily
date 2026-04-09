@@ -3,7 +3,7 @@ title: "10 Signs You Need More Sleep"
 excerpt: "Feeling off but not sure why? Your body may be screaming for more sleep. Here are the top signs — and what to do about them."
 date: "2025-09-19"
 author: "Dr. Sarah Collins"
-coverImage: "https://source.unsplash.com/800x450/?sleep,bedroom&sig=102"
+coverImage: "https://picsum.photos/seed/102/800/450"
 tags: ["sleep", "fatigue", "health", "insomnia", "rest"]
 ---
 

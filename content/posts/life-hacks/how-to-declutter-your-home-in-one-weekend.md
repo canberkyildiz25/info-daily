@@ -3,7 +3,7 @@ title: "How to Declutter Your Home in One Weekend"
 excerpt: "A cluttered home creates mental noise and constant low-level stress. This step-by-step weekend plan will transform your space — and you'll actually finish it."
 date: "2025-11-07"
 author: "Emma Johnson"
-coverImage: "https://source.unsplash.com/800x450/?declutter,organize,home&sig=405"
+coverImage: "https://picsum.photos/seed/405/800/450"
 tags: ["decluttering", "organization", "minimalism", "home", "productivity"]
 ---
 

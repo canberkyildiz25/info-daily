@@ -1,8 +1,8 @@
 import { getPost, getAllPosts, CATEGORIES } from '@/lib/posts';
 import { AdPlaceholder } from '@/components/AdBanner';
+import ArticleHeroImage from '@/components/ArticleHeroImage';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import Image from 'next/image';
 import type { Metadata } from 'next';
 
 export async function generateStaticParams() {
@@ -106,23 +106,12 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
           </header>
 
           {/* Cover image / hero */}
-          <div className="relative rounded-2xl overflow-hidden h-64 sm:h-80 mb-8">
-            {post.coverImage ? (
-              <Image
-                src={post.coverImage}
-                alt={post.title}
-                fill
-                className="object-cover"
-                priority
-                sizes="(max-width: 1024px) 100vw, 66vw"
-              />
-            ) : (
-              <div className={`bg-gradient-to-br ${gradient} h-full flex items-center justify-center text-8xl`}>
-                {cat?.icon}
-              </div>
-            )}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
-          </div>
+          <ArticleHeroImage
+            src={post.coverImage}
+            alt={post.title}
+            gradient={gradient}
+            icon={cat?.icon}
+          />
 
           {/* In-article ad */}
           <div className="mb-8">

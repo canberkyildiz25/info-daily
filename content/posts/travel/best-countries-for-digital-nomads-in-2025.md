@@ -3,7 +3,7 @@ title: "Best Countries for Digital Nomads in 2025"
 excerpt: "More countries than ever offer digital nomad visas and remote-work-friendly infrastructure. Here are the top destinations combining affordability, connectivity, and quality of life."
 date: "2025-11-09"
 author: "Sophie Martinez"
-coverImage: "https://source.unsplash.com/800x450/?nomad,laptop,travel&sig=505"
+coverImage: "https://picsum.photos/seed/505/800/450"
 tags: ["digital nomad", "remote work", "travel", "visa", "work abroad"]
 ---
 

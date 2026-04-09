@@ -3,7 +3,7 @@ title: "How to Protect Your Privacy Online"
 excerpt: "Companies collect more data about you than you realize. These practical steps will significantly reduce your digital footprint without making your life inconvenient."
 date: "2025-10-07"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?privacy,digital,security&sig=303"
+coverImage: "https://picsum.photos/seed/303/800/450"
 tags: ["online privacy", "cybersecurity", "data protection", "VPN", "privacy tips"]
 ---
 

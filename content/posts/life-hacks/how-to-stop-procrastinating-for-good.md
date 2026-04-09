@@ -3,7 +3,7 @@ title: "How to Stop Procrastinating for Good"
 excerpt: "Procrastination isn't laziness — it's an emotional regulation problem. Understanding the real cause is the key to fixing it once and for all."
 date: "2025-09-11"
 author: "Emma Johnson"
-coverImage: "https://source.unsplash.com/800x450/?focus,work,productive&sig=401"
+coverImage: "https://picsum.photos/seed/401/800/450"
 tags: ["procrastination", "productivity", "habits", "motivation", "psychology"]
 ---
 

@@ -3,7 +3,7 @@ title: "How to Network Without Feeling Fake"
 excerpt: "Networking feels hollow when it's transactional. These approaches build genuine professional relationships that produce real opportunities without the awkwardness."
 date: "2025-12-11"
 author: "David Kim"
-coverImage: "https://source.unsplash.com/800x450/?networking,meeting,professional&sig=707"
+coverImage: "https://picsum.photos/seed/707/800/450"
 tags: ["networking", "career", "professional relationships", "business", "connections"]
 ---
 

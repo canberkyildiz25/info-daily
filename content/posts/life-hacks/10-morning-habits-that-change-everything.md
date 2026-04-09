@@ -3,7 +3,7 @@ title: "10 Morning Habits That Change Everything"
 excerpt: "How you spend your first hour shapes the rest of your day. These evidence-backed morning habits set the tone for focus, energy, and productivity."
 date: "2025-09-25"
 author: "Emma Johnson"
-coverImage: "https://source.unsplash.com/800x450/?morning,routine,sunrise&sig=402"
+coverImage: "https://picsum.photos/seed/402/800/450"
 tags: ["morning routine", "habits", "productivity", "wellness", "self improvement"]
 ---
 

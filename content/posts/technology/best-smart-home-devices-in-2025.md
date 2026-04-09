@@ -3,7 +3,7 @@ title: "Best Smart Home Devices in 2025"
 excerpt: "Smart home technology has matured. These devices deliver genuine convenience — not just novelty — and most work together regardless of brand."
 date: "2025-12-17"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?smart,home,technology&sig=308"
+coverImage: "https://picsum.photos/seed/308/800/450"
 tags: ["smart home", "home automation", "technology", "IoT", "gadgets"]
 ---
 

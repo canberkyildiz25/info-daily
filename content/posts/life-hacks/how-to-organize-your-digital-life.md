@@ -3,7 +3,7 @@ title: "How to Organize Your Digital Life"
 excerpt: "Digital chaos — overflowing inboxes, scattered files, forgotten passwords — creates constant low-level stress. This practical guide brings order to your digital world."
 date: "2025-12-19"
 author: "Emma Johnson"
-coverImage: "https://source.unsplash.com/800x450/?organize,digital,computer&sig=408"
+coverImage: "https://picsum.photos/seed/408/800/450"
 tags: ["digital organization", "productivity", "files", "email", "life hacks"]
 ---
 

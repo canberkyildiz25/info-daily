@@ -3,7 +3,7 @@ title: "The Safest Countries to Travel Solo"
 excerpt: "Solo travel is one of life's most transformative experiences. These countries combine safety, welcoming locals, and excellent infrastructure for independent travelers."
 date: "2025-11-23"
 author: "Sophie Martinez"
-coverImage: "https://source.unsplash.com/800x450/?solo,travel,adventure&sig=506"
+coverImage: "https://picsum.photos/seed/506/800/450"
 tags: ["solo travel", "safe travel", "travel tips", "backpacking", "travel destinations"]
 ---
 

@@ -3,7 +3,7 @@ title: "How to Travel More on a Regular Salary"
 excerpt: "You don't need a high income to travel frequently. With the right strategies, a regular salary can fund multiple trips per year — here's the blueprint."
 date: "2025-12-07"
 author: "Sophie Martinez"
-coverImage: "https://source.unsplash.com/800x450/?travel,budget,explore&sig=507"
+coverImage: "https://picsum.photos/seed/507/800/450"
 tags: ["budget travel", "travel savings", "travel tips", "affordable travel", "personal finance"]
 ---
 

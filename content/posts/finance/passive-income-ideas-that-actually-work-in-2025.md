@@ -3,7 +3,7 @@ title: "Passive Income Ideas That Actually Work in 2025"
 excerpt: "True passive income requires real work upfront. These proven streams — ranked by startup effort and realistic returns — can genuinely reduce your financial dependence on a paycheck."
 date: "2025-11-03"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?income,passive,investment&sig=205"
+coverImage: "https://picsum.photos/seed/205/800/450"
 tags: ["passive income", "side income", "investing", "financial freedom", "wealth building"]
 ---
 

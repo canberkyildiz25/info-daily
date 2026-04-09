@@ -3,7 +3,7 @@ title: "Best High-Protein Snacks to Keep at Home"
 excerpt: "Smart snacking is about staying full and fueling your body between meals. These high-protein options prevent energy crashes and keep you away from junk food."
 date: "2025-12-23"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?snacks,protein,healthy&sig=608"
+coverImage: "https://picsum.photos/seed/608/800/450"
 tags: ["protein snacks", "healthy snacks", "nutrition", "food", "meal prep"]
 ---
 

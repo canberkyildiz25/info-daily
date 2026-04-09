@@ -3,7 +3,7 @@ title: "How to Turn Your Hobby into a Business"
 excerpt: "Turning a hobby into income sounds ideal — but it requires a different mindset than hobbyist thinking. Here's how to make the transition successfully without ruining what you love."
 date: "2025-11-27"
 author: "David Kim"
-coverImage: "https://source.unsplash.com/800x450/?hobby,creative,business&sig=706"
+coverImage: "https://picsum.photos/seed/706/800/450"
 tags: ["hobby business", "entrepreneurship", "passion business", "creative business", "side hustle"]
 ---
 

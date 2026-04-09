@@ -3,7 +3,7 @@ title: "7 Money Habits of Millionaires"
 excerpt: "Most millionaires didn't inherit wealth — they built it with consistent habits. These seven behaviors separate the financially successful from everyone else."
 date: "2025-09-21"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?money,wealth,success&sig=202"
+coverImage: "https://picsum.photos/seed/202/800/450"
 tags: ["millionaire habits", "wealth building", "personal finance", "investing", "money mindset"]
 ---
 
