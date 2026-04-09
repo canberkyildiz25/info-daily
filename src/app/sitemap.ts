@@ -1,7 +1,7 @@
 import { getAllPosts, CATEGORIES } from '@/lib/posts';
 import type { MetadataRoute } from 'next';
 
-const SITE_URL = 'https://your-domain.com'; // Replace with your actual domain
+const SITE_URL = 'https://www.infodaily.net';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts();
