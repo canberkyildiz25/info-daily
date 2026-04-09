@@ -3,7 +3,7 @@ title: "Best Free Tools for Remote Work in 2025"
 excerpt: "Working remotely doesn't require expensive software. These free tools cover communication, project management, and collaboration for individuals and small teams."
 date: "2025-12-03"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?remote,work,laptop&sig=307"
+coverImage: "https://picsum.photos/seed/307/800/450"
 tags: ["remote work", "productivity tools", "free software", "collaboration", "technology"]
 ---
 

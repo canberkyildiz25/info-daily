@@ -3,7 +3,7 @@ title: "Signs of Burnout and How to Recover"
 excerpt: "Burnout is more than feeling tired — it's a state of chronic depletion that won't fix itself. Learn to recognize the signs and actually recover."
 date: "2026-01-10"
 author: "Dr. Sarah Collins"
-coverImage: "https://source.unsplash.com/800x450/?burnout,stress,exhausted&sig=110"
+coverImage: "https://picsum.photos/seed/110/800/450"
 tags: ["burnout", "mental health", "stress", "recovery", "work-life balance"]
 ---
 

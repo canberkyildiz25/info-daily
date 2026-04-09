@@ -3,7 +3,7 @@ title: "The Best Foods for Brain Health"
 excerpt: "What you eat directly influences your brain's function, mood, and long-term cognitive health. These evidence-backed foods support sharper thinking and protect against decline."
 date: "2025-10-27"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?brain,food,healthy&sig=604"
+coverImage: "https://picsum.photos/seed/604/800/450"
 tags: ["brain health", "cognitive function", "nutrition", "diet", "mental performance"]
 ---
 

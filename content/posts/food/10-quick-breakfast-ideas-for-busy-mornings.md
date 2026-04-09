@@ -3,7 +3,7 @@ title: "10 Quick Breakfast Ideas for Busy Mornings"
 excerpt: "Skipping breakfast sabotages your energy and focus. These 10 ideas take 5 minutes or less — and actually taste good enough to look forward to."
 date: "2025-09-29"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?breakfast,morning,food&sig=602"
+coverImage: "https://picsum.photos/seed/602/800/450"
 tags: ["breakfast", "quick recipes", "healthy eating", "morning routine", "nutrition"]
 ---
 

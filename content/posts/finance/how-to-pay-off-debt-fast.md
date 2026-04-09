@@ -3,7 +3,7 @@ title: "How to Pay Off Debt Fast"
 excerpt: "Debt drains your income and traps your future. These proven strategies will help you destroy debt faster than you thought possible."
 date: "2025-10-05"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?debt,freedom,finance&sig=203"
+coverImage: "https://picsum.photos/seed/203/800/450"
 tags: ["debt payoff", "credit card debt", "debt free", "personal finance", "budgeting"]
 ---
 

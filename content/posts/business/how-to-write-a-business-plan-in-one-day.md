@@ -3,7 +3,7 @@ title: "How to Write a Business Plan in One Day"
 excerpt: "A business plan doesn't have to take weeks. This focused one-day framework gets the essential thinking done and produces a document you can actually use."
 date: "2025-09-17"
 author: "David Kim"
-coverImage: "https://source.unsplash.com/800x450/?business,plan,strategy&sig=701"
+coverImage: "https://picsum.photos/seed/701/800/450"
 tags: ["business plan", "entrepreneurship", "startup", "business strategy", "planning"]
 ---
 

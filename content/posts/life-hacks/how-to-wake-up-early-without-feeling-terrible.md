@@ -3,7 +3,7 @@ title: "How to Wake Up Early Without Feeling Terrible"
 excerpt: "Early rising doesn't have to mean chronic suffering. The right adjustments to your sleep schedule make waking up at 5 or 6am feel completely natural."
 date: "2025-10-23"
 author: "Emma Johnson"
-coverImage: "https://source.unsplash.com/800x450/?morning,wake,alarm&sig=404"
+coverImage: "https://picsum.photos/seed/404/800/450"
 tags: ["wake up early", "morning routine", "sleep schedule", "habits", "productivity"]
 ---
 

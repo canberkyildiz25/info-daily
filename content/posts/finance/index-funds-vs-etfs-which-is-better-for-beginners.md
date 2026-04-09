@@ -3,7 +3,7 @@ title: "Index Funds vs ETFs: Which Is Better for Beginners"
 excerpt: "Both index funds and ETFs track market indexes — but they work differently. Here's a plain-English breakdown to help you decide which to use first."
 date: "2025-12-01"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?investing,stocks,market&sig=207"
+coverImage: "https://picsum.photos/seed/207/800/450"
 tags: ["index funds", "ETFs", "investing", "beginners", "personal finance"]
 ---
 

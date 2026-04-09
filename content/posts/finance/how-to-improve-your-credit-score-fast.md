@@ -3,7 +3,7 @@ title: "How to Improve Your Credit Score Fast"
 excerpt: "Your credit score affects loans, rentals, and even job applications. These proven tactics can raise your score significantly within 30–90 days."
 date: "2025-11-17"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?credit,score,finance&sig=206"
+coverImage: "https://picsum.photos/seed/206/800/450"
 tags: ["credit score", "credit repair", "FICO", "personal finance", "credit card"]
 ---
 

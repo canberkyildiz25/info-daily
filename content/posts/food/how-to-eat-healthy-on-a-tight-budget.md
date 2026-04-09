@@ -3,7 +3,7 @@ title: "How to Eat Healthy on a Tight Budget"
 excerpt: "Healthy eating doesn't require expensive superfoods or a big grocery budget. With smart shopping and simple cooking, you can eat nutritiously for under $10 per day."
 date: "2025-11-25"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?healthy,food,budget&sig=606"
+coverImage: "https://picsum.photos/seed/606/800/450"
 tags: ["budget eating", "healthy food", "grocery shopping", "meal planning", "nutrition"]
 ---
 

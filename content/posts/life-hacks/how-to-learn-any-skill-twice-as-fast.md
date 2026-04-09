@@ -3,7 +3,7 @@ title: "How to Learn Any Skill Twice as Fast"
 excerpt: "Most people learn inefficiently. Science-backed learning techniques can dramatically cut the time it takes to acquire any new skill — here's exactly how."
 date: "2025-10-09"
 author: "Emma Johnson"
-coverImage: "https://source.unsplash.com/800x450/?learning,study,skills&sig=403"
+coverImage: "https://picsum.photos/seed/403/800/450"
 tags: ["learning", "skills", "study techniques", "self improvement", "productivity"]
 ---
 

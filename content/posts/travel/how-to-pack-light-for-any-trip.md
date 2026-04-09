@@ -3,7 +3,7 @@ title: "How to Pack Light for Any Trip"
 excerpt: "Packing light isn't about deprivation — it's about smarter choices. These strategies will get you to carry-on only for any trip, including two-week vacations."
 date: "2025-10-11"
 author: "Sophie Martinez"
-coverImage: "https://source.unsplash.com/800x450/?packing,suitcase,travel&sig=503"
+coverImage: "https://picsum.photos/seed/503/800/450"
 tags: ["packing tips", "carry on", "travel light", "travel hacks", "minimalist travel"]
 ---
 

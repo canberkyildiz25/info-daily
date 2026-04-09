@@ -3,7 +3,7 @@ title: "Best Vitamins for Energy and Fatigue"
 excerpt: "Constant tiredness may signal a nutritional gap. These science-backed vitamins and minerals can genuinely restore your energy levels."
 date: "2025-10-03"
 author: "Dr. Sarah Collins"
-coverImage: "https://source.unsplash.com/800x450/?vitamins,supplements&sig=103"
+coverImage: "https://picsum.photos/seed/103/800/450"
 tags: ["vitamins", "energy", "fatigue", "supplements", "nutrition"]
 ---
 

@@ -3,7 +3,7 @@ title: "How to Use AI to Boost Your Productivity"
 excerpt: "AI tools have gone from novelty to necessity in just two years. Here's a practical guide to integrating them into your workflow and genuinely saving hours every week."
 date: "2025-09-09"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?AI,productivity,technology&sig=301"
+coverImage: "https://picsum.photos/seed/301/800/450"
 tags: ["AI tools", "productivity", "ChatGPT", "automation", "work smarter"]
 ---
 

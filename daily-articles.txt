@@ -1,0 +1,29 @@
+# Daily Article Generation List (15 articles)
+# Format: Title | Category
+
+# Health (2 articles)
+How to Improve Your Sleep Quality Naturally | health
+5 Science-Backed Supplements for Better Energy | health
+
+# Finance (2 articles)
+Smart Ways to Invest Your First $500 | finance
+How to Reduce Your Monthly Expenses | finance
+
+# Technology (2 articles)
+Best AI Tools for Productivity in 2025 | technology
+How to Secure Your Digital Life | technology
+
+# Life-Hacks (2 articles)
+Daily Habits That Boost Your Mental Health | life-hacks
+How to Build a Consistent Exercise Routine | life-hacks
+
+# Travel (2 articles)
+Hidden Gems in Southeast Asia | travel
+Travel on a Budget: Complete Guide | travel
+
+# Food (2 articles)
+Quick and Easy Healthy Lunch Ideas | food
+How to Cook Healthy Meals in 30 Minutes | food
+
+# Business (1 article)
+Freelancing Mistakes to Avoid in 2025 | business

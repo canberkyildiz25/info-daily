@@ -3,7 +3,7 @@ title: "How to Meal Prep for the Entire Week"
 excerpt: "Meal prepping saves money, reduces stress, and keeps you eating well even on your busiest days. Here's a complete beginner's guide to doing it efficiently."
 date: "2025-09-15"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?meal,prep,containers&sig=601"
+coverImage: "https://picsum.photos/seed/601/800/450"
 tags: ["meal prep", "cooking", "healthy eating", "food planning", "time saving"]
 ---
 

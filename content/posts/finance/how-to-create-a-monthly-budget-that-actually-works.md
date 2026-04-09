@@ -3,7 +3,7 @@ title: "How to Create a Monthly Budget That Actually Works"
 excerpt: "Most budgets fail because they're too rigid or too vague. This practical framework builds a budget you'll actually stick to — and that actually moves the needle."
 date: "2025-10-19"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?budget,planning,notebook&sig=204"
+coverImage: "https://picsum.photos/seed/204/800/450"
 tags: ["budgeting", "personal finance", "money management", "savings", "financial planning"]
 ---
 

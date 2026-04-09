@@ -3,7 +3,7 @@ title: "Easy One-Pan Dinners for Weeknights"
 excerpt: "One pan, minimal cleanup, and a complete meal in 30 minutes. These simple, delicious recipes solve the 'what's for dinner' problem on your busiest nights."
 date: "2025-11-11"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?one-pan,dinner,cooking&sig=605"
+coverImage: "https://picsum.photos/seed/605/800/450"
 tags: ["one pan meals", "weeknight dinners", "easy recipes", "cooking", "meal ideas"]
 ---
 

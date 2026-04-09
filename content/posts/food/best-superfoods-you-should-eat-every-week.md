@@ -3,7 +3,7 @@ title: "Best Superfoods You Should Eat Every Week"
 excerpt: "The word 'superfood' gets overused, but some foods genuinely stand out for their nutrient density. These are the ones actually worth eating regularly."
 date: "2025-12-09"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?superfoods,healthy,nutrition&sig=607"
+coverImage: "https://picsum.photos/seed/607/800/450"
 tags: ["superfoods", "nutrition", "healthy eating", "diet", "wellness"]
 ---
 

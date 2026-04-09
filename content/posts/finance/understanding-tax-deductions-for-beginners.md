@@ -3,7 +3,7 @@ title: "Understanding Tax Deductions for Beginners"
 excerpt: "Most people overpay on taxes simply because they don't know what they can deduct. This beginner-friendly guide covers the deductions that matter most."
 date: "2025-12-29"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?taxes,finance,documents&sig=209"
+coverImage: "https://picsum.photos/seed/209/800/450"
 tags: ["tax deductions", "taxes", "personal finance", "tax savings", "IRS"]
 ---
 

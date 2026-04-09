@@ -3,7 +3,7 @@ title: "How to Stop Headaches Naturally"
 excerpt: "Before you reach for painkillers every time, try these natural, evidence-based methods that address the root cause of most common headaches."
 date: "2025-11-15"
 author: "Dr. Sarah Collins"
-coverImage: "https://source.unsplash.com/800x450/?headache,relief,relax&sig=106"
+coverImage: "https://picsum.photos/seed/106/800/450"
 tags: ["headaches", "natural remedies", "migraine", "pain relief", "wellness"]
 ---
 

@@ -3,7 +3,7 @@ title: "How to Cook Chicken Breast So It Is Not Dry"
 excerpt: "Dry, rubbery chicken breast is one of the most common cooking frustrations. A few simple techniques guarantee juicy results every single time."
 date: "2025-10-13"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?chicken,cooking,food&sig=603"
+coverImage: "https://picsum.photos/seed/603/800/450"
 tags: ["chicken breast", "cooking tips", "recipes", "protein", "meal prep"]
 ---
 

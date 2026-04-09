@@ -3,7 +3,7 @@ title: "How to Read More Books Every Year"
 excerpt: "Reading more is less about finding time and more about eliminating the friction that stops you. These practical strategies can help you finish 20+ books annually."
 date: "2025-11-21"
 author: "Emma Johnson"
-coverImage: "https://source.unsplash.com/800x450/?reading,books,library&sig=406"
+coverImage: "https://picsum.photos/seed/406/800/450"
 tags: ["reading", "books", "habits", "self improvement", "learning"]
 ---
 

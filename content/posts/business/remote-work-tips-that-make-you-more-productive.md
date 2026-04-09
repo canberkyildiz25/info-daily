@@ -3,7 +3,7 @@ title: "Remote Work Tips That Make You More Productive"
 excerpt: "Remote work offers freedom but creates its own challenges — distraction, isolation, and blurred boundaries. These practical strategies help you perform at your best from anywhere."
 date: "2025-11-13"
 author: "David Kim"
-coverImage: "https://source.unsplash.com/800x450/?remote,work,home&sig=705"
+coverImage: "https://picsum.photos/seed/705/800/450"
 tags: ["remote work", "productivity", "work from home", "career", "focus"]
 ---
 

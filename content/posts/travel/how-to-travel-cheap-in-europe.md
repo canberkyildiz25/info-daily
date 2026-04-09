@@ -3,7 +3,7 @@ title: "How to Travel Cheap in Europe"
 excerpt: "Europe doesn't have to be expensive. With the right booking strategies and insider tips, you can explore multiple countries on a surprisingly tight budget."
 date: "2025-09-13"
 author: "Sophie Martinez"
-coverImage: "https://source.unsplash.com/800x450/?europe,travel,backpack&sig=501"
+coverImage: "https://picsum.photos/seed/501/800/450"
 tags: ["Europe travel", "budget travel", "cheap flights", "travel tips", "backpacking"]
 ---
 

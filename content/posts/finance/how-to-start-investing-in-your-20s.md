@@ -3,7 +3,7 @@ title: "How to Start Investing in Your 20s"
 excerpt: "Your 20s are the most powerful time to start investing — time works in your favor like nothing else. Here's exactly where to begin with any amount."
 date: "2025-12-15"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?young,invest,future&sig=208"
+coverImage: "https://picsum.photos/seed/208/800/450"
 tags: ["investing", "20s", "Roth IRA", "compound interest", "wealth building"]
 ---
 

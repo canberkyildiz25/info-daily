@@ -27,4 +27,34 @@ body {
 /* Smooth image loading */
 img {
   transition: opacity 0.3s ease;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prose images styling */
+.prose img {
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--tw-shadow-sm);
+}
+
+.dark .prose img {
+  opacity: 0.95;
+}
+
+/* Ensure images are responsive */
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+/* Image loading fallback */
+img {
+  background-color: #f3f4f6;
+}
+
+.dark img {
+  background-color: #1e293b;
 }

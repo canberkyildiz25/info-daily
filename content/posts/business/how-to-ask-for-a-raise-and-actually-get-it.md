@@ -3,7 +3,7 @@ title: "How to Ask for a Raise and Actually Get It"
 excerpt: "Most people either never ask for raises or ask ineffectively. This step-by-step approach significantly increases your chances of getting a yes — and a larger yes."
 date: "2025-10-15"
 author: "David Kim"
-coverImage: "https://source.unsplash.com/800x450/?salary,raise,career&sig=703"
+coverImage: "https://picsum.photos/seed/703/800/450"
 tags: ["salary negotiation", "career", "raise", "workplace", "negotiation"]
 ---
 
