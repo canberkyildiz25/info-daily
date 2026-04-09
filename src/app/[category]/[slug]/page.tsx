@@ -17,12 +17,22 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   return {
     title: post.title,
     description: post.excerpt,
+    alternates: {
+      canonical: `https://www.infodaily.net/${category}/${slug}`,
+    },
     openGraph: {
       title: post.title,
       description: post.excerpt,
       type: 'article',
       publishedTime: post.date,
       authors: [post.author],
+      url: `https://www.infodaily.net/${category}/${slug}`,
+      ...(post.coverImage ? { images: [{ url: post.coverImage, width: 800, height: 450, alt: post.title }] } : {}),
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
       ...(post.coverImage ? { images: [post.coverImage] } : {}),
     },
   };
@@ -123,6 +133,38 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
           <div
             className="prose prose-lg prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-slate-100 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-slate-100"
             dangerouslySetInnerHTML={{ __html: post.content || '' }}
+          />
+
+          {/* JSON-LD Structured Data */}
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                '@context': 'https://schema.org',
+                '@type': 'Article',
+                headline: post.title,
+                description: post.excerpt,
+                image: post.coverImage || '',
+                datePublished: post.date,
+                dateModified: post.date,
+                author: {
+                  '@type': 'Person',
+                  name: post.author,
+                },
+                publisher: {
+                  '@type': 'Organization',
+                  name: 'InfoDaily',
+                  logo: {
+                    '@type': 'ImageObject',
+                    url: 'https://www.infodaily.net/logo.png',
+                  },
+                },
+                mainEntityOfPage: {
+                  '@type': 'WebPage',
+                  '@id': `https://www.infodaily.net/${category}/${slug}`,
+                },
+              }),
+            }}
           />
 
           {/* Tags */}
