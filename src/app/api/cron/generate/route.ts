@@ -1,8 +1,8 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { NextRequest, NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
 import { CONTENT_CALENDAR } from '@/lib/content-calendar';
+
+export const maxDuration = 60;
 
 const CATEGORY_AUTHORS: Record<string, string> = {
   health: 'Dr. Sarah Collins',
@@ -51,15 +51,46 @@ function getCoverImage(category: string, title: string): string {
   return `https://source.unsplash.com/800x450/?${encodeURIComponent(keywords)}&sig=${seed}`;
 }
 
-// Find the next article from the calendar that hasn't been generated yet
-function getNextPending(): { title: string; category: string } | null {
-  const postsDir = path.join(process.cwd(), 'content', 'posts');
-  for (const item of CONTENT_CALENDAR) {
-    const slug = titleToSlug(item.title);
-    const filePath = path.join(postsDir, item.category, `${slug}.md`);
-    if (!fs.existsSync(filePath)) return item;
+async function fileExistsInGitHub(filePath: string, token: string, repo: string): Promise<boolean> {
+  const url = `https://api.github.com/repos/${repo}/contents/${filePath}`;
+  const res = await fetch(url, {
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Accept': 'application/vnd.github+json',
+    },
+    cache: 'no-store',
+  });
+  return res.status === 200;
+}
+
+async function commitFileToGitHub(
+  filePath: string,
+  content: string,
+  title: string,
+  token: string,
+  repo: string,
+): Promise<void> {
+  const url = `https://api.github.com/repos/${repo}/contents/${filePath}`;
+  const encodedContent = Buffer.from(content, 'utf8').toString('base64');
+
+  const res = await fetch(url, {
+    method: 'PUT',
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Accept': 'application/vnd.github+json',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      message: `chore: add article - ${title}`,
+      content: encodedContent,
+      branch: 'main',
+    }),
+  });
+
+  if (!res.ok) {
+    const error = await res.json() as { message?: string };
+    throw new Error(`GitHub API error: ${error.message ?? res.status}`);
   }
-  return null; // All articles generated!
 }
 
 export async function GET(req: NextRequest) {
@@ -70,29 +101,33 @@ export async function GET(req: NextRequest) {
   }
 
   const apiKey = process.env.ANTHROPIC_API_KEY;
-  if (!apiKey) {
-    return NextResponse.json({ error: 'ANTHROPIC_API_KEY not set' }, { status: 500 });
-  }
+  if (!apiKey) return NextResponse.json({ error: 'ANTHROPIC_API_KEY not set' }, { status: 500 });
 
-  // How many articles to generate per cron run (default: 2)
+  const githubToken = process.env.GITHUB_TOKEN;
+  if (!githubToken) return NextResponse.json({ error: 'GITHUB_TOKEN not set' }, { status: 500 });
+
+  const githubRepo = process.env.GITHUB_REPO; // e.g. "canberkyildiz25/info-daily"
+  if (!githubRepo) return NextResponse.json({ error: 'GITHUB_REPO not set' }, { status: 500 });
+
+  // Default 1 article per run (safe for Vercel free plan timeout)
   const countParam = req.nextUrl.searchParams.get('count');
-  const count = Math.min(parseInt(countParam || '2', 10), 5);
+  const count = Math.min(parseInt(countParam || '1', 10), 3);
 
-  const generated = [];
-  const skipped = [];
-
+  const generated: { title: string; category: string; slug: string }[] = [];
+  const skipped: string[] = [];
   const client = new Anthropic({ apiKey });
 
-  for (let i = 0; i < count; i++) {
-    const next = getNextPending();
-    if (!next) {
-      skipped.push('Content calendar complete — no more pending articles');
-      break;
-    }
+  for (const item of CONTENT_CALENDAR) {
+    if (generated.length >= count) break;
 
-    const { title, category } = next;
+    const { title, category } = item;
     const slug = titleToSlug(title);
-    const outputPath = path.join(process.cwd(), 'content', 'posts', category, `${slug}.md`);
+    const filePath = `content/posts/${category}/${slug}.md`;
+
+    // Check existence via GitHub API (filesystem is read-only on Vercel)
+    const exists = await fileExistsInGitHub(filePath, githubToken, githubRepo);
+    if (exists) continue;
+
     const coverImage = getCoverImage(category, title);
     const today = new Date().toISOString().split('T')[0];
 
@@ -108,7 +143,7 @@ REQUIREMENTS:
 - Do NOT include the title as a heading at the top
 - Start with the opening paragraph directly
 
-OUTPUT — Return ONLY this format:
+OUTPUT — Return ONLY this format, nothing before or after:
 ---
 title: "${title}"
 excerpt: "[Compelling 1-2 sentence description, 120-155 characters]"
@@ -122,34 +157,29 @@ tags: ["tag1", "tag2", "tag3", "tag4", "tag5"]
 
     try {
       const message = await client.messages.create({
-        model: 'claude-haiku-4-5-20251001', // Faster + cheaper for automated runs
+        model: 'claude-haiku-4-5-20251001',
         max_tokens: 2500,
         messages: [{ role: 'user', content: prompt }],
       });
 
       let content = (message.content[0] as { text: string }).text;
+
       if (!content.startsWith('---')) {
         const idx = content.indexOf('---');
         if (idx >= 0 && idx < 150) content = content.slice(idx);
-        else throw new Error('Missing frontmatter');
+        else throw new Error('Missing frontmatter in generated content');
       }
 
-      fs.mkdirSync(path.dirname(outputPath), { recursive: true });
-      fs.writeFileSync(outputPath, content.trim() + '\n', 'utf8');
-      generated.push({ title, category, slug, url: `/${category}/${slug}` });
+      await commitFileToGitHub(filePath, content.trim() + '\n', title, githubToken, githubRepo);
+      generated.push({ title, category, slug });
     } catch (err: unknown) {
-      const message = err instanceof Error ? err.message : 'Unknown error';
-      skipped.push(`${title}: ${message}`);
+      const msg = err instanceof Error ? err.message : 'Unknown error';
+      skipped.push(`${title}: ${msg}`);
     }
   }
 
-  // Stats
   const total = CONTENT_CALENDAR.length;
-  const postsDir = path.join(process.cwd(), 'content', 'posts');
-  const done = CONTENT_CALENDAR.filter(({ title, category }) => {
-    const slug = titleToSlug(title);
-    return fs.existsSync(path.join(postsDir, category, `${slug}.md`));
-  }).length;
+  const done = generated.length;
 
   return NextResponse.json({
     generated,
