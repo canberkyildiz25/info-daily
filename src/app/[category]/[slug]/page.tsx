@@ -4,6 +4,9 @@ import ArticleHeroImage from '@/components/ArticleHeroImage';
 import { getCoverImageUrl } from '@/lib/pexels';
 import { injectInlineImages } from '@/lib/injectImages';
 import RelatedArticles from '@/components/RelatedArticles';
+import ReadingProgress from '@/components/ReadingProgress';
+import ShareButtons from '@/components/ShareButtons';
+import BookmarkButton from '@/components/BookmarkButton';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
@@ -68,6 +71,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <ReadingProgress />
       {/* Top Ad */}
       <div className="mb-8">
         <AdPlaceholder label="Advertisement – 728×90" height={90} />
@@ -104,16 +108,25 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
 
             <p className="text-xl text-gray-500 dark:text-slate-400 leading-relaxed mb-6">{post.excerpt}</p>
 
-            <div className="flex items-center gap-3 pb-6 border-b border-gray-200 dark:border-slate-700">
-              <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-sm flex-shrink-0">
-                {post.author.charAt(0)}
+            <div className="flex items-center justify-between pb-6 border-b border-gray-200 dark:border-slate-700">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-sm flex-shrink-0">
+                  {post.author.charAt(0)}
+                </div>
+                <div>
+                  <p className="text-sm font-semibold text-gray-800 dark:text-slate-200">{post.author}</p>
+                  <p className="text-xs text-gray-400 dark:text-slate-500">
+                    {new Date(post.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                  </p>
+                </div>
               </div>
-              <div>
-                <p className="text-sm font-semibold text-gray-800 dark:text-slate-200">{post.author}</p>
-                <p className="text-xs text-gray-400 dark:text-slate-500">
-                  {new Date(post.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
-                </p>
-              </div>
+              <BookmarkButton
+                slug={post.slug}
+                category={post.category}
+                title={post.title}
+                excerpt={post.excerpt}
+                date={post.date}
+              />
             </div>
           </header>
 
@@ -181,6 +194,12 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
                 ],
               }),
             }}
+          />
+
+          {/* Share buttons */}
+          <ShareButtons
+            title={post.title}
+            url={`https://www.infodaily.net/${category}/${slug}`}
           />
 
           {/* Tags */}
