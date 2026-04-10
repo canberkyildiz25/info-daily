@@ -1,6 +1,7 @@
 import { getPostsByCategory, CATEGORIES } from '@/lib/posts';
 import ArticleCard from '@/components/ArticleCard';
 import { AdPlaceholder } from '@/components/AdBanner';
+import { getCoverImageUrl } from '@/lib/pexels';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 
@@ -23,7 +24,13 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
   const cat = CATEGORIES.find(c => c.slug === slug);
   if (!cat) notFound();
 
-  const posts = getPostsByCategory(slug);
+  const rawPosts = getPostsByCategory(slug);
+  const posts = await Promise.all(
+    rawPosts.map(async post => ({
+      ...post,
+      coverImage: await getCoverImageUrl(`${post.title} ${post.category}`, post.slug) || post.coverImage,
+    }))
+  );
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

@@ -1,12 +1,23 @@
 import { getAllPosts, CATEGORIES } from '@/lib/posts';
 import ArticleCard from '@/components/ArticleCard';
 import { AdPlaceholder } from '@/components/AdBanner';
+import { getCoverImageUrl } from '@/lib/pexels';
 import Link from 'next/link';
 
-export default function HomePage() {
+export default async function HomePage() {
   const allPosts = getAllPosts();
-  const featuredPosts = allPosts.slice(0, 6);
-  const latestPosts = allPosts.slice(6, 14);
+  const visiblePosts = allPosts.slice(0, 14);
+
+  // Fetch Pexels images for all visible posts in parallel
+  const upgraded = await Promise.all(
+    visiblePosts.map(async post => ({
+      ...post,
+      coverImage: await getCoverImageUrl(`${post.title} ${post.category}`, post.slug) || post.coverImage,
+    }))
+  );
+
+  const featuredPosts = upgraded.slice(0, 6);
+  const latestPosts = upgraded.slice(6, 14);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
