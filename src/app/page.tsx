@@ -33,7 +33,7 @@ export default async function HomePage() {
           Knowledge for Every Day
         </h1>
         <p className="text-gray-500 dark:text-slate-400 text-lg">
-          Health, money, tech, and life tips — all in one place.
+          Expert articles on health, finance, technology, travel, food, science, and more — all in one place.
         </p>
       </section>
 

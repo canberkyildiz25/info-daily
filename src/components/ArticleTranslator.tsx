@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 
 const LANGUAGES = [
   { code: 'en', label: 'English', flag: '🇬🇧' },
@@ -24,6 +24,18 @@ interface Translated {
   title: string;
   excerpt: string;
   content: string;
+}
+
+function getInitialLang(): string {
+  if (typeof window === 'undefined') return 'en';
+  // 1. localStorage
+  const stored = localStorage.getItem('lang');
+  if (stored) return stored;
+  // 2. Cookie (IP-based)
+  const cookieLang = document.cookie.split(';').map(c => c.trim())
+    .find(c => c.startsWith('lang='))?.split('=')[1];
+  if (cookieLang) return cookieLang;
+  return 'en';
 }
 
 export default function ArticleTranslator({ slug, originalTitle, originalExcerpt, originalContent }: Props) {
@@ -81,6 +93,23 @@ export default function ArticleTranslator({ slug, originalTitle, originalExcerpt
     }
   }, [slug, originalTitle, originalExcerpt, originalContent, translations]);
 
+  // Auto-translate on mount if lang != 'en'
+  useEffect(() => {
+    const lang = getInitialLang();
+    if (lang !== 'en') translate(lang);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // Sync with header lang picker
+  useEffect(() => {
+    const handler = (e: Event) => {
+      const lang = (e as CustomEvent<string>).detail;
+      translate(lang);
+    };
+    window.addEventListener('langchange', handler);
+    return () => window.removeEventListener('langchange', handler);
+  }, [translate]);
+
   const current: Translated | null = currentLang === 'en'
     ? { title: originalTitle, excerpt: originalExcerpt, content: originalContent }
     : translations[currentLang] ?? null;
@@ -134,21 +163,11 @@ export default function ArticleTranslator({ slug, originalTitle, originalExcerpt
         </div>
       )}
 
-      {/* Article Content */}
-      {!loading && current && (
-        <div
-          className="prose prose-lg prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-slate-100 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-slate-100"
-          dangerouslySetInnerHTML={{ __html: current.content }}
-        />
-      )}
-
-      {/* Waiting for translation */}
-      {!loading && !current && (
-        <div
-          className="prose prose-lg prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-slate-100 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-slate-100"
-          dangerouslySetInnerHTML={{ __html: originalContent }}
-        />
-      )}
+      {/* Article Content — always show something */}
+      <div
+        className="prose prose-lg prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-slate-100 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-slate-100"
+        dangerouslySetInnerHTML={{ __html: current?.content ?? originalContent }}
+      />
     </>
   );
 }
