@@ -22,6 +22,19 @@ declare global {
   }
 }
 
+function autoTranslate(targetLang: string) {
+  const attempt = (tries: number) => {
+    const select = document.querySelector<HTMLSelectElement>('.goog-te-combo');
+    if (select) {
+      select.value = targetLang;
+      select.dispatchEvent(new Event('change'));
+    } else if (tries > 0) {
+      setTimeout(() => attempt(tries - 1), 600);
+    }
+  };
+  setTimeout(() => attempt(10), 800);
+}
+
 function googleTranslate(targetLang: string) {
   if (targetLang === 'en') {
     // Restore original
@@ -52,7 +65,18 @@ export default function LangPicker() {
 
   useEffect(() => {
     const stored = localStorage.getItem('lang');
-    if (stored) setLangState(stored);
+    if (stored) {
+      setLangState(stored);
+      if (stored !== 'en') autoTranslate(stored);
+      return;
+    }
+    // Fall back to cookie set by proxy (IP-based detection)
+    const cookieLang = document.cookie.split(';').map(c => c.trim()).find(c => c.startsWith('lang='))?.split('=')[1];
+    if (cookieLang && cookieLang !== 'en') {
+      setLangState(cookieLang);
+      localStorage.setItem('lang', cookieLang);
+      autoTranslate(cookieLang);
+    }
   }, []);
 
   const setLang = (code: string) => {
