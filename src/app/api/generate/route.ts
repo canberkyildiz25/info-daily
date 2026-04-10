@@ -1,7 +1,7 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { NextRequest, NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+
+export const maxDuration = 60;
 
 const VALID_CATEGORIES = [
   'health', 'finance', 'technology', 'life-hacks',
@@ -49,24 +49,54 @@ function getCoverImage(category: string, title: string): string {
     .split(' ')
     .filter(w => w.length > 3 && !stopWords.has(w))
     .slice(0, 2);
-
   const catKw = (CATEGORY_KEYWORDS[category] || category).split(' ')[0];
   const keywords = [...titleWords, catKw].join(',');
   const seed = Math.abs(title.split('').reduce((acc, c) => acc * 31 + c.charCodeAt(0), 0) % 1000);
   return `https://source.unsplash.com/800x450/?${encodeURIComponent(keywords)}&sig=${seed}`;
 }
 
+async function fileExistsInGitHub(filePath: string, token: string, repo: string): Promise<boolean> {
+  const res = await fetch(`https://api.github.com/repos/${repo}/contents/${filePath}`, {
+    headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' },
+    cache: 'no-store',
+  });
+  return res.status === 200;
+}
+
+async function commitFileToGitHub(filePath: string, content: string, title: string, token: string, repo: string): Promise<void> {
+  const res = await fetch(`https://api.github.com/repos/${repo}/contents/${filePath}`, {
+    method: 'PUT',
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Accept': 'application/vnd.github+json',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      message: `chore: add article - ${title}`,
+      content: Buffer.from(content, 'utf8').toString('base64'),
+      branch: 'main',
+    }),
+  });
+  if (!res.ok) {
+    const error = await res.json() as { message?: string };
+    throw new Error(`GitHub API error: ${error.message ?? res.status}`);
+  }
+}
+
 export async function POST(req: NextRequest) {
-  // Secret check
   const secret = req.headers.get('x-admin-secret');
   if (secret !== process.env.ADMIN_SECRET) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
   const apiKey = process.env.ANTHROPIC_API_KEY;
-  if (!apiKey) {
-    return NextResponse.json({ error: 'ANTHROPIC_API_KEY not configured' }, { status: 500 });
-  }
+  if (!apiKey) return NextResponse.json({ error: 'ANTHROPIC_API_KEY not configured' }, { status: 500 });
+
+  const githubToken = process.env.GITHUB_TOKEN;
+  if (!githubToken) return NextResponse.json({ error: 'GITHUB_TOKEN not set' }, { status: 500 });
+
+  const githubRepo = process.env.GITHUB_REPO;
+  if (!githubRepo) return NextResponse.json({ error: 'GITHUB_REPO not set' }, { status: 500 });
 
   let body: { title?: string; category?: string };
   try {
@@ -76,21 +106,14 @@ export async function POST(req: NextRequest) {
   }
 
   const { title, category } = body;
-
-  if (!title || !category) {
-    return NextResponse.json({ error: 'title and category are required' }, { status: 400 });
-  }
-
-  if (!VALID_CATEGORIES.includes(category)) {
-    return NextResponse.json({ error: `Invalid category. Valid: ${VALID_CATEGORIES.join(', ')}` }, { status: 400 });
-  }
+  if (!title || !category) return NextResponse.json({ error: 'title and category are required' }, { status: 400 });
+  if (!VALID_CATEGORIES.includes(category)) return NextResponse.json({ error: `Invalid category. Valid: ${VALID_CATEGORIES.join(', ')}` }, { status: 400 });
 
   const slug = titleToSlug(title);
-  const outputPath = path.join(process.cwd(), 'content', 'posts', category, `${slug}.md`);
+  const filePath = `content/posts/${category}/${slug}.md`;
 
-  if (fs.existsSync(outputPath)) {
-    return NextResponse.json({ error: 'Article already exists', slug }, { status: 409 });
-  }
+  const exists = await fileExistsInGitHub(filePath, githubToken, githubRepo);
+  if (exists) return NextResponse.json({ error: 'Article already exists', slug }, { status: 409 });
 
   const coverImage = getCoverImage(category, title);
   const today = new Date().toISOString().split('T')[0];
@@ -121,23 +144,20 @@ tags: ["tag1", "tag2", "tag3", "tag4", "tag5"]
 
   try {
     const client = new Anthropic({ apiKey });
-
     const message = await client.messages.create({
-      model: 'claude-opus-4-6',
+      model: 'claude-haiku-4-5-20251001',
       max_tokens: 2500,
       messages: [{ role: 'user', content: prompt }],
     });
 
     let content = (message.content[0] as { text: string }).text;
-
     if (!content.startsWith('---')) {
       const idx = content.indexOf('---');
       if (idx >= 0 && idx < 150) content = content.slice(idx);
       else return NextResponse.json({ error: 'Generated content missing frontmatter' }, { status: 500 });
     }
 
-    fs.mkdirSync(path.dirname(outputPath), { recursive: true });
-    fs.writeFileSync(outputPath, content.trim() + '\n', 'utf8');
+    await commitFileToGitHub(filePath, content.trim() + '\n', title, githubToken, githubRepo);
 
     return NextResponse.json({
       success: true,
