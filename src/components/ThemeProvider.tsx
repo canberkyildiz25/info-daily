@@ -1,38 +1,61 @@
 'use client';
 import { createContext, useContext, useEffect, useState } from 'react';
 
-type Theme = 'light' | 'dark';
+export type Theme = 'light' | 'dark' | 'ocean' | 'forest';
 
-const ThemeContext = createContext<{ theme: Theme; toggle: () => void }>({
-  theme: 'light',
-  toggle: () => {},
-});
+export const THEMES: { id: Theme; label: string; icon: string; dark: boolean }[] = [
+  { id: 'light',  label: 'Light',  icon: '☀️',  dark: false },
+  { id: 'dark',   label: 'Dark',   icon: '🌙',  dark: true  },
+  { id: 'ocean',  label: 'Ocean',  icon: '🌊',  dark: true  },
+  { id: 'forest', label: 'Forest', icon: '🌲',  dark: true  },
+];
 
-export function useTheme() {
-  return useContext(ThemeContext);
+interface ThemeCtx { theme: Theme; setTheme: (t: Theme) => void; }
+const ThemeContext = createContext<ThemeCtx>({ theme: 'light', setTheme: () => {} });
+export function useTheme() { return useContext(ThemeContext); }
+
+function applyTheme(theme: Theme) {
+  const html = document.documentElement;
+  html.setAttribute('data-theme', theme);
+  const isDark = THEMES.find(t => t.id === theme)?.dark ?? false;
+  html.classList.toggle('dark', isDark);
 }
 
 export default function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setTheme] = useState<Theme>('light');
+  const [theme, setThemeState] = useState<Theme>('light');
 
   useEffect(() => {
-    // Read from localStorage or system preference
     const stored = localStorage.getItem('theme') as Theme | null;
-    const preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    const resolved = stored ?? preferred;
-    setTheme(resolved);
-    document.documentElement.classList.toggle('dark', resolved === 'dark');
+    const validThemes = THEMES.map(t => t.id);
+    // Auto-detect system preference if no stored theme
+    const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const resolved: Theme = stored && validThemes.includes(stored)
+      ? stored
+      : systemDark ? 'dark' : 'light';
+    setThemeState(resolved);
+    applyTheme(resolved);
+
+    // Listen for system theme changes (only if no user preference stored)
+    const mq = window.matchMedia('(prefers-color-scheme: dark)');
+    const handler = (e: MediaQueryListEvent) => {
+      if (!localStorage.getItem('theme')) {
+        const next: Theme = e.matches ? 'dark' : 'light';
+        setThemeState(next);
+        applyTheme(next);
+      }
+    };
+    mq.addEventListener('change', handler);
+    return () => mq.removeEventListener('change', handler);
   }, []);
 
-  const toggle = () => {
-    const next: Theme = theme === 'dark' ? 'light' : 'dark';
-    setTheme(next);
-    localStorage.setItem('theme', next);
-    document.documentElement.classList.toggle('dark', next === 'dark');
+  const setTheme = (t: Theme) => {
+    setThemeState(t);
+    localStorage.setItem('theme', t);
+    applyTheme(t);
   };
 
   return (
-    <ThemeContext.Provider value={{ theme, toggle }}>
+    <ThemeContext.Provider value={{ theme, setTheme }}>
       {children}
     </ThemeContext.Provider>
   );
