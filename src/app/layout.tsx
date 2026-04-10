@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.infodaily.net',
   },
   verification: {
-    google: '', // Google Search Console doğrulama kodu buraya
+    google: 'soUkwfns4jPrW0HEU8FPNe80U_FGTtSl9CG82LDQJMU',
   },
 };
 
