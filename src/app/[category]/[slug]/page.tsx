@@ -2,6 +2,8 @@ import { getPost, getAllPosts, CATEGORIES } from '@/lib/posts';
 import { AdPlaceholder } from '@/components/AdBanner';
 import ArticleHeroImage from '@/components/ArticleHeroImage';
 import ArticleTranslator from '@/components/ArticleTranslator';
+import { getCoverImageUrl } from '@/lib/pexels';
+import { injectInlineImages } from '@/lib/injectImages';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
@@ -54,6 +56,15 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
 
   const cat = CATEGORIES.find(c => c.slug === category);
   const gradient = CATEGORY_GRADIENTS[category] ?? 'from-blue-500 to-indigo-600';
+
+  // Upgrade cover image via Pexels if available
+  const coverImage = await getCoverImageUrl(
+    `${post.title} ${category}`,
+    post.slug,
+  ) || post.coverImage;
+
+  // Inject inline images after every 2nd section heading
+  const contentWithImages = await injectInlineImages(post.content || '', post.title);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -108,7 +119,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
 
           {/* Cover image / hero */}
           <ArticleHeroImage
-            src={post.coverImage}
+            src={coverImage}
             alt={post.title}
             gradient={gradient}
             icon={cat?.icon}
@@ -124,7 +135,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
             slug={`${post.category}-${post.slug}`}
             originalTitle={post.title}
             originalExcerpt={post.excerpt}
-            originalContent={post.content || ''}
+            originalContent={contentWithImages}
           />
 
           {/* JSON-LD Structured Data */}

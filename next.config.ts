@@ -25,6 +25,11 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: '**.pixabay.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'images.pexels.com',
+        pathname: '/**',
+      },
     ],
     unoptimized: process.env.NEXT_PUBLIC_DISABLE_STATIC_OPTIMIZATION === 'true',
     minimumCacheTTL: 60,
