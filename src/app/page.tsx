@@ -3,12 +3,12 @@ import ArticleCard from '@/components/ArticleCard';
 import { AdPlaceholder } from '@/components/AdBanner';
 import { getCoverImageUrl } from '@/lib/pexels';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default async function HomePage() {
   const allPosts = getAllPosts();
-  const visiblePosts = allPosts.slice(0, 14);
+  const visiblePosts = allPosts.slice(0, 15);
 
-  // Fetch Pexels images for all visible posts in parallel
   const upgraded = await Promise.all(
     visiblePosts.map(async post => ({
       ...post,
@@ -16,8 +16,10 @@ export default async function HomePage() {
     }))
   );
 
-  const featuredPosts = upgraded.slice(0, 6);
-  const latestPosts = upgraded.slice(6, 14);
+  const todayPost = upgraded[0];
+  const featuredPosts = upgraded.slice(1, 7);
+  const latestPosts = upgraded.slice(7, 15);
+  const todayCat = CATEGORIES.find(c => c.slug === todayPost?.category);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -28,7 +30,7 @@ export default async function HomePage() {
       </div>
 
       {/* Hero */}
-      <section className="mb-10">
+      <section className="mb-8">
         <h1 className="text-3xl sm:text-4xl font-black text-gray-900 dark:text-slate-100 mb-2">
           Knowledge for Every Day
         </h1>
@@ -36,6 +38,70 @@ export default async function HomePage() {
           Expert articles on health, finance, technology, travel, food, science, and more — all in one place.
         </p>
       </section>
+
+      {/* Article of the Day */}
+      {todayPost && (
+        <section className="mb-10">
+          <div className="flex items-center gap-2 mb-4">
+            <span className="bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+              ✦ Article of the Day
+            </span>
+            <span className="text-xs text-gray-400 dark:text-slate-500">
+              {new Date(todayPost.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+            </span>
+          </div>
+
+          <Link href={`/${todayPost.category}/${todayPost.slug}`} className="group block">
+            <div className="relative rounded-2xl overflow-hidden bg-gray-100 dark:bg-slate-800 border border-gray-100 dark:border-slate-700 shadow-sm hover:shadow-xl transition-all duration-300">
+              <div className="grid grid-cols-1 md:grid-cols-2">
+                {/* Image */}
+                <div className="relative h-56 md:h-72 overflow-hidden">
+                  {todayPost.coverImage ? (
+                    <Image
+                      src={todayPost.coverImage}
+                      alt={todayPost.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      priority
+                    />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center text-8xl bg-gradient-to-br from-blue-500 to-indigo-600">
+                      {todayCat?.icon}
+                    </div>
+                  )}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+                </div>
+
+                {/* Content */}
+                <div className="p-6 md:p-8 flex flex-col justify-center">
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 text-xs font-semibold px-3 py-1 rounded-full">
+                      {todayCat?.icon} {todayCat?.label}
+                    </span>
+                    <span className="text-gray-400 dark:text-slate-500 text-xs">{todayPost.readingTime}</span>
+                  </div>
+                  <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 dark:text-slate-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors leading-tight mb-3">
+                    {todayPost.title}
+                  </h2>
+                  <p className="text-gray-500 dark:text-slate-400 leading-relaxed line-clamp-3 mb-5">
+                    {todayPost.excerpt}
+                  </p>
+                  <div className="flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white text-xs font-bold flex-shrink-0">
+                      {todayPost.author.charAt(0)}
+                    </div>
+                    <span className="text-sm font-medium text-gray-700 dark:text-slate-300">{todayPost.author}</span>
+                    <span className="ml-auto text-sm font-semibold text-blue-600 dark:text-blue-400 group-hover:underline">
+                      Read article →
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
+        </section>
+      )}
 
       {/* Featured Articles */}
       <section className="mb-10">
@@ -63,7 +129,6 @@ export default async function HomePage() {
           </div>
         </div>
 
-        {/* Sidebar */}
         <aside className="space-y-6">
           <AdPlaceholder label="Advertisement – 300×250" height={250} />
 

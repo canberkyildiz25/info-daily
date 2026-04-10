@@ -1,7 +1,7 @@
 {
   "crons": [
     {
-      "path": "/api/cron/generate",
+      "path": "/api/cron/generate?count=1",
       "schedule": "0 8 * * *"
     }
   ]

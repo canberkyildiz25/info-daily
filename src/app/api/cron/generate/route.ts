@@ -109,9 +109,10 @@ export async function GET(req: NextRequest) {
   const githubRepo = process.env.GITHUB_REPO; // e.g. "canberkyildiz25/info-daily"
   if (!githubRepo) return NextResponse.json({ error: 'GITHUB_REPO not set' }, { status: 500 });
 
-  // Default 1 article per run (safe for Vercel free plan timeout)
+  // 1 article per cron run
   const countParam = req.nextUrl.searchParams.get('count');
   const count = Math.min(parseInt(countParam || '1', 10), 3);
+
 
   const generated: { title: string; category: string; slug: string }[] = [];
   const skipped: string[] = [];
