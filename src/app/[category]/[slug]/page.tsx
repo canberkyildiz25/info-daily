@@ -1,6 +1,7 @@
 import { getPost, getAllPosts, CATEGORIES } from '@/lib/posts';
 import { AdPlaceholder } from '@/components/AdBanner';
 import ArticleHeroImage from '@/components/ArticleHeroImage';
+import ArticleTranslator from '@/components/ArticleTranslator';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
@@ -118,10 +119,12 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
             <AdPlaceholder label="Advertisement – 336×280" height={280} />
           </div>
 
-          {/* Content */}
-          <div
-            className="prose prose-lg prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-slate-100 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-slate-100"
-            dangerouslySetInnerHTML={{ __html: post.content || '' }}
+          {/* Translation + Content */}
+          <ArticleTranslator
+            slug={`${post.category}-${post.slug}`}
+            originalTitle={post.title}
+            originalExcerpt={post.excerpt}
+            originalContent={post.content || ''}
           />
 
           {/* JSON-LD Structured Data */}
