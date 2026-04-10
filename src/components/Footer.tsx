@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { CATEGORIES } from '@/lib/categories';
+import SubscribeForm from './SubscribeForm';
 
 export default function Footer() {
   return (
@@ -25,6 +26,8 @@ export default function Footer() {
             </ul>
           </div>
           <div>
+            <SubscribeForm />
+            <div className="mt-6">
             <h4 className="text-white font-semibold mb-3">Legal</h4>
             <ul className="space-y-2">
               <li><Link href="/privacy-policy" className="text-sm text-gray-400 hover:text-white transition-colors">Privacy Policy</Link></li>
@@ -32,6 +35,7 @@ export default function Footer() {
               <li><Link href="/about" className="text-sm text-gray-400 hover:text-white transition-colors">About Us</Link></li>
               <li><Link href="/contact" className="text-sm text-gray-400 hover:text-white transition-colors">Contact</Link></li>
             </ul>
+            </div>
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-6 text-center text-xs text-gray-500">
