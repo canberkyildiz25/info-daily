@@ -20,7 +20,7 @@ export async function POST(req: NextRequest) {
 
     // Welcome email
     await resend.emails.send({
-      from: 'InfoDaily <onboarding@resend.dev>',
+      from: 'InfoDaily <hello@infodaily.net>',
       to: email,
       subject: 'Welcome to InfoDaily! 🎉',
       html: `
