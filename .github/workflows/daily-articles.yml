@@ -1,0 +1,44 @@
+name: Daily Article Generation
+
+on:
+  schedule:
+    # Her gün saat 08:00 UTC (Türkiye saatiyle 11:00)
+    - cron: '0 8 * * *'
+  workflow_dispatch: # Manuel tetikleme butonu
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate daily articles
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node generate-article.js --batch daily-articles.txt
+
+      - name: Commit and push new articles
+        run: |
+          git config user.name "InfoDaily Bot"
+          git config user.email "bot@infodaily.com"
+          git add content/posts/
+          if git diff --staged --quiet; then
+            echo "No new articles to commit (all already exist)"
+          else
+            ARTICLE_COUNT=$(git diff --staged --name-only | wc -l)
+            git commit -m "chore: add $ARTICLE_COUNT daily articles [$(date +%Y-%m-%d)]"
+            git push
+          fi
