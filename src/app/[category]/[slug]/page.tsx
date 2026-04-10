@@ -167,6 +167,21 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
               }),
             }}
           />
+          {/* Breadcrumb JSON-LD */}
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                '@context': 'https://schema.org',
+                '@type': 'BreadcrumbList',
+                itemListElement: [
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.infodaily.net' },
+                  { '@type': 'ListItem', position: 2, name: cat?.label, item: `https://www.infodaily.net/category/${category}` },
+                  { '@type': 'ListItem', position: 3, name: post.title, item: `https://www.infodaily.net/${category}/${slug}` },
+                ],
+              }),
+            }}
+          />
 
           {/* Tags */}
           {post.tags.length > 0 && (
