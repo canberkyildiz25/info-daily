@@ -35,7 +35,7 @@ export async function GET(req: NextRequest) {
     const emails = subscribers.map((c: { email: string }) => c.email);
 
     await resend.emails.send({
-      from: 'InfoDaily <onboarding@resend.dev>',
+      from: 'InfoDaily <hello@infodaily.net>',
       to: emails,
       subject: `📰 Article of the Day: ${todayPost.title}`,
       html: `
