@@ -4,7 +4,16 @@ on:
   schedule:
     # Her gün saat 09:00 UTC (Türkiye saatiyle 12:00)
     - cron: '0 9 * * *'
-  workflow_dispatch: # Manuel tetikleme butonu
+  workflow_dispatch:
+    inputs:
+      bulk:
+        description: 'bulk-topics.txt dosyasından toplu makale üret'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
 
 jobs:
   generate:
@@ -25,25 +34,33 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Fetch today's trending topics
+      - name: Fetch today's trending topics (normal mod)
+        if: ${{ github.event.inputs.bulk != 'true' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node fetch-trends.js --geo US --count 4 --out=daily-topics.txt
+        run: node fetch-trends.js --geo US --count 8 --out=daily-topics.txt
 
-      - name: Generate articles from trending topics
+      - name: Generate articles from trending topics (normal mod)
+        if: ${{ github.event.inputs.bulk != 'true' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node generate-article.js --batch daily-topics.txt
+
+      - name: Generate articles from bulk-topics.txt (bulk mod)
+        if: ${{ github.event.inputs.bulk == 'true' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node generate-article.js --batch bulk-topics.txt
 
       - name: Commit and push new articles
         run: |
           git config user.name "InfoDaily Bot"
           git config user.email "bot@infodaily.com"
-          git add content/posts/
+          git add content/posts/ daily-topics.txt
           if git diff --staged --quiet; then
             echo "No new articles to commit (all already exist)"
           else
-            ARTICLE_COUNT=$(git diff --staged --name-only | wc -l)
-            git commit -m "chore: add $ARTICLE_COUNT trend-based articles [$(date +%Y-%m-%d)]"
+            ARTICLE_COUNT=$(git diff --staged --name-only | grep '\.md$' | wc -l)
+            git commit -m "chore: add $ARTICLE_COUNT articles [$(date +%Y-%m-%d)]"
             git push
           fi
