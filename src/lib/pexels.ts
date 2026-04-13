@@ -34,7 +34,7 @@ export async function getPexelsImage(query: string, seed?: string): Promise<stri
 export function getUnsplashFallback(query: string, seed: string): string {
   const keywords = encodeURIComponent(query.split(' ').slice(0, 3).join(','));
   const sig = Math.abs(seed.split('').reduce((a, c) => a * 31 + c.charCodeAt(0), 0) % 1000);
-  return `https://source.unsplash.com/800x450/?${keywords}&sig=${sig}`;
+  return `https://source.unsplash.com/1200x675/?${keywords}&sig=${sig}`;
 }
 
 export async function getCoverImageUrl(query: string, seed: string): Promise<string> {
