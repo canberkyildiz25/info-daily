@@ -1,0 +1,112 @@
+# Bulk article generation — target 200+ articles
+
+# Health (12)
+How to Improve Your Sleep Quality in 7 Days | health
+The Best Anti-Inflammatory Foods to Add to Your Diet | health
+Morning Routines of Healthy People: What Science Says | health
+How to Boost Your Immune System Naturally | health
+Signs You Are Not Drinking Enough Water | health
+The Beginner's Guide to Intermittent Fasting | health
+How to Fix Bad Posture If You Work at a Desk | health
+Natural Remedies for Headaches That Actually Work | health
+How Much Exercise Do You Really Need Per Week | health
+The Best Stretches to Do Every Morning | health
+How to Reduce Stress Without Medication | health
+Why Your Gut Health Affects Everything in Your Body | health
+
+# Finance (12)
+How to Build an Emergency Fund From Scratch | finance
+The 50/30/20 Budget Rule: A Beginner's Guide | finance
+Best Ways to Pay Off Debt Faster | finance
+How to Start Investing With $100 | finance
+What Is a Credit Score and How to Improve Yours | finance
+The Difference Between a Roth IRA and Traditional IRA | finance
+How to Stop Impulse Buying and Save More Money | finance
+Passive Income Ideas That Actually Work in 2026 | finance
+How to Negotiate a Lower Rent | finance
+The Best High-Yield Savings Accounts in 2026 | finance
+How to Create a Monthly Budget You Will Actually Stick To | finance
+What to Do If You Are Living Paycheck to Paycheck | finance
+
+# Technology (10)
+The Best Free AI Tools You Should Be Using Right Now | technology
+How to Protect Your Privacy Online in 2026 | technology
+What Is Quantum Computing and Why Does It Matter | technology
+The Best Budget Laptops for Students in 2026 | technology
+How to Speed Up Your Slow Computer in 10 Minutes | technology
+The Most Useful Chrome Extensions for Productivity | technology
+How to Use AI to Write Better Emails | technology
+What Is the Metaverse and Is It Still a Thing | technology
+Best Password Managers to Keep Your Accounts Safe | technology
+How to Spot a Phishing Email Before It Is Too Late | technology
+
+# Life Hacks (10)
+How to Wake Up Early and Actually Feel Rested | life-hacks
+The Best Productivity Apps to Get More Done | life-hacks
+How to Declutter Your Home in One Weekend | life-hacks
+Simple Ways to Build Better Daily Habits | life-hacks
+How to Focus When You Cannot Stop Getting Distracted | life-hacks
+The Best Ways to Learn a New Skill Faster | life-hacks
+How to Remember Everything You Read | life-hacks
+Time Management Tricks That Successful People Use | life-hacks
+How to Stop Procrastinating for Good | life-hacks
+The Best Free Online Courses to Learn New Skills | life-hacks
+
+# Travel (8)
+How to Travel Cheap Without Sacrificing Comfort | travel
+The Best Travel Apps Every Traveler Needs in 2026 | travel
+How to Pack Light for a Two Week Trip | travel
+The Best Countries to Visit on a Budget | travel
+How to Find Cheap Flights Every Time | travel
+What Travel Insurance Actually Covers and When You Need It | travel
+The Best Solo Travel Destinations for First Timers | travel
+How to Beat Jet Lag on Long Haul Flights | travel
+
+# Food (8)
+High Protein Meals You Can Make in Under 15 Minutes | food
+How to Meal Prep for the Entire Week in 2 Hours | food
+The Best Foods to Eat for Energy and Focus | food
+Easy Healthy Breakfast Ideas That Take 5 Minutes | food
+How to Cook Chicken 10 Different Delicious Ways | food
+The Best Smoothie Recipes for Weight Loss | food
+How to Make Restaurant Quality Meals at Home | food
+Foods That Help You Sleep Better at Night | food
+
+# Business (8)
+How to Start a Side Hustle While Working Full Time | business
+The Best Free Tools to Run a Small Business | business
+How to Write a Business Plan in One Day | business
+What Is Dropshipping and Is It Still Worth It in 2026 | business
+How to Market Your Business on Social Media for Free | business
+The Best Ways to Find Remote Work in 2026 | business
+How to Build a Personal Brand That Gets You Hired | business
+What Every Freelancer Needs to Know About Taxes | business
+
+# Science (8)
+Why Do We Dream and What Do Our Dreams Mean | science
+How the Human Brain Actually Forms Memories | science
+The Science Behind Why Exercise Makes You Happier | science
+What Climate Change Is Really Doing to Our Oceans | science
+How CRISPR Gene Editing Could Change Medicine Forever | science
+The Fascinating Science of How Habits Are Formed | science
+What Scientists Have Discovered About Aging | science
+How Black Holes Work Explained Simply | science
+
+# Relationships (8)
+How to Have Difficult Conversations Without Fighting | relationships
+Signs of a Healthy Relationship vs an Unhealthy One | relationships
+How to Make New Friends as an Adult | relationships
+The Best Ways to Improve Communication With Your Partner | relationships
+How to Set Healthy Boundaries With Family | relationships
+Why Loneliness Is a Health Problem and How to Fix It | relationships
+How to Rebuild Trust After It Has Been Broken | relationships
+Simple Ways to Strengthen Any Relationship | relationships
+
+# Entertainment (7)
+The Best Documentaries to Watch on Netflix in 2026 | entertainment
+How to Find Hidden Gem Movies You Have Never Heard Of | entertainment
+The Best Podcasts to Listen to While Working Out | entertainment
+Why Retro Gaming Is Making a Huge Comeback | entertainment
+The Best Books to Read If You Want to Be Smarter | entertainment
+How Music Affects Your Brain and Mood | entertainment
+The Best Binge Worthy TV Shows of 2026 | entertainment
