@@ -140,12 +140,14 @@ export default async function TrendingTopics() {
             </div>
           );
 
-          return topic.exists ? (
-            <Link key={i} href={`/${topic.category}/${topic.slug}`}>
+          const href = topic.exists
+            ? `/${topic.category}/${topic.slug}`
+            : `/category/${topic.category}`;
+
+          return (
+            <Link key={i} href={href}>
               {card}
             </Link>
-          ) : (
-            <div key={i}>{card}</div>
           );
         })}
       </div>
