@@ -8,4 +8,5 @@ export const CATEGORIES = [
   { slug: 'business', label: 'Business & Career', description: 'Grow your career and business', icon: '💼' },
   { slug: 'science', label: 'Science & Nature', description: 'Fascinating science made simple', icon: '🔬' },
   { slug: 'relationships', label: 'Relationships', description: 'Better connections, better life', icon: '❤️' },
+  { slug: 'entertainment', label: 'Entertainment', description: 'Movies, TV shows, music, and pop culture', icon: '🎬' },
 ];
