@@ -8,7 +8,11 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-white text-xl font-black mb-3">InfoDaily</h3>
+            <h3 className="mb-3 leading-none">
+              <span className="font-bold text-xl text-blue-400" style={{ fontFamily: 'Georgia, serif' }}>Info</span>
+              <span className="font-bold text-xl text-white">Daily</span>
+              <span className="text-sm font-normal text-slate-500">.net</span>
+            </h3>
             <p className="text-sm text-gray-400 leading-relaxed">
               Your daily source of knowledge across health, finance, technology, life hacks, and travel.
             </p>
