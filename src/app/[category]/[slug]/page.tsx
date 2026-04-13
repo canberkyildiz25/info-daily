@@ -75,6 +75,25 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
   // Extract FAQ schema from article headings ending with "?"
   const faqJsonLd = buildFaqJsonLd(extractFaqFromHtml(contentWithImages));
 
+  // Split content after 3rd </p> to inject mid-content ad
+  const splitContent = (() => {
+    let count = 0;
+    let splitIndex = -1;
+    let from = 0;
+    while (count < 3) {
+      const idx = contentWithImages.indexOf('</p>', from);
+      if (idx === -1) break;
+      count++;
+      if (count === 3) splitIndex = idx + '</p>'.length;
+      from = idx + 4;
+    }
+    if (splitIndex === -1) return { first: contentWithImages, second: '' };
+    return {
+      first: contentWithImages.slice(0, splitIndex),
+      second: contentWithImages.slice(splitIndex),
+    };
+  })();
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <ReadingProgress />
@@ -154,11 +173,26 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
             <AdBanner slot="1155480823" format="rectangle" />
           </div>
 
-          {/* Content */}
+          {/* Content — first part */}
           <div
             className="prose prose-lg prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-slate-100 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-slate-100"
-            dangerouslySetInnerHTML={{ __html: contentWithImages }}
+            dangerouslySetInnerHTML={{ __html: splitContent.first }}
           />
+
+          {/* Mid-content ad */}
+          {splitContent.second && (
+            <div className="my-8 not-prose">
+              <AdBanner slot="1155480823" format="rectangle" />
+            </div>
+          )}
+
+          {/* Content — second part */}
+          {splitContent.second && (
+            <div
+              className="prose prose-lg prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-slate-100 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-slate-100"
+              dangerouslySetInnerHTML={{ __html: splitContent.second }}
+            />
+          )}
 
           {/* Internal links */}
           <InternalLinks
@@ -267,7 +301,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
 
         {/* Sidebar */}
         <aside className="space-y-6">
-          <AdBanner slot="1155480823" format="rectangle" />
+          <div className="sticky top-24">
+            <AdBanner slot="1155480823" format="rectangle" />
+          </div>
 
           <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm p-5">
             <h3 className="font-bold text-gray-900 dark:text-slate-100 mb-4">Browse Categories</h3>
