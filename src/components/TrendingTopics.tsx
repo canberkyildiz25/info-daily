@@ -71,12 +71,14 @@ export default async function TrendingTopics() {
   const raw = getRawTopics();
   if (raw.length === 0) return null;
 
-  const topics: Topic[] = await Promise.all(
+  const withImages = await Promise.all(
     raw.map(async t => ({
       ...t,
       image: await getCoverImageUrl(`${t.title} ${t.category}`, t.slug),
     }))
   );
+
+  const topics: Topic[] = withImages.filter(t => t.exists);
 
   return (
     <section className="mb-8">
@@ -140,12 +142,8 @@ export default async function TrendingTopics() {
             </div>
           );
 
-          const href = topic.exists
-            ? `/${topic.category}/${topic.slug}`
-            : `/category/${topic.category}`;
-
           return (
-            <Link key={i} href={href}>
+            <Link key={i} href={`/${topic.category}/${topic.slug}`}>
               {card}
             </Link>
           );
