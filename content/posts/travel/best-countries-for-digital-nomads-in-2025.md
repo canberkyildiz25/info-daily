@@ -1,7 +1,7 @@
 ---
-title: "Best Countries for Digital Nomads in 2025"
+title: "Best Countries for Digital Nomads in 2026"
 excerpt: "More countries than ever offer digital nomad visas and remote-work-friendly infrastructure. Here are the top destinations combining affordability, connectivity, and quality of life."
-date: "2025-11-09"
+date: "2026-11-09"
 author: "Sophie Martinez"
 coverImage: "https://picsum.photos/seed/505/800/450"
 tags: ["digital nomad", "remote work", "travel", "visa", "work abroad"]
@@ -9,7 +9,7 @@ tags: ["digital nomad", "remote work", "travel", "visa", "work abroad"]
 
 The remote work revolution has permanently changed where people can live and work. Over 50 countries now offer some form of digital nomad or remote worker visa, and the infrastructure for location-independent work — co-working spaces, fast internet, vibrant communities — has improved dramatically in destinations worldwide.
 
-Here are the top countries for digital nomads in 2025, weighted by internet quality, cost of living, visa accessibility, community size, and quality of life.
+Here are the top countries for digital nomads in 2026, weighted by internet quality, cost of living, visa accessibility, community size, and quality of life.
 
 ## Portugal (Lisbon and Porto)
 

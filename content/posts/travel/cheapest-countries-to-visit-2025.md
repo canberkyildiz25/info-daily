@@ -1,9 +1,9 @@
 ---
-title: "10 Cheapest Countries to Visit in 2025 (With Budget Breakdowns)"
+title: "10 Cheapest Countries to Visit in 2026 (With Budget Breakdowns)"
 excerpt: "Travel the world without emptying your bank account. These 10 countries offer incredible experiences for under $50/day — including accommodation and food."
-date: "2025-04-04"
+date: "2026-04-04"
 author: "Sophie Martinez"
-tags: ["budget travel", "cheap travel", "backpacking", "travel tips", "2025"]
+tags: ["budget travel", "cheap travel", "backpacking", "travel tips", "2026"]
 coverImage: "https://images.unsplash.com/photo-1488085061387-422e29b40080?w=800&q=80"
 ---
 
