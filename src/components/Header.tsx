@@ -73,19 +73,18 @@ export default function Header() {
 
         {/* Row 1: Logo + toggle */}
         <div className="flex items-center justify-between h-14">
-          <Link href="/" className="flex items-center gap-2">
-            {/* Logo mark */}
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="32" height="32" rx="8" fill="#2563eb"/>
-              <rect x="7" y="7" width="7" height="3" rx="1.5" fill="white"/>
-              <rect x="7" y="22" width="7" height="3" rx="1.5" fill="white"/>
-              <rect x="10" y="10" width="3" height="12" rx="1.5" fill="white"/>
-              <rect x="17" y="7" width="8" height="3" rx="1.5" fill="#93c5fd"/>
-              <rect x="17" y="13" width="6" height="2.5" rx="1.25" fill="#93c5fd"/>
-              <rect x="17" y="19" width="8" height="3" rx="1.5" fill="#93c5fd"/>
+          <Link href="/" className="flex items-center gap-2.5">
+            {/* Logo mark – circle with "i" */}
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="18" cy="18" r="18" fill="#2563eb"/>
+              <circle cx="18" cy="11" r="3" fill="white"/>
+              <rect x="14.5" y="17" width="7" height="10" rx="2.5" fill="white"/>
+              <circle cx="18" cy="18" r="22" fill="none" stroke="#2563eb" strokeWidth="1" opacity="0.25"/>
             </svg>
-            <span className="text-lg font-extrabold text-gray-900 dark:text-white tracking-tight">
-              Info<span className="text-blue-600 dark:text-blue-400">Daily</span>
+            <span className="tracking-tight leading-none">
+              <span className="font-bold text-xl text-blue-600 dark:text-blue-400" style={{ fontFamily: 'Georgia, serif' }}>Info</span>
+              <span className="font-bold text-xl text-gray-900 dark:text-white">Daily</span>
+              <span className="text-sm font-normal text-gray-400 dark:text-slate-500">.net</span>
             </span>
           </Link>
 
