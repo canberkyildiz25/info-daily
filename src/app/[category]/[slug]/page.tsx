@@ -4,6 +4,7 @@ import ArticleHeroImage from '@/components/ArticleHeroImage';
 import { getCoverImageUrl } from '@/lib/pexels';
 import { injectInlineImages } from '@/lib/injectImages';
 import RelatedArticles from '@/components/RelatedArticles';
+import InternalLinks from '@/components/InternalLinks';
 import ReadingProgress from '@/components/ReadingProgress';
 import ShareButtons from '@/components/ShareButtons';
 import BookmarkButton from '@/components/BookmarkButton';
@@ -147,6 +148,13 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
           <div
             className="prose prose-lg prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-slate-100 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-slate-100"
             dangerouslySetInnerHTML={{ __html: contentWithImages }}
+          />
+
+          {/* Internal links */}
+          <InternalLinks
+            currentSlug={post.slug}
+            currentCategory={post.category}
+            currentTags={post.tags}
           />
 
           {/* JSON-LD Structured Data */}
