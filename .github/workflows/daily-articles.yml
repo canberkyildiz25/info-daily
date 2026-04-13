@@ -2,8 +2,8 @@ name: Daily Article Generation
 
 on:
   schedule:
-    # Her gün saat 08:00 UTC (Türkiye saatiyle 11:00)
-    - cron: '0 8 * * *'
+    # Her gün saat 09:00 UTC (Türkiye saatiyle 12:00)
+    - cron: '0 9 * * *'
   workflow_dispatch: # Manuel tetikleme butonu
 
 jobs:
@@ -25,10 +25,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate daily articles
+      - name: Fetch today's trending topics
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node generate-article.js --batch daily-articles.txt
+        run: node fetch-trends.js --geo US --count 4 --out=daily-topics.txt
+
+      - name: Generate articles from trending topics
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node generate-article.js --batch daily-topics.txt
 
       - name: Commit and push new articles
         run: |
@@ -39,6 +44,6 @@ jobs:
             echo "No new articles to commit (all already exist)"
           else
             ARTICLE_COUNT=$(git diff --staged --name-only | wc -l)
-            git commit -m "chore: add $ARTICLE_COUNT daily articles [$(date +%Y-%m-%d)]"
+            git commit -m "chore: add $ARTICLE_COUNT trend-based articles [$(date +%Y-%m-%d)]"
             git push
           fi
