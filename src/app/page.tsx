@@ -1,6 +1,6 @@
 import { getAllPosts, CATEGORIES } from '@/lib/posts';
 import ArticleCard from '@/components/ArticleCard';
-import { AdPlaceholder } from '@/components/AdBanner';
+import AdBanner from '@/components/AdBanner';
 import { getCoverImageUrl } from '@/lib/pexels';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -26,7 +26,7 @@ export default async function HomePage() {
 
       {/* Top Banner Ad */}
       <div className="mb-8">
-        <AdPlaceholder label="Advertisement – 728×90" height={90} />
+        <AdBanner slot="1155480823" format="horizontal" />
       </div>
 
       {/* Hero */}
@@ -115,7 +115,7 @@ export default async function HomePage() {
 
       {/* Mid Ad */}
       <div className="mb-10">
-        <AdPlaceholder label="Advertisement – 336×280" height={280} />
+        <AdBanner slot="1155480823" format="rectangle" />
       </div>
 
       {/* Latest + Sidebar */}
@@ -130,7 +130,7 @@ export default async function HomePage() {
         </div>
 
         <aside className="space-y-6">
-          <AdPlaceholder label="Advertisement – 300×250" height={250} />
+          <AdBanner slot="1155480823" format="rectangle" />
 
           <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm p-5">
             <h3 className="font-bold text-gray-900 dark:text-slate-100 mb-4">Browse by Category</h3>
@@ -153,7 +153,7 @@ export default async function HomePage() {
             </div>
           </div>
 
-          <AdPlaceholder label="Advertisement – 300×600" height={300} />
+          <AdBanner slot="1155480823" format="vertical" />
         </aside>
       </div>
     </div>

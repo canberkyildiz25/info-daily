@@ -1,6 +1,6 @@
 import { getPostsByCategory, CATEGORIES } from '@/lib/posts';
 import ArticleCard from '@/components/ArticleCard';
-import { AdPlaceholder } from '@/components/AdBanner';
+import AdBanner from '@/components/AdBanner';
 import { getCoverImageUrl } from '@/lib/pexels';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
@@ -9,13 +9,34 @@ export async function generateStaticParams() {
   return CATEGORIES.map(cat => ({ slug: cat.slug }));
 }
 
+const SITE_URL = 'https://www.infodaily.net';
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const cat = CATEGORIES.find(c => c.slug === slug);
   if (!cat) return {};
+  const title = `${cat.label} Articles – InfoDaily`;
+  const description = `${cat.description}. Browse all ${cat.label} articles on InfoDaily.`;
   return {
-    title: `${cat.label} Articles`,
-    description: cat.description,
+    title,
+    description,
+    alternates: {
+      canonical: `${SITE_URL}/category/${slug}`,
+    },
+    openGraph: {
+      title,
+      description,
+      type: 'website',
+      url: `${SITE_URL}/category/${slug}`,
+      siteName: 'InfoDaily',
+      images: [{ url: `${SITE_URL}/og-image.png`, width: 1200, height: 630, alt: title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [`${SITE_URL}/og-image.png`],
+    },
   };
 }
 
@@ -34,9 +55,32 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              '@context': 'https://schema.org',
+              '@type': 'CollectionPage',
+              name: `${cat.label} Articles – InfoDaily`,
+              description: cat.description,
+              url: `${SITE_URL}/category/${slug}`,
+              publisher: { '@type': 'Organization', name: 'InfoDaily', url: SITE_URL },
+            },
+            {
+              '@context': 'https://schema.org',
+              '@type': 'BreadcrumbList',
+              itemListElement: [
+                { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+                { '@type': 'ListItem', position: 2, name: cat.label, item: `${SITE_URL}/category/${slug}` },
+              ],
+            },
+          ]),
+        }}
+      />
       {/* Top Ad */}
       <div className="mb-8">
-        <AdPlaceholder label="Advertisement – 728×90" height={90} />
+        <AdBanner slot="1155480823" format="horizontal" />
       </div>
 
       {/* Category header */}
@@ -64,7 +108,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
         </div>
 
         <aside className="space-y-6">
-          <AdPlaceholder label="Advertisement – 300×250" height={250} />
+          <AdBanner slot="1155480823" format="rectangle" />
 
           <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm p-5">
             <h3 className="font-bold text-gray-900 dark:text-slate-100 mb-4">Other Categories</h3>
@@ -81,7 +125,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
             </div>
           </div>
 
-          <AdPlaceholder label="Advertisement – 300×600" height={300} />
+          <AdBanner slot="1155480823" format="vertical" />
         </aside>
       </div>
     </div>
