@@ -1,7 +1,7 @@
 ---
 title: "Best Free Tools for Remote Work in 2026"
 excerpt: "Working remotely doesn't require expensive software. These free tools cover communication, project management, and collaboration for individuals and small teams."
-date: "2026-12-03"
+date: "2026-04-13"
 author: "Alex Rivera"
 coverImage: "https://picsum.photos/seed/307/800/450"
 tags: ["remote work", "productivity tools", "free software", "collaboration", "technology"]

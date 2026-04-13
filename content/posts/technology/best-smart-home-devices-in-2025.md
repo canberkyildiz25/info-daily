@@ -1,7 +1,7 @@
 ---
 title: "Best Smart Home Devices in 2026"
 excerpt: "Smart home technology has matured. These devices deliver genuine convenience — not just novelty — and most work together regardless of brand."
-date: "2026-12-17"
+date: "2026-04-13"
 author: "Alex Rivera"
 coverImage: "https://picsum.photos/seed/308/800/450"
 tags: ["smart home", "home automation", "technology", "IoT", "gadgets"]

@@ -1,7 +1,7 @@
 ---
 title: "Best Countries for Digital Nomads in 2026"
 excerpt: "More countries than ever offer digital nomad visas and remote-work-friendly infrastructure. Here are the top destinations combining affordability, connectivity, and quality of life."
-date: "2026-11-09"
+date: "2026-04-13"
 author: "Sophie Martinez"
 coverImage: "https://picsum.photos/seed/505/800/450"
 tags: ["digital nomad", "remote work", "travel", "visa", "work abroad"]
