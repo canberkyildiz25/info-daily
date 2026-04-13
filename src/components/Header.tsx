@@ -15,7 +15,8 @@ const CAT_COLORS: Record<string, string> = {
   food:          'bg-orange-50 dark:bg-orange-900/30 text-orange-700 dark:text-orange-300 hover:bg-orange-100 dark:hover:bg-orange-900/50 border-orange-200 dark:border-orange-800',
   business:      'bg-slate-50 dark:bg-slate-700/50 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 border-slate-200 dark:border-slate-600',
   science:       'bg-teal-50 dark:bg-teal-900/30 text-teal-700 dark:text-teal-300 hover:bg-teal-100 dark:hover:bg-teal-900/50 border-teal-200 dark:border-teal-800',
-  relationships: 'bg-rose-50 dark:bg-rose-900/30 text-rose-700 dark:text-rose-300 hover:bg-rose-100 dark:hover:bg-rose-900/50 border-rose-200 dark:border-rose-800',
+  relationships:  'bg-rose-50 dark:bg-rose-900/30 text-rose-700 dark:text-rose-300 hover:bg-rose-100 dark:hover:bg-rose-900/50 border-rose-200 dark:border-rose-800',
+  entertainment:  'bg-purple-50 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 hover:bg-purple-100 dark:hover:bg-purple-900/50 border-purple-200 dark:border-purple-800',
 };
 
 function ThemePicker() {
@@ -123,6 +124,7 @@ export default function Header() {
                   CAT_COLORS[cat.slug].includes('orange') ? 'hover:border-orange-500' :
                   CAT_COLORS[cat.slug].includes('slate') ? 'hover:border-slate-500' :
                   CAT_COLORS[cat.slug].includes('teal') ? 'hover:border-teal-500' :
+                  CAT_COLORS[cat.slug].includes('purple') ? 'hover:border-purple-500' :
                   'hover:border-rose-500'}`}
             >
               <span className="text-sm">{cat.icon}</span>
