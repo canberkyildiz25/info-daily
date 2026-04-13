@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
       publishedTime: post.date,
       authors: [post.author],
       url: `https://www.infodaily.net/${category}/${slug}`,
-      ...(post.coverImage ? { images: [{ url: post.coverImage, width: 800, height: 450, alt: post.title }] } : {}),
+      ...(post.coverImage ? { images: [{ url: post.coverImage, width: 1200, height: 675, alt: post.title }] } : {}),
     },
     twitter: {
       card: 'summary_large_image',
@@ -173,28 +173,39 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
             dangerouslySetInnerHTML={{
               __html: JSON.stringify({
                 '@context': 'https://schema.org',
-                '@type': 'Article',
+                '@type': 'NewsArticle',
                 headline: post.title,
                 description: post.excerpt,
-                image: post.coverImage || '',
+                image: coverImage ? {
+                  '@type': 'ImageObject',
+                  url: coverImage,
+                  width: 1200,
+                  height: 675,
+                } : undefined,
                 datePublished: post.date,
                 dateModified: post.date,
                 author: {
                   '@type': 'Person',
                   name: post.author,
+                  url: `https://www.infodaily.net/author/${authorNameToSlug(post.author)}`,
                 },
                 publisher: {
                   '@type': 'Organization',
                   name: 'InfoDaily',
+                  url: 'https://www.infodaily.net',
                   logo: {
                     '@type': 'ImageObject',
                     url: 'https://www.infodaily.net/logo.png',
+                    width: 200,
+                    height: 60,
                   },
                 },
                 mainEntityOfPage: {
                   '@type': 'WebPage',
                   '@id': `https://www.infodaily.net/${category}/${slug}`,
                 },
+                keywords: post.tags.join(', '),
+                articleSection: cat?.label,
               }),
             }}
           />
