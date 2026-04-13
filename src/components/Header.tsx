@@ -75,7 +75,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-14">
           <Link href="/" className="flex items-center gap-2.5">
             {/* Logo mark – circle with "i" */}
-            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="animate-float">
               <circle cx="18" cy="18" r="18" fill="#2563eb"/>
               <circle cx="18" cy="11" r="3" fill="white"/>
               <rect x="14.5" y="17" width="7" height="10" rx="2.5" fill="white"/>

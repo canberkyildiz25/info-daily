@@ -104,6 +104,75 @@ header {
   border-bottom-color: var(--border) !important;
 }
 
+/* ─── Keyframe animations ─────────────────────────────── */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(-12px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-4px); }
+}
+@keyframes shimmer {
+  0%   { background-position: -400% center; }
+  100% { background-position:  400% center; }
+}
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(37,99,235,0.4); }
+  50%       { box-shadow: 0 0 0 8px rgba(37,99,235,0); }
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.88); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+.animate-fade-in-up   { animation: fadeInUp 0.55s cubic-bezier(.22,1,.36,1) both; }
+.animate-fade-in      { animation: fadeIn 0.5s ease both; }
+.animate-slide-right  { animation: slideInRight 0.45s cubic-bezier(.22,1,.36,1) both; }
+.animate-float        { animation: float 3.5s ease-in-out infinite; }
+.animate-scale-in     { animation: scaleIn 0.4s cubic-bezier(.22,1,.36,1) both; }
+
+.badge-shimmer {
+  background: linear-gradient(
+    90deg,
+    #2563eb 0%, #60a5fa 40%, #2563eb 60%, #1d4ed8 100%
+  );
+  background-size: 300% auto;
+  animation: shimmer 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Stagger helpers */
+.delay-75  { animation-delay: 75ms; }
+.delay-150 { animation-delay: 150ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+.delay-600 { animation-delay: 600ms; }
+.delay-700 { animation-delay: 700ms; }
+
+/* Card hover lift */
+.card-hover {
+  transition: transform 0.25s cubic-bezier(.22,1,.36,1),
+              box-shadow 0.25s cubic-bezier(.22,1,.36,1),
+              border-color 0.25s ease;
+}
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 32px -8px rgba(0,0,0,0.12), 0 4px 12px -4px rgba(37,99,235,0.08);
+}
+
 /* ─── Smooth images ───────────────────────────────────── */
 img {
   transition: opacity 0.3s ease;

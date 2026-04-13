@@ -1,6 +1,7 @@
 import { getAllPosts, CATEGORIES } from '@/lib/posts';
 import ArticleCard from '@/components/ArticleCard';
 import AdBanner from '@/components/AdBanner';
+import TrendingTopics from '@/components/TrendingTopics';
 import { getCoverImageUrl } from '@/lib/pexels';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -31,19 +32,22 @@ export default async function HomePage() {
 
       {/* Hero */}
       <section className="mb-8">
-        <h1 className="text-3xl sm:text-4xl font-black text-gray-900 dark:text-slate-100 mb-2">
+        <h1 className="animate-fade-in-up text-3xl sm:text-4xl font-black text-gray-900 dark:text-slate-100 mb-2">
           Knowledge for Every Day
         </h1>
-        <p className="text-gray-500 dark:text-slate-400 text-lg">
+        <p className="animate-fade-in-up delay-150 text-gray-500 dark:text-slate-400 text-lg">
           Expert articles on health, finance, technology, travel, food, science, and more — all in one place.
         </p>
       </section>
+
+      {/* Trending Topics */}
+      <TrendingTopics />
 
       {/* Article of the Day */}
       {todayPost && (
         <section className="mb-10">
           <div className="flex items-center gap-2 mb-4">
-            <span className="bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+            <span className="animate-scale-in bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow-md shadow-blue-500/30" style={{ animation: 'scaleIn 0.4s cubic-bezier(.22,1,.36,1) both, pulse-glow 2.5s ease-in-out 0.5s infinite' }}>
               ✦ Article of the Day
             </span>
             <span className="text-xs text-gray-400 dark:text-slate-500">
@@ -107,8 +111,10 @@ export default async function HomePage() {
       <section className="mb-10">
         <h2 className="text-xl font-bold text-gray-900 dark:text-slate-100 mb-5">Featured Articles</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {featuredPosts.map(post => (
-            <ArticleCard key={`${post.category}-${post.slug}`} post={post} featured />
+          {featuredPosts.map((post, i) => (
+            <div key={`${post.category}-${post.slug}`} className="animate-fade-in-up" style={{ animationDelay: `${i * 80}ms` }}>
+              <ArticleCard post={post} featured />
+            </div>
           ))}
         </div>
       </section>
@@ -123,8 +129,10 @@ export default async function HomePage() {
         <div className="lg:col-span-2">
           <h2 className="text-xl font-bold text-gray-900 dark:text-slate-100 mb-4">Latest Articles</h2>
           <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm p-4">
-            {latestPosts.map(post => (
-              <ArticleCard key={`${post.category}-${post.slug}`} post={post} />
+            {latestPosts.map((post, i) => (
+              <div key={`${post.category}-${post.slug}`} className="animate-slide-right" style={{ animationDelay: `${i * 60}ms` }}>
+                <ArticleCard post={post} />
+              </div>
             ))}
           </div>
         </div>
