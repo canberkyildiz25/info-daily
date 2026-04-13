@@ -1,5 +1,5 @@
 import { getPost, getAllPosts, CATEGORIES } from '@/lib/posts';
-import { AdPlaceholder } from '@/components/AdBanner';
+import AdBanner from '@/components/AdBanner';
 import ArticleHeroImage from '@/components/ArticleHeroImage';
 import { getCoverImageUrl } from '@/lib/pexels';
 import { injectInlineImages } from '@/lib/injectImages';
@@ -74,7 +74,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
       <ReadingProgress />
       {/* Top Ad */}
       <div className="mb-8">
-        <AdPlaceholder label="Advertisement – 728×90" height={90} />
+        <AdBanner slot="1155480823" format="horizontal" />
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -140,7 +140,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
 
           {/* In-article ad */}
           <div className="mb-8">
-            <AdPlaceholder label="Advertisement – 336×280" height={280} />
+            <AdBanner slot="1155480823" format="rectangle" />
           </div>
 
           {/* Content */}
@@ -224,13 +224,13 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
 
           {/* Bottom ad */}
           <div className="mt-8">
-            <AdPlaceholder label="Advertisement – 728×90" height={90} />
+            <AdBanner slot="1155480823" format="horizontal" />
           </div>
         </article>
 
         {/* Sidebar */}
         <aside className="space-y-6">
-          <AdPlaceholder label="Advertisement – 300×250" height={250} />
+          <AdBanner slot="1155480823" format="rectangle" />
 
           <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm p-5">
             <h3 className="font-bold text-gray-900 dark:text-slate-100 mb-4">Browse Categories</h3>
@@ -247,7 +247,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
             </div>
           </div>
 
-          <AdPlaceholder label="Advertisement – 300×600" height={300} />
+          <AdBanner slot="1155480823" format="vertical" />
         </aside>
       </div>
     </div>
