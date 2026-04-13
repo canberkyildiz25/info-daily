@@ -8,7 +8,7 @@ interface AdBannerProps {
 }
 
 // Replace with your actual AdSense Publisher ID
-const ADSENSE_CLIENT = 'ca-pub-XXXXXXXXXXXXXXXX';
+const ADSENSE_CLIENT = 'ca-pub-3696555619228561';
 
 export default function AdBanner({ slot, format = 'auto', className = '' }: AdBannerProps) {
   useEffect(() => {
