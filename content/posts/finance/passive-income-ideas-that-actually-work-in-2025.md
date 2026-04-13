@@ -1,7 +1,7 @@
 ---
-title: "Passive Income Ideas That Actually Work in 2025"
+title: "Passive Income Ideas That Actually Work in 2026"
 excerpt: "True passive income requires real work upfront. These proven streams — ranked by startup effort and realistic returns — can genuinely reduce your financial dependence on a paycheck."
-date: "2025-11-03"
+date: "2026-11-03"
 author: "James Park, CFP"
 coverImage: "https://picsum.photos/seed/205/800/450"
 tags: ["passive income", "side income", "investing", "financial freedom", "wealth building"]
@@ -9,7 +9,7 @@ tags: ["passive income", "side income", "investing", "financial freedom", "wealt
 
 "Passive income" is one of the most misused phrases in personal finance. Most content about it is actually about semi-passive income (things that require ongoing maintenance) or active income disguised as passive (like dropshipping, which requires constant work). True passive income — money that flows without continuous active effort — does exist, but building it requires significant effort upfront.
 
-Here are the passive income streams that genuinely work in 2025, ranked from lowest to highest startup effort.
+Here are the passive income streams that genuinely work in 2026, ranked from lowest to highest startup effort.
 
 ## Dividend Investing (Low Startup Effort)
 
@@ -25,7 +25,7 @@ Here are the passive income streams that genuinely work in 2025, ranked from low
 
 **How it works:** Park cash in an HYSA or certificate of deposit (CD) and earn interest.
 
-**Realistic returns:** As of 2025, HYSAs offer 4–5% APY at online banks. CDs can offer slightly more for locking up money for 6–24 months.
+**Realistic returns:** As of 2026, HYSAs offer 4–5% APY at online banks. CDs can offer slightly more for locking up money for 6–24 months.
 
 **The catch:** Returns fluctuate with Federal Reserve rate decisions. This is best for emergency funds and short-term savings, not a long-term wealth-building strategy.
 
@@ -51,7 +51,7 @@ Here are the passive income streams that genuinely work in 2025, ranked from low
 
 **The catch:** It requires significant capital for down payments (typically 20–25% for investment properties), ongoing landlord responsibilities (even with a property manager), and market knowledge. It is not as passive as advertised — but it is one of the most proven long-term wealth builders.
 
-**2025 consideration:** With high interest rates, finding cash-flow-positive properties requires careful market selection. Secondary markets (smaller cities) typically offer better cap rates than major metros.
+**2026 consideration:** With high interest rates, finding cash-flow-positive properties requires careful market selection. Secondary markets (smaller cities) typically offer better cap rates than major metros.
 
 ## REITs (Real Estate Without Landlord Duties)
 

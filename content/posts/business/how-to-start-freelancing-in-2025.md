@@ -1,7 +1,7 @@
 ---
-title: "How to Start Freelancing in 2025: A Step-by-Step Guide"
+title: "How to Start Freelancing in 2026: A Step-by-Step Guide"
 excerpt: "Freelancing is more accessible than ever — but most beginners make avoidable mistakes. Here's exactly how to start smart and land your first client."
-date: "2025-04-03"
+date: "2026-04-03"
 author: "David Kim"
 coverImage: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80"
 tags: ["freelancing", "side income", "career", "business", "remote work"]
@@ -9,7 +9,7 @@ tags: ["freelancing", "side income", "career", "business", "remote work"]
 
 Freelancing has never been more viable. A 2024 Upwork report found that 38% of the U.S. workforce freelanced in the past year, contributing $1.27 trillion to the economy. Remote work normalization, AI tools that multiply solo output, and a global client market mean the barrier to entry is genuinely low — if you know how to approach it.
 
-Here's what actually works in 2025.
+Here's what actually works in 2026.
 
 ## Step 1: Pick One Skill, Not Five
 
@@ -21,7 +21,7 @@ Pick the single skill you're most confident in. Even if it feels limiting, speci
 - Web design (specifically for e-commerce or restaurants or SaaS)
 - Video editing (for YouTubers or businesses)
 - Bookkeeping (particularly in demand with remote businesses)
-- LinkedIn ghostwriting (exploding category in 2025)
+- LinkedIn ghostwriting (exploding category in 2026)
 - Python/JavaScript development
 - UX research
 
@@ -97,4 +97,4 @@ These are medians, not ceilings. The people who scale fast are those who special
 - **Proposals:** Notion or a simple PDF template
 - **Client communication:** Regular email — don't overcomplicate it
 
-Freelancing in 2025 is competitive but not saturated at the quality end. Most freelancers are mediocre communicators who underdeliver. Being reliable, clear, and good at your craft puts you in the top 20% faster than any other strategy.
+Freelancing in 2026 is competitive but not saturated at the quality end. Most freelancers are mediocre communicators who underdeliver. Being reliable, clear, and good at your craft puts you in the top 20% faster than any other strategy.
