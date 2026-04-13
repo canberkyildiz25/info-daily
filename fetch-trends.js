@@ -100,11 +100,15 @@ ${allTopics.map((t, i) => `${i + 1}. ${t}`).join('\n')}
 Your task: pick ${count} of these that you can turn into a useful, readable article — then write a proper article TITLE for each.
 
 SELECTION CRITERIA:
-✅ Pick trends about: health topics, money/finance, career, relationships, lifestyle, entertainment (movies/music/TV), technology, science discoveries, travel
-✅ "Who is [Person]?" → good if it's a rising celebrity or newly notable figure
-✅ Major product launches, new TV shows, trending health topics, viral social phenomena
-❌ Skip: pure political news, war/conflict, crime, sports scores, hyper-local stories
+✅ Pick trends about: health & wellness, money/finance, career, relationships, lifestyle, entertainment (movies/music/TV shows), technology products, science discoveries, travel destinations
+✅ "Who is [Person]?" → good ONLY if it's a rising entertainer, athlete, or newly notable public figure (not scandal-related)
+✅ Major product launches, new TV shows/movies, trending health topics, viral lifestyle phenomena
+❌ STRICTLY SKIP: celebrity arrests, rehab, divorce, affairs, lawsuits, deaths, mental health crises
+❌ STRICTLY SKIP: political news, war/conflict, crime, court cases, sports scores
+❌ STRICTLY SKIP: anything gossip-based or where the hook is someone's personal misfortune
 ❌ Skip anything where you'd need breaking news to write it well
+
+The site should feel like a helpful lifestyle magazine — not a tabloid.
 
 For each picked trend, write a compelling, SEO-friendly article title (not the raw headline — turn it into something people would search for).
 
