@@ -11,6 +11,8 @@ import BookmarkButton from '@/components/BookmarkButton';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { authorNameToSlug } from '@/lib/authors';
+import { extractFaqFromHtml, buildFaqJsonLd } from '@/lib/faq';
 
 export async function generateStaticParams() {
   const posts = getAllPosts();
@@ -70,6 +72,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
   // Inject inline images after every 2nd section heading
   const contentWithImages = await injectInlineImages(post.content || '', post.title);
 
+  // Extract FAQ schema from article headings ending with "?"
+  const faqJsonLd = buildFaqJsonLd(extractFaqFromHtml(contentWithImages));
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <ReadingProgress />
@@ -115,7 +120,12 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
                   {post.author.charAt(0)}
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-gray-800 dark:text-slate-200">{post.author}</p>
+                  <Link
+                    href={`/author/${authorNameToSlug(post.author)}`}
+                    className="text-sm font-semibold text-gray-800 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                  >
+                    {post.author}
+                  </Link>
                   <p className="text-xs text-gray-400 dark:text-slate-500">
                     {new Date(post.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
                   </p>
@@ -203,6 +213,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
               }),
             }}
           />
+
+          {/* FAQ JSON-LD */}
+          {faqJsonLd && (
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+            />
+          )}
 
           {/* Share buttons */}
           <ShareButtons

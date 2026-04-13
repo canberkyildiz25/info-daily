@@ -60,6 +60,10 @@ export function getPostsByCategory(category: string): Post[] {
   return getAllPosts().filter(p => p.category === category);
 }
 
+export function getPostsByAuthor(authorName: string): Post[] {
+  return getAllPosts().filter(p => p.author === authorName);
+}
+
 export async function getPost(category: string, slug: string): Promise<Post | null> {
   const fullPath = path.join(postsDirectory, category, `${slug}.md`);
   if (!fs.existsSync(fullPath)) return null;
