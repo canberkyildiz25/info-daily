@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 
 interface AdBannerProps {
   slot: string;
-  format?: 'auto' | 'rectangle' | 'horizontal' | 'vertical';
+  format?: 'auto' | 'rectangle' | 'horizontal' | 'vertical' | 'fluid';
   className?: string;
 }
 
@@ -18,17 +18,30 @@ export default function AdBanner({ slot, format = 'auto', className = '' }: AdBa
     } catch (e) {}
   }, []);
 
+  const isFluid = format === 'fluid';
+
   return (
     <div className={`adsense-container overflow-hidden text-center ${className}`}>
       <ins
         className="adsbygoogle"
-        style={{ display: 'block' }}
+        style={{ display: 'block', textAlign: isFluid ? 'center' : undefined }}
         data-ad-client={ADSENSE_CLIENT}
         data-ad-slot={slot}
+        data-ad-layout={isFluid ? 'in-article' : undefined}
         data-ad-format={format}
-        data-full-width-responsive="true"
+        data-full-width-responsive={isFluid ? undefined : 'true'}
       />
     </div>
+  );
+}
+
+export function InArticleAd() {
+  return (
+    <AdBanner
+      slot="2054764996"
+      format="fluid"
+      className="in-article-ad"
+    />
   );
 }
 

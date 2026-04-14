@@ -1,5 +1,5 @@
 import { getPost, getAllPosts, CATEGORIES } from '@/lib/posts';
-import AdBanner from '@/components/AdBanner';
+import AdBanner, { InArticleAd } from '@/components/AdBanner';
 import ArticleHeroImage from '@/components/ArticleHeroImage';
 import { getCoverImageUrl } from '@/lib/pexels';
 import { injectInlineImages } from '@/lib/injectImages';
@@ -75,16 +75,16 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
   // Extract FAQ schema from article headings ending with "?"
   const faqJsonLd = buildFaqJsonLd(extractFaqFromHtml(contentWithImages));
 
-  // Split content after 3rd </p> to inject mid-content ad
+  // Split content after 2nd </p> to inject in-article ad (Google recommendation)
   const splitContent = (() => {
     let count = 0;
     let splitIndex = -1;
     let from = 0;
-    while (count < 3) {
+    while (count < 2) {
       const idx = contentWithImages.indexOf('</p>', from);
       if (idx === -1) break;
       count++;
-      if (count === 3) splitIndex = idx + '</p>'.length;
+      if (count === 2) splitIndex = idx + '</p>'.length;
       from = idx + 4;
     }
     if (splitIndex === -1) return { first: contentWithImages, second: '' };
@@ -168,21 +168,16 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
             icon={cat?.icon}
           />
 
-          {/* In-article ad */}
-          <div className="mb-8">
-            <AdBanner slot="1155480823" format="rectangle" />
-          </div>
-
-          {/* Content — first part */}
+          {/* Content — first part (2 paragraphs) */}
           <div
             className="prose prose-lg prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-slate-100 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-slate-100"
             dangerouslySetInnerHTML={{ __html: splitContent.first }}
           />
 
-          {/* Mid-content ad */}
+          {/* In-article ad after 2nd paragraph */}
           {splitContent.second && (
-            <div className="my-8 not-prose">
-              <AdBanner slot="1155480823" format="rectangle" />
+            <div className="my-6 not-prose">
+              <InArticleAd />
             </div>
           )}
 
