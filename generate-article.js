@@ -99,6 +99,7 @@ async function generateArticle(title, category, client) {
   }
 
   const today = new Date().toISOString().split('T')[0];
+  const currentYear = new Date().getFullYear();
   const slug = titleToSlug(title);
   const outputPath = path.join('content', 'posts', category, `${slug}.md`);
 
@@ -109,6 +110,8 @@ async function generateArticle(title, category, client) {
   const coverImage = getCoverImageByKeyword(category, title);
 
   const prompt = `You are an expert content writer for InfoDaily, a knowledge website. Write a comprehensive, SEO-optimized article about: "${title}"
+
+IMPORTANT: Today's date is ${today}. The current year is ${currentYear}. If the title contains a year, use that year consistently throughout the article. Do NOT use outdated years (e.g. if title says ${currentYear}, never write ${currentYear - 1} as the current year in the content).
 
 REQUIREMENTS:
 - Length: 900-1300 words of actual content
