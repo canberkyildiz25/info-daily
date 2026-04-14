@@ -1,5 +1,7 @@
 import { getAllPosts } from '@/lib/posts';
 
+export const dynamic = 'force-dynamic';
+
 const SITE_URL = 'https://www.infodaily.net';
 const SITE_TITLE = 'InfoDaily – Health, Finance, Tech & Life Hacks';
 const SITE_DESCRIPTION = 'Expert articles on health, finance, technology, life hacks, travel, food, business, science, and relationships.';
