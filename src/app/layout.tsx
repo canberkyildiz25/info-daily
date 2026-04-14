@@ -75,6 +75,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <link rel="alternate" type="application/rss+xml" title="InfoDaily RSS Feed" href="https://www.infodaily.net/feed.xml" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3696555619228561" crossOrigin="anonymous" />
         {/* Google Analytics */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-PD06ZLVSY6" />
