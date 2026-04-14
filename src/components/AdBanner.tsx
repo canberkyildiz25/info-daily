@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 
 interface AdBannerProps {
   slot: string;
-  format?: 'auto' | 'rectangle' | 'horizontal' | 'vertical' | 'fluid';
+  format?: 'auto' | 'rectangle' | 'horizontal' | 'vertical' | 'fluid' | 'autorelaxed';
   className?: string;
 }
 
@@ -32,6 +32,15 @@ export default function AdBanner({ slot, format = 'auto', className = '' }: AdBa
         data-full-width-responsive={isFluid ? undefined : 'true'}
       />
     </div>
+  );
+}
+
+export function MultiplexAd() {
+  return (
+    <AdBanner
+      slot="7889545600"
+      format="autorelaxed"
+    />
   );
 }
 

@@ -1,5 +1,5 @@
 import { getPost, getAllPosts, CATEGORIES } from '@/lib/posts';
-import AdBanner, { InArticleAd } from '@/components/AdBanner';
+import AdBanner, { InArticleAd, MultiplexAd } from '@/components/AdBanner';
 import ArticleHeroImage from '@/components/ArticleHeroImage';
 import { getCoverImageUrl } from '@/lib/pexels';
 import { injectInlineImages } from '@/lib/injectImages';
@@ -280,6 +280,11 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
               </div>
             </div>
           )}
+
+          {/* Multiplex ad before related articles */}
+          <div className="mt-8 not-prose">
+            <MultiplexAd />
+          </div>
 
           {/* Related articles */}
           <RelatedArticles
