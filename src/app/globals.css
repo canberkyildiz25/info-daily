@@ -60,6 +60,54 @@
   --accent-light:  #082010;
 }
 
+[data-theme="sunset"] {
+  --bg-base:       #1a0a00;
+  --bg-card:       #2d1200;
+  --bg-card-hover: #3f1c00;
+  --bg-header:     rgba(26,10,0,0.92);
+  --text-base:     #fff1e6;
+  --text-muted:    #fdba74;
+  --border:        #7c2d12;
+  --accent:        #f97316;
+  --accent-light:  #431407;
+}
+
+[data-theme="rose"] {
+  --bg-base:       #fff1f2;
+  --bg-card:       #ffffff;
+  --bg-card-hover: #ffe4e6;
+  --bg-header:     rgba(255,241,242,0.88);
+  --text-base:     #1f0a0c;
+  --text-muted:    #9f1239;
+  --border:        #fecdd3;
+  --accent:        #e11d48;
+  --accent-light:  #ffe4e6;
+}
+
+[data-theme="midnight"] {
+  --bg-base:       #0a0514;
+  --bg-card:       #130b24;
+  --bg-card-hover: #1e1138;
+  --bg-header:     rgba(10,5,20,0.93);
+  --text-base:     #ede9fe;
+  --text-muted:    #a78bfa;
+  --border:        #2e1a5a;
+  --accent:        #7c3aed;
+  --accent-light:  #1e0a3c;
+}
+
+[data-theme="sepia"] {
+  --bg-base:       #f5f0e8;
+  --bg-card:       #faf6ee;
+  --bg-card-hover: #ede5d4;
+  --bg-header:     rgba(245,240,232,0.88);
+  --text-base:     #2c1a0e;
+  --text-muted:    #7c5c3a;
+  --border:        #d4c4a8;
+  --accent:        #92400e;
+  --accent-light:  #fde8c8;
+}
+
 /* ─── Hide Google Translate banner ───────────────────── */
 .goog-te-banner-frame, .skiptranslate { display: none !important; }
 body { top: 0 !important; }
@@ -74,27 +122,37 @@ body {
 
 /* ─── Override card / surface backgrounds ────────────── */
 [data-theme="ocean"] .bg-white,
-[data-theme="forest"] .bg-white {
+[data-theme="forest"] .bg-white,
+[data-theme="sunset"] .bg-white,
+[data-theme="midnight"] .bg-white {
   background-color: var(--bg-card) !important;
 }
 
 [data-theme="ocean"] .bg-gray-50,
-[data-theme="forest"] .bg-gray-50 {
+[data-theme="forest"] .bg-gray-50,
+[data-theme="sunset"] .bg-gray-50,
+[data-theme="midnight"] .bg-gray-50 {
   background-color: var(--bg-base) !important;
 }
 
 [data-theme="ocean"] .dark\:bg-slate-800,
-[data-theme="forest"] .dark\:bg-slate-800 {
+[data-theme="forest"] .dark\:bg-slate-800,
+[data-theme="sunset"] .dark\:bg-slate-800,
+[data-theme="midnight"] .dark\:bg-slate-800 {
   background-color: var(--bg-card) !important;
 }
 
 [data-theme="ocean"] .dark\:bg-slate-900,
-[data-theme="forest"] .dark\:bg-slate-900 {
+[data-theme="forest"] .dark\:bg-slate-900,
+[data-theme="sunset"] .dark\:bg-slate-900,
+[data-theme="midnight"] .dark\:bg-slate-900 {
   background-color: var(--bg-base) !important;
 }
 
 [data-theme="ocean"] .dark\:border-slate-700,
-[data-theme="forest"] .dark\:border-slate-700 {
+[data-theme="forest"] .dark\:border-slate-700,
+[data-theme="sunset"] .dark\:border-slate-700,
+[data-theme="midnight"] .dark\:border-slate-700 {
   border-color: var(--border) !important;
 }
 

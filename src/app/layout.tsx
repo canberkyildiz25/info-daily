@@ -1,15 +1,37 @@
 import type { Metadata } from 'next';
-import { Plus_Jakarta_Sans } from 'next/font/google';
+import { Plus_Jakarta_Sans, Inter, Merriweather, Playfair_Display, Lora } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ThemeProvider from '@/components/ThemeProvider';
+import FontProvider from '@/components/FontProvider';
+import NotificationPrompt from '@/components/NotificationPrompt';
 import { Analytics } from '@vercel/analytics/next';
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700', '800'],
   variable: '--font-jakarta',
+});
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-inter',
+});
+const merriweather = Merriweather({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-merriweather',
+});
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'],
+  variable: '--font-playfair',
+});
+const lora = Lora({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'],
+  variable: '--font-lora',
 });
 
 export const metadata: Metadata = {
@@ -81,7 +103,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-PD06ZLVSY6" />
         <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-PD06ZLVSY6');` }} />
       </head>
-      <body className={`${jakarta.variable} font-sans bg-gray-50 dark:bg-slate-900 text-gray-900 dark:text-slate-100 antialiased`} suppressHydrationWarning>
+      <body className={`${jakarta.variable} ${inter.variable} ${merriweather.variable} ${playfair.variable} ${lora.variable} font-sans bg-gray-50 dark:bg-slate-900 text-gray-900 dark:text-slate-100 antialiased`} suppressHydrationWarning>
         <script
           suppressHydrationWarning
           dangerouslySetInnerHTML={{
@@ -89,9 +111,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
         <ThemeProvider>
-          <Header />
-          <main className="min-h-screen">{children}</main>
-          <Footer />
+          <FontProvider>
+            <Header />
+            <main className="min-h-screen">{children}</main>
+            <NotificationPrompt />
+            <Footer />
+          </FontProvider>
         </ThemeProvider>
         <Analytics />
         {/* Google Translate */}

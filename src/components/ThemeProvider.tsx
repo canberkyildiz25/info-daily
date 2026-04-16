@@ -1,13 +1,17 @@
 'use client';
 import { createContext, useContext, useEffect, useState } from 'react';
 
-export type Theme = 'light' | 'dark' | 'ocean' | 'forest';
+export type Theme = 'light' | 'dark' | 'ocean' | 'forest' | 'sunset' | 'rose' | 'midnight' | 'sepia';
 
 export const THEMES: { id: Theme; label: string; icon: string; dark: boolean }[] = [
-  { id: 'light',  label: 'Light',  icon: '☀️',  dark: false },
-  { id: 'dark',   label: 'Dark',   icon: '🌙',  dark: true  },
-  { id: 'ocean',  label: 'Ocean',  icon: '🌊',  dark: true  },
-  { id: 'forest', label: 'Forest', icon: '🌲',  dark: true  },
+  { id: 'light',    label: 'Light',    icon: '☀️',  dark: false },
+  { id: 'dark',     label: 'Dark',     icon: '🌙',  dark: true  },
+  { id: 'ocean',    label: 'Ocean',    icon: '🌊',  dark: true  },
+  { id: 'forest',   label: 'Forest',   icon: '🌲',  dark: true  },
+  { id: 'sunset',   label: 'Sunset',   icon: '🌅',  dark: true  },
+  { id: 'rose',     label: 'Rose',     icon: '🌸',  dark: false },
+  { id: 'midnight', label: 'Midnight', icon: '🔮',  dark: true  },
+  { id: 'sepia',    label: 'Sepia',    icon: '📜',  dark: false },
 ];
 
 interface ThemeCtx { theme: Theme; setTheme: (t: Theme) => void; }
