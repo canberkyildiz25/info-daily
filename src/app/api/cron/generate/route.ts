@@ -173,6 +173,27 @@ tags: ["tag1", "tag2", "tag3", "tag4", "tag5"]
 
       await commitFileToGitHub(filePath, content.trim() + '\n', title, githubToken, githubRepo);
       generated.push({ title, category, slug });
+
+      // Send push notification to subscribers
+      try {
+        const excerptMatch = content.match(/excerpt:\s*"([^"]+)"/);
+        const excerpt = excerptMatch?.[1] ?? 'A new article is waiting for you!';
+        await fetch(`${process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.infodaily.net'}/api/push/send`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${process.env.CRON_SECRET}`,
+          },
+          body: JSON.stringify({
+            title,
+            excerpt,
+            url: `https://www.infodaily.net/${category}/${slug}`,
+            category,
+          }),
+        });
+      } catch {
+        // Push failure should not block article generation
+      }
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : 'Unknown error';
       skipped.push(`${title}: ${msg}`);
