@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     default: 'InfoDaily – Health, Finance, Tech & Life Hacks',
     template: '%s | InfoDaily',
   },
-  description: 'InfoDaily brings you expert-written articles on health, personal finance, technology, life hacks, and travel to help you live smarter every day.',
+  description: 'InfoDaily brings you expert-written articles on health, finance, technology, life hacks, travel, food, business, science, relationships, and entertainment to help you live smarter every day.',
   keywords: [
     'health tips', 'personal finance', 'technology news', 'life hacks', 'travel guide',
     'food recipes', 'business advice', 'science facts', 'relationship tips',

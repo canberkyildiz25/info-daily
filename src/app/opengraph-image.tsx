@@ -43,7 +43,7 @@ export default function OGImage() {
           Knowledge for Every Day
         </p>
         <div style={{ display: 'flex', gap: '16px' }}>
-          {['Health', 'Finance', 'Technology', 'Travel', 'Life Hacks'].map(cat => (
+          {['Health', 'Finance', 'Technology', 'Travel', 'Science', 'Business', 'Entertainment'].map(cat => (
             <div
               key={cat}
               style={{
