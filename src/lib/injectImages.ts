@@ -10,7 +10,7 @@ function imageHtml(src: string, alt: string): string {
 </figure>`;
 }
 
-export async function injectInlineImages(html: string, articleTitle: string): Promise<string> {
+export async function injectInlineImages(html: string, articleTitle: string, category?: string): Promise<string> {
   // Split on <h2 boundaries (keep the delimiter)
   const parts = html.split(/(?=<h2[\s>])/);
 
@@ -28,7 +28,7 @@ export async function injectInlineImages(html: string, articleTitle: string): Pr
       if (!h2Match) continue;
 
       const headingText = stripTags(h2Match[1]);
-      const query = `${headingText} ${articleTitle}`.slice(0, 60);
+      const query = `${category ? category + ' ' : ''}${headingText}`.slice(0, 60);
 
       const imageUrl =
         (await getPexelsImage(query, headingText)) ??

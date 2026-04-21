@@ -21,6 +21,8 @@ export interface Post {
   readingTime: string;
   tags: string[];
   content?: string;
+  noInlineImages?: boolean;
+  imagePosition?: string;
 }
 
 export function getAllPosts(): Post[] {
@@ -86,5 +88,7 @@ export async function getPost(category: string, slug: string): Promise<Post | nu
     readingTime: stats.text,
     tags: data.tags || [],
     content: htmlContent,
+    noInlineImages: data.noInlineImages ?? false,
+    imagePosition: data.imagePosition,
   };
 }

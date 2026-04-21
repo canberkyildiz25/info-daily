@@ -8,9 +8,10 @@ interface ArticleHeroImageProps {
   alt: string;
   gradient: string;
   icon?: string;
+  objectPosition?: string;
 }
 
-export default function ArticleHeroImage({ src, alt, gradient, icon }: ArticleHeroImageProps) {
+export default function ArticleHeroImage({ src, alt, gradient, icon, objectPosition = 'center' }: ArticleHeroImageProps) {
   const [imageError, setImageError] = useState(false);
 
   return (
@@ -21,6 +22,7 @@ export default function ArticleHeroImage({ src, alt, gradient, icon }: ArticleHe
           alt={alt}
           fill
           className="object-cover"
+          style={{ objectPosition }}
           priority
           sizes="(max-width: 1024px) 100vw, 66vw"
           onError={() => setImageError(true)}

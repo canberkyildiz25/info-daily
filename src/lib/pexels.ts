@@ -30,11 +30,10 @@ export async function getPexelsImage(query: string, seed?: string): Promise<stri
   }
 }
 
-// Fallback: Unsplash Source (no API key needed)
+// Fallback: picsum.photos (no API key needed, stable URLs)
 export function getUnsplashFallback(query: string, seed: string): string {
-  const keywords = encodeURIComponent(query.split(' ').slice(0, 3).join(','));
   const sig = Math.abs(seed.split('').reduce((a, c) => a * 31 + c.charCodeAt(0), 0) % 1000);
-  return `https://source.unsplash.com/1200x675/?${keywords}&sig=${sig}`;
+  return `https://picsum.photos/seed/${sig}/800/450`;
 }
 
 export async function getCoverImageUrl(query: string, seed: string): Promise<string> {

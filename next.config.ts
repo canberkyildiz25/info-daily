@@ -30,6 +30,16 @@ const nextConfig: NextConfig = {
         hostname: 'images.pexels.com',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.katseye.world',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'deadline.com',
+        pathname: '/**',
+      },
     ],
     unoptimized: process.env.NEXT_PUBLIC_DISABLE_STATIC_OPTIMIZATION === 'true',
     minimumCacheTTL: 60,

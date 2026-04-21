@@ -63,14 +63,18 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
   const cat = CATEGORIES.find(c => c.slug === category);
   const gradient = CATEGORY_GRADIENTS[category] ?? 'from-blue-500 to-indigo-600';
 
-  // Upgrade cover image via Pexels if available
-  const coverImage = await getCoverImageUrl(
-    `${post.title} ${category}`,
-    post.slug,
-  ) || post.coverImage;
+  // Use frontmatter coverImage if valid, otherwise fetch from Pexels
+  const hasFrontmatterImage = post.coverImage &&
+    !post.coverImage.startsWith('/images/') &&
+    !post.coverImage.includes('source.unsplash.com');
+  const coverImage = hasFrontmatterImage
+    ? post.coverImage
+    : await getCoverImageUrl(`${post.title} ${category}`, post.slug) || post.coverImage;
 
-  // Inject inline images after every 2nd section heading
-  const contentWithImages = await injectInlineImages(post.content || '', post.title);
+  // Inject inline images after every 2nd section heading (skipped if noInlineImages: true)
+  const contentWithImages = post.noInlineImages
+    ? (post.content || '')
+    : await injectInlineImages(post.content || '', post.title, category);
 
   // Extract FAQ schema from article headings ending with "?"
   const faqJsonLd = buildFaqJsonLd(extractFaqFromHtml(contentWithImages));
@@ -166,6 +170,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
             alt={post.title}
             gradient={gradient}
             icon={cat?.icon}
+            objectPosition={post.imagePosition}
           />
 
           {/* Content — first part (2 paragraphs) */}
