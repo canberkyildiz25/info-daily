@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
 import Image from 'next/image';
+import matter from 'gray-matter';
 import { getCoverImageUrl } from '@/lib/pexels';
 
 interface Topic {
@@ -36,9 +37,16 @@ function getRawTopics() {
       const category = parts[1].trim().toLowerCase();
       const slug = titleToSlug(title);
       const articlePath = path.join(process.cwd(), 'content', 'posts', category, `${slug}.md`);
-      return { title, category, slug, exists: fs.existsSync(articlePath) };
+      const exists = fs.existsSync(articlePath);
+      let coverImage: string | null = null;
+      if (exists) {
+        const raw = fs.readFileSync(articlePath, 'utf8');
+        const { data } = matter(raw);
+        coverImage = data.coverImage ?? null;
+      }
+      return { title, category, slug, exists, coverImage };
     })
-    .filter(Boolean) as { title: string; category: string; slug: string; exists: boolean }[];
+    .filter(Boolean) as { title: string; category: string; slug: string; exists: boolean; coverImage: string | null }[];
 }
 
 const CAT_ICONS: Record<string, string> = {
@@ -74,7 +82,9 @@ export default async function TrendingTopics() {
   const withImages = await Promise.all(
     raw.map(async t => ({
       ...t,
-      image: await getCoverImageUrl(`${t.title} ${t.category}`, t.slug),
+      image: (t.coverImage && !t.coverImage.includes('source.unsplash.com'))
+        ? t.coverImage
+        : await getCoverImageUrl(`${t.title} ${t.category}`, t.slug),
     }))
   );
 

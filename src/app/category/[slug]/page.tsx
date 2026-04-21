@@ -47,10 +47,17 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
 
   const rawPosts = getPostsByCategory(slug);
   const posts = await Promise.all(
-    rawPosts.map(async post => ({
-      ...post,
-      coverImage: await getCoverImageUrl(`${post.title} ${post.category}`, post.slug) || post.coverImage,
-    }))
+    rawPosts.map(async post => {
+      const hasValidImage = post.coverImage &&
+        !post.coverImage.startsWith('/images/') &&
+        !post.coverImage.includes('source.unsplash.com');
+      return {
+        ...post,
+        coverImage: hasValidImage
+          ? post.coverImage
+          : await getCoverImageUrl(`${post.title} ${post.category}`, post.slug) || post.coverImage,
+      };
+    })
   );
 
   return (

@@ -4,7 +4,8 @@ excerpt: "After a four-year wait, Euphoria Season 3 is finally here. New cast me
 date: "2026-04-13"
 author: "Emma Johnson"
 tags: ["Euphoria", "HBO", "TV shows", "Zendaya", "season 3", "entertainment"]
-coverImage: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800&q=80"
+coverImage: "https://deadline.com/wp-content/uploads/2025/02/Euphoria-EWK.jpg"
+noInlineImages: true
 ---
 
 Four years. That's how long Euphoria fans have waited for Season 3. After the chaos of Season 2, the behind-the-scenes drama, cast shake-ups, and years of cryptic social media teases, the new season premiered on HBO on April 12, 2026 — and it was worth the wait.
@@ -23,6 +24,8 @@ One of the biggest structural changes in Season 3 is a time jump. The characters
 
 This shift allows the show to explore addiction, identity, and relationships with a new layer of consequence. The recklessness of adolescence now carries adult weight.
 
+![Zendaya as Rue — Euphoria Season 3](https://deadline.com/wp-content/uploads/2026/02/zendaya.jpg)
+
 ## Zendaya Returns as Rue — But Different
 
 Zendaya remains the center of the show, and by all accounts delivers her most nuanced performance yet. Rue in Season 3 is not the same person we watched spiral in Season 1 and 2. She's older, more self-aware, and in a more complicated relationship with her own recovery.
@@ -34,6 +37,8 @@ The show doesn't romanticize sobriety any more than it romanticized addiction �
 Season 3 introduces several new characters that shake up the East Highland dynamic. Without spoiling specifics, the new additions bring perspectives from outside the show's original core group, expanding the world significantly.
 
 Creator Sam Levinson has described the new characters as representing different ways people construct meaning in their lives — through ambition, faith, art, and relationships.
+
+![Euphoria Season 3 cast — red carpet premiere](https://deadline.com/wp-content/uploads/2026/04/euphoria-season-3-red-carpet-zendaya.jpg)
 
 ## Sam Levinson's Evolving Vision
 

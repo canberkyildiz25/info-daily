@@ -11,10 +11,17 @@ export default async function HomePage() {
   const visiblePosts = allPosts.slice(0, 15);
 
   const upgraded = await Promise.all(
-    visiblePosts.map(async post => ({
-      ...post,
-      coverImage: await getCoverImageUrl(`${post.title} ${post.category}`, post.slug) || post.coverImage,
-    }))
+    visiblePosts.map(async post => {
+      const hasValidImage = post.coverImage &&
+        !post.coverImage.startsWith('/images/') &&
+        !post.coverImage.includes('source.unsplash.com');
+      return {
+        ...post,
+        coverImage: hasValidImage
+          ? post.coverImage
+          : await getCoverImageUrl(`${post.title} ${post.category}`, post.slug) || post.coverImage,
+      };
+    })
   );
 
   const todayPost = upgraded[0];

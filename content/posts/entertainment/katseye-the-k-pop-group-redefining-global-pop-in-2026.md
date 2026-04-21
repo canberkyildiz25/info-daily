@@ -3,7 +3,9 @@ title: "Katseye: The K-Pop Group Redefining Global Pop in 2026"
 excerpt: "Formed through Netflix and HYBE's groundbreaking PopStar Academy, Katseye is what happens when K-pop training meets Western pop ambition — and it's working."
 date: "2026-04-20"
 author: "Lisa Chen"
-coverImage: "https://source.unsplash.com/800x450/?kpop,concert,stage,performance&sig=420"
+coverImage: "https://www.katseye.world/wp-content/uploads/sites/2863/2024/06/06.22.katseye-compressed.jpg"
+noInlineImages: true
+imagePosition: "50% 35%"
 tags: ["Katseye", "K-pop", "HYBE", "Netflix", "pop music", "girl group", "entertainment"]
 ---
 
@@ -25,6 +27,8 @@ The production frequently involves collaborators from both the US and South Kore
 
 Their approach to the music video also stands out. Rather than the ultra-high-budget cinematic concepts that define most K-pop MVs, Katseye's visuals lean more intimate and editorial — closer to a European fashion campaign than a traditional idol group release. It works because it feels intentional, not underfunded.
 
+![Katseye — SIS era photoshoot](https://www.katseye.world/wp-content/uploads/sites/2863/2024/06/CR521086-copy-2-1800px-compressed.jpg)
+
 ## The Training System — and the Debate Around It
 
 One of the most discussed aspects of Katseye isn't the music — it's how the group was made. HYBE's idol training system is famously rigorous. Members train for years in singing, dancing, language, and performance before they ever appear in public. For Katseye, this included intensive preparation that was partially documented on Netflix.
@@ -33,6 +37,8 @@ The reality show aspect created unusual transparency about a process that K-pop 
 
 This transparency has generated discussion about what idol training systems mean ethically when exported to Western markets. It's a legitimate conversation, and one the group's management hasn't shied away from entirely. But it's also worth noting that Katseye's members have consistently spoken positively about the experience and about each other in interviews.
 
+![Katseye — group photo](https://www.katseye.world/wp-content/uploads/sites/2863/2024/06/06.09.katseye_slide2-compressed-2048x1638-1-compressed.jpg)
+
 ## Why They're Resonating in 2026
 
 Part of what makes Katseye's trajectory interesting is how differently they're growing compared to conventional K-pop groups that cross into Western markets.
@@ -40,6 +46,8 @@ Part of what makes Katseye's trajectory interesting is how differently they're g
 Traditional K-pop crossover success — think BTS, Blackpink — happened when already-established acts from South Korea gained international followings. Katseye was built internationally from day one. Their fanbase isn't a secondary market that discovered a Korean act. It's a primary audience that grew up with the group from the competition show and feels genuine ownership over the outcome.
 
 This creates a different kind of loyalty. Katseye fans — who've adopted the name "눈빛" (Nunbit, meaning "gaze") — are younger, more globally distributed, and more online than many traditional fandoms. Their engagement on platforms like TikTok, Weverse, and YouTube Shorts is consistently high regardless of release cycles, which is increasingly the metric that matters for streaming revenue and brand partnerships.
+
+![Katseye — GNARLY era](https://www.katseye.world/wp-content/uploads/sites/2863/2024/06/CR525067-copy-2-compressed.jpg)
 
 ## What's Coming Next
 
