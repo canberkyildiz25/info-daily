@@ -9,7 +9,7 @@ export default function PrivacyPolicyPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <h1 className="text-4xl font-black text-gray-900 mb-2">Privacy Policy</h1>
-      <p className="text-gray-400 text-sm mb-8">Last updated: April 2025</p>
+      <p className="text-gray-400 text-sm mb-8">Last updated: April 2026</p>
       <div className="prose prose-lg prose-gray max-w-none">
         <p>
           InfoDaily (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) is committed to protecting your privacy. This policy explains what information we collect, how we use it, and your rights.
