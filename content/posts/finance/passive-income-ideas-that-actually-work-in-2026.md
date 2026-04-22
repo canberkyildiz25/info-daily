@@ -1,6 +1,6 @@
 ---
-title: "Passive Income Ideas That Actually Work in 2026"
-excerpt: "Discover proven passive income strategies for 2026 — from digital products to AI-powered investing — that real people are using to build wealth today."
+title: "Best Passive Income Streams in 2026: Ideas That Actually Work"
+excerpt: "The best passive income streams for 2026 — ranked by startup cost, time to first income, and realistic earning potential. A CFP separates what works from what's hype."
 date: "2026-04-13"
 author: "James Park, CFP"
 coverImage: "https://source.unsplash.com/800x450/?passive%2Cincome%2Cmoney&sig=352"
