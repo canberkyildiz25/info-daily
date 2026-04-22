@@ -1,10 +1,10 @@
 ---
-title: "The Beginner's Guide to Intermittent Fasting"
-excerpt: "Discover how intermittent fasting works, the most popular methods, and practical tips to get started safely and sustainably."
+title: "Intermittent Fasting for Beginners: A Complete Guide (2026)"
+excerpt: "New to intermittent fasting? This beginner's guide covers how it works, the best methods to start with, what you can eat and drink, and the science-backed benefits — all in plain language."
 date: "2026-04-13"
 author: "Dr. Sarah Collins"
 coverImage: "https://source.unsplash.com/800x450/?beginners%2Cintermittent%2Chealthy&sig=536"
-tags: ["intermittent fasting", "weight loss", "healthy eating", "nutrition", "wellness"]
+tags: ["intermittent fasting", "intermittent fasting for beginners", "weight loss", "healthy eating", "nutrition", "wellness"]
 ---
 
 If you've spent any time researching ways to improve your health, lose weight, or simply feel more energized, you've almost certainly come across intermittent fasting. It's one of the most talked-about wellness trends of the past decade — and unlike many fads, it's backed by a growing body of scientific evidence. But if you're brand new to the concept, the whole idea of voluntarily skipping meals can feel confusing, intimidating, or even a little extreme. The good news? It doesn't have to be. This guide will walk you through everything you need to know to get started with confidence.
