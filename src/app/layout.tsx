@@ -6,6 +6,9 @@ import Footer from '@/components/Footer';
 import ThemeProvider from '@/components/ThemeProvider';
 import FontProvider from '@/components/FontProvider';
 import NotificationPrompt from '@/components/NotificationPrompt';
+import SubscribePopup from '@/components/SubscribePopup';
+import CookieBanner from '@/components/CookieBanner';
+import BackToTop from '@/components/BackToTop';
 import { Analytics } from '@vercel/analytics/next';
 
 const jakarta = Plus_Jakarta_Sans({
@@ -99,9 +102,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="alternate" type="application/rss+xml" title="InfoDaily RSS Feed" href="https://www.infodaily.net/feed.xml" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3696555619228561" crossOrigin="anonymous" />
+        {/* Google Consent Mode v2 — denied by default until user accepts */}
+        <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});` }} />
         {/* Google Analytics */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-PD06ZLVSY6" />
-        <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-PD06ZLVSY6');` }} />
+        <script dangerouslySetInnerHTML={{ __html: `gtag('js',new Date());gtag('config','G-PD06ZLVSY6');` }} />
+        {/* Restore consent if previously accepted */}
+        <script dangerouslySetInnerHTML={{ __html: `(function(){try{if(localStorage.getItem('cookie_consent')==='accepted'){gtag('consent','update',{analytics_storage:'granted',ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted'});}}catch(e){}})();` }} />
       </head>
       <body className={`${jakarta.variable} ${inter.variable} ${merriweather.variable} ${playfair.variable} ${lora.variable} font-sans bg-gray-50 dark:bg-slate-900 text-gray-900 dark:text-slate-100 antialiased`} suppressHydrationWarning>
         <script
@@ -115,6 +122,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Header />
             <main className="min-h-screen">{children}</main>
             <NotificationPrompt />
+            <SubscribePopup />
+            <CookieBanner />
+            <BackToTop />
             <Footer />
           </FontProvider>
         </ThemeProvider>

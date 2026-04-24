@@ -10,6 +10,33 @@ export { CATEGORIES } from './categories';
 
 const postsDirectory = path.join(process.cwd(), 'content/posts');
 
+function slugify(text: string): string {
+  return text
+    .replace(/<[^>]+>/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '')
+    .trim()
+    .replace(/\s+/g, '-');
+}
+
+function addHeadingIds(html: string): string {
+  return html.replace(/<h([23])([^>]*)>(.*?)<\/h\1>/gi, (_, level, attrs, inner) => {
+    if (/id="/.test(attrs)) return _;
+    const id = slugify(inner);
+    return `<h${level}${attrs} id="${id}">${inner}</h${level}>`;
+  });
+}
+
+export interface Heading { id: string; text: string; level: number; }
+
+export function extractHeadings(html: string): Heading[] {
+  return [...html.matchAll(/<h([23])[^>]*id="([^"]*)"[^>]*>(.*?)<\/h[23]>/gi)].map(m => ({
+    level: parseInt(m[1]),
+    id: m[2],
+    text: m[3].replace(/<[^>]+>/g, ''),
+  }));
+}
+
 export interface Post {
   slug: string;
   category: string;
@@ -75,7 +102,7 @@ export async function getPost(category: string, slug: string): Promise<Post | nu
   const stats = readingTime(content);
 
   const processedContent = await remark().use(remarkHtml).process(content);
-  const htmlContent = processedContent.toString();
+  const htmlContent = addHeadingIds(processedContent.toString());
 
   return {
     slug,
