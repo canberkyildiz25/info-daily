@@ -1,4 +1,5 @@
-import { getPost, getAllPosts, CATEGORIES } from '@/lib/posts';
+import { getPost, getAllPosts, CATEGORIES, extractHeadings } from '@/lib/posts';
+import TableOfContents from '@/components/TableOfContents';
 import AdBanner, { InArticleAd, MultiplexAd } from '@/components/AdBanner';
 import ArticleHeroImage from '@/components/ArticleHeroImage';
 import { getCoverImageUrl } from '@/lib/pexels';
@@ -78,6 +79,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
 
   // Extract FAQ schema from article headings ending with "?"
   const faqJsonLd = buildFaqJsonLd(extractFaqFromHtml(contentWithImages));
+
+  const headings = extractHeadings(contentWithImages);
 
   // Split content after 2nd </p> to inject in-article ad (Google recommendation)
   const splitContent = (() => {
@@ -306,7 +309,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
 
         {/* Sidebar */}
         <aside className="space-y-6">
-          <div className="sticky top-24">
+          <div className="sticky top-24 space-y-6">
+            <TableOfContents headings={headings} />
             <AdBanner slot="1155480823" format="rectangle" />
           </div>
 
