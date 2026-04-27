@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Terms of Service',
   description: 'InfoDaily terms of service — the rules and conditions for using our website.',
+  alternates: { canonical: 'https://www.infodaily.net/terms' },
 };
 
 export default function TermsPage() {

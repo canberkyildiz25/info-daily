@@ -4,6 +4,7 @@ import ContactForm from '@/components/ContactForm';
 export const metadata: Metadata = {
   title: 'Contact Us',
   description: 'Get in touch with the InfoDaily team for questions, corrections, or partnership inquiries.',
+  alternates: { canonical: 'https://www.infodaily.net/contact' },
 };
 
 export default function ContactPage() {
