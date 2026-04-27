@@ -24,6 +24,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  const staticEntries: MetadataRoute.Sitemap = [
+    { url: `${SITE_URL}/about`, lastModified: new Date('2026-04-01'), changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${SITE_URL}/contact`, lastModified: new Date('2026-04-01'), changeFrequency: 'monthly', priority: 0.4 },
+    { url: `${SITE_URL}/privacy-policy`, lastModified: new Date('2026-04-01'), changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${SITE_URL}/terms`, lastModified: new Date('2026-04-01'), changeFrequency: 'yearly', priority: 0.3 },
+  ];
+
   return [
     {
       url: SITE_URL,
@@ -31,6 +38,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily',
       priority: 1,
     },
+    ...staticEntries,
     ...categoryEntries,
     ...postEntries,
   ];

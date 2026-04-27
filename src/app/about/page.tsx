@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'About Us',
   description: 'Learn about InfoDaily — who we are, our editorial standards, and the team behind our daily articles on health, finance, technology, and life.',
+  alternates: { canonical: 'https://www.infodaily.net/about' },
 };
 
 export default function AboutPage() {
