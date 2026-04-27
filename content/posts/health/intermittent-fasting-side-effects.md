@@ -1,6 +1,6 @@
 ---
-title: "Intermittent Fasting Side Effects: What's Normal and What's a Warning Sign"
-excerpt: "Headaches, fatigue, and irritability in the first week are normal. But some intermittent fasting side effects warrant attention. Here's what to expect and what to watch for."
+title: "Intermittent Fasting Side Effects in Beginners: What's Normal vs. a Warning Sign"
+excerpt: "Headaches, fatigue, and irritability are normal for beginners doing intermittent fasting — but some side effects warrant attention. Here's exactly what to expect and what to watch for."
 date: "2026-04-22"
 author: "Dr. Sarah Collins"
 coverImage: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=80"
