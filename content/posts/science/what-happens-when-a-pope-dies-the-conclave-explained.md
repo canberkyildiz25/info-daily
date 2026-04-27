@@ -3,7 +3,6 @@ title: "What Happens When a Pope Dies: The Conclave Explained"
 excerpt: "The death of Pope Francis has set in motion one of the world's oldest and most secretive electoral processes. Here's exactly how the Catholic Church chooses its next leader."
 date: "2026-04-26"
 author: "Dr. Elena Russo"
-coverImage: "https://images.unsplash.com/photo-1548276145-69a9521b0939?w=800&q=80"
 tags: ["pope", "Vatican", "conclave", "Catholic Church", "religion"]
 ---
 
