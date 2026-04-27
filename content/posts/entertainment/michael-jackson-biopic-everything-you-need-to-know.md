@@ -4,7 +4,8 @@ excerpt: "Michael hits theaters April 24, 2026. Directed by Antoine Fuqua and st
 date: "2026-04-13"
 author: "Emma Johnson"
 tags: ["Michael Jackson", "biopic", "movies", "2026", "Jaafar Jackson", "entertainment"]
-coverImage: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&q=80"
+coverImage: "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=800&q=80"
+noInlineImages: true
 ---
 
 Few figures in pop culture history carry more weight — or more controversy — than Michael Jackson. He is simultaneously the best-selling music artist of all time, a cultural icon who transformed music, dance, and music video as an art form, and a man whose legacy has been permanently complicated by serious allegations of child sexual abuse.
@@ -16,6 +17,8 @@ The biopic simply titled *Michael* arrives in theaters on April 24, 2026, and it
 The most striking casting decision: Jaafar Jackson, Michael's nephew and the son of Jermaine Jackson, plays the lead role. It's the first major acting role for the 29-year-old, and early footage has been startling in its resemblance.
 
 Jaafar has spent years studying his uncle's movements, vocal mannerisms, and performance style. The physical similarity is undeniable — the cheekbones, the posture, the hands. Whether the performance can match the resemblance is what the film will ultimately be judged on.
+
+![Michael Jackson biopic stage performance](https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1200&q=80)
 
 ## Who Made the Film?
 
@@ -42,6 +45,8 @@ The documentary *Leaving Neverland* (2019) presented detailed, disturbing accoun
 Whatever else the film is, the music is extraordinary. Michael Jackson's catalog — "Thriller," "Billie Jean," "Beat It," "Man in the Mirror," "Black or White" — represents some of the most influential pop music ever recorded. Experiencing these songs in a theater context, performed live by Jaafar Jackson, may be genuinely powerful regardless of the film's other qualities.
 
 The production reportedly recreates several of Jackson's most iconic live performances, including moments from the Victory Tour and the HIStory tour.
+
+![Concert stage with dramatic crowd lighting](https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1200&q=80)
 
 ## Should You See It?
 
