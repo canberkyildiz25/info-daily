@@ -1,6 +1,6 @@
 ---
-title: "Intermittent Fasting Results: What to Expect in Week 1, 2, and Beyond"
-excerpt: "What does intermittent fasting actually do to your body — and when? A realistic, research-backed timeline of what to expect in week one, month one, and beyond."
+title: "Intermittent Fasting Results for Beginners: What Happens to Your Body Week by Week"
+excerpt: "What does intermittent fasting actually do to your body — and when does it start working? A research-backed timeline of results beginners can realistically expect in week 1, week 2, and beyond."
 date: "2026-04-22"
 author: "Dr. Sarah Collins"
 coverImage: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80"
