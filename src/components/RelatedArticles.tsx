@@ -19,6 +19,7 @@ function scorePost(post: Post, category: string, tags: string[]): number {
 
 export default async function RelatedArticles({ currentSlug, currentCategory, currentTags }: Props) {
   const all = getAllPosts().filter(p => p.slug !== currentSlug);
+  const totalInCategory = all.filter(p => p.category === currentCategory).length + 1;
 
   const scored = all
     .map(p => ({ post: p, score: scorePost(p, currentCategory, currentTags) }))
@@ -45,11 +46,21 @@ export default async function RelatedArticles({ currentSlug, currentCategory, cu
     }))
   );
 
+  const currentCat = CATEGORIES.find(c => c.slug === currentCategory);
+
   return (
     <section className="mt-12 pt-8 border-t border-gray-200 dark:border-slate-700">
-      <h2 className="text-xl font-extrabold text-gray-900 dark:text-slate-100 mb-6">
-        You might also like
-      </h2>
+      <div className="flex items-center justify-between mb-6">
+        <h2 className="text-xl font-extrabold text-gray-900 dark:text-slate-100">
+          You might also like
+        </h2>
+        <Link
+          href={`/category/${currentCategory}`}
+          className="text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline flex items-center gap-1"
+        >
+          {currentCat?.icon} Browse all {totalInCategory} {currentCat?.label} articles →
+        </Link>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         {withImages.map(post => {
           const cat = CATEGORIES.find(c => c.slug === post.category);
