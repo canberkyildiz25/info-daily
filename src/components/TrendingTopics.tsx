@@ -99,10 +99,10 @@ export default async function TrendingTopics() {
           <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500" />
         </span>
         <span className="text-xs font-bold text-gray-500 dark:text-slate-400 uppercase tracking-widest">
-          Trending Today
+          Trending This Week
         </span>
         <span className="text-xs text-gray-300 dark:text-slate-600">
-          {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric' })}
+          {(() => { const n = new Date(); const s = new Date(n); s.setDate(n.getDate() - n.getDay() + 1); const e = new Date(s); e.setDate(s.getDate() + 6); return `${s.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })} – ${e.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}`; })()}
         </span>
       </div>
 
