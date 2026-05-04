@@ -120,3 +120,11 @@ The following groups should consult a doctor before starting any fasting protoco
 For healthy adults without these conditions, intermittent fasting is generally safe. The first week is uncomfortable but not dangerous. The key is distinguishing between adaptation discomfort — which is expected and temporary — and signals that something is genuinely wrong.
 
 When in doubt, eat. Fasting should improve your life, not complicate it.
+
+---
+
+## Related Intermittent Fasting Guides
+
+- [Intermittent Fasting for Beginners: The Complete Step-by-Step Guide](/health/intermittent-fasting-for-beginners)
+- [Intermittent Fasting 16:8 Meal Plan: Exactly What to Eat](/health/intermittent-fasting-16-8-meal-plan)
+- [What to Expect Week by Week: IF Results Timeline](/health/intermittent-fasting-results-what-to-expect)

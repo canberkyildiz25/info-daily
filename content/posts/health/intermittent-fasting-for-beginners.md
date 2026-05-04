@@ -119,3 +119,11 @@ Intermittent fasting is not a quick fix. It's a sustainable pattern that works o
 ---
 
 The first week is the only hard week. After that, most people report that they don't want to go back. Start with 12:12, drink your water, eat real food in your window, and give it two full weeks before you decide anything. The data — and millions of people who've done it — suggest it's worth it.
+
+---
+
+## Continue Your Intermittent Fasting Journey
+
+- [Intermittent Fasting 16:8 Meal Plan: Exactly What to Eat](/health/intermittent-fasting-16-8-meal-plan)
+- [What to Expect Week by Week: IF Results Timeline](/health/intermittent-fasting-results-what-to-expect)
+- [Intermittent Fasting Side Effects: What's Normal vs. a Warning Sign](/health/intermittent-fasting-side-effects)

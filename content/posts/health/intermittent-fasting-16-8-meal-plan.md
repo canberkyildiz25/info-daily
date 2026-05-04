@@ -193,3 +193,11 @@ A rough target for adults:
 **Days 6-7:** The schedule starts to feel natural. Energy levels stabilize and many people report better sleep.
 
 By the end of week one, most people are ready to commit to a second week — which is usually significantly easier.
+
+---
+
+## Related Intermittent Fasting Guides
+
+- [Intermittent Fasting for Beginners: The Complete Step-by-Step Guide](/health/intermittent-fasting-for-beginners)
+- [What to Expect Week by Week: IF Results Timeline](/health/intermittent-fasting-results-what-to-expect)
+- [Intermittent Fasting Side Effects: What's Normal vs. a Warning Sign](/health/intermittent-fasting-side-effects)

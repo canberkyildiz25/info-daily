@@ -1,6 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  async redirects() {
+    return [
+      {
+        source: '/health/the-beginners-guide-to-intermittent-fasting',
+        destination: '/health/intermittent-fasting-for-beginners',
+        permanent: true,
+      },
+    ];
+  },
   images: {
     remotePatterns: [
       {
