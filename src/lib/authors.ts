@@ -112,6 +112,14 @@ export const AUTHORS: Author[] = [
     specialty: 'Lifestyle',
     avatarColor: 'bg-pink-600',
   },
+  {
+    name: 'Canberk Yildiz',
+    slug: 'canberk-yildiz',
+    title: 'Entertainment & Culture Writer',
+    bio: 'Canberk Yildiz is a writer and editor focused on entertainment, pop culture, and lifestyle trends. He covers the stories behind what people watch, listen to, and talk about.',
+    specialty: 'Entertainment & Culture',
+    avatarColor: 'bg-purple-600',
+  },
 ];
 
 export function getAuthorByName(name: string): Author | undefined {
