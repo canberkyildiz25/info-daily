@@ -1,5 +1,5 @@
 import { getPostsByCategory, CATEGORIES } from '@/lib/posts';
-import ArticleCard from '@/components/ArticleCard';
+import CategoryPostGrid from '@/components/CategoryPostGrid';
 import AdBanner from '@/components/AdBanner';
 import { getCoverImageUrl } from '@/lib/pexels';
 import { notFound } from 'next/navigation';
@@ -106,11 +106,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
           {posts.length === 0 ? (
             <p className="text-gray-500 dark:text-slate-400 text-center py-20">No articles yet. Check back soon!</p>
           ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-              {posts.map(post => (
-                <ArticleCard key={post.slug} post={post} featured />
-              ))}
-            </div>
+            <CategoryPostGrid posts={posts} />
           )}
         </div>
 

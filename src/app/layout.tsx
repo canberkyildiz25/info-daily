@@ -9,6 +9,7 @@ import NotificationPrompt from '@/components/NotificationPrompt';
 import SubscribePopup from '@/components/SubscribePopup';
 import CookieBanner from '@/components/CookieBanner';
 import BackToTop from '@/components/BackToTop';
+import BottomNav from '@/components/BottomNav';
 import { Analytics } from '@vercel/analytics/next';
 
 const jakarta = Plus_Jakarta_Sans({
@@ -117,11 +118,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ThemeProvider>
           <FontProvider>
             <Header />
-            <main className="min-h-screen">{children}</main>
+            <main className="min-h-screen pb-16 md:pb-0">{children}</main>
             <NotificationPrompt />
             <SubscribePopup />
             <CookieBanner />
             <BackToTop />
+            <BottomNav />
             <Footer />
           </FontProvider>
         </ThemeProvider>

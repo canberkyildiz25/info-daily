@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Post, CATEGORIES } from '@/lib/posts';
+import type { Post } from '@/lib/posts';
+import { CATEGORIES } from '@/lib/categories';
 
 interface ArticleCardProps {
   post: Post;
