@@ -1,8 +1,10 @@
 import { getAllPosts, CATEGORIES } from '@/lib/posts';
 import ArticleCard from '@/components/ArticleCard';
+import HomeLatestPosts from '@/components/HomeLatestPosts';
 import AdBanner from '@/components/AdBanner';
 import TrendingTopics from '@/components/TrendingTopics';
 import { getCoverImageUrl } from '@/lib/pexels';
+import { getAuthorByName } from '@/lib/authors';
 import Link from 'next/link';
 import Image from 'next/image';
 import type { Metadata } from 'next';
@@ -13,10 +15,11 @@ export const metadata: Metadata = {
 
 export default async function HomePage() {
   const allPosts = getAllPosts();
-  const visiblePosts = allPosts.slice(0, 15);
 
+  // Only fetch Pexels images for hero + featured (7 posts) to keep the page fast
+  const heroAndFeatured = allPosts.slice(0, 7);
   const upgraded = await Promise.all(
-    visiblePosts.map(async post => {
+    heroAndFeatured.map(async post => {
       const hasValidImage = post.coverImage &&
         !post.coverImage.startsWith('/images/') &&
         !post.coverImage.includes('source.unsplash.com');
@@ -31,8 +34,11 @@ export default async function HomePage() {
 
   const todayPost = upgraded[0];
   const featuredPosts = upgraded.slice(1, 7);
-  const latestPosts = upgraded.slice(7, 15);
+  // Remaining posts passed to client component for Load More (no Pexels, uses frontmatter image or gradient fallback)
+  const remainingPosts = allPosts.slice(7);
   const todayCat = CATEGORIES.find(c => c.slug === todayPost?.category);
+  const todayAuthor = todayPost ? getAuthorByName(todayPost.author) : undefined;
+  const todayAvatarColor = todayAuthor?.avatarColor ?? 'bg-blue-600';
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -104,7 +110,7 @@ export default async function HomePage() {
                     {todayPost.excerpt}
                   </p>
                   <div className="flex items-center gap-3">
-                    <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white text-xs font-bold flex-shrink-0">
+                    <div className={`w-8 h-8 rounded-full ${todayAvatarColor} flex items-center justify-center text-white text-xs font-bold flex-shrink-0`}>
                       {todayPost.author.charAt(0)}
                     </div>
                     <span className="text-sm font-medium text-gray-700 dark:text-slate-300">{todayPost.author}</span>
@@ -140,13 +146,7 @@ export default async function HomePage() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <div className="lg:col-span-2">
           <h2 className="text-xl font-bold text-gray-900 dark:text-slate-100 mb-4">Latest Articles</h2>
-          <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm p-4">
-            {latestPosts.map((post, i) => (
-              <div key={`${post.category}-${post.slug}`} className="animate-slide-right" style={{ animationDelay: `${i * 60}ms` }}>
-                <ArticleCard post={post} />
-              </div>
-            ))}
-          </div>
+          <HomeLatestPosts posts={remainingPosts} />
         </div>
 
         <aside className="space-y-6">

@@ -108,6 +108,27 @@
   --accent-light:  #fde8c8;
 }
 
+/* ─── Footer theme variables ─────────────────────────── */
+:root,
+[data-theme="light"]    { --bg-footer: #111827; --text-footer: #d1d5db; --border-footer: #1f2937; }
+[data-theme="dark"]     { --bg-footer: #020617; --text-footer: #94a3b8; --border-footer: #0f172a; }
+[data-theme="ocean"]    { --bg-footer: #020a18; --text-footer: #7dd3fc; --border-footer: #0a1a32; }
+[data-theme="forest"]   { --bg-footer: #020a04; --text-footer: #86efac; --border-footer: #0a1f0e; }
+[data-theme="sunset"]   { --bg-footer: #0f0500; --text-footer: #fdba74; --border-footer: #1a0a00; }
+[data-theme="rose"]     { --bg-footer: #4c0519; --text-footer: #fda4af; --border-footer: #881337; }
+[data-theme="midnight"] { --bg-footer: #05030c; --text-footer: #a78bfa; --border-footer: #130b24; }
+[data-theme="sepia"]    { --bg-footer: #1c1107; --text-footer: #d4b896; --border-footer: #2c1a0e; }
+
+.site-footer {
+  background-color: var(--bg-footer);
+  color: var(--text-footer);
+  border-top-color: var(--border-footer);
+}
+
+/* ─── Bottom nav safe area (iOS) ─────────────────────── */
+.bottom-nav-safe  { padding-bottom: env(safe-area-inset-bottom, 0px); }
+.bottom-sheet-safe { padding-bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px)); }
+
 /* ─── Hide Google Translate banner ───────────────────── */
 .goog-te-banner-frame, .skiptranslate { display: none !important; }
 body { top: 0 !important; }

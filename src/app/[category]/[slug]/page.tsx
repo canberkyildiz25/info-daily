@@ -12,7 +12,7 @@ import BookmarkButton from '@/components/BookmarkButton';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { authorNameToSlug } from '@/lib/authors';
+import { authorNameToSlug, getAuthorByName } from '@/lib/authors';
 import { extractFaqFromHtml, buildFaqJsonLd } from '@/lib/faq';
 
 export async function generateStaticParams() {
@@ -63,6 +63,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
 
   const cat = CATEGORIES.find(c => c.slug === category);
   const gradient = CATEGORY_GRADIENTS[category] ?? 'from-blue-500 to-indigo-600';
+  const postAuthor = getAuthorByName(post.author);
+  const avatarColor = postAuthor?.avatarColor ?? 'bg-blue-600';
 
   // Use frontmatter coverImage if valid, otherwise fetch from Pexels
   const hasFrontmatterImage = post.coverImage &&
@@ -142,7 +144,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
 
             <div className="flex items-center justify-between pb-6 border-b border-gray-200 dark:border-slate-700">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-sm flex-shrink-0">
+                <div className={`w-10 h-10 rounded-full ${avatarColor} flex items-center justify-center text-white font-bold text-sm flex-shrink-0`}>
                   {post.author.charAt(0)}
                 </div>
                 <div>
