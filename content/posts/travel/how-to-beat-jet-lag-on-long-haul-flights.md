@@ -3,7 +3,7 @@ title: "How to Beat Jet Lag on Long Haul Flights"
 excerpt: "Proven strategies to beat jet lag on long haul flights so you arrive refreshed, alert, and ready to make the most of your destination."
 date: "2026-04-13"
 author: "Sophie Martinez"
-coverImage: "https://source.unsplash.com/800x450/?beat%2Clong%2Ctravel&sig=568"
+coverImage: "https://picsum.photos/seed/568/800/450"
 tags: ["jet lag", "long haul flights", "travel tips", "sleep health", "travel wellness"]
 ---
 

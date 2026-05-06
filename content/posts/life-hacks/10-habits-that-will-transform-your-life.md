@@ -3,7 +3,7 @@ title: "10 Habits That Will Transform Your Life"
 excerpt: "Discover the powerful daily habits that successful people swear by. Transform your life with these science-backed practices you can start today."
 date: "2026-04-10"
 author: "Emma Johnson"
-coverImage: "https://source.unsplash.com/800x450/?habits%2Cthat%2Cproductivity&sig=776"
+coverImage: "https://picsum.photos/seed/776/800/450"
 tags: ["personal development", "habits", "self-improvement", "productivity", "life transformation"]
 ---
 

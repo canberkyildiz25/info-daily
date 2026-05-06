@@ -3,7 +3,7 @@ title: "Prime Video's New Bundle Strategy: What You're Getting for $19.99 and Ho
 excerpt: "Amazon's $19.99 Prime Video bundle shakes up streaming. Here's exactly what's included, who it's for, and how it stacks up against competitors."
 date: "2026-04-15"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?prime%2Cvideos%2Ctechnology&sig=32"
+coverImage: "https://picsum.photos/seed/32/800/450"
 tags: ["Prime Video", "streaming bundles", "Amazon Prime", "streaming comparison", "cord-cutting"]
 ---
 

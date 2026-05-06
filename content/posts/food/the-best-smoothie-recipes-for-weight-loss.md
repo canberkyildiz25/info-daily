@@ -3,7 +3,7 @@ title: "The Best Smoothie Recipes for Weight Loss"
 excerpt: "Discover delicious, nutrient-packed smoothie recipes designed to help you lose weight, stay full longer, and fuel your body the right way."
 date: "2026-04-13"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?smoothie%2Crecipes%2Cfood&sig=416"
+coverImage: "https://picsum.photos/seed/416/800/450"
 tags: ["smoothie recipes", "weight loss", "healthy eating", "meal replacement smoothies", "nutrition"]
 ---
 

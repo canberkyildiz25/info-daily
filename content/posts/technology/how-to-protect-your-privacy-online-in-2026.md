@@ -3,7 +3,7 @@ title: "How to Protect Your Privacy Online in 2026"
 excerpt: "Discover practical, up-to-date strategies to protect your personal data and digital privacy in 2026 — from AI threats to everyday browsing habits."
 date: "2026-04-13"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?protect%2Cyour%2Ctechnology&sig=504"
+coverImage: "https://picsum.photos/seed/504/800/450"
 tags: ["online privacy", "cybersecurity", "data protection", "digital safety", "privacy tools"]
 ---
 

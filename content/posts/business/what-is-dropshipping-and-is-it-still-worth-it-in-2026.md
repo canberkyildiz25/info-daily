@@ -3,7 +3,7 @@ title: "What Is Dropshipping and Is It Still Worth It in 2026"
 excerpt: "Discover how dropshipping works, what's changed in 2026, and whether this business model is still a profitable path for new entrepreneurs."
 date: "2026-04-13"
 author: "David Kim"
-coverImage: "https://source.unsplash.com/800x450/?dropshipping%2Cstill%2Cbusiness&sig=952"
+coverImage: "https://picsum.photos/seed/952/800/450"
 tags: ["dropshipping", "ecommerce", "online business", "passive income", "entrepreneurship"]
 ---
 

@@ -3,7 +3,7 @@ title: "How to Lower Cortisol Naturally After a Stressful Work Week"
 excerpt: "Learn science-backed techniques to reduce cortisol levels and recover from work stress naturally this weekend."
 date: "2026-05-06"
 author: "Dr. Sarah Collins"
-coverImage: "https://source.unsplash.com/800x450/?lower%2Ccortisol%2Chealthy&sig=64"
+coverImage: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80"
 tags: ["stress management", "cortisol", "wellness", "mental health", "work-life balance"]
 ---
 

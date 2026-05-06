@@ -3,7 +3,7 @@ title: "The New Science of Longevity: 7 Habits That Centenarians Actually Live B
 excerpt: "Researchers studying the world's longest-lived people have uncovered 7 surprising habits that add decades to your life — backed by the latest science."
 date: "2026-04-28"
 author: "Dr. Lena Fischer"
-coverImage: "https://source.unsplash.com/800x450/?longevity,elderly,healthy&sig=428"
+coverImage: "https://picsum.photos/seed/428/800/450"
 tags: ["longevity", "centenarians", "healthy aging", "blue zones", "lifespan"]
 ---
 

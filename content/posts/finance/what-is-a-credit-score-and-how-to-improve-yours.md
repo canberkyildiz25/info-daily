@@ -3,7 +3,7 @@ title: "What Is a Credit Score and How to Improve Yours"
 excerpt: "Learn what a credit score is, why it matters for your financial future, and proven strategies to boost your score starting today."
 date: "2026-04-13"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?credit%2Cscore%2Cmoney&sig=712"
+coverImage: "https://picsum.photos/seed/712/800/450"
 tags: ["credit score", "personal finance", "credit repair", "financial literacy", "money management"]
 ---
 

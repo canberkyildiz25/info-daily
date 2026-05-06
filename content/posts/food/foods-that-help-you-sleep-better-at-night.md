@@ -3,7 +3,7 @@ title: "Foods That Help You Sleep Better at Night"
 excerpt: "Discover the best foods scientifically shown to improve sleep quality, from tart cherries to fatty fish, and learn when to eat them for optimal rest."
 date: "2026-04-13"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?foods%2Cthat%2Cfood&sig=8"
+coverImage: "https://picsum.photos/seed/8/800/450"
 tags: ["sleep foods", "better sleep", "healthy eating", "nutrition tips", "sleep quality"]
 ---
 

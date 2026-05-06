@@ -3,7 +3,7 @@ title: "How to Speed Up Your Slow Computer in 10 Minutes"
 excerpt: "Discover quick, actionable fixes to boost your slow computer's performance in just 10 minutes — no tech expertise required."
 date: "2026-04-13"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?speed%2Cyour%2Ctechnology&sig=376"
+coverImage: "https://picsum.photos/seed/376/800/450"
 tags: ["computer speed", "PC optimization", "slow computer fix", "tech tips", "performance boost"]
 ---
 

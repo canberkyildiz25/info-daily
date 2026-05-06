@@ -3,7 +3,7 @@ title: "What Every Freelancer Needs to Know About Taxes"
 excerpt: "Freelancing brings freedom—but also tax headaches. Here's your complete guide to managing taxes, deductions, and deadlines as a self-employed pro."
 date: "2026-04-13"
 author: "David Kim"
-coverImage: "https://source.unsplash.com/800x450/?every%2Cfreelancer%2Cbusiness&sig=448"
+coverImage: "https://picsum.photos/seed/448/800/450"
 tags: ["freelancer taxes", "self-employment tax", "tax deductions", "freelance finances", "quarterly taxes"]
 ---
 

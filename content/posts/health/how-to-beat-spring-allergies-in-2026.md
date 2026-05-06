@@ -3,7 +3,7 @@ title: "How to Beat Spring Allergies in 2026"
 excerpt: "Spring allergies are worse than ever this year. Here's what doctors recommend to finally get relief — from new treatments to everyday habits."
 date: "2026-04-16"
 author: "Dr. Sarah Collins"
-coverImage: "https://source.unsplash.com/800x450/?spring,allergy,nature&sig=416"
+coverImage: "https://picsum.photos/seed/416/800/450"
 tags: ["allergies", "health", "spring", "wellness", "immunity"]
 ---
 

@@ -3,7 +3,7 @@ title: "How to Market Your Business on Social Media for Free"
 excerpt: "Discover proven strategies to market your business on social media without spending a dime. Grow your brand, audience, and sales organically."
 date: "2026-04-13"
 author: "David Kim"
-coverImage: "https://source.unsplash.com/800x450/?market%2Cyour%2Cbusiness&sig=480"
+coverImage: "https://picsum.photos/seed/480/800/450"
 tags: ["social media marketing", "free marketing strategies", "organic social media growth", "small business marketing", "content marketing"]
 ---
 

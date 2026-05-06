@@ -3,7 +3,7 @@ title: "What Travel Insurance Actually Covers and When You Need It"
 excerpt: "Confused about travel insurance? Here's exactly what it covers, what it doesn't, and how to decide if you actually need it."
 date: "2026-04-13"
 author: "Sophie Martinez"
-coverImage: "https://source.unsplash.com/800x450/?travel%2Cinsurance%2Ctravel&sig=224"
+coverImage: "https://picsum.photos/seed/224/800/450"
 tags: ["travel insurance", "travel tips", "trip planning", "travel safety", "insurance guide"]
 ---
 

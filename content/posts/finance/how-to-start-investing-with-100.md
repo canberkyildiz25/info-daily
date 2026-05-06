@@ -3,7 +3,7 @@ title: "How to Start Investing With $100"
 excerpt: "Think you need thousands to start investing? Think again. Here's exactly how to grow your wealth starting with just $100."
 date: "2026-04-13"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?start%2Cinvesting%2Cmoney&sig=592"
+coverImage: "https://picsum.photos/seed/592/800/450"
 tags: ["investing for beginners", "how to invest", "investing with little money", "personal finance", "building wealth"]
 ---
 

@@ -3,7 +3,7 @@ title: "How to Fix Your Sleep Schedule in One Week"
 excerpt: "Whether late nights have pushed your bedtime past midnight or shift work has scrambled your rhythms, here's a practical, science-backed plan to reset your sleep in seven days."
 date: "2026-04-19"
 author: "Dr. Sarah Collins"
-coverImage: "https://source.unsplash.com/800x450/?sleep,bedroom,rest,night&sig=419"
+coverImage: "https://picsum.photos/seed/419/800/450"
 tags: ["sleep", "insomnia", "circadian rhythm", "health", "wellness", "sleep schedule"]
 ---
 

@@ -3,7 +3,7 @@ title: "What Climate Change Is Really Doing to Our Oceans"
 excerpt: "Rising temps, acidifying waters, and dying reefs — here's what climate change is truly doing to our oceans and what you can do about it."
 date: "2026-04-13"
 author: "Dr. Lena Fischer"
-coverImage: "https://source.unsplash.com/800x450/?climate%2Cchange%2Cscience&sig=312"
+coverImage: "https://picsum.photos/seed/312/800/450"
 tags: ["climate change", "ocean health", "marine ecosystems", "sea level rise", "ocean acidification"]
 ---
 

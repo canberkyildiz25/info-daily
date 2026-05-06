@@ -3,7 +3,7 @@ title: "How to Build a Personal Brand That Gets You Hired"
 excerpt: "Learn how to craft a powerful personal brand that makes recruiters notice you and lands your dream job faster than ever."
 date: "2026-04-13"
 author: "David Kim"
-coverImage: "https://source.unsplash.com/800x450/?build%2Cpersonal%2Cbusiness&sig=912"
+coverImage: "https://picsum.photos/seed/912/800/450"
 tags: ["personal branding", "career development", "job search", "professional networking", "LinkedIn tips"]
 ---
 

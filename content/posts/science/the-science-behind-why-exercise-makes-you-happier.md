@@ -3,7 +3,7 @@ title: "The Science Behind Why Exercise Makes You Happier"
 excerpt: "Discover the fascinating brain chemistry behind the exercise-happiness connection and learn how to harness movement for better mental health."
 date: "2026-04-13"
 author: "Dr. Lena Fischer"
-coverImage: "https://source.unsplash.com/800x450/?science%2Cbehind%2Cscience&sig=32"
+coverImage: "https://picsum.photos/seed/32/800/450"
 tags: ["exercise and happiness", "mental health", "brain chemistry", "endorphins", "wellness science"]
 ---
 

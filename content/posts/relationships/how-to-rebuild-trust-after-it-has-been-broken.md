@@ -3,7 +3,7 @@ title: "How to Rebuild Trust After It Has Been Broken"
 excerpt: "Discover practical, actionable steps to rebuild trust in any relationship after betrayal, dishonesty, or disappointment has shattered it."
 date: "2026-04-13"
 author: "Jessica Morgan"
-coverImage: "https://source.unsplash.com/800x450/?rebuild%2Ctrust%2Cpeople&sig=32"
+coverImage: "https://picsum.photos/seed/32/800/450"
 tags: ["rebuilding trust", "relationship advice", "trust issues", "healthy relationships", "personal growth"]
 ---
 

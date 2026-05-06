@@ -3,7 +3,7 @@ title: "How to Start a Side Hustle While Working Full Time"
 excerpt: "Practical steps to launch a profitable side hustle without burning out or risking your full-time job. Start building extra income today."
 date: "2026-04-13"
 author: "David Kim"
-coverImage: "https://source.unsplash.com/800x450/?start%2Cside%2Cbusiness&sig=328"
+coverImage: "https://picsum.photos/seed/328/800/450"
 tags: ["side hustle", "extra income", "entrepreneurship", "work-life balance", "freelancing"]
 ---
 

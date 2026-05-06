@@ -3,7 +3,7 @@ title: "How to Make New Friends as an Adult"
 excerpt: "Struggling to make friends as an adult? Discover practical, proven strategies to build meaningful connections at any age."
 date: "2026-04-13"
 author: "Jessica Morgan"
-coverImage: "https://source.unsplash.com/800x450/?make%2Cfriends%2Cpeople&sig=336"
+coverImage: "https://picsum.photos/seed/336/800/450"
 tags: ["making friends", "adult friendships", "social skills", "personal growth", "relationships"]
 ---
 

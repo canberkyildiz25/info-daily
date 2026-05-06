@@ -3,7 +3,7 @@ title: "What to Do If You Are Living Paycheck to Paycheck"
 excerpt: "Practical steps to break the paycheck-to-paycheck cycle, build savings, and regain control of your finances starting today."
 date: "2026-04-13"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?living%2Cpaycheck%2Cmoney&sig=424"
+coverImage: "https://picsum.photos/seed/424/800/450"
 tags: ["paycheck to paycheck", "budgeting tips", "personal finance", "saving money", "financial planning"]
 ---
 

@@ -3,7 +3,7 @@ title: "Best Ways to Pay Off Debt Faster"
 excerpt: "Proven strategies to eliminate debt ahead of schedule, save thousands in interest, and finally achieve the financial freedom you deserve."
 date: "2026-04-13"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?debt%2Cfaster%2Cmoney&sig=232"
+coverImage: "https://picsum.photos/seed/232/800/450"
 tags: ["debt payoff", "personal finance", "money management", "debt strategies", "financial freedom"]
 ---
 

@@ -3,7 +3,7 @@ title: "The Best Solo Travel Destinations for First Timers"
 excerpt: "Discover the safest, most rewarding solo travel destinations perfect for first-timers ready to explore the world on their own terms."
 date: "2026-04-13"
 author: "Sophie Martinez"
-coverImage: "https://source.unsplash.com/800x450/?solo%2Ctravel%2Ctravel&sig=704"
+coverImage: "https://picsum.photos/seed/704/800/450"
 tags: ["solo travel", "travel destinations", "first-time travelers", "budget travel", "travel tips"]
 ---
 

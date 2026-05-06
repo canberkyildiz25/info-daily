@@ -3,7 +3,7 @@ title: "Best Password Managers to Keep Your Accounts Safe"
 excerpt: "Discover the best password managers of 2026 to protect your online accounts, generate strong passwords, and simplify your digital life."
 date: "2026-04-13"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?password%2Cmanagers%2Ctechnology&sig=192"
+coverImage: "https://picsum.photos/seed/192/800/450"
 tags: ["password managers", "cybersecurity", "online security", "digital privacy", "account protection"]
 ---
 

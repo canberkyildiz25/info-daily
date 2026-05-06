@@ -3,7 +3,7 @@ title: "How to Get a Promotion in 6 Months"
 excerpt: "Learn the strategic steps to accelerate your career and secure a promotion within six months through performance excellence and strategic visibility."
 date: "2026-04-10"
 author: "David Kim"
-coverImage: "https://source.unsplash.com/800x450/?promotion%2Cmonths%2Cbusiness&sig=136"
+coverImage: "https://picsum.photos/seed/136/800/450"
 tags: ["career-advancement", "professional-development", "workplace-strategy", "leadership", "career-tips"]
 ---
 

@@ -3,7 +3,7 @@ title: "The Best Anti-Inflammatory Foods to Add to Your Diet"
 excerpt: "Discover the most powerful anti-inflammatory foods backed by science and learn how to easily incorporate them into your everyday meals."
 date: "2026-04-13"
 author: "Dr. Sarah Collins"
-coverImage: "https://source.unsplash.com/800x450/?antiinflammatory%2Cfoods%2Chealthy&sig=312"
+coverImage: "https://picsum.photos/seed/312/800/450"
 tags: ["anti-inflammatory foods", "healthy eating", "inflammation", "nutrition tips", "wellness diet"]
 ---
 

@@ -3,7 +3,7 @@ title: "The Best Podcasts to Listen to While Working Out"
 excerpt: "Discover the best podcasts to supercharge your workouts â€” from true crime to comedy, motivation, and beyond. Your gym sessions will never be boring again."
 date: "2026-04-13"
 author: Canberk Yildiz
-coverImage: "https://source.unsplash.com/800x450/?podcasts%2Clisten%2Ccinema&sig=32"
+coverImage: "https://picsum.photos/seed/32/800/450"
 tags: ["podcasts", "workout", "fitness", "motivation", "entertainment"]
 ---
 

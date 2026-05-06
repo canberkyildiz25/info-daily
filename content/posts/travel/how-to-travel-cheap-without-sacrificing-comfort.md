@@ -3,7 +3,7 @@ title: "How to Travel Cheap Without Sacrificing Comfort"
 excerpt: "Discover proven strategies to explore the world on a budget without giving up the comfort you deserve. Travel smarter, not cheaper."
 date: "2026-04-13"
 author: "Sophie Martinez"
-coverImage: "https://source.unsplash.com/800x450/?travel%2Ccheap%2Ctravel&sig=464"
+coverImage: "https://picsum.photos/seed/464/800/450"
 tags: ["budget travel", "cheap travel tips", "travel hacks", "affordable vacations", "travel on a budget"]
 ---
 

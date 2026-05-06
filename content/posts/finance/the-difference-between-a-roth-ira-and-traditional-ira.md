@@ -3,7 +3,7 @@ title: "The Difference Between a Roth IRA and Traditional IRA"
 excerpt: "Roth IRA vs. Traditional IRA — learn the key differences in taxes, withdrawals, and income limits so you can pick the right retirement account."
 date: "2026-04-13"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?difference%2Cbetween%2Cmoney&sig=832"
+coverImage: "https://picsum.photos/seed/832/800/450"
 tags: ["Roth IRA", "Traditional IRA", "retirement planning", "tax strategy", "investing"]
 ---
 

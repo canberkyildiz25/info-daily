@@ -3,7 +3,7 @@ title: "Signs of a Healthy Relationship vs an Unhealthy One"
 excerpt: "Learn the key signs that separate healthy relationships from unhealthy ones, plus practical advice to strengthen your connection."
 date: "2026-04-13"
 author: "Jessica Morgan"
-coverImage: "https://source.unsplash.com/800x450/?signs%2Chealthy%2Cpeople&sig=672"
+coverImage: "https://picsum.photos/seed/672/800/450"
 tags: ["healthy relationships", "relationship advice", "unhealthy relationships", "communication skills", "emotional wellness"]
 ---
 

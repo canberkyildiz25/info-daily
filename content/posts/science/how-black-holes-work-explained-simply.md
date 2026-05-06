@@ -3,7 +3,7 @@ title: "How Black Holes Work Explained Simply"
 excerpt: "Discover how black holes form, why nothing escapes them, and what scientists actually know about these cosmic mysteries — explained in plain English."
 date: "2026-04-13"
 author: "Dr. Lena Fischer"
-coverImage: "https://source.unsplash.com/800x450/?black%2Choles%2Cscience&sig=328"
+coverImage: "https://picsum.photos/seed/328/800/450"
 tags: ["black holes", "space science", "astrophysics", "universe", "science explained"]
 ---
 

@@ -3,7 +3,7 @@ title: "How to Use AI to Write Better Emails"
 excerpt: "Discover how to leverage AI tools to craft clearer, faster, and more effective emails that get results every single time."
 date: "2026-04-13"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?write%2Cbetter%2Ctechnology&sig=928"
+coverImage: "https://picsum.photos/seed/928/800/450"
 tags: ["AI email writing", "productivity tools", "email tips", "artificial intelligence", "business communication"]
 ---
 

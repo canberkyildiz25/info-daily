@@ -3,7 +3,7 @@ title: "The Best Free Online Courses to Learn New Skills"
 excerpt: "Discover the best free online courses to learn valuable new skills in tech, business, and more — no wallet required."
 date: "2026-04-13"
 author: "Emma Johnson"
-coverImage: "https://source.unsplash.com/800x450/?free%2Conline%2Cproductivity&sig=832"
+coverImage: "https://picsum.photos/seed/832/800/450"
 tags: ["free online courses", "learn new skills", "online education", "self-improvement", "career development"]
 ---
 

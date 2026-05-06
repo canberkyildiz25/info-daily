@@ -3,7 +3,7 @@ title: "The 50/30/20 Budget Rule: A Beginner's Guide"
 excerpt: "Learn how the 50/30/20 budget rule can simplify your finances by splitting income into needs, wants, and savings — with practical tips to get started today."
 date: "2026-04-13"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?503020%2Cbudget%2Cmoney&sig=344"
+coverImage: "https://picsum.photos/seed/344/800/450"
 tags: ["budgeting", "50/30/20 rule", "personal finance", "money management", "saving money"]
 ---
 

@@ -3,7 +3,7 @@ title: "Simple Ways to Build Better Daily Habits"
 excerpt: "Discover proven, practical strategies to build better daily habits that actually stick — no willpower required. Start transforming your routine today."
 date: "2026-04-13"
 author: "Emma Johnson"
-coverImage: "https://source.unsplash.com/800x450/?simple%2Cbuild%2Cproductivity&sig=512"
+coverImage: "https://picsum.photos/seed/512/800/450"
 tags: ["daily habits", "habit building", "self-improvement", "productivity", "personal growth"]
 ---
 

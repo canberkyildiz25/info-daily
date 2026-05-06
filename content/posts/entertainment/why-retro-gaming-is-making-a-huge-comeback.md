@@ -3,7 +3,7 @@ title: "Why Retro Gaming Is Making a Huge Comeback"
 excerpt: "From NES classics to arcade revivals, retro gaming is surging in popularity. Discover what's driving the comeback and how to join in."
 date: "2026-04-13"
 author: Canberk Yildiz
-coverImage: "https://source.unsplash.com/800x450/?retro%2Cgaming%2Ccinema&sig=752"
+coverImage: "https://picsum.photos/seed/752/800/450"
 tags: ["retro gaming", "classic video games", "gaming nostalgia", "vintage consoles", "gaming culture"]
 ---
 

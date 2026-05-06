@@ -3,7 +3,7 @@ title: "Why Your Older Cat Prefers Kitten Food: A Vet's Guide to Senior Pet Nutr
 excerpt: "Discover why your senior cat craves kitten food, whether it's safe, and how to manage their nutrition for optimal health in their golden years."
 date: "2026-04-15"
 author: "Dr. Sarah Collins"
-coverImage: "https://source.unsplash.com/800x450/?your%2Colder%2Chealthy&sig=272"
+coverImage: "https://picsum.photos/seed/272/800/450"
 tags: ["senior cat nutrition", "kitten food for older cats", "cat diet tips", "pet health", "veterinary advice"]
 ---
 

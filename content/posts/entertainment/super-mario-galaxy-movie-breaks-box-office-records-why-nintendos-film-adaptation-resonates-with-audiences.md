@@ -3,7 +3,7 @@ title: "Super Mario Galaxy Movie Breaks Box Office Records: Why Nintendo's Film 
 excerpt: "Nintendo's Super Mario Galaxy movie shatters box office records in 2026. Here's why the film resonates so deeply with audiences worldwide."
 date: "2026-04-14"
 author: Canberk Yildiz
-coverImage: "https://source.unsplash.com/800x450/?super%2Cmario%2Ccinema&sig=120"
+coverImage: "https://picsum.photos/seed/120/800/450"
 tags: ["Super Mario Galaxy Movie", "Nintendo Film", "Box Office Records", "Video Game Movies", "Animation 2026"]
 ---
 

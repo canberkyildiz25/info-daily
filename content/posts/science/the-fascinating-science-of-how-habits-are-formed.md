@@ -3,7 +3,7 @@ title: "The Fascinating Science of How Habits Are Formed"
 excerpt: "Discover the neuroscience behind habit formation, why habits stick, and proven strategies to build better routines that last."
 date: "2026-04-13"
 author: "Dr. Lena Fischer"
-coverImage: "https://source.unsplash.com/800x450/?fascinating%2Cscience%2Cscience&sig=528"
+coverImage: "https://picsum.photos/seed/528/800/450"
 tags: ["habits", "neuroscience", "behavior change", "personal development", "psychology"]
 ---
 

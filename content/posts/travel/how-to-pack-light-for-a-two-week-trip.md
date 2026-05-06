@@ -3,7 +3,7 @@ title: "How to Pack Light for a Two Week Trip"
 excerpt: "Master the art of packing light for a two-week trip with proven strategies, smart clothing choices, and expert tips to travel carry-on only."
 date: "2026-04-13"
 author: "Sophie Martinez"
-coverImage: "https://source.unsplash.com/800x450/?pack%2Clight%2Ctravel&sig=368"
+coverImage: "https://picsum.photos/seed/368/800/450"
 tags: ["packing light", "travel tips", "carry-on travel", "minimalist packing", "two week trip"]
 ---
 

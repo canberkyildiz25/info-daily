@@ -3,7 +3,7 @@ title: "Natural Remedies for Headaches That Actually Work"
 excerpt: "Discover proven natural remedies for headaches, from hydration and essential oils to acupressure and magnesium, backed by science and real results."
 date: "2026-04-13"
 author: "Dr. Sarah Collins"
-coverImage: "https://source.unsplash.com/800x450/?natural%2Cremedies%2Chealthy&sig=448"
+coverImage: "https://picsum.photos/seed/448/800/450"
 tags: ["natural remedies", "headache relief", "holistic health", "wellness tips", "migraine treatment"]
 ---
 

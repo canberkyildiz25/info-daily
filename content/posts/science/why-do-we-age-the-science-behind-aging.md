@@ -3,7 +3,7 @@ title: "Why Do We Age? The Science Behind Aging"
 excerpt: "Discover the biological mechanisms behind aging, from cellular damage to genetic factors. Learn science-backed strategies to slow the aging process naturally."
 date: "2026-04-10"
 author: "Dr. Lena Fischer"
-coverImage: "https://source.unsplash.com/800x450/?science%2Cbehind%2Cscience&sig=376"
+coverImage: "https://picsum.photos/seed/376/800/450"
 tags: ["aging", "cellular biology", "longevity", "health science", "anti-aging"]
 ---
 
