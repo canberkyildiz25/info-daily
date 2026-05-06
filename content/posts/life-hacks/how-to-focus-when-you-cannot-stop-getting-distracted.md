@@ -3,7 +3,7 @@ title: "How to Focus When You Cannot Stop Getting Distracted"
 excerpt: "Struggling to concentrate? Discover proven strategies to regain your focus, beat distractions, and get more done — even on your worst days."
 date: "2026-04-13"
 author: "Emma Johnson"
-coverImage: "https://source.unsplash.com/800x450/?focus%2Ccannot%2Cproductivity&sig=888"
+coverImage: "https://picsum.photos/seed/888/800/450"
 tags: ["focus", "productivity", "distractions", "concentration", "mental health"]
 ---
 

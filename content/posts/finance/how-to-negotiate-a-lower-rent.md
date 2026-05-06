@@ -3,7 +3,7 @@ title: "How to Negotiate a Lower Rent"
 excerpt: "Learn proven strategies to negotiate a lower rent with your landlord, save hundreds each month, and secure a lease that works for your budget."
 date: "2026-04-13"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?negotiate%2Clower%2Cmoney&sig=704"
+coverImage: "https://picsum.photos/seed/704/800/450"
 tags: ["rent negotiation", "saving money", "renting tips", "personal finance", "housing costs"]
 ---
 

@@ -3,7 +3,7 @@ title: "How the Human Brain Actually Forms Memories"
 excerpt: "Discover the fascinating science behind how your brain encodes, stores, and retrieves memories — and practical ways to boost your recall."
 date: "2026-04-13"
 author: "Dr. Lena Fischer"
-coverImage: "https://source.unsplash.com/800x450/?human%2Cbrain%2Cscience&sig=904"
+coverImage: "https://picsum.photos/seed/904/800/450"
 tags: ["neuroscience", "memory formation", "brain health", "cognitive science", "learning"]
 ---
 

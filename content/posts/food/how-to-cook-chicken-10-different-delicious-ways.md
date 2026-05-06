@@ -3,7 +3,7 @@ title: "How to Cook Chicken 10 Different Delicious Ways"
 excerpt: "Master 10 delicious ways to cook chicken, from crispy roasting to tender slow cooking. Practical tips for juicy results every single time."
 date: "2026-04-13"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?cook%2Cchicken%2Cfood&sig=664"
+coverImage: "https://picsum.photos/seed/664/800/450"
 tags: ["chicken recipes", "cooking techniques", "how to cook chicken", "easy dinner ideas", "healthy cooking"]
 ---
 

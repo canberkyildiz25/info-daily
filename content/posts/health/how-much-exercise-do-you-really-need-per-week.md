@@ -3,7 +3,7 @@ title: "How Much Exercise Do You Really Need Per Week"
 excerpt: "Discover exactly how much exercise you need each week for optimal health, backed by science and practical tips you can start today."
 date: "2026-04-13"
 author: "Dr. Sarah Collins"
-coverImage: "https://source.unsplash.com/800x450/?much%2Cexercise%2Chealthy&sig=712"
+coverImage: "https://picsum.photos/seed/712/800/450"
 tags: ["exercise guidelines", "weekly workout", "physical activity", "healthy lifestyle", "fitness tips"]
 ---
 

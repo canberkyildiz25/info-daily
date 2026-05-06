@@ -3,7 +3,7 @@ title: "How to Wake Up Early and Actually Feel Rested"
 excerpt: "Discover proven strategies to wake up early without feeling groggy. Learn how sleep cycles, habits, and routines can transform your mornings."
 date: "2026-04-13"
 author: "Emma Johnson"
-coverImage: "https://source.unsplash.com/800x450/?wake%2Cearly%2Cproductivity&sig=544"
+coverImage: "https://picsum.photos/seed/544/800/450"
 tags: ["morning routine", "sleep tips", "productivity", "healthy habits", "wellness"]
 ---
 

@@ -3,7 +3,7 @@ title: "How to Set Healthy Boundaries With Family"
 excerpt: "Learn how to set healthy boundaries with family members without guilt. Practical strategies, real examples, and scripts to protect your peace."
 date: "2026-04-13"
 author: "Jessica Morgan"
-coverImage: "https://source.unsplash.com/800x450/?healthy%2Cboundaries%2Cpeople&sig=640"
+coverImage: "https://picsum.photos/seed/640/800/450"
 tags: ["healthy boundaries", "family relationships", "mental health", "self-care", "communication skills"]
 ---
 

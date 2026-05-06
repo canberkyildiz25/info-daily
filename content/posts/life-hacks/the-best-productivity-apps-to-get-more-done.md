@@ -3,7 +3,7 @@ title: "The Best Productivity Apps to Get More Done"
 excerpt: "Discover the top productivity apps that can help you manage tasks, stay focused, and accomplish more every single day."
 date: "2026-04-13"
 author: "Emma Johnson"
-coverImage: "https://source.unsplash.com/800x450/?productivity%2Capps%2Cproductivity&sig=592"
+coverImage: "https://picsum.photos/seed/592/800/450"
 tags: ["productivity apps", "task management", "time management", "focus tools", "getting things done"]
 ---
 

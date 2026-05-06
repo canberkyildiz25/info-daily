@@ -3,7 +3,7 @@ title: "15-Minute Healthy Dinner Recipes"
 excerpt: "Discover quick, nutritious dinner recipes you can prepare in 15 minutes or less without sacrificing taste or health benefits."
 date: "2026-04-10"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?15minute%2Chealthy%2Cfood&sig=688"
+coverImage: "https://picsum.photos/seed/688/800/450"
 tags: ["quick recipes", "healthy eating", "meal prep", "weeknight dinners", "nutrition"]
 ---
 

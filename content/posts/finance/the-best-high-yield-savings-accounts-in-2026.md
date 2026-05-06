@@ -3,7 +3,7 @@ title: "The Best High-Yield Savings Accounts in 2026"
 excerpt: "Discover the top high-yield savings accounts in 2026, with APYs above 5%. Compare rates, features, and find the best fit for your money."
 date: "2026-04-13"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?highyield%2Csavings%2Cmoney&sig=288"
+coverImage: "https://picsum.photos/seed/288/800/450"
 tags: ["high-yield savings", "savings accounts", "personal finance", "money management", "banking"]
 ---
 

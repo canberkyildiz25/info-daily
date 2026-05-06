@@ -3,7 +3,7 @@ title: "How to Create a Monthly Budget You Will Actually Stick To"
 excerpt: "Learn how to build a realistic monthly budget with practical steps, real examples, and proven strategies that make it easy to stay on track."
 date: "2026-04-13"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?create%2Cmonthly%2Cmoney&sig=368"
+coverImage: "https://picsum.photos/seed/368/800/450"
 tags: ["monthly budget", "personal finance", "budgeting tips", "money management", "saving money"]
 ---
 

@@ -3,7 +3,7 @@ title: "10 Ways to Improve Communication in Any Relationship"
 excerpt: "Master the art of connection with proven strategies to enhance communication in your relationships and build stronger, healthier bonds."
 date: "2026-04-10"
 author: "Jessica Morgan"
-coverImage: "https://source.unsplash.com/800x450/?improve%2Ccommunication%2Cpeople&sig=272"
+coverImage: "https://picsum.photos/seed/272/800/450"
 tags: ["relationships", "communication skills", "personal development", "mental health", "connection"]
 ---
 

@@ -3,7 +3,7 @@ title: "Time Management Tricks That Successful People Use"
 excerpt: "Discover the proven time management strategies top performers swear by to accomplish more, stress less, and take control of every day."
 date: "2026-04-13"
 author: "Emma Johnson"
-coverImage: "https://source.unsplash.com/800x450/?time%2Cmanagement%2Cproductivity&sig=488"
+coverImage: "https://picsum.photos/seed/488/800/450"
 tags: ["time management", "productivity", "success habits", "work-life balance", "personal development"]
 ---
 

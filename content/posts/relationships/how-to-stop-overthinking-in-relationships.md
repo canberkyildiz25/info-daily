@@ -3,7 +3,7 @@ title: "How to Stop Overthinking in Relationships"
 excerpt: "Learn proven techniques to quiet your anxious mind and build stronger, healthier relationships by breaking the overthinking cycle today."
 date: "2026-04-10"
 author: "Jessica Morgan"
-coverImage: "https://source.unsplash.com/800x450/?stop%2Coverthinking%2Cpeople&sig=608"
+coverImage: "https://picsum.photos/seed/608/800/450"
 tags: ["relationships", "mental-health", "anxiety", "communication", "personal-growth"]
 ---
 

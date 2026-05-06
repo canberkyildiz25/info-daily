@@ -3,7 +3,7 @@ title: "The Best Binge Worthy TV Shows of 2026"
 excerpt: "Discover the most binge-worthy TV shows of 2026, from gripping sci-fi epics to heartfelt dramedies that viewers can't stop watching."
 date: "2026-04-13"
 author: Canberk Yildiz
-coverImage: "https://source.unsplash.com/800x450/?binge%2Cworthy%2Ccinema&sig=536"
+coverImage: "https://picsum.photos/seed/536/800/450"
 tags: ["binge-worthy TV shows", "best shows 2026", "streaming recommendations", "TV series guide", "what to watch 2026"]
 ---
 

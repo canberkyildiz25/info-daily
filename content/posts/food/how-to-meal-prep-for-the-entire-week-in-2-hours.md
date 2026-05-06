@@ -3,7 +3,7 @@ title: "How to Meal Prep for the Entire Week in 2 Hours"
 excerpt: "Master the art of weekly meal prep in just two hours. Save time, eat healthier, and simplify your daily routine with this step-by-step guide."
 date: "2026-04-13"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?meal%2Cprep%2Cfood&sig=984"
+coverImage: "https://picsum.photos/seed/984/800/450"
 tags: ["meal prep", "healthy eating", "meal planning", "cooking tips", "weekly meal prep"]
 ---
 

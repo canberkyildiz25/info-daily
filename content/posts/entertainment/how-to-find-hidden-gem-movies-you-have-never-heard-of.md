@@ -3,7 +3,7 @@ title: "How to Find Hidden Gem Movies You Have Never Heard Of"
 excerpt: "Tired of watching the same mainstream films? Discover proven strategies to uncover brilliant hidden gem movies you never knew existed."
 date: "2026-04-13"
 author: Canberk Yildiz
-coverImage: "https://source.unsplash.com/800x450/?find%2Chidden%2Ccinema&sig=880"
+coverImage: "https://picsum.photos/seed/880/800/450"
 tags: ["hidden gem movies", "movie recommendations", "indie films", "film discovery", "underrated movies"]
 ---
 

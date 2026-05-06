@@ -3,7 +3,7 @@ title: "The Best Travel Apps Every Traveler Needs in 2026"
 excerpt: "Discover the must-have travel apps for 2026 that simplify booking, navigation, translation, and budgeting on every trip you take."
 date: "2026-04-13"
 author: "Sophie Martinez"
-coverImage: "https://source.unsplash.com/800x450/?travel%2Capps%2Ctravel&sig=472"
+coverImage: "https://picsum.photos/seed/472/800/450"
 tags: ["travel apps", "travel technology", "travel planning", "digital nomad tools", "budget travel"]
 ---
 

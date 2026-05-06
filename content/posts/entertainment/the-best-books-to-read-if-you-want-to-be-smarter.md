@@ -3,7 +3,7 @@ title: "The Best Books to Read If You Want to Be Smarter"
 excerpt: "Discover the most powerful books that sharpen your thinking, expand your knowledge, and genuinely make you smarter in everyday life."
 date: "2026-04-13"
 author: Canberk Yildiz
-coverImage: "https://source.unsplash.com/800x450/?books%2Cread%2Ccinema&sig=664"
+coverImage: "https://picsum.photos/seed/664/800/450"
 tags: ["best books", "self-improvement", "critical thinking", "reading list", "personal development"]
 ---
 

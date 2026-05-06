@@ -3,7 +3,7 @@ title: "Easy Healthy Breakfast Ideas That Take 5 Minutes"
 excerpt: "Discover quick, nutritious breakfast ideas you can make in 5 minutes or less. Start your morning right without sacrificing time or flavor."
 date: "2026-04-13"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?easy%2Chealthy%2Cfood&sig=920"
+coverImage: "https://picsum.photos/seed/920/800/450"
 tags: ["healthy breakfast", "quick recipes", "meal prep", "morning routine", "nutrition tips"]
 ---
 

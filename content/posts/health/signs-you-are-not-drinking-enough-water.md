@@ -3,7 +3,7 @@ title: "Signs You Are Not Drinking Enough Water"
 excerpt: "Discover the surprising warning signs of dehydration and learn how to ensure you're drinking enough water every single day."
 date: "2026-04-13"
 author: "Dr. Sarah Collins"
-coverImage: "https://source.unsplash.com/800x450/?signs%2Cdrinking%2Chealthy&sig=600"
+coverImage: "https://picsum.photos/seed/600/800/450"
 tags: ["dehydration signs", "drinking enough water", "hydration tips", "health warning signs", "daily water intake"]
 ---
 

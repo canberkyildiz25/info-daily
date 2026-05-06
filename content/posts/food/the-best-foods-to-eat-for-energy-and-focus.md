@@ -3,7 +3,7 @@ title: "The Best Foods to Eat for Energy and Focus"
 excerpt: "Discover the top foods scientifically shown to boost your energy and sharpen your focus throughout the day — plus easy ways to add them to your diet."
 date: "2026-04-13"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?foods%2Cenergy%2Cfood&sig=280"
+coverImage: "https://picsum.photos/seed/280/800/450"
 tags: ["energy foods", "brain health", "healthy eating", "focus and productivity", "nutrition tips"]
 ---
 

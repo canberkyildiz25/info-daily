@@ -3,7 +3,7 @@ title: "How to Make Restaurant Quality Meals at Home"
 excerpt: "Discover the techniques, tools, and secrets professional chefs use — and learn how to replicate restaurant-quality meals in your own kitchen."
 date: "2026-04-13"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?make%2Crestaurant%2Cfood&sig=744"
+coverImage: "https://picsum.photos/seed/744/800/450"
 tags: ["home cooking", "restaurant quality meals", "cooking tips", "kitchen techniques", "chef secrets"]
 ---
 

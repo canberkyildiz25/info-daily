@@ -3,7 +3,7 @@ title: "Why Do We Dream and What Do Our Dreams Mean"
 excerpt: "Explore the science behind why we dream, what common dreams really mean, and how to use your dreams for personal insight and better sleep."
 date: "2026-04-13"
 author: "Dr. Lena Fischer"
-coverImage: "https://source.unsplash.com/800x450/?dream%2Cdreams%2Cscience&sig=736"
+coverImage: "https://picsum.photos/seed/736/800/450"
 tags: ["dreams", "sleep science", "dream interpretation", "psychology", "mental health"]
 ---
 

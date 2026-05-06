@@ -3,7 +3,7 @@ title: "Why Your Gut Health Affects Everything in Your Body"
 excerpt: "Your gut does far more than digest food. Discover how gut health influences your mood, immunity, skin, and overall well-being."
 date: "2026-04-13"
 author: "Dr. Sarah Collins"
-coverImage: "https://source.unsplash.com/800x450/?gut%2Chealth%2Chealthy&sig=400"
+coverImage: "https://picsum.photos/seed/400/800/450"
 tags: ["gut health", "microbiome", "digestive health", "wellness", "immune system"]
 ---
 

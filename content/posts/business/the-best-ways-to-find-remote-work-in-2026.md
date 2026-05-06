@@ -3,7 +3,7 @@ title: "The Best Ways to Find Remote Work in 2026"
 excerpt: "Discover the most effective strategies to land a remote job in 2026, from AI-powered platforms to niche job boards and personal branding tips."
 date: "2026-04-13"
 author: "David Kim"
-coverImage: "https://source.unsplash.com/800x450/?find%2Cremote%2Cbusiness&sig=856"
+coverImage: "https://picsum.photos/seed/856/800/450"
 tags: ["remote work", "job search", "work from home", "career tips", "freelancing"]
 ---
 

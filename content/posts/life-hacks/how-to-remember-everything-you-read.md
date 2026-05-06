@@ -3,7 +3,7 @@ title: "How to Remember Everything You Read"
 excerpt: "Discover proven strategies to retain more of what you read, from active recall techniques to smart note-taking habits that boost long-term memory."
 date: "2026-04-13"
 author: "Emma Johnson"
-coverImage: "https://source.unsplash.com/800x450/?remember%2Ceverything%2Cproductivity&sig=88"
+coverImage: "https://picsum.photos/seed/88/800/450"
 tags: ["memory techniques", "reading habits", "active recall", "productivity", "learning strategies"]
 ---
 

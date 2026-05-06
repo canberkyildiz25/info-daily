@@ -3,7 +3,7 @@ title: "How CRISPR Gene Editing Could Change Medicine Forever"
 excerpt: "Discover how CRISPR gene editing is revolutionizing medicine, from curing genetic diseases to fighting cancer, and what it means for the future of healthcare."
 date: "2026-04-13"
 author: "Dr. Lena Fischer"
-coverImage: "https://source.unsplash.com/800x450/?crispr%2Cgene%2Cscience&sig=536"
+coverImage: "https://picsum.photos/seed/536/800/450"
 tags: ["CRISPR", "gene editing", "medical innovation", "genetic diseases", "biotechnology"]
 ---
 

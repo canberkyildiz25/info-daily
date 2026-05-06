@@ -3,7 +3,7 @@ title: "What Scientists Have Discovered About Aging"
 excerpt: "From telomeres to senolytics, discover the groundbreaking science behind aging and what researchers say you can do to slow the clock."
 date: "2026-04-13"
 author: "Dr. Lena Fischer"
-coverImage: "https://source.unsplash.com/800x450/?scientists%2Chave%2Cscience&sig=312"
+coverImage: "https://picsum.photos/seed/312/800/450"
 tags: ["aging science", "longevity research", "healthy aging", "anti-aging discoveries", "cellular health"]
 ---
 

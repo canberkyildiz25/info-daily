@@ -3,7 +3,7 @@ title: "Simple Ways to Strengthen Any Relationship"
 excerpt: "Discover practical, everyday strategies to deepen your connections and strengthen any relationship — romantic, platonic, or professional."
 date: "2026-04-13"
 author: "Jessica Morgan"
-coverImage: "https://source.unsplash.com/800x450/?simple%2Cstrengthen%2Cpeople&sig=664"
+coverImage: "https://picsum.photos/seed/664/800/450"
 tags: ["relationships", "communication skills", "personal growth", "emotional intelligence", "healthy habits"]
 ---
 

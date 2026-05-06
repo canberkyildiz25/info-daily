@@ -3,7 +3,7 @@ title: "What Is Quantum Computing and Why Does It Matter"
 excerpt: "Discover what quantum computing is, how it works, and why it's poised to transform industries from healthcare to cybersecurity in the coming years."
 date: "2026-04-13"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?quantum%2Ccomputing%2Ctechnology&sig=64"
+coverImage: "https://picsum.photos/seed/64/800/450"
 tags: ["quantum computing", "emerging technology", "future of computing", "cybersecurity", "tech innovation"]
 ---
 

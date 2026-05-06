@@ -3,7 +3,7 @@ title: "Morning Routines of Healthy People: What Science Says"
 excerpt: "Discover the science-backed morning habits that healthy people swear by — and how to build your own routine that actually sticks."
 date: "2026-04-13"
 author: "Dr. Sarah Collins"
-coverImage: "https://source.unsplash.com/800x450/?morning%2Croutines%2Chealthy&sig=464"
+coverImage: "https://picsum.photos/seed/464/800/450"
 tags: ["morning routines", "healthy habits", "wellness", "productivity", "science-backed health"]
 ---
 

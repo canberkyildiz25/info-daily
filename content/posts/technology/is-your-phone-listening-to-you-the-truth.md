@@ -3,7 +3,7 @@ title: "Is Your Phone Listening to You? The Truth"
 excerpt: "Discover whether your smartphone is actually listening to your conversations and what you can do to protect your privacy today."
 date: "2026-04-12"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?phone%2Clistening%2Ctechnology&sig=272"
+coverImage: "https://picsum.photos/seed/272/800/450"
 tags: ["privacy", "smartphone-security", "digital-privacy", "technology-myths", "data-protection"]
 ---
 

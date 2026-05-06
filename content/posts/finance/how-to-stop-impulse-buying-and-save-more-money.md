@@ -3,7 +3,7 @@ title: "How to Stop Impulse Buying and Save More Money"
 excerpt: "Discover proven strategies to curb impulse buying, take control of your spending habits, and start saving more money every month."
 date: "2026-04-13"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?stop%2Cimpulse%2Cmoney&sig=512"
+coverImage: "https://picsum.photos/seed/512/800/450"
 tags: ["impulse buying", "saving money", "budgeting tips", "personal finance", "spending habits"]
 ---
 

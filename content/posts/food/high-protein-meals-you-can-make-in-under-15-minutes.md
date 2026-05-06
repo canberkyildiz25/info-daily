@@ -3,7 +3,7 @@ title: "High Protein Meals You Can Make in Under 15 Minutes"
 excerpt: "Discover quick, delicious high protein meals you can prepare in under 15 minutes — perfect for busy days when nutrition still matters."
 date: "2026-04-13"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?high%2Cprotein%2Cfood&sig=344"
+coverImage: "https://picsum.photos/seed/344/800/450"
 tags: ["high protein meals", "quick recipes", "healthy eating", "meal prep", "protein rich foods"]
 ---
 

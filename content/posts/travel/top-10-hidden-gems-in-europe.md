@@ -3,7 +3,7 @@ title: "Top 10 Hidden Gems in Europe"
 excerpt: "Discover lesser-known European destinations that rival popular tourist hotspots. From charming coastal towns to historic mountain villages, explore authentic experiences away from crowds."
 date: "2026-04-10"
 author: "Sophie Martinez"
-coverImage: "https://source.unsplash.com/800x450/?hidden%2Cgems%2Ctravel&sig=872"
+coverImage: "https://picsum.photos/seed/872/800/450"
 tags: ["travel", "Europe", "hidden destinations", "tourism", "adventure"]
 ---
 

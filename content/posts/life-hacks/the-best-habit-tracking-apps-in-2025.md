@@ -3,7 +3,7 @@ title: "The Best Habit Tracking Apps in 2025"
 excerpt: "Discover the top habit tracking apps of 2025 that help you build lasting routines and achieve your goals with science-backed features and intuitive designs."
 date: "2025-04-13"
 author: "Emma Johnson"
-coverImage: "https://source.unsplash.com/800x450/?habit%2Ctracking%2Cproductivity&sig=600"
+coverImage: "https://picsum.photos/seed/600/800/450"
 tags: ["habit tracking", "productivity apps", "self-improvement", "wellness", "goal setting"]
 ---
 

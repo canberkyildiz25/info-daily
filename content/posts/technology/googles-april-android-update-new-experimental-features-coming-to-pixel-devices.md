@@ -3,7 +3,7 @@ title: "Google's April Android Update: New Experimental Features Coming to Pixel
 excerpt: "Google's April 2026 Android update brings exciting experimental features to Pixel devices. Here's everything you need to know about what's new."
 date: "2026-04-15"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?googles%2Capril%2Ctechnology&sig=712"
+coverImage: "https://picsum.photos/seed/712/800/450"
 tags: ["Google Pixel", "Android Update", "April 2026", "Pixel Features", "Google AI"]
 ---
 

@@ -3,7 +3,7 @@ title: "The Best Ways to Improve Communication With Your Partner"
 excerpt: "Discover proven strategies to improve communication with your partner, strengthen your bond, and resolve conflicts with confidence and compassion."
 date: "2026-04-13"
 author: "Jessica Morgan"
-coverImage: "https://source.unsplash.com/800x450/?improve%2Ccommunication%2Cpeople&sig=112"
+coverImage: "https://picsum.photos/seed/112/800/450"
 tags: ["relationship communication", "healthy relationships", "couples advice", "conflict resolution", "emotional intimacy"]
 ---
 

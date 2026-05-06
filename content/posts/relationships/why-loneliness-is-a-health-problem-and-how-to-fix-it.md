@@ -3,7 +3,7 @@ title: "Why Loneliness Is a Health Problem and How to Fix It"
 excerpt: "Loneliness isn't just an emotion — it's a serious health risk. Learn why isolation harms your body and mind, plus practical ways to reconnect."
 date: "2026-04-13"
 author: "Jessica Morgan"
-coverImage: "https://source.unsplash.com/800x450/?loneliness%2Chealth%2Cpeople&sig=152"
+coverImage: "https://picsum.photos/seed/152/800/450"
 tags: ["loneliness", "mental health", "social connection", "wellness", "health risks"]
 ---
 

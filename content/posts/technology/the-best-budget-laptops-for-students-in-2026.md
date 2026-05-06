@@ -3,7 +3,7 @@ title: "The Best Budget Laptops for Students in 2026"
 excerpt: "Discover the top budget laptops for students in 2026. We break down specs, real-world performance, and value to help you choose wisely."
 date: "2026-04-13"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?budget%2Claptops%2Ctechnology&sig=368"
+coverImage: "https://picsum.photos/seed/368/800/450"
 tags: ["budget laptops", "student laptops", "affordable technology", "laptop buying guide", "back to school 2026"]
 ---
 

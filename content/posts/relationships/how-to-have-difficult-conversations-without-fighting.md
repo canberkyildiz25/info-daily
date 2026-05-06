@@ -3,7 +3,7 @@ title: "How to Have Difficult Conversations Without Fighting"
 excerpt: "Learn proven strategies to navigate tough talks with grace. Discover how to communicate honestly without letting emotions escalate into conflict."
 date: "2026-04-13"
 author: "Jessica Morgan"
-coverImage: "https://source.unsplash.com/800x450/?have%2Cdifficult%2Cpeople&sig=672"
+coverImage: "https://picsum.photos/seed/672/800/450"
 tags: ["difficult conversations", "communication skills", "conflict resolution", "emotional intelligence", "relationship advice"]
 ---
 

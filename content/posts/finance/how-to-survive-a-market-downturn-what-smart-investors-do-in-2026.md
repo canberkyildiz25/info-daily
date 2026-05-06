@@ -3,7 +3,7 @@ title: "How to Survive a Market Downturn: What Smart Investors Do in 2026"
 excerpt: "Markets are volatile and uncertainty is high. Here's exactly what experienced investors do when stocks drop — and the moves that almost always backfire."
 date: "2026-04-18"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?stock,market,investing,finance&sig=418"
+coverImage: "https://picsum.photos/seed/418/800/450"
 tags: ["investing", "stock market", "recession", "personal finance", "wealth management"]
 ---
 

@@ -3,7 +3,7 @@ title: "Best Travel Credit Cards in 2026"
 excerpt: "Maximize your travel rewards with our expert guide to the best travel credit cards in 2026. Compare top options, earning rates, and benefits."
 date: "2026-04-14"
 author: "Sophie Martinez"
-coverImage: "https://source.unsplash.com/800x450/?travel%2Ccredit%2Ctravel&sig=360"
+coverImage: "https://picsum.photos/seed/360/800/450"
 tags: ["travel", "credit cards", "rewards", "personal finance", "travel tips"]
 ---
 

@@ -3,7 +3,7 @@ title: "The Best Free Tools to Run a Small Business"
 excerpt: "Discover the best free tools to run your small business efficiently — from accounting and project management to marketing and communication."
 date: "2026-04-13"
 author: "David Kim"
-coverImage: "https://source.unsplash.com/800x450/?free%2Ctools%2Cbusiness&sig=472"
+coverImage: "https://picsum.photos/seed/472/800/450"
 tags: ["small business tools", "free business software", "productivity", "entrepreneurship", "small business tips"]
 ---
 

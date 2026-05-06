@@ -3,7 +3,7 @@ title: "The Best Countries to Visit on a Budget"
 excerpt: "Discover the most affordable countries to explore without breaking the bank, with practical tips, real costs, and insider advice for budget travelers."
 date: "2026-04-13"
 author: "Sophie Martinez"
-coverImage: "https://source.unsplash.com/800x450/?countries%2Cvisit%2Ctravel&sig=640"
+coverImage: "https://picsum.photos/seed/640/800/450"
 tags: ["budget travel", "cheap countries to visit", "affordable destinations", "travel tips", "backpacking"]
 ---
 

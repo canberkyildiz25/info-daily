@@ -3,7 +3,7 @@ title: "How Music Affects Your Brain and Mood"
 excerpt: "Discover how music rewires your brain, shifts your mood, and boosts mental health â€” plus practical ways to harness its power every day."
 date: "2026-04-13"
 author: Canberk Yildiz
-coverImage: "https://source.unsplash.com/800x450/?music%2Caffects%2Ccinema&sig=32"
+coverImage: "https://picsum.photos/seed/32/800/450"
 tags: ["music and brain", "mood boosting", "mental health", "neuroscience", "music therapy"]
 ---
 
