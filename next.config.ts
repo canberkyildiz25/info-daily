@@ -82,7 +82,7 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
     ],
-    unoptimized: process.env.NEXT_PUBLIC_DISABLE_STATIC_OPTIMIZATION === 'true',
+    unoptimized: true,
     minimumCacheTTL: 60,
     formats: ['image/webp', 'image/avif'],
   },
