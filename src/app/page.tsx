@@ -1,6 +1,5 @@
 import { getAllPosts, CATEGORIES } from '@/lib/posts';
-import ArticleCard from '@/components/ArticleCard';
-import HomeLatestPosts from '@/components/HomeLatestPosts';
+import HomeFeaturedPosts from '@/components/HomeFeaturedPosts';
 import AdBanner from '@/components/AdBanner';
 import TrendingTopics from '@/components/TrendingTopics';
 import { getCoverImageUrl } from '@/lib/pexels';
@@ -33,9 +32,8 @@ export default async function HomePage() {
   );
 
   const todayPost = upgraded[0];
-  const featuredPosts = upgraded.slice(1, 7);
-  // Remaining posts passed to client component for Load More (no Pexels, uses frontmatter image or gradient fallback)
-  const remainingPosts = allPosts.slice(7);
+  // All posts except hero: first 6 have Pexels-upgraded images, rest use frontmatter images
+  const featuredPosts = [...upgraded.slice(1), ...allPosts.slice(7)];
   const todayCat = CATEGORIES.find(c => c.slug === todayPost?.category);
   const todayAuthor = todayPost ? getAuthorByName(todayPost.author) : undefined;
   const todayAvatarColor = todayAuthor?.avatarColor ?? 'bg-blue-600';
@@ -128,13 +126,7 @@ export default async function HomePage() {
       {/* Featured Articles */}
       <section className="mb-10">
         <h2 className="text-xl font-bold text-gray-900 dark:text-slate-100 mb-5">Featured Articles</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {featuredPosts.map((post, i) => (
-            <div key={`${post.category}-${post.slug}`} className="animate-fade-in-up" style={{ animationDelay: `${i * 80}ms` }}>
-              <ArticleCard post={post} featured />
-            </div>
-          ))}
-        </div>
+        <HomeFeaturedPosts posts={featuredPosts} />
       </section>
 
       {/* Mid Ad */}
@@ -142,40 +134,29 @@ export default async function HomePage() {
         <AdBanner slot="1155480823" format="rectangle" />
       </div>
 
-      {/* Latest + Sidebar */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        <div className="lg:col-span-2">
-          <h2 className="text-xl font-bold text-gray-900 dark:text-slate-100 mb-4">Latest Articles</h2>
-          <HomeLatestPosts posts={remainingPosts} />
+      {/* Browse by Category */}
+      <div className="mb-10 bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm p-5">
+        <h3 className="font-bold text-gray-900 dark:text-slate-100 mb-4">Browse by Category</h3>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-1">
+          {CATEGORIES.map(cat => {
+            const count = allPosts.filter(p => p.category === cat.slug).length;
+            return (
+              <Link
+                key={cat.slug}
+                href={`/category/${cat.slug}`}
+                className="flex items-center justify-between py-2 px-3 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-700 group transition-colors"
+              >
+                <span className="flex items-center gap-2 text-sm text-gray-700 dark:text-slate-300 group-hover:text-blue-600 dark:group-hover:text-blue-400 font-medium">
+                  {cat.icon} {cat.label}
+                </span>
+                <span className="text-xs text-gray-400 dark:text-slate-500 bg-gray-100 dark:bg-slate-700 group-hover:bg-blue-100 dark:group-hover:bg-blue-900/40 px-2 py-0.5 rounded-full">{count}</span>
+              </Link>
+            );
+          })}
         </div>
-
-        <aside className="space-y-6">
-          <AdBanner slot="1155480823" format="rectangle" />
-
-          <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm p-5">
-            <h3 className="font-bold text-gray-900 dark:text-slate-100 mb-4">Browse by Category</h3>
-            <div className="space-y-1">
-              {CATEGORIES.map(cat => {
-                const count = allPosts.filter(p => p.category === cat.slug).length;
-                return (
-                  <Link
-                    key={cat.slug}
-                    href={`/category/${cat.slug}`}
-                    className="flex items-center justify-between py-2 px-3 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-700 group transition-colors"
-                  >
-                    <span className="flex items-center gap-2 text-sm text-gray-700 dark:text-slate-300 group-hover:text-blue-600 dark:group-hover:text-blue-400 font-medium">
-                      {cat.icon} {cat.label}
-                    </span>
-                    <span className="text-xs text-gray-400 dark:text-slate-500 bg-gray-100 dark:bg-slate-700 group-hover:bg-blue-100 dark:group-hover:bg-blue-900/40 px-2 py-0.5 rounded-full">{count}</span>
-                  </Link>
-                );
-              })}
-            </div>
-          </div>
-
-          <AdBanner slot="1155480823" format="vertical" />
-        </aside>
       </div>
+
+      <AdBanner slot="1155480823" format="horizontal" />
     </div>
   );
 }
