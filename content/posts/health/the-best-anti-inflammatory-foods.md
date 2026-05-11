@@ -2,7 +2,7 @@
 title: "The Best Anti-Inflammatory Foods"
 excerpt: "Discover the most powerful anti-inflammatory foods that reduce chronic disease risk and boost your health naturally through strategic nutrition."
 date: "2026-05-05"
-author: "Dr. Sarah Collins"
+author: "Jessica Morgan"
 coverImage: "https://picsum.photos/seed/720/800/450"
 tags: ["anti-inflammatory", "nutrition", "healthy eating", "wellness", "disease prevention"]
 ---

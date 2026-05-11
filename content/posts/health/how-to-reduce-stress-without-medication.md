@@ -2,7 +2,7 @@
 title: "How to Reduce Stress Without Medication"
 excerpt: "Discover proven, natural strategies to reduce stress without medication — from breathwork and movement to journaling and social connection."
 date: "2026-04-13"
-author: "Dr. Sarah Collins"
+author: "Dr. Elena Russo"
 coverImage: "https://picsum.photos/seed/304/800/450"
 tags: ["stress relief", "mental health", "natural remedies", "wellness tips", "healthy lifestyle"]
 ---

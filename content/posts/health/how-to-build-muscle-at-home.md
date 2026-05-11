@@ -2,7 +2,7 @@
 title: "How to Build Muscle at Home"
 excerpt: "Discover proven strategies to build muscle without a gym membership. Learn nutrition, exercises, and programming for impressive home-based results."
 date: "2026-04-10"
-author: "Dr. Sarah Collins"
+author: "Mark Stevens, CSCS"
 coverImage: "https://picsum.photos/seed/128/800/450"
 tags: ["fitness", "muscle building", "home workouts", "strength training", "wellness"]
 ---

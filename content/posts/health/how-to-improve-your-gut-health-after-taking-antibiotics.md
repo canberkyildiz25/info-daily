@@ -2,7 +2,7 @@
 title: "How to Improve Your Gut Health After Taking Antibiotics"
 excerpt: "Antibiotics save lives but damage gut bacteria. Learn proven strategies to restore your microbiome and reclaim digestive wellness."
 date: "2026-05-09"
-author: "Dr. Sarah Collins"
+author: "Dr. Lena Fischer"
 coverImage: "https://source.unsplash.com/800x450/?improve%2Chealth%2Cgut&sig=824"
 tags: ["gut health", "probiotics", "antibiotics", "digestive wellness", "microbiome"]
 ---

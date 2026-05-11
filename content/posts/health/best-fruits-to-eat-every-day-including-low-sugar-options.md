@@ -2,7 +2,7 @@
 title: "The Best Fruits to Eat Every Day (Including Low-Sugar Options)"
 excerpt: "Not all fruits are created equal. Discover which fruits deliver the most nutrients per bite, and which ones are best if you're watching your sugar intake."
 date: "2026-05-08"
-author: "Dr. Sarah Collins"
+author: "Jessica Morgan"
 coverImage: "https://picsum.photos/seed/992/800/450"
 tags: ["healthy eating", "fruit", "low sugar", "nutrition", "daily habits"]
 ---

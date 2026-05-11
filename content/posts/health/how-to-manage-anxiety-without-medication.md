@@ -2,7 +2,7 @@
 title: "How to Manage Anxiety Without Medication"
 excerpt: "Anxiety is one of the most common mental health struggles in the world — and there are evidence-based tools that work beyond medication. Here's what the research actually supports."
 date: "2026-04-24"
-author: "Dr. Sarah Collins"
+author: "Dr. Elena Russo"
 coverImage: "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=800&q=80"
 tags: ["anxiety", "mental health", "wellness", "stress", "therapy"]
 ---

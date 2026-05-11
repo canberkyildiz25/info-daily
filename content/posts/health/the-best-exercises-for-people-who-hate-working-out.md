@@ -2,7 +2,7 @@
 title: "The Best Exercises for People Who Hate Working Out"
 excerpt: "You don't have to love exercise to get fit. These approaches make movement feel less like punishment and more like something you might actually keep doing."
 date: "2026-05-03"
-author: "Dr. Sarah Collins"
+author: "Mark Stevens, CSCS"
 coverImage: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80"
 tags: ["exercise", "fitness", "health", "beginner workout", "motivation"]
 ---

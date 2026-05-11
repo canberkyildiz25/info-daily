@@ -2,7 +2,7 @@
 title: "How to Improve Your Posture"
 excerpt: "Poor posture causes back pain, headaches, and low energy. These simple daily habits will correct your alignment and transform how you feel and look."
 date: "2025-12-27"
-author: "Dr. Sarah Collins"
+author: "Mark Stevens, CSCS"
 coverImage: "https://picsum.photos/seed/109/800/450"
 tags: ["posture", "back pain", "ergonomics", "exercise", "wellness"]
 ---

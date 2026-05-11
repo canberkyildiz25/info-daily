@@ -2,7 +2,7 @@
 title: "Intermittent Fasting for Beginners: The Complete Step-by-Step Guide"
 excerpt: "New to intermittent fasting? This complete beginner's guide covers how to start, which schedule to pick, what to eat, common mistakes, and what to realistically expect in your first month."
 date: "2026-04-27"
-author: "Dr. Sarah Collins"
+author: "Jessica Morgan"
 coverImage: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80"
 tags: ["intermittent fasting", "intermittent fasting for beginners", "how to intermittent fast", "weight loss", "nutrition", "health"]
 ---

@@ -2,7 +2,7 @@
 title: "Why You're Always Tired â€” And What Actually Fixes It"
 excerpt: "Constant fatigue isn't always about sleep. New research reveals the real reasons you're exhausted â€” and the evidence-backed fixes that work."
 date: "2026-04-29"
-author: "Dr. Sarah Collins"
+author: "Dr. Elena Russo"
 coverImage: "https://images.unsplash.com/photo-1541199249251-f713e6145474?w=800&q=80"
 tags: ["fatigue", "sleep", "energy", "health", "wellness", "burnout"]
 ---

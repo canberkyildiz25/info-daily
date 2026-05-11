@@ -2,7 +2,7 @@
 title: "Best Wearable Health Tech in 2026: Devices That Actually Track Your Metabolism"
 excerpt: "Smartwatches and health wearables have taken a massive leap forward. Here are the best devices of 2026 that go beyond step counting to track your real metabolic health."
 date: "2026-04-13"
-author: "Dr. Sarah Collins"
+author: "Dr. Lena Fischer"
 tags: ["wearable tech", "smartwatch", "health tracking", "metabolism", "fitness tracker", "2026"]
 coverImage: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=800&q=80"
 ---

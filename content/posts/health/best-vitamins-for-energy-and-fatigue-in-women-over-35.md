@@ -2,7 +2,7 @@
 title: "Best Vitamins for Energy and Fatigue in Women Over 35"
 excerpt: "Discover essential vitamins that combat fatigue and boost energy for women over 35. Science-backed solutions for renewed vitality and wellness."
 date: "2026-05-08"
-author: "Dr. Sarah Collins"
+author: "Jessica Morgan"
 coverImage: "https://picsum.photos/seed/990/800/450"
 tags: ["women's health", "vitamins", "energy boosting", "fatigue relief", "wellness over 35"]
 ---

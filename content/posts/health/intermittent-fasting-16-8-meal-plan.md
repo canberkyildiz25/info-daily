@@ -2,7 +2,7 @@
 title: "Intermittent Fasting 16:8 Meal Plan for Beginners: Exactly What to Eat"
 excerpt: "A day-by-day 16:8 intermittent fasting meal plan built for beginners â€” the best foods to eat during your 8-hour window, how to break your fast without crashing, and what to expect in week one."
 date: "2026-04-22"
-author: "Dr. Sarah Collins"
+author: "Jessica Morgan"
 coverImage: "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800&q=80"
 tags: ["intermittent fasting", "intermittent fasting for beginners", "16:8", "meal plan", "nutrition", "healthy eating"]
 ---
