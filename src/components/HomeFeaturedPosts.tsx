@@ -1,87 +1,66 @@
 'use client';
-import { useState } from 'react';
 import ArticleCard from './ArticleCard';
 import type { Post } from '@/lib/posts';
 import { CATEGORIES } from '@/lib/categories';
+import Link from 'next/link';
 
-const PAGE_SIZE = 9;
+const CAT_GRADIENTS: Record<string, string> = {
+  health: 'from-emerald-500 to-teal-600',
+  finance: 'from-amber-500 to-orange-500',
+  technology: 'from-blue-500 to-indigo-600',
+  'life-hacks': 'from-violet-500 to-purple-600',
+  travel: 'from-sky-400 to-cyan-500',
+  food: 'from-orange-400 to-red-500',
+  business: 'from-slate-500 to-slate-700',
+  science: 'from-teal-500 to-emerald-600',
+  relationships: 'from-rose-400 to-pink-600',
+  entertainment: 'from-purple-500 to-fuchsia-600',
+};
 
 export default function HomeFeaturedPosts({ posts }: { posts: Post[] }) {
-  const [activeCategory, setActiveCategory] = useState<string>('all');
-  const [count, setCount] = useState(PAGE_SIZE);
-
-  const filtered = activeCategory === 'all'
-    ? posts
-    : posts.filter(p => p.category === activeCategory);
-
-  const visible = filtered.slice(0, count);
-  const remaining = filtered.length - count;
-
-  function handleTab(slug: string) {
-    setActiveCategory(slug);
-    setCount(PAGE_SIZE);
-  }
-
-  // Only show categories that have at least one post in the list
-  const activeCats = CATEGORIES.filter(c => posts.some(p => p.category === c.slug));
+  const categoriesWithPosts = CATEGORIES
+    .map(cat => ({
+      ...cat,
+      posts: posts.filter(p => p.category === cat.slug).slice(0, 3),
+    }))
+    .filter(c => c.posts.length > 0);
 
   return (
-    <div>
-      {/* Category tabs */}
-      <div className="flex items-center gap-1.5 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden pb-1 mb-5">
-        <button
-          onClick={() => handleTab('all')}
-          className={`shrink-0 px-4 py-1.5 rounded-full text-sm font-semibold transition-all ${
-            activeCategory === 'all'
-              ? 'bg-blue-600 text-white shadow-sm'
-              : 'bg-white dark:bg-slate-800 text-gray-600 dark:text-slate-300 border border-gray-200 dark:border-slate-700 hover:border-blue-300 dark:hover:border-blue-600'
-          }`}
-        >
-          All
-        </button>
-        {activeCats.map(cat => (
-          <button
-            key={cat.slug}
-            onClick={() => handleTab(cat.slug)}
-            className={`shrink-0 flex items-center gap-1.5 px-4 py-1.5 rounded-full text-sm font-semibold transition-all ${
-              activeCategory === cat.slug
-                ? 'bg-blue-600 text-white shadow-sm'
-                : 'bg-white dark:bg-slate-800 text-gray-600 dark:text-slate-300 border border-gray-200 dark:border-slate-700 hover:border-blue-300 dark:hover:border-blue-600'
-            }`}
-          >
-            <span className="text-sm leading-none">{cat.icon}</span>
-            {cat.label}
-          </button>
-        ))}
-      </div>
+    <div className="space-y-12">
+      {categoriesWithPosts.map((cat, idx) => {
+        const grad = CAT_GRADIENTS[cat.slug] ?? 'from-blue-500 to-indigo-600';
+        return (
+          <section key={cat.slug}>
+            {/* Section header */}
+            <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center gap-3">
+                <span className={`w-1 h-6 rounded-full bg-gradient-to-b ${grad} inline-block`} />
+                <span className="text-lg">{cat.icon}</span>
+                <h2 className="text-lg font-bold text-gray-900 dark:text-slate-100">{cat.label}</h2>
+              </div>
+              <Link
+                href={`/category/${cat.slug}`}
+                className="text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline flex items-center gap-1"
+              >
+                See all <span>→</span>
+              </Link>
+            </div>
 
-      {/* Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-        {visible.map((post, i) => (
-          <div
-            key={`${post.category}-${post.slug}`}
-            className="animate-fade-in-up"
-            style={{ animationDelay: `${Math.min(i % PAGE_SIZE, 8) * 60}ms` }}
-          >
-            <ArticleCard post={post} featured />
-          </div>
-        ))}
-      </div>
-
-      {/* Load more — only shown when there are more */}
-      {remaining > 0 && (
-        <div className="mt-8 flex justify-center">
-          <button
-            onClick={() => setCount(c => c + PAGE_SIZE)}
-            className="flex items-center gap-2 px-7 py-3 bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 hover:border-blue-400 dark:hover:border-blue-500 text-gray-700 dark:text-slate-300 font-semibold rounded-full text-sm transition-all duration-200 hover:shadow-md"
-          >
-            Show {Math.min(remaining, PAGE_SIZE)} more
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-        </div>
-      )}
+            {/* 3-column grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {cat.posts.map((post, i) => (
+                <div
+                  key={`${post.category}-${post.slug}`}
+                  className="animate-fade-in-up"
+                  style={{ animationDelay: `${(idx * 3 + i) * 40}ms` }}
+                >
+                  <ArticleCard post={post} featured />
+                </div>
+              ))}
+            </div>
+          </section>
+        );
+      })}
     </div>
   );
 }
