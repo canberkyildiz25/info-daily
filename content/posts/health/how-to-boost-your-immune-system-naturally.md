@@ -2,7 +2,7 @@
 title: "How to Boost Your Immune System Naturally"
 excerpt: "Discover proven, science-backed ways to strengthen your immune system naturally through diet, sleep, exercise, and daily habits."
 date: "2026-04-13"
-author: "Dr. Sarah Collins"
+author: "Dr. Lena Fischer"
 coverImage: "https://picsum.photos/seed/840/800/450"
 tags: ["immune system", "natural health", "wellness tips", "healthy lifestyle", "nutrition"]
 ---

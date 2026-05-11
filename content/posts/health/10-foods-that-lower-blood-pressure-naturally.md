@@ -2,7 +2,7 @@
 title: "10 Foods That Lower Blood Pressure Naturally"
 excerpt: "Discover the best foods science has proven to reduce hypertension — no prescription required. Simple dietary changes that can make a real difference."
 date: "2025-04-01"
-author: "Dr. Sarah Collins"
+author: "Jessica Morgan"
 tags: ["blood pressure", "hypertension", "heart health", "diet", "natural remedies"]
 coverImage: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80"
 ---

@@ -2,7 +2,7 @@
 title: "What the Latest Research Says About Gut Health"
 excerpt: "The gut microbiome has been hyped for years, but 2026 research is finally separating fact from marketing. Here's what we actually know — and what still needs proving."
 date: "2026-05-04"
-author: "Dr. Sarah Collins"
+author: "Dr. Lena Fischer"
 coverImage: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80"
 tags: ["gut health", "microbiome", "digestive health", "nutrition", "science"]
 ---

@@ -2,7 +2,7 @@
 title: "The Best Anti-Inflammatory Foods for People with Joint Pain"
 excerpt: "Discover powerful anti-inflammatory foods that reduce joint pain naturally. Learn which nutrients work best and get practical meal ideas today."
 date: "2026-05-10"
-author: "Dr. Sarah Collins"
+author: "Jessica Morgan"
 coverImage: "https://source.unsplash.com/800x450/?antiinflammatory%2Cfoods%2Chealthy&sig=184"
 tags: ["joint pain", "anti-inflammatory foods", "arthritis relief", "healthy eating", "nutrition"]
 ---

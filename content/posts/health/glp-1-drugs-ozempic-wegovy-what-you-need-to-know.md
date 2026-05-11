@@ -2,7 +2,7 @@
 title: "GLP-1 Drugs Explained: What Ozempic and Wegovy Actually Do to Your Body"
 excerpt: "GLP-1 medications like Ozempic and Wegovy are reshaping medicine — not just for weight loss, but for heart health, kidney disease, and more. Here's what the science says."
 date: "2026-04-13"
-author: "Dr. Sarah Collins"
+author: "Dr. Lena Fischer"
 tags: ["GLP-1", "Ozempic", "Wegovy", "weight loss", "diabetes", "semaglutide"]
 coverImage: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
 ---

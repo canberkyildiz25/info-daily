@@ -2,7 +2,7 @@
 title: "How to Improve Your Gut Health"
 excerpt: "Your gut affects your mood, immune system, and weight more than you realize. Here's how to build a healthier microbiome starting today."
 date: "2025-10-17"
-author: "Dr. Sarah Collins"
+author: "Dr. Lena Fischer"
 coverImage: "https://picsum.photos/seed/104/800/450"
 tags: ["gut health", "microbiome", "digestion", "probiotics", "nutrition"]
 ---

@@ -2,7 +2,7 @@
 title: "The Best Stretches to Do Every Morning"
 excerpt: "Discover the best morning stretches to boost flexibility, reduce stiffness, and energize your entire day in just 10 minutes."
 date: "2026-04-13"
-author: "Dr. Sarah Collins"
+author: "Mark Stevens, CSCS"
 coverImage: "https://picsum.photos/seed/968/800/450"
 tags: ["morning stretches", "flexibility routine", "healthy habits", "daily wellness", "stretching exercises"]
 ---

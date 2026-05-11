@@ -2,7 +2,7 @@
 title: "How to Fix Bad Posture If You Work at a Desk"
 excerpt: "Desk job ruining your posture? Discover practical fixes, stretches, and ergonomic tips to relieve pain and sit better every day."
 date: "2026-04-13"
-author: "Dr. Sarah Collins"
+author: "Mark Stevens, CSCS"
 coverImage: "https://picsum.photos/seed/504/800/450"
 tags: ["posture correction", "desk ergonomics", "back pain relief", "workplace health", "office wellness"]
 ---

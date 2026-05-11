@@ -2,7 +2,7 @@
 title: "Best Brain-Boosting Foods to Add to Your Plate"
 excerpt: "What you eat directly affects how well your brain performs. These science-backed foods improve memory, focus, and long-term cognitive health."
 date: "2026-05-08"
-author: "Dr. Sarah Collins"
+author: "Jessica Morgan"
 coverImage: "https://picsum.photos/seed/993/800/450"
 tags: ["brain health", "cognitive function", "memory", "focus", "nutrition"]
 ---
