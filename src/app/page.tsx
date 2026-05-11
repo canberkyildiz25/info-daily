@@ -1,4 +1,5 @@
-import { getAllPosts, CATEGORIES } from '@/lib/posts';
+import { getAllPosts } from '@/lib/posts';
+import { CATEGORIES } from '@/lib/categories';
 import HomeFeaturedPosts from '@/components/HomeFeaturedPosts';
 import AdBanner from '@/components/AdBanner';
 import TrendingTopics from '@/components/TrendingTopics';
@@ -149,58 +150,6 @@ export default async function HomePage() {
       {/* Mid Ad */}
       <div className="mb-10">
         <AdBanner slot="1155480823" format="rectangle" />
-      </div>
-
-      {/* Browse by Category */}
-      <div className="mb-10">
-        <h3 className="font-bold text-gray-900 dark:text-slate-100 mb-4 text-xl">Browse by Category</h3>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
-          {CATEGORIES.map(cat => {
-            const count = allPosts.filter(p => p.category === cat.slug).length;
-            const gradients: Record<string, string> = {
-              health: 'from-emerald-500 to-teal-600',
-              finance: 'from-amber-500 to-orange-500',
-              technology: 'from-blue-500 to-indigo-600',
-              'life-hacks': 'from-violet-500 to-purple-600',
-              travel: 'from-sky-400 to-cyan-500',
-              food: 'from-orange-400 to-red-500',
-              business: 'from-slate-500 to-slate-700',
-              science: 'from-teal-500 to-emerald-600',
-              relationships: 'from-rose-400 to-pink-600',
-              entertainment: 'from-purple-500 to-fuchsia-600',
-            };
-            const grad = gradients[cat.slug] ?? 'from-blue-500 to-indigo-600';
-            return (
-              <Link
-                key={cat.slug}
-                href={`/category/${cat.slug}`}
-                className={`group relative overflow-hidden rounded-2xl bg-gradient-to-br ${grad} p-4 flex flex-col justify-between min-h-[100px] hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200`}
-              >
-                <span className="text-3xl">{cat.icon}</span>
-                <div>
-                  <p className="text-white font-bold text-sm leading-tight">{cat.label}</p>
-                  <p className="text-white/70 text-xs mt-0.5">{count} articles</p>
-                </div>
-                <div className="absolute inset-0 bg-white/0 group-hover:bg-white/10 transition-colors duration-200 rounded-2xl" />
-              </Link>
-            );
-          })}
-        </div>
-      </div>
-
-      {/* Meet Our Authors banner */}
-      <div className="mb-10 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div>
-          <p className="text-blue-200 text-xs font-semibold uppercase tracking-widest mb-1">Expert Writers</p>
-          <h3 className="text-white font-black text-xl sm:text-2xl mb-1">Meet Our Authors</h3>
-          <p className="text-blue-100 text-sm">18 specialist writers across health, finance, tech, and more.</p>
-        </div>
-        <Link
-          href="/authors"
-          className="shrink-0 bg-white text-blue-600 font-bold text-sm px-6 py-3 rounded-full hover:bg-blue-50 transition-colors shadow-lg"
-        >
-          View all authors →
-        </Link>
       </div>
 
       <AdBanner slot="1155480823" format="horizontal" />
