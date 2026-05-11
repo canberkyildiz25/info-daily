@@ -170,24 +170,44 @@ export default function Header() {
     <header className="bg-white/80 dark:bg-slate-900/90 backdrop-blur-md border-b border-gray-200/60 dark:border-slate-700/60 sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        {/* Row 1: Logo + toggle */}
-        <div className="flex items-center justify-between h-14">
-          <Link href="/" className="flex items-center gap-2.5">
-            {/* Logo mark – circle with "i" */}
-            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="animate-float">
-              <circle cx="18" cy="18" r="18" fill="#2563eb"/>
-              <circle cx="18" cy="11" r="3" fill="white"/>
-              <rect x="14.5" y="17" width="7" height="10" rx="2.5" fill="white"/>
-              <circle cx="18" cy="18" r="22" fill="none" stroke="#2563eb" strokeWidth="1" opacity="0.25"/>
-            </svg>
-            <span className="tracking-tight leading-none">
-              <span className="font-bold text-xl text-blue-600 dark:text-blue-400" style={{ fontFamily: 'Georgia, serif' }}>Info</span>
-              <span className="font-bold text-xl text-gray-900 dark:text-white">Daily</span>
-              <span className="text-sm font-normal text-gray-400 dark:text-slate-500">.net</span>
-            </span>
-          </Link>
+        {/* Row 1: Logo + nav + tools */}
+        <div className="flex items-center justify-between h-14 gap-4">
+          {/* Left: logo + nav links */}
+          <div className="flex items-center gap-6 min-w-0">
+            <Link href="/" className="flex items-center gap-2.5 shrink-0">
+              {/* Logo mark – circle with "i" */}
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="animate-float">
+                <circle cx="18" cy="18" r="18" fill="#2563eb"/>
+                <circle cx="18" cy="11" r="3" fill="white"/>
+                <rect x="14.5" y="17" width="7" height="10" rx="2.5" fill="white"/>
+                <circle cx="18" cy="18" r="22" fill="none" stroke="#2563eb" strokeWidth="1" opacity="0.25"/>
+              </svg>
+              <span className="tracking-tight leading-none">
+                <span className="font-bold text-xl text-blue-600 dark:text-blue-400" style={{ fontFamily: 'Georgia, serif' }}>Info</span>
+                <span className="font-bold text-xl text-gray-900 dark:text-white">Daily</span>
+                <span className="text-sm font-normal text-gray-400 dark:text-slate-500">.net</span>
+              </span>
+            </Link>
 
-          <div className="flex items-center gap-2">
+            {/* Divider */}
+            <div className="hidden md:block w-px h-5 bg-gray-200 dark:bg-slate-700" />
+
+            {/* Desktop nav links */}
+            <nav className="hidden md:flex items-center gap-0.5">
+              <Link href="/authors" className="group flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
+                <svg className="w-3.5 h-3.5 opacity-60 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                Authors
+              </Link>
+              <Link href="/about" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
+                About
+              </Link>
+            </nav>
+          </div>
+
+          {/* Right: tools */}
+          <div className="flex items-center gap-2 shrink-0">
             <SearchBar />
             <LangPicker />
             <FontPicker />
@@ -213,7 +233,25 @@ export default function Header() {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="md:hidden border-t border-gray-100 dark:border-slate-700 px-4 py-3">
+        <div className="md:hidden border-t border-gray-100 dark:border-slate-700 px-4 py-3 space-y-3">
+          {/* Quick nav links */}
+          <div className="flex gap-2 flex-wrap">
+            <Link
+              href="/authors"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800"
+              onClick={() => setMenuOpen(false)}
+            >
+              ✍️ Authors
+            </Link>
+            <Link
+              href="/about"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-gray-100 dark:bg-slate-700 text-gray-700 dark:text-slate-300 border border-gray-200 dark:border-slate-600"
+              onClick={() => setMenuOpen(false)}
+            >
+              About
+            </Link>
+          </div>
+          {/* Categories */}
           <div className="flex flex-wrap gap-2">
             {CATEGORIES.map(cat => (
               <Link
