@@ -92,12 +92,19 @@ export const metadata: Metadata = {
   verification: {
     google: 'soUkwfns4jPrW0HEU8FPNe80U_FGTtSl9CG82LDQJMU',
   },
+  alternates: {
+    canonical: 'https://www.infodaily.net',
+    languages: {
+      'en': 'https://www.infodaily.net',
+      'x-default': 'https://www.infodaily.net',
+    },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
+      <head suppressHydrationWarning>
         <link rel="alternate" type="application/rss+xml" title="InfoDaily RSS Feed" href="https://www.infodaily.net/feed.xml" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3696555619228561" crossOrigin="anonymous" />
         {/* Google Consent Mode v2 — denied by default until user accepts */}
@@ -128,9 +135,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </FontProvider>
         </ThemeProvider>
         <Analytics />
-        {/* Google Translate */}
-        <script dangerouslySetInnerHTML={{ __html: `function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:'en',autoDisplay:false},'google_translate_element');}` }} />
-        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async />
       </body>
     </html>
   );
