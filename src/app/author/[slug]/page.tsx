@@ -72,24 +72,45 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
 
       {/* Author profile */}
       <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm p-8 mb-10">
-        <div className="flex items-start gap-6">
+        <div className="flex items-start gap-6 mb-6">
           <div className={`w-20 h-20 rounded-full ${author.avatarColor} flex items-center justify-center text-white font-black text-3xl flex-shrink-0`}>
             {author.name.charAt(0)}
           </div>
           <div className="flex-1">
             <h1 className="text-2xl font-black text-gray-900 dark:text-slate-100 mb-1">{author.name}</h1>
             <p className="text-blue-600 dark:text-blue-400 font-semibold text-sm mb-3">{author.title}</p>
-            <p className="text-gray-500 dark:text-slate-400 leading-relaxed">{author.bio}</p>
-            <div className="mt-4 flex items-center gap-2">
+            <div className="flex flex-wrap items-center gap-2">
               <span className="bg-gray-100 dark:bg-slate-700 text-gray-600 dark:text-slate-400 text-xs font-medium px-3 py-1 rounded-full">
                 {author.specialty}
               </span>
               <span className="text-gray-400 dark:text-slate-500 text-sm">
                 {posts.length} article{posts.length !== 1 ? 's' : ''}
               </span>
+              {author.joinedYear && (
+                <span className="text-gray-400 dark:text-slate-500 text-sm">
+                  · Writing since {author.joinedYear}
+                </span>
+              )}
             </div>
           </div>
         </div>
+
+        <p className="text-gray-600 dark:text-slate-300 leading-relaxed mb-5">
+          {author.longBio || author.bio}
+        </p>
+
+        {author.expertise && author.expertise.length > 0 && (
+          <div>
+            <p className="text-xs font-semibold text-gray-400 dark:text-slate-500 uppercase tracking-wider mb-2">Areas of Expertise</p>
+            <div className="flex flex-wrap gap-2">
+              {author.expertise.map(tag => (
+                <span key={tag} className="bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 text-xs font-medium px-3 py-1 rounded-full">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Articles */}
