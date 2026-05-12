@@ -66,3 +66,6 @@ jobs:
             git commit -m "chore: add $ARTICLE_COUNT articles [$(date +%Y-%m-%d)]"
             git push
           fi
+
+      - name: Submit new URLs to IndexNow
+        run: node submit-indexnow.js
