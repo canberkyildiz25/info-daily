@@ -144,9 +144,11 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
 
             <div className="flex items-center justify-between pb-6 border-b border-gray-200 dark:border-slate-700">
               <div className="flex items-center gap-3">
-                <div className={`w-10 h-10 rounded-full ${avatarColor} flex items-center justify-center text-white font-bold text-sm flex-shrink-0`}>
-                  {post.author.charAt(0)}
-                </div>
+                <img
+                  src={postAuthor?.avatar ?? `https://i.pravatar.cc/300?u=infodaily-${authorNameToSlug(post.author)}`}
+                  alt={post.author}
+                  className="w-10 h-10 rounded-full object-cover flex-shrink-0"
+                />
                 <div>
                   <Link
                     href={`/author/${authorNameToSlug(post.author)}`}
