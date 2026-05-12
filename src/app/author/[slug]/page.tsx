@@ -73,9 +73,11 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
       {/* Author profile */}
       <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm p-8 mb-10">
         <div className="flex items-start gap-6 mb-6">
-          <div className={`w-20 h-20 rounded-full ${author.avatarColor} flex items-center justify-center text-white font-black text-3xl flex-shrink-0`}>
-            {author.name.charAt(0)}
-          </div>
+          <img
+            src={author.avatar}
+            alt={author.name}
+            className="w-20 h-20 rounded-full object-cover flex-shrink-0"
+          />
           <div className="flex-1">
             <h1 className="text-2xl font-black text-gray-900 dark:text-slate-100 mb-1">{author.name}</h1>
             <p className="text-blue-600 dark:text-blue-400 font-semibold text-sm mb-3">{author.title}</p>

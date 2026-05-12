@@ -126,9 +126,11 @@ export default async function HomePage() {
                     {todayPost.excerpt}
                   </p>
                   <div className="flex items-center gap-3">
-                    <div className={`w-8 h-8 rounded-full ${todayAvatarColor} flex items-center justify-center text-white text-xs font-bold flex-shrink-0`}>
-                      {todayPost.author.charAt(0)}
-                    </div>
+                    <img
+                      src={todayAuthor?.avatar ?? `https://i.pravatar.cc/300?u=infodaily-${todayPost.author.toLowerCase().replace(/\s+/g, '-')}`}
+                      alt={todayPost.author}
+                      className="w-8 h-8 rounded-full object-cover flex-shrink-0"
+                    />
                     <span className="text-sm font-medium text-gray-700 dark:text-slate-300">{todayPost.author}</span>
                     <span className="ml-auto text-sm font-semibold text-blue-600 dark:text-blue-400 group-hover:underline">
                       Read article →

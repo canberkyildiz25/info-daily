@@ -82,9 +82,11 @@ export default function ArticleCard({ post, featured = false }: ArticleCardProps
             {/* Footer: author + read link */}
             <div className="flex items-center justify-between mt-auto pt-3 border-t border-gray-100 dark:border-slate-700">
               <div className="flex items-center gap-2 min-w-0">
-                <div className={`w-6 h-6 rounded-full ${author?.avatarColor ?? 'bg-blue-600'} flex items-center justify-center text-white text-[10px] font-bold flex-shrink-0`}>
-                  {post.author.charAt(0)}
-                </div>
+                <img
+                  src={author?.avatar ?? `https://i.pravatar.cc/300?u=infodaily-${post.author.toLowerCase().replace(/\s+/g, '-')}`}
+                  alt={post.author}
+                  className="w-6 h-6 rounded-full object-cover flex-shrink-0"
+                />
                 <span className="text-xs text-gray-500 dark:text-slate-400 truncate">{post.author}</span>
               </div>
               <span className="text-xs font-semibold text-blue-600 dark:text-blue-400 flex items-center gap-0.5 group-hover:gap-1.5 transition-all duration-200 shrink-0 ml-2">

@@ -75,11 +75,11 @@ export default function AuthorsPage() {
           >
             {/* Avatar + name */}
             <div className="flex items-center gap-4 mb-4">
-              <div
-                className={`w-14 h-14 rounded-full ${author.avatarColor} flex items-center justify-center text-white font-black text-xl flex-shrink-0`}
-              >
-                {author.name.charAt(0)}
-              </div>
+              <img
+                src={author.avatar}
+                alt={author.name}
+                className="w-14 h-14 rounded-full object-cover flex-shrink-0"
+              />
               <div className="min-w-0">
                 <h2 className="text-base font-bold text-gray-900 dark:text-slate-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors leading-tight truncate">
                   {author.name}
