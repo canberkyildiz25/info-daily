@@ -2,8 +2,9 @@
 title: "How to Read More Books Every Year"
 excerpt: "Reading more is less about finding time and more about eliminating the friction that stops you. These practical strategies can help you finish 20+ books annually."
 date: "2025-11-21"
+updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://picsum.photos/seed/406/800/450"
+coverImage: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=80"
 tags: ["reading", "books", "habits", "self improvement", "learning"]
 ---
 
@@ -82,3 +83,11 @@ You don't need detailed reviews. Three sentences: what the book was about, the m
 - One weekend morning per week: +4–6 more
 
 That's 28–30 books per year from about 1 hour daily average — most of it replacing low-value phone time or from commuting you're already doing. The math is achievable by almost anyone.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Pew Research Center – Reading Habits](https://www.pewresearch.org/internet/2021/01/09/who-doesnt-read-books-in-america/)
+- [American Library Association](https://www.ala.org/)

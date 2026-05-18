@@ -2,8 +2,9 @@
 title: "What Is VPN and Do You Really Need One"
 excerpt: "VPN companies promise complete online privacy and security. The reality is more nuanced — here's what a VPN actually does and whether it's worth paying for."
 date: "2025-10-21"
+updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://picsum.photos/seed/304/800/450"
+coverImage: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&q=80"
 tags: ["VPN", "online security", "privacy", "internet", "cybersecurity"]
 ---
 
@@ -82,3 +83,12 @@ The most important factor in a VPN isn't speed or price — it's trust. A dishon
 - Expect it to provide anonymity from websites you're logged into
 
 For most people: a trustworthy VPN is a reasonable $5–$10/month investment. Just go in with clear expectations about what it actually protects.
+
+## Sources & References
+
+- [MIT Technology Review](https://www.technologyreview.com/)
+- [IEEE Spectrum](https://spectrum.ieee.org/)
+- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
+- [CISA – Cybersecurity Resources](https://www.cisa.gov/topics/cybersecurity-best-practices)
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+- [Electronic Frontier Foundation – Surveillance Self-Defense](https://ssd.eff.org/)

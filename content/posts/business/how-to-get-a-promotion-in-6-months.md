@@ -2,8 +2,9 @@
 title: "How to Get a Promotion in 6 Months"
 excerpt: "Learn the strategic steps to accelerate your career and secure a promotion within six months through performance excellence and strategic visibility."
 date: "2026-04-10"
+updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://picsum.photos/seed/136/800/450"
+coverImage: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=80"
 tags: ["career-advancement", "professional-development", "workplace-strategy", "leadership", "career-tips"]
 ---
 
@@ -165,3 +166,11 @@ Sometimes this leads to a compromise: a title change, salary increase, or expand
 Getting promoted in six months requires strategy, not just hard work. You need to be visible, develop the right skills, demonstrate leadership, and build relationships. Most importantly, you need to communicate your ambition clearly to your manager and provide evidence that you're ready.
 
 Remember: your manager wants you to succeed (they want to keep good employees), they just need confidence that you're ready for the next level. By following this roadmap, you'll give them every reason to say yes.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)
+- [Bureau of Labor Statistics – Occupational Outlook](https://www.bls.gov/ooh/)
+- [Harvard Business Review – Career](https://hbr.org/topic/subject/career-planning)

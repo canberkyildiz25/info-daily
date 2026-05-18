@@ -2,8 +2,9 @@
 title: "How to Reduce Stress Without Medication"
 excerpt: "Discover proven, natural strategies to reduce stress without medication — from breathwork and movement to journaling and social connection."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Dr. Elena Russo"
-coverImage: "https://picsum.photos/seed/304/800/450"
+coverImage: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200&q=80"
 tags: ["stress relief", "mental health", "natural remedies", "wellness tips", "healthy lifestyle"]
 ---
 
@@ -114,3 +115,12 @@ Natural strategies are incredibly effective for everyday stress, but they're not
 You don't need to overhaul your entire life overnight. Pick one or two strategies from this list and commit to practicing them consistently for two weeks. Track how you feel. Then add another. Stress management is a skill — and like any skill, it gets stronger with practice.
 
 The fact that you're reading this article means you're already taking an important step. You're choosing to be proactive about your well-being, and that alone is something worth celebrating. Start where you are, use what you have, and trust that small, intentional changes really do add up to a calmer, healthier life.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [NIH National Cancer Institute](https://www.cancer.gov/)
+- [American Heart Association](https://www.heart.org/)
+- [U.S. Food & Drug Administration (FDA)](https://www.fda.gov/)

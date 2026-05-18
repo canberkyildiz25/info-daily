@@ -2,8 +2,9 @@
 title: "What to Do If You Are Living Paycheck to Paycheck"
 excerpt: "Practical steps to break the paycheck-to-paycheck cycle, build savings, and regain control of your finances starting today."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://picsum.photos/seed/424/800/450"
+coverImage: "https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=1200&q=80"
 tags: ["paycheck to paycheck", "budgeting tips", "personal finance", "saving money", "financial planning"]
 ---
 
@@ -103,3 +104,9 @@ Change doesn't happen overnight. You might have a month where an unexpected expe
 The path from financial survival to financial stability is rarely a straight line. It's messy, it requires adjustments, and it demands patience. But every dollar you save, every debt you pay down, and every intentional choice you make puts distance between you and the stress of wondering whether your money will last until Friday.
 
 Start with one action today. Just one. Open a savings account, cancel a subscription, write down your expenses, or research a side hustle. Small steps taken consistently will carry you further than any grand plan you never begin.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)

@@ -2,8 +2,9 @@
 title: "The Best Foods for Brain Health"
 excerpt: "What you eat directly influences your brain's function, mood, and long-term cognitive health. These evidence-backed foods support sharper thinking and protect against decline."
 date: "2025-10-27"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://picsum.photos/seed/604/800/450"
+coverImage: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80"
 tags: ["brain health", "cognitive function", "nutrition", "diet", "mental performance"]
 ---
 
@@ -79,3 +80,12 @@ The flip side of a brain-healthy diet: reducing foods that actively promote neur
 - **Excessive alcohol**: Neurotoxic at high doses; even moderate chronic consumption shrinks hippocampal volume
 
 The brain responds to diet changes over weeks to months, not days. Consistency matters more than occasional "brain food" meals.
+
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)
+- [NIH National Institute of Neurological Disorders](https://www.ninds.nih.gov/)
+- [Harvard Brain Science Initiative](https://brain.harvard.edu/)

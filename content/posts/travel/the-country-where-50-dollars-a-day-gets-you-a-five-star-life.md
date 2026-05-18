@@ -2,6 +2,7 @@
 title: "The Country Where $50 a Day Gets You a Five-Star Life"
 excerpt: "While most travelers chase the same expensive destinations, one country quietly offers exceptional quality of life at a fraction of the cost. Here's the honest breakdown."
 date: "2026-05-04"
+updatedAt: "2026-05-18"
 author: "Ryan Cooper"
 coverImage: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80"
 tags: ["budget travel", "travel tips", "Southeast Asia", "Georgia", "affordable destinations", "backpacking", "travel guide"]
@@ -50,3 +51,9 @@ Visa-free for most Western passport holders for up to 365 days. The currency (la
 The best months: May-June and September-October for mild weather and fewer crowds. July-August is the peak season, still manageable outside the capital.
 
 $50 a day, spent well, buys you a great deal in many places. In Georgia, it buys you one of the better travel experiences currently available.
+
+## Sources & References
+
+- [CDC Traveler's Health](https://wwwnc.cdc.gov/travel)
+- [U.S. Department of State – Travel](https://travel.state.gov/)
+- [World Tourism Organization (UNWTO)](https://www.unwto.org/)

@@ -2,8 +2,9 @@
 title: "10 Signs You Need More Sleep If You Work Night Shifts"
 excerpt: "Night shift workers often miss critical sleep signals. Discover 10 key signs your body needs more rest and actionable strategies to improve your sleep quality."
 date: "2026-05-07"
+updatedAt: "2026-05-18"
 author: "Dr. Sarah Collins"
-coverImage: "https://picsum.photos/seed/991/800/450"
+coverImage: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&q=80"
 tags: ["sleep health", "night shift work", "sleep deprivation", "workplace wellness", "sleep hygiene"]
 ---
 
@@ -116,3 +117,12 @@ If you've identified several of these signs in yourself, it's time to take actio
 ## Conclusion
 
 Working night shifts doesn't have to mean sacrificing your health and well-being. By recognizing these ten signs early, you can take proactive steps to protect your sleep and your health. Your body isn't being difficult—it's communicating essential needs. Listen to it, respect those signals, and take action. Your future self will thank you.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [NIH – Sleep Deprivation and Deficiency](https://www.nhlbi.nih.gov/health-topics/sleep-deprivation-and-deficiency)
+- [American Academy of Sleep Medicine](https://aasm.org/)
+- [Sleep Foundation](https://www.sleepfoundation.org/)

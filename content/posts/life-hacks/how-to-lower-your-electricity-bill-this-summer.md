@@ -2,6 +2,7 @@
 title: "How to Lower Your Electricity Bill This Summer"
 excerpt: "Electricity rates are up, summer heat is coming, and air conditioning is expensive. Here are the changes that actually move the needle — ranked by effort and impact."
 date: "2026-04-27"
+updatedAt: "2026-05-18"
 author: "Olivia Chen"
 coverImage: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80"
 tags: ["electricity", "energy", "saving money", "home", "summer"]
@@ -76,3 +77,12 @@ Attic insulation is the single biggest factor in how well your home holds condit
 ---
 
 You don't have to choose between comfort and a manageable bill. Most of the wins here come from changing when and how you run things, not from running them less. Start with the thermostat and fan adjustments — they cost nothing and can cut your bill by 15% before the heat even arrives.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [U.S. Department of Energy](https://www.energy.gov/)
+- [NREL – National Renewable Energy Laboratory](https://www.nrel.gov/)
+- [IPCC – Climate Change Reports](https://www.ipcc.ch/reports/)

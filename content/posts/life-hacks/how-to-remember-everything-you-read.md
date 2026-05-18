@@ -2,8 +2,9 @@
 title: "How to Remember Everything You Read"
 excerpt: "Discover proven strategies to retain more of what you read, from active recall techniques to smart note-taking habits that boost long-term memory."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://picsum.photos/seed/88/800/450"
+coverImage: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=1200&q=80"
 tags: ["memory techniques", "reading habits", "active recall", "productivity", "learning strategies"]
 ---
 
@@ -114,3 +115,11 @@ You don't need to implement every technique at once. Start with one or two that 
 ## The Bottom Line
 
 The difference between someone who reads 50 books a year and remembers nothing and someone who reads 12 books and retains deep, actionable knowledge comes down to strategy — not talent. By shifting from passive reading to active engagement, you transform reading from a fleeting experience into a lasting investment in yourself. Your future self — the one who can recall the right idea at the right moment — will thank you.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Pew Research Center – Reading Habits](https://www.pewresearch.org/internet/2021/01/09/who-doesnt-read-books-in-america/)
+- [American Library Association](https://www.ala.org/)

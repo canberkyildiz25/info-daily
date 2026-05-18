@@ -2,8 +2,9 @@
 title: "How to Eat Healthy on a Tight Budget"
 excerpt: "Healthy eating doesn't require expensive superfoods or a big grocery budget. With smart shopping and simple cooking, you can eat nutritiously for under $10 per day."
 date: "2025-11-25"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://picsum.photos/seed/606/800/450"
+coverImage: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1200&q=80"
 tags: ["budget eating", "healthy food", "grocery shopping", "meal planning", "nutrition"]
 ---
 
@@ -93,3 +94,12 @@ This budget is achievable with planning:
 Cheap healthy eating requires cooking skills and time to prep. A bag of dried lentils is cheap but useless if you don't know how to cook them. This is the real challenge — not the cost of healthy food but the knowledge gap.
 
 Start with three recipes. Master them. Add three more. Within a month, you'll have a rotation of genuinely good, nutritious, inexpensive meals that require no willpower to prepare.
+
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)
+- [CDC Traveler's Health](https://wwwnc.cdc.gov/travel)
+- [U.S. Department of State – Travel Advisories](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html)
+- [USDA – Food Plans and Costs](https://www.ers.usda.gov/topics/food-choices-health/food-consumption-demand/food-expenditures/)

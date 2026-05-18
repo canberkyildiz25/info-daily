@@ -2,8 +2,9 @@
 title: "How to Use AI to Boost Your Productivity"
 excerpt: "AI tools have gone from novelty to necessity in just two years. Here's a practical guide to integrating them into your workflow and genuinely saving hours every week."
 date: "2025-09-09"
+updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://picsum.photos/seed/301/800/450"
+coverImage: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&q=80"
 tags: ["AI tools", "productivity", "ChatGPT", "automation", "work smarter"]
 ---
 
@@ -83,3 +84,12 @@ The quality of your AI output is almost entirely determined by your prompt quali
 AI makes a poor substitute for genuine expertise, deep relationships, creative vision, ethical judgment, and domain knowledge. Use it to amplify your strengths — not to skip developing them. The professionals who will benefit most from AI are those who bring substantial human judgment to guide, edit, and validate what the AI produces.
 
 The starting point: pick one task you do every day that involves writing or information processing. Use AI for it this week. See how much time you save. Then expand from there.
+
+## Sources & References
+
+- [MIT Technology Review](https://www.technologyreview.com/)
+- [IEEE Spectrum](https://spectrum.ieee.org/)
+- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
+- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)
+- [MIT AI Policy](https://computing.mit.edu/artificial-intelligence/)
+- [OpenAI Research](https://openai.com/research)

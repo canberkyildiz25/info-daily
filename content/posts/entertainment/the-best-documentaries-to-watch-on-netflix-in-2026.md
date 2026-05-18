@@ -2,8 +2,9 @@
 title: "The Best Documentaries to Watch on Netflix in 2026"
 excerpt: "Discover the most gripping, eye-opening documentaries streaming on Netflix in 2026 â€” from true crime to nature, science, and social justice."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: Canberk Yildiz
-coverImage: "https://picsum.photos/seed/528/800/450"
+coverImage: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=1200&q=80"
 tags: ["Netflix documentaries", "best documentaries 2026", "streaming recommendations", "documentary films", "what to watch on Netflix"]
 ---
 
@@ -91,3 +92,11 @@ The documentary landscape on Netflix in 2026 is richer, more diverse, and more v
 
 So the next time you find yourself endlessly scrolling, stop â€” pick one of these, press play, and let a true story do what it does best: surprise you.
 
+## Sources & References
+
+- [Variety](https://variety.com/)
+- [The Hollywood Reporter](https://www.hollywoodreporter.com/)
+- [Billboard](https://www.billboard.com/)
+- [SEC – Investor Education](https://www.investor.gov/)
+- [Vanguard – Investment Research](https://institutional.vanguard.com/insights/research)
+- [Morningstar](https://www.morningstar.com/)

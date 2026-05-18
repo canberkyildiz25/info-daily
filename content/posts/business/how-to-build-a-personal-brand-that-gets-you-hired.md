@@ -2,8 +2,9 @@
 title: "How to Build a Personal Brand That Gets You Hired"
 excerpt: "Learn how to craft a powerful personal brand that makes recruiters notice you and lands your dream job faster than ever."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://picsum.photos/seed/912/800/450"
+coverImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80"
 tags: ["personal branding", "career development", "job search", "professional networking", "LinkedIn tips"]
 ---
 
@@ -112,3 +113,11 @@ Set a quarterly reminder to:
 Building a personal brand that gets you hired isn't about self-promotion or vanity metrics. It's about **strategically communicating your value** so the right opportunities come to you — instead of you endlessly chasing them. Define what makes you unique, show up consistently online, share your expertise generously, and build real relationships along the way.
 
 The people who get hired fastest aren't always the most qualified. They're the ones who are most visible, most memorable, and most clearly positioned to solve a specific problem. That's the power of personal branding — and it's entirely within your reach.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)
+- [Bureau of Labor Statistics – Occupational Outlook](https://www.bls.gov/ooh/)
+- [Harvard Business Review – Career](https://hbr.org/topic/subject/career-planning)

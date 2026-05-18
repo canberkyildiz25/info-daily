@@ -2,6 +2,7 @@
 title: "What the Latest Research Says About Gut Health"
 excerpt: "The gut microbiome has been hyped for years, but 2026 research is finally separating fact from marketing. Here's what we actually know — and what still needs proving."
 date: "2026-05-04"
+updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
 coverImage: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80"
 tags: ["gut health", "microbiome", "digestive health", "nutrition", "science"]
@@ -64,3 +65,9 @@ Prebiotic supplements (fiber-based products that feed existing bacteria) have a 
 If you want to support your gut health in 2026, the evidence points to the same unglamorous fundamentals: eat more plants, eat more fiber, include fermented foods regularly, reduce ultra-processed foods, manage stress, sleep enough, and take antibiotics only when necessary.
 
 The microbiome is genuinely fascinating science and likely to yield important clinical breakthroughs in the coming years. But the marketed shortcuts — expensive supplements, microbiome tests, elaborate protocols — are running well ahead of the evidence. The boring interventions remain the best ones.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)

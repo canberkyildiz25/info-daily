@@ -2,8 +2,9 @@
 title: "7 Money Habits of Millionaires"
 excerpt: "Most millionaires didn't inherit wealth — they built it with consistent habits. These seven behaviors separate the financially successful from everyone else."
 date: "2025-09-21"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://picsum.photos/seed/202/800/450"
+coverImage: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80"
 tags: ["millionaire habits", "wealth building", "personal finance", "investing", "money mindset"]
 ---
 
@@ -75,3 +76,12 @@ Building wealth is only half the equation. Keeping it requires protection:
 None of these habits is particularly exciting. There's no secret formula, no hot stock tip, no shortcut. The uncomfortable truth is that building wealth is methodical and slow — but it compounds. The person who invests $500 per month starting at 25 ends up with far more than someone who invests $2,000 per month starting at 45, even though the late starter put in more money.
 
 Start with one of these habits this week. Then add another. That's how it works.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)
+- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)
+- [MIT AI Policy](https://computing.mit.edu/artificial-intelligence/)
+- [OpenAI Research](https://openai.com/research)

@@ -2,8 +2,9 @@
 title: "Super Mario Galaxy Movie Breaks Box Office Records: Why Nintendo's Film Adaptation Resonates With Audiences"
 excerpt: "Nintendo's Super Mario Galaxy movie shatters box office records in 2026. Here's why the film resonates so deeply with audiences worldwide."
 date: "2026-04-14"
+updatedAt: "2026-05-18"
 author: Canberk Yildiz
-coverImage: "https://picsum.photos/seed/120/800/450"
+coverImage: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1200&q=80"
 tags: ["Super Mario Galaxy Movie", "Nintendo Film", "Box Office Records", "Video Game Movies", "Animation 2026"]
 ---
 
@@ -88,3 +89,11 @@ Nintendo hasn't just made a successful movie. They've proven that a video game c
 
 If you haven't seen it yet, grab your tickets. The stars are calling.
 
+## Sources & References
+
+- [Variety](https://variety.com/)
+- [The Hollywood Reporter](https://www.hollywoodreporter.com/)
+- [Billboard](https://www.billboard.com/)
+- [NASA Science](https://science.nasa.gov/)
+- [ESA – European Space Agency](https://www.esa.int/)
+- [SETI Institute](https://www.seti.org/)

@@ -49,9 +49,20 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
     '@type': 'Person',
     name: author.name,
     jobTitle: author.title,
-    description: author.bio,
+    description: author.longBio || author.bio,
     url: `${SITE_URL}/author/${slug}`,
-    worksFor: { '@type': 'Organization', name: 'InfoDaily', url: SITE_URL },
+    image: author.avatar,
+    worksFor: {
+      '@type': 'Organization',
+      name: 'InfoDaily',
+      url: SITE_URL,
+    },
+    knowsAbout: author.expertise,
+    hasOccupation: {
+      '@type': 'Occupation',
+      name: author.title,
+      occupationLocation: { '@type': 'Country', name: 'United States' },
+    },
   };
 
   return (

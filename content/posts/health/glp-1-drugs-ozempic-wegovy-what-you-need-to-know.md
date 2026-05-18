@@ -2,6 +2,7 @@
 title: "GLP-1 Drugs Explained: What Ozempic and Wegovy Actually Do to Your Body"
 excerpt: "GLP-1 medications like Ozempic and Wegovy are reshaping medicine — not just for weight loss, but for heart health, kidney disease, and more. Here's what the science says."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
 tags: ["GLP-1", "Ozempic", "Wegovy", "weight loss", "diabetes", "semaglutide"]
 coverImage: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
@@ -80,3 +81,12 @@ Generic versions are expected to become available later this decade, which could
 GLP-1 drugs represent a genuine breakthrough in medicine. For the right patient, they offer benefits that go far beyond the scale — protecting the heart, kidneys, and liver in ways no previous weight-loss drug could. But they are not magic pills. They work best alongside dietary changes, exercise, and ongoing medical supervision.
 
 If you're curious whether a GLP-1 medication might be right for you, talk to your doctor. The conversation is worth having.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)
+- [MIT AI Policy](https://computing.mit.edu/artificial-intelligence/)
+- [OpenAI Research](https://openai.com/research)

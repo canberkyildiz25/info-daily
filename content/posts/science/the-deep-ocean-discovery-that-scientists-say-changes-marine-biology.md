@@ -2,6 +2,7 @@
 title: "The Deep Ocean Discovery That Scientists Say Changes Marine Biology Forever"
 excerpt: "More than 80% of Earth's oceans remain unexplored. A recent discovery in the hadal zone has upended what scientists thought they knew about life under extreme pressure."
 date: "2026-05-05"
+updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
 coverImage: "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=800&q=80"
 tags: ["ocean", "marine biology", "deep sea", "science", "discovery", "biology", "extremophiles"]
@@ -50,3 +51,9 @@ But the broader principle they suggest is significant. Life has now been found t
 Each expansion of the known limits of life has consequences that reach beyond marine biology. It informs the models used in astrobiology — the search for life elsewhere in the solar system. The subsurface oceans of Jupiter's moon Europa and Saturn's moon Enceladus are cold, dark, and under enormous pressure. For decades, the uncertainty has been whether chemical energy sources there could support biology.
 
 The answer from Earth's hadal trenches, increasingly, seems to be yes.
+
+## Sources & References
+
+- [Nature](https://www.nature.com/)
+- [Science (AAAS)](https://www.science.org/)
+- [NASA](https://www.nasa.gov/)

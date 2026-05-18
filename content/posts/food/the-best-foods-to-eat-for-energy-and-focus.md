@@ -2,8 +2,9 @@
 title: "The Best Foods to Eat for Energy and Focus"
 excerpt: "Discover the top foods scientifically shown to boost your energy and sharpen your focus throughout the day — plus easy ways to add them to your diet."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://picsum.photos/seed/280/800/450"
+coverImage: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=1200&q=80"
 tags: ["energy foods", "brain health", "healthy eating", "focus and productivity", "nutrition tips"]
 ---
 
@@ -100,3 +101,12 @@ Knowing which foods to eat is only half the battle. Here are some practical ways
 You don't need expensive supplements, elaborate biohacking routines, or gallons of coffee to feel energized and mentally sharp. The secret is surprisingly simple: eat real, nutrient-dense foods consistently throughout the day. Oats, fatty fish, eggs, berries, nuts, leafy greens, and green tea are all affordable, accessible, and backed by science.
 
 Start small — swap one processed snack for a handful of almonds, add spinach to your smoothie, or try green tea instead of that third espresso. Over time, these small changes compound into dramatically better energy, clearer thinking, and a more productive day. Your brain is doing incredible work for you every single moment. It's time to return the favor with food that actually fuels it.
+
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)
+- [U.S. Department of Energy](https://www.energy.gov/)
+- [NREL – National Renewable Energy Laboratory](https://www.nrel.gov/)

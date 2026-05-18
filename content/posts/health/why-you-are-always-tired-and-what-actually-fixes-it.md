@@ -2,6 +2,7 @@
 title: "Why You're Always Tired â€” And What Actually Fixes It"
 excerpt: "Constant fatigue isn't always about sleep. New research reveals the real reasons you're exhausted â€” and the evidence-backed fixes that work."
 date: "2026-04-29"
+updatedAt: "2026-05-18"
 author: "Dr. Elena Russo"
 coverImage: "https://images.unsplash.com/photo-1541199249251-f713e6145474?w=800&q=80"
 tags: ["fatigue", "sleep", "energy", "health", "wellness", "burnout"]
@@ -84,3 +85,8 @@ Rather than reaching for another cup of coffee, work through this evidence-based
 
 Fatigue is your body sending a signal. It's worth listening to â€” and acting on â€” rather than powering through with caffeine and willpower. The underlying causes are almost always treatable. You don't have to feel this tired.
 
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)

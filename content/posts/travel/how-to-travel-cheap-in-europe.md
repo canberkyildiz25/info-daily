@@ -2,8 +2,9 @@
 title: "How to Travel Cheap in Europe"
 excerpt: "Europe doesn't have to be expensive. With the right booking strategies and insider tips, you can explore multiple countries on a surprisingly tight budget."
 date: "2025-09-13"
+updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://picsum.photos/seed/501/800/450"
+coverImage: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&q=80"
 tags: ["Europe travel", "budget travel", "cheap flights", "travel tips", "backpacking"]
 ---
 
@@ -87,3 +88,10 @@ Most of Europe's best experiences are free:
 ## Travel Insurance
 
 This is the only place where "go cheap" is a false economy. Medical evacuation from Europe can cost €50,000+. A comprehensive travel insurance policy costs €50–€100 for a 2-week trip and covers medical emergencies, trip cancellation, lost luggage, and more. Never skip it.
+
+## Sources & References
+
+- [CDC Traveler's Health](https://wwwnc.cdc.gov/travel)
+- [U.S. Department of State – Travel](https://travel.state.gov/)
+- [World Tourism Organization (UNWTO)](https://www.unwto.org/)
+- [U.S. Department of State – Travel Advisories](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html)

@@ -2,8 +2,9 @@
 title: "How AI Agents Are Changing the Way We Work in 2026"
 excerpt: "AI agents can now browse the web, write code, send emails, and manage schedules on your behalf. Here's what's actually useful today and what to watch for."
 date: "2026-04-17"
+updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://picsum.photos/seed/417/800/450"
+coverImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80"
 tags: ["AI", "productivity", "technology", "future of work", "automation"]
 ---
 
@@ -70,3 +71,12 @@ The biggest mistake people make is trying to automate everything at once. The se
 The frontier is multi-agent systems — networks of AI agents that work in parallel and hand off tasks to each other. One agent researches, another writes, a third fact-checks, and a manager agent coordinates the whole process. Early implementations are already in use at some technology companies, and broader availability is expected by late 2026.
 
 AI agents won't replace people who think critically, build relationships, and make judgment calls under uncertainty. But they're making those people substantially more productive — and the gap between those who learn to use them well and those who don't is growing wider every month.
+
+## Sources & References
+
+- [MIT Technology Review](https://www.technologyreview.com/)
+- [IEEE Spectrum](https://spectrum.ieee.org/)
+- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
+- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)
+- [MIT AI Policy](https://computing.mit.edu/artificial-intelligence/)
+- [OpenAI Research](https://openai.com/research)

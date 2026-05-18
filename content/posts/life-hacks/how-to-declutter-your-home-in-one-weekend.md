@@ -2,8 +2,9 @@
 title: "How to Declutter Your Home in One Weekend"
 excerpt: "A cluttered home creates mental noise and constant low-level stress. This step-by-step weekend plan will transform your space — and you'll actually finish it."
 date: "2025-11-07"
+updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://picsum.photos/seed/405/800/450"
+coverImage: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=80"
 tags: ["decluttering", "organization", "minimalism", "home", "productivity"]
 ---
 
@@ -90,3 +91,10 @@ Decluttering once and returning to old habits recreates the problem. Two mainten
 **30-day list**: Instead of buying things impulsively, add them to a list with the date. If you still want them after 30 days, you probably actually need them. Most items come off the list within a week.
 
 A decluttered home is easier to clean, less stressful to live in, and makes it easier to find things you actually need. The weekend investment typically pays dividends for years.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today – Clutter and Well-Being](https://www.psychologytoday.com/us/basics/clutter)

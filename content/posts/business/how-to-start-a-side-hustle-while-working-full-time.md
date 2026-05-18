@@ -2,8 +2,9 @@
 title: "How to Start a Side Hustle While Working Full Time"
 excerpt: "Practical steps to launch a profitable side hustle without burning out or risking your full-time job. Start building extra income today."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://picsum.photos/seed/328/800/450"
+coverImage: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1200&q=80"
 tags: ["side hustle", "extra income", "entrepreneurship", "work-life balance", "freelancing"]
 ---
 
@@ -118,3 +119,11 @@ Scaling too early, before you have steady demand and financial cushion, is risky
 Starting a side hustle while working full time is not easy, but it's absolutely doable — millions of people are proof of that. The secret isn't finding more hours in the day. It's using the hours you have with intention, choosing a hustle that aligns with your life, and showing up consistently even when progress feels painfully slow.
 
 You don't need to quit your job on Monday. You don't need a viral TikTok or a Silicon Valley pitch deck. You just need to start — imperfectly, bravely, and soon. Your future self will thank you for the income stream, the skills, and the confidence that come from building something of your own.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)
+- [Bureau of Labor Statistics – Occupational Outlook](https://www.bls.gov/ooh/)
+- [Harvard Business Review – Career](https://hbr.org/topic/subject/career-planning)

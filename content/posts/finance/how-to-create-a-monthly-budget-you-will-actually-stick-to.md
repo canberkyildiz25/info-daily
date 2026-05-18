@@ -2,8 +2,9 @@
 title: "How to Create a Monthly Budget You Will Actually Stick To"
 excerpt: "Learn how to build a realistic monthly budget with practical steps, real examples, and proven strategies that make it easy to stay on track."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://picsum.photos/seed/368/800/450"
+coverImage: "https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=1200&q=80"
 tags: ["monthly budget", "personal finance", "budgeting tips", "money management", "saving money"]
 ---
 
@@ -111,3 +112,12 @@ Your income will change. Your priorities will shift. Your expenses will evolve. 
 Revisit your full budget at least once a quarter. Ask yourself whether your categories still reflect your values and goals. If you got a raise, decide intentionally where that extra money should go — don't let lifestyle inflation make the decision for you.
 
 The ultimate goal isn't to track every penny for the rest of your life. It's to build such a strong understanding of your financial habits that smart spending becomes second nature. A good budget isn't a cage. It's a tool that gives you the freedom to spend on what truly matters — and the peace of mind that comes from knowing your future self is taken care of too.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)
+- [CDC Traveler's Health](https://wwwnc.cdc.gov/travel)
+- [U.S. Department of State – Travel Advisories](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html)
+- [USDA – Food Plans and Costs](https://www.ers.usda.gov/topics/food-choices-health/food-consumption-demand/food-expenditures/)

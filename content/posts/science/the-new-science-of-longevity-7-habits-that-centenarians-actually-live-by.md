@@ -2,8 +2,9 @@
 title: "The New Science of Longevity: 7 Habits That Centenarians Actually Live By"
 excerpt: "Researchers studying the world's longest-lived people have uncovered 7 surprising habits that add decades to your life — backed by the latest science."
 date: "2026-04-28"
+updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://picsum.photos/seed/428/800/450"
+coverImage: "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1200&q=80"
 tags: ["longevity", "centenarians", "healthy aging", "blue zones", "lifespan"]
 ---
 
@@ -90,3 +91,12 @@ The most important finding from decades of centenarian research isn't that any s
 You don't need to be perfect. You don't need to live in Okinawa or Sardinia. What the science shows, clearly and consistently, is that the people who live the longest don't do anything extreme. They move a little every day, eat mostly plants, sleep well, stay connected to people they love, and wake up each morning with something to look forward to.
 
 These habits aren't a biohacking protocol. They're just a very good way to be human.
+
+## Sources & References
+
+- [Nature](https://www.nature.com/)
+- [Science (AAAS)](https://www.science.org/)
+- [NASA](https://www.nasa.gov/)
+- [APA – Procrastination](https://www.apa.org/news/press/releases/2010/04/procrastination)
+- [James Clear – Atomic Habits Research](https://jamesclear.com/habits)
+- [Harvard Business Review – Productivity](https://hbr.org/topic/subject/productivity)

@@ -2,8 +2,9 @@
 title: "How to Protect Your Privacy Online in 2026"
 excerpt: "Discover practical, up-to-date strategies to protect your personal data and digital privacy in 2026 — from AI threats to everyday browsing habits."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://picsum.photos/seed/504/800/450"
+coverImage: "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=1200&q=80"
 tags: ["online privacy", "cybersecurity", "data protection", "digital safety", "privacy tools"]
 ---
 
@@ -91,3 +92,12 @@ Privacy is not a one-time fix — it's an ongoing practice. Threats evolve, new 
 ## The Bottom Line
 
 Protecting your privacy online in 2026 isn't about paranoia — it's about informed decision-making. Every step you take, from switching to encrypted messaging to removing your data from broker sites, reclaims a piece of your autonomy in a digital world that's designed to erode it. You don't have to do everything at once. Start with one or two changes today, build momentum, and gradually develop a privacy practice that fits your life. Your future self — the one whose identity hasn't been stolen, whose conversations remain private, and whose data isn't sitting in a broker's database — will thank you for it.
+
+## Sources & References
+
+- [MIT Technology Review](https://www.technologyreview.com/)
+- [IEEE Spectrum](https://spectrum.ieee.org/)
+- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
+- [CISA – Cybersecurity Resources](https://www.cisa.gov/topics/cybersecurity-best-practices)
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+- [Electronic Frontier Foundation – Surveillance Self-Defense](https://ssd.eff.org/)

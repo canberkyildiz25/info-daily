@@ -2,8 +2,9 @@
 title: "The Best Ways to Improve Communication With Your Partner"
 excerpt: "Discover proven strategies to improve communication with your partner, strengthen your bond, and resolve conflicts with confidence and compassion."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://picsum.photos/seed/112/800/450"
+coverImage: "https://images.unsplash.com/photo-1516401266446-6432a8a07d41?w=1200&q=80"
 tags: ["relationship communication", "healthy relationships", "couples advice", "conflict resolution", "emotional intimacy"]
 ---
 
@@ -113,3 +114,12 @@ If therapy feels like a big step, start smaller. Read a relationship-focused boo
 Improving communication with your partner isn't about achieving perfection. You'll still misunderstand each other. You'll still have bad days. The goal isn't to eliminate conflict — it's to develop the tools to move through it with respect, empathy, and a shared commitment to understanding.
 
 Start with one strategy from this list. Practice it consistently for a few weeks. Then add another. Small, intentional changes compound over time into something powerful: a relationship where both people feel heard, valued, and deeply connected. That's not just good communication — that's the foundation of lasting love.
+
+## Sources & References
+
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [National Alliance on Mental Illness (NAMI)](https://www.nami.org/)
+- [APA – Relationships](https://www.apa.org/topics/relationships)
+- [Greater Good Science Center](https://greatergood.berkeley.edu/topic/relationships)
+- [John Gottman Institute](https://www.gottman.com/about/research/)

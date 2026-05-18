@@ -2,6 +2,7 @@
 title: "Attachment Styles Explained: How Your Childhood Shapes Every Relationship"
 excerpt: "Anxious, avoidant, or secure? Your attachment style — formed in childhood — quietly drives your behavior in every relationship. Understanding it can change everything."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
 tags: ["attachment styles", "relationships", "psychology", "anxious attachment", "avoidant attachment", "emotional health"]
 coverImage: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&q=80"
@@ -94,3 +95,12 @@ Yes — and this is the most important thing to understand. Attachment styles ar
 Your attachment style is not a diagnosis, a flaw, or an excuse. It's a map — a description of the emotional territory you navigate in relationships, drawn from your earliest experiences.
 
 Understanding that map doesn't change the terrain overnight. But it changes how you move through it. And with that understanding, the patterns that once seemed destined to repeat can begin, slowly, to shift.
+
+## Sources & References
+
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [National Alliance on Mental Illness (NAMI)](https://www.nami.org/)
+- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)
+- [MIT AI Policy](https://computing.mit.edu/artificial-intelligence/)
+- [OpenAI Research](https://openai.com/research)

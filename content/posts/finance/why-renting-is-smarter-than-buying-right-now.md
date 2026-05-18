@@ -2,6 +2,7 @@
 title: "Why Renting Is Smarter Than Buying Right Now — A Financial Planner's Honest Take"
 excerpt: "The 'renting is throwing money away' myth has cost Americans billions. Here's what the math actually shows about buying vs. renting in today's market."
 date: "2026-05-11"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
 coverImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
 tags: ["real estate", "renting", "buying a home", "personal finance", "housing market", "mortgage"]
@@ -60,3 +61,9 @@ Buying a home is also not inherently wise. It is a large, illiquid, highly lever
 Both can be the right choice. Which one is right for you depends on your specific numbers, your timeline, your market, and your life circumstances — not on a piece of financial mythology that real estate agents and mortgage brokers have every incentive to perpetuate.
 
 Run the math. Then decide.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)

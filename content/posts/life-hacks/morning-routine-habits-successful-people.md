@@ -2,6 +2,7 @@
 title: "7 Morning Routine Habits of Highly Successful People"
 excerpt: "What you do in the first 60 minutes of your day shapes everything that follows. These 7 science-backed habits can transform your mornings — and your life."
 date: "2025-03-25"
+updatedAt: "2026-05-18"
 author: "Emma Johnson"
 tags: ["morning routine", "productivity", "habits", "success", "self improvement"]
 coverImage: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80"
@@ -83,3 +84,12 @@ A sample 45-minute morning:
 - 7:00 AM — Ready for the world
 
 The investment is 45 minutes. The return is a more focused, productive, and energized day.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [APA – Procrastination](https://www.apa.org/news/press/releases/2010/04/procrastination)
+- [James Clear – Atomic Habits Research](https://jamesclear.com/habits)
+- [Harvard Business Review – Productivity](https://hbr.org/topic/subject/productivity)

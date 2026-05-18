@@ -2,6 +2,7 @@
 title: "How to Manage Anxiety Without Medication"
 excerpt: "Anxiety is one of the most common mental health struggles in the world — and there are evidence-based tools that work beyond medication. Here's what the research actually supports."
 date: "2026-04-24"
+updatedAt: "2026-05-18"
 author: "Dr. Elena Russo"
 coverImage: "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=800&q=80"
 tags: ["anxiety", "mental health", "wellness", "stress", "therapy"]
@@ -97,3 +98,12 @@ Medication and behavioral tools aren't mutually exclusive either. Many people fi
 ---
 
 Anxiety doesn't have to be permanent. It's treatable, manageable, and in many cases significantly reducible through consistent effort. The tools exist. The research supports them. What's required is picking one or two, applying them consistently, and giving them enough time to work — because none of them are overnight fixes, and all of them get more effective with practice.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [NIH National Cancer Institute](https://www.cancer.gov/)
+- [American Heart Association](https://www.heart.org/)
+- [U.S. Food & Drug Administration (FDA)](https://www.fda.gov/)

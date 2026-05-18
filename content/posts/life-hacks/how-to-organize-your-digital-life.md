@@ -2,8 +2,9 @@
 title: "How to Organize Your Digital Life"
 excerpt: "Digital chaos — overflowing inboxes, scattered files, forgotten passwords — creates constant low-level stress. This practical guide brings order to your digital world."
 date: "2025-12-19"
+updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://picsum.photos/seed/408/800/450"
+coverImage: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=1200&q=80"
 tags: ["digital organization", "productivity", "files", "email", "life hacks"]
 ---
 
@@ -82,3 +83,12 @@ If your digital life has accumulated years of disorder, a focused 30-day cleanup
 After the sprint, the daily maintenance is minimal — 10 minutes of email processing per day and occasional file sorting keeps it organized indefinitely.
 
 Digital organization isn't about perfection. It's about creating systems that make finding things fast, prevent loss of important files, and reduce the daily friction of digital mess.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today – Clutter and Well-Being](https://www.psychologytoday.com/us/basics/clutter)
+- [Pew Research Center – Reading Habits](https://www.pewresearch.org/internet/2021/01/09/who-doesnt-read-books-in-america/)
+- [American Library Association](https://www.ala.org/)

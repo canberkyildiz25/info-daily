@@ -2,6 +2,7 @@
 title: "Intermittent Fasting 16:8 Meal Plan for Beginners: Exactly What to Eat"
 excerpt: "A day-by-day 16:8 intermittent fasting meal plan built for beginners â€” the best foods to eat during your 8-hour window, how to break your fast without crashing, and what to expect in week one."
 date: "2026-04-22"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
 coverImage: "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800&q=80"
 tags: ["intermittent fasting", "intermittent fasting for beginners", "16:8", "meal plan", "nutrition", "healthy eating"]
@@ -202,3 +203,10 @@ By the end of week one, most people are ready to commit to a second week â€�
 - [What to Expect Week by Week: IF Results Timeline](/health/intermittent-fasting-results-what-to-expect)
 - [Intermittent Fasting Side Effects: What's Normal vs. a Warning Sign](/health/intermittent-fasting-side-effects)
 
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)
+- [Harvard T.H. Chan – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)

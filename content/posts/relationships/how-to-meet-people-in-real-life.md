@@ -2,6 +2,7 @@
 title: "How to Meet People in Real Life (Now That Apps Are Burning Us Out)"
 excerpt: "Dating app fatigue is real. More people than ever are returning to in-person connection â€” cooking classes, book clubs, hiking groups. Here's how to actually meet people offline in 2026."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
 tags: ["dating", "meeting people", "social connection", "relationships", "real life", "loneliness"]
 coverImage: "https://images.unsplash.com/photo-1543269664-76bc3997d9ea?w=800&q=80"
@@ -97,3 +98,8 @@ The return to in-person isn't a rejection of technology. It's a recognition that
 
 Go take a class. Join a hiking group. Show up.
 
+## Sources & References
+
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [National Alliance on Mental Illness (NAMI)](https://www.nami.org/)

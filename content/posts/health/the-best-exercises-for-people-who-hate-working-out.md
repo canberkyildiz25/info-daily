@@ -2,6 +2,7 @@
 title: "The Best Exercises for People Who Hate Working Out"
 excerpt: "You don't have to love exercise to get fit. These approaches make movement feel less like punishment and more like something you might actually keep doing."
 date: "2026-05-03"
+updatedAt: "2026-05-18"
 author: "Mark Stevens, CSCS"
 coverImage: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80"
 tags: ["exercise", "fitness", "health", "beginner workout", "motivation"]
@@ -75,3 +76,12 @@ The goal initially is not fitness — it's showing yourself that you can be the 
 Then build from there. Slowly. Without drama.
 
 The fitness industry profits from making exercise feel like an extreme transformation. The science just says: move more than you currently do, in ways you can sustain. Almost any movement, done consistently, is far better than the perfect workout that stays on your to-do list.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [American College of Sports Medicine](https://www.acsm.org/)
+- [NIH – Physical Activity Guidelines](https://www.ncbi.nlm.nih.gov/books/NBK179847/)
+- [Journal of Strength and Conditioning Research (NSCA)](https://journals.lww.com/nsca-jscr)

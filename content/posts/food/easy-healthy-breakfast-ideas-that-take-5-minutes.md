@@ -2,8 +2,9 @@
 title: "Easy Healthy Breakfast Ideas That Take 5 Minutes"
 excerpt: "Discover quick, nutritious breakfast ideas you can make in 5 minutes or less. Start your morning right without sacrificing time or flavor."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://picsum.photos/seed/920/800/450"
+coverImage: "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=1200&q=80"
 tags: ["healthy breakfast", "quick recipes", "meal prep", "morning routine", "nutrition tips"]
 ---
 
@@ -110,3 +111,10 @@ Even with five-minute recipes, a little strategy goes a long way:
 ## The Bottom Line
 
 Eating a healthy breakfast doesn't require a culinary degree, an hour of free time, or an Instagram-worthy kitchen. It requires a little planning and a handful of simple, whole ingredients. Whether you're blending a smoothie while packing your bag or grabbing overnight oats you prepped the night before, five minutes is all it takes to fuel your body and set a better tone for the rest of your day. Start with one of these ideas tomorrow morning — your energy levels, your mood, and your waistline will all notice the difference.
+
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)

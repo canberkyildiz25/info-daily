@@ -2,8 +2,9 @@
 title: "How CRISPR Gene Editing Could Change Medicine Forever"
 excerpt: "Discover how CRISPR gene editing is revolutionizing medicine, from curing genetic diseases to fighting cancer, and what it means for the future of healthcare."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://picsum.photos/seed/536/800/450"
+coverImage: "https://images.unsplash.com/photo-1502472584811-0a2f2feb8968?w=1200&q=80"
 tags: ["CRISPR", "gene editing", "medical innovation", "genetic diseases", "biotechnology"]
 ---
 
@@ -88,3 +89,9 @@ Even if you're not personally affected by a genetic disease, CRISPR's ripple eff
 CRISPR represents a fundamental shift in how we think about disease. Instead of managing symptoms for a lifetime, we're entering an era where the underlying genetic causes of illness can be corrected — sometimes permanently, sometimes with a single treatment. The technology is imperfect, expensive, and fraught with ethical complexity. But it's also undeniably real, rapidly improving, and already changing lives.
 
 The story of CRISPR is still being written, and its next chapters will be shaped not just by scientists in laboratories but by patients, policymakers, and everyday people who demand that this extraordinary power is wielded wisely. Medicine will never be quite the same — and that might be the best news humanity has received in a very long time.
+
+## Sources & References
+
+- [Nature](https://www.nature.com/)
+- [Science (AAAS)](https://www.science.org/)
+- [NASA](https://www.nasa.gov/)

@@ -43,6 +43,8 @@ export interface Post {
   title: string;
   excerpt: string;
   date: string;
+  updatedAt?: string;
+  canonicalUrl?: string;
   author: string;
   coverImage: string;
   readingTime: string;
@@ -74,6 +76,8 @@ export function getAllPosts(): Post[] {
         title: data.title,
         excerpt: data.excerpt,
         date: data.date,
+        updatedAt: data.updatedAt,
+        canonicalUrl: data.canonicalUrl,
         author: data.author || 'Editorial Team',
         coverImage: data.coverImage || `/images/${category.slug}-default.jpg`,
         readingTime: stats.text,
@@ -110,6 +114,8 @@ export async function getPost(category: string, slug: string): Promise<Post | nu
     title: data.title,
     excerpt: data.excerpt,
     date: data.date,
+    updatedAt: data.updatedAt,
+    canonicalUrl: data.canonicalUrl,
     author: data.author || 'Editorial Team',
     coverImage: data.coverImage || `/images/${category}-default.jpg`,
     readingTime: stats.text,

@@ -2,6 +2,7 @@
 title: "The 5-Minute Morning Habit That Cardiologists Say Changes Everything"
 excerpt: "It costs nothing, takes five minutes, and the cardiovascular evidence behind it is stronger than most people realize. Here's what cardiologists actually do each morning."
 date: "2026-05-12"
+updatedAt: "2026-05-18"
 author: "Mark Stevens, CSCS"
 coverImage: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&q=80"
 tags: ["heart health", "morning routine", "cardiology", "habits", "fitness", "wellness"]
@@ -48,3 +49,12 @@ The research on habit formation points to a few reliable strategies for embeddin
 Five minutes sounds trivial. But compounded over months and years, the cardiovascular evidence for consistent morning movement is anything but. Your heart does not distinguish between an impressive workout and a brief, purposeful walk. It responds to what you actually do.
 
 Start tomorrow. Five minutes. The rest follows.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [APA – Procrastination](https://www.apa.org/news/press/releases/2010/04/procrastination)
+- [James Clear – Atomic Habits Research](https://jamesclear.com/habits)
+- [Harvard Business Review – Productivity](https://hbr.org/topic/subject/productivity)

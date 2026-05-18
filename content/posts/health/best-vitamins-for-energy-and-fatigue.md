@@ -2,8 +2,9 @@
 title: "Best Vitamins for Energy and Fatigue"
 excerpt: "Constant tiredness may signal a nutritional gap. These science-backed vitamins and minerals can genuinely restore your energy levels."
 date: "2025-10-03"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://picsum.photos/seed/103/800/450"
+coverImage: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80"
 tags: ["vitamins", "energy", "fatigue", "supplements", "nutrition"]
 ---
 
@@ -79,3 +80,12 @@ While not directly an energy booster, vitamin C supports adrenal function and he
 4. **Consider thyroid function.** Hypothyroidism is one of the most common and underdiagnosed causes of fatigue — it mimics nutritional deficiency almost exactly.
 
 Targeted supplementation based on confirmed deficiencies is far more effective than taking a handful of random vitamins every morning. Start with a test, not a guess.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)
+- [Harvard T.H. Chan – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [U.S. Department of Energy](https://www.energy.gov/)

@@ -2,8 +2,9 @@
 title: "How to Start Investing With $100"
 excerpt: "Think you need thousands to start investing? Think again. Here's exactly how to grow your wealth starting with just $100."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://picsum.photos/seed/592/800/450"
+coverImage: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80"
 tags: ["investing for beginners", "how to invest", "investing with little money", "personal finance", "building wealth"]
 ---
 
@@ -95,3 +96,12 @@ Even with $100, there are traps worth sidestepping:
 Starting your investing journey with $100 isn't just possible — it's powerful. That first $100 represents something far more valuable than the dollar amount: a commitment to your future self. It's proof that you don't need to be wealthy to start building wealth.
 
 Open an account this week. Buy your first index fund. Set up an automatic contribution. Then let time and compound growth do the heavy lifting. Thirty years from now, you'll look back at this moment as one of the smartest financial decisions you ever made — and it only cost you a hundred bucks to get started.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)
+- [SEC – Investor Education](https://www.investor.gov/)
+- [Vanguard – Investment Research](https://institutional.vanguard.com/insights/research)
+- [Morningstar](https://www.morningstar.com/)

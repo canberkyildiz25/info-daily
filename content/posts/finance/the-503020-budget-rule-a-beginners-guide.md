@@ -2,8 +2,9 @@
 title: "The 50/30/20 Budget Rule: A Beginner's Guide"
 excerpt: "Learn how the 50/30/20 budget rule can simplify your finances by splitting income into needs, wants, and savings — with practical tips to get started today."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://picsum.photos/seed/344/800/450"
+coverImage: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&q=80"
 tags: ["budgeting", "50/30/20 rule", "personal finance", "money management", "saving money"]
 ---
 
@@ -125,3 +126,12 @@ The percentages are guidelines, not laws. The real power of the framework is the
 ## The Bottom Line
 
 The 50/30/20 budget rule isn't magic, but it's remarkably effective because it removes the biggest barrier to budgeting: complexity. You don't need to track 27 categories or feel guilty about buying concert tickets. You just need three buckets, a clear picture of your income, and the willingness to check in with yourself regularly. Start this month, even imperfectly, and you'll be ahead of the majority of people who have no plan at all. Your future self will thank you.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)
+- [CDC Traveler's Health](https://wwwnc.cdc.gov/travel)
+- [U.S. Department of State – Travel Advisories](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html)
+- [USDA – Food Plans and Costs](https://www.ers.usda.gov/topics/food-choices-health/food-consumption-demand/food-expenditures/)

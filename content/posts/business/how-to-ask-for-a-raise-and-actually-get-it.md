@@ -2,8 +2,9 @@
 title: "How to Ask for a Raise and Actually Get It"
 excerpt: "Most people either never ask for raises or ask ineffectively. This step-by-step approach significantly increases your chances of getting a yes — and a larger yes."
 date: "2025-10-15"
+updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://picsum.photos/seed/703/800/450"
+coverImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80"
 tags: ["salary negotiation", "career", "raise", "workplace", "negotiation"]
 ---
 
@@ -85,3 +86,12 @@ A flat no isn't the end — it's information. Ask: "Can you help me understand w
 Document the response and their criteria. If you hit those criteria and still receive no increase in 6–12 months, you have your answer — and you know it's time to look externally.
 
 External offers are the most powerful negotiating tool available. It's not ideal to use a competing offer as leverage, but it works.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)
+- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)
+- [MIT AI Policy](https://computing.mit.edu/artificial-intelligence/)
+- [OpenAI Research](https://openai.com/research)

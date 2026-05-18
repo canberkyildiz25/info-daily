@@ -2,8 +2,9 @@
 title: "The Best Anti-Inflammatory Foods"
 excerpt: "Discover the most powerful anti-inflammatory foods that reduce chronic disease risk and boost your health naturally through strategic nutrition."
 date: "2026-05-05"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://picsum.photos/seed/720/800/450"
+coverImage: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200&q=80"
 tags: ["anti-inflammatory", "nutrition", "healthy eating", "wellness", "disease prevention"]
 ---
 
@@ -155,3 +156,12 @@ This balanced approach—adding good foods while removing damaging ones—create
 ## Final Thoughts
 
 Transforming your diet to prioritize anti-inflammatory foods isn't about restriction or deprivation. Instead, it's about enjoying delicious, nutrient-dense meals that make you feel better from the inside out. Start by adding a few anti-inflammatory foods to your current diet rather than overhauling everything at once. Small, sustainable changes compound into dramatic long-term health improvements. Your body will thank you.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)
+- [Harvard T.H. Chan – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [IMDb](https://www.imdb.com/)

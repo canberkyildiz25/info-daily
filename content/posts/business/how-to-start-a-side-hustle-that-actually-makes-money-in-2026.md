@@ -2,6 +2,7 @@
 title: "How to Start a Side Hustle That Actually Makes Money in 2026"
 excerpt: "Most side hustles fail within six months. The ones that succeed share a handful of specific traits. Here's how to pick the right one, start lean, and build income that lasts."
 date: "2026-04-26"
+updatedAt: "2026-05-18"
 author: "James Mercer"
 coverImage: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&q=80"
 tags: ["side hustle", "income", "freelance", "business", "money"]
@@ -67,3 +68,11 @@ Many people make the leap too early, kill the momentum trying to replace a full 
 ---
 
 A side hustle that works is less about passion and more about discipline, market fit, and consistency. Start small, start specific, and stay focused on delivering value before optimizing anything else. The people who build sustainable side income aren't the ones with the most creative ideas — they're the ones who kept showing up.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)
+- [Bureau of Labor Statistics – Occupational Outlook](https://www.bls.gov/ooh/)
+- [Harvard Business Review – Career](https://hbr.org/topic/subject/career-planning)

@@ -2,8 +2,9 @@
 title: "How to Lower Cortisol Naturally"
 excerpt: "Chronic stress raises cortisol and damages your health. Learn proven, natural ways to bring it back down and feel calmer every day."
 date: "2025-09-05"
+updatedAt: "2026-05-18"
 author: "Dr. Elena Russo"
-coverImage: "https://picsum.photos/seed/101/800/450"
+coverImage: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1200&q=80"
 tags: ["cortisol", "stress relief", "hormones", "wellness", "mental health"]
 ---
 
@@ -85,3 +86,9 @@ Always talk to a doctor before starting supplements, especially if you take medi
 Lowering cortisol isn't about a single fix — it's about stacking small habits that tell your nervous system it's safe. Good sleep, moderate movement, real food, a bit of quiet time, and healthier relationships collectively create an environment where cortisol can return to its natural rhythm.
 
 Start with the one change that feels most achievable this week. Momentum matters more than perfection.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)

@@ -2,8 +2,9 @@
 title: "Signs You Are Not Drinking Enough Water"
 excerpt: "Discover the surprising warning signs of dehydration and learn how to ensure you're drinking enough water every single day."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://picsum.photos/seed/600/800/450"
+coverImage: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=1200&q=80"
 tags: ["dehydration signs", "drinking enough water", "hydration tips", "health warning signs", "daily water intake"]
 ---
 
@@ -88,3 +89,9 @@ Knowing you need more water is one thing. Actually drinking it consistently is a
 While mild dehydration is easily corrected, severe dehydration is a medical emergency. Seek immediate medical attention if you or someone you know experiences rapid heartbeat, confusion, fainting, no urination for 8+ hours, or extreme thirst accompanied by very dark urine. These signs indicate that the body's systems are under significant stress.
 
 The good news? For the vast majority of us, the fix is beautifully simple. Pay attention to the signals your body is sending, keep water within arm's reach, and make hydration a non-negotiable part of your daily routine. Your energy, skin, digestion, mood, and overall health will thank you — and you'll likely notice the difference within just a few days.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)

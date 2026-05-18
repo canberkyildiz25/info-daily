@@ -2,6 +2,7 @@
 title: "The Hidden Costs of Buying a Home in 2026"
 excerpt: "Everyone talks about the down payment, but the real financial surprises come after. Here are the costs most first-time buyers never see coming."
 date: "2026-05-01"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
 coverImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
 tags: ["home buying", "real estate", "personal finance", "mortgage", "first-time buyer"]
@@ -86,3 +87,12 @@ A $400,000 home in 2026 might carry:
 That's potentially $15,000–$37,000 in annual costs beyond your mortgage payment. Understanding this picture before you sign is the difference between homeownership being a wealth-building tool and a financial trap.
 
 The house might be in your budget. Make sure the home is too.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)
+- [Psychology Today – Clutter and Well-Being](https://www.psychologytoday.com/us/basics/clutter)
+- [USDA – Food Plans and Costs](https://www.ers.usda.gov/topics/food-choices-health/food-consumption-demand/food-expenditures/)
+- [Bureau of Labor Statistics – Consumer Expenditures](https://www.bls.gov/cex/)

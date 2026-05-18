@@ -2,8 +2,9 @@
 title: "How to Cook Chicken 10 Different Delicious Ways"
 excerpt: "Master 10 delicious ways to cook chicken, from crispy roasting to tender slow cooking. Practical tips for juicy results every single time."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://picsum.photos/seed/664/800/450"
+coverImage: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=1200&q=80"
 tags: ["chicken recipes", "cooking techniques", "how to cook chicken", "easy dinner ideas", "healthy cooking"]
 ---
 
@@ -130,3 +131,9 @@ The buttermilk brine tenderizes the meat while the acidity helps the flour coati
 No matter which method you choose, the single most important tool in your kitchen is an instant-read meat thermometer. Guessing leads to either dry, overcooked chicken or undercooked meat that poses a food safety risk. When the thickest part of the chicken hits 165°F (74°C), you're golden — literally and figuratively.
 
 Experiment with these ten techniques, and you'll never think of chicken as boring again. Start with the method that excites you most, master it, then move on to the next. Before long, you'll have a full rotation of chicken dinners that your family actually looks forward to eating.
+
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)

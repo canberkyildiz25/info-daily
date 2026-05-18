@@ -2,8 +2,9 @@
 title: "Signs of a Healthy Relationship vs an Unhealthy One"
 excerpt: "Learn the key signs that separate healthy relationships from unhealthy ones, plus practical advice to strengthen your connection."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://picsum.photos/seed/672/800/450"
+coverImage: "https://images.unsplash.com/photo-1516585427167-9f4af9627e6c?w=1200&q=80"
 tags: ["healthy relationships", "relationship advice", "unhealthy relationships", "communication skills", "emotional wellness"]
 ---
 
@@ -92,3 +93,12 @@ Sometimes the healthiest thing you can do is leave. If a relationship involves a
 Relationships take work, but they shouldn't feel like a battle you're constantly losing. The healthiest partnerships are ones where both people feel respected, supported, and free to be authentically themselves. If reading through these signs made you feel reassured about your relationship, that's wonderful — keep investing in it. If it raised some concerns, don't ignore that feeling. You deserve a relationship that adds to your life, not one that diminishes it.
 
 The first step toward a healthier relationship is always awareness. And by being here, reading this, you've already taken it.
+
+## Sources & References
+
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [National Alliance on Mental Illness (NAMI)](https://www.nami.org/)
+- [APA – Relationships](https://www.apa.org/topics/relationships)
+- [Greater Good Science Center](https://greatergood.berkeley.edu/topic/relationships)
+- [John Gottman Institute](https://www.gottman.com/about/research/)

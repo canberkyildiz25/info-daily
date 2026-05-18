@@ -2,6 +2,7 @@
 title: "The Human Skills AI Cannot Replace — And How to Develop Them"
 excerpt: "As AI handles more routine work, a set of distinctly human capabilities is becoming more valuable than ever. Here are the skills to invest in — and why they matter more in 2026 than ever before."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Emma Johnson"
 tags: ["soft skills", "AI", "career", "leadership", "communication", "future of work"]
 coverImage: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
@@ -80,3 +81,12 @@ The data analyst who can communicate insights clearly and facilitate the meeting
 This integration is what AI cannot replicate — because it's not a set of capabilities, it's a person.
 
 Invest in your human skills. They're not soft. They're your most durable professional assets.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)
+- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)
+- [MIT AI Policy](https://computing.mit.edu/artificial-intelligence/)
+- [OpenAI Research](https://openai.com/research)

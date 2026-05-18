@@ -2,8 +2,9 @@
 title: "How to Boost Your Immune System Naturally"
 excerpt: "Discover proven, science-backed ways to strengthen your immune system naturally through diet, sleep, exercise, and daily habits."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://picsum.photos/seed/840/800/450"
+coverImage: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=1200&q=80"
 tags: ["immune system", "natural health", "wellness tips", "healthy lifestyle", "nutrition"]
 ---
 
@@ -88,3 +89,11 @@ Always consult with a healthcare provider before starting any supplement regimen
 Boosting your immune system naturally isn't about one magic bullet — it's about building a lifestyle that consistently supports your body's defenses. Eat well, sleep deeply, move often, manage stress, stay hydrated, and minimize the habits that drag your health down. These aren't revolutionary ideas, but when practiced together and consistently, they create a foundation that helps your immune system do what it was designed to do: keep you healthy, resilient, and ready for whatever comes your way.
 
 Start with one change this week. Maybe it's an extra serving of vegetables, a 20-minute evening walk, or finally committing to a consistent bedtime. Small, steady shifts add up — and your immune system will thank you for every single one.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [CDC – Immune Health](https://www.cdc.gov/niosh/topics/immune/default.html)
+- [NIH – Immune System](https://www.niaid.nih.gov/research/immune-system)

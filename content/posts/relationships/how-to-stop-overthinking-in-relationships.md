@@ -2,8 +2,9 @@
 title: "How to Stop Overthinking in Relationships"
 excerpt: "Learn proven techniques to quiet your anxious mind and build stronger, healthier relationships by breaking the overthinking cycle today."
 date: "2026-04-10"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://picsum.photos/seed/608/800/450"
+coverImage: "https://images.unsplash.com/photo-1582213782179-e9d977a60de2?w=1200&q=80"
 tags: ["relationships", "mental-health", "anxiety", "communication", "personal-growth"]
 ---
 
@@ -124,3 +125,12 @@ Breaking the overthinking habit doesn't happen overnight, but each small decisio
 Remember, your brain developed this overthinking habit as a protection mechanism. It genuinely believed it was keeping you safe. Gratitude for that protection, combined with firm redirecting toward healthier patterns, helps change your relationship with anxious thoughts.
 
 Your relationship deserves your presence, not your anxiety. Your partner deserves the real you, not the version trapped in worst-case scenarios. Most importantly, *you* deserve peace of mind. Start today, be patient with yourself, and watch as your relationship transforms when overthinking finally steps aside.
+
+## Sources & References
+
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [National Alliance on Mental Illness (NAMI)](https://www.nami.org/)
+- [APA – Relationships](https://www.apa.org/topics/relationships)
+- [Greater Good Science Center](https://greatergood.berkeley.edu/topic/relationships)
+- [John Gottman Institute](https://www.gottman.com/about/research/)

@@ -2,6 +2,7 @@
 title: "How to Fall Asleep Faster: Science-Backed Tricks That Actually Work"
 excerpt: "Struggling to fall asleep? Research reveals why your brain fights sleep — and the proven techniques that can cut your sleep onset time in half."
 date: "2026-04-30"
+updatedAt: "2026-05-18"
 author: "Dr. Sarah Collins"
 coverImage: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=800&q=80"
 tags: ["sleep", "insomnia", "health", "wellness", "sleep hygiene", "relaxation"]
@@ -89,3 +90,12 @@ Choose a wake time and protect it. This single habit does more to regulate sleep
 ---
 
 Falling asleep faster isn't about trying harder — it's about removing the obstacles your habits and environment have placed in the way. Pick one or two of these strategies, apply them consistently for a week, and you'll likely notice a meaningful difference in how quickly you drift off. The ceiling-staring phase can end sooner than you think.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [NIH – Sleep Deprivation and Deficiency](https://www.nhlbi.nih.gov/health-topics/sleep-deprivation-and-deficiency)
+- [American Academy of Sleep Medicine](https://aasm.org/)
+- [Sleep Foundation](https://www.sleepfoundation.org/)

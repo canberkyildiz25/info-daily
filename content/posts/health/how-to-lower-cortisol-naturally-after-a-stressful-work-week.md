@@ -2,6 +2,7 @@
 title: "How to Lower Cortisol Naturally After a Stressful Work Week"
 excerpt: "Learn science-backed techniques to reduce cortisol levels and recover from work stress naturally this weekend."
 date: "2026-05-06"
+updatedAt: "2026-05-18"
 author: "Dr. Elena Russo"
 coverImage: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80"
 tags: ["stress management", "cortisol", "wellness", "mental health", "work-life balance"]
@@ -130,3 +131,9 @@ Here's how to structure your weekend for maximum cortisol reduction:
 Lowering cortisol after a stressful work week doesn't require extreme measures or expensive interventions. By prioritizing sleep, moving gently, eating well, managing stress through meditation, and protecting your boundaries, you'll naturally restore cortisol balance. 
 
 Start with just two or three strategies this weekend. Small, consistent actions compound into significant health improvements. Your body is remarkably resilient—give it the right conditions, and it will recover beautifully.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)

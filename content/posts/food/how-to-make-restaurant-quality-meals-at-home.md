@@ -2,8 +2,9 @@
 title: "How to Make Restaurant Quality Meals at Home"
 excerpt: "Discover the techniques, tools, and secrets professional chefs use — and learn how to replicate restaurant-quality meals in your own kitchen."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://picsum.photos/seed/744/800/450"
+coverImage: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&q=80"
 tags: ["home cooking", "restaurant quality meals", "cooking tips", "kitchen techniques", "chef secrets"]
 ---
 
@@ -101,3 +102,11 @@ Professional chefs don't master hundreds of dishes simultaneously. They perfect 
 After five or six attempts, you'll own that dish completely. Then pick another. Over time, you'll build a personal repertoire of restaurant-caliber meals that you can execute with confidence any night of the week.
 
 The gap between restaurant food and home cooking is narrower than you think. It's not about expensive ingredients or secret recipes — it's about heat, seasoning, technique, and attention to detail. Start applying these principles tonight, and you'll taste the difference with your very first bite.
+
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)
+- [Psychology Today – Clutter and Well-Being](https://www.psychologytoday.com/us/basics/clutter)

@@ -2,6 +2,7 @@
 title: "Best Passive Income Investments in 2026: Where to Put Your Money"
 excerpt: "The best passive income investments in 2026 â€” from dividend stocks and REITs to high-yield savings and bonds. Ranked by risk, return, and how much you actually need to start."
 date: "2026-04-27"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
 coverImage: "https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?w=800&q=80"
 tags: ["passive income investments", "passive income", "investing 2026", "dividend stocks", "REITs", "financial independence"]
@@ -101,4 +102,11 @@ The right mix depends on your time horizon, risk tolerance, and how much capital
 
 Passive income from investments is not a shortcut â€” it requires capital, patience, and some tolerance for volatility. But the compounding effect of reinvested dividends and interest over 10, 20, or 30 years is genuinely transformative. The best time to start was ten years ago. The second best time is now.
 
+## Sources & References
 
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)
+- [SEC – Investor Education](https://www.investor.gov/)
+- [Vanguard – Investment Research](https://institutional.vanguard.com/insights/research)
+- [Morningstar](https://www.morningstar.com/)

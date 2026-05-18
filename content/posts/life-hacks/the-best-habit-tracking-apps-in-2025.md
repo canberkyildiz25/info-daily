@@ -2,8 +2,9 @@
 title: "The Best Habit Tracking Apps in 2025"
 excerpt: "Discover the top habit tracking apps of 2025 that help you build lasting routines and achieve your goals with science-backed features and intuitive designs."
 date: "2025-04-13"
+updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://picsum.photos/seed/600/800/450"
+coverImage: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200&q=80"
 tags: ["habit tracking", "productivity apps", "self-improvement", "wellness", "goal setting"]
 ---
 
@@ -123,3 +124,12 @@ The best habit tracking app for 2025 is the one you'll actually use consistently
 Start with a free trial, test the interface, and commit to 30 days with your chosen app. Within that month, you'll likely know whether it's the right fit. Remember, the app is just a tool—the real power lies in your commitment to showing up, day after day, until your new habits become second nature.
 
 Your future self will thank you for starting today.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [APA – Procrastination](https://www.apa.org/news/press/releases/2010/04/procrastination)
+- [James Clear – Atomic Habits Research](https://jamesclear.com/habits)
+- [Harvard Business Review – Productivity](https://hbr.org/topic/subject/productivity)

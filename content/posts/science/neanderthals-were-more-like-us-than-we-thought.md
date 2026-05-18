@@ -2,6 +2,7 @@
 title: "Neanderthals Were More Like Us Than We Thought"
 excerpt: "New discoveries reveal that Neanderthals and modern humans didn't just coexist — they shared technology, interbred, and were far more cognitively sophisticated than science once assumed."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "David Kim"
 tags: ["Neanderthals", "human evolution", "archaeology", "anthropology", "science", "prehistory"]
 coverImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
@@ -73,3 +74,11 @@ Most likely, all of these factors played a role.
 The story of Neanderthals is ultimately a story about what it means to be human. They cared for their sick and elderly (evidence of healed injuries requiring long-term care has been found at multiple sites). They grieved their dead. They made art. They fell in love with our ancestors and had children with them.
 
 They were not us — but they were far closer to us than we ever admitted. And in a very real sense, for most people reading this, they are still with us.
+
+## Sources & References
+
+- [Nature](https://www.nature.com/)
+- [Science (AAAS)](https://www.science.org/)
+- [NASA](https://www.nasa.gov/)
+- [Smithsonian National Museum of Natural History – Human Origins](https://humanorigins.si.edu/)
+- [Max Planck Institute for Evolutionary Anthropology](https://www.eva.mpg.de/)

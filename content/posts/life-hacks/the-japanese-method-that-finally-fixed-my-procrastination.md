@@ -2,6 +2,7 @@
 title: "The Japanese Method That Finally Fixed My Procrastination"
 excerpt: "Western productivity advice attacks the wrong problem. This ancient Japanese principle reframes procrastination in a way that actually works — and the neuroscience backs it up."
 date: "2026-05-09"
+updatedAt: "2026-05-18"
 author: "Emma Johnson"
 coverImage: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
 tags: ["productivity", "procrastination", "habits", "kaizen", "life hacks", "focus", "motivation"]
@@ -67,3 +68,12 @@ Within three weeks, the resistance had measurably diminished. Within two months,
 The Japanese principle that built Toyota turned out to be the most effective productivity intervention I've ever tried. Not because it's complex. Because it correctly identifies the actual problem.
 
 Start smaller than you think you need to. Let the momentum find you.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [CDC Traveler's Health](https://wwwnc.cdc.gov/travel)
+- [U.S. Department of State – Travel Advisories](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html)
+- [APA – Procrastination](https://www.apa.org/news/press/releases/2010/04/procrastination)

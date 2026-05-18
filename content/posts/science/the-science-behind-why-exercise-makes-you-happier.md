@@ -2,8 +2,9 @@
 title: "The Science Behind Why Exercise Makes You Happier"
 excerpt: "Discover the fascinating brain chemistry behind the exercise-happiness connection and learn how to harness movement for better mental health."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://picsum.photos/seed/32/800/450"
+coverImage: "https://images.unsplash.com/photo-1628595351029-c2bf17511435?w=1200&q=80"
 tags: ["exercise and happiness", "mental health", "brain chemistry", "endorphins", "wellness science"]
 ---
 
@@ -71,3 +72,12 @@ Knowing the science is one thing. Actually building a sustainable habit is anoth
 The relationship between exercise and happiness isn't a wellness myth or a motivational cliché — it's one of the most well-documented phenomena in behavioral neuroscience. Every time you move your body with intention, you're flooding your brain with a precise cocktail of chemicals designed to make you feel better, think more clearly, and cope more effectively with life's inevitable stresses.
 
 You don't need a gym membership, expensive equipment, or an athlete's physique. You just need to move — regularly, enjoyably, and with the understanding that you're doing something profoundly good for your brain every single time. The science is clear: one of the most powerful tools for happiness has been available to you all along. It's your own two feet, ready to take the next step.
+
+## Sources & References
+
+- [Nature](https://www.nature.com/)
+- [Science (AAAS)](https://www.science.org/)
+- [NASA](https://www.nasa.gov/)
+- [American College of Sports Medicine](https://www.acsm.org/)
+- [NIH – Physical Activity Guidelines](https://www.ncbi.nlm.nih.gov/books/NBK179847/)
+- [Journal of Strength and Conditioning Research (NSCA)](https://journals.lww.com/nsca-jscr)

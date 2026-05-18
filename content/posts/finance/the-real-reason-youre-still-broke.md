@@ -2,6 +2,7 @@
 title: "The Real Reason You're Still Broke (And It Has Nothing to Do With Your Income)"
 excerpt: "Most financial advice targets the wrong problem. New behavioral research reveals the psychological traps that keep people broke — no matter how much they earn."
 date: "2026-05-13"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
 coverImage: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80"
 tags: ["personal finance", "money habits", "budgeting", "behavioral economics", "wealth building"]
@@ -78,3 +79,11 @@ This week, do one thing: audit three months of spending. Every category. Total i
 The goal is not to live on nothing. It's to make your spending choices consciously rather than automatically — so that your money moves toward what you actually want from your life, rather than toward what the brain's defaults and social pressures determine on your behalf.
 
 That shift — from automatic to intentional — is the actual difference between people who build wealth and people who don't. It is not about income. It never was.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)
+- [IRS – Filing Information](https://www.irs.gov/filing)
+- [Tax Policy Center](https://www.taxpolicycenter.org/)

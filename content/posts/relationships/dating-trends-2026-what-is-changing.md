@@ -2,6 +2,7 @@
 title: "Dating in 2026: The Biggest Trends Changing How We Find Love"
 excerpt: "From 'clear coding' to AI companions, dating in 2026 looks very different from even five years ago. Here are the trends reshaping modern romance — and what they mean for you."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
 tags: ["dating", "relationships", "dating trends", "modern dating", "2026", "romance"]
 coverImage: "https://images.unsplash.com/photo-1474552226712-ac0f0961a954?w=800&q=80"
@@ -77,3 +78,12 @@ Clear coding, therapy culture, truecasting, slower dating — all of these refle
 Whether these trends ultimately make finding love easier or harder is genuinely unclear. What they do suggest is that the people navigating dating in 2026 are, on average, more thoughtful about what they're looking for than any previous generation.
 
 That might be exactly what relationships need.
+
+## Sources & References
+
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [National Alliance on Mental Illness (NAMI)](https://www.nami.org/)
+- [APA – Relationships](https://www.apa.org/topics/relationships)
+- [Greater Good Science Center](https://greatergood.berkeley.edu/topic/relationships)
+- [John Gottman Institute](https://www.gottman.com/about/research/)

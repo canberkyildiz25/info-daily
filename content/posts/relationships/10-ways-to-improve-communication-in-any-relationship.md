@@ -2,8 +2,9 @@
 title: "10 Ways to Improve Communication in Any Relationship"
 excerpt: "Master the art of connection with proven strategies to enhance communication in your relationships and build stronger, healthier bonds."
 date: "2026-04-10"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://picsum.photos/seed/272/800/450"
+coverImage: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
 tags: ["relationships", "communication skills", "personal development", "mental health", "connection"]
 ---
 
@@ -132,3 +133,12 @@ When your foundation is built on positive connection, difficult conversations be
 ## The Bottom Line
 
 Improving communication isn't about becoming a perfect communicator overnight—it's about showing up with intention, empathy, and a genuine desire to understand others. Start with one or two of these strategies that resonate most with you, practice them consistently, and notice how your relationships begin to shift. The connections that matter most deserve your best communication efforts.
+
+## Sources & References
+
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [National Alliance on Mental Illness (NAMI)](https://www.nami.org/)
+- [APA – Relationships](https://www.apa.org/topics/relationships)
+- [Greater Good Science Center](https://greatergood.berkeley.edu/topic/relationships)
+- [John Gottman Institute](https://www.gottman.com/about/research/)

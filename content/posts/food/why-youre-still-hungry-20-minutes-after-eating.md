@@ -2,6 +2,7 @@
 title: "Why You're Still Hungry 20 Minutes After Eating (And the Easy Fix)"
 excerpt: "Persistent hunger after meals isn't a willpower problem — it's a biology problem. New research reveals the exact mechanisms behind post-meal hunger and how to actually fix them."
 date: "2026-05-07"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
 coverImage: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80"
 tags: ["hunger", "nutrition", "gut health", "eating habits", "satiety", "food science", "diet"]
@@ -64,3 +65,9 @@ If post-meal hunger is a persistent problem, try this for two weeks:
 5. **Reduce ultra-processed food frequency.** Not eliminate — reduce.
 
 Persistent hunger is almost always a solvable biological problem. The solution is rarely eating less. It's usually eating differently.
+
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)

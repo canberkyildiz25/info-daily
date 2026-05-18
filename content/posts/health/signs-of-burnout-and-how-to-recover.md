@@ -2,8 +2,9 @@
 title: "Signs of Burnout and How to Recover"
 excerpt: "Burnout is more than feeling tired — it's a state of chronic depletion that won't fix itself. Learn to recognize the signs and actually recover."
 date: "2026-01-10"
+updatedAt: "2026-05-18"
 author: "Dr. Elena Russo"
-coverImage: "https://picsum.photos/seed/110/800/450"
+coverImage: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=1200&q=80"
 tags: ["burnout", "mental health", "stress", "recovery", "work-life balance"]
 ---
 
@@ -86,3 +87,9 @@ Once you've recovered from burnout, the critical work is addressing the conditio
 - Recognizing early warning signs before they compound
 
 Burnout isn't a character flaw or a weakness. It's a predictable biological response to prolonged demand without recovery. Treating it with the same seriousness as any medical condition is the starting point.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)

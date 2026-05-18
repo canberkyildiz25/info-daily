@@ -2,8 +2,9 @@
 title: "How to Find Hidden Gem Movies You Have Never Heard Of"
 excerpt: "Tired of watching the same mainstream films? Discover proven strategies to uncover brilliant hidden gem movies you never knew existed."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: Canberk Yildiz
-coverImage: "https://picsum.photos/seed/880/800/450"
+coverImage: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=1200&q=80"
 tags: ["hidden gem movies", "movie recommendations", "indie films", "film discovery", "underrated movies"]
 ---
 
@@ -88,3 +89,11 @@ The more you explore, the sharper your instincts become. You'll start recognizin
 
 The world of cinema is staggeringly vast, and the best movies you'll ever see might be ones you haven't heard of yet. Start digging today, and you'll never run out of extraordinary films to watch.
 
+## Sources & References
+
+- [Variety](https://variety.com/)
+- [The Hollywood Reporter](https://www.hollywoodreporter.com/)
+- [Billboard](https://www.billboard.com/)
+- [IMDb](https://www.imdb.com/)
+- [Metacritic](https://www.metacritic.com/)
+- [Rotten Tomatoes](https://www.rottentomatoes.com/)

@@ -2,6 +2,7 @@
 title: "The One Question Therapists Ask to Know If a Relationship Will Last"
 excerpt: "Decades of relationship research have converged on a single predictor of long-term success. It's not compatibility, passion, or communication style. It's something simpler."
 date: "2026-05-08"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
 coverImage: "https://images.unsplash.com/photo-1516589091380-5d8e87df6999?w=800&q=80"
 tags: ["relationships", "couples therapy", "love", "communication", "psychology", "marriage"]
@@ -72,3 +73,12 @@ If you're in a relationship, try this for one week: every time your partner shar
 The conversation that follows often tells you, and them, more than either of you expected.
 
 The question therapists use to assess a relationship's health is not about how you fight. It's about how you celebrate. And that difference — quiet as it is — turns out to matter enormously.
+
+## Sources & References
+
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [National Alliance on Mental Illness (NAMI)](https://www.nami.org/)
+- [APA – Relationships](https://www.apa.org/topics/relationships)
+- [Greater Good Science Center](https://greatergood.berkeley.edu/topic/relationships)
+- [John Gottman Institute](https://www.gottman.com/about/research/)

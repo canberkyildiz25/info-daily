@@ -2,6 +2,7 @@
 title: "Why Fiber Is the Most Important Nutrient You're Ignoring"
 excerpt: "Fiber is having a major moment â€” and for good reason. Research shows it affects everything from gut health and weight to mental health and longevity. Here's how to get more of it."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
 tags: ["fiber", "gut health", "nutrition", "diet", "digestive health", "longevity"]
 coverImage: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&q=80"
@@ -91,3 +92,9 @@ Fiber isn't glamorous. It doesn't come in a supplement that costs $80 a month or
 
 Eat more beans, more vegetables, more whole grains, and more fruit. It's one of the most powerful things you can do for your health â€” and it starts at your next meal.
 
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)

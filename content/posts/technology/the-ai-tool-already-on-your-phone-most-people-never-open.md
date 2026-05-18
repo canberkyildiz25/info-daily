@@ -2,6 +2,7 @@
 title: "The AI Tool Already on Your Phone That Most People Have Never Opened"
 excerpt: "Your smartphone ships with AI capabilities that most users never discover. Here's what's hiding in plain sight — and what you can actually do with it."
 date: "2026-05-10"
+updatedAt: "2026-05-18"
 author: "Alex Rivera"
 coverImage: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80"
 tags: ["AI", "smartphone", "technology", "productivity", "apps", "artificial intelligence"]
@@ -54,3 +55,12 @@ The most immediately useful entry point depends on your phone:
 Neither of these requires a new app, a subscription, or any setup beyond enabling a toggle. The intelligence is already there. It's been waiting.
 
 The most advanced AI tool you own might already be in your pocket.
+
+## Sources & References
+
+- [MIT Technology Review](https://www.technologyreview.com/)
+- [IEEE Spectrum](https://spectrum.ieee.org/)
+- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
+- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)
+- [MIT AI Policy](https://computing.mit.edu/artificial-intelligence/)
+- [OpenAI Research](https://openai.com/research)

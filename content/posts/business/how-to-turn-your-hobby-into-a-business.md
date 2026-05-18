@@ -2,8 +2,9 @@
 title: "How to Turn Your Hobby into a Business"
 excerpt: "Turning a hobby into income sounds ideal — but it requires a different mindset than hobbyist thinking. Here's how to make the transition successfully without ruining what you love."
 date: "2025-11-27"
+updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://picsum.photos/seed/706/800/450"
+coverImage: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1200&q=80"
 tags: ["hobby business", "entrepreneurship", "passion business", "creative business", "side hustle"]
 ---
 
@@ -83,3 +84,9 @@ The reason many people regret turning a hobby into a business: they commercializ
 Many artists, craftspeople, and creators who build successful businesses maintain a private practice specifically separated from commercial work. This allows the business to serve commercial needs without cannibalizing the creative fuel that made the work good in the first place.
 
 A business built around genuine passion, priced appropriately, and scaled thoughtfully is one of the most fulfilling professional paths available. The key is building it with clear eyes about what business actually requires — not just the romantic version.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)

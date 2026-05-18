@@ -2,8 +2,9 @@
 title: "What Climate Change Is Really Doing to Our Oceans"
 excerpt: "Rising temps, acidifying waters, and dying reefs — here's what climate change is truly doing to our oceans and what you can do about it."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://picsum.photos/seed/312/800/450"
+coverImage: "https://images.unsplash.com/photo-1628595351029-c2bf17511435?w=1200&q=80"
 tags: ["climate change", "ocean health", "marine ecosystems", "sea level rise", "ocean acidification"]
 ---
 
@@ -85,3 +86,12 @@ It's easy to feel overwhelmed by the scale of ocean-climate problems, but indivi
 The ocean has been silently shouldering the burden of our carbon emissions for decades, but the signs of strain are now impossible to ignore. Warming waters, acidification, deoxygenation, coral death, and rising seas aren't distant predictions — they are documented, measurable, and accelerating realities.
 
 The good news is that the ocean is remarkably resilient when given the chance. Marine ecosystems can recover, coral can regrow, and fish populations can rebound — but only if we dramatically reduce the pressures we're placing on them. The window for meaningful action is still open, but it's closing faster than most of us realize. What we do in the next decade will determine the fate of the ocean for centuries to come.
+
+## Sources & References
+
+- [Nature](https://www.nature.com/)
+- [Science (AAAS)](https://www.science.org/)
+- [NASA](https://www.nasa.gov/)
+- [U.S. Department of Energy](https://www.energy.gov/)
+- [NREL – National Renewable Energy Laboratory](https://www.nrel.gov/)
+- [IPCC – Climate Change Reports](https://www.ipcc.ch/reports/)

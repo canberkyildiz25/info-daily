@@ -2,8 +2,9 @@
 title: "Best Brain-Boosting Foods to Add to Your Plate"
 excerpt: "What you eat directly affects how well your brain performs. These science-backed foods improve memory, focus, and long-term cognitive health."
 date: "2026-05-08"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://picsum.photos/seed/993/800/450"
+coverImage: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=1200&q=80"
 tags: ["brain health", "cognitive function", "memory", "focus", "nutrition"]
 ---
 
@@ -113,3 +114,12 @@ Both are associated with significant reductions in Alzheimer's risk and slower r
 5. **Add blueberries to breakfast** — on oatmeal, yogurt, or eaten on their own
 
 Your brain is plastic — it responds to inputs. The foods you eat consistently, over weeks and months, shape how well it functions. Start with one or two changes and build from there. Cognitive decline isn't inevitable; it's largely influenced by lifestyle choices made years before any symptoms appear.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)
+- [Harvard T.H. Chan – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [NIH National Institute of Neurological Disorders](https://www.ninds.nih.gov/)

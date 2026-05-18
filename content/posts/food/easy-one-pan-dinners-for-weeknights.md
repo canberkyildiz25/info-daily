@@ -2,8 +2,9 @@
 title: "Easy One-Pan Dinners for Weeknights"
 excerpt: "One pan, minimal cleanup, and a complete meal in 30 minutes. These simple, delicious recipes solve the 'what's for dinner' problem on your busiest nights."
 date: "2025-11-11"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://picsum.photos/seed/605/800/450"
+coverImage: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1200&q=80"
 tags: ["one pan meals", "weeknight dinners", "easy recipes", "cooking", "meal ideas"]
 ---
 
@@ -136,3 +137,9 @@ High heat (400–425°F for oven; medium-high for stovetop) creates browning and
 5. Serve over rice or noodles.
 
 One-pan meals work best when you own a large, high-quality skillet (12-inch cast iron or stainless) and a large sheet pan with sides. The investment pays off every weeknight.
+
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)

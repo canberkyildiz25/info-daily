@@ -2,8 +2,9 @@
 title: "How Much Exercise Do You Really Need Per Week"
 excerpt: "Discover exactly how much exercise you need each week for optimal health, backed by science and practical tips you can start today."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Mark Stevens, CSCS"
-coverImage: "https://picsum.photos/seed/712/800/450"
+coverImage: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=1200&q=80"
 tags: ["exercise guidelines", "weekly workout", "physical activity", "healthy lifestyle", "fitness tips"]
 ---
 
@@ -110,3 +111,12 @@ You don't need to train like an athlete to get the health benefits of exercise. 
 That translates to roughly 30 minutes a day, five days a week — and it doesn't have to happen all at once. Three 10-minute walks throughout the day count just as much as one continuous 30-minute session.
 
 The best exercise plan is the one you'll actually follow. Start where you are, build gradually, and focus on moving your body in ways that feel good. Your future self will thank you for every step, rep, and stretch you invest in today.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [American College of Sports Medicine](https://www.acsm.org/)
+- [NIH – Physical Activity Guidelines](https://www.ncbi.nlm.nih.gov/books/NBK179847/)
+- [Journal of Strength and Conditioning Research (NSCA)](https://journals.lww.com/nsca-jscr)

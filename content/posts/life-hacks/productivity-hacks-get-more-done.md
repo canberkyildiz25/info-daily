@@ -2,6 +2,7 @@
 title: "20 Productivity Hacks to Get More Done in Less Time"
 excerpt: "Stop being busy, start being productive. These 20 research-backed techniques will help you accomplish more — while working fewer hours."
 date: "2025-03-27"
+updatedAt: "2026-05-18"
 author: "Ryan Cooper"
 tags: ["productivity", "time management", "focus", "work smarter", "life hacks"]
 coverImage: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&q=80"
@@ -97,3 +98,12 @@ Warren Buffett's rule: "The difference between successful people and really succ
 Start with just 3-4 of these. Master them before adding more. The compound effect of consistent improvement beats trying to implement everything at once.
 
 Pick your first three, implement them for two weeks, and see what changes.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [APA – Procrastination](https://www.apa.org/news/press/releases/2010/04/procrastination)
+- [James Clear – Atomic Habits Research](https://jamesclear.com/habits)
+- [Harvard Business Review – Productivity](https://hbr.org/topic/subject/productivity)

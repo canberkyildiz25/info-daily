@@ -2,6 +2,7 @@
 title: "Euphoria Season 3: Everything We Know So Far"
 excerpt: "After a four-year wait, Euphoria Season 3 is finally here. New cast members, a time jump, and a darker tone â€” here's everything you need to know before watching."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: Canberk Yildiz
 tags: ["Euphoria", "HBO", "TV shows", "Zendaya", "season 3", "entertainment"]
 coverImage: "https://deadline.com/wp-content/uploads/2025/02/Euphoria-EWK.jpg"
@@ -70,3 +71,8 @@ At its best, Euphoria does something most prestige television doesn't: it portra
 
 Whether Season 3 fully delivers on that promise will become clearer as the season unfolds. But after four years of waiting, fans finally have answers. And based on the premiere, the conversation about Euphoria isn't going anywhere.
 
+## Sources & References
+
+- [Variety](https://variety.com/)
+- [The Hollywood Reporter](https://www.hollywoodreporter.com/)
+- [Billboard](https://www.billboard.com/)

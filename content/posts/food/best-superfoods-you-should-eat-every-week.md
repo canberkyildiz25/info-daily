@@ -2,8 +2,9 @@
 title: "Best Superfoods You Should Eat Every Week"
 excerpt: "The word 'superfood' gets overused, but some foods genuinely stand out for their nutrient density. These are the ones actually worth eating regularly."
 date: "2025-12-09"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://picsum.photos/seed/607/800/450"
+coverImage: "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=1200&q=80"
 tags: ["superfoods", "nutrition", "healthy eating", "diet", "wellness"]
 ---
 
@@ -83,3 +84,10 @@ The bar: 70% or higher cocoa content. Lower percentages don't contain enough fla
 ## Making These a Habit
 
 The common thread: none of these require a radical diet overhaul. Adding sardines once a week, switching to Greek yogurt for breakfast, adding a handful of walnuts to your afternoon snack, and cooking with olive oil — these are small, specific swaps that accumulate into meaningful nutritional improvement over months and years.
+
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)

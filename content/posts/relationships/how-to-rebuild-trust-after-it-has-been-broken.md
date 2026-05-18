@@ -2,8 +2,9 @@
 title: "How to Rebuild Trust After It Has Been Broken"
 excerpt: "Discover practical, actionable steps to rebuild trust in any relationship after betrayal, dishonesty, or disappointment has shattered it."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://picsum.photos/seed/32/800/450"
+coverImage: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&q=80"
 tags: ["rebuilding trust", "relationship advice", "trust issues", "healthy relationships", "personal growth"]
 ---
 
@@ -104,3 +105,9 @@ Rebuilding trust isn't about going back to the way things were. It's about build
 It won't be perfect. There will be setbacks, hard days, and moments of doubt. But if both people are committed, if the actions match the words, and if grace is given alongside accountability, trust can absolutely be restored. Sometimes, it becomes the strongest thing in the room.
 
 The first step is always the hardest. But it starts with one honest conversation, one kept promise, one moment of choosing transparency over comfort. And from there, you build.
+
+## Sources & References
+
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [National Alliance on Mental Illness (NAMI)](https://www.nami.org/)

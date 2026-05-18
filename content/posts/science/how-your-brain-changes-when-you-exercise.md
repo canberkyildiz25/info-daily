@@ -2,6 +2,7 @@
 title: "How Your Brain Changes When You Exercise (The Science Is Remarkable)"
 excerpt: "Exercise doesn't just change your body — it physically restructures your brain. Here's what neuroscience has discovered about movement and mental performance."
 date: "2025-04-02"
+updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
 coverImage: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&q=80"
 tags: ["neuroscience", "exercise", "brain health", "mental performance", "science"]
@@ -99,3 +100,12 @@ If you're optimizing for brain health specifically:
 - Don't underestimate the acute benefit: exercise before cognitively demanding tasks, not after
 
 The brain is not a fixed structure you're born with. It's a living organ that responds, plastically, to how you use your body.
+
+## Sources & References
+
+- [Nature](https://www.nature.com/)
+- [Science (AAAS)](https://www.science.org/)
+- [NASA](https://www.nasa.gov/)
+- [American College of Sports Medicine](https://www.acsm.org/)
+- [NIH – Physical Activity Guidelines](https://www.ncbi.nlm.nih.gov/books/NBK179847/)
+- [Journal of Strength and Conditioning Research (NSCA)](https://journals.lww.com/nsca-jscr)

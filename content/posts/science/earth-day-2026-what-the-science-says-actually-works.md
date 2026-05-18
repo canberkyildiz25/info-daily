@@ -2,6 +2,7 @@
 title: "Earth Day 2026: What the Science Says Actually Works for the Planet"
 excerpt: "Not all climate actions are created equal. On Earth Day, here's what the research says has the largest real-world impact — and what's mostly symbolic."
 date: "2026-04-22"
+updatedAt: "2026-05-18"
 author: "Sophie Martinez"
 coverImage: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80"
 tags: ["Earth Day", "climate change", "environment", "sustainability", "science"]
@@ -85,3 +86,12 @@ If you want to prioritize what's actually worth doing:
 Earth Day is a useful prompt. The question it's worth asking isn't "what can I symbolically do today?" but "what's the highest-leverage change I could actually sustain?"
 
 The science has reasonably clear answers. The harder part is deciding to act on them.
+
+## Sources & References
+
+- [Nature](https://www.nature.com/)
+- [Science (AAAS)](https://www.science.org/)
+- [NASA](https://www.nasa.gov/)
+- [NASA Science](https://science.nasa.gov/)
+- [ESA – European Space Agency](https://www.esa.int/)
+- [SETI Institute](https://www.seti.org/)

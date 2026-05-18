@@ -2,8 +2,9 @@
 title: "How to Build a Personal Brand from Zero"
 excerpt: "A strong personal brand opens doors that skills alone don't open. Here's a practical, non-cringe guide to building one authentically — starting from scratch."
 date: "2025-10-29"
+updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://picsum.photos/seed/704/800/450"
+coverImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80"
 tags: ["personal brand", "career", "social media", "LinkedIn", "networking"]
 ---
 
@@ -102,3 +103,11 @@ Month 3–6: Build rhythm, engage actively, connect with 10 new relevant people 
 Month 7–12: Pitch speaking opportunities, guest articles, or podcast appearances; start seeing inbound inquiries
 
 A personal brand built on genuine expertise and consistent helpfulness compounds quietly for 12–24 months and then produces significant dividends. The work done in month 3 still benefits you in month 36.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)
+- [Bureau of Labor Statistics – Occupational Outlook](https://www.bls.gov/ooh/)
+- [Harvard Business Review – Career](https://hbr.org/topic/subject/career-planning)

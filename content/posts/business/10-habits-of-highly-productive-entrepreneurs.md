@@ -2,6 +2,7 @@
 title: "10 Habits of Highly Productive Entrepreneurs (That Anyone Can Adopt)"
 excerpt: "The world's most productive entrepreneurs share specific daily habits — not hustle mythology. Here's what the research and real examples actually show."
 date: "2025-03-25"
+updatedAt: "2026-05-18"
 author: "David Kim"
 coverImage: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&q=80"
 tags: ["productivity", "entrepreneurship", "habits", "success", "business"]
@@ -92,3 +93,12 @@ The research on this is consistent: mental fatigue accumulates, and the most cre
 None of these habits are about working more hours. The research on hours vs. output is damning: knowledge workers become significantly less productive after 50 hours per week, and nearly useless after 55.
 
 The goal is more output per hour, sustained over years — not an unsustainable sprint. Adopt one of these habits at a time. Any one of them, consistently applied, changes your trajectory.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)
+- [APA – Procrastination](https://www.apa.org/news/press/releases/2010/04/procrastination)
+- [James Clear – Atomic Habits Research](https://jamesclear.com/habits)
+- [Harvard Business Review – Productivity](https://hbr.org/topic/subject/productivity)

@@ -2,8 +2,9 @@
 title: "How to Cook Chicken Breast So It Is Not Dry"
 excerpt: "Dry, rubbery chicken breast is one of the most common cooking frustrations. A few simple techniques guarantee juicy results every single time."
 date: "2025-10-13"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://picsum.photos/seed/603/800/450"
+coverImage: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=1200&q=80"
 tags: ["chicken breast", "cooking tips", "recipes", "protein", "meal prep"]
 ---
 
@@ -79,3 +80,9 @@ Juicy chicken breast still needs flavor:
 - **Spice rub**: Paprika, garlic powder, onion powder, cumin, salt — applied generously before cooking creates a flavorful crust.
 
 With these techniques, perfectly juicy chicken breast every time isn't luck — it's just applied science.
+
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)

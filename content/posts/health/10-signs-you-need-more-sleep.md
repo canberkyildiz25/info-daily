@@ -2,8 +2,9 @@
 title: "10 Signs You Need More Sleep"
 excerpt: "Feeling off but not sure why? Your body may be screaming for more sleep. Here are the top signs — and what to do about them."
 date: "2025-09-19"
+updatedAt: "2026-05-18"
 author: "Dr. Sarah Collins"
-coverImage: "https://picsum.photos/seed/102/800/450"
+coverImage: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=1200&q=80"
 tags: ["sleep", "fatigue", "health", "insomnia", "rest"]
 ---
 
@@ -62,3 +63,12 @@ Studies comparing reaction time in sleep-deprived individuals to those who are l
 **Don't try to "catch up" on weekends.** Social jetlag — staying up late Friday and Saturday, then sleeping in — shifts your circadian rhythm and makes Monday mornings brutal.
 
 If you've consistently slept 7–9 hours and still feel the symptoms above, talk to a doctor. Conditions like sleep apnea, thyroid issues, or anemia can cause fatigue independent of sleep duration.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [NIH – Sleep Deprivation and Deficiency](https://www.nhlbi.nih.gov/health-topics/sleep-deprivation-and-deficiency)
+- [American Academy of Sleep Medicine](https://aasm.org/)
+- [Sleep Foundation](https://www.sleepfoundation.org/)

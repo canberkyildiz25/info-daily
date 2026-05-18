@@ -2,8 +2,9 @@
 title: "How Music Affects Your Brain and Mood"
 excerpt: "Discover how music rewires your brain, shifts your mood, and boosts mental health â€” plus practical ways to harness its power every day."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: Canberk Yildiz
-coverImage: "https://picsum.photos/seed/32/800/450"
+coverImage: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=1200&q=80"
 tags: ["music and brain", "mood boosting", "mental health", "neuroscience", "music therapy"]
 ---
 
@@ -95,3 +96,11 @@ Music is powerful, but it's not a cure-all. A few things to keep in mind:
 
 Music is one of the most accessible, affordable, and enjoyable tools we have for influencing our own brain chemistry and emotional wellbeing. Whether you're trying to power through a tough workout, calm your nerves before a presentation, or simply find a moment of peace in a chaotic day, the right song at the right time can make a remarkable difference. The key is to stop treating music as passive background and start using it with intention. Your brain is already wired to respond â€” all you have to do is press play.
 
+## Sources & References
+
+- [Variety](https://variety.com/)
+- [The Hollywood Reporter](https://www.hollywoodreporter.com/)
+- [Billboard](https://www.billboard.com/)
+- [NIH National Institute of Neurological Disorders](https://www.ninds.nih.gov/)
+- [Harvard Brain Science Initiative](https://brain.harvard.edu/)
+- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)

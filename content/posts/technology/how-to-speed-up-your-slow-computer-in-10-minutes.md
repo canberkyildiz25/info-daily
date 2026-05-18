@@ -2,8 +2,9 @@
 title: "How to Speed Up Your Slow Computer in 10 Minutes"
 excerpt: "Discover quick, actionable fixes to boost your slow computer's performance in just 10 minutes — no tech expertise required."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://picsum.photos/seed/376/800/450"
+coverImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80"
 tags: ["computer speed", "PC optimization", "slow computer fix", "tech tips", "performance boost"]
 ---
 
@@ -115,3 +116,9 @@ Practical steps to lighten the load:
 ## The Bottom Line
 
 You don't need to spend money on new hardware or hire a technician to breathe new life into a slow computer. By tackling startup programs, freeing up disk space, managing resource-hungry processes, and keeping your software updated, you can achieve a noticeably faster machine in 10 minutes or less. The key is making these small optimizations part of your regular routine — a quick monthly checkup can prevent slowdowns from creeping back in. Your computer was fast once, and with a little attention, it can feel that way again.
+
+## Sources & References
+
+- [MIT Technology Review](https://www.technologyreview.com/)
+- [IEEE Spectrum](https://spectrum.ieee.org/)
+- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)

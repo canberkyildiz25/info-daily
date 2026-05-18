@@ -2,8 +2,9 @@
 title: "How to Improve Your Credit Score Fast"
 excerpt: "Your credit score affects loans, rentals, and even job applications. These proven tactics can raise your score significantly within 30–90 days."
 date: "2025-11-17"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://picsum.photos/seed/206/800/450"
+coverImage: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80"
 tags: ["credit score", "credit repair", "FICO", "personal finance", "credit card"]
 ---
 
@@ -98,3 +99,12 @@ Available at credit unions, community banks, and companies like Self (formerly S
 | Recover from bankruptcy | 2–7 years |
 
 Good credit is built — it doesn't happen by accident. Start with the quick wins (utilization and errors), then let consistent on-time payment history do the rest.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)
+- [Consumer Financial Protection Bureau – Credit Reports](https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/)
+- [Experian – Credit Education](https://www.experian.com/blogs/ask-experian/)
+- [AnnualCreditReport.com](https://www.annualcreditreport.com/)

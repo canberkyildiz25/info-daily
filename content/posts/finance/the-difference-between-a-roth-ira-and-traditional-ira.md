@@ -2,8 +2,9 @@
 title: "The Difference Between a Roth IRA and Traditional IRA"
 excerpt: "Roth IRA vs. Traditional IRA — learn the key differences in taxes, withdrawals, and income limits so you can pick the right retirement account."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://picsum.photos/seed/832/800/450"
+coverImage: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&q=80"
 tags: ["Roth IRA", "Traditional IRA", "retirement planning", "tax strategy", "investing"]
 ---
 
@@ -111,3 +112,12 @@ For instance, if you're maxing out a Traditional 401(k) at work (which gives you
 - **Don't let perfect be the enemy of good.** Choosing *either* IRA is far better than choosing neither. The worst retirement plan is no retirement plan.
 
 The Roth IRA vs. Traditional IRA debate doesn't have to be intimidating. Once you understand how taxes, withdrawals, and income limits work for each account, the right path usually becomes surprisingly clear. Take 30 minutes this week to evaluate your situation — your future self will thank you.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)
+- [SEC – Investor Education](https://www.investor.gov/)
+- [Vanguard – Investment Research](https://institutional.vanguard.com/insights/research)
+- [Morningstar](https://www.morningstar.com/)

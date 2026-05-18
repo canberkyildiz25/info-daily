@@ -2,6 +2,7 @@
 title: "The Michael Jackson Biopic: Everything You Need to Know Before Watching"
 excerpt: "Michael hits theaters April 24, 2026. Directed by Antoine Fuqua and starring Jaafar Jackson as the King of Pop, here's what to expect from the most anticipated music biopic in years."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: Canberk Yildiz
 tags: ["Michael Jackson", "biopic", "movies", "2026", "Jaafar Jackson", "entertainment"]
 coverImage: "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=800&q=80"
@@ -56,3 +57,8 @@ The film arrives at a cultural moment when questions about separating art from a
 
 Opening weekend: April 24, 2026, in theaters worldwide.
 
+## Sources & References
+
+- [Variety](https://variety.com/)
+- [The Hollywood Reporter](https://www.hollywoodreporter.com/)
+- [Billboard](https://www.billboard.com/)

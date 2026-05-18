@@ -2,9 +2,11 @@
 title: "The Best Anti-Inflammatory Foods to Add to Your Diet"
 excerpt: "Discover the most powerful anti-inflammatory foods backed by science and learn how to easily incorporate them into your everyday meals."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://picsum.photos/seed/312/800/450"
+coverImage: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1200&q=80"
 tags: ["anti-inflammatory foods", "healthy eating", "inflammation", "nutrition tips", "wellness diet"]
+canonicalUrl: "https://www.infodaily.net/health/the-best-anti-inflammatory-foods"
 ---
 
 Chronic inflammation is one of the most talked-about health concerns of our time — and for good reason. Unlike the acute inflammation that helps your body heal a cut or fight off an infection, chronic low-grade inflammation simmers quietly beneath the surface and has been linked to heart disease, type 2 diabetes, cancer, Alzheimer's, and a host of autoimmune conditions. The good news? One of the most effective tools for fighting back is sitting right on your plate. By choosing the right foods consistently, you can help calm inflammation, protect your cells, and feel noticeably better in the process.
@@ -106,3 +108,12 @@ The most important thing to remember is that anti-inflammatory eating is a patte
 - **Be patient** — the benefits of dietary changes accumulate over weeks and months, not overnight
 
 Inflammation didn't develop in a day, and it won't resolve in one either. But every anti-inflammatory meal you eat is a deposit into your long-term health account. Start with one or two swaps this week — maybe switching your afternoon chips for a handful of almonds or adding a serving of berries to breakfast — and build from there. Your future self will thank you.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)
+- [Harvard T.H. Chan – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [IMDb](https://www.imdb.com/)

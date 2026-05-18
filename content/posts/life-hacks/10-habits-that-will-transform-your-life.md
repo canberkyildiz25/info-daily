@@ -2,8 +2,9 @@
 title: "10 Habits That Will Transform Your Life"
 excerpt: "Discover the powerful daily habits that successful people swear by. Transform your life with these science-backed practices you can start today."
 date: "2026-04-10"
+updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://picsum.photos/seed/776/800/450"
+coverImage: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=1200&q=80"
 tags: ["personal development", "habits", "self-improvement", "productivity", "life transformation"]
 ---
 
@@ -155,3 +156,12 @@ The key to transformation isn't adopting all 10 habits simultaneously. Instead:
 - **Adjust as needed** – these habits are meant to serve you
 
 Remember, transformation is a journey, not a destination. By consistently practicing these habits, you're investing in a better future version of yourself. Start today, stay consistent, and watch your life transform.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [APA – Procrastination](https://www.apa.org/news/press/releases/2010/04/procrastination)
+- [James Clear – Atomic Habits Research](https://jamesclear.com/habits)
+- [Harvard Business Review – Productivity](https://hbr.org/topic/subject/productivity)

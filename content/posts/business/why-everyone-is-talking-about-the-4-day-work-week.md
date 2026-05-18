@@ -2,6 +2,7 @@
 title: "Why Everyone Is Talking About the 4-Day Work Week"
 excerpt: "More companies are testing 32-hour work weeks — and the results keep surprising researchers. Here's what the data actually shows and where it's headed."
 date: "2026-05-04"
+updatedAt: "2026-05-18"
 author: "David Kim"
 coverImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
 tags: ["4-day work week", "future of work", "productivity", "work-life balance", "business"]
@@ -68,3 +69,11 @@ For workers considering whether to seek out employers with this policy, the prac
 Ask employers specifically: is this 32 hours or compressed 40? Is the 5th day truly protected? Has the company restructured meetings and workflows? The answers will tell you whether you're getting a genuine policy or a marketing claim.
 
 The 5-day work week has been standard for almost 90 years. The evidence is building that it's not sacred — it's just what we got used to.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)
+- [Harvard Business Review – Future of Work](https://hbr.org/topic/subject/remote-work)
+- [Gallup – State of the American Workplace](https://www.gallup.com/workplace/285818/state-american-workplace-report.aspx)

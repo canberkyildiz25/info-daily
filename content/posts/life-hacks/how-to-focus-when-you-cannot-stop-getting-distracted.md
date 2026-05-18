@@ -2,8 +2,9 @@
 title: "How to Focus When You Cannot Stop Getting Distracted"
 excerpt: "Struggling to concentrate? Discover proven strategies to regain your focus, beat distractions, and get more done — even on your worst days."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://picsum.photos/seed/888/800/450"
+coverImage: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1200&q=80"
 tags: ["focus", "productivity", "distractions", "concentration", "mental health"]
 ---
 
@@ -97,3 +98,12 @@ The goal isn't to become a robot that never gets distracted. The goal is to buil
 Don't try to overhaul everything at once. Pick **one strategy** from this article and commit to it for the next week. Maybe it's putting your phone in another room. Maybe it's trying the Pomodoro Technique. Maybe it's finally getting serious about your sleep.
 
 Small changes, consistently applied, create dramatic results over time. Your attention is one of the most valuable things you own. It's worth protecting.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [APA – Procrastination](https://www.apa.org/news/press/releases/2010/04/procrastination)
+- [James Clear – Atomic Habits Research](https://jamesclear.com/habits)
+- [Harvard Business Review – Productivity](https://hbr.org/topic/subject/productivity)

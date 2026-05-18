@@ -2,8 +2,9 @@
 title: "How to Boost Your Metabolism After 40"
 excerpt: "Metabolism does slow with age, but it's far more controllable than you think. These science-backed strategies can reignite your calorie burn after 40."
 date: "2025-12-13"
+updatedAt: "2026-05-18"
 author: "Mark Stevens, CSCS"
-coverImage: "https://picsum.photos/seed/108/800/450"
+coverImage: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1200&q=80"
 tags: ["metabolism", "over 40", "weight loss", "hormones", "fitness"]
 ---
 
@@ -91,3 +92,9 @@ If you're doing everything right and still struggling, it's worth getting a comp
 These are medical issues requiring medical intervention — no lifestyle change will compensate for an underactive thyroid.
 
 Metabolism after 40 isn't fixed. With the right combination of strength training, adequate protein, quality sleep, and stress management, you can maintain — and even improve — your metabolic health well into your 60s and beyond.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)

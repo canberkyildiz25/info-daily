@@ -2,8 +2,9 @@
 title: "How to Build an Emergency Fund from Scratch"
 excerpt: "An emergency fund is the foundation of financial security. Here's exactly how to build one even when you feel like you have nothing left to save."
 date: "2025-09-07"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://picsum.photos/seed/201/800/450"
+coverImage: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80"
 tags: ["emergency fund", "savings", "personal finance", "budgeting", "financial security"]
 ---
 
@@ -90,3 +91,9 @@ Don't let a setback derail you. If you use the fund for an actual emergency — 
 - **Resist the urge to invest it**: An emergency fund is not an investment — its job is stability, not growth. Keep it in a HYSA, not stocks
 
 An emergency fund is boring, unexciting, and absolutely essential. Building it may take months of discipline. But the peace of mind it provides — knowing that one bad event won't derail your finances — is worth every dollar.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)

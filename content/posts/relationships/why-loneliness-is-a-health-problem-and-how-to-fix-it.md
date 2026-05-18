@@ -2,8 +2,9 @@
 title: "Why Loneliness Is a Health Problem and How to Fix It"
 excerpt: "Loneliness isn't just an emotion — it's a serious health risk. Learn why isolation harms your body and mind, plus practical ways to reconnect."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://picsum.photos/seed/152/800/450"
+coverImage: "https://images.unsplash.com/photo-1516401266446-6432a8a07d41?w=1200&q=80"
 tags: ["loneliness", "mental health", "social connection", "wellness", "health risks"]
 ---
 
@@ -96,3 +97,9 @@ Fixing loneliness isn't just an individual responsibility. Workplaces can create
 But it starts with each of us making a small, deliberate choice: to reach out instead of scroll, to show up instead of cancel, to ask a real question instead of settling for small talk.
 
 Loneliness is a health problem with a human solution. And that solution is closer than you think — it might be as simple as a text message, a walk around the block with someone you care about, or the courage to say, "I've been feeling disconnected lately." Connection doesn't require perfection. It just requires intention.
+
+## Sources & References
+
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [National Alliance on Mental Illness (NAMI)](https://www.nami.org/)

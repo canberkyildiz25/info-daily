@@ -2,8 +2,9 @@
 title: "Best Side Hustles for Busy Professionals"
 excerpt: "Limited time doesn't mean limited income options. These side hustles are specifically suited to professionals with demanding schedules — high hourly value, flexible timing."
 date: "2025-10-01"
+updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://picsum.photos/seed/702/800/450"
+coverImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80"
 tags: ["side hustle", "extra income", "freelancing", "business", "passive income"]
 ---
 
@@ -100,3 +101,11 @@ For most busy professionals, the right starting point is the freelance service t
 4. Deliver excellent work and ask for referrals
 
 Starting small is the only realistic path to starting at all.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)
+- [Bureau of Labor Statistics – Occupational Outlook](https://www.bls.gov/ooh/)
+- [Harvard Business Review – Career](https://hbr.org/topic/subject/career-planning)

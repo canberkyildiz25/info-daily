@@ -2,8 +2,9 @@
 title: "How to Survive a Market Downturn: What Smart Investors Do in 2026"
 excerpt: "Markets are volatile and uncertainty is high. Here's exactly what experienced investors do when stocks drop — and the moves that almost always backfire."
 date: "2026-04-18"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://picsum.photos/seed/418/800/450"
+coverImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80"
 tags: ["investing", "stock market", "recession", "personal finance", "wealth management"]
 ---
 
@@ -64,3 +65,12 @@ Every market downturn in history — the dot-com bust, the 2008 financial crisis
 That's not a guarantee about the future. But it is the historical record, and it's the foundation on which long-term investing is built.
 
 If your timeline is five years or more, the question isn't whether you can afford to stay invested during a downturn. It's whether you can afford not to.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)
+- [SEC – Investor Education](https://www.investor.gov/)
+- [Vanguard – Investment Research](https://institutional.vanguard.com/insights/research)
+- [Morningstar](https://www.morningstar.com/)

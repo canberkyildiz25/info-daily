@@ -2,8 +2,9 @@
 title: "Remote Work Tips That Make You More Productive"
 excerpt: "Remote work offers freedom but creates its own challenges — distraction, isolation, and blurred boundaries. These practical strategies help you perform at your best from anywhere."
 date: "2025-11-13"
+updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://picsum.photos/seed/705/800/450"
+coverImage: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=80"
 tags: ["remote work", "productivity", "work from home", "career", "focus"]
 ---
 
@@ -94,3 +95,12 @@ Many remote meetings can be replaced with a well-written message, recorded Loom 
 Ask: "Does this require synchronous discussion, or can I communicate it effectively in writing?" Before scheduling a meeting, ask whether a shared document or message would achieve the same outcome. Reserve real-time meetings for things that genuinely benefit from live dialogue.
 
 Remote work, done well, often outperforms office work in both output quality and personal wellbeing. The key is replacing the structures the office provided with better-designed ones you control.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)
+- [APA – Procrastination](https://www.apa.org/news/press/releases/2010/04/procrastination)
+- [James Clear – Atomic Habits Research](https://jamesclear.com/habits)
+- [Harvard Business Review – Productivity](https://hbr.org/topic/subject/productivity)

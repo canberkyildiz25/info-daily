@@ -2,6 +2,7 @@
 title: "Katseye: The K-Pop Group Redefining Global Pop in 2026"
 excerpt: "Formed through Netflix and HYBE's groundbreaking PopStar Academy, Katseye is what happens when K-pop training meets Western pop ambition â€” and it's working."
 date: "2026-04-20"
+updatedAt: "2026-05-18"
 author: Canberk Yildiz
 coverImage: "https://www.katseye.world/wp-content/uploads/sites/2863/2024/06/06.22.katseye-compressed.jpg"
 noInlineImages: true
@@ -57,3 +58,8 @@ More importantly for their long-term career, they're beginning to be seen as gen
 
 But what's already clear is that Katseye represents something real: the first fully realized attempt to build a globally-native pop group using K-pop infrastructure. Whether or not you love the music, that's worth paying attention to.
 
+## Sources & References
+
+- [Variety](https://variety.com/)
+- [The Hollywood Reporter](https://www.hollywoodreporter.com/)
+- [Billboard](https://www.billboard.com/)

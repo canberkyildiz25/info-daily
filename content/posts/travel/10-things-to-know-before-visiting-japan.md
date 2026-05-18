@@ -2,8 +2,9 @@
 title: "10 Things to Know Before Visiting Japan"
 excerpt: "Japan rewards prepared travelers enormously. These practical tips will help you avoid common mistakes and get far more out of your trip."
 date: "2025-09-27"
+updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://picsum.photos/seed/502/800/450"
+coverImage: "https://images.unsplash.com/photo-1501426026826-31c667bdf23d?w=1200&q=80"
 tags: ["Japan travel", "Tokyo", "travel tips", "Asia travel", "cultural tips"]
 ---
 
@@ -81,3 +82,10 @@ Key phrases:
 - **Oishii!** (Delicious! — use this often)
 
 Japan is one of the safest, cleanest, most organized, and most rewarding countries you can visit. A bit of preparation transforms a good trip into an extraordinary one.
+
+## Sources & References
+
+- [CDC Traveler's Health](https://wwwnc.cdc.gov/travel)
+- [U.S. Department of State – Travel](https://travel.state.gov/)
+- [World Tourism Organization (UNWTO)](https://www.unwto.org/)
+- [U.S. Department of State – Travel Advisories](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html)

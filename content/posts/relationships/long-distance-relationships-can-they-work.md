@@ -2,6 +2,7 @@
 title: "Long-Distance Relationships: Can They Actually Work?"
 excerpt: "55% of singles in 2026 are open to long-distance relationships. But do they work? Here's what the research says, what makes them succeed or fail, and how to navigate one."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
 tags: ["long-distance relationships", "LDR", "relationships", "dating", "communication", "love"]
 coverImage: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&q=80"
@@ -86,3 +87,12 @@ The right questions to ask:
 - Do you have compatible communication needs and styles?
 
 If the answers are mostly yes, distance is a manageable obstacle rather than an insurmountable one. Many relationships have been worth it. Whether yours is comes down to who's on the other end of the call.
+
+## Sources & References
+
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [National Alliance on Mental Illness (NAMI)](https://www.nami.org/)
+- [APA – Relationships](https://www.apa.org/topics/relationships)
+- [Greater Good Science Center](https://greatergood.berkeley.edu/topic/relationships)
+- [John Gottman Institute](https://www.gottman.com/about/research/)

@@ -2,8 +2,9 @@
 title: "How to Use ChatGPT for Work"
 excerpt: "ChatGPT has moved from novelty to essential work tool. Here are the most practical, time-saving ways to use it in your daily workflow — with real examples."
 date: "2025-12-31"
+updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://picsum.photos/seed/309/800/450"
+coverImage: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&q=80"
 tags: ["ChatGPT", "AI tools", "productivity", "work", "automation"]
 ---
 
@@ -86,3 +87,12 @@ Even non-developers benefit from ChatGPT for technical tasks:
 - Empathy in sensitive human situations
 
 Use it as a powerful first-draft and thinking partner, not a replacement for the judgment you bring to your work.
+
+## Sources & References
+
+- [MIT Technology Review](https://www.technologyreview.com/)
+- [IEEE Spectrum](https://spectrum.ieee.org/)
+- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
+- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)
+- [MIT AI Policy](https://computing.mit.edu/artificial-intelligence/)
+- [OpenAI Research](https://openai.com/research)

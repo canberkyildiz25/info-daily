@@ -2,6 +2,7 @@
 title: "How to Make Your Smartphone Battery Last All Day"
 excerpt: "Your phone dying at 2 PM isn't inevitable. These practical tweaks will dramatically extend your battery life without sacrificing what you actually use."
 date: "2026-05-02"
+updatedAt: "2026-05-18"
 author: "Alex Rivera"
 coverImage: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80"
 tags: ["smartphone", "battery life", "technology tips", "Android", "iPhone"]
@@ -81,3 +82,12 @@ Android: Battery health tools vary by manufacturer. Some have it built in; third
 A battery replacement typically costs $50–$100 and can make a two-year-old phone feel new again. It's often the best value upgrade you can make before buying a new device.
 
 The bottom line: most battery problems are behavioral before they're hardware. Spend 20 minutes adjusting your settings, and your phone will start making it to dinner.
+
+## Sources & References
+
+- [MIT Technology Review](https://www.technologyreview.com/)
+- [IEEE Spectrum](https://spectrum.ieee.org/)
+- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
+- [FCC – Broadband Resources](https://www.fcc.gov/consumers/guides/broadband-speed-guide)
+- [IEEE – Wireless Standards](https://standards.ieee.org/featured/802-11/)
+- [Pew Research Center – Reading Habits](https://www.pewresearch.org/internet/2021/01/09/who-doesnt-read-books-in-america/)

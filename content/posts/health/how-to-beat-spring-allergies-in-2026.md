@@ -2,8 +2,9 @@
 title: "How to Beat Spring Allergies in 2026"
 excerpt: "Spring allergies are worse than ever this year. Here's what doctors recommend to finally get relief — from new treatments to everyday habits."
 date: "2026-04-16"
+updatedAt: "2026-05-18"
 author: "Dr. Sarah Collins"
-coverImage: "https://picsum.photos/seed/416/800/450"
+coverImage: "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=1200&q=80"
 tags: ["allergies", "health", "spring", "wellness", "immunity"]
 ---
 
@@ -68,3 +69,9 @@ If your symptoms include wheezing, shortness of breath, or chest tightness, don'
 Skin prick testing or blood tests can identify exactly what you're allergic to, which makes targeted treatment far more effective than a one-size-fits-all approach.
 
 Spring should feel like the best time of year, not the worst. With the right combination of avoidance strategies, medication timing, and possibly long-term immunotherapy, most allergy sufferers can genuinely enjoy the season.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
