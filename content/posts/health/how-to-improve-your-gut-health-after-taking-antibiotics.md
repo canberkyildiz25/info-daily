@@ -4,7 +4,7 @@ excerpt: "Antibiotics save lives but damage gut bacteria. Learn proven strategie
 date: "2026-05-09"
 updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://source.unsplash.com/800x450/?improve%2Chealth%2Cgut&sig=824"
+coverImage: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&q=80"
 tags: ["gut health", "probiotics", "antibiotics", "digestive wellness", "microbiome"]
 ---
 
