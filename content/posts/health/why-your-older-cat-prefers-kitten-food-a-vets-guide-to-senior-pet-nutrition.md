@@ -2,8 +2,9 @@
 title: "Why Your Older Cat Prefers Kitten Food: A Vet's Guide to Senior Pet Nutrition"
 excerpt: "Discover why your senior cat craves kitten food, whether it's safe, and how to manage their nutrition for optimal health in their golden years."
 date: "2026-04-15"
+updatedAt: "2026-05-18"
 author: "Dr. Sarah Collins"
-coverImage: "https://picsum.photos/seed/272/800/450"
+coverImage: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80"
 tags: ["senior cat nutrition", "kitten food for older cats", "cat diet tips", "pet health", "veterinary advice"]
 ---
 
@@ -98,3 +99,11 @@ These symptoms could indicate conditions that require immediate dietary interven
 ## The Takeaway
 
 Your older cat's preference for kitten food isn't random pickiness — it's a biologically driven response to richer, more aromatic, protein-dense nutrition. Whether or not you should indulge that preference depends entirely on your cat's health status, weight, and any existing medical conditions. Work with your veterinarian to find a diet that satisfies your senior cat's cravings while supporting their long-term health. Sometimes, the best solution is simply finding a high-quality senior food that delivers the palatability and nutrition your aging feline actually wants — so they stop stealing from the kitten's bowl altogether.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)
+- [Harvard T.H. Chan – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)

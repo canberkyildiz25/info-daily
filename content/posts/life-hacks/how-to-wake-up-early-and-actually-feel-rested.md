@@ -2,8 +2,9 @@
 title: "How to Wake Up Early and Actually Feel Rested"
 excerpt: "Discover proven strategies to wake up early without feeling groggy. Learn how sleep cycles, habits, and routines can transform your mornings."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://picsum.photos/seed/544/800/450"
+coverImage: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200&q=80"
 tags: ["morning routine", "sleep tips", "productivity", "healthy habits", "wellness"]
 ---
 
@@ -85,3 +86,9 @@ If you consistently struggle despite following these steps, it may be worth eval
 ## The Bottom Line
 
 Waking up early and feeling rested isn't about brute-force discipline. It's about working *with* your biology instead of against it. Align your sleep with natural cycles, build consistent evening and morning routines, manage light and caffeine strategically, and give yourself grace during the adjustment period. Within a few weeks, you won't just be waking up earlier — you'll actually want to.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [American Psychological Association (APA)](https://www.apa.org/)

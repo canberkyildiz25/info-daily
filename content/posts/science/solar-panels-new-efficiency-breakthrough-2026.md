@@ -2,6 +2,7 @@
 title: "Solar Panels Just Got a Lot More Efficient — What the Breakthrough Means"
 excerpt: "A new type of solar panel has hit 34% efficiency in lab tests — nearly double the average commercial panel. Here's what the perovskite revolution means for energy and your electricity bill."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "David Kim"
 tags: ["solar energy", "renewable energy", "perovskite", "clean energy", "technology", "science"]
 coverImage: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80"
@@ -70,3 +71,12 @@ The history of solar energy is a history of steady, compounding improvement — 
 What's different now is the scale of deployment. Solar is no longer a niche technology. It's the fastest-growing source of electricity globally, and efficiency improvements of the magnitude now being demonstrated in laboratories will matter at a scale that affects every country's energy future.
 
 The sun delivers more energy to Earth in one hour than humanity uses in an entire year. The question has never been whether solar can power the world — it's always been about how efficiently and affordably we can capture it. In 2026, we just got a significant step closer.
+
+## Sources & References
+
+- [Nature](https://www.nature.com/)
+- [Science (AAAS)](https://www.science.org/)
+- [NASA](https://www.nasa.gov/)
+- [U.S. Department of Energy](https://www.energy.gov/)
+- [NREL – National Renewable Energy Laboratory](https://www.nrel.gov/)
+- [IPCC – Climate Change Reports](https://www.ipcc.ch/reports/)

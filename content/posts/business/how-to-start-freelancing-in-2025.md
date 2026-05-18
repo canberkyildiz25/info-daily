@@ -2,6 +2,7 @@
 title: "How to Start Freelancing in 2026: A Step-by-Step Guide"
 excerpt: "Freelancing is more accessible than ever — but most beginners make avoidable mistakes. Here's exactly how to start smart and land your first client."
 date: "2026-04-03"
+updatedAt: "2026-05-18"
 author: "David Kim"
 coverImage: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80"
 tags: ["freelancing", "side income", "career", "business", "remote work"]
@@ -98,3 +99,11 @@ These are medians, not ceilings. The people who scale fast are those who special
 - **Client communication:** Regular email — don't overcomplicate it
 
 Freelancing in 2026 is competitive but not saturated at the quality end. Most freelancers are mediocre communicators who underdeliver. Being reliable, clear, and good at your craft puts you in the top 20% faster than any other strategy.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)
+- [Bureau of Labor Statistics – Occupational Outlook](https://www.bls.gov/ooh/)
+- [Harvard Business Review – Career](https://hbr.org/topic/subject/career-planning)

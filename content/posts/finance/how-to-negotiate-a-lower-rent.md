@@ -2,8 +2,9 @@
 title: "How to Negotiate a Lower Rent"
 excerpt: "Learn proven strategies to negotiate a lower rent with your landlord, save hundreds each month, and secure a lease that works for your budget."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://picsum.photos/seed/704/800/450"
+coverImage: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80"
 tags: ["rent negotiation", "saving money", "renting tips", "personal finance", "housing costs"]
 ---
 
@@ -122,3 +123,9 @@ Even well-intentioned tenants can sabotage their own negotiations. Watch out for
 Negotiating your rent doesn't require a law degree or an aggressive personality. It requires preparation, market knowledge, and a respectful approach. Most landlords are rational business people — if you can show them that keeping you at a slightly lower rate is better than the alternative, you've already won half the battle.
 
 Even a modest reduction of $50 to $100 per month adds up to $600 to $1,200 per year. Over a multi-year tenancy, that's real money that can go toward savings, investments, or simply a more comfortable life. So the next time your lease renewal rolls around, don't just sign on the dotted line — start a conversation. You might be surprised at the outcome.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)

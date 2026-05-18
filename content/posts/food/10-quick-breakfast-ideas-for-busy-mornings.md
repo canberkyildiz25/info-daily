@@ -2,8 +2,9 @@
 title: "10 Quick Breakfast Ideas for Busy Mornings"
 excerpt: "Skipping breakfast sabotages your energy and focus. These 10 ideas take 5 minutes or less — and actually taste good enough to look forward to."
 date: "2025-09-29"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://picsum.photos/seed/602/800/450"
+coverImage: "https://images.unsplash.com/photo-1551183053-bf91798d792f?w=1200&q=80"
 tags: ["breakfast", "quick recipes", "healthy eating", "morning routine", "nutrition"]
 ---
 
@@ -80,3 +81,10 @@ Morning: top with fruit, coconut flakes, or granola. Chia seeds provide fiber, o
 The single habit that makes healthy breakfasts happen: **prepare the night before**. Whether it's putting overnight oats in the fridge or setting out ingredients, removing all morning friction is what separates people who consistently eat breakfast from those who consistently don't.
 
 Even 60 seconds of evening prep — setting out a container, pre-measuring oats, putting out eggs — dramatically increases morning follow-through.
+
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)

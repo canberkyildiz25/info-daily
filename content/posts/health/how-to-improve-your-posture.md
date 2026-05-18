@@ -2,8 +2,9 @@
 title: "How to Improve Your Posture"
 excerpt: "Poor posture causes back pain, headaches, and low energy. These simple daily habits will correct your alignment and transform how you feel and look."
 date: "2025-12-27"
+updatedAt: "2026-05-18"
 author: "Mark Stevens, CSCS"
-coverImage: "https://picsum.photos/seed/109/800/450"
+coverImage: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=1200&q=80"
 tags: ["posture", "back pain", "ergonomics", "exercise", "wellness"]
 ---
 
@@ -80,3 +81,9 @@ Research by social psychologist Amy Cuddy and subsequent studies showed that bod
 Breathing is directly affected too — forward head posture and rounded shoulders reduce lung capacity by up to 30%. Simply sitting or standing taller allows fuller diaphragmatic breaths, which activates the parasympathetic nervous system and reduces anxiety.
 
 Better posture isn't just aesthetic — it's functional, energetic, and psychological.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)

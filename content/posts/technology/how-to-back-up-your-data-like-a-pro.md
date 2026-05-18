@@ -2,8 +2,9 @@
 title: "How to Back Up Your Data Like a Pro"
 excerpt: "Hard drives fail. Phones get lost. Ransomware encrypts everything. A proper backup strategy means none of these events destroy your irreplaceable files."
 date: "2025-11-05"
+updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://picsum.photos/seed/305/800/450"
+coverImage: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1200&q=80"
 tags: ["data backup", "cloud storage", "data recovery", "technology", "cybersecurity"]
 ---
 
@@ -109,3 +110,12 @@ If you do nothing else, do this:
 2. **Install Backblaze** ($9/month) on your computer and let it run (protects everything)
 
 That's the 80% solution in under 10 minutes. Build from there as your needs grow.
+
+## Sources & References
+
+- [MIT Technology Review](https://www.technologyreview.com/)
+- [IEEE Spectrum](https://spectrum.ieee.org/)
+- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
+- [CISA – Cybersecurity Resources](https://www.cisa.gov/topics/cybersecurity-best-practices)
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+- [Electronic Frontier Foundation – Surveillance Self-Defense](https://ssd.eff.org/)

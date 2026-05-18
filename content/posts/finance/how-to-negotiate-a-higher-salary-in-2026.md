@@ -2,6 +2,7 @@
 title: "How to Negotiate a Higher Salary in 2026 (And Actually Get It)"
 excerpt: "Most people leave money on the table because they don't negotiate. Here's the research-backed approach that works â€” including what to say, when to say it, and how to handle pushback."
 date: "2026-04-25"
+updatedAt: "2026-05-18"
 author: "James Mercer"
 coverImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
 tags: ["salary", "career", "negotiation", "finance", "job"]
@@ -85,3 +86,10 @@ Salary negotiation isn't a one-time event. Every annual review is an opportunity
 
 The discomfort of asking for more fades quickly. The regret of not asking lasts longer. If you've been offered a job or have an upcoming review, this is the time to practice. The best outcome? You make more money. The worst? You make exactly what you would have anyway.
 
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)
+- [IRS – Filing Information](https://www.irs.gov/filing)
+- [Tax Policy Center](https://www.taxpolicycenter.org/)

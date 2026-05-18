@@ -2,8 +2,9 @@
 title: "High Protein Meals You Can Make in Under 15 Minutes"
 excerpt: "Discover quick, delicious high protein meals you can prepare in under 15 minutes — perfect for busy days when nutrition still matters."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://picsum.photos/seed/344/800/450"
+coverImage: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1200&q=80"
 tags: ["high protein meals", "quick recipes", "healthy eating", "meal prep", "protein rich foods"]
 ---
 
@@ -105,3 +106,10 @@ Having the right ingredients stocked and ready is half the battle. Here are some
 Eating high protein meals doesn't have to be a time-consuming ordeal. With a well-stocked pantry, a few reliable recipes in your back pocket, and a willingness to keep things simple, you can consistently hit your protein targets without spending more than 15 minutes at the stove.
 
 The real secret isn't finding exotic ingredients or mastering complex techniques. It's building habits — choosing the right foods at the grocery store, keeping your fridge organized, and knowing a handful of meals you can prepare almost on autopilot. Start with two or three recipes from this list, make them your own, and expand from there. Your body (and your schedule) will thank you.
+
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)

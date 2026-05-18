@@ -2,8 +2,9 @@
 title: "Morning Routines of Healthy People: What Science Says"
 excerpt: "Discover the science-backed morning habits that healthy people swear by — and how to build your own routine that actually sticks."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Dr. Sarah Collins"
-coverImage: "https://picsum.photos/seed/464/800/450"
+coverImage: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1200&q=80"
 tags: ["morning routines", "healthy habits", "wellness", "productivity", "science-backed health"]
 ---
 
@@ -95,3 +96,12 @@ Here's a better approach:
 ## The Bottom Line
 
 Healthy morning routines aren't about perfection, rigid discipline, or waking up at 4 a.m. They're about creating a small, reliable set of habits that set you up for a better day — physically, mentally, and emotionally. The science is clear: consistency beats complexity. Start simple, protect your mornings from chaos, and give your body and brain what they actually need in those first crucial hours. Your future self will thank you for it.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [APA – Procrastination](https://www.apa.org/news/press/releases/2010/04/procrastination)
+- [James Clear – Atomic Habits Research](https://jamesclear.com/habits)
+- [Harvard Business Review – Productivity](https://hbr.org/topic/subject/productivity)

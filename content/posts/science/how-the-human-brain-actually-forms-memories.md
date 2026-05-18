@@ -2,8 +2,9 @@
 title: "How the Human Brain Actually Forms Memories"
 excerpt: "Discover the fascinating science behind how your brain encodes, stores, and retrieves memories — and practical ways to boost your recall."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://picsum.photos/seed/904/800/450"
+coverImage: "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=1200&q=80"
 tags: ["neuroscience", "memory formation", "brain health", "cognitive science", "learning"]
 ---
 
@@ -92,3 +93,12 @@ While acute stress can enhance memory (that's the amygdala at work), chronic str
 Your memories are not static recordings locked away in a neural vault. They are living, dynamic constructions — constantly being updated, strengthened, or gradually fading based on how you live, sleep, move, and engage with the world. Every time you learn something new, your brain physically rewires itself. Every night you sleep, your hippocampus works the night shift, sorting and filing the day's experiences.
 
 The more you understand about how this remarkable system works, the better equipped you are to support it. Your brain is already extraordinary at forming memories. With the right habits, you can make it even better.
+
+## Sources & References
+
+- [Nature](https://www.nature.com/)
+- [Science (AAAS)](https://www.science.org/)
+- [NASA](https://www.nasa.gov/)
+- [NIH National Institute of Neurological Disorders](https://www.ninds.nih.gov/)
+- [Harvard Brain Science Initiative](https://brain.harvard.edu/)
+- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)

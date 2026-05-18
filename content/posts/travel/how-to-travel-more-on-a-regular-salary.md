@@ -2,8 +2,9 @@
 title: "How to Travel More on a Regular Salary"
 excerpt: "You don't need a high income to travel frequently. With the right strategies, a regular salary can fund multiple trips per year — here's the blueprint."
 date: "2025-12-07"
+updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://picsum.photos/seed/507/800/450"
+coverImage: "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=1200&q=80"
 tags: ["budget travel", "travel savings", "travel tips", "affordable travel", "personal finance"]
 ---
 
@@ -81,3 +82,12 @@ The general rule: plan the trip with a target budget, book flights first (hardes
 ## The Permission to Start Small
 
 A $500 domestic weekend trip you actually take is better than a $5,000 international trip you keep planning and not booking. Starting with what's achievable builds the habit, the skills, and the confidence that gradually enable bigger trips. Travel on a regular salary is entirely possible — it just requires treating it as a priority and planning accordingly.
+
+## Sources & References
+
+- [CDC Traveler's Health](https://wwwnc.cdc.gov/travel)
+- [U.S. Department of State – Travel](https://travel.state.gov/)
+- [World Tourism Organization (UNWTO)](https://www.unwto.org/)
+- [IRS – Filing Information](https://www.irs.gov/filing)
+- [Tax Policy Center](https://www.taxpolicycenter.org/)
+- [U.S. Department of State – Travel Advisories](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html)

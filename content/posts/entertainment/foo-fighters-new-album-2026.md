@@ -2,6 +2,7 @@
 title: "Foo Fighters' New Album: A Band Rebuilding After Tragedy"
 excerpt: "The Foo Fighters return with their first album since drummer Taylor Hawkins' death. Here's what the new music sounds like, what it means, and why this album carries more weight than most."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: Canberk Yildiz
 tags: ["Foo Fighters", "rock music", "Taylor Hawkins", "new album", "2026", "music"]
 coverImage: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80"
@@ -49,3 +50,11 @@ The Foo Fighters have always been a band about persistence. Dave Grohl built the
 
 Rock and roll needs bands that mean it. The Foo Fighters, on this evidence, still do.
 
+## Sources & References
+
+- [Variety](https://variety.com/)
+- [The Hollywood Reporter](https://www.hollywoodreporter.com/)
+- [Billboard](https://www.billboard.com/)
+- [IMDb](https://www.imdb.com/)
+- [Metacritic](https://www.metacritic.com/)
+- [Rotten Tomatoes](https://www.rottentomatoes.com/)

@@ -2,6 +2,7 @@
 title: "Hacks Final Season: Why It's the Best Comedy on TV Right Now"
 excerpt: "HBO's Hacks returns for its final season with Jean Smart and Hannah Einbinder delivering career-best performances. Here's why this show deserves to be your next obsession."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: Canberk Yildiz
 tags: ["Hacks", "HBO", "Jean Smart", "comedy", "TV shows", "streaming", "entertainment"]
 coverImage: "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=800&q=80"
@@ -55,3 +56,11 @@ Start with Season 1, Episode 1. If you're not hooked by the end of the first epi
 
 Watch it before everyone's talking about the ending.
 
+## Sources & References
+
+- [Variety](https://variety.com/)
+- [The Hollywood Reporter](https://www.hollywoodreporter.com/)
+- [Billboard](https://www.billboard.com/)
+- [IMDb](https://www.imdb.com/)
+- [Metacritic](https://www.metacritic.com/)
+- [Rotten Tomatoes](https://www.rottentomatoes.com/)

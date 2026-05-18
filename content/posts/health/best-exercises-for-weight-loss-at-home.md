@@ -2,6 +2,7 @@
 title: "Best Exercises for Weight Loss at Home (No Equipment Needed)"
 excerpt: "You don't need a gym membership to lose weight. These science-backed at-home exercises burn serious calories and can be done in your living room."
 date: "2025-04-03"
+updatedAt: "2026-05-18"
 author: "Mark Stevens, CSCS"
 tags: ["weight loss", "home workout", "exercise", "fitness", "no equipment"]
 coverImage: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80"
@@ -61,3 +62,12 @@ Exercise is only one side of the equation. For effective weight loss:
 - **Consistency** – 4-5 sessions per week over 8 weeks beats one intense week followed by nothing
 
 You can absolutely lose weight at home. The key is starting and staying consistent.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [American College of Sports Medicine](https://www.acsm.org/)
+- [NIH – Physical Activity Guidelines](https://www.ncbi.nlm.nih.gov/books/NBK179847/)
+- [Journal of Strength and Conditioning Research (NSCA)](https://journals.lww.com/nsca-jscr)

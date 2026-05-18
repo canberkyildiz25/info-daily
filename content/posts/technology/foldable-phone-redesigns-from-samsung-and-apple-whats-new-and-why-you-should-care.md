@@ -2,8 +2,9 @@
 title: "Foldable Phone Redesigns From Samsung and Apple: What's New and Why You Should Care"
 excerpt: "Samsung and Apple are redefining foldable phones in 2026. Here's what's changed, what's improved, and why these redesigns matter for everyday users."
 date: "2026-04-14"
+updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://picsum.photos/seed/584/800/450"
+coverImage: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1200&q=80"
 tags: ["foldable phones", "Samsung Galaxy Z Fold", "Apple foldable", "smartphone technology", "tech news 2026"]
 ---
 
@@ -77,3 +78,11 @@ Before you pre-order, ask yourself a few honest questions:
 Samsung's Z Fold 7 and Apple's iPhone Fold aren't just new phones — they represent a genuine inflection point for the category. Samsung brings maturity, versatility, and a lower price tag, while Apple delivers the polish, ecosystem integration, and display quality its fans expect. Competition between these two will only accelerate innovation and drive prices down further.
 
 If you've been sitting on the foldable fence, 2026 just gave you two very compelling reasons to jump off.
+
+## Sources & References
+
+- [MIT Technology Review](https://www.technologyreview.com/)
+- [IEEE Spectrum](https://spectrum.ieee.org/)
+- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
+- [Pew Research Center – Reading Habits](https://www.pewresearch.org/internet/2021/01/09/who-doesnt-read-books-in-america/)
+- [American Library Association](https://www.ala.org/)

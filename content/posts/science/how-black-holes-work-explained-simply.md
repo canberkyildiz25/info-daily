@@ -2,8 +2,9 @@
 title: "How Black Holes Work Explained Simply"
 excerpt: "Discover how black holes form, why nothing escapes them, and what scientists actually know about these cosmic mysteries — explained in plain English."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://picsum.photos/seed/328/800/450"
+coverImage: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&q=80"
 tags: ["black holes", "space science", "astrophysics", "universe", "science explained"]
 ---
 
@@ -81,3 +82,12 @@ Let's clear up some persistent misconceptions:
 ## The Bottom Line
 
 Black holes are nature at its most extreme — places where the rules we take for granted bend, break, and reveal something deeper about reality. But at their core, the concept is elegantly simple: pack enough mass into a small enough space, and gravity becomes inescapable. The more we study these cosmic giants, the more we learn not just about distant space, but about the fundamental laws that govern everything — including us. And that's what makes black holes one of the most exciting frontiers in all of science.
+
+## Sources & References
+
+- [Nature](https://www.nature.com/)
+- [Science (AAAS)](https://www.science.org/)
+- [NASA](https://www.nasa.gov/)
+- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)
+- [MIT AI Policy](https://computing.mit.edu/artificial-intelligence/)
+- [OpenAI Research](https://openai.com/research)

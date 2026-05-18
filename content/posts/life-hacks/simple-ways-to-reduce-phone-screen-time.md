@@ -2,8 +2,9 @@
 title: "Simple Ways to Reduce Phone Screen Time"
 excerpt: "The average person spends 4+ hours daily on their phone. These practical techniques help you reclaim that time without eliminating the genuine utility of your device."
 date: "2025-12-05"
+updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://picsum.photos/seed/407/800/450"
+coverImage: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200&q=80"
 tags: ["screen time", "phone addiction", "digital wellness", "habits", "focus"]
 ---
 
@@ -81,3 +82,11 @@ Reducing phone use works better when you're replacing it with something, not jus
 People who successfully reduce phone use to 1.5–2 hours daily (from the 4+ average) typically report: improved sleep quality, better concentration, less anxiety, more time for meaningful activities, and improved real-world social connections.
 
 The goal isn't to make your phone useless — it's to use it intentionally, on your terms, rather than being used by it.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Pew Research Center – Reading Habits](https://www.pewresearch.org/internet/2021/01/09/who-doesnt-read-books-in-america/)
+- [American Library Association](https://www.ala.org/)

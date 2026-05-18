@@ -2,6 +2,7 @@
 title: "How to Invest Your First $1,000 in 2026"
 excerpt: "You don't need a lot of money to start investing — you just need a plan. Here's exactly how to put your first $1,000 to work and build momentum that lasts."
 date: "2026-04-23"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
 coverImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80"
 tags: ["investing", "personal finance", "beginners", "stocks", "financial planning"]
@@ -78,3 +79,12 @@ The psychology of investing is harder than the mechanics. When markets drop 20% 
 Build your first investment, then largely ignore it. Check it quarterly, not daily. The more you monitor, the more likely you are to make an emotional decision that hurts your returns.
 
 Your first $1,000 invested isn't just $1,000 — it's the beginning of a habit, a mindset, and a financial trajectory. The number is almost irrelevant. The decision is everything.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)
+- [SEC – Investor Education](https://www.investor.gov/)
+- [Vanguard – Investment Research](https://institutional.vanguard.com/insights/research)
+- [Morningstar](https://www.morningstar.com/)

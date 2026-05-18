@@ -2,8 +2,9 @@
 title: "How to Have Difficult Conversations Without Fighting"
 excerpt: "Learn proven strategies to navigate tough talks with grace. Discover how to communicate honestly without letting emotions escalate into conflict."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://picsum.photos/seed/672/800/450"
+coverImage: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&q=80"
 tags: ["difficult conversations", "communication skills", "conflict resolution", "emotional intelligence", "relationship advice"]
 ---
 
@@ -113,3 +114,9 @@ This approach doesn't guarantee a perfect outcome, but it dramatically increases
 Difficult conversations are an unavoidable part of life. The question isn't whether you'll face them — it's how you'll handle them when they arrive. By preparing thoughtfully, leading with empathy, listening actively, and prioritizing the relationship over your ego, you can navigate even the toughest talks without burning bridges.
 
 It takes practice. You won't get it right every time. But each conversation you approach with intention instead of impulse is a step toward deeper trust, clearer communication, and relationships that can weather the hard stuff — together.
+
+## Sources & References
+
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [National Alliance on Mental Illness (NAMI)](https://www.nami.org/)

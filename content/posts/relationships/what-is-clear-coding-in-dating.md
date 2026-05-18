@@ -2,6 +2,7 @@
 title: "What Is 'Clear Coding' in Dating â€” And Why More People Are Doing It"
 excerpt: "Clear coding is the 2026 dating trend everyone's talking about: stating your intentions upfront, early, and clearly. Here's what it means, why it works, and how to do it."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
 tags: ["clear coding", "dating", "relationships", "communication", "dating trends", "2026"]
 coverImage: "https://images.unsplash.com/photo-1516802273409-68526ee1bdd6?w=800&q=80"
@@ -81,3 +82,11 @@ Say what you want. Ask what they want. See what's actually there.
 
 That's the whole thing.
 
+## Sources & References
+
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [National Alliance on Mental Illness (NAMI)](https://www.nami.org/)
+- [APA – Relationships](https://www.apa.org/topics/relationships)
+- [Greater Good Science Center](https://greatergood.berkeley.edu/topic/relationships)
+- [John Gottman Institute](https://www.gottman.com/about/research/)

@@ -2,6 +2,7 @@
 title: "Could Life Survive on Mars? What New Science Says"
 excerpt: "New experiments show that yeast cells can survive simulated Martian conditions — toxic salts, radiation, and all. Here's what this means for the search for life beyond Earth."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
 tags: ["Mars", "astrobiology", "space", "life on Mars", "NASA", "science"]
 coverImage: "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=800&q=80"
@@ -77,3 +78,12 @@ The most definitive evidence will come from sample return missions. NASA and ESA
 Until then, every rover, every experiment, and every new piece of data narrows the search — and results like the yeast survival study suggest that the conditions on Mars, while brutal, may not be as absolutely lethal as once assumed.
 
 The universe may be far more full of life than we imagined. Mars might be our first proof.
+
+## Sources & References
+
+- [Nature](https://www.nature.com/)
+- [Science (AAAS)](https://www.science.org/)
+- [NASA](https://www.nasa.gov/)
+- [NASA Science](https://science.nasa.gov/)
+- [ESA – European Space Agency](https://www.esa.int/)
+- [SETI Institute](https://www.seti.org/)

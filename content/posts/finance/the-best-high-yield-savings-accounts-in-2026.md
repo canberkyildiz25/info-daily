@@ -2,8 +2,9 @@
 title: "The Best High-Yield Savings Accounts in 2026"
 excerpt: "Discover the top high-yield savings accounts in 2026, with APYs above 5%. Compare rates, features, and find the best fit for your money."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://picsum.photos/seed/288/800/450"
+coverImage: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80"
 tags: ["high-yield savings", "savings accounts", "personal finance", "money management", "banking"]
 ---
 
@@ -88,3 +89,9 @@ It's worth noting that high-yield savings accounts aren't ideal for every dollar
 There has never been a better time to be a saver. With APYs above 5%, zero fees, and full federal insurance, today's high-yield savings accounts offer a genuinely compelling place to park your cash. The key is to stop procrastinating — every day your money sits in a low-rate account is a day you're leaving free money on the table.
 
 Pick an account from the list above, set up an automatic transfer, and let compound interest do the heavy lifting. Your future self will thank you.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)

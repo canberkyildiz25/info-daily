@@ -2,8 +2,9 @@
 title: "What Every Freelancer Needs to Know About Taxes"
 excerpt: "Freelancing brings freedom—but also tax headaches. Here's your complete guide to managing taxes, deductions, and deadlines as a self-employed pro."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://picsum.photos/seed/448/800/450"
+coverImage: "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=1200&q=80"
 tags: ["freelancer taxes", "self-employment tax", "tax deductions", "freelance finances", "quarterly taxes"]
 ---
 
@@ -102,3 +103,12 @@ Before we wrap up, here's a quick list of pitfalls that trip up freelancers ever
 Freelancing offers incredible freedom — the ability to choose your clients, set your hours, and work from anywhere. But that freedom comes with the responsibility of managing your own taxes. The good news is that once you understand the basics — self-employment tax, quarterly payments, deductions, and record-keeping — it becomes a manageable, even empowering, part of running your business.
 
 Start with the fundamentals outlined here, build good habits early, and don't hesitate to bring in a professional when the stakes get higher. Your bank account, your stress levels, and your future self will all be better for it.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)
+- [IRS – Filing Information](https://www.irs.gov/filing)
+- [Tax Policy Center](https://www.taxpolicycenter.org/)
+- [Bureau of Labor Statistics – Occupational Outlook](https://www.bls.gov/ooh/)

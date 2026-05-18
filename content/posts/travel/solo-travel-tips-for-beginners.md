@@ -2,6 +2,7 @@
 title: "Solo Travel Tips for Beginners: Everything You Need to Know"
 excerpt: "Thinking about traveling alone for the first time? This complete guide covers safety, planning, budgeting, and making the most of solo travel adventures."
 date: "2025-04-06"
+updatedAt: "2026-05-18"
 author: "Sophie Martinez"
 tags: ["solo travel", "travel tips", "beginner travel", "safety", "adventure"]
 coverImage: "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&q=80"
@@ -117,3 +118,10 @@ Must-haves:
 The hardest part is booking that first ticket. Everything after that — the logistics, the nervousness, the uncertainty — becomes part of the adventure. Most solo travelers don't go back to group travel.
 
 You're more capable than you think. The world is more welcoming than the news suggests. Go.
+
+## Sources & References
+
+- [CDC Traveler's Health](https://wwwnc.cdc.gov/travel)
+- [U.S. Department of State – Travel](https://travel.state.gov/)
+- [World Tourism Organization (UNWTO)](https://www.unwto.org/)
+- [U.S. Department of State – Travel Advisories](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html)

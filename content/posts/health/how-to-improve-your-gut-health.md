@@ -2,8 +2,9 @@
 title: "How to Improve Your Gut Health"
 excerpt: "Your gut affects your mood, immune system, and weight more than you realize. Here's how to build a healthier microbiome starting today."
 date: "2025-10-17"
+updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://picsum.photos/seed/104/800/450"
+coverImage: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200&q=80"
 tags: ["gut health", "microbiome", "digestion", "probiotics", "nutrition"]
 ---
 
@@ -91,3 +92,9 @@ You don't need an extreme program. Consistent moderate activity — 150 minutes 
 - Fewer digestive issues after eating trigger foods
 
 Gut health improvements aren't overnight, but with consistent changes, most people notice a difference within 4–6 weeks.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)

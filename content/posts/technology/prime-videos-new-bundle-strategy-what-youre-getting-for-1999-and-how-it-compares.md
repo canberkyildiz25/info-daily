@@ -2,8 +2,9 @@
 title: "Prime Video's New Bundle Strategy: What You're Getting for $19.99 and How It Compares"
 excerpt: "Amazon's $19.99 Prime Video bundle shakes up streaming. Here's exactly what's included, who it's for, and how it stacks up against competitors."
 date: "2026-04-15"
+updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://picsum.photos/seed/32/800/450"
+coverImage: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&q=80"
 tags: ["Prime Video", "streaming bundles", "Amazon Prime", "streaming comparison", "cord-cutting"]
 ---
 
@@ -92,3 +93,9 @@ That said, from a pure consumer value standpoint, the bundle is genuinely compet
 If you're spending more than $20 a month across Prime Video and any combination of premium channels, switching to the Prime Video Plus Bundle is close to a no-brainer. The flexibility of choosing three channels, combined with ad-free viewing and live sports, creates one of the most well-rounded streaming packages on the market right now.
 
 The smartest move? Audit your current streaming subscriptions this week. Add up what you're actually paying, cross-reference it with what the Prime Video bundle includes, and see where the overlap is. For many households, this single subscription could replace two or three others — and that's exactly what Amazon is counting on.
+
+## Sources & References
+
+- [MIT Technology Review](https://www.technologyreview.com/)
+- [IEEE Spectrum](https://spectrum.ieee.org/)
+- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)

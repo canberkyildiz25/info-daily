@@ -2,8 +2,9 @@
 title: "What Is Dropshipping and Is It Still Worth It in 2026"
 excerpt: "Discover how dropshipping works, what's changed in 2026, and whether this business model is still a profitable path for new entrepreneurs."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://picsum.photos/seed/952/800/450"
+coverImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80"
 tags: ["dropshipping", "ecommerce", "online business", "passive income", "entrepreneurship"]
 ---
 
@@ -118,3 +119,9 @@ These aren't "quit your job tomorrow" numbers for most people, but they represen
 Dropshipping in 2026 is not the effortless money machine that YouTube gurus once promised. But it remains one of the most accessible entry points into ecommerce for aspiring entrepreneurs with limited capital. The model rewards those who treat it with the same seriousness as any other business — with thoughtful branding, excellent customer experiences, smart marketing, and relentless testing.
 
 If you go in with realistic expectations, a willingness to learn, and the patience to build something genuine, dropshipping can absolutely still be worth it. Just don't expect to do it on autopilot.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)

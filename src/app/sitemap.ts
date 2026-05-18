@@ -8,11 +8,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const now = Date.now();
   const postEntries: MetadataRoute.Sitemap = posts.map(post => {
-    const daysOld = (now - new Date(post.date).getTime()) / (1000 * 60 * 60 * 24);
+    const effectiveDate = post.updatedAt ?? post.date;
+    const daysOld = (now - new Date(effectiveDate).getTime()) / (1000 * 60 * 60 * 24);
     return {
       url: `${SITE_URL}/${post.category}/${post.slug}`,
-      lastModified: new Date(post.date),
-      changeFrequency: 'never' as const,
+      lastModified: new Date(effectiveDate),
+      changeFrequency: 'monthly' as const,
       priority: daysOld < 7 ? 0.9 : daysOld < 30 ? 0.8 : 0.6,
     };
   });

@@ -2,8 +2,9 @@
 title: "Best High-Protein Snacks to Keep at Home"
 excerpt: "Smart snacking is about staying full and fueling your body between meals. These high-protein options prevent energy crashes and keep you away from junk food."
 date: "2025-12-23"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://picsum.photos/seed/608/800/450"
+coverImage: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1200&q=80"
 tags: ["protein snacks", "healthy snacks", "nutrition", "food", "meal prep"]
 ---
 
@@ -76,3 +77,11 @@ Rolled around a piece of cheese or eaten with mustard for dipping — convenient
 The key to smart snacking is having the right options available when hunger strikes. When hunger hits at 3pm, you'll eat whatever's easiest to grab. Stock your fridge with pre-portioned Greek yogurt cups, hard-boiled eggs ready to go, cut vegetables with hummus, and mixed nuts in small bags.
 
 Snack success is almost entirely about environment design. You don't need willpower when the convenient option is also the nutritious one.
+
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)
+- [Psychology Today – Clutter and Well-Being](https://www.psychologytoday.com/us/basics/clutter)

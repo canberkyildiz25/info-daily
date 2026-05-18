@@ -28,13 +28,14 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
     title: post.title,
     description: post.excerpt,
     alternates: {
-      canonical: `https://www.infodaily.net/${category}/${slug}`,
+      canonical: post.canonicalUrl ?? `https://www.infodaily.net/${category}/${slug}`,
     },
     openGraph: {
       title: post.title,
       description: post.excerpt,
       type: 'article',
       publishedTime: post.date,
+      modifiedTime: post.updatedAt ?? post.date,
       authors: [post.author],
       url: `https://www.infodaily.net/${category}/${slug}`,
       ...(post.coverImage ? { images: [{ url: post.coverImage, width: 1200, height: 675, alt: post.title }] } : {}),
@@ -224,11 +225,13 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
                   height: 675,
                 } : undefined,
                 datePublished: post.date,
-                dateModified: post.date,
+                dateModified: post.updatedAt ?? post.date,
                 author: {
                   '@type': 'Person',
                   name: post.author,
                   url: `https://www.infodaily.net/author/${authorNameToSlug(post.author)}`,
+                  jobTitle: postAuthor?.title,
+                  knowsAbout: postAuthor?.expertise,
                 },
                 publisher: {
                   '@type': 'Organization',
@@ -247,6 +250,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
                 },
                 keywords: post.tags.join(', '),
                 articleSection: cat?.label,
+                inLanguage: 'en-US',
+                isAccessibleForFree: true,
               }),
             }}
           />

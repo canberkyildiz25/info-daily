@@ -2,8 +2,9 @@
 title: "How to Write a Business Plan in One Day"
 excerpt: "A business plan doesn't have to take weeks. This focused one-day framework gets the essential thinking done and produces a document you can actually use."
 date: "2025-09-17"
+updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://picsum.photos/seed/701/800/450"
+coverImage: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1200&q=80"
 tags: ["business plan", "entrepreneurship", "startup", "business strategy", "planning"]
 ---
 
@@ -91,3 +92,11 @@ The business that survives is the one that learns fastest, not the one with the 
 ## When You Need a Traditional Long-Form Plan
 
 For certain bank loans, SBA loans, and some institutional investors, a formal multi-page plan with audited assumptions is still required. In those cases, the one-day lean plan becomes the skeleton you expand. But even then, start with clarity about the six core questions — the rest is formatting.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)
+- [Bureau of Labor Statistics – Occupational Outlook](https://www.bls.gov/ooh/)
+- [Harvard Business Review – Career](https://hbr.org/topic/subject/career-planning)

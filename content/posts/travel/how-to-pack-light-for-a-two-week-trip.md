@@ -2,8 +2,9 @@
 title: "How to Pack Light for a Two Week Trip"
 excerpt: "Master the art of packing light for a two-week trip with proven strategies, smart clothing choices, and expert tips to travel carry-on only."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://picsum.photos/seed/368/800/450"
+coverImage: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80"
 tags: ["packing light", "travel tips", "carry-on travel", "minimalist packing", "two week trip"]
 ---
 
@@ -115,3 +116,9 @@ Before anything goes into your bag, lay every single item on your bed. Look at i
 Then pack everything and lift your bag. Can you comfortably carry it for fifteen minutes? If not, keep editing. Your two-week trip should feel like freedom, not a fitness test.
 
 Packing light is a skill, and like any skill, it gets easier with practice. Start with these strategies, learn what works for your travel style, and you'll never check a bag again. Your future self — breezing past the luggage carousel while everyone else waits — will thank you.
+
+## Sources & References
+
+- [CDC Traveler's Health](https://wwwnc.cdc.gov/travel)
+- [U.S. Department of State – Travel](https://travel.state.gov/)
+- [World Tourism Organization (UNWTO)](https://www.unwto.org/)

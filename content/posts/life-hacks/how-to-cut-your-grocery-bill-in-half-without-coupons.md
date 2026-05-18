@@ -2,6 +2,7 @@
 title: "How to Cut Your Grocery Bill in Half Without Coupons"
 excerpt: "Coupons are fine, but they're not where the real savings are. These structural changes to how you shop will slash your grocery bill without clipping a single coupon."
 date: "2026-05-04"
+updatedAt: "2026-05-18"
 author: "Emma Johnson"
 coverImage: "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80"
 tags: ["grocery shopping", "saving money", "budgeting", "food", "life hacks"]
@@ -78,3 +79,11 @@ Apply the "will we actually use all of this before it goes bad" test before ever
 None of these changes requires superhuman discipline or significant time investment. Together, they can realistically reduce a $1,200/month grocery bill to $700–$800/month without cutting the quality of what you eat. That's $400–$500 per month back in your pocket — over $5,000 per year.
 
 The grocery store is not designed to help you spend less. Understanding that, and making deliberate decisions about where you shop, what you buy, and how you plan, is the most reliable path to meaningful savings.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [USDA – Food Plans and Costs](https://www.ers.usda.gov/topics/food-choices-health/food-consumption-demand/food-expenditures/)
+- [Bureau of Labor Statistics – Consumer Expenditures](https://www.bls.gov/cex/)

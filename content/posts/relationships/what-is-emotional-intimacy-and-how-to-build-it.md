@@ -2,6 +2,7 @@
 title: "What Is Emotional Intimacy — And How Do You Actually Build It?"
 excerpt: "Emotional intimacy is the most searched relationship topic of 2026. It's also widely misunderstood. Here's what it really means, why it matters, and how to create more of it."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
 tags: ["emotional intimacy", "relationships", "connection", "vulnerability", "communication", "love"]
 coverImage: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=800&q=80"
@@ -109,3 +110,12 @@ Emotional intimacy is not a luxury in relationships — it's the substrate on wh
 The good news is that it's always available to be built — in new relationships and old ones, with effort and with courage.
 
 The work is worth it.
+
+## Sources & References
+
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [National Alliance on Mental Illness (NAMI)](https://www.nami.org/)
+- [APA – Relationships](https://www.apa.org/topics/relationships)
+- [Greater Good Science Center](https://greatergood.berkeley.edu/topic/relationships)
+- [John Gottman Institute](https://www.gottman.com/about/research/)

@@ -2,6 +2,7 @@
 title: "Healthcare Costs Are Rising Fast â€” Here's How to Protect Your Finances"
 excerpt: "Medical expenses are one of the leading causes of financial hardship. With costs projected to keep rising, here's a practical strategy to protect your wallet without sacrificing your health."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
 tags: ["healthcare costs", "health insurance", "HSA", "medical bills", "personal finance", "financial planning"]
 coverImage: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80"
@@ -100,3 +101,11 @@ Healthcare costs will continue to rise. But financial vulnerability to those cos
 
 The goal isn't to spend less on your health â€” it's to spend smarter. Your health is your most important asset. Protecting your financial ability to maintain it is equally important.
 
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)
+- [Kaiser Family Foundation – Health Policy](https://www.kff.org/)
+- [Agency for Healthcare Research and Quality (AHRQ)](https://www.ahrq.gov/)
+- [USDA – Food Plans and Costs](https://www.ers.usda.gov/topics/food-choices-health/food-consumption-demand/food-expenditures/)

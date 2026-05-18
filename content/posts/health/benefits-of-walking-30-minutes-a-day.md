@@ -2,8 +2,9 @@
 title: "Benefits of Walking 30 Minutes a Day"
 excerpt: "Walking is the most underrated form of exercise. Just 30 minutes daily delivers measurable improvements to your heart, brain, mood, and longevity."
 date: "2025-11-29"
+updatedAt: "2026-05-18"
 author: "Mark Stevens, CSCS"
-coverImage: "https://picsum.photos/seed/107/800/450"
+coverImage: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&q=80"
 tags: ["walking", "exercise", "health benefits", "fitness", "longevity"]
 ---
 
@@ -78,3 +79,9 @@ A study in *Mental Health and Physical Activity* found that 150 minutes of walki
 - **Track steps loosely**: a basic fitness tracker or phone pedometer can provide motivating feedback without obsession
 
 You don't need special equipment, gym membership, or training. You just need shoes and 30 minutes. The return on that investment — in health, mood, and longevity — is extraordinary.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)

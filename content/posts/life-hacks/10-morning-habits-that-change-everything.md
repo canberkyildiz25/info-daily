@@ -2,8 +2,9 @@
 title: "10 Morning Habits That Change Everything"
 excerpt: "How you spend your first hour shapes the rest of your day. These evidence-backed morning habits set the tone for focus, energy, and productivity."
 date: "2025-09-25"
+updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://picsum.photos/seed/402/800/450"
+coverImage: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&q=80"
 tags: ["morning routine", "habits", "productivity", "wellness", "self improvement"]
 ---
 
@@ -74,3 +75,12 @@ If you practice intermittent fasting, time your eating window to align with your
 ## Building Your Routine
 
 You don't need all ten habits from day one. Add one per week. Within 10 weeks, you'll have a complete morning stack. The first three to implement: no phone for 30 minutes, morning light, and hydration. These three alone produce a noticeable difference within days.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [APA – Procrastination](https://www.apa.org/news/press/releases/2010/04/procrastination)
+- [James Clear – Atomic Habits Research](https://jamesclear.com/habits)
+- [Harvard Business Review – Productivity](https://hbr.org/topic/subject/productivity)

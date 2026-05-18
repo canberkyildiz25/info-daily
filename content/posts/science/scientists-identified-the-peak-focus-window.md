@@ -2,6 +2,7 @@
 title: "Scientists Identified the Exact Window When Your Brain Peaks — and Most People Waste It"
 excerpt: "Neuroscience has mapped the brain's daily performance curve with surprising precision. When you work matters almost as much as how hard you work."
 date: "2026-05-14"
+updatedAt: "2026-05-18"
 author: "David Kim"
 coverImage: "https://images.unsplash.com/photo-1549923746-c502d488b3ea?w=800&q=80"
 tags: ["brain science", "productivity", "circadian rhythm", "focus", "neuroscience", "cognitive performance"]
@@ -75,3 +76,12 @@ The obsession with working *more hours* as the primary lever of output ignores a
 This is not an excuse to work less. It's an argument for working more deliberately — understanding your biology well enough to put the right tasks in the right windows, and stop treating all waking hours as interchangeable units of productivity.
 
 The brain has a schedule. The question is whether yours matches it.
+
+## Sources & References
+
+- [Nature](https://www.nature.com/)
+- [Science (AAAS)](https://www.science.org/)
+- [NASA](https://www.nasa.gov/)
+- [NIH National Institute of Neurological Disorders](https://www.ninds.nih.gov/)
+- [Harvard Brain Science Initiative](https://brain.harvard.edu/)
+- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)

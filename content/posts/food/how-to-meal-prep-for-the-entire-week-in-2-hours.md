@@ -2,8 +2,9 @@
 title: "How to Meal Prep for the Entire Week in 2 Hours"
 excerpt: "Master the art of weekly meal prep in just two hours. Save time, eat healthier, and simplify your daily routine with this step-by-step guide."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://picsum.photos/seed/984/800/450"
+coverImage: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80"
 tags: ["meal prep", "healthy eating", "meal planning", "cooking tips", "weekly meal prep"]
 ---
 
@@ -112,3 +113,10 @@ Some weeks, two hours feels impossible. That's okay. On those weeks, try a "semi
 The people who stick with meal prep long-term are the ones who treat it as a flexible system, not a rigid rule. You don't need picture-perfect containers or elaborate recipes. You need food that's ready when you are — food that makes your week easier, healthier, and a little less chaotic.
 
 Pick a day, set a two-hour window, put on a great podcast or playlist, and get cooking. After two or three weeks, it'll feel as natural as your morning coffee. And that nightly "what's for dinner?" panic? Consider it a thing of the past.
+
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)

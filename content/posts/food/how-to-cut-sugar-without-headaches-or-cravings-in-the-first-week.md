@@ -2,8 +2,9 @@
 title: "How to Cut Sugar Without Headaches or Cravings in the First Week"
 excerpt: "Quitting sugar doesn't have to feel miserable. Learn the science-backed strategies that make the first week manageable — and set you up for lasting results."
 date: "2026-05-12"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://picsum.photos/seed/571/800/450"
+coverImage: "https://images.unsplash.com/photo-1551183053-bf91798d792f?w=1200&q=80"
 tags: ["sugar detox", "healthy eating", "cut sugar", "cravings", "nutrition"]
 ---
 
@@ -112,3 +113,11 @@ If you follow this framework, the timeline looks something like this:
 By the end of week one, most people are surprised by how much better they feel. The headaches are gone. Energy is steadier. Sleep is often deeper. And that background hum of "I want something sweet" that used to be constant has quieted considerably.
 
 The first week is the hardest part. After that, your palate recalibrates, your brain rewires its reward response, and the cravings become increasingly manageable. The strategy isn't to suffer through it — it's to stack every possible advantage in your favor before day one even begins.
+
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)
+- [IRS – Filing Information](https://www.irs.gov/filing)
+- [Tax Policy Center](https://www.taxpolicycenter.org/)

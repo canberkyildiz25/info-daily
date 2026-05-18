@@ -2,8 +2,9 @@
 title: "The Best Books to Read If You Want to Be Smarter"
 excerpt: "Discover the most powerful books that sharpen your thinking, expand your knowledge, and genuinely make you smarter in everyday life."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: Canberk Yildiz
-coverImage: "https://picsum.photos/seed/664/800/450"
+coverImage: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=1200&q=80"
 tags: ["best books", "self-improvement", "critical thinking", "reading list", "personal development"]
 ---
 
@@ -95,3 +96,10 @@ Becoming smarter isn't about raw brainpower â€” it's about exposing yoursel
 
 Start with whichever title intrigues you most. There's no perfect order. The only wrong move is not starting at all.
 
+## Sources & References
+
+- [Variety](https://variety.com/)
+- [The Hollywood Reporter](https://www.hollywoodreporter.com/)
+- [Billboard](https://www.billboard.com/)
+- [Pew Research Center – Reading Habits](https://www.pewresearch.org/internet/2021/01/09/who-doesnt-read-books-in-america/)
+- [American Library Association](https://www.ala.org/)

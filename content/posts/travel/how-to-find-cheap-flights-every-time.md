@@ -2,8 +2,9 @@
 title: "How to Find Cheap Flights Every Time"
 excerpt: "Flight prices are dynamic and often unfair, but they follow patterns. These proven strategies will consistently get you lower fares on almost every route."
 date: "2025-10-25"
+updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://picsum.photos/seed/504/800/450"
+coverImage: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&q=80"
 tags: ["cheap flights", "travel hacks", "flight booking", "budget travel", "airfare"]
 ---
 
@@ -74,3 +75,10 @@ Learning the basics of points and miles (The Points Guy is a good resource) can 
 ## One Rule That Beats All Others
 
 Book when you see a price you're comfortable with. Trying to time the perfect lowest price often results in prices rising before you act. If you see a fare that's meaningfully below average for that route, book it. The search for a few dollars more is often how good deals become missed opportunities.
+
+## Sources & References
+
+- [CDC Traveler's Health](https://wwwnc.cdc.gov/travel)
+- [U.S. Department of State – Travel](https://travel.state.gov/)
+- [World Tourism Organization (UNWTO)](https://www.unwto.org/)
+- [U.S. Department of State – Travel Advisories](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html)

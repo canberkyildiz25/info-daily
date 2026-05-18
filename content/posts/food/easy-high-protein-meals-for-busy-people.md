@@ -2,6 +2,7 @@
 title: "Easy High-Protein Meals for Busy People (30 Minutes or Less)"
 excerpt: "Fuel your body with these quick, high-protein meals that take 30 minutes or less — no chef skills required."
 date: "2025-04-01"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
 coverImage: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80"
 tags: ["high protein", "meal prep", "quick meals", "nutrition", "healthy eating"]
@@ -86,3 +87,10 @@ The real time-saver is batch cooking proteins on Sunday. Roast a sheet pan of ch
 Whey or plant-based protein powder is a convenient top-up, not a necessity. If your diet is consistently falling short by 20–30g, a shake can bridge the gap. But real food should always come first — it brings fiber, micronutrients, and satiety that powder alone can't replicate.
 
 The bottom line: eating high-protein doesn't require complex recipes or expensive ingredients. Focus on keeping canned fish, eggs, Greek yogurt, and frozen shrimp stocked — and most of these meals practically make themselves.
+
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)

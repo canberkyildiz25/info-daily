@@ -2,6 +2,7 @@
 title: "The Boys Season 5: What to Expect From the Final Season"
 excerpt: "The Boys returns for its fifth and final season on Amazon Prime. After four seasons of savage satire, here's what we know about how it all ends â€” and why it still matters."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: Canberk Yildiz
 tags: ["The Boys", "Amazon Prime", "TV shows", "season 5", "superhero", "entertainment"]
 coverImage: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=800&q=80"
@@ -59,3 +60,8 @@ If you're starting fresh and want to be caught up for Season 5, plan for roughly
 
 New episodes drop weekly on Amazon Prime Video starting April 2026.
 
+## Sources & References
+
+- [Variety](https://variety.com/)
+- [The Hollywood Reporter](https://www.hollywoodreporter.com/)
+- [Billboard](https://www.billboard.com/)

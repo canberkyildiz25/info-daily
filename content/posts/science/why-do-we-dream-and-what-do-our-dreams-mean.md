@@ -2,8 +2,9 @@
 title: "Why Do We Dream and What Do Our Dreams Mean"
 excerpt: "Explore the science behind why we dream, what common dreams really mean, and how to use your dreams for personal insight and better sleep."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://picsum.photos/seed/736/800/450"
+coverImage: "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?w=1200&q=80"
 tags: ["dreams", "sleep science", "dream interpretation", "psychology", "mental health"]
 ---
 
@@ -94,3 +95,9 @@ Not all dreaming is benign. Frequent, vivid nightmares can be a sign of underlyi
 ## The Bigger Picture
 
 Dreams sit at the fascinating intersection of neuroscience, psychology, and personal experience. While we may never fully crack the code of why the sleeping brain conjures such vivid and strange experiences, one thing is clear: dreams aren't just random noise. They reflect our fears, desires, memories, and unresolved tensions in ways that deserve our attention. By tuning in to your dream life — with curiosity rather than superstition — you gain access to a powerful window into your own mind. So tonight, before you drift off, set an intention to remember. Your dreams might have something important to say.
+
+## Sources & References
+
+- [Nature](https://www.nature.com/)
+- [Science (AAAS)](https://www.science.org/)
+- [NASA](https://www.nasa.gov/)

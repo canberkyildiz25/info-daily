@@ -2,8 +2,9 @@
 title: "The Best Podcasts to Listen to While Working Out"
 excerpt: "Discover the best podcasts to supercharge your workouts â€” from true crime to comedy, motivation, and beyond. Your gym sessions will never be boring again."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: Canberk Yildiz
-coverImage: "https://picsum.photos/seed/32/800/450"
+coverImage: "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=1200&q=80"
 tags: ["podcasts", "workout", "fitness", "motivation", "entertainment"]
 ---
 
@@ -89,3 +90,8 @@ The best workout podcast is the one that makes you forget you're working out. Wh
 
 Your body does the work. Let your ears have the fun.
 
+## Sources & References
+
+- [Variety](https://variety.com/)
+- [The Hollywood Reporter](https://www.hollywoodreporter.com/)
+- [Billboard](https://www.billboard.com/)

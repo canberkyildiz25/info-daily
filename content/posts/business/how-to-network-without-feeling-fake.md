@@ -2,8 +2,9 @@
 title: "How to Network Without Feeling Fake"
 excerpt: "Networking feels hollow when it's transactional. These approaches build genuine professional relationships that produce real opportunities without the awkwardness."
 date: "2025-12-11"
+updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://picsum.photos/seed/707/800/450"
+coverImage: "https://images.unsplash.com/photo-1559136555-9303baea8eae?w=1200&q=80"
 tags: ["networking", "career", "professional relationships", "business", "connections"]
 ---
 
@@ -84,3 +85,12 @@ Relationship-building LinkedIn use, 20 minutes per day, compounds significantly 
 The professionals with the most valuable networks built them over years of genuine interactions — long before they needed anything. Adam Grant, Keith Ferrazzi, and other researchers on professional relationships consistently find that generosity, curiosity, and playing the long game produce the best outcomes. The people trying to extract short-term value from every interaction consistently underperform.
 
 Network because the work is interesting, the people are interesting, and you have something to contribute. The career benefits follow from that — they don't precede it.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)
+- [FCC – Broadband Resources](https://www.fcc.gov/consumers/guides/broadband-speed-guide)
+- [IEEE – Wireless Standards](https://standards.ieee.org/featured/802-11/)
+- [Bureau of Labor Statistics – Occupational Outlook](https://www.bls.gov/ooh/)

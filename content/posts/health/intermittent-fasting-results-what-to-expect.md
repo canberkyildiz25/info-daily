@@ -2,6 +2,7 @@
 title: "Intermittent Fasting Results for Beginners: What Happens to Your Body Week by Week"
 excerpt: "What does intermittent fasting actually do to your body — and when does it start working? A research-backed timeline of results beginners can realistically expect in week 1, week 2, and beyond."
 date: "2026-04-22"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
 coverImage: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80"
 tags: ["intermittent fasting", "intermittent fasting for beginners", "weight loss", "nutrition", "wellness", "health"]
@@ -133,3 +134,9 @@ The key word is "stick with it." The results at week seven look nothing like the
 - [Intermittent Fasting for Beginners: The Complete Step-by-Step Guide](/health/intermittent-fasting-for-beginners)
 - [Intermittent Fasting 16:8 Meal Plan: Exactly What to Eat](/health/intermittent-fasting-16-8-meal-plan)
 - [Intermittent Fasting Side Effects: What's Normal vs. a Warning Sign](/health/intermittent-fasting-side-effects)
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)

@@ -2,8 +2,9 @@
 title: "15-Minute Healthy Dinner Recipes"
 excerpt: "Discover quick, nutritious dinner recipes you can prepare in 15 minutes or less without sacrificing taste or health benefits."
 date: "2026-04-10"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://picsum.photos/seed/688/800/450"
+coverImage: "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=1200&q=80"
 tags: ["quick recipes", "healthy eating", "meal prep", "weeknight dinners", "nutrition"]
 ---
 
@@ -209,3 +210,9 @@ Prepare all ingredients before cooking begins. This French culinary practice str
 ## Conclusion
 
 Creating healthy 15-minute dinners is entirely achievable with the right approach. By maintaining a well-stocked pantry, understanding basic cooking techniques, and having a collection of go-to recipes, you can consistently prepare nutritious meals despite a busy schedule. Start with one or two recipes that appeal to you, master them, then gradually build your repertoire. Before long, quick, healthy dinners will become your weeknight routine rather than an exception.
+
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)

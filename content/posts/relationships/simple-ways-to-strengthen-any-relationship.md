@@ -2,8 +2,9 @@
 title: "Simple Ways to Strengthen Any Relationship"
 excerpt: "Discover practical, everyday strategies to deepen your connections and strengthen any relationship — romantic, platonic, or professional."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://picsum.photos/seed/664/800/450"
+coverImage: "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=1200&q=80"
 tags: ["relationships", "communication skills", "personal growth", "emotional intelligence", "healthy habits"]
 ---
 
@@ -103,3 +104,12 @@ Strengthening a relationship isn't about perfection. It's about presence. It's a
 Because the relationships that last aren't the ones that never faced challenges. They're the ones where both people decided, over and over again, that the connection was worth the effort.
 
 Start small. Pick one person today. Send the text. Make the call. Ask the question. The simplest gestures, repeated with sincerity, have the power to transform every relationship in your life.
+
+## Sources & References
+
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [National Alliance on Mental Illness (NAMI)](https://www.nami.org/)
+- [American College of Sports Medicine](https://www.acsm.org/)
+- [NIH – Physical Activity Guidelines](https://www.ncbi.nlm.nih.gov/books/NBK179847/)
+- [Journal of Strength and Conditioning Research (NSCA)](https://journals.lww.com/nsca-jscr)

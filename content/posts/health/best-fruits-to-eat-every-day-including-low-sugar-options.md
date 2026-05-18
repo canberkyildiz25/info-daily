@@ -2,8 +2,9 @@
 title: "The Best Fruits to Eat Every Day (Including Low-Sugar Options)"
 excerpt: "Not all fruits are created equal. Discover which fruits deliver the most nutrients per bite, and which ones are best if you're watching your sugar intake."
 date: "2026-05-08"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://picsum.photos/seed/992/800/450"
+coverImage: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=1200&q=80"
 tags: ["healthy eating", "fruit", "low sugar", "nutrition", "daily habits"]
 ---
 
@@ -117,3 +118,9 @@ A few fruits are worth being mindful of — not because they're unhealthy, but b
 The best fruit to eat every day is the one you'll actually eat consistently. If blueberries and kiwi appeal to you, make them a daily habit. If you're watching sugar intake, lean toward berries, avocado, and kiwi. If you want simplicity, an apple a day remains a solid, evidence-backed choice.
 
 The goal isn't to optimize every gram of sugar — it's to build a sustainable pattern that includes a variety of colorful, whole fruits as a regular part of how you eat. Your body, gut, and long-term health will all benefit.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)

@@ -2,8 +2,9 @@
 title: "Index Funds vs ETFs: Which Is Better for Beginners"
 excerpt: "Both index funds and ETFs track market indexes — but they work differently. Here's a plain-English breakdown to help you decide which to use first."
 date: "2025-12-01"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://picsum.photos/seed/207/800/450"
+coverImage: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80"
 tags: ["index funds", "ETFs", "investing", "beginners", "personal finance"]
 ---
 
@@ -73,3 +74,12 @@ This advantage disappears inside tax-advantaged accounts (401k, IRA, Roth IRA) �
 For most beginners, the choice between index funds and ETFs matters far less than just starting. Both beat the vast majority of actively managed funds over any 10+ year period. Warren Buffett has explicitly said that for most individual investors, a low-cost S&P 500 index fund is the best investment they'll ever make.
 
 Pick one, invest consistently every month regardless of market conditions, and hold for decades. That's the strategy that works.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)
+- [SEC – Investor Education](https://www.investor.gov/)
+- [Vanguard – Investment Research](https://institutional.vanguard.com/insights/research)
+- [Morningstar](https://www.morningstar.com/)

@@ -2,8 +2,9 @@
 title: "The Best Stretches to Do Every Morning"
 excerpt: "Discover the best morning stretches to boost flexibility, reduce stiffness, and energize your entire day in just 10 minutes."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Mark Stevens, CSCS"
-coverImage: "https://picsum.photos/seed/968/800/450"
+coverImage: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&q=80"
 tags: ["morning stretches", "flexibility routine", "healthy habits", "daily wellness", "stretching exercises"]
 ---
 
@@ -94,3 +95,9 @@ The honest answer is everyone. But certain groups will notice especially dramati
 Morning stretching isn't glamorous. It won't go viral on social media, and nobody is going to award you a medal for touching your toes before breakfast. But the cumulative effect of spending 10 quiet minutes each morning intentionally moving your body is profound. Less pain. More energy. Better posture. Clearer thinking. Greater resilience against injury.
 
 The best part? You don't need a gym membership, special equipment, or even a change of clothes. You just need a small patch of floor and the willingness to treat your body like it deserves a proper good morning. Start tomorrow — your future self will thank you before lunchtime.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)

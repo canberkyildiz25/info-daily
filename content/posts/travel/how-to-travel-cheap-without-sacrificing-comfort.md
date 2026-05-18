@@ -2,8 +2,9 @@
 title: "How to Travel Cheap Without Sacrificing Comfort"
 excerpt: "Discover proven strategies to explore the world on a budget without giving up the comfort you deserve. Travel smarter, not cheaper."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://picsum.photos/seed/464/800/450"
+coverImage: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&q=80"
 tags: ["budget travel", "cheap travel tips", "travel hacks", "affordable vacations", "travel on a budget"]
 ---
 
@@ -94,3 +95,10 @@ A few small planning moves can prevent budget-busting surprises:
 Ultimately, traveling cheap without sacrificing comfort is less about deprivation and more about intention. It's about choosing where your money goes instead of letting it leak away on overpriced tourist traps and unnecessary conveniences. When you spend deliberately — on a beautiful Airbnb instead of a generic hotel, on a home-cooked market meal instead of a forgettable restaurant dinner, on a walking tour instead of a bus tour — you often end up with a richer experience than the traveler who spent twice as much.
 
 Budget travel isn't about cutting corners. It's about being smarter with every dollar so that your adventures stretch further, last longer, and feel even more rewarding. The world is absolutely accessible on a budget — you just have to know where to look.
+
+## Sources & References
+
+- [CDC Traveler's Health](https://wwwnc.cdc.gov/travel)
+- [U.S. Department of State – Travel](https://travel.state.gov/)
+- [World Tourism Organization (UNWTO)](https://www.unwto.org/)
+- [U.S. Department of State – Travel Advisories](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html)

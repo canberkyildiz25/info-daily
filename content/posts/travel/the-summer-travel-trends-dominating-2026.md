@@ -2,6 +2,7 @@
 title: "The Summer Travel Trends Dominating 2026"
 excerpt: "From slow travel to AI-planned itineraries, here's what's actually shaping how people are traveling this summer — and what's quietly disappearing."
 date: "2026-05-04"
+updatedAt: "2026-05-18"
 author: "Sophie Martinez"
 coverImage: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80"
 tags: ["travel trends", "summer travel", "travel 2026", "vacation", "destinations"]
@@ -91,3 +92,10 @@ If you're planning summer 2026 travel, the practical takeaways:
 - The cheapest thing you can do is not change your flights after booking
 
 Summer travel is as compelling as ever. The travelers having the best experiences are increasingly the ones who've decided that "best" doesn't mean the most places or the most famous ones — it means the most memorable.
+
+## Sources & References
+
+- [CDC Traveler's Health](https://wwwnc.cdc.gov/travel)
+- [U.S. Department of State – Travel](https://travel.state.gov/)
+- [World Tourism Organization (UNWTO)](https://www.unwto.org/)
+- [U.S. Department of State – Travel Advisories](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html)

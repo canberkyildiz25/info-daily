@@ -2,8 +2,9 @@
 title: "The Best Smoothie Recipes for Weight Loss"
 excerpt: "Discover delicious, nutrient-packed smoothie recipes designed to help you lose weight, stay full longer, and fuel your body the right way."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://picsum.photos/seed/416/800/450"
+coverImage: "https://images.unsplash.com/photo-1551183053-bf91798d792f?w=1200&q=80"
 tags: ["smoothie recipes", "weight loss", "healthy eating", "meal replacement smoothies", "nutrition"]
 ---
 
@@ -155,3 +156,12 @@ Having great recipes is only half the battle. These practical habits will help y
 Weight-loss smoothies work not because they contain a secret fat-burning ingredient, but because they make it easy to eat balanced, nutrient-dense, portion-controlled meals that actually taste good. When your healthy option is also the most convenient and delicious option, consistency stops being a struggle.
 
 Start with the recipes above, customize them to your preferences, and pay attention to how your body responds. You might be surprised at how much a daily blender habit can change — not just the number on the scale, but your energy, your digestion, and your relationship with food in general. Grab your blender, stock your freezer, and start blending your way to a healthier you.
+
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)
+- [American College of Sports Medicine](https://www.acsm.org/)
+- [NIH – Physical Activity Guidelines](https://www.ncbi.nlm.nih.gov/books/NBK179847/)
+- [Journal of Strength and Conditioning Research (NSCA)](https://journals.lww.com/nsca-jscr)

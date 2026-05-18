@@ -2,6 +2,7 @@
 title: "Intermittent Fasting for Beginners: The Complete Step-by-Step Guide"
 excerpt: "New to intermittent fasting? This complete beginner's guide covers how to start, which schedule to pick, what to eat, common mistakes, and what to realistically expect in your first month."
 date: "2026-04-27"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
 coverImage: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80"
 tags: ["intermittent fasting", "intermittent fasting for beginners", "how to intermittent fast", "weight loss", "nutrition", "health"]
@@ -128,3 +129,8 @@ The first week is the only hard week. After that, most people report that they d
 - [What to Expect Week by Week: IF Results Timeline](/health/intermittent-fasting-results-what-to-expect)
 - [Intermittent Fasting Side Effects: What's Normal vs. a Warning Sign](/health/intermittent-fasting-side-effects)
 
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)

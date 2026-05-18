@@ -2,6 +2,7 @@
 title: "10 Foods That Boost Your Immune System (Backed by Science)"
 excerpt: "Your immune system runs on the nutrients you eat. Here are 10 scientifically backed foods to keep it strong all year round."
 date: "2025-03-28"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
 coverImage: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80"
 tags: ["immune system", "nutrition", "healthy foods", "wellness", "vitamins"]
@@ -89,3 +90,12 @@ Rather than adding one "superfood," the goal is a dietary pattern. Research cons
 - Have fatty fish twice a week
 
 No supplement stack replicates what a genuinely good diet does. These 10 foods are your foundation.
+
+## Sources & References
+
+- [Harvard T.H. Chan School of Public Health – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [USDA FoodData Central](https://fdc.nal.usda.gov/)
+- [Academy of Nutrition and Dietetics](https://www.eatright.org/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)
+- [CDC – Immune Health](https://www.cdc.gov/niosh/topics/immune/default.html)
+- [NIH – Immune System](https://www.niaid.nih.gov/research/immune-system)

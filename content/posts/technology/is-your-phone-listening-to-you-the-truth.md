@@ -2,8 +2,9 @@
 title: "Is Your Phone Listening to You? The Truth"
 excerpt: "Discover whether your smartphone is actually listening to your conversations and what you can do to protect your privacy today."
 date: "2026-04-12"
+updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://picsum.photos/seed/272/800/450"
+coverImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80"
 tags: ["privacy", "smartphone-security", "digital-privacy", "technology-myths", "data-protection"]
 ---
 
@@ -148,3 +149,11 @@ Your phone likely isn't listening to your conversations in the sci-fi sense, but
 Start with the practical steps outlined above. Audit your permissions, disable unnecessary access, and understand what data you're sharing. Privacy in the digital age requires active participation, but protecting yourself is entirely possible with awareness and action.
 
 The question isn't really "Is my phone listening to me?" It's "What am I willing to share, and with whom?" Answer that honestly, and you'll be better equipped to protect your digital privacy.
+
+## Sources & References
+
+- [MIT Technology Review](https://www.technologyreview.com/)
+- [IEEE Spectrum](https://spectrum.ieee.org/)
+- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
+- [Pew Research Center – Reading Habits](https://www.pewresearch.org/internet/2021/01/09/who-doesnt-read-books-in-america/)
+- [American Library Association](https://www.ala.org/)

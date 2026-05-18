@@ -2,6 +2,7 @@
 title: "Intermittent Fasting Side Effects in Beginners: What's Normal vs. a Warning Sign"
 excerpt: "Headaches, fatigue, and irritability are normal for beginners doing intermittent fasting — but some side effects warrant attention. Here's exactly what to expect and what to watch for."
 date: "2026-04-22"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
 coverImage: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=80"
 tags: ["intermittent fasting", "intermittent fasting for beginners", "health", "nutrition", "wellness", "weight loss"]
@@ -128,3 +129,9 @@ When in doubt, eat. Fasting should improve your life, not complicate it.
 - [Intermittent Fasting for Beginners: The Complete Step-by-Step Guide](/health/intermittent-fasting-for-beginners)
 - [Intermittent Fasting 16:8 Meal Plan: Exactly What to Eat](/health/intermittent-fasting-16-8-meal-plan)
 - [What to Expect Week by Week: IF Results Timeline](/health/intermittent-fasting-results-what-to-expect)
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)

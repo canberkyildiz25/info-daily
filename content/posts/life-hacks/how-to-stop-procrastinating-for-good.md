@@ -2,8 +2,9 @@
 title: "How to Stop Procrastinating for Good"
 excerpt: "Procrastination isn't laziness — it's an emotional regulation problem. Understanding the real cause is the key to fixing it once and for all."
 date: "2025-09-11"
+updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://picsum.photos/seed/401/800/450"
+coverImage: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=1200&q=80"
 tags: ["procrastination", "productivity", "habits", "motivation", "psychology"]
 ---
 
@@ -75,3 +76,12 @@ Set process goals rather than outcome goals. "Write for 30 minutes" instead of "
 Procrastination habits and work habits both compound. Every time you override the impulse to avoid a task, the impulse gets slightly weaker. Every time you give in, it gets slightly stronger. The small acts of starting — even imperfectly — build the identity and the neural patterns of someone who takes action. Over weeks and months, this compounds into a fundamentally different relationship with work.
 
 The goal isn't to eliminate discomfort. It's to take action in spite of it, until taking action becomes the default.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [APA – Procrastination](https://www.apa.org/news/press/releases/2010/04/procrastination)
+- [James Clear – Atomic Habits Research](https://jamesclear.com/habits)
+- [Harvard Business Review – Productivity](https://hbr.org/topic/subject/productivity)

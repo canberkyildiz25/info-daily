@@ -2,6 +2,7 @@
 title: "Why Your Netflix Recommendations Are Broken — And How to Actually Fix Them"
 excerpt: "The algorithm isn't broken. Your viewing history is. Here's exactly how Netflix's recommendation engine works and what you can do to finally get suggestions worth watching."
 date: "2026-05-03"
+updatedAt: "2026-05-18"
 author: "Canberk Yildiz"
 coverImage: "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=800&q=80"
 tags: ["Netflix", "streaming", "algorithm", "entertainment", "TV shows", "movies", "tech"]
@@ -70,3 +71,12 @@ For users whose profiles have accumulated years of noisy viewing history, the mo
 It's a small investment of attention in exchange for an end to the scrolling problem. Which is, admittedly, not a high bar — but it's also a problem that takes up more of people's evenings than most would like to admit.
 
 The algorithm isn't broken. It just needs better data. Give it what you actually like.
+
+## Sources & References
+
+- [Variety](https://variety.com/)
+- [The Hollywood Reporter](https://www.hollywoodreporter.com/)
+- [Billboard](https://www.billboard.com/)
+- [SEC – Investor Education](https://www.investor.gov/)
+- [Vanguard – Investment Research](https://institutional.vanguard.com/insights/research)
+- [Morningstar](https://www.morningstar.com/)

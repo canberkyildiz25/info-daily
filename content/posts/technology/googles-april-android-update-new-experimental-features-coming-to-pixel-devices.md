@@ -2,8 +2,9 @@
 title: "Google's April Android Update: New Experimental Features Coming to Pixel Devices"
 excerpt: "Google's April 2026 Android update brings exciting experimental features to Pixel devices. Here's everything you need to know about what's new."
 date: "2026-04-15"
+updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://picsum.photos/seed/712/800/450"
+coverImage: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1200&q=80"
 tags: ["Google Pixel", "Android Update", "April 2026", "Pixel Features", "Google AI"]
 ---
 
@@ -108,3 +109,11 @@ If you own a supported Pixel device, there's no reason not to install this updat
 Our top recommendation? **Start with Adaptive Notification Summaries.** It's available on the widest range of devices, it's immediately useful, and it requires almost no configuration. Once you're comfortable, explore Gemini Live Context Awareness if your hardware supports it — it's the feature that feels most like a glimpse into the future.
 
 As always, make sure to back up your device before any major update, and don't hesitate to use Google's built-in feedback tools to report bugs. The more users engage with these experimental features, the better the final versions will be when they roll out to the wider Android community later this year.
+
+## Sources & References
+
+- [MIT Technology Review](https://www.technologyreview.com/)
+- [IEEE Spectrum](https://spectrum.ieee.org/)
+- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
+- [NIH National Institute of Neurological Disorders](https://www.ninds.nih.gov/)
+- [Harvard Brain Science Initiative](https://brain.harvard.edu/)

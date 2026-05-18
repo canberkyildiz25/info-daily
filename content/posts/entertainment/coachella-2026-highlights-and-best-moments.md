@@ -2,6 +2,7 @@
 title: "Coachella 2026: Highlights, Best Moments, and Why This Year Felt Different"
 excerpt: "Coachella returned April 10 with Sabrina Carpenter, Justin Bieber, and Karol G headlining. Here's what happened, what everyone's talking about, and the moments that defined the weekend."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: Canberk Yildiz
 tags: ["Coachella", "Coachella 2026", "Sabrina Carpenter", "Justin Bieber", "Karol G", "music festival"]
 coverImage: "https://images.unsplash.com/photo-1506157786151-b8491531f063?w=800&q=80"
@@ -78,3 +79,11 @@ There are more music festivals now than at any point in history. Coachella remai
 
 Whether you were there in person, watching on a livestream, or just following along on social media, Coachella 2026 gave everyone plenty to talk about.
 
+## Sources & References
+
+- [Variety](https://variety.com/)
+- [The Hollywood Reporter](https://www.hollywoodreporter.com/)
+- [Billboard](https://www.billboard.com/)
+- [IMDb](https://www.imdb.com/)
+- [Metacritic](https://www.metacritic.com/)
+- [Rotten Tomatoes](https://www.rottentomatoes.com/)

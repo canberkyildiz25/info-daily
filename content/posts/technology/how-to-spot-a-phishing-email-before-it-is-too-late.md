@@ -2,8 +2,9 @@
 title: "How to Spot a Phishing Email Before It Is Too Late"
 excerpt: "Learn how to identify phishing emails with practical tips, real examples, and red flags that can protect you from costly cyber scams."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://picsum.photos/seed/656/800/450"
+coverImage: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&q=80"
 tags: ["phishing emails", "cybersecurity", "email scams", "online safety", "digital security"]
 ---
 
@@ -111,3 +112,12 @@ Spotting phishing isn't a one-time skill — it's an ongoing habit. Here are som
 Phishing emails are designed to exploit the moments when you're distracted, stressed, or simply moving too fast. The attackers behind them are counting on you not to pause, not to verify, and not to question. Your greatest defense isn't expensive software or IT expertise — it's the habit of slowing down and asking, "Does this feel right?"
 
 That moment of hesitation over your Monday morning coffee? It's not paranoia. It's your best security tool. Trust it.
+
+## Sources & References
+
+- [MIT Technology Review](https://www.technologyreview.com/)
+- [IEEE Spectrum](https://spectrum.ieee.org/)
+- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
+- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)
+- [MIT AI Policy](https://computing.mit.edu/artificial-intelligence/)
+- [OpenAI Research](https://openai.com/research)

@@ -2,8 +2,9 @@
 title: "How to Set Healthy Boundaries With Family"
 excerpt: "Learn how to set healthy boundaries with family members without guilt. Practical strategies, real examples, and scripts to protect your peace."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://picsum.photos/seed/640/800/450"
+coverImage: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=1200&q=80"
 tags: ["healthy boundaries", "family relationships", "mental health", "self-care", "communication skills"]
 ---
 
@@ -107,3 +108,9 @@ This isn't failure. It's the ultimate form of self-respect. You can love someone
 Setting healthy boundaries with family isn't about building walls or winning arguments. It's about showing up as the fullest, healthiest version of yourself — and inviting the people you love to meet you there. It takes practice, patience, and a willingness to tolerate discomfort in the short term for something far more valuable in the long run: relationships built on mutual respect rather than obligation.
 
 Start small. Pick one boundary that matters to you. Communicate it clearly. And remember — you are allowed to take up space in your own life, even when the people around you aren't used to it yet.
+
+## Sources & References
+
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [National Alliance on Mental Illness (NAMI)](https://www.nami.org/)

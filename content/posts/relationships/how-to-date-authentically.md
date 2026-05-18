@@ -2,6 +2,7 @@
 title: "How to Stop Performing and Start Dating Authentically"
 excerpt: "Most people show up to dates as a curated version of themselves. The 'truecasting' trend is changing that — and the research suggests authenticity actually works better. Here's how."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Maria Chen"
 tags: ["dating", "authenticity", "relationships", "self-confidence", "modern dating", "truecasting"]
 coverImage: "https://images.unsplash.com/photo-1521119989659-a83eee488004?w=800&q=80"
@@ -68,3 +69,12 @@ When both people show up more authentically, the compatibility signal is clearer
 The best relationship you can have is with someone who likes the real you — not the best version of you, not the edited version, but the one that exists on a random Tuesday morning when nothing is optimized.
 
 Dating authentically is the fastest route to finding that person.
+
+## Sources & References
+
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [National Alliance on Mental Illness (NAMI)](https://www.nami.org/)
+- [APA – Relationships](https://www.apa.org/topics/relationships)
+- [Greater Good Science Center](https://greatergood.berkeley.edu/topic/relationships)
+- [John Gottman Institute](https://www.gottman.com/about/research/)

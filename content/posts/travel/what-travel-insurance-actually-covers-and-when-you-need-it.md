@@ -2,8 +2,9 @@
 title: "What Travel Insurance Actually Covers and When You Need It"
 excerpt: "Confused about travel insurance? Here's exactly what it covers, what it doesn't, and how to decide if you actually need it."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://picsum.photos/seed/224/800/450"
+coverImage: "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=1200&q=80"
 tags: ["travel insurance", "travel tips", "trip planning", "travel safety", "insurance guide"]
 ---
 
@@ -120,3 +121,12 @@ Pro tip: Use comparison sites like Squaremouth, InsureMyTrip, or Aardy to compar
 Travel insurance isn't glamorous. Nobody posts about it on Instagram. But the travelers who've been airlifted off a mountain in Peru, or reimbursed $8,000 for a canceled European tour, or handed emergency cash after getting pickpocketed in Barcelona — they'll tell you it was the best money they ever spent.
 
 The key is buying the right policy for your specific trip, reading the fine print before you need it, and purchasing early enough to maximize your coverage options. A little homework now can save you from a financial nightmare later — and let you actually enjoy the trip you've been dreaming about.
+
+## Sources & References
+
+- [CDC Traveler's Health](https://wwwnc.cdc.gov/travel)
+- [U.S. Department of State – Travel](https://travel.state.gov/)
+- [World Tourism Organization (UNWTO)](https://www.unwto.org/)
+- [Kaiser Family Foundation – Health Policy](https://www.kff.org/)
+- [Agency for Healthcare Research and Quality (AHRQ)](https://www.ahrq.gov/)
+- [U.S. Department of State – Travel Advisories](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html)

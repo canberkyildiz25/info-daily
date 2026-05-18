@@ -2,8 +2,9 @@
 title: "The Best Free Online Courses to Learn New Skills"
 excerpt: "Discover the best free online courses to learn valuable new skills in tech, business, and more — no wallet required."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://picsum.photos/seed/832/800/450"
+coverImage: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&q=80"
 tags: ["free online courses", "learn new skills", "online education", "self-improvement", "career development"]
 ---
 
@@ -97,3 +98,11 @@ The beauty of free online learning is that you can experiment without consequenc
 The world's best education is no longer locked behind expensive tuition fees. From Harvard computer science to Google career certificates to Khan Academy deep dives, free online courses offer an extraordinary opportunity to grow personally and professionally. The only investment required is your time — and the willingness to show up consistently.
 
 Pick one course from this list today. Set a small goal — even just completing the first module. You might be surprised how quickly momentum builds and how far free learning can take you.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Pew Research Center – Reading Habits](https://www.pewresearch.org/internet/2021/01/09/who-doesnt-read-books-in-america/)
+- [American Library Association](https://www.ala.org/)

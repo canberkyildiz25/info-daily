@@ -2,8 +2,9 @@
 title: "What Is Quantum Computing and Why Does It Matter"
 excerpt: "Discover what quantum computing is, how it works, and why it's poised to transform industries from healthcare to cybersecurity in the coming years."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://picsum.photos/seed/64/800/450"
+coverImage: "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=1200&q=80"
 tags: ["quantum computing", "emerging technology", "future of computing", "cybersecurity", "tech innovation"]
 ---
 
@@ -92,3 +93,9 @@ Even though you probably won't be buying a quantum laptop anytime soon, there ar
 Quantum computing isn't going to replace your laptop or make classical computers obsolete. Instead, think of it as a powerful new tool designed for a specific class of extraordinarily difficult problems. The technology is still maturing, but the trajectory is clear: quantum computing will reshape industries, redefine cybersecurity, and unlock scientific discoveries that are simply impossible with today's machines.
 
 The best time to start paying attention was five years ago. The second best time is right now.
+
+## Sources & References
+
+- [MIT Technology Review](https://www.technologyreview.com/)
+- [IEEE Spectrum](https://spectrum.ieee.org/)
+- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)

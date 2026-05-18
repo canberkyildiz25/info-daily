@@ -2,8 +2,9 @@
 title: "What Is a Credit Score and How to Improve Yours"
 excerpt: "Learn what a credit score is, why it matters for your financial future, and proven strategies to boost your score starting today."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://picsum.photos/seed/712/800/450"
+coverImage: "https://images.unsplash.com/photo-1543286386-2e659306cd6c?w=1200&q=80"
 tags: ["credit score", "personal finance", "credit repair", "financial literacy", "money management"]
 ---
 
@@ -107,3 +108,12 @@ The key is patience and persistence. Credit scoring rewards boring, reliable fin
 Your credit score isn't a judgment of your character — it's a financial tool, and like any tool, it works better when you understand how to use it. Start by checking your score and your credit reports today. Identify one area where you can improve, whether that's setting up autopay, paying down a balance, or disputing an error, and take that step before the week is over.
 
 Small, consistent actions compound over time. A year from now, your future self — the one getting approved for that dream apartment, qualifying for a lower interest rate, or simply breathing easier about money — will thank you for starting today.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)
+- [Consumer Financial Protection Bureau – Credit Reports](https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/)
+- [Experian – Credit Education](https://www.experian.com/blogs/ask-experian/)
+- [AnnualCreditReport.com](https://www.annualcreditreport.com/)

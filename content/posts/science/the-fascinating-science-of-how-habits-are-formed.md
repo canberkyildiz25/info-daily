@@ -2,8 +2,9 @@
 title: "The Fascinating Science of How Habits Are Formed"
 excerpt: "Discover the neuroscience behind habit formation, why habits stick, and proven strategies to build better routines that last."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://picsum.photos/seed/528/800/450"
+coverImage: "https://images.unsplash.com/photo-1454789548928-9efd52dc4031?w=1200&q=80"
 tags: ["habits", "neuroscience", "behavior change", "personal development", "psychology"]
 ---
 
@@ -84,3 +85,12 @@ For instance, if stress (cue) triggers snacking (routine) because it provides co
 Habits are not just individual behaviors — they're the architecture of your identity. Every action you repeat is a vote for the type of person you're becoming. Understanding the science behind habit formation isn't just intellectually interesting; it's profoundly empowering. It means that change isn't about having superhuman discipline. It's about working *with* your brain's natural wiring rather than against it.
 
 Start small. Be specific. Stay patient. And remember: the 66 days it takes to build a new habit are a tiny investment compared to the years of automatic benefits that follow.
+
+## Sources & References
+
+- [Nature](https://www.nature.com/)
+- [Science (AAAS)](https://www.science.org/)
+- [NASA](https://www.nasa.gov/)
+- [APA – Procrastination](https://www.apa.org/news/press/releases/2010/04/procrastination)
+- [James Clear – Atomic Habits Research](https://jamesclear.com/habits)
+- [Harvard Business Review – Productivity](https://hbr.org/topic/subject/productivity)

@@ -2,6 +2,7 @@
 title: "17 Proven Ways to Save Money Every Month (Without Feeling Deprived)"
 excerpt: "Real, actionable money-saving strategies that don't require giving up everything you love. Start saving hundreds more each month with these simple changes."
 date: "2025-03-30"
+updatedAt: "2026-05-18"
 author: "Lisa Chen"
 tags: ["saving money", "budgeting", "frugal living", "personal finance", "money tips"]
 coverImage: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80"
@@ -93,3 +94,11 @@ Carrying a balance at 20% APR erases every other saving strategy. Make paying yo
 $315/month invested at 10% annual return = **$237,000 after 20 years.**
 
 Small changes, compounded over time, create real wealth.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)
+- [USDA – Food Plans and Costs](https://www.ers.usda.gov/topics/food-choices-health/food-consumption-demand/food-expenditures/)
+- [Bureau of Labor Statistics – Consumer Expenditures](https://www.bls.gov/cex/)

@@ -2,8 +2,9 @@
 title: "How to Speed Up Your Wi-Fi at Home"
 excerpt: "Slow Wi-Fi is rarely an ISP problem — usually the fix is in your home setup. These practical changes can double or triple your wireless speeds."
 date: "2025-11-19"
+updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://picsum.photos/seed/306/800/450"
+coverImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80"
 tags: ["Wi-Fi", "router", "internet speed", "home network", "technology"]
 ---
 
@@ -93,3 +94,12 @@ For devices that don't move — desktop computers, smart TVs, game consoles, str
 Ethernet cables (Cat5e or Cat6) are inexpensive, and even a 50-foot cable run is straightforward to manage with cable clips.
 
 The combination of good router placement, the right frequency band, and ethernet for stationary devices solves the vast majority of home Wi-Fi complaints without spending a dollar.
+
+## Sources & References
+
+- [MIT Technology Review](https://www.technologyreview.com/)
+- [IEEE Spectrum](https://spectrum.ieee.org/)
+- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
+- [FCC – Broadband Resources](https://www.fcc.gov/consumers/guides/broadband-speed-guide)
+- [IEEE – Wireless Standards](https://standards.ieee.org/featured/802-11/)
+- [Psychology Today – Clutter and Well-Being](https://www.psychologytoday.com/us/basics/clutter)

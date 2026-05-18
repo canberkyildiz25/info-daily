@@ -2,6 +2,7 @@
 title: "NFL Draft 2026: Biggest Picks, Surprises, and What They Mean for Each Team"
 excerpt: "The 2026 NFL Draft delivered blockbuster trades, unexpected falls, and a handful of picks that could reshape franchises for the next decade. Here's what happened and who won the weekend."
 date: "2026-04-25"
+updatedAt: "2026-05-18"
 author: Canberk Yildiz
 coverImage: "https://images.unsplash.com/photo-1566577739112-5180d4bf9390?w=800&q=80"
 tags: ["NFL", "NFL Draft", "football", "sports", "2026"]
@@ -49,3 +50,11 @@ What we can say is which teams addressed clear needs, which paid fair value for 
 
 The draft is over. Now comes the part that actually matters: training camps, preseason games, and eventually the long regular season grind that determines which picks become careers and which become trivia questions. Check back in three years and we'll know who really won this weekend.
 
+## Sources & References
+
+- [Variety](https://variety.com/)
+- [The Hollywood Reporter](https://www.hollywoodreporter.com/)
+- [Billboard](https://www.billboard.com/)
+- [Harvard Business Review – Future of Work](https://hbr.org/topic/subject/remote-work)
+- [Gallup – State of the American Workplace](https://www.gallup.com/workplace/285818/state-american-workplace-report.aspx)
+- [IMDb](https://www.imdb.com/)

@@ -2,8 +2,9 @@
 title: "Best Countries for Digital Nomads in 2026"
 excerpt: "More countries than ever offer digital nomad visas and remote-work-friendly infrastructure. Here are the top destinations combining affordability, connectivity, and quality of life."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://picsum.photos/seed/505/800/450"
+coverImage: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80"
 tags: ["digital nomad", "remote work", "travel", "visa", "work abroad"]
 ---
 
@@ -74,3 +75,10 @@ Cost is moderate by EU standards — significantly cheaper than Western Europe b
 **Tax implications:** Understand your home country's tax obligations for residents working abroad. In many cases, you remain liable for home country taxes regardless of where you live.
 
 The best nomad destination is ultimately the one that fits your timezone, budget, preferred climate, and social preferences. Most successful nomads spend 2–3 months in each destination — long enough to develop routine and community, not so long that novelty fades.
+
+## Sources & References
+
+- [CDC Traveler's Health](https://wwwnc.cdc.gov/travel)
+- [U.S. Department of State – Travel](https://travel.state.gov/)
+- [World Tourism Organization (UNWTO)](https://www.unwto.org/)
+- [U.S. Department of State – Travel Advisories](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html)

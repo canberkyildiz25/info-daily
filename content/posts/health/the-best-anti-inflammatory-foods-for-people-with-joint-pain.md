@@ -2,6 +2,7 @@
 title: "The Best Anti-Inflammatory Foods for People with Joint Pain"
 excerpt: "Discover powerful anti-inflammatory foods that reduce joint pain naturally. Learn which nutrients work best and get practical meal ideas today."
 date: "2026-05-10"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
 coverImage: "https://source.unsplash.com/800x450/?antiinflammatory%2Cfoods%2Chealthy&sig=184"
 tags: ["joint pain", "anti-inflammatory foods", "arthritis relief", "healthy eating", "nutrition"]
@@ -126,3 +127,12 @@ Here's a practical example of an anti-inflammatory day:
 Managing joint pain through diet is a long-term investment in your health. While these anti-inflammatory foods won't provide instant relief, consistent consumption over weeks and months produces measurable improvements in pain levels and mobility. Combine dietary changes with regular gentle exercise, adequate sleep, and stress management for optimal results.
 
 Start by incorporating three to four of these anti-inflammatory foods this week. Small, sustainable changes create lasting habits that benefit your joints and overall health for years to come.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)
+- [Harvard T.H. Chan – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)

@@ -2,8 +2,9 @@
 title: "How to Fix Your Sleep Schedule in One Week"
 excerpt: "Whether late nights have pushed your bedtime past midnight or shift work has scrambled your rhythms, here's a practical, science-backed plan to reset your sleep in seven days."
 date: "2026-04-19"
+updatedAt: "2026-05-18"
 author: "Dr. Sarah Collins"
-coverImage: "https://picsum.photos/seed/419/800/450"
+coverImage: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1200&q=80"
 tags: ["sleep", "insomnia", "circadian rhythm", "health", "wellness", "sleep schedule"]
 ---
 
@@ -70,3 +71,12 @@ A few techniques that have solid evidence behind them:
 By the end of the week, most people notice meaningful improvement — faster sleep onset, fewer middle-of-the-night wake-ups, and more energy in the morning. It won't be perfect. Sleep is biological and varies night to night.
 
 The goal isn't a flawless schedule. It's a consistent anchor that your body can rely on. Give it two full weeks before evaluating whether it's working — one week is enough to start, but the benefits compound with consistency.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [NIH – Sleep Deprivation and Deficiency](https://www.nhlbi.nih.gov/health-topics/sleep-deprivation-and-deficiency)
+- [American Academy of Sleep Medicine](https://aasm.org/)
+- [Sleep Foundation](https://www.sleepfoundation.org/)

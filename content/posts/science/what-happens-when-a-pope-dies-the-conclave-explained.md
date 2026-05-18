@@ -2,6 +2,7 @@
 title: "What Happens When a Pope Dies: The Conclave Explained"
 excerpt: "The death of Pope Francis has set in motion one of the world's oldest and most secretive electoral processes. Here's exactly how the Catholic Church chooses its next leader."
 date: "2026-04-26"
+updatedAt: "2026-05-18"
 author: "Dr. Elena Russo"
 tags: ["pope", "Vatican", "conclave", "Catholic Church", "religion"]
 ---
@@ -51,3 +52,12 @@ When the white smoke rises over the Sistine Chapel, the Cardinal-Dean will ask t
 ---
 
 The conclave is not a democracy, not a political campaign, and not designed to produce consensus in the Western sense. It is, according to Catholic belief, a discernment process — one in which the cardinals attempt to identify whom the Holy Spirit is calling to lead the Church. Whether or not one shares that belief, the process is a remarkable artifact of institutional continuity, largely unchanged in its essentials for over 700 years.
+
+## Sources & References
+
+- [Nature](https://www.nature.com/)
+- [Science (AAAS)](https://www.science.org/)
+- [NASA](https://www.nasa.gov/)
+- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)
+- [MIT AI Policy](https://computing.mit.edu/artificial-intelligence/)
+- [OpenAI Research](https://openai.com/research)

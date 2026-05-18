@@ -2,8 +2,9 @@
 title: "How to Beat Jet Lag on Long Haul Flights"
 excerpt: "Proven strategies to beat jet lag on long haul flights so you arrive refreshed, alert, and ready to make the most of your destination."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://picsum.photos/seed/568/800/450"
+coverImage: "https://images.unsplash.com/photo-1501426026826-31c667bdf23d?w=1200&q=80"
 tags: ["jet lag", "long haul flights", "travel tips", "sleep health", "travel wellness"]
 ---
 
@@ -100,3 +101,10 @@ If you travel across time zones regularly, consider these additional strategies:
 ## The Bottom Line
 
 Jet lag doesn't have to be the price you pay for seeing the world or doing business across it. By shifting your schedule before departure, managing light and sleep on the plane, and aggressively anchoring yourself to local time after landing, you can compress days of grogginess into hours — or skip it altogether. The key is treating jet lag not as an inevitable side effect of travel, but as a solvable problem with a clear set of tools. Your next long haul flight doesn't have to end with brain fog. It can end with you walking off the jet bridge feeling genuinely ready for whatever comes next.
+
+## Sources & References
+
+- [CDC Traveler's Health](https://wwwnc.cdc.gov/travel)
+- [U.S. Department of State – Travel](https://travel.state.gov/)
+- [World Tourism Organization (UNWTO)](https://www.unwto.org/)
+- [U.S. Department of State – Travel Advisories](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html)

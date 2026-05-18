@@ -2,8 +2,9 @@
 title: "Why Do We Age? The Science Behind Aging"
 excerpt: "Discover the biological mechanisms behind aging, from cellular damage to genetic factors. Learn science-backed strategies to slow the aging process naturally."
 date: "2026-04-10"
+updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://picsum.photos/seed/376/800/450"
+coverImage: "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?w=1200&q=80"
 tags: ["aging", "cellular biology", "longevity", "health science", "anti-aging"]
 ---
 
@@ -130,3 +131,9 @@ Aging isn't a disease with a single cure, but rather a collection of biological 
 The remarkable truth is that chronological age—the years you've lived—matters far less than biological age—how old your cells actually are. A 70-year-old who exercises regularly, eats well, manages stress, and sleeps adequately can have the cellular health profile of someone 50 years old.
 
 Your future self will thank you for the choices you make today. Start with one or two changes—perhaps adding a morning walk and swapping processed foods for whole foods. Small, consistent actions compound over time, potentially adding years of quality life to your future.
+
+## Sources & References
+
+- [Nature](https://www.nature.com/)
+- [Science (AAAS)](https://www.science.org/)
+- [NASA](https://www.nasa.gov/)

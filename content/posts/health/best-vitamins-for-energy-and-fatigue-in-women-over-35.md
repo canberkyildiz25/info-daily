@@ -2,8 +2,9 @@
 title: "Best Vitamins for Energy and Fatigue in Women Over 35"
 excerpt: "Discover essential vitamins that combat fatigue and boost energy for women over 35. Science-backed solutions for renewed vitality and wellness."
 date: "2026-05-08"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://picsum.photos/seed/990/800/450"
+coverImage: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=1200&q=80"
 tags: ["women's health", "vitamins", "energy boosting", "fatigue relief", "wellness over 35"]
 ---
 
@@ -147,3 +148,12 @@ Certain supplements interact with medications. Inform your doctor about all supp
 Persistent fatigue in women over 35 is addressable through targeted vitamin supplementation combined with healthy lifestyle practices. By identifying your specific nutritional gaps through professional testing and implementing a personalized supplement strategy, you can reclaim your energy and vitality. Remember that supplements complement—not replace—a balanced diet, quality sleep, regular exercise, and stress management. Within 8-12 weeks of consistent implementation, most women report significant improvements in energy levels and overall well-being.
 
 Start with a conversation with your healthcare provider today to develop a plan tailored to your unique needs and health status.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)
+- [Harvard T.H. Chan – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [U.S. Department of Energy](https://www.energy.gov/)

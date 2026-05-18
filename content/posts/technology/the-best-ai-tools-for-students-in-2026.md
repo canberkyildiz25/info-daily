@@ -2,6 +2,7 @@
 title: "The Best AI Tools for Students in 2026"
 excerpt: "AI has quietly changed what it means to be a good student. These tools don't do your work for you â€” they help you learn faster, write better, and manage more without burning out."
 date: "2026-04-27"
+updatedAt: "2026-05-18"
 author: "Priya Nair"
 coverImage: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80"
 tags: ["AI", "students", "study tools", "education", "productivity"]
@@ -71,3 +72,11 @@ Transparency is both the ethical path and the self-interested one â€” insti
 
 The students who use these tools most effectively aren't using them to avoid work â€” they're using them to do the same work faster and with better feedback than any previous generation had access to. The skill isn't using AI. It's knowing when to use it, how to prompt it effectively, and how to apply critical judgment to what it produces.
 
+## Sources & References
+
+- [MIT Technology Review](https://www.technologyreview.com/)
+- [IEEE Spectrum](https://spectrum.ieee.org/)
+- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
+- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)
+- [MIT AI Policy](https://computing.mit.edu/artificial-intelligence/)
+- [OpenAI Research](https://openai.com/research)

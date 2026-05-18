@@ -2,6 +2,7 @@
 title: "How to Set Healthy Boundaries (Without Feeling Guilty)"
 excerpt: "Boundaries aren't walls — they're the foundation of every healthy relationship. Here's how to set them clearly, kindly, and without the guilt that stops most people."
 date: "2025-04-04"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
 coverImage: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80"
 tags: ["boundaries", "relationships", "mental health", "communication", "self-care"]
@@ -97,3 +98,9 @@ Some relationships require stronger limits or eventual distance — especially w
 If you find that setting limits consistently leads to escalating conflict, retaliation, or emotional abuse, consider working with a therapist. Boundary-setting in genuinely toxic relationships is a different challenge than in relationships where the core is good but patterns have become unhealthy.
 
 Setting limits is not about closing yourself off — it's about being clear enough about who you are and what you need that your relationships are based on reality rather than accommodation. That's not selfish. That's how trust gets built.
+
+## Sources & References
+
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [National Alliance on Mental Illness (NAMI)](https://www.nami.org/)

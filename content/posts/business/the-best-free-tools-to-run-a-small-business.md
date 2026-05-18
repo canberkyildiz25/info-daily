@@ -2,8 +2,9 @@
 title: "The Best Free Tools to Run a Small Business"
 excerpt: "Discover the best free tools to run your small business efficiently — from accounting and project management to marketing and communication."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://picsum.photos/seed/472/800/450"
+coverImage: "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=1200&q=80"
 tags: ["small business tools", "free business software", "productivity", "entrepreneurship", "small business tips"]
 ---
 
@@ -86,3 +87,9 @@ With so many options, it's tempting to sign up for everything. Don't. Here's a p
 You don't need a massive software budget to run a professional, well-organized small business. The tools listed above are trusted by millions of businesses worldwide, and their free plans are often remarkably capable. The key is choosing wisely, staying consistent, and upgrading only when your growth demands it.
 
 Start lean, stay focused, and let these free tools do the heavy lifting — so you can focus on what actually matters: building something great.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)

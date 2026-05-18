@@ -2,6 +2,7 @@
 title: "Why Ozempic Doesn't Work for Everyone — The Genetic Reason"
 excerpt: "About 1 in 10 people don't respond well to GLP-1 drugs like Ozempic. Scientists now know why — and it comes down to your genes. Here's what the research reveals."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
 tags: ["Ozempic", "GLP-1", "genetics", "weight loss", "semaglutide", "science"]
 coverImage: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&q=80"
@@ -62,3 +63,12 @@ This research is part of a larger shift in medicine toward precision pharmacolog
 For the millions of people taking GLP-1 drugs, the takeaway is simple: if Ozempic or Wegovy isn't working for you, it may not be your fault. Talk to your doctor about alternatives and ask whether pharmacogenomic testing might be appropriate for your situation.
 
 The era of one-size-fits-all medication is ending. The era of personalized medicine is here.
+
+## Sources & References
+
+- [Nature](https://www.nature.com/)
+- [Science (AAAS)](https://www.science.org/)
+- [NASA](https://www.nasa.gov/)
+- [NIH National Cancer Institute](https://www.cancer.gov/)
+- [American Heart Association](https://www.heart.org/)
+- [U.S. Food & Drug Administration (FDA)](https://www.fda.gov/)

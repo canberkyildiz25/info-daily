@@ -2,8 +2,9 @@
 title: "Understanding Tax Deductions for Beginners"
 excerpt: "Most people overpay on taxes simply because they don't know what they can deduct. This beginner-friendly guide covers the deductions that matter most."
 date: "2025-12-29"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://picsum.photos/seed/209/800/450"
+coverImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80"
 tags: ["tax deductions", "taxes", "personal finance", "tax savings", "IRS"]
 ---
 
@@ -84,3 +85,11 @@ Tax credits directly reduce your tax bill dollar-for-dollar, making them more va
 4. **Consider a CPA or tax professional** if you're self-employed, have significant investments, or experienced major life changes. The fee is usually more than offset by deductions they identify.
 
 Tax laws change annually. When in doubt about a specific deduction, consult IRS.gov or a qualified tax professional — the cost of professional tax advice is itself a deductible business expense.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)
+- [IRS – Filing Information](https://www.irs.gov/filing)
+- [Tax Policy Center](https://www.taxpolicycenter.org/)

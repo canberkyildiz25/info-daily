@@ -2,6 +2,7 @@
 title: "How AI Is Changing the Job Market in 2026"
 excerpt: "AI isn't just automating tasks — it's reshaping which skills are valuable, which jobs are growing, and how workers need to adapt to stay relevant."
 date: "2026-05-04"
+updatedAt: "2026-05-18"
 author: "Alex Rivera"
 coverImage: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&q=80"
 tags: ["AI", "job market", "career", "automation", "future of work"]
@@ -71,3 +72,12 @@ Meanwhile, job postings requiring routine data processing, templated writing, an
 Job displacement from AI is real but uneven. Most workers will not lose their jobs entirely — they'll see their jobs change, with some tasks automated and new tasks added. The disruption is less like a wave of unemployment and more like a prolonged, sector-by-sector restructuring that rewards adaptability.
 
 The workers who will thrive are those who treat AI as a powerful tool to augment their own capabilities — not a threat to resist, and not a magic solution to defer to uncritically. That combination of human judgment and AI capability is, for now, what the market values most.
+
+## Sources & References
+
+- [MIT Technology Review](https://www.technologyreview.com/)
+- [IEEE Spectrum](https://spectrum.ieee.org/)
+- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
+- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)
+- [MIT AI Policy](https://computing.mit.edu/artificial-intelligence/)
+- [OpenAI Research](https://openai.com/research)

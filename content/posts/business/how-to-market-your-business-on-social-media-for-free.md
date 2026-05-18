@@ -2,8 +2,9 @@
 title: "How to Market Your Business on Social Media for Free"
 excerpt: "Discover proven strategies to market your business on social media without spending a dime. Grow your brand, audience, and sales organically."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://picsum.photos/seed/480/800/450"
+coverImage: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80"
 tags: ["social media marketing", "free marketing strategies", "organic social media growth", "small business marketing", "content marketing"]
 ---
 
@@ -124,3 +125,9 @@ Once you identify patterns, create more of what's working and less of what isn't
 Marketing your business on social media for free isn't just possible — it's one of the smartest moves you can make as a business owner. It requires time, creativity, and consistency, but the payoff is enormous. By choosing the right platforms, creating valuable content, engaging authentically with your community, and leveraging user-generated content, you can build a loyal audience that drives real revenue.
 
 Start small. Start today. The brands winning on social media right now aren't the ones with the biggest budgets — they're the ones that showed up consistently and genuinely connected with their people. You can absolutely be one of them.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)

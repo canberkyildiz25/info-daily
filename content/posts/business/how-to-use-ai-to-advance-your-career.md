@@ -2,6 +2,7 @@
 title: "How to Use AI to Advance Your Career (Without Losing What Makes You Valuable)"
 excerpt: "AI is the most powerful career tool in a generation — if you use it right. Here's how to integrate AI into your work to become more productive, more valuable, and harder to replace."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Alex Rivera"
 tags: ["AI", "career", "productivity", "professional development", "ChatGPT", "work"]
 coverImage: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=800&q=80"
@@ -117,3 +118,12 @@ This is not about becoming an "AI person." It's about being visibly adaptive in 
 AI fluency is becoming a professional baseline expectation — like computer literacy in the 1990s or internet skills in the 2000s. Professionals who build this fluency now are getting a compounding advantage as those who haven't adapt more slowly.
 
 Use it to be more productive. Use it to do better work. And maintain the judgment, the relationships, and the genuine expertise that make you irreplaceable regardless of what AI can do.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)
+- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)
+- [MIT AI Policy](https://computing.mit.edu/artificial-intelligence/)
+- [OpenAI Research](https://openai.com/research)

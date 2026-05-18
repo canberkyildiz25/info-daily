@@ -2,8 +2,9 @@
 title: "Why Your Gut Health Affects Everything in Your Body"
 excerpt: "Your gut does far more than digest food. Discover how gut health influences your mood, immunity, skin, and overall well-being."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://picsum.photos/seed/400/800/450"
+coverImage: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=1200&q=80"
 tags: ["gut health", "microbiome", "digestive health", "wellness", "immune system"]
 ---
 
@@ -89,3 +90,9 @@ Advanced testing, including comprehensive stool analysis and food sensitivity pa
 ## The Bottom Line
 
 Your gut is not just a digestive organ — it's an ecosystem that shapes your immunity, mental health, skin, metabolism, and energy levels every single day. The remarkable thing is that you have significant power to influence it through the choices you make at every meal, in how you manage stress, and in how you prioritize sleep. Taking care of your gut isn't a trend. It's one of the most foundational things you can do for your long-term health. Start small, stay consistent, and let your second brain do what it does best — keep the rest of you running smoothly.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)

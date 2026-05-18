@@ -2,8 +2,9 @@
 title: "How to Build Muscle at Home"
 excerpt: "Discover proven strategies to build muscle without a gym membership. Learn nutrition, exercises, and programming for impressive home-based results."
 date: "2026-04-10"
+updatedAt: "2026-05-18"
 author: "Mark Stevens, CSCS"
-coverImage: "https://picsum.photos/seed/128/800/450"
+coverImage: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&q=80"
 tags: ["fitness", "muscle building", "home workouts", "strength training", "wellness"]
 ---
 
@@ -152,3 +153,12 @@ Building muscle happens during recovery, not during exercise itself. Prioritize:
 Building muscle at home is entirely achievable with dedication to proper training, nutrition, and recovery. Start with the equipment and exercises outlined above, commit to progressive overload, and maintain a muscle-building nutrition plan. Results typically appear within 4-6 weeks, with significant muscle development visible within 12 weeks of consistent training.
 
 Remember, the best program is one you'll actually stick with. Start simple, stay consistent, and progressively challenge yourself. Your home gym journey begins now.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [American College of Sports Medicine](https://www.acsm.org/)
+- [NIH – Physical Activity Guidelines](https://www.ncbi.nlm.nih.gov/books/NBK179847/)
+- [Journal of Strength and Conditioning Research (NSCA)](https://journals.lww.com/nsca-jscr)

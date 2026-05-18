@@ -2,8 +2,9 @@
 title: "How to Stop Impulse Buying and Save More Money"
 excerpt: "Discover proven strategies to curb impulse buying, take control of your spending habits, and start saving more money every month."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://picsum.photos/seed/512/800/450"
+coverImage: "https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=1200&q=80"
 tags: ["impulse buying", "saving money", "budgeting tips", "personal finance", "spending habits"]
 ---
 
@@ -105,3 +106,9 @@ Beyond the numbers, there's a psychological benefit that's hard to overstate. Pe
 You don't need a complete financial overhaul to begin making progress. Pick one strategy from this list and commit to it for the next 30 days. Maybe it's the 24-hour rule. Maybe it's unsubscribing from retail emails. Maybe it's switching to cash for your weekly spending.
 
 Whatever you choose, remember that every impulse purchase you avoid is a small vote for the financial future you actually want. Those votes add up faster than you think.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)

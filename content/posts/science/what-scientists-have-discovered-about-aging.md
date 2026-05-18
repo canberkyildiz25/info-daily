@@ -2,8 +2,9 @@
 title: "What Scientists Have Discovered About Aging"
 excerpt: "From telomeres to senolytics, discover the groundbreaking science behind aging and what researchers say you can do to slow the clock."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://picsum.photos/seed/312/800/450"
+coverImage: "https://images.unsplash.com/photo-1628595351029-c2bf17511435?w=1200&q=80"
 tags: ["aging science", "longevity research", "healthy aging", "anti-aging discoveries", "cellular health"]
 ---
 
@@ -92,3 +93,9 @@ The science of aging has moved from fatalism to optimism. While no one has disco
 The most consistent findings across decades of research point to a surprisingly accessible set of habits: regular physical activity, a diet rich in whole foods, quality sleep, strong social bonds, and effective stress management. These aren't just lifestyle platitudes — they're interventions that operate on the very biological mechanisms scientists have identified.
 
 Aging is no longer a black box. Every year brings us closer to understanding — and intervening in — the processes that drive it. The best time to start applying this science to your own life? Right now.
+
+## Sources & References
+
+- [Nature](https://www.nature.com/)
+- [Science (AAAS)](https://www.science.org/)
+- [NASA](https://www.nasa.gov/)

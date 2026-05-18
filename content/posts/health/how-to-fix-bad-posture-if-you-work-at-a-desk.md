@@ -2,8 +2,9 @@
 title: "How to Fix Bad Posture If You Work at a Desk"
 excerpt: "Desk job ruining your posture? Discover practical fixes, stretches, and ergonomic tips to relieve pain and sit better every day."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Mark Stevens, CSCS"
-coverImage: "https://picsum.photos/seed/504/800/450"
+coverImage: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1200&q=80"
 tags: ["posture correction", "desk ergonomics", "back pain relief", "workplace health", "office wellness"]
 ---
 
@@ -91,3 +92,9 @@ Don't write off chronic discomfort as "just part of desk work." It doesn't have 
 ## The Bottom Line
 
 Fixing bad posture from desk work isn't about achieving military-straight alignment every second of the day. It's about reducing the imbalances that cause pain, building strength where your body is weak, creating an environment that supports you, and moving frequently enough that your body stays adaptable. Start with your workstation, add a short daily routine, set movement reminders, and be patient. Within a few weeks, you'll notice less stiffness, less pain, and a body that feels far more capable — whether you're at your desk or away from it.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)

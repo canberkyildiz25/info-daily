@@ -2,8 +2,9 @@
 title: "How to Make New Friends as an Adult"
 excerpt: "Struggling to make friends as an adult? Discover practical, proven strategies to build meaningful connections at any age."
 date: "2026-04-13"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://picsum.photos/seed/336/800/450"
+coverImage: "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=1200&q=80"
 tags: ["making friends", "adult friendships", "social skills", "personal growth", "relationships"]
 ---
 
@@ -96,3 +97,9 @@ Give yourself grace. Building a social life from scratch as an adult is genuinel
 Making friends as an adult requires three things most people underestimate: **intentionality, vulnerability, and patience**. You have to create the conditions for friendship, take small social risks, and then give relationships the time they need to deepen. It won't happen overnight. But the payoff — reduced loneliness, better mental health, more joy, and a richer daily life — is worth every awkward first conversation and every unanswered text.
 
 Start small. Join one group. Send one message. Invite one person to coffee. That's all it takes to begin. The friends you're looking for? They're out there looking for you, too.
+
+## Sources & References
+
+- [American Psychological Association (APA)](https://www.apa.org/)
+- [Psychology Today](https://www.psychologytoday.com/)
+- [National Alliance on Mental Illness (NAMI)](https://www.nami.org/)

@@ -2,8 +2,9 @@
 title: "How to Start Investing in Your 20s"
 excerpt: "Your 20s are the most powerful time to start investing — time works in your favor like nothing else. Here's exactly where to begin with any amount."
 date: "2025-12-15"
+updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://picsum.photos/seed/208/800/450"
+coverImage: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80"
 tags: ["investing", "20s", "Roth IRA", "compound interest", "wealth building"]
 ---
 
@@ -79,3 +80,12 @@ A practical rule: direct at least 50% of every raise or income increase toward i
 - **Waiting for the "right time"**: Time in the market beats timing the market — every academic study confirms this
 
 The single best financial decision most 20-year-olds can make takes 20 minutes: open a Roth IRA, choose a total stock market fund, and set up a monthly automatic contribution. Then don't touch it for 40 years.
+
+## Sources & References
+
+- [Investopedia](https://www.investopedia.com/)
+- [Consumer Financial Protection Bureau (CFPB)](https://www.consumerfinance.gov/)
+- [U.S. Federal Reserve](https://www.federalreserve.gov/)
+- [SEC – Investor Education](https://www.investor.gov/)
+- [Vanguard – Investment Research](https://institutional.vanguard.com/insights/research)
+- [Morningstar](https://www.morningstar.com/)

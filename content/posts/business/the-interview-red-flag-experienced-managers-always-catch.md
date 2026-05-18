@@ -2,6 +2,7 @@
 title: "The Interview Red Flag That Experienced Managers Always Catch"
 excerpt: "After thousands of interviews, experienced hiring managers identify the same warning sign. It's not what candidates say — it's a pattern in how they say it."
 date: "2026-05-06"
+updatedAt: "2026-05-18"
 author: "Tom Bradley"
 coverImage: "https://images.unsplash.com/photo-1573497491208-6b1acb260507?w=800&q=80"
 tags: ["hiring", "interviews", "management", "career", "workplace", "leadership", "recruitment"]
@@ -62,3 +63,9 @@ The real question an interview is answering is not "can this person do the job?"
 Someone who cannot acknowledge their role in failures with specificity and equanimity will not do so when they join your team either. And on any team that does meaningful work, things will get hard.
 
 The pattern in the pronouns tells you a great deal about the answer.
+
+## Sources & References
+
+- [Harvard Business Review](https://hbr.org/)
+- [U.S. Small Business Administration (SBA)](https://www.sba.gov/)
+- [Bureau of Labor Statistics](https://www.bls.gov/)

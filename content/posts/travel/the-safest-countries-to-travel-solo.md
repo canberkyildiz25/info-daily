@@ -2,8 +2,9 @@
 title: "The Safest Countries to Travel Solo"
 excerpt: "Solo travel is one of life's most transformative experiences. These countries combine safety, welcoming locals, and excellent infrastructure for independent travelers."
 date: "2025-11-23"
+updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://picsum.photos/seed/506/800/450"
+coverImage: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=80"
 tags: ["solo travel", "safe travel", "travel tips", "backpacking", "travel destinations"]
 ---
 
@@ -66,3 +67,10 @@ Regardless of destination:
 **Don't advertise expensive items**: Keep expensive electronics and jewelry understated in public. The laptop clearly visible in your lap at a sidewalk cafe is an invitation in crowded tourist areas.
 
 Solo travel changes you. The practical planning fades into the background, and what remains is the experience of being genuinely responsible for your own adventure — which is, ultimately, the whole point.
+
+## Sources & References
+
+- [CDC Traveler's Health](https://wwwnc.cdc.gov/travel)
+- [U.S. Department of State – Travel](https://travel.state.gov/)
+- [World Tourism Organization (UNWTO)](https://www.unwto.org/)
+- [U.S. Department of State – Travel Advisories](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html)

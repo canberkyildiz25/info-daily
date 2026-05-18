@@ -2,6 +2,7 @@
 title: "10 Foods That Lower Blood Pressure Naturally"
 excerpt: "Discover the best foods science has proven to reduce hypertension — no prescription required. Simple dietary changes that can make a real difference."
 date: "2025-04-01"
+updatedAt: "2026-05-18"
 author: "Jessica Morgan"
 tags: ["blood pressure", "hypertension", "heart health", "diet", "natural remedies"]
 coverImage: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80"
@@ -54,3 +55,12 @@ Extra virgin olive oil contains polyphenols that reduce arterial stiffness. In t
 You don't need to eat all 10 foods every day. Start by incorporating 2-3 into your daily routine and gradually build up. Combine this with reducing sodium intake (stay under 1,500 mg/day), regular exercise, and managing stress for maximum results.
 
 Always consult your doctor before making significant dietary changes, especially if you are currently on blood pressure medication.
+
+## Sources & References
+
+- [NIH National Library of Medicine](https://www.ncbi.nlm.nih.gov/)
+- [Mayo Clinic](https://www.mayoclinic.org/)
+- [Harvard Health Publishing](https://www.health.harvard.edu/)
+- [NIH – Dietary Guidelines](https://www.dietaryguidelines.gov/)
+- [Harvard T.H. Chan – The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/)
+- [NIH National Cancer Institute](https://www.cancer.gov/)
