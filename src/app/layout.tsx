@@ -94,10 +94,6 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://www.infodaily.net',
-    languages: {
-      'en': 'https://www.infodaily.net',
-      'x-default': 'https://www.infodaily.net',
-    },
   },
 };
 
