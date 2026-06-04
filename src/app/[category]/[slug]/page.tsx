@@ -1,6 +1,5 @@
 import { getPost, getAllPosts, CATEGORIES, extractHeadings } from '@/lib/posts';
 import TableOfContents from '@/components/TableOfContents';
-import AdBanner, { InArticleAd, MultiplexAd } from '@/components/AdBanner';
 import ArticleHeroImage from '@/components/ArticleHeroImage';
 import { getCoverImageUrl } from '@/lib/pexels';
 import { injectInlineImages } from '@/lib/injectImages';
@@ -107,11 +106,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <ReadingProgress />
-      {/* Top Ad */}
-      <div className="mb-8">
-        <AdBanner slot="1155480823" format="horizontal" />
-      </div>
-
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Article */}
         <article className="lg:col-span-2">
@@ -187,12 +181,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
             dangerouslySetInnerHTML={{ __html: splitContent.first }}
           />
 
-          {/* In-article ad after 2nd paragraph */}
-          {splitContent.second && (
-            <div className="my-6 not-prose">
-              <InArticleAd />
-            </div>
-          )}
+
 
           {/* Content — second part */}
           {splitContent.second && (
@@ -298,11 +287,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
             </div>
           )}
 
-          {/* Multiplex ad before related articles */}
-          <div className="mt-8 not-prose">
-            <MultiplexAd />
-          </div>
-
           {/* Related articles */}
           <RelatedArticles
             currentSlug={post.slug}
@@ -310,17 +294,12 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
             currentTags={post.tags}
           />
 
-          {/* Bottom ad */}
-          <div className="mt-8">
-            <AdBanner slot="1155480823" format="horizontal" />
-          </div>
         </article>
 
         {/* Sidebar */}
         <aside className="space-y-6">
           <div className="sticky top-24 space-y-6">
             <TableOfContents headings={headings} />
-            <AdBanner slot="1155480823" format="rectangle" />
           </div>
 
           <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm p-5">
@@ -338,7 +317,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
             </div>
           </div>
 
-          <AdBanner slot="1155480823" format="vertical" />
         </aside>
       </div>
     </div>

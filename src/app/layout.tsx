@@ -103,8 +103,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" suppressHydrationWarning>
       <head suppressHydrationWarning>
         <link rel="alternate" type="application/rss+xml" title="InfoDaily RSS Feed" href="https://www.infodaily.net/feed.xml" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3696555619228561" crossOrigin="anonymous" />
-        {/* Google Consent Mode v2 — denied by default until user accepts */}
+{/* Google Consent Mode v2 — denied by default until user accepts */}
         <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});` }} />
         {/* Google Analytics */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-PD06ZLVSY6" />

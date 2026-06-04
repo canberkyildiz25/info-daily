@@ -209,8 +209,10 @@ export default function Header() {
           {/* Right: tools */}
           <div className="flex items-center gap-2 shrink-0">
             <SearchBar />
-            <LangPicker />
-            <FontPicker />
+            <div className="hidden sm:flex items-center gap-2">
+              <LangPicker />
+              <FontPicker />
+            </div>
             <ThemePicker />
             <button
               className="md:hidden p-2 rounded-lg text-gray-500 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors"
@@ -234,6 +236,11 @@ export default function Header() {
       {/* Mobile menu */}
       {menuOpen && (
         <div className="md:hidden border-t border-gray-100 dark:border-slate-700 px-4 py-3 space-y-3">
+          {/* Font & Language tools */}
+          <div className="flex gap-2 items-center">
+            <FontPicker />
+            <LangPicker />
+          </div>
           {/* Quick nav links */}
           <div className="flex gap-2 flex-wrap">
             <Link

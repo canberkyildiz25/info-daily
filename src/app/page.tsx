@@ -1,7 +1,6 @@
 import { getAllPosts } from '@/lib/posts';
 import { CATEGORIES } from '@/lib/categories';
 import HomeFeaturedPosts from '@/components/HomeFeaturedPosts';
-import AdBanner from '@/components/AdBanner';
 import TrendingTopics from '@/components/TrendingTopics';
 import { getCoverImageUrl } from '@/lib/pexels';
 import { getAuthorByName } from '@/lib/authors';
@@ -41,11 +40,6 @@ export default async function HomePage() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-
-      {/* Top Banner Ad */}
-      <div className="mb-8">
-        <AdBanner slot="1155480823" format="horizontal" />
-      </div>
 
       {/* Hero */}
       <section className="mb-8">
@@ -149,12 +143,6 @@ export default async function HomePage() {
         <HomeFeaturedPosts posts={featuredPosts} />
       </section>
 
-      {/* Mid Ad */}
-      <div className="mb-10">
-        <AdBanner slot="1155480823" format="rectangle" />
-      </div>
-
-      <AdBanner slot="1155480823" format="horizontal" />
     </div>
   );
 }

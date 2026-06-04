@@ -1,6 +1,5 @@
 import { getPostsByCategory, CATEGORIES } from '@/lib/posts';
 import CategoryPostGrid from '@/components/CategoryPostGrid';
-import AdBanner from '@/components/AdBanner';
 import { getCoverImageUrl } from '@/lib/pexels';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
@@ -85,11 +84,6 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
           ]),
         }}
       />
-      {/* Top Ad */}
-      <div className="mb-8">
-        <AdBanner slot="1155480823" format="horizontal" />
-      </div>
-
       {/* Category header */}
       <div className="mb-8 pb-6 border-b border-gray-200 dark:border-slate-700">
         <div className="flex items-center gap-3 mb-2">
@@ -111,8 +105,6 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
         </div>
 
         <aside className="space-y-6">
-          <AdBanner slot="1155480823" format="rectangle" />
-
           <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm p-5">
             <h3 className="font-bold text-gray-900 dark:text-slate-100 mb-4">Other Categories</h3>
             <div className="space-y-1">
@@ -128,7 +120,6 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
             </div>
           </div>
 
-          <AdBanner slot="1155480823" format="vertical" />
         </aside>
       </div>
     </div>
