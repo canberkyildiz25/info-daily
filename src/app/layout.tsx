@@ -91,7 +91,7 @@ export const metadata: Metadata = {
   },
   verification: {
     google: 'soUkwfns4jPrW0HEU8FPNe80U_FGTtSl9CG82LDQJMU',
-    yandex: '79961fae532083c7',
+    yandex: 'b0fb4d9f95168d5a',
   },
   alternates: {
     canonical: 'https://www.infodaily.net',
