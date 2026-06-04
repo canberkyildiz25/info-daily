@@ -11,7 +11,9 @@
     "generate:daily": "node generate-article.js --batch daily-articles.txt",
     "automate:start": "node automate-daily-articles.js",
     "setup:scheduler": "node setup-windows-scheduler.bat",
-    "setup:cron": "chmod +x setup-linux-cron.sh && ./setup-linux-cron.sh"
+    "setup:cron": "chmod +x setup-linux-cron.sh && ./setup-linux-cron.sh",
+    "indexnow": "node scripts/indexnow.js",
+    "indexnow:new": "node scripts/indexnow.js --new-only"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.86.1",
