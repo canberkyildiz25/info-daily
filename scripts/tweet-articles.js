@@ -49,9 +49,24 @@ function buildTweetText(article) {
     travel: '✈️', business: '💼', science: '🔬', relationships: '❤️',
     entertainment: '🎬', 'life-hacks': '💡',
   };
+  const categoryHashtags = {
+    health: '#Health #Wellness #HealthTips',
+    finance: '#Finance #Money #PersonalFinance',
+    technology: '#Technology #Tech #AI',
+    food: '#Food #Nutrition #HealthyEating',
+    travel: '#Travel #TravelTips #Wanderlust',
+    business: '#Business #Entrepreneurship #Career',
+    science: '#Science #Research #Discovery',
+    relationships: '#Relationships #SelfImprovement #MentalHealth',
+    entertainment: '#Entertainment #Culture #Trending',
+    'life-hacks': '#LifeHacks #Productivity #Tips',
+  };
   const emoji = categoryEmojis[article.category] || '📰';
-  const text = `${emoji} ${article.title}\n\n${article.url}`;
-  return text.length <= 280 ? text : `${emoji} ${article.title.slice(0, 230)}...\n\n${article.url}`;
+  const hashtags = categoryHashtags[article.category] || '#InfoDaily';
+  const full = `${emoji} ${article.title}\n\n${article.url}\n\n${hashtags} #InfoDaily`;
+  if (full.length <= 280) return full;
+  const short = `${emoji} ${article.title.slice(0, 200)}...\n\n${article.url}\n\n${hashtags} #InfoDaily`;
+  return short.length <= 280 ? short : `${emoji} ${article.title.slice(0, 200)}...\n\n${article.url}`;
 }
 
 function oauthSign(method, url, params, consumerSecret, tokenSecret) {
