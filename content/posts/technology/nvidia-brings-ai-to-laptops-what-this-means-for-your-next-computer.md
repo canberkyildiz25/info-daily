@@ -3,7 +3,7 @@ title: "Nvidia Brings AI to Laptops: What This Means for Your Next Computer"
 excerpt: "Nvidia is embedding powerful AI directly into laptops. Here's what this shift means for everyday users and how it will reshape your next computer purchase."
 date: "2026-06-05"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?nvidia%2Cbrings%2Ctechnology&sig=288"
+coverImage: "https://picsum.photos/seed/288/800/450"
 tags: ["Nvidia AI laptops", "AI computing", "laptop technology 2026", "NPU processors", "next-gen laptops"]
 ---
 

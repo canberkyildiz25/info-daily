@@ -3,7 +3,7 @@ title: "Ivanka Trump and Jared Kushner's Albanian Resort: A Luxury Travel Develo
 excerpt: "Ivanka Trump and Jared Kushner are developing a luxury resort in Albania. Here's everything we know about this high-profile project."
 date: "2026-06-05"
 author: "Sophie Martinez"
-coverImage: "https://source.unsplash.com/800x450/?ivanka%2Ctrump%2Ctravel&sig=424"
+coverImage: "https://picsum.photos/seed/424/800/450"
 tags: ["Ivanka Trump", "Jared Kushner", "Albania resort", "luxury travel", "real estate development"]
 ---
 

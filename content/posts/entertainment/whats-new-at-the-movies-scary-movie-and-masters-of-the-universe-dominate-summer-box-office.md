@@ -3,7 +3,7 @@ title: "What's New at the Movies: 'Scary Movie' and 'Masters of the Universe' Do
 excerpt: "Scary Movie and Masters of the Universe are crushing the summer 2026 box office. Here's everything you need to know about this season's biggest hits."
 date: "2026-06-05"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?whats%2Cmovies%2Ccinema&sig=416"
+coverImage: "https://picsum.photos/seed/416/800/450"
 tags: ["summer box office 2026", "Scary Movie 2026", "Masters of the Universe", "new movies", "box office hits"]
 ---
 

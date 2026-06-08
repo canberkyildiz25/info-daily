@@ -6,7 +6,6 @@ updatedAt: "2026-05-18"
 author: "Jessica Morgan"
 coverImage: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1200&q=80"
 tags: ["anti-inflammatory foods", "healthy eating", "inflammation", "nutrition tips", "wellness diet"]
-canonicalUrl: "https://www.infodaily.net/health/the-best-anti-inflammatory-foods"
 ---
 
 Chronic inflammation is one of the most talked-about health concerns of our time — and for good reason. Unlike the acute inflammation that helps your body heal a cut or fight off an infection, chronic low-grade inflammation simmers quietly beneath the surface and has been linked to heart disease, type 2 diabetes, cancer, Alzheimer's, and a host of autoimmune conditions. The good news? One of the most effective tools for fighting back is sitting right on your plate. By choosing the right foods consistently, you can help calm inflammation, protect your cells, and feel noticeably better in the process.

@@ -3,7 +3,7 @@ title: "AI's Impact on Education: Why Teachers Say It Will Rival the Internet an
 excerpt: "Teachers across the globe believe AI will transform education as profoundly as the internet and computers did. Here's what that shift looks like in 2026."
 date: "2026-06-05"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?impact%2Ceducation%2Ctechnology&sig=104"
+coverImage: "https://picsum.photos/seed/104/800/450"
 tags: ["AI in education", "education technology", "artificial intelligence", "teaching with AI", "future of learning"]
 ---
 

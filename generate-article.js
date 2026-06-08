@@ -76,21 +76,9 @@ function getCoverImage(category, title) {
   return `https://images.unsplash.com/photo-${1677000000000 + (seed % 500000000)}?w=800&q=80`;
 }
 
-// Better: use Unsplash Source which returns real photos for a keyword
 function getCoverImageByKeyword(category, title) {
-  const stopWords = new Set(['the','a','an','of','to','for','in','on','at','with','how','best','top','ways','tips','guide','what','why','when','where']);
-  const titleWords = title
-    .toLowerCase()
-    .replace(/[^a-z0-9\s]/g, '')
-    .split(' ')
-    .filter(w => w.length > 3 && !stopWords.has(w))
-    .slice(0, 2);
-
-  const categoryKeyword = CATEGORY_UNSPLASH_KEYWORDS[category] || category;
-  const allKeywords = [...titleWords, categoryKeyword.split(' ')[0]].join(',');
-  // Unsplash source — random photo matching these keywords, consistent seed from title
   const seed = Math.abs(title.split('').reduce((acc, c) => acc * 31 + c.charCodeAt(0), 0) % 1000);
-  return `https://source.unsplash.com/800x450/?${encodeURIComponent(allKeywords)}&sig=${seed}`;
+  return `https://picsum.photos/seed/${seed}/800/450`;
 }
 
 async function generateArticle(title, category, client) {
