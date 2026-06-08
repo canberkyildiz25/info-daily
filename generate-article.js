@@ -114,7 +114,7 @@ REQUIREMENTS:
 OUTPUT — Return ONLY this exact format, nothing before or after:
 ---
 title: "${title}"
-excerpt: "[Compelling 1-2 sentence description, 120-155 characters]"
+excerpt: "[Write a curiosity-driven 1-2 sentence meta description. Include a benefit or intriguing hook. 130-155 characters. No generic phrases like 'In this article' or 'Learn about'.]"
 date: "${today}"
 author: "${CATEGORY_AUTHORS[category]}"
 coverImage: "${coverImage}"

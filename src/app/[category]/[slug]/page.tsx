@@ -13,6 +13,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { authorNameToSlug, getAuthorByName } from '@/lib/authors';
 import { extractFaqFromHtml, buildFaqJsonLd } from '@/lib/faq';
+import { injectInternalLinks } from '@/lib/injectInternalLinks';
 
 export async function generateStaticParams() {
   const posts = getAllPosts();
@@ -79,10 +80,13 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
     ? (post.content || '')
     : await injectInlineImages(post.content || '', post.title, category);
 
-  // Extract FAQ schema from article headings ending with "?"
-  const faqJsonLd = buildFaqJsonLd(extractFaqFromHtml(contentWithImages));
+  // Inject internal links every 3 paragraphs
+  const contentWithLinks = injectInternalLinks(contentWithImages, post.slug, category, post.tags);
 
-  const headings = extractHeadings(contentWithImages);
+  // Extract FAQ schema from article headings ending with "?"
+  const faqJsonLd = buildFaqJsonLd(extractFaqFromHtml(contentWithLinks));
+
+  const headings = extractHeadings(contentWithLinks);
 
   // Split content after 2nd </p> to inject in-article ad (Google recommendation)
   const splitContent = (() => {
@@ -90,16 +94,16 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
     let splitIndex = -1;
     let from = 0;
     while (count < 2) {
-      const idx = contentWithImages.indexOf('</p>', from);
+      const idx = contentWithLinks.indexOf('</p>', from);
       if (idx === -1) break;
       count++;
       if (count === 2) splitIndex = idx + '</p>'.length;
       from = idx + 4;
     }
-    if (splitIndex === -1) return { first: contentWithImages, second: '' };
+    if (splitIndex === -1) return { first: contentWithLinks, second: '' };
     return {
-      first: contentWithImages.slice(0, splitIndex),
-      second: contentWithImages.slice(splitIndex),
+      first: contentWithLinks.slice(0, splitIndex),
+      second: contentWithLinks.slice(splitIndex),
     };
   })();
 
