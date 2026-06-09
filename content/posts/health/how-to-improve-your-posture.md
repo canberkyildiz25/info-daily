@@ -4,7 +4,7 @@ excerpt: "Poor posture causes back pain, headaches, and low energy. These simple
 date: "2025-12-27"
 updatedAt: "2026-05-18"
 author: "Mark Stevens, CSCS"
-coverImage: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/4587319/pexels-photo-4587319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["posture", "back pain", "ergonomics", "exercise", "wellness"]
 ---
 

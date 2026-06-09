@@ -4,7 +4,7 @@ excerpt: "Struggling to concentrate? Discover proven strategies to regain your f
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/6173668/pexels-photo-6173668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["focus", "productivity", "distractions", "concentration", "mental health"]
 ---
 

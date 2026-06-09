@@ -4,7 +4,7 @@ excerpt: "Healthy eating doesn't require expensive superfoods or a big grocery b
 date: "2025-11-25"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/842545/pexels-photo-842545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["budget eating", "healthy food", "grocery shopping", "meal planning", "nutrition"]
 ---
 

@@ -4,7 +4,7 @@ excerpt: "Feeling off but not sure why? Your body may be screaming for more slee
 date: "2025-09-19"
 updatedAt: "2026-05-18"
 author: "Dr. Sarah Collins"
-coverImage: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/7445324/pexels-photo-7445324.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["sleep", "fatigue", "health", "insomnia", "rest"]
 ---
 

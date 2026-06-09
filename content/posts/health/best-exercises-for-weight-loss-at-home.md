@@ -5,7 +5,7 @@ date: "2025-04-03"
 updatedAt: "2026-05-18"
 author: "Mark Stevens, CSCS"
 tags: ["weight loss", "home workout", "exercise", "fitness", "no equipment"]
-coverImage: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/8846118/pexels-photo-8846118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 Gym memberships are expensive, commutes take time, and schedules get in the way. But here's the truth: some of the most effective fat-burning exercises require zero equipment. Here's what the science says actually works.

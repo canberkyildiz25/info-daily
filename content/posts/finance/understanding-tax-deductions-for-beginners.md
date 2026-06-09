@@ -4,7 +4,7 @@ excerpt: "Most people overpay on taxes simply because they don't know what they 
 date: "2025-12-29"
 updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/6863285/pexels-photo-6863285.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["tax deductions", "taxes", "personal finance", "tax savings", "IRS"]
 ---
 

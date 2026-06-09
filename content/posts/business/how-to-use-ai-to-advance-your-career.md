@@ -5,7 +5,7 @@ date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Alex Rivera"
 tags: ["AI", "career", "productivity", "professional development", "ChatGPT", "work"]
-coverImage: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/8439175/pexels-photo-8439175.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 There's a counterintuitive truth about AI and careers: the professionals most at risk from AI are not those who use it, but those who don't. The professionals who integrate AI tools into their work are becoming measurably more productive — and creating a widening gap between themselves and peers who haven't adapted.

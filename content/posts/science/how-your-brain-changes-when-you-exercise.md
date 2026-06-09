@@ -4,7 +4,7 @@ excerpt: "Exercise doesn't just change your body — it physically restructures 
 date: "2025-04-02"
 updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/13621292/pexels-photo-13621292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["neuroscience", "exercise", "brain health", "mental performance", "science"]
 ---
 

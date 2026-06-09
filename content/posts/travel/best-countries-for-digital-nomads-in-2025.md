@@ -4,7 +4,7 @@ excerpt: "More countries than ever offer digital nomad visas and remote-work-fri
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/8869416/pexels-photo-8869416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["digital nomad", "remote work", "travel", "visa", "work abroad"]
 ---
 

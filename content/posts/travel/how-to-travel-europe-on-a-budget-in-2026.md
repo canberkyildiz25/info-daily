@@ -3,7 +3,7 @@ title: "How to Travel Europe on a Budget in 2026"
 excerpt: "Europe doesn't have to cost a fortune. With the right timing, tools, and mindset, you can explore the continent for $60–$80 a day — including accommodation."
 date: "2026-05-30"
 author: "Ryan Cooper"
-coverImage: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/35646419/pexels-photo-35646419.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Europe", "budget travel", "travel tips", "backpacking", "travel guide"]
 ---
 

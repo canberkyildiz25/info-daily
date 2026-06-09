@@ -4,7 +4,7 @@ excerpt: "Discover why your senior cat craves kitten food, whether it's safe, an
 date: "2026-04-15"
 updatedAt: "2026-05-18"
 author: "Dr. Sarah Collins"
-coverImage: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/6816836/pexels-photo-6816836.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["senior cat nutrition", "kitten food for older cats", "cat diet tips", "pet health", "veterinary advice"]
 ---
 

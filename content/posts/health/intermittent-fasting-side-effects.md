@@ -4,7 +4,7 @@ excerpt: "Headaches, fatigue, and irritability are normal for beginners doing in
 date: "2026-04-22"
 updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/6942002/pexels-photo-6942002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["intermittent fasting", "intermittent fasting for beginners", "health", "nutrition", "wellness", "weight loss"]
 ---
 

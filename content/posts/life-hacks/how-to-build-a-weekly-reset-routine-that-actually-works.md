@@ -3,7 +3,7 @@ title: "How to Build a Weekly Reset Routine That Actually Works"
 excerpt: "A weekly reset isn't about being more organized — it's about starting Monday without the accumulated chaos of last week weighing on you. Here's a practical system that takes under an hour."
 date: "2026-06-04"
 author: "Emma Rhodes"
-coverImage: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/6690214/pexels-photo-6690214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["productivity", "habits", "weekly planning", "organization", "Sunday routine"]
 ---
 

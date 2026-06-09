@@ -5,7 +5,7 @@ date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
 tags: ["Ozempic", "GLP-1", "genetics", "weight loss", "semaglutide", "science"]
-coverImage: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/8442543/pexels-photo-8442543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 GLP-1 drugs like Ozempic and Wegovy have been hailed as a breakthrough in weight loss and metabolic health. For most people who take them, they work remarkably well — producing weight loss of 10 to 20 percent of body weight and improving blood sugar control. But for roughly 10 percent of patients, these drugs deliver disappointing results. Now, scientists think they know why.

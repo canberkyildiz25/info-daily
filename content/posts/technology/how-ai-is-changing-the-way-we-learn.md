@@ -3,7 +3,7 @@ title: "How AI Is Changing the Way We Learn"
 excerpt: "From personalized tutors to instant feedback loops, artificial intelligence is reshaping education in ways that could benefit every type of learner — if we approach it thoughtfully."
 date: "2026-05-22"
 author: "Alex Rivera"
-coverImage: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/8294680/pexels-photo-8294680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["AI", "education", "learning", "technology", "future"]
 ---
 

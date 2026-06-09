@@ -4,7 +4,7 @@ excerpt: "Discover the best free online courses to learn valuable new skills in 
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/4754688/pexels-photo-4754688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["free online courses", "learn new skills", "online education", "self-improvement", "career development"]
 ---
 

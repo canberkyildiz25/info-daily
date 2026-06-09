@@ -5,7 +5,7 @@ date: "2026-04-21"
 updatedAt: "2026-05-18"
 author: "Dr. Sarah Collins"
 tags: ["breakfast", "nutrition", "intermittent fasting", "metabolism", "meal timing"]
-coverImage: "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/7622862/pexels-photo-7622862.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 "Breakfast is the most important meal of the day." You've heard it so many times it feels like biology. But where did it come from — and does the science actually back it up?

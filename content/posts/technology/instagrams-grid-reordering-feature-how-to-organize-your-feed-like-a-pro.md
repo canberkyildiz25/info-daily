@@ -3,7 +3,7 @@ title: "Instagram's Grid Reordering Feature: How to Organize Your Feed Like a Pr
 excerpt: "Instagram finally lets you rearrange your grid posts. Discover pro strategies to curate a stunning profile that drives more followers and engagement."
 date: "2026-06-09"
 author: "Alex Rivera"
-coverImage: "https://picsum.photos/seed/728/800/450"
+coverImage: "https://images.pexels.com/photos/31148083/pexels-photo-31148083.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Instagram grid reordering", "Instagram features 2026", "social media tips", "Instagram profile optimization", "content strategy"]
 ---
 

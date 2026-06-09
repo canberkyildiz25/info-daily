@@ -4,7 +4,7 @@ excerpt: "What you eat directly influences your brain's function, mood, and long
 date: "2025-10-27"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/34415723/pexels-photo-34415723.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["brain health", "cognitive function", "nutrition", "diet", "mental performance"]
 ---
 

@@ -5,7 +5,7 @@ date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "David Kim"
 tags: ["Neanderthals", "human evolution", "archaeology", "anthropology", "science", "prehistory"]
-coverImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/6592161/pexels-photo-6592161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 For most of the twentieth century, Neanderthals were caricatured as dim-witted brutes — the evolutionary dead end that modern humans swept aside. That picture is now almost completely wrong. New discoveries continue to reveal a species of remarkable sophistication, one whose relationship with our ancestors was far more complex and intimate than anyone imagined.

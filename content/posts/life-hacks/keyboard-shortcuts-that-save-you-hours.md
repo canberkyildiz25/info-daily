@@ -3,7 +3,7 @@ title: "Keyboard Shortcuts That Will Save You Hours Every Week"
 excerpt: "The average knowledge worker wastes 2+ hours a week reaching for the mouse. These shortcuts — across Windows, Mac, browsers, and common apps — put that time back in your hands."
 date: "2026-05-25"
 author: "Alex Rivera"
-coverImage: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/2882516/pexels-photo-2882516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["productivity", "keyboard shortcuts", "efficiency", "life hacks", "tech tips"]
 ---
 

@@ -4,7 +4,7 @@ excerpt: "The algorithm isn't broken. Your viewing history is. Here's exactly ho
 date: "2026-05-03"
 updatedAt: "2026-05-18"
 author: "Canberk Yildiz"
-coverImage: "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/35490407/pexels-photo-35490407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Netflix", "streaming", "algorithm", "entertainment", "TV shows", "movies", "tech"]
 ---
 

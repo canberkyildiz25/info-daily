@@ -3,7 +3,7 @@ title: "Apple's iOS 27 Beta: 5 New Features You'll Actually Want to Use"
 excerpt: "iOS 27 beta is here with game-changing features from ambient AI to redesigned notifications. Here's what's actually worth getting excited about."
 date: "2026-06-09"
 author: "Alex Rivera"
-coverImage: "https://picsum.photos/seed/888/800/450"
+coverImage: "https://images.pexels.com/photos/15944460/pexels-photo-15944460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["iOS 27", "Apple", "iPhone features", "iOS beta", "mobile technology"]
 ---
 

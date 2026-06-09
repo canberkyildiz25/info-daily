@@ -5,7 +5,7 @@ date: "2025-03-25"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
 tags: ["morning routine", "productivity", "habits", "success", "self improvement"]
-coverImage: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/8424937/pexels-photo-8424937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 "Win the morning, win the day." It's a cliché because it's true. Research consistently shows that how you spend your first hour sets the tone for focus, energy, and decision-making for the entire day.

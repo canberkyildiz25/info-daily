@@ -4,7 +4,7 @@ excerpt: "Most millionaires didn't inherit wealth — they built it with consist
 date: "2025-09-21"
 updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/6694950/pexels-photo-6694950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["millionaire habits", "wealth building", "personal finance", "investing", "money mindset"]
 ---
 

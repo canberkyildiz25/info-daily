@@ -4,7 +4,7 @@ excerpt: "The average person spends 4+ hours daily on their phone. These practic
 date: "2025-12-05"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/27177478/pexels-photo-27177478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["screen time", "phone addiction", "digital wellness", "habits", "focus"]
 ---
 

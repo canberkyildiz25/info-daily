@@ -4,7 +4,7 @@ excerpt: "Smart snacking is about staying full and fueling your body between mea
 date: "2025-12-23"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/36285399/pexels-photo-36285399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["protein snacks", "healthy snacks", "nutrition", "food", "meal prep"]
 ---
 

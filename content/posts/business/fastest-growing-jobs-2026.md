@@ -5,7 +5,7 @@ date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
 tags: ["jobs", "career", "2026", "job market", "AI careers", "healthcare careers"]
-coverImage: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/15555958/pexels-photo-15555958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 The job market in 2026 is defined by two forces pulling in opposite directions: AI automation eliminating or transforming millions of roles, and demographic and technological shifts creating unprecedented demand in others. The result is a market where the wrong skills leave you vulnerable and the right skills leave you in extraordinarily high demand.

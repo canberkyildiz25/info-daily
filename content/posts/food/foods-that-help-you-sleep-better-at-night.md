@@ -4,7 +4,7 @@ excerpt: "Discover the best foods scientifically shown to improve sleep quality,
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/371109/pexels-photo-371109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["sleep foods", "better sleep", "healthy eating", "nutrition tips", "sleep quality"]
 ---
 

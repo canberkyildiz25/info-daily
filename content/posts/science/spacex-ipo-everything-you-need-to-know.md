@@ -5,7 +5,7 @@ date: "2026-05-17"
 updatedAt: "2026-05-18"
 author: "David Kim"
 tags: ["SpaceX", "IPO", "SPCX", "Elon Musk", "space industry", "investing", "Starship"]
-coverImage: "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/586054/pexels-photo-586054.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 For years, investors have asked the same question about Elon Musk's rocket company: when does SpaceX go public? After more than two decades as a private company — and after becoming the most valuable private startup in American history — the answer appears to be June 12, 2026.

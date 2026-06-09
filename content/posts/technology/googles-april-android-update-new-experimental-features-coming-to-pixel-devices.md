@@ -4,7 +4,7 @@ excerpt: "Google's April 2026 Android update brings exciting experimental featur
 date: "2026-04-15"
 updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/33041301/pexels-photo-33041301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Google Pixel", "Android Update", "April 2026", "Pixel Features", "Google AI"]
 ---
 

@@ -4,7 +4,7 @@ excerpt: "Discover delicious, nutrient-packed smoothie recipes designed to help 
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1551183053-bf91798d792f?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/8845657/pexels-photo-8845657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["smoothie recipes", "weight loss", "healthy eating", "meal replacement smoothies", "nutrition"]
 ---
 

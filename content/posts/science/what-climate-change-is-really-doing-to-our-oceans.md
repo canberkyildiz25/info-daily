@@ -4,7 +4,7 @@ excerpt: "Rising temps, acidifying waters, and dying reefs — here's what clima
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://images.unsplash.com/photo-1628595351029-c2bf17511435?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/28456036/pexels-photo-28456036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["climate change", "ocean health", "marine ecosystems", "sea level rise", "ocean acidification"]
 ---
 

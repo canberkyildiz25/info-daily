@@ -4,7 +4,7 @@ excerpt: "Hard drives fail. Phones get lost. Ransomware encrypts everything. A p
 date: "2025-11-05"
 updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/2644597/pexels-photo-2644597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["data backup", "cloud storage", "data recovery", "technology", "cybersecurity"]
 ---
 

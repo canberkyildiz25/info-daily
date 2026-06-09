@@ -4,7 +4,7 @@ excerpt: "Learn proven strategies to negotiate a lower rent with your landlord, 
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/7578901/pexels-photo-7578901.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["rent negotiation", "saving money", "renting tips", "personal finance", "housing costs"]
 ---
 

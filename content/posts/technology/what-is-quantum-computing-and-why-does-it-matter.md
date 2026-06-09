@@ -4,7 +4,7 @@ excerpt: "Discover what quantum computing is, how it works, and why it's poised 
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/18475683/pexels-photo-18475683.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["quantum computing", "emerging technology", "future of computing", "cybersecurity", "tech innovation"]
 ---
 

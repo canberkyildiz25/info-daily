@@ -3,7 +3,7 @@ title: "High-Protein Breakfast Ideas That Keep You Full Until Lunch"
 excerpt: "Starting your day with 25–30g of protein reduces hunger, stabilizes blood sugar, and improves focus. These quick, practical breakfast ideas deliver the protein without the preparation time."
 date: "2026-05-27"
 author: "Jessica Morgan"
-coverImage: "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/5764588/pexels-photo-5764588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["breakfast", "protein", "nutrition", "meal prep", "healthy eating"]
 ---
 

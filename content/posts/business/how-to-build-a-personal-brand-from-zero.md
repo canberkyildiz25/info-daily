@@ -4,7 +4,7 @@ excerpt: "A strong personal brand opens doors that skills alone don't open. Here
 date: "2025-10-29"
 updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/8370329/pexels-photo-8370329.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["personal brand", "career", "social media", "LinkedIn", "networking"]
 ---
 

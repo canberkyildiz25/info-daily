@@ -4,7 +4,7 @@ excerpt: "Discover the most effective strategies to land a remote job in 2026, f
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://images.unsplash.com/photo-1559136555-9303baea8eae?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/7605973/pexels-photo-7605973.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["remote work", "job search", "work from home", "career tips", "freelancing"]
 ---
 

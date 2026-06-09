@@ -4,7 +4,7 @@ excerpt: "More than 80% of Earth's oceans remain unexplored. A recent discovery 
 date: "2026-05-05"
 updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/15559902/pexels-photo-15559902.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["ocean", "marine biology", "deep sea", "science", "discovery", "biology", "extremophiles"]
 ---
 

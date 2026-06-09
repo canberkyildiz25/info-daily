@@ -4,7 +4,7 @@ excerpt: "Western productivity advice attacks the wrong problem. This ancient Ja
 date: "2026-05-09"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/8386566/pexels-photo-8386566.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["productivity", "procrastination", "habits", "kaizen", "life hacks", "focus", "motivation"]
 ---
 

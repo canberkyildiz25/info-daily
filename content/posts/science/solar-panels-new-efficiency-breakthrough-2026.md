@@ -5,7 +5,7 @@ date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "David Kim"
 tags: ["solar energy", "renewable energy", "perovskite", "clean energy", "technology", "science"]
-coverImage: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/18306343/pexels-photo-18306343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 Solar energy has been on a steady improvement curve for decades — panels getting cheaper, more efficient, and more widely deployed. But a new development in 2026 represents something more significant: a genuine efficiency breakthrough that could accelerate the solar transition dramatically.

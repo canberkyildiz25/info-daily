@@ -4,7 +4,7 @@ excerpt: "Discover the top foods scientifically shown to boost your energy and s
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/1153372/pexels-photo-1153372.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["energy foods", "brain health", "healthy eating", "focus and productivity", "nutrition tips"]
 ---
 

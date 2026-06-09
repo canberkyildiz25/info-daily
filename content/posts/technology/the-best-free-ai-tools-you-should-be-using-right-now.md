@@ -4,7 +4,7 @@ excerpt: "Discover the most powerful free AI tools available today — from writ
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/30530410/pexels-photo-30530410.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["AI tools", "free software", "artificial intelligence", "productivity", "technology"]
 ---
 

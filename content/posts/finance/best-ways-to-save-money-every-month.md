@@ -5,7 +5,7 @@ date: "2025-03-30"
 updatedAt: "2026-05-18"
 author: "Lisa Chen"
 tags: ["saving money", "budgeting", "frugal living", "personal finance", "money tips"]
-coverImage: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/31330436/pexels-photo-31330436.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 Most money-saving advice tells you to stop buying coffee. That's not how you save real money. Here are 17 strategies that actually move the needle — and won't make you miserable.

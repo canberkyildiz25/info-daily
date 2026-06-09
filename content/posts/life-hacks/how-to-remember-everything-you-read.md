@@ -4,7 +4,7 @@ excerpt: "Discover proven strategies to retain more of what you read, from activ
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/20835885/pexels-photo-20835885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["memory techniques", "reading habits", "active recall", "productivity", "learning strategies"]
 ---
 

@@ -4,7 +4,7 @@ excerpt: "Discover practical, actionable steps to rebuild trust in any relations
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/37448071/pexels-photo-37448071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["rebuilding trust", "relationship advice", "trust issues", "healthy relationships", "personal growth"]
 ---
 

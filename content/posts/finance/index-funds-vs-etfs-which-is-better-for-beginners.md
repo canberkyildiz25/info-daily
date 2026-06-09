@@ -4,7 +4,7 @@ excerpt: "Both index funds and ETFs track market indexes — but they work diffe
 date: "2025-12-01"
 updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/30917896/pexels-photo-30917896.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["index funds", "ETFs", "investing", "beginners", "personal finance"]
 ---
 

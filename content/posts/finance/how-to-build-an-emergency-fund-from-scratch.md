@@ -4,7 +4,7 @@ excerpt: "An emergency fund is the foundation of financial security. Here's exac
 date: "2025-09-07"
 updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/12198535/pexels-photo-12198535.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["emergency fund", "savings", "personal finance", "budgeting", "financial security"]
 ---
 

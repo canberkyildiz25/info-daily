@@ -4,7 +4,7 @@ excerpt: "Discover the fascinating science behind how your brain encodes, stores
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/7203695/pexels-photo-7203695.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["neuroscience", "memory formation", "brain health", "cognitive science", "learning"]
 ---
 

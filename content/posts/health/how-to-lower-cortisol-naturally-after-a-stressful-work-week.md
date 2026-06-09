@@ -4,7 +4,7 @@ excerpt: "Learn science-backed techniques to reduce cortisol levels and recover 
 date: "2026-05-06"
 updatedAt: "2026-05-18"
 author: "Dr. Elena Russo"
-coverImage: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/9063392/pexels-photo-9063392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["stress management", "cortisol", "wellness", "mental health", "work-life balance"]
 ---
 

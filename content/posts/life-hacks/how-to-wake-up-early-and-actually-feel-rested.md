@@ -4,7 +4,7 @@ excerpt: "Discover proven strategies to wake up early without feeling groggy. Le
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/7445313/pexels-photo-7445313.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["morning routine", "sleep tips", "productivity", "healthy habits", "wellness"]
 ---
 

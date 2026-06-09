@@ -3,7 +3,7 @@ title: "The Best Morning Stretches to Start Your Day Right"
 excerpt: "Five minutes of targeted stretching when you wake up can reduce pain, improve posture, and energize your body for the hours ahead. Here's a simple, evidence-backed routine."
 date: "2026-05-23"
 author: "Mark Stevens, CSCS"
-coverImage: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/3807548/pexels-photo-3807548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["stretching", "morning routine", "flexibility", "health", "fitness"]
 ---
 

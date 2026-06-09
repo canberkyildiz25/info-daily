@@ -4,7 +4,7 @@ excerpt: "VPN companies promise complete online privacy and security. The realit
 date: "2025-10-21"
 updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/5117989/pexels-photo-5117989.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["VPN", "online security", "privacy", "internet", "cybersecurity"]
 ---
 

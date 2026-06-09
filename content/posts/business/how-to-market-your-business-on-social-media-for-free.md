@@ -4,7 +4,7 @@ excerpt: "Discover proven strategies to market your business on social media wit
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/15635239/pexels-photo-15635239.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["social media marketing", "free marketing strategies", "organic social media growth", "small business marketing", "content marketing"]
 ---
 

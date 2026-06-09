@@ -3,7 +3,7 @@ title: "2026 Tony Awards Fashion Hits and Misses: What Celebrities Actually Wore
 excerpt: "From jaw-dropping gowns to bold fashion risks, here are the standout red carpet moments from the 2026 Tony Awards that everyone is still talking about."
 date: "2026-06-09"
 author: "Maria Chen"
-coverImage: "https://picsum.photos/seed/16/800/450"
+coverImage: "https://images.pexels.com/photos/13681747/pexels-photo-13681747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Tony Awards 2026", "red carpet fashion", "celebrity style", "Broadway fashion", "awards show looks"]
 ---
 

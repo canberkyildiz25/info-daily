@@ -5,7 +5,7 @@ date: "2026-05-19"
 updatedAt: "2026-05-19"
 author: "Alex Rivera"
 tags: ["wi-fi", "internet speed", "home network", "technology", "router", "broadband"]
-coverImage: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/17781874/pexels-photo-17781874.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 You run a speed test, and the number is disappointing. Your plan promises 500 Mbps. Your result shows 87. You call the provider, they send a technician, everything checks out "on their end." The slow speeds stay.

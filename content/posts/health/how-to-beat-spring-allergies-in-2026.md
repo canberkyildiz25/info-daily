@@ -4,7 +4,7 @@ excerpt: "Spring allergies are worse than ever this year. Here's what doctors re
 date: "2026-04-16"
 updatedAt: "2026-05-18"
 author: "Dr. Sarah Collins"
-coverImage: "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/36268645/pexels-photo-36268645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["allergies", "health", "spring", "wellness", "immunity"]
 ---
 

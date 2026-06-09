@@ -4,7 +4,7 @@ excerpt: "Discover how CRISPR gene editing is revolutionizing medicine, from cur
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://images.unsplash.com/photo-1502472584811-0a2f2feb8968?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/4058244/pexels-photo-4058244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["CRISPR", "gene editing", "medical innovation", "genetic diseases", "biotechnology"]
 ---
 

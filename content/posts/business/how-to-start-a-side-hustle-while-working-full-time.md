@@ -4,7 +4,7 @@ excerpt: "Practical steps to launch a profitable side hustle without burning out
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/5899215/pexels-photo-5899215.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["side hustle", "extra income", "entrepreneurship", "work-life balance", "freelancing"]
 ---
 

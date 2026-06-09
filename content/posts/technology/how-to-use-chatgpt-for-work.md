@@ -4,7 +4,7 @@ excerpt: "ChatGPT has moved from novelty to essential work tool. Here are the mo
 date: "2025-12-31"
 updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/17560587/pexels-photo-17560587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["ChatGPT", "AI tools", "productivity", "work", "automation"]
 ---
 

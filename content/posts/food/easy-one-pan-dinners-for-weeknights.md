@@ -4,7 +4,7 @@ excerpt: "One pan, minimal cleanup, and a complete meal in 30 minutes. These sim
 date: "2025-11-11"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/5848418/pexels-photo-5848418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["one pan meals", "weeknight dinners", "easy recipes", "cooking", "meal ideas"]
 ---
 

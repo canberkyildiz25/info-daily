@@ -4,7 +4,7 @@ excerpt: "While most travelers chase the same expensive destinations, one countr
 date: "2026-05-04"
 updatedAt: "2026-05-18"
 author: "Ryan Cooper"
-coverImage: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/15983738/pexels-photo-15983738.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["budget travel", "travel tips", "Southeast Asia", "Georgia", "affordable destinations", "backpacking", "travel guide"]
 ---
 

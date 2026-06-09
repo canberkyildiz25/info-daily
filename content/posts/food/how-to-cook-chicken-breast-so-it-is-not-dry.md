@@ -4,7 +4,7 @@ excerpt: "Dry, rubbery chicken breast is one of the most common cooking frustrat
 date: "2025-10-13"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/10143151/pexels-photo-10143151.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["chicken breast", "cooking tips", "recipes", "protein", "meal prep"]
 ---
 

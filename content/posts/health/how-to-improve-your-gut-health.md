@@ -4,7 +4,7 @@ excerpt: "Your gut affects your mood, immune system, and weight more than you re
 date: "2025-10-17"
 updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/8670186/pexels-photo-8670186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["gut health", "microbiome", "digestion", "probiotics", "nutrition"]
 ---
 

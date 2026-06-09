@@ -5,7 +5,7 @@ date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
 tags: ["soft skills", "AI", "career", "leadership", "communication", "future of work"]
-coverImage: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/8438942/pexels-photo-8438942.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 For decades, the professional advice was straightforward: develop technical skills. Learn to code. Get certified. Specialize. Technical expertise was the surest path to economic security.

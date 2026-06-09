@@ -4,7 +4,7 @@ excerpt: "Your gut does far more than digest food. Discover how gut health influ
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/7005326/pexels-photo-7005326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["gut health", "microbiome", "digestive health", "wellness", "immune system"]
 ---
 

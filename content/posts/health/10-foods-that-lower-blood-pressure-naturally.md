@@ -5,7 +5,7 @@ date: "2025-04-01"
 updatedAt: "2026-05-18"
 author: "Jessica Morgan"
 tags: ["blood pressure", "hypertension", "heart health", "diet", "natural remedies"]
-coverImage: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/27498514/pexels-photo-27498514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 High blood pressure — or hypertension — affects nearly 1 in 3 adults worldwide and is a leading risk factor for heart disease and stroke. The good news? Your diet is one of the most powerful tools you have to manage it.

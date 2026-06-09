@@ -4,7 +4,7 @@ excerpt: "Learn what a credit score is, why it matters for your financial future
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://images.unsplash.com/photo-1543286386-2e659306cd6c?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/164571/pexels-photo-164571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["credit score", "personal finance", "credit repair", "financial literacy", "money management"]
 ---
 

@@ -4,7 +4,7 @@ excerpt: "Discover proven strategies to curb impulse buying, take control of you
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/30423876/pexels-photo-30423876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["impulse buying", "saving money", "budgeting tips", "personal finance", "spending habits"]
 ---
 

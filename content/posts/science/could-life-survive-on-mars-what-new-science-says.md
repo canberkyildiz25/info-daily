@@ -5,7 +5,7 @@ date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
 tags: ["Mars", "astrobiology", "space", "life on Mars", "NASA", "science"]
-coverImage: "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/8474817/pexels-photo-8474817.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 Mars has fascinated humanity for centuries. In recent years, the question has shifted from "Is Mars interesting?" to something far more profound: "Could life survive there?" New research published in 2026 suggests the answer might be yes — at least for some forms of life.

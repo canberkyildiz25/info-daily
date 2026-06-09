@@ -4,7 +4,7 @@ excerpt: "Think you need thousands to start investing? Think again. Here's exact
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/16886249/pexels-photo-16886249.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["investing for beginners", "how to invest", "investing with little money", "personal finance", "building wealth"]
 ---
 

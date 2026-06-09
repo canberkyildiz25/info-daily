@@ -4,7 +4,7 @@ excerpt: "Amazon's $19.99 Prime Video bundle shakes up streaming. Here's exactly
 date: "2026-04-15"
 updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/8357683/pexels-photo-8357683.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Prime Video", "streaming bundles", "Amazon Prime", "streaming comparison", "cord-cutting"]
 ---
 

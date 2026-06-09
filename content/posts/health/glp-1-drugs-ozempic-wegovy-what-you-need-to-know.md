@@ -5,7 +5,7 @@ date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
 tags: ["GLP-1", "Ozempic", "Wegovy", "weight loss", "diabetes", "semaglutide"]
-coverImage: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/5998503/pexels-photo-5998503.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 GLP-1 receptor agonists — commonly known by brand names like Ozempic, Wegovy, and Mounjaro — have become the most talked-about medications of the decade. Originally developed to treat type 2 diabetes, these drugs are now being studied and prescribed for a surprising range of conditions.

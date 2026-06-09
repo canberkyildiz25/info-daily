@@ -4,7 +4,7 @@ excerpt: "Not all climate actions are created equal. On Earth Day, here's what t
 date: "2026-04-22"
 updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/30596274/pexels-photo-30596274.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Earth Day", "climate change", "environment", "sustainability", "science"]
 ---
 

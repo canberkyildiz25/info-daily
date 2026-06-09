@@ -4,7 +4,7 @@ excerpt: "Night shift workers often miss critical sleep signals. Discover 10 key
 date: "2026-05-07"
 updatedAt: "2026-05-18"
 author: "Dr. Sarah Collins"
-coverImage: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/36713392/pexels-photo-36713392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["sleep health", "night shift work", "sleep deprivation", "workplace wellness", "sleep hygiene"]
 ---
 

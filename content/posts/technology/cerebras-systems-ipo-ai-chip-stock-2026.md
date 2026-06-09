@@ -5,7 +5,7 @@ date: "2026-05-15"
 updatedAt: "2026-05-18"
 author: "Alex Rivera"
 tags: ["AI chips", "IPO", "Cerebras", "CBRS", "investing", "Nasdaq", "artificial intelligence"]
-coverImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/34924856/pexels-photo-34924856.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 On May 14, 2026, Cerebras Systems walked onto the Nasdaq and immediately set the AI investing world on fire. Priced at $185 per share, the stock closed its first day at $311.07 — a 68.2% gain that pushed the company's market cap to $95 billion and made it the largest tech IPO since Uber's debut in 2019.

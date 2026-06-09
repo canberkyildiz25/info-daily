@@ -4,7 +4,7 @@ excerpt: "The world's most productive entrepreneurs share specific daily habits 
 date: "2025-03-25"
 updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/8279238/pexels-photo-8279238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["productivity", "entrepreneurship", "habits", "success", "business"]
 ---
 

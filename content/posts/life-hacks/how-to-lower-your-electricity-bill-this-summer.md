@@ -4,7 +4,7 @@ excerpt: "Electricity rates are up, summer heat is coming, and air conditioning 
 date: "2026-04-27"
 updatedAt: "2026-05-18"
 author: "Olivia Chen"
-coverImage: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/13785838/pexels-photo-13785838.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["electricity", "energy", "saving money", "home", "summer"]
 ---
 

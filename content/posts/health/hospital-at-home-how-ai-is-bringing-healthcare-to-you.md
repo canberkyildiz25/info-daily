@@ -5,7 +5,7 @@ date: "2026-05-18"
 updatedAt: "2026-05-18"
 author: "Priya Nair"
 tags: ["healthcare", "AI", "hospital at home", "remote monitoring", "health technology", "digital health"]
-coverImage: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/5049242/pexels-photo-5049242.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 On a Tuesday afternoon in suburban Boston, a 74-year-old woman recovering from pneumonia sits in her own armchair. A wearable patch on her chest monitors her heart rate, respiratory rate, blood oxygen, and skin temperature. A bedside hub connects her to a clinical team three miles away. An AI system is watching her vitals continuously, flagging patterns that a nurse checking in every four hours might not catch until too late.

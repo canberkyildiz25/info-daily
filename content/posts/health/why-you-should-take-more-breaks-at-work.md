@@ -3,7 +3,7 @@ title: "Why You Should Take More Breaks During Your Workday"
 excerpt: "Skipping breaks doesn't make you more productive — it makes you less. Here's what the research says about rest, focus, and why the most effective workers take breaks deliberately."
 date: "2026-06-01"
 author: "Dr. Sarah Collins"
-coverImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/6028630/pexels-photo-6028630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["productivity", "workplace health", "focus", "burnout", "work habits"]
 ---
 

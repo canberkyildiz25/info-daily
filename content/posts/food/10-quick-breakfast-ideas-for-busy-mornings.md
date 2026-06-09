@@ -4,7 +4,7 @@ excerpt: "Skipping breakfast sabotages your energy and focus. These 10 ideas tak
 date: "2025-09-29"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1551183053-bf91798d792f?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/8937246/pexels-photo-8937246.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["breakfast", "quick recipes", "healthy eating", "morning routine", "nutrition"]
 ---
 

@@ -4,7 +4,7 @@ excerpt: "Discover proven natural remedies for headaches, from hydration and ess
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Dr. Sarah Collins"
-coverImage: "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/28927702/pexels-photo-28927702.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["natural remedies", "headache relief", "holistic health", "wellness tips", "migraine treatment"]
 ---
 

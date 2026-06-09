@@ -4,7 +4,7 @@ excerpt: "Metabolism does slow with age, but it's far more controllable than you
 date: "2025-12-13"
 updatedAt: "2026-05-18"
 author: "Mark Stevens, CSCS"
-coverImage: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/11618177/pexels-photo-11618177.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["metabolism", "over 40", "weight loss", "hormones", "fitness"]
 ---
 

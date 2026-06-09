@@ -4,7 +4,7 @@ excerpt: "Neuroscience has mapped the brain's daily performance curve with surpr
 date: "2026-05-14"
 updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://images.unsplash.com/photo-1549923746-c502d488b3ea?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/8538937/pexels-photo-8538937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["brain science", "productivity", "circadian rhythm", "focus", "neuroscience", "cognitive performance"]
 ---
 

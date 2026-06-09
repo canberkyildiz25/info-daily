@@ -4,7 +4,7 @@ excerpt: "Discover practical, everyday strategies to deepen your connections and
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/36766899/pexels-photo-36766899.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["relationships", "communication skills", "personal growth", "emotional intelligence", "healthy habits"]
 ---
 

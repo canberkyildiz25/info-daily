@@ -4,7 +4,7 @@ excerpt: "Explore what the metaverse really is, where it stands in 2026, and whe
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/7561970/pexels-photo-7561970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["metaverse", "virtual reality", "technology trends", "Web3", "digital innovation"]
 ---
 

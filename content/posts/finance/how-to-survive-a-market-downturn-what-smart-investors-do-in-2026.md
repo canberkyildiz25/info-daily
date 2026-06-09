@@ -4,7 +4,7 @@ excerpt: "Markets are volatile and uncertainty is high. Here's exactly what expe
 date: "2026-04-18"
 updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/6289066/pexels-photo-6289066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["investing", "stock market", "recession", "personal finance", "wealth management"]
 ---
 

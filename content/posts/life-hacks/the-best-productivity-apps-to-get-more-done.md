@@ -4,7 +4,7 @@ excerpt: "Discover the top productivity apps that can help you manage tasks, sta
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/33266834/pexels-photo-33266834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["productivity apps", "task management", "time management", "focus tools", "getting things done"]
 ---
 

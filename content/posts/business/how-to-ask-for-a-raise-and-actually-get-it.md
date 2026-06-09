@@ -4,7 +4,7 @@ excerpt: "Most people either never ask for raises or ask ineffectively. This ste
 date: "2025-10-15"
 updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/31984656/pexels-photo-31984656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["salary negotiation", "career", "raise", "workplace", "negotiation"]
 ---
 

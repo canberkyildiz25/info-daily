@@ -4,7 +4,7 @@ excerpt: "Discover how dropshipping works, what's changed in 2026, and whether t
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/32831065/pexels-photo-32831065.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["dropshipping", "ecommerce", "online business", "passive income", "entrepreneurship"]
 ---
 

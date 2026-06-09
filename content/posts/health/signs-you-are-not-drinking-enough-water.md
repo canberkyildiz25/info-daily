@@ -4,7 +4,7 @@ excerpt: "Discover the surprising warning signs of dehydration and learn how to 
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/12585554/pexels-photo-12585554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["dehydration signs", "drinking enough water", "hydration tips", "health warning signs", "daily water intake"]
 ---
 

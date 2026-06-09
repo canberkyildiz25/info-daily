@@ -4,7 +4,7 @@ excerpt: "Looking for passive income ideas that actually work in 2026? A CFP ran
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/4475524/pexels-photo-4475524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["passive income", "passive income ideas 2026", "passive income streams", "financial independence", "investing", "side income"]
 ---
 

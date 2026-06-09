@@ -3,7 +3,7 @@ title: "How to Invest Your First $1,000"
 excerpt: "Your first $1,000 investment won't make you rich overnight — but how you invest it will shape your financial habits for decades. Here's the smart approach."
 date: "2026-05-24"
 author: "James Park, CFP"
-coverImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/7887850/pexels-photo-7887850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["investing", "beginners", "personal finance", "stock market", "wealth building"]
 ---
 

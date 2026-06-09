@@ -4,7 +4,7 @@ excerpt: "A business plan doesn't have to take weeks. This focused one-day frame
 date: "2025-09-17"
 updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/6774944/pexels-photo-6774944.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["business plan", "entrepreneurship", "startup", "business strategy", "planning"]
 ---
 

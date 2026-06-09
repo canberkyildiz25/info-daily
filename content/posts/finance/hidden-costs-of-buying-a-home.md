@@ -3,7 +3,7 @@ title: "The Hidden Costs of Buying a Home No One Tells You About"
 excerpt: "The down payment is just the beginning. First-time buyers routinely underestimate total purchase costs by $15,000–$30,000. Here's what to budget for before you sign."
 date: "2026-06-02"
 author: "James Mercer"
-coverImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/29457610/pexels-photo-29457610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["home buying", "real estate", "personal finance", "first-time buyer", "mortgage"]
 ---
 
