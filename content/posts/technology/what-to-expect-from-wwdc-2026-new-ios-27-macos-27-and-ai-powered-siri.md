@@ -3,7 +3,7 @@ title: "What to Expect From WWDC 2026: New iOS 27, macOS 27, and AI-Powered Siri
 excerpt: "WWDC 2026 is here. Here's everything we expect from iOS 27, macOS 27, and Apple's most intelligent Siri upgrade yet."
 date: "2026-06-06"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?expect%2Cfrom%2Ctechnology&sig=56"
+coverImage: "https://images.pexels.com/photos/35655037/pexels-photo-35655037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["WWDC 2026", "iOS 27", "macOS 27", "AI Siri", "Apple"]
 ---
 

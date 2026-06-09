@@ -3,7 +3,7 @@ title: "Why Children's Wellbeing Is Declining in the U.S. and What Parents Can D
 excerpt: "Children's wellbeing in the U.S. is declining at alarming rates. Discover the key causes and practical steps parents can take to protect their kids."
 date: "2026-06-08"
 author: "Dr. Sarah Collins"
-coverImage: "https://source.unsplash.com/800x450/?childrens%2Cwellbeing%2Chealthy&sig=264"
+coverImage: "https://images.pexels.com/photos/36712827/pexels-photo-36712827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["children's wellbeing", "parenting tips", "child mental health", "screen time", "family wellness"]
 ---
 

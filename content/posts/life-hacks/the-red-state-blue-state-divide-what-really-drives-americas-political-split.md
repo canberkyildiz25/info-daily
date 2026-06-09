@@ -3,7 +3,7 @@ title: "The Red State-Blue State Divide: What Really Drives America's Political 
 excerpt: "Explore the real forces behind America's red state-blue state divide, from economics and geography to culture, media, and education."
 date: "2026-06-08"
 author: "Emma Johnson"
-coverImage: "https://source.unsplash.com/800x450/?stateblue%2Cstate%2Cproductivity&sig=952"
+coverImage: "https://images.pexels.com/photos/4669102/pexels-photo-4669102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["red state blue state", "political divide", "US politics", "American polarization", "political geography"]
 ---
 

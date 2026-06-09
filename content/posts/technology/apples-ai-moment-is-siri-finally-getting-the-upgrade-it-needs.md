@@ -3,7 +3,7 @@ title: "Apple's AI Moment: Is Siri Finally Getting the Upgrade It Needs?"
 excerpt: "Apple is reimagining Siri with advanced AI capabilities. Here's what's changing, what it means for users, and whether it's enough to compete."
 date: "2026-06-08"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?apples%2Cmoment%2Ctechnology&sig=288"
+coverImage: "https://images.pexels.com/photos/32021560/pexels-photo-32021560.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Apple AI", "Siri upgrade", "artificial intelligence", "Apple Intelligence", "voice assistants"]
 ---
 

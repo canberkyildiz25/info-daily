@@ -3,7 +3,7 @@ title: "Steam Machine 2026 Launch: Everything Gamers Need to Know"
 excerpt: "Valve's Steam Machine is back in 2026 with a bold new vision. Here's everything gamers need to know about specs, pricing, and what it means for PC gaming."
 date: "2026-06-05"
 author: "Alex Rivera"
-coverImage: "https://picsum.photos/seed/824/800/450"
+coverImage: "https://images.pexels.com/photos/7858767/pexels-photo-7858767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Steam Machine 2026", "Valve gaming hardware", "PC gaming", "SteamOS", "gaming console"]
 ---
 

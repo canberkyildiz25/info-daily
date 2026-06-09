@@ -3,7 +3,7 @@ title: "The 2026 Tony Awards: Everything You Need to Know From the Official Play
 excerpt: "Your complete guide to the 2026 Tony Awards — nominees, performers, host details, and how to watch Broadway's biggest night live."
 date: "2026-06-07"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?2026%2Ctony%2Ccinema&sig=248"
+coverImage: "https://images.pexels.com/photos/7005627/pexels-photo-7005627.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Tony Awards 2026", "Broadway", "theater awards", "Playbill", "live theater"]
 ---
 

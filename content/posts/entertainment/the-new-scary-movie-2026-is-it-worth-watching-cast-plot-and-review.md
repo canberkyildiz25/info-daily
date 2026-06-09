@@ -3,7 +3,7 @@ title: "The New 'Scary Movie' 2026: Is It Worth Watching? Cast, Plot, and Review
 excerpt: "Everything you need to know about the new Scary Movie 2026—cast, plot details, and our honest review to help you decide if it's worth your ticket."
 date: "2026-06-06"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?scary%2Cmovie%2Ccinema&sig=184"
+coverImage: "https://images.pexels.com/photos/7991369/pexels-photo-7991369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Scary Movie 2026", "horror comedy", "movie review", "new movies 2026", "Scary Movie cast"]
 ---
 

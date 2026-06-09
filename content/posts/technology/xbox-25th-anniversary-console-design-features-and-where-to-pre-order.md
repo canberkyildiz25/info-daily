@@ -3,7 +3,7 @@ title: "Xbox 25th Anniversary Console: Design, Features, and Where to Pre-Order"
 excerpt: "Everything you need to know about the Xbox 25th Anniversary Console — its nostalgic design, upgraded features, and where to secure your pre-order."
 date: "2026-06-08"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?xbox%2C25th%2Ctechnology&sig=616"
+coverImage: "https://images.pexels.com/photos/30353202/pexels-photo-30353202.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Xbox 25th Anniversary", "Xbox Console", "Gaming News", "Pre-Order Guide", "Xbox Limited Edition"]
 ---
 

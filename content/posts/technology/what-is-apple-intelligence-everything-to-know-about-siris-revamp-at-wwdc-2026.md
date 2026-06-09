@@ -3,7 +3,7 @@ title: "What Is Apple Intelligence? Everything to Know About Siri's Revamp at WW
 excerpt: "Apple Intelligence gets its biggest upgrade yet at WWDC 2026. Here's everything you need to know about Siri's revamp and new AI features."
 date: "2026-06-05"
 author: "Alex Rivera"
-coverImage: "https://picsum.photos/seed/72/800/450"
+coverImage: "https://images.pexels.com/photos/16229746/pexels-photo-16229746.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Apple Intelligence", "WWDC 2026", "Siri", "Apple AI", "iOS 20"]
 ---
 

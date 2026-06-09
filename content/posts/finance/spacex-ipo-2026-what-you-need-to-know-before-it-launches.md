@@ -3,7 +3,7 @@ title: "SpaceX IPO 2026: What You Need to Know Before It Launches"
 excerpt: "SpaceX may finally go public in 2026. Here's what investors need to know about the valuation, timeline, risks, and how to prepare for the biggest IPO in years."
 date: "2026-06-06"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?spacex%2C2026%2Cmoney&sig=736"
+coverImage: "https://images.pexels.com/photos/586045/pexels-photo-586045.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["SpaceX IPO", "investing 2026", "stock market", "Elon Musk", "IPO investing"]
 ---
 

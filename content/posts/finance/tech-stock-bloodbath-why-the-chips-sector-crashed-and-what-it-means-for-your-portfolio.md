@@ -3,7 +3,7 @@ title: "Tech Stock Bloodbath: Why the Chips Sector Crashed and What It Means for
 excerpt: "The semiconductor sector just suffered its worst sell-off in years. Here's what triggered the crash and how to protect your portfolio."
 date: "2026-06-06"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?tech%2Cstock%2Cmoney&sig=664"
+coverImage: "https://images.pexels.com/photos/5717758/pexels-photo-5717758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["tech stocks", "semiconductor crash", "chip stocks", "portfolio strategy", "stock market 2026"]
 ---
 

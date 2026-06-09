@@ -3,7 +3,7 @@ title: "Screwworm in Texas: What This Rare Parasite Is and How to Stay Safe"
 excerpt: "Screwworm flies have resurfaced in Texas, raising alarms. Learn what this rare parasite is, how it spreads, and how to protect yourself and your animals."
 date: "2026-06-06"
 author: "Dr. Sarah Collins"
-coverImage: "https://source.unsplash.com/800x450/?screwworm%2Ctexas%2Chealthy&sig=32"
+coverImage: "https://images.pexels.com/photos/5083105/pexels-photo-5083105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["screwworm", "Texas parasites", "livestock health", "public health", "pest control"]
 ---
 

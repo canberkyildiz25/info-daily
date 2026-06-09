@@ -3,7 +3,7 @@ title: "Tech Stock Sell-Off 2026: Why Amazon and Microsoft Are Outperforming"
 excerpt: "Amid the 2026 tech stock sell-off, Amazon and Microsoft are bucking the trend. Here's why these giants are outperforming and what it means for investors."
 date: "2026-06-07"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?tech%2Cstock%2Cmoney&sig=720"
+coverImage: "https://images.pexels.com/photos/30609092/pexels-photo-30609092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["tech stocks", "stock market 2026", "Amazon stock", "Microsoft stock", "investing strategy"]
 ---
 

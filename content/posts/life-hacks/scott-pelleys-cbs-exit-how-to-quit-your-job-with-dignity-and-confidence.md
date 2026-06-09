@@ -3,7 +3,7 @@ title: "Scott Pelley's CBS Exit: How to Quit Your Job with Dignity and Confidenc
 excerpt: "Scott Pelley's graceful departure from CBS offers powerful lessons on quitting your job with professionalism, dignity, and confidence."
 date: "2026-06-05"
 author: "Emma Johnson"
-coverImage: "https://picsum.photos/seed/632/800/450"
+coverImage: "https://images.pexels.com/photos/9046696/pexels-photo-9046696.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["quitting your job", "career advice", "Scott Pelley CBS", "professional resignation", "workplace transitions"]
 ---
 
