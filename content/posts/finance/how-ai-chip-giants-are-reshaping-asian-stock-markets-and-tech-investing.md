@@ -3,7 +3,7 @@ title: "How AI Chip Giants Are Reshaping Asian Stock Markets and Tech Investing"
 excerpt: "Discover how AI chip powerhouses like NVIDIA, TSMC, and Samsung are transforming Asian stock markets and creating new opportunities for tech investors."
 date: "2026-06-08"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?chip%2Cgiants%2Cmoney&sig=256"
+coverImage: "https://images.pexels.com/photos/33955927/pexels-photo-33955927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["AI chips", "Asian stock markets", "tech investing", "semiconductor stocks", "TSMC"]
 ---
 

@@ -3,7 +3,7 @@ title: "Apple Intelligence and Siri Revamp: What to Expect From WWDC 2026"
 excerpt: "WWDC 2026 promises the biggest Siri overhaul ever and major Apple Intelligence upgrades. Here's everything we expect Apple to announce this year."
 date: "2026-06-07"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?apple%2Cintelligence%2Ctechnology&sig=688"
+coverImage: "https://images.pexels.com/photos/9546371/pexels-photo-9546371.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Apple Intelligence", "Siri", "WWDC 2026", "artificial intelligence", "Apple"]
 ---
 

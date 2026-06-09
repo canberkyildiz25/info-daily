@@ -3,7 +3,7 @@ title: "HP's New AI PC with Nvidia GB300: Specs, Price, and What It Means for Cr
 excerpt: "HP's latest AI PC packs Nvidia's GB300 GPU for creators. Here's a full breakdown of specs, pricing, and why it matters."
 date: "2026-06-07"
 author: "Alex Rivera"
-coverImage: "https://source.unsplash.com/800x450/?nvidia%2Cgb300%2Ctechnology&sig=968"
+coverImage: "https://images.pexels.com/photos/19356873/pexels-photo-19356873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["HP AI PC", "Nvidia GB300", "AI for creators", "workstation GPU", "creative technology"]
 ---
 

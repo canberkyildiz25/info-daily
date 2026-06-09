@@ -3,7 +3,7 @@ title: "Screwworm Border Closure: How It's Reshaping Mexico's Beef Industry and 
 excerpt: "The screwworm-driven border closure is transforming beef trade between Mexico and Texas. Here's what ranchers and industry stakeholders need to know."
 date: "2026-06-07"
 author: "David Kim"
-coverImage: "https://source.unsplash.com/800x450/?screwworm%2Cborder%2Cbusiness&sig=208"
+coverImage: "https://images.pexels.com/photos/37746764/pexels-photo-37746764.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["screwworm", "border closure", "beef industry", "Texas ranching", "livestock trade"]
 ---
 

@@ -3,7 +3,7 @@ title: "Nvidia and SK Hynix Partnership: What the Next-Gen Chip Deal Means for T
 excerpt: "Nvidia and SK Hynix are deepening their chip partnership. Here's what the next-gen deal means for AI, gaming, and the future of tech."
 date: "2026-06-08"
 author: "David Kim"
-coverImage: "https://source.unsplash.com/800x450/?nvidia%2Chynix%2Cbusiness&sig=200"
+coverImage: "https://images.pexels.com/photos/34552802/pexels-photo-34552802.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Nvidia", "SK Hynix", "AI chips", "semiconductor industry", "tech partnerships"]
 ---
 

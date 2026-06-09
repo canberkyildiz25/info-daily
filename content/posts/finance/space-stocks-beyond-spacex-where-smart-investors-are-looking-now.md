@@ -3,7 +3,7 @@ title: "Space Stocks Beyond SpaceX: Where Smart Investors Are Looking Now"
 excerpt: "SpaceX isn't publicly traded, but the space economy is booming. Discover where savvy investors are putting their money in 2026's hottest sector."
 date: "2026-06-05"
 author: "James Park, CFP"
-coverImage: "https://picsum.photos/seed/952/800/450"
+coverImage: "https://images.pexels.com/photos/8474973/pexels-photo-8474973.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["space stocks", "investing", "space economy", "stock market", "aerospace investing"]
 ---
 

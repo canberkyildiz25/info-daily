@@ -3,7 +3,7 @@ title: "Microsoft's AI Independence: What the Company's Split From OpenAI Means 
 excerpt: "Microsoft is charting its own AI course after splitting from OpenAI. Here's what this seismic shift means for developers, businesses, and the future of AI."
 date: "2026-06-06"
 author: "David Kim"
-coverImage: "https://source.unsplash.com/800x450/?microsofts%2Cindependence%2Cbusiness&sig=704"
+coverImage: "https://images.pexels.com/photos/16461434/pexels-photo-16461434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Microsoft AI", "OpenAI", "artificial intelligence", "tech industry", "AI strategy"]
 ---
 

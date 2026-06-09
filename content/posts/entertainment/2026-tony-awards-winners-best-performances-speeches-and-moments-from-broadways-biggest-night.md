@@ -3,7 +3,7 @@ title: "2026 Tony Awards Winners: Best Performances, Speeches, and Moments from 
 excerpt: "Relive the 2026 Tony Awards with a full breakdown of winners, standout performances, memorable speeches, and the biggest moments from Broadway's top night."
 date: "2026-06-08"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?2026%2Ctony%2Ccinema&sig=456"
+coverImage: "https://images.pexels.com/photos/7267547/pexels-photo-7267547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["2026 Tony Awards", "Broadway", "Tony Awards winners", "theater", "live performances"]
 ---
 

@@ -3,7 +3,7 @@ title: "Why the Job Market Is Thriving Despite Economic Uncertainty in 2026"
 excerpt: "Discover why the 2026 job market remains resilient despite economic headwinds — and how you can position yourself to take advantage of it."
 date: "2026-06-07"
 author: "James Park, CFP"
-coverImage: "https://source.unsplash.com/800x450/?market%2Cthriving%2Cmoney&sig=224"
+coverImage: "https://images.pexels.com/photos/7948055/pexels-photo-7948055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["job market 2026", "economic uncertainty", "employment trends", "career advice", "labor market"]
 ---
 

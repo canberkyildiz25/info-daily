@@ -3,7 +3,7 @@ title: "What Is Halo: Campaign Evolved? Everything You Need to Know About the Ju
 excerpt: "Halo: Campaign Evolved launches July 2026. Here's everything you need to know about the reimagined campaign experience, new features, and how to prepare."
 date: "2026-06-08"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?halo%2Ccampaign%2Ccinema&sig=320"
+coverImage: "https://images.pexels.com/photos/15635244/pexels-photo-15635244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Halo Campaign Evolved", "Halo 2026", "Xbox gaming", "343 Industries", "Halo launch July 2026"]
 ---
 

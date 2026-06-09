@@ -3,7 +3,7 @@ title: "Bruce Springsteen Opens New Music Center: What Fans Can Expect"
 excerpt: "Bruce Springsteen unveils a groundbreaking new music center. Here's everything fans need to know about visiting, exhibits, and what makes it special."
 date: "2026-06-07"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?bruce%2Cspringsteen%2Ccinema&sig=760"
+coverImage: "https://images.pexels.com/photos/1494665/pexels-photo-1494665.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Bruce Springsteen", "music center", "New Jersey", "rock music", "entertainment"]
 ---
 

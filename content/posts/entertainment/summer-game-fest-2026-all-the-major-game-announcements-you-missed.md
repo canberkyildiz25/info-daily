@@ -3,7 +3,7 @@ title: "Summer Game Fest 2026: All the Major Game Announcements You Missed"
 excerpt: "From jaw-dropping reveals to surprise sequels, here's every major announcement from Summer Game Fest 2026 you need to know about."
 date: "2026-06-06"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?summer%2Cgame%2Ccinema&sig=32"
+coverImage: "https://images.pexels.com/photos/34956925/pexels-photo-34956925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Summer Game Fest 2026", "game announcements", "video games", "gaming news", "E3 replacement"]
 ---
 

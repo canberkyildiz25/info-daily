@@ -3,7 +3,7 @@ title: "Godzilla: Destroy All Monsters Melee Remastered: Nintendo Switch 2's Lea
 excerpt: "Everything we know about the leaked Godzilla: Destroy All Monsters Melee Remastered for Nintendo Switch 2, including roster, gameplay, and release details."
 date: "2026-06-07"
 author: "Maria Chen"
-coverImage: "https://source.unsplash.com/800x450/?godzilla%2Cdestroy%2Ccinema&sig=640"
+coverImage: "https://images.pexels.com/photos/34482312/pexels-photo-34482312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Godzilla", "Nintendo Switch 2", "Destroy All Monsters Melee", "remastered games", "kaiju gaming"]
 ---
 
