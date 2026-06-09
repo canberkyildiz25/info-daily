@@ -7,6 +7,7 @@ import { getAuthorByName } from '@/lib/authors';
 interface ArticleCardProps {
   post: Post;
   featured?: boolean;
+  imagePriority?: boolean;
 }
 
 const CATEGORY_GRADIENTS: Record<string, string> = {
@@ -21,7 +22,7 @@ function isNew(dateStr: string) {
   return (Date.now() - new Date(dateStr).getTime()) < 7 * 24 * 60 * 60 * 1000;
 }
 
-export default function ArticleCard({ post, featured = false }: ArticleCardProps) {
+export default function ArticleCard({ post, featured = false, imagePriority = false }: ArticleCardProps) {
   const category = CATEGORIES.find(c => c.slug === post.category);
   const gradient = CATEGORY_GRADIENTS[post.category] ?? 'from-blue-500 to-indigo-600';
   const author = getAuthorByName(post.author);
@@ -41,7 +42,7 @@ export default function ArticleCard({ post, featured = false }: ArticleCardProps
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                priority={featured}
+                priority={imagePriority}
               />
             ) : (
               <div className={`bg-gradient-to-br ${gradient} h-full flex items-center justify-center text-6xl`}>
@@ -86,6 +87,8 @@ export default function ArticleCard({ post, featured = false }: ArticleCardProps
                   src={author?.avatar ?? `https://i.pravatar.cc/300?u=infodaily-${post.author.toLowerCase().replace(/\s+/g, '-')}`}
                   alt={post.author}
                   className="w-6 h-6 rounded-full object-cover flex-shrink-0"
+                  loading="lazy"
+                  fetchPriority="low"
                 />
                 <span className="text-xs text-gray-500 dark:text-slate-400 truncate">{post.author}</span>
               </div>
