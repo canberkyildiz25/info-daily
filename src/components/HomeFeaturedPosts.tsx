@@ -54,7 +54,7 @@ export default function HomeFeaturedPosts({ posts }: { posts: Post[] }) {
                   className="animate-fade-in-up"
                   style={{ animationDelay: `${(idx * 3 + i) * 40}ms` }}
                 >
-                  <ArticleCard post={post} featured />
+                  <ArticleCard post={post} featured imagePriority={idx === 0 && i < 3} />
                 </div>
               ))}
             </div>

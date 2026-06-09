@@ -24,6 +24,15 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   const { category, slug } = await params;
   const post = await getPost(category, slug);
   if (!post) return {};
+
+  const hasFrontmatterImage = post.coverImage &&
+    !post.coverImage.startsWith('/images/') &&
+    !post.coverImage.includes('source.unsplash.com') &&
+    !post.coverImage.includes('picsum.photos');
+  const ogImage = hasFrontmatterImage
+    ? post.coverImage
+    : await getCoverImageUrl(`${post.title} ${category}`, post.slug) || post.coverImage;
+
   return {
     title: post.title,
     description: post.excerpt,
@@ -38,13 +47,13 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
       modifiedTime: post.updatedAt ?? post.date,
       authors: [post.author],
       url: `https://www.infodaily.net/${category}/${slug}`,
-      ...(post.coverImage ? { images: [{ url: post.coverImage, width: 1200, height: 675, alt: post.title }] } : {}),
+      ...(ogImage ? { images: [{ url: ogImage, width: 1200, height: 675, alt: post.title }] } : {}),
     },
     twitter: {
       card: 'summary_large_image',
       title: post.title,
       description: post.excerpt,
-      ...(post.coverImage ? { images: [post.coverImage] } : {}),
+      ...(ogImage ? { images: [ogImage] } : {}),
     },
   };
 }
