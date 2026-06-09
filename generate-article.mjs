@@ -40,12 +40,31 @@ function titleToSlug(title) {
   return title.toLowerCase().replace(/[^a-z0-9\s-]/g, '').trim().replace(/\s+/g, '-').replace(/-+/g, '-');
 }
 
-function getCoverImage(category, title) {
-  const stopWords = new Set(['the','a','an','of','to','for','in','on','at','with','how','best','top','ways','tips']);
-  const titleWords = title.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(' ')
-    .filter(w => w.length > 3 && !stopWords.has(w)).slice(0, 2);
-  const catKw = (CATEGORY_KEYWORDS[category] || category).split(' ')[0];
-  const keywords = [...titleWords, catKw].join(',');
+async function getCoverImage(category, title) {
+  const pexelsKey = env.PEXELS_API_KEY;
+  if (pexelsKey) {
+    const stopWords = new Set(['the','a','an','of','to','for','in','on','at','with','how','best','top','ways','tips']);
+    const titleWords = title.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(' ')
+      .filter(w => w.length > 3 && !stopWords.has(w)).slice(0, 3);
+    const catKw = (CATEGORY_KEYWORDS[category] || category).split(' ')[0];
+    const query = [...titleWords, catKw].join(' ');
+    const slug = titleToSlug(title);
+    try {
+      const res = await fetch(
+        `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=10&orientation=landscape`,
+        { headers: { Authorization: pexelsKey } }
+      );
+      if (res.ok) {
+        const data = await res.json();
+        if (data.photos?.length) {
+          const idx = Math.abs(slug.split('').reduce((a, c) => a * 31 + c.charCodeAt(0), 0)) % data.photos.length;
+          const url = data.photos[idx].src.large2x || data.photos[idx].src.large;
+          if (url) return url;
+        }
+      }
+    } catch {}
+  }
+  // Fallback: stable picsum seed (last resort)
   const seed = Math.abs(title.split('').reduce((acc, c) => acc * 31 + c.charCodeAt(0), 0) % 1000);
   return `https://picsum.photos/seed/${seed}/800/450`;
 }
@@ -62,7 +81,8 @@ if (!ANTHROPIC_API_KEY) { console.error('Missing ANTHROPIC_API_KEY'); process.ex
 
 const slug = titleToSlug(title);
 const filePath = `content/posts/${category}/${slug}.md`;
-const coverImage = getCoverImage(category, title);
+console.log('Fetching cover image from Pexels...');
+const coverImage = await getCoverImage(category, title);
 const today = new Date().toISOString().split('T')[0];
 
 console.log(`Generating: "${title}" [${category}]`);

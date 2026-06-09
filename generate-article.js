@@ -58,27 +58,26 @@ function titleToSlug(title) {
     .replace(/-+/g, '-');
 }
 
-function getCoverImage(category, title) {
-  // Extract key nouns from title for a more specific image
+async function getCoverImageFromPexels(category, title) {
+  const pexelsKey = process.env.PEXELS_API_KEY;
+  if (!pexelsKey) return null;
   const stopWords = new Set(['the','a','an','of','to','for','in','on','at','with','how','best','top','ways','tips','guide','what','why','when','where','who']);
-  const keywords = title
-    .toLowerCase()
-    .replace(/[^a-z0-9\s]/g, '')
-    .split(' ')
-    .filter(w => w.length > 3 && !stopWords.has(w))
-    .slice(0, 2)
-    .join(' ');
-
-  const baseKeywords = CATEGORY_UNSPLASH_KEYWORDS[category] || category;
-  const query = encodeURIComponent(keywords || baseKeywords);
-  // Use a seeded random based on title so same title always gets same image
-  const seed = title.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0);
-  return `https://images.unsplash.com/photo-${1677000000000 + (seed % 500000000)}?w=800&q=80`;
-}
-
-function getCoverImageByKeyword(category, title) {
-  const seed = Math.abs(title.split('').reduce((acc, c) => acc * 31 + c.charCodeAt(0), 0) % 1000);
-  return `https://picsum.photos/seed/${seed}/800/450`;
+  const titleWords = title.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(' ')
+    .filter(w => w.length > 3 && !stopWords.has(w)).slice(0, 3);
+  const catKw = (CATEGORY_UNSPLASH_KEYWORDS[category] || category).split(' ')[0];
+  const query = [...titleWords, catKw].join(' ') || catKw;
+  const slug = titleToSlug(title);
+  try {
+    const res = await fetch(
+      `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=10&orientation=landscape`,
+      { headers: { Authorization: pexelsKey } }
+    );
+    if (!res.ok) return null;
+    const data = await res.json();
+    if (!data.photos?.length) return null;
+    const idx = Math.abs(slug.split('').reduce((a, c) => a * 31 + c.charCodeAt(0), 0)) % data.photos.length;
+    return data.photos[idx].src.large2x || data.photos[idx].src.large || null;
+  } catch { return null; }
 }
 
 async function generateArticle(title, category, client) {
@@ -95,7 +94,10 @@ async function generateArticle(title, category, client) {
     throw new Error(`Article already exists: ${outputPath}`);
   }
 
-  const coverImage = getCoverImageByKeyword(category, title);
+  process.stdout.write(`  Fetching cover image... `);
+  const coverImage = await getCoverImageFromPexels(category, title) ||
+    `https://picsum.photos/seed/${Math.abs(slug.split('').reduce((a,c)=>a*31+c.charCodeAt(0),0)%1000)}/800/450`;
+  process.stdout.write('✓\n');
 
   const prompt = `You are an expert content writer for InfoDaily, a knowledge website. Write a comprehensive, SEO-optimized article about: "${title}"
 

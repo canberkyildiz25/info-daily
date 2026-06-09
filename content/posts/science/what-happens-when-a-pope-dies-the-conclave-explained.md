@@ -4,6 +4,7 @@ excerpt: "The death of Pope Francis has set in motion one of the world's oldest 
 date: "2026-04-26"
 updatedAt: "2026-05-18"
 author: "Dr. Elena Russo"
+coverImage: "https://images.pexels.com/photos/14094439/pexels-photo-14094439.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["pope", "Vatican", "conclave", "Catholic Church", "religion"]
 ---
 
