@@ -4,7 +4,7 @@ excerpt: "Apple's long-rumored AR smart glasses are finally taking shape. Here's
 date: "2026-04-14"
 updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/3928120/pexels-photo-3928120.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Apple smart glasses", "Meta Ray-Bans", "AR eyewear", "augmented reality", "wearable technology"]
 ---
 

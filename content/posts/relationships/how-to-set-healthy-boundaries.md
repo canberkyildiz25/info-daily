@@ -4,7 +4,7 @@ excerpt: "Boundaries aren't walls — they're the foundation of every healthy re
 date: "2025-04-04"
 updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/9586529/pexels-photo-9586529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["boundaries", "relationships", "mental health", "communication", "self-care"]
 ---
 

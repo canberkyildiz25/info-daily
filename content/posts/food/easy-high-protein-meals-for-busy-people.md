@@ -4,7 +4,7 @@ excerpt: "Fuel your body with these quick, high-protein meals that take 30 minut
 date: "2025-04-01"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/1640771/pexels-photo-1640771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["high protein", "meal prep", "quick meals", "nutrition", "healthy eating"]
 ---
 

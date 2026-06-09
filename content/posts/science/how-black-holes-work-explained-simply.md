@@ -4,7 +4,7 @@ excerpt: "Discover how black holes form, why nothing escapes them, and what scie
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/10033759/pexels-photo-10033759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["black holes", "space science", "astrophysics", "universe", "science explained"]
 ---
 

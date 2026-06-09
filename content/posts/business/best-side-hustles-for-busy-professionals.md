@@ -4,7 +4,7 @@ excerpt: "Limited time doesn't mean limited income options. These side hustles a
 date: "2025-10-01"
 updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/7993575/pexels-photo-7993575.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["side hustle", "extra income", "freelancing", "business", "passive income"]
 ---
 

@@ -4,7 +4,7 @@ excerpt: "Discover the powerful daily habits that successful people swear by. Tr
 date: "2026-04-10"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/249220/pexels-photo-249220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["personal development", "habits", "self-improvement", "productivity", "life transformation"]
 ---
 

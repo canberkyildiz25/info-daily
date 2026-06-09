@@ -4,7 +4,7 @@ excerpt: "Struggling to fall asleep? Research reveals why your brain fights slee
 date: "2026-04-30"
 updatedAt: "2026-05-18"
 author: "Dr. Sarah Collins"
-coverImage: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/6541068/pexels-photo-6541068.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["sleep", "insomnia", "health", "wellness", "sleep hygiene", "relaxation"]
 ---
 

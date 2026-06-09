@@ -3,7 +3,7 @@ title: "House of the Dragon Season 3: What Emma D'Arcy and Matt Smith Revealed A
 excerpt: "Emma D'Arcy and Matt Smith tease shocking deaths and massive dragon battles in House of the Dragon Season 3. Here's everything they revealed."
 date: "2026-06-09"
 author: "Maria Chen"
-coverImage: "https://picsum.photos/seed/584/800/450"
+coverImage: "https://images.pexels.com/photos/15855218/pexels-photo-15855218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["House of the Dragon Season 3", "Emma D'Arcy", "Matt Smith", "HBO", "Game of Thrones"]
 ---
 

@@ -5,7 +5,7 @@ date: "2026-05-16"
 updatedAt: "2026-05-18"
 author: "James Park, CFP"
 tags: ["Warren Buffett", "Berkshire Hathaway", "Delta Airlines", "investing", "stocks", "value investing"]
-coverImage: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/34891751/pexels-photo-34891751.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 In May 2020, Warren Buffett did something that shocked the investing world: he sold every share Berkshire Hathaway owned in U.S. airlines — American, United, Southwest, and Delta — at a loss, declaring that the pandemic had permanently altered air travel in ways he could not predict.

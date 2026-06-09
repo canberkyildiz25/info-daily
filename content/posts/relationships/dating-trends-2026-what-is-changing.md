@@ -5,7 +5,7 @@ date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
 tags: ["dating", "relationships", "dating trends", "modern dating", "2026", "romance"]
-coverImage: "https://images.unsplash.com/photo-1474552226712-ac0f0961a954?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/5911040/pexels-photo-5911040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 Dating has always evolved — from arranged marriages to personal ads, from speed dating to swipe-based apps. But the pace of change in how people find and form relationships has accelerated dramatically. In 2026, a new set of trends is reshaping modern romance in ways that would have seemed implausible even five years ago.

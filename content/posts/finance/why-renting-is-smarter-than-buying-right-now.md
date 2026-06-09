@@ -4,7 +4,7 @@ excerpt: "The 'renting is throwing money away' myth has cost Americans billions.
 date: "2026-05-11"
 updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/31974125/pexels-photo-31974125.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["real estate", "renting", "buying a home", "personal finance", "housing market", "mortgage"]
 ---
 

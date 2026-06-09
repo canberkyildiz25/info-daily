@@ -4,7 +4,7 @@ excerpt: "Discover essential vitamins that combat fatigue and boost energy for w
 date: "2026-05-08"
 updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/7615414/pexels-photo-7615414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["women's health", "vitamins", "energy boosting", "fatigue relief", "wellness over 35"]
 ---
 

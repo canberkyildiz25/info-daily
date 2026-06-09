@@ -4,7 +4,7 @@ excerpt: "Your 20s are the most powerful time to start investing — time works 
 date: "2025-12-15"
 updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/6694484/pexels-photo-6694484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["investing", "20s", "Roth IRA", "compound interest", "wealth building"]
 ---
 

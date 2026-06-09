@@ -4,7 +4,7 @@ excerpt: "Discover the science-backed morning habits that healthy people swear b
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Dr. Sarah Collins"
-coverImage: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/27177598/pexels-photo-27177598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["morning routines", "healthy habits", "wellness", "productivity", "science-backed health"]
 ---
 

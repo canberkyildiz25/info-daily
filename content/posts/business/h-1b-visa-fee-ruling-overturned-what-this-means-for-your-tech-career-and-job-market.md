@@ -3,7 +3,7 @@ title: "H-1B Visa Fee Ruling Overturned: What This Means for Your Tech Career an
 excerpt: "A major court ruling just shook up H-1B visa fees—and the ripple effects could reshape tech hiring, salaries, and your career prospects in unexpected ways."
 date: "2026-06-09"
 author: "David Kim"
-coverImage: "https://picsum.photos/seed/944/800/450"
+coverImage: "https://images.pexels.com/photos/29502365/pexels-photo-29502365.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["H-1B visa", "tech careers", "immigration policy", "job market", "visa fees"]
 ---
 

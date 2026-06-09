@@ -3,7 +3,7 @@ title: "The Best Shows to Watch This Summer 2026"
 excerpt: "From gripping thrillers to prestige dramas and sharp comedies, summer 2026 has delivered a strong lineup worth your streaming queue. Here's what's worth watching."
 date: "2026-05-31"
 author: "Canberk Yildiz"
-coverImage: "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/8261568/pexels-photo-8261568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["TV shows", "streaming", "entertainment", "summer 2026", "recommendations"]
 ---
 

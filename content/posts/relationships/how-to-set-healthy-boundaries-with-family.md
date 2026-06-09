@@ -4,7 +4,7 @@ excerpt: "Learn how to set healthy boundaries with family members without guilt.
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/6957043/pexels-photo-6957043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["healthy boundaries", "family relationships", "mental health", "self-care", "communication skills"]
 ---
 

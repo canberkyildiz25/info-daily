@@ -4,7 +4,7 @@ excerpt: "Learn how to craft a powerful personal brand that makes recruiters not
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/8970684/pexels-photo-8970684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["personal branding", "career development", "job search", "professional networking", "LinkedIn tips"]
 ---
 

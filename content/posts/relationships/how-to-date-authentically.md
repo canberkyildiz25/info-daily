@@ -5,7 +5,7 @@ date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
 tags: ["dating", "authenticity", "relationships", "self-confidence", "modern dating", "truecasting"]
-coverImage: "https://images.unsplash.com/photo-1521119989659-a83eee488004?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/7339360/pexels-photo-7339360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 Most people approach dating as a performance. You wear the outfit that makes you look your best, tell the stories that show you in the most favorable light, suppress the opinions that might be divisive, and present a version of yourself carefully optimized for maximum appeal.

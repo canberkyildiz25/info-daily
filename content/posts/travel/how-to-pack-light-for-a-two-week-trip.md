@@ -4,7 +4,7 @@ excerpt: "Master the art of packing light for a two-week trip with proven strate
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/8212231/pexels-photo-8212231.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["packing light", "travel tips", "carry-on travel", "minimalist packing", "two week trip"]
 ---
 

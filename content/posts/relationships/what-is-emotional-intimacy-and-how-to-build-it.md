@@ -5,7 +5,7 @@ date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
 tags: ["emotional intimacy", "relationships", "connection", "vulnerability", "communication", "love"]
-coverImage: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/8096494/pexels-photo-8096494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 Emotional intimacy is the most searched relationship term in 2026. More than communication tips, more than conflict resolution, more than attraction — people are searching for this. Which suggests two things: it's something most people want, and something many people feel they're missing.

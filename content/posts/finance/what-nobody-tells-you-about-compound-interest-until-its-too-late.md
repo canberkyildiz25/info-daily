@@ -5,7 +5,7 @@ date: "2026-05-21"
 updatedAt: "2026-05-21"
 author: "James Park, CFP"
 tags: ["compound interest", "investing", "personal finance", "debt", "savings", "financial literacy"]
-coverImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/6120207/pexels-photo-6120207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 Albert Einstein may or may not have called compound interest the eighth wonder of the world. The quote is almost certainly apocryphal. But whoever said it understood something true: compound interest is the most powerful force in personal finance, and most people only learn this lesson once — either when they retire with more money than they expected, or when they're still paying off debt from their twenties.

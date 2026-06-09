@@ -4,7 +4,7 @@ excerpt: "Walking is the most underrated form of exercise. Just 30 minutes daily
 date: "2025-11-29"
 updatedAt: "2026-05-18"
 author: "Mark Stevens, CSCS"
-coverImage: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/3785405/pexels-photo-3785405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["walking", "exercise", "health benefits", "fitness", "longevity"]
 ---
 

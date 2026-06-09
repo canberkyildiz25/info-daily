@@ -4,7 +4,7 @@ excerpt: "Coupons are fine, but they're not where the real savings are. These st
 date: "2026-05-04"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/27175867/pexels-photo-27175867.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["grocery shopping", "saving money", "budgeting", "food", "life hacks"]
 ---
 

@@ -4,7 +4,7 @@ excerpt: "Freelancing brings freedom—but also tax headaches. Here's your compl
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/7111516/pexels-photo-7111516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["freelancer taxes", "self-employment tax", "tax deductions", "freelance finances", "quarterly taxes"]
 ---
 

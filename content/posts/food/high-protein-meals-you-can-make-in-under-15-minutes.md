@@ -4,7 +4,7 @@ excerpt: "Discover quick, delicious high protein meals you can prepare in under 
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/4827130/pexels-photo-4827130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["high protein meals", "quick recipes", "healthy eating", "meal prep", "protein rich foods"]
 ---
 

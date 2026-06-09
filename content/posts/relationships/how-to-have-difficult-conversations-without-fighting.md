@@ -4,7 +4,7 @@ excerpt: "Learn proven strategies to navigate tough talks with grace. Discover h
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/3958844/pexels-photo-3958844.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["difficult conversations", "communication skills", "conflict resolution", "emotional intelligence", "relationship advice"]
 ---
 

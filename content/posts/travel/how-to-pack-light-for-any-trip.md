@@ -4,7 +4,7 @@ excerpt: "Packing light isn't about deprivation — it's about smarter choices. 
 date: "2025-10-11"
 updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/8212229/pexels-photo-8212229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["packing tips", "carry on", "travel light", "travel hacks", "minimalist travel"]
 ---
 

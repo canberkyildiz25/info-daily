@@ -3,7 +3,7 @@ title: "Deadly Philippines Earthquakes: How to Prepare Your Home and Family for 
 excerpt: "The Philippines faces 100+ earthquakes daily. Discover proven strategies to earthquake-proof your home and keep your family safe when the ground shakes."
 date: "2026-06-09"
 author: "Emma Johnson"
-coverImage: "https://picsum.photos/seed/680/800/450"
+coverImage: "https://images.pexels.com/photos/13710318/pexels-photo-13710318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Philippines earthquakes", "earthquake preparedness", "seismic safety", "disaster preparedness Philippines", "earthquake survival tips"]
 ---
 

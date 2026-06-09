@@ -5,7 +5,7 @@ date: "2026-04-15"
 updatedAt: "2026-05-18"
 author: "James Park, CFP"
 tags: ["tax refunds 2026", "smaller tax refund", "tax return tips", "IRS refund", "tax planning"]
-coverImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/6863330/pexels-photo-6863330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 If you've already filed your 2026 tax return — or you're scrambling to meet today's April 15 deadline — you may have noticed something unsettling: your refund is noticeably smaller than last year's. You're not imagining things, and you're definitely not alone. According to early IRS processing data released in March 2026, the average federal tax refund has dropped by approximately 11% compared to the same filing period in 2025, falling from an average of $3,145 to roughly $2,800.

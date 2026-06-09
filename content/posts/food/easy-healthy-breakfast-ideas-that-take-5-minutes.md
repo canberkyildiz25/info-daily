@@ -4,7 +4,7 @@ excerpt: "Discover quick, nutritious breakfast ideas you can make in 5 minutes o
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/7167855/pexels-photo-7167855.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["healthy breakfast", "quick recipes", "meal prep", "morning routine", "nutrition tips"]
 ---
 

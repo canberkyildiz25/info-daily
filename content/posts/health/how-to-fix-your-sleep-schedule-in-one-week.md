@@ -4,7 +4,7 @@ excerpt: "Whether late nights have pushed your bedtime past midnight or shift wo
 date: "2026-04-19"
 updatedAt: "2026-05-18"
 author: "Dr. Sarah Collins"
-coverImage: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/6660783/pexels-photo-6660783.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["sleep", "insomnia", "circadian rhythm", "health", "wellness", "sleep schedule"]
 ---
 

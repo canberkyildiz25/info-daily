@@ -4,7 +4,7 @@ excerpt: "How you spend your first hour shapes the rest of your day. These evide
 date: "2025-09-25"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/36730166/pexels-photo-36730166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["morning routine", "habits", "productivity", "wellness", "self improvement"]
 ---
 

@@ -3,7 +3,7 @@ title: "Your Phone's AI Assistant Has Gotten Surprisingly Good — Here's What I
 excerpt: "Siri, Gemini, and the rest have crossed a threshold most people missed. The AI assistants already on your phone are now capable enough to meaningfully change how you handle daily tasks — if you know how to use them."
 date: "2026-06-03"
 author: "Tyler Brooks"
-coverImage: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/16380905/pexels-photo-16380905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["AI", "smartphones", "productivity", "technology", "Siri", "Gemini"]
 ---
 

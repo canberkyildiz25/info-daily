@@ -4,7 +4,7 @@ excerpt: "Freelancing is more accessible than ever — but most beginners make a
 date: "2026-04-03"
 updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/1438075/pexels-photo-1438075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["freelancing", "side income", "career", "business", "remote work"]
 ---
 

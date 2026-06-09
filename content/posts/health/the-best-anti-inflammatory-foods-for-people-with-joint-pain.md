@@ -4,7 +4,7 @@ excerpt: "Discover powerful anti-inflammatory foods that reduce joint pain natur
 date: "2026-05-10"
 updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/10112135/pexels-photo-10112135.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["joint pain", "anti-inflammatory foods", "arthritis relief", "healthy eating", "nutrition"]
 ---
 

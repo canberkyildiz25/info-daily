@@ -4,7 +4,7 @@ excerpt: "Master the art of weekly meal prep in just two hours. Save time, eat h
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/1640769/pexels-photo-1640769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["meal prep", "healthy eating", "meal planning", "cooking tips", "weekly meal prep"]
 ---
 

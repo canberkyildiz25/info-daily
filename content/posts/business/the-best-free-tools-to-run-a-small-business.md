@@ -4,7 +4,7 @@ excerpt: "Discover the best free tools to run your small business efficiently â€
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/5973975/pexels-photo-5973975.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["small business tools", "free business software", "productivity", "entrepreneurship", "small business tips"]
 ---
 

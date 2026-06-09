@@ -3,7 +3,7 @@ title: "How to Write a Cold Email That Actually Gets a Response"
 excerpt: "Most cold emails are ignored because they make the same avoidable mistakes. Here's what separates the 2% that get replies from the 98% that don't."
 date: "2026-05-28"
 author: "Tom Bradley"
-coverImage: "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/7054524/pexels-photo-7054524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["cold email", "networking", "sales", "business", "communication"]
 ---
 

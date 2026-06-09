@@ -4,7 +4,7 @@ excerpt: "The word 'superfood' gets overused, but some foods genuinely stand out
 date: "2025-12-09"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/29878501/pexels-photo-29878501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["superfoods", "nutrition", "healthy eating", "diet", "wellness"]
 ---
 

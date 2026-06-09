@@ -4,7 +4,7 @@ excerpt: "Discover proven, natural strategies to reduce stress without medicatio
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Dr. Elena Russo"
-coverImage: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/12955556/pexels-photo-12955556.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["stress relief", "mental health", "natural remedies", "wellness tips", "healthy lifestyle"]
 ---
 

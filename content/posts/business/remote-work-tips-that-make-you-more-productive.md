@@ -4,7 +4,7 @@ excerpt: "Remote work offers freedom but creates its own challenges — distract
 date: "2025-11-13"
 updatedAt: "2026-05-18"
 author: "David Kim"
-coverImage: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/17579540/pexels-photo-17579540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["remote work", "productivity", "work from home", "career", "focus"]
 ---
 

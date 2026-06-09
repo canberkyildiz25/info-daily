@@ -4,7 +4,7 @@ excerpt: "Burnout is more than feeling tired — it's a state of chronic depleti
 date: "2026-01-10"
 updatedAt: "2026-05-18"
 author: "Dr. Elena Russo"
-coverImage: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/6837572/pexels-photo-6837572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["burnout", "mental health", "stress", "recovery", "work-life balance"]
 ---
 

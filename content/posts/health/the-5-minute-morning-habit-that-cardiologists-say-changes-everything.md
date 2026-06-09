@@ -4,7 +4,7 @@ excerpt: "It costs nothing, takes five minutes, and the cardiovascular evidence 
 date: "2026-05-12"
 updatedAt: "2026-05-18"
 author: "Mark Stevens, CSCS"
-coverImage: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/27177607/pexels-photo-27177607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["heart health", "morning routine", "cardiology", "habits", "fitness", "wellness"]
 ---
 

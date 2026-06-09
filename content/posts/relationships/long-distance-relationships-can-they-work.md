@@ -5,7 +5,7 @@ date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
 tags: ["long-distance relationships", "LDR", "relationships", "dating", "communication", "love"]
-coverImage: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/984948/pexels-photo-984948.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 Long-distance relationships have a reputation. The conventional wisdom is that they're hard, that they rarely work, and that geography is too fundamental an obstacle to sustain genuine intimacy.

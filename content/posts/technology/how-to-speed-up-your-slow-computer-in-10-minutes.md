@@ -4,7 +4,7 @@ excerpt: "Discover quick, actionable fixes to boost your slow computer's perform
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/5474294/pexels-photo-5474294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["computer speed", "PC optimization", "slow computer fix", "tech tips", "performance boost"]
 ---
 

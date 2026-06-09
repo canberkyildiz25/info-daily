@@ -4,7 +4,7 @@ excerpt: "Discover exactly how much exercise you need each week for optimal heal
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Mark Stevens, CSCS"
-coverImage: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/36550623/pexels-photo-36550623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["exercise guidelines", "weekly workout", "physical activity", "healthy lifestyle", "fitness tips"]
 ---
 

@@ -4,7 +4,7 @@ excerpt: "Slow Wi-Fi is rarely an ISP problem — usually the fix is in your hom
 date: "2025-11-19"
 updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/28348054/pexels-photo-28348054.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Wi-Fi", "router", "internet speed", "home network", "technology"]
 ---
 

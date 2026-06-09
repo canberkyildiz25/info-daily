@@ -4,7 +4,7 @@ excerpt: "Constant tiredness may signal a nutritional gap. These science-backed 
 date: "2025-10-03"
 updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/7890011/pexels-photo-7890011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["vitamins", "energy", "fatigue", "supplements", "nutrition"]
 ---
 

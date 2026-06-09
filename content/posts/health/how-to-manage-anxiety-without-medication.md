@@ -4,7 +4,7 @@ excerpt: "Anxiety is one of the most common mental health struggles in the world
 date: "2026-04-24"
 updatedAt: "2026-05-18"
 author: "Dr. Elena Russo"
-coverImage: "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/14387794/pexels-photo-14387794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["anxiety", "mental health", "wellness", "stress", "therapy"]
 ---
 

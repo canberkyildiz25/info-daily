@@ -4,7 +4,7 @@ excerpt: "Europe doesn't have to be expensive. With the right booking strategies
 date: "2025-09-13"
 updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/33842338/pexels-photo-33842338.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Europe travel", "budget travel", "cheap flights", "travel tips", "backpacking"]
 ---
 

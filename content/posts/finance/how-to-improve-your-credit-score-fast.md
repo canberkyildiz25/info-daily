@@ -4,7 +4,7 @@ excerpt: "Your credit score affects loans, rentals, and even job applications. T
 date: "2025-11-17"
 updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/30945618/pexels-photo-30945618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["credit score", "credit repair", "FICO", "personal finance", "credit card"]
 ---
 

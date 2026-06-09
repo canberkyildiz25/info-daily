@@ -54,6 +54,7 @@ function needsImageUpdate(coverImage) {
   if (!coverImage) return true;
   if (coverImage.includes('picsum.photos')) return true;
   if (coverImage.includes('source.unsplash.com')) return true;
+  if (coverImage.includes('images.unsplash.com')) return true;
   if (coverImage.startsWith('/images/')) return true;
   return false;
 }

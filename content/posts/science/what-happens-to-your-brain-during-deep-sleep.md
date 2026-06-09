@@ -3,7 +3,7 @@ title: "What Happens to Your Brain During Deep Sleep"
 excerpt: "Deep sleep isn't passive rest — it's one of the most biochemically active periods of your life. Understanding what happens during those hours changes how you think about sleep."
 date: "2026-05-29"
 author: "David Kim"
-coverImage: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/8263051/pexels-photo-8263051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["sleep", "neuroscience", "brain health", "deep sleep", "science"]
 ---
 

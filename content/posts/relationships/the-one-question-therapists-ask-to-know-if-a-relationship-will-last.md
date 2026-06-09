@@ -4,7 +4,7 @@ excerpt: "Decades of relationship research have converged on a single predictor 
 date: "2026-05-08"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1516589091380-5d8e87df6999?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/9064785/pexels-photo-9064785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["relationships", "couples therapy", "love", "communication", "psychology", "marriage"]
 ---
 

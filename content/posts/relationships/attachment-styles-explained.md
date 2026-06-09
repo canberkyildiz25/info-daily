@@ -5,7 +5,7 @@ date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
 tags: ["attachment styles", "relationships", "psychology", "anxious attachment", "avoidant attachment", "emotional health"]
-coverImage: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/10977972/pexels-photo-10977972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 "I have an anxious attachment style" has become one of the most commonly used phrases in relationship conversations in 2026. Attachment theory — once confined to academic psychology — has gone mainstream, and for good reason: it explains patterns in relationships that previously seemed mysterious or inexplicable.

@@ -4,7 +4,7 @@ excerpt: "Discover proven, science-backed ways to strengthen your immune system 
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/3873170/pexels-photo-3873170.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["immune system", "natural health", "wellness tips", "healthy lifestyle", "nutrition"]
 ---
 

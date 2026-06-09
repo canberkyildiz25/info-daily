@@ -5,7 +5,7 @@ date: "2025-04-06"
 updatedAt: "2026-05-18"
 author: "Sophie Martinez"
 tags: ["solo travel", "travel tips", "beginner travel", "safety", "adventure"]
-coverImage: "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/3756035/pexels-photo-3756035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 Solo travel is one of the most transformative experiences you can have. You set the itinerary. You meet interesting people. You discover what you're capable of. But starting can feel daunting. Here's everything you need to know.

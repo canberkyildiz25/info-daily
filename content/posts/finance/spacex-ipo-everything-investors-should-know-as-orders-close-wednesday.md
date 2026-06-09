@@ -3,7 +3,7 @@ title: "SpaceX IPO: Everything Investors Should Know as Orders Close Wednesday"
 excerpt: "SpaceX IPO orders close Wednesday, June 11. Here's what investors need to know about pricing, valuation, risks, and how to position before the window shuts."
 date: "2026-06-09"
 author: "James Park, CFP"
-coverImage: "https://picsum.photos/seed/936/800/450"
+coverImage: "https://images.pexels.com/photos/26645474/pexels-photo-26645474.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["SpaceX IPO", "investing", "stock market", "IPO 2026", "space industry"]
 ---
 

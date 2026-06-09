@@ -4,7 +4,7 @@ excerpt: "Procrastination isn't laziness — it's an emotional regulation proble
 date: "2025-09-11"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/11353879/pexels-photo-11353879.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["procrastination", "productivity", "habits", "motivation", "psychology"]
 ---
 

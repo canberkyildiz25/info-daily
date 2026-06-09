@@ -4,7 +4,7 @@ excerpt: "Discover practical, up-to-date strategies to protect your personal dat
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/30885763/pexels-photo-30885763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["online privacy", "cybersecurity", "data protection", "digital safety", "privacy tools"]
 ---
 

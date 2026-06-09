@@ -4,7 +4,7 @@ excerpt: "Discover the techniques, tools, and secrets professional chefs use —
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/36145046/pexels-photo-36145046.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["home cooking", "restaurant quality meals", "cooking tips", "kitchen techniques", "chef secrets"]
 ---
 

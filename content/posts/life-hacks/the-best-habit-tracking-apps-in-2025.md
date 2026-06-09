@@ -4,7 +4,7 @@ excerpt: "Discover the top habit tracking apps of 2025 that help you build lasti
 date: "2025-04-13"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/4108167/pexels-photo-4108167.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["habit tracking", "productivity apps", "self-improvement", "wellness", "goal setting"]
 ---
 

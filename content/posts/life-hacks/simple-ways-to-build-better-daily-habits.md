@@ -4,7 +4,7 @@ excerpt: "Discover proven, practical strategies to build better daily habits tha
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/34779623/pexels-photo-34779623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["daily habits", "habit building", "self-improvement", "productivity", "personal growth"]
 ---
 

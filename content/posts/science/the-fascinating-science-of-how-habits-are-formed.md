@@ -4,7 +4,7 @@ excerpt: "Discover the neuroscience behind habit formation, why habits stick, an
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://images.unsplash.com/photo-1454789548928-9efd52dc4031?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/4546269/pexels-photo-4546269.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["habits", "neuroscience", "behavior change", "personal development", "psychology"]
 ---
 

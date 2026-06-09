@@ -4,7 +4,7 @@ excerpt: "You don't need a lot of money to start investing — you just need a p
 date: "2026-04-23"
 updatedAt: "2026-05-18"
 author: "James Park, CFP"
-coverImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/33785779/pexels-photo-33785779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["investing", "personal finance", "beginners", "stocks", "financial planning"]
 ---
 

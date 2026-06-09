@@ -3,7 +3,7 @@ title: "How to Set Boundaries Without Feeling Guilty"
 excerpt: "Boundaries aren't walls — they're agreements about what you need to function well. Here's how to establish them clearly and compassionately, without the guilt spiral."
 date: "2026-05-26"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/10012388/pexels-photo-10012388.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["boundaries", "relationships", "emotional health", "communication", "self-care"]
 ---
 

@@ -3,7 +3,7 @@ title: "OpenAI's Stock Market Debut: What You Need to Know About the AI Giant Go
 excerpt: "OpenAI is finally going public — here's what investors need to know about valuation, risks, and whether the AI giant's IPO deserves a spot in your portfolio."
 date: "2026-06-09"
 author: "James Park, CFP"
-coverImage: "https://picsum.photos/seed/512/800/450"
+coverImage: "https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["OpenAI IPO", "AI stocks", "stock market", "investing", "artificial intelligence"]
 ---
 

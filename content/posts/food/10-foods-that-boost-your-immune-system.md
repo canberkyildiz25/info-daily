@@ -4,7 +4,7 @@ excerpt: "Your immune system runs on the nutrients you eat. Here are 10 scientif
 date: "2025-03-28"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["immune system", "nutrition", "healthy foods", "wellness", "vitamins"]
 ---
 

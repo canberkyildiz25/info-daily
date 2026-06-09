@@ -4,7 +4,7 @@ excerpt: "Discover the safest, most rewarding solo travel destinations perfect f
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/9323263/pexels-photo-9323263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["solo travel", "travel destinations", "first-time travelers", "budget travel", "travel tips"]
 ---
 

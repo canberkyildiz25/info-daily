@@ -4,7 +4,7 @@ excerpt: "Digital chaos — overflowing inboxes, scattered files, forgotten pass
 date: "2025-12-19"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/37787963/pexels-photo-37787963.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["digital organization", "productivity", "files", "email", "life hacks"]
 ---
 

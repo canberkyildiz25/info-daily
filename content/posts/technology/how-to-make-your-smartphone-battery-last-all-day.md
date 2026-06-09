@@ -4,7 +4,7 @@ excerpt: "Your phone dying at 2 PM isn't inevitable. These practical tweaks will
 date: "2026-05-02"
 updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/4387770/pexels-photo-4387770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["smartphone", "battery life", "technology tips", "Android", "iPhone"]
 ---
 

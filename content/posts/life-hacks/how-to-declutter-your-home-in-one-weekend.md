@@ -4,7 +4,7 @@ excerpt: "A cluttered home creates mental noise and constant low-level stress. T
 date: "2025-11-07"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/8580732/pexels-photo-8580732.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["decluttering", "organization", "minimalism", "home", "productivity"]
 ---
 

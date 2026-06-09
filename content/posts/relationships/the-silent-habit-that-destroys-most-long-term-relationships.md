@@ -5,7 +5,7 @@ date: "2026-05-20"
 updatedAt: "2026-05-20"
 author: "Maria Chen"
 tags: ["relationships", "communication", "couples", "psychology", "emotional health", "marriage"]
-coverImage: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/4308042/pexels-photo-4308042.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 In four decades of studying couples, Dr. John Gottman and his colleagues at the University of Washington identified what they call the "Four Horsemen" — communication patterns that predict relationship breakdown with more than 90% accuracy. The four are criticism, contempt, defensiveness, and stonewalling.

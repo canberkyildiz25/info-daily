@@ -4,7 +4,7 @@ excerpt: "Discover quick, nutritious dinner recipes you can prepare in 15 minute
 date: "2026-04-10"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/6461/food-plate-rucola-salad.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["quick recipes", "healthy eating", "meal prep", "weeknight dinners", "nutrition"]
 ---
 

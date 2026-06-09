@@ -4,7 +4,7 @@ excerpt: "AI agents can now browse the web, write code, send emails, and manage 
 date: "2026-04-17"
 updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/5467599/pexels-photo-5467599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["AI", "productivity", "technology", "future of work", "automation"]
 ---
 

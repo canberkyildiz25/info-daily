@@ -4,7 +4,7 @@ excerpt: "Your smartphone ships with AI capabilities that most users never disco
 date: "2026-05-10"
 updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/30479286/pexels-photo-30479286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["AI", "smartphone", "technology", "productivity", "apps", "artificial intelligence"]
 ---
 

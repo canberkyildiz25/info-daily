@@ -4,7 +4,7 @@ excerpt: "Researchers studying the world's longest-lived people have uncovered 7
 date: "2026-04-28"
 updatedAt: "2026-05-18"
 author: "Dr. Lena Fischer"
-coverImage: "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/7544917/pexels-photo-7544917.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["longevity", "centenarians", "healthy aging", "blue zones", "lifespan"]
 ---
 

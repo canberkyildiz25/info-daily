@@ -4,7 +4,7 @@ excerpt: "Smart home technology has matured. These devices deliver genuine conve
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Alex Rivera"
-coverImage: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/18721086/pexels-photo-18721086.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["smart home", "home automation", "technology", "IoT", "gadgets"]
 ---
 

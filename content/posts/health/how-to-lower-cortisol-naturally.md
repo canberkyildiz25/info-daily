@@ -4,7 +4,7 @@ excerpt: "Chronic stress raises cortisol and damages your health. Learn proven, 
 date: "2025-09-05"
 updatedAt: "2026-05-18"
 author: "Dr. Elena Russo"
-coverImage: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/7880264/pexels-photo-7880264.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["cortisol", "stress relief", "hormones", "wellness", "mental health"]
 ---
 

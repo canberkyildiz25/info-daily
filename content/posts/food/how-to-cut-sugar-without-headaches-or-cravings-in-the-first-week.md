@@ -4,7 +4,7 @@ excerpt: "Quitting sugar doesn't have to feel miserable. Learn the science-backe
 date: "2026-05-12"
 updatedAt: "2026-05-18"
 author: "Maria Chen"
-coverImage: "https://images.unsplash.com/photo-1551183053-bf91798d792f?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/6550800/pexels-photo-6550800.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["sugar detox", "healthy eating", "cut sugar", "cravings", "nutrition"]
 ---
 

@@ -4,7 +4,7 @@ excerpt: "Discover the most affordable countries to explore without breaking the
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/4356144/pexels-photo-4356144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["budget travel", "cheap countries to visit", "affordable destinations", "travel tips", "backpacking"]
 ---
 

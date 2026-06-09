@@ -4,7 +4,7 @@ excerpt: "Japan rewards prepared travelers enormously. These practical tips will
 date: "2025-09-27"
 updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://images.unsplash.com/photo-1501426026826-31c667bdf23d?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/37954066/pexels-photo-37954066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Japan travel", "Tokyo", "travel tips", "Asia travel", "cultural tips"]
 ---
 

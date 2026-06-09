@@ -4,7 +4,7 @@ excerpt: "Most side hustles fail within six months. The ones that succeed share 
 date: "2026-04-26"
 updatedAt: "2026-05-18"
 author: "James Mercer"
-coverImage: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/4968531/pexels-photo-4968531.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["side hustle", "income", "freelance", "business", "money"]
 ---
 

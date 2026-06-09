@@ -4,7 +4,7 @@ excerpt: "You don't need a high income to travel frequently. With the right stra
 date: "2025-12-07"
 updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/4968663/pexels-photo-4968663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["budget travel", "travel savings", "travel tips", "affordable travel", "personal finance"]
 ---
 

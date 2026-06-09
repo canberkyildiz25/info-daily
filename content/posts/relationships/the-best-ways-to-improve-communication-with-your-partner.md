@@ -4,7 +4,7 @@ excerpt: "Discover proven strategies to improve communication with your partner,
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://images.unsplash.com/photo-1516401266446-6432a8a07d41?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/5699837/pexels-photo-5699837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["relationship communication", "healthy relationships", "couples advice", "conflict resolution", "emotional intimacy"]
 ---
 

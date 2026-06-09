@@ -4,7 +4,7 @@ excerpt: "Discover the best morning stretches to boost flexibility, reduce stiff
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Mark Stevens, CSCS"
-coverImage: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/4775189/pexels-photo-4775189.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["morning stretches", "flexibility routine", "healthy habits", "daily wellness", "stretching exercises"]
 ---
 

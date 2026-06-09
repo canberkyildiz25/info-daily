@@ -4,7 +4,7 @@ excerpt: "Discover proven strategies to accelerate your learning curve and maste
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/37822453/pexels-photo-37822453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["learning", "skill development", "productivity", "self-improvement", "personal growth"]
 ---
 

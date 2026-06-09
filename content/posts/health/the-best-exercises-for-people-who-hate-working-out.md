@@ -4,7 +4,7 @@ excerpt: "You don't have to love exercise to get fit. These approaches make move
 date: "2026-05-03"
 updatedAt: "2026-05-18"
 author: "Mark Stevens, CSCS"
-coverImage: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/6339357/pexels-photo-6339357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["exercise", "fitness", "health", "beginner workout", "motivation"]
 ---
 

@@ -4,7 +4,7 @@ excerpt: "Discover the proven time management strategies top performers swear by
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Emma Johnson"
-coverImage: "https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/4964975/pexels-photo-4964975.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["time management", "productivity", "success habits", "work-life balance", "personal development"]
 ---
 

@@ -4,7 +4,7 @@ excerpt: "Not all fruits are created equal. Discover which fruits deliver the mo
 date: "2026-05-08"
 updatedAt: "2026-05-18"
 author: "Jessica Morgan"
-coverImage: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/11826915/pexels-photo-11826915.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["healthy eating", "fruit", "low sugar", "nutrition", "daily habits"]
 ---
 

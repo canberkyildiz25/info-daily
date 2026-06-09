@@ -4,7 +4,7 @@ excerpt: "Confused about travel insurance? Here's exactly what it covers, what i
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "Sophie Martinez"
-coverImage: "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=1200&q=80"
+coverImage: "https://images.pexels.com/photos/5849553/pexels-photo-5849553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["travel insurance", "travel tips", "trip planning", "travel safety", "insurance guide"]
 ---
 

@@ -5,7 +5,7 @@ date: "2025-03-27"
 updatedAt: "2026-05-18"
 author: "Ryan Cooper"
 tags: ["productivity", "time management", "focus", "work smarter", "life hacks"]
-coverImage: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&q=80"
+coverImage: "https://images.pexels.com/photos/36730937/pexels-photo-36730937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 ---
 
 Being busy and being productive are not the same thing. Most people fill their days with low-value activities that feel productive but aren't. Here are 20 techniques that actually move the needle.
