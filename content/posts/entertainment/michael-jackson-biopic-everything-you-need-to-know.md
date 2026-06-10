@@ -9,15 +9,15 @@ coverImage: "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=800&
 noInlineImages: true
 ---
 
-Few figures in pop culture history carry more weight â€” or more controversy â€” than Michael Jackson. He is simultaneously the best-selling music artist of all time, a cultural icon who transformed music, dance, and music video as an art form, and a man whose legacy has been permanently complicated by serious allegations of child sexual abuse.
+Few figures in pop culture history carry more weight — or more controversy — than Michael Jackson. He is simultaneously the best-selling music artist of all time, a cultural icon who transformed music, dance, and music video as an art form, and a man whose legacy has been permanently complicated by serious allegations of child sexual abuse.
 
-The biopic simply titled *Michael* arrives in theaters on April 24, 2026, and it may be the most anticipated â€” and most complicated â€” music film ever made.
+The biopic simply titled *Michael* arrives in theaters on April 24, 2026, and it may be the most anticipated — and most complicated — music film ever made.
 
 ## Who Is Playing Michael Jackson?
 
 The most striking casting decision: Jaafar Jackson, Michael's nephew and the son of Jermaine Jackson, plays the lead role. It's the first major acting role for the 29-year-old, and early footage has been startling in its resemblance.
 
-Jaafar has spent years studying his uncle's movements, vocal mannerisms, and performance style. The physical similarity is undeniable â€” the cheekbones, the posture, the hands. Whether the performance can match the resemblance is what the film will ultimately be judged on.
+Jaafar has spent years studying his uncle's movements, vocal mannerisms, and performance style. The physical similarity is undeniable — the cheekbones, the posture, the hands. Whether the performance can match the resemblance is what the film will ultimately be judged on.
 
 ![Michael Jackson biopic stage performance](https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1200&q=80)
 
@@ -27,13 +27,13 @@ Jaafar has spent years studying his uncle's movements, vocal mannerisms, and per
 
 The screenplay was written by John Logan, whose credits include *Gladiator*, *The Aviator*, and *Skyfall*. Logan has experience with larger-than-life biographical subjects.
 
-Crucially, the film was produced with the cooperation of the Michael Jackson Estate â€” meaning it has access to Jackson's full music catalog and personal archives, but also raises questions about how critically it will treat its subject.
+Crucially, the film was produced with the cooperation of the Michael Jackson Estate — meaning it has access to Jackson's full music catalog and personal archives, but also raises questions about how critically it will treat its subject.
 
 ## What Time Period Does It Cover?
 
 The film covers Jackson's full life, from his childhood in Gary, Indiana as part of The Jackson 5, through his solo career peak with *Thriller* and *Bad*, to the controversies, trials, and final years of his life before his death in 2009.
 
-This scope is enormously ambitious â€” perhaps too ambitious for a single film. How it balances the music, the humanity, the spectacle, and the allegations will define its legacy.
+This scope is enormously ambitious — perhaps too ambitious for a single film. How it balances the music, the humanity, the spectacle, and the allegations will define its legacy.
 
 ## What About the Abuse Allegations?
 
@@ -43,7 +43,7 @@ The documentary *Leaving Neverland* (2019) presented detailed, disturbing accoun
 
 ## The Music
 
-Whatever else the film is, the music is extraordinary. Michael Jackson's catalog â€” "Thriller," "Billie Jean," "Beat It," "Man in the Mirror," "Black or White" â€” represents some of the most influential pop music ever recorded. Experiencing these songs in a theater context, performed live by Jaafar Jackson, may be genuinely powerful regardless of the film's other qualities.
+Whatever else the film is, the music is extraordinary. Michael Jackson's catalog — "Thriller," "Billie Jean," "Beat It," "Man in the Mirror," "Black or White" — represents some of the most influential pop music ever recorded. Experiencing these songs in a theater context, performed live by Jaafar Jackson, may be genuinely powerful regardless of the film's other qualities.
 
 The production reportedly recreates several of Jackson's most iconic live performances, including moments from the Victory Tour and the HIStory tour.
 
@@ -53,7 +53,7 @@ The production reportedly recreates several of Jackson's most iconic live perfor
 
 That depends on what you're looking for. If you want a celebration of one of music's greatest performers, *Michael* will likely deliver. If you're hoping for a nuanced, honest examination of a deeply complicated person, early signs suggest mixed results.
 
-The film arrives at a cultural moment when questions about separating art from artist are more urgent than ever. *Michael* won't resolve those questions â€” but it will almost certainly reignite them.
+The film arrives at a cultural moment when questions about separating art from artist are more urgent than ever. *Michael* won't resolve those questions — but it will almost certainly reignite them.
 
 Opening weekend: April 24, 2026, in theaters worldwide.
 
