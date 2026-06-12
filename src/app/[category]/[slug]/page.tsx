@@ -1,4 +1,5 @@
 import { getPost, getAllPosts, CATEGORIES, extractHeadings } from '@/lib/posts';
+import { InArticleAd, MultiplexAd, SidebarAd } from '@/components/AdBanner';
 import TableOfContents from '@/components/TableOfContents';
 import ArticleHeroImage from '@/components/ArticleHeroImage';
 import { getCoverImageUrl } from '@/lib/pexels';
@@ -196,6 +197,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
 
 
 
+          {/* In-article ad between paragraph 2 and the rest (Google recommended position) */}
+          {splitContent.second && <InArticleAd />}
+
           {/* Content — second part */}
           {splitContent.second && (
             <div
@@ -203,6 +207,11 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
               dangerouslySetInnerHTML={{ __html: splitContent.second }}
             />
           )}
+
+          {/* Multiplex / related content ad at end of article */}
+          <div className="mt-8">
+            <MultiplexAd />
+          </div>
 
           {/* Internal links */}
           <InternalLinks
@@ -314,6 +323,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
           <div className="sticky top-24 space-y-6">
             <TableOfContents headings={headings} />
           </div>
+
+          <SidebarAd />
 
           <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm p-5">
             <h3 className="font-bold text-gray-900 dark:text-slate-100 mb-4">Browse Categories</h3>

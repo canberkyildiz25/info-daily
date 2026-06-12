@@ -1,6 +1,7 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { NextRequest, NextResponse } from 'next/server';
 import { CONTENT_CALENDAR } from '@/lib/content-calendar';
+import { fetchTrendingTopics } from '@/lib/rss';
 
 export const maxDuration = 60;
 
@@ -147,6 +148,17 @@ async function commitFileToGitHub(
   }
 }
 
+// Categories rotated by day-of-week so content spreads evenly
+const DAILY_CATEGORIES = [
+  ['finance', 'technology'],
+  ['health', 'business'],
+  ['science', 'life-hacks'],
+  ['travel', 'food'],
+  ['relationships', 'entertainment'],
+  ['finance', 'health'],
+  ['technology', 'science'],
+];
+
 export async function GET(req: NextRequest) {
   // Vercel Cron authentication
   const authHeader = req.headers.get('authorization');
@@ -160,33 +172,61 @@ export async function GET(req: NextRequest) {
   const githubToken = process.env.GITHUB_TOKEN;
   if (!githubToken) return NextResponse.json({ error: 'GITHUB_TOKEN not set' }, { status: 500 });
 
-  const githubRepo = process.env.GITHUB_REPO; // e.g. "canberkyildiz25/info-daily"
+  const githubRepo = process.env.GITHUB_REPO;
   if (!githubRepo) return NextResponse.json({ error: 'GITHUB_REPO not set' }, { status: 500 });
 
-  // 1 article per cron run
   const countParam = req.nextUrl.searchParams.get('count');
-  const count = Math.min(parseInt(countParam || '1', 10), 3);
+  const count = Math.min(parseInt(countParam || '2', 10), 5);
 
+  // Which categories to target today (rotate by day of week, overridable via ?categories=finance,health)
+  const categoriesParam = req.nextUrl.searchParams.get('categories');
+  const dayIndex = new Date().getDay();
+  const todayCategories = categoriesParam
+    ? categoriesParam.split(',').map(c => c.trim())
+    : DAILY_CATEGORIES[dayIndex];
 
-  const generated: { title: string; category: string; slug: string }[] = [];
+  const generated: { title: string; category: string; slug: string; source: 'rss' | 'calendar' }[] = [];
   const skipped: string[] = [];
   const client = new Anthropic({ apiKey });
 
-  for (const item of CONTENT_CALENDAR) {
+  for (const category of todayCategories) {
     if (generated.length >= count) break;
 
-    const { title, category } = item;
-    const slug = titleToSlug(title);
-    const filePath = `content/posts/${category}/${slug}.md`;
+    // 1. Try RSS first
+    let topics: string[] = [];
+    try {
+      topics = await fetchTrendingTopics(category, 10);
+    } catch {
+      // RSS failed — fall through to calendar
+    }
 
-    // Check existence via GitHub API (filesystem is read-only on Vercel)
-    const exists = await fileExistsInGitHub(filePath, githubToken, githubRepo);
-    if (exists) continue;
+    // 2. Fall back to CONTENT_CALENDAR for this category
+    if (topics.length === 0) {
+      topics = CONTENT_CALENDAR
+        .filter(item => item.category === category)
+        .map(item => item.title);
+    }
 
-    const coverImage = getCoverImage(category, title);
-    const today = new Date().toISOString().split('T')[0];
+    for (const rawTopic of topics) {
+      if (generated.length >= count) break;
 
-    const prompt = `You are an expert content writer for InfoDaily. Write a comprehensive, SEO-optimized article about: "${title}"
+      const slug = titleToSlug(rawTopic);
+      const filePath = `content/posts/${category}/${slug}.md`;
+
+      const exists = await fileExistsInGitHub(filePath, githubToken, githubRepo);
+      if (exists) continue;
+
+      const coverImage = getCoverImage(category, rawTopic);
+      const today = new Date().toISOString().split('T')[0];
+
+      // Claude writes a fully original article inspired by the topic.
+      // We pass only the topic/headline — never any article body from the source.
+      const prompt = `You are an expert content writer for InfoDaily. Write a comprehensive, SEO-optimized article inspired by this topic: "${rawTopic}"
+
+IMPORTANT:
+- Write 100% original content. Do NOT copy, paraphrase, or summarize any specific news article.
+- If the topic is a breaking news headline, write a timeless, practical article about the underlying subject.
+- Focus on what readers can learn or do — not on reporting a specific event.
 
 REQUIREMENTS:
 - Length: 900-1300 words
@@ -200,66 +240,71 @@ REQUIREMENTS:
 
 OUTPUT — Return ONLY this format, nothing before or after:
 ---
-title: "${title}"
+title: "[SEO-optimized article title based on the topic — rewrite if needed to be evergreen]"
 excerpt: "[Compelling 1-2 sentence description, 120-155 characters]"
 date: "${today}"
-author: "${CATEGORY_AUTHORS[category]}"
+author: "${CATEGORY_AUTHORS[category] ?? 'InfoDaily Editorial Team'}"
 coverImage: "${coverImage}"
 tags: ["tag1", "tag2", "tag3", "tag4", "tag5"]
 ---
 
 [Article content]`;
 
-    try {
-      const message = await client.messages.create({
-        model: 'claude-haiku-4-5-20251001',
-        max_tokens: 2500,
-        messages: [{ role: 'user', content: prompt }],
-      });
-
-      let content = (message.content[0] as { text: string }).text;
-
-      if (!content.startsWith('---')) {
-        const idx = content.indexOf('---');
-        if (idx >= 0 && idx < 150) content = content.slice(idx);
-        else throw new Error('Missing frontmatter in generated content');
-      }
-
-      await commitFileToGitHub(filePath, content.trim() + '\n', title, githubToken, githubRepo);
-      generated.push({ title, category, slug });
-
-      // Send push notification to subscribers
       try {
-        const excerptMatch = content.match(/excerpt:\s*"([^"]+)"/);
-        const excerpt = excerptMatch?.[1] ?? 'A new article is waiting for you!';
-        await fetch(`${process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.infodaily.net'}/api/push/send`, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${process.env.CRON_SECRET}`,
-          },
-          body: JSON.stringify({
-            title,
-            excerpt,
-            url: `https://www.infodaily.net/${category}/${slug}`,
-            category,
-          }),
+        const message = await client.messages.create({
+          model: 'claude-haiku-4-5-20251001',
+          max_tokens: 2500,
+          messages: [{ role: 'user', content: prompt }],
         });
-      } catch {
-        // Push failure should not block article generation
+
+        let content = (message.content[0] as { text: string }).text;
+
+        if (!content.startsWith('---')) {
+          const idx = content.indexOf('---');
+          if (idx >= 0 && idx < 150) content = content.slice(idx);
+          else throw new Error('Missing frontmatter in generated content');
+        }
+
+        // Extract the actual title Claude chose (may differ from raw RSS headline)
+        const titleMatch = content.match(/^title:\s*"([^"]+)"/m);
+        const finalTitle = titleMatch?.[1] ?? rawTopic;
+        const finalSlug = titleToSlug(finalTitle);
+        const finalPath = `content/posts/${category}/${finalSlug}.md`;
+
+        await commitFileToGitHub(finalPath, content.trim() + '\n', finalTitle, githubToken, githubRepo);
+        generated.push({ title: finalTitle, category, slug: finalSlug, source: topics === CONTENT_CALENDAR.map(i => i.title) ? 'calendar' : 'rss' });
+
+        // Push notification
+        try {
+          const excerptMatch = content.match(/excerpt:\s*"([^"]+)"/);
+          const excerpt = excerptMatch?.[1] ?? 'A new article is waiting for you!';
+          await fetch(`${process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.infodaily.net'}/api/push/send`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': `Bearer ${process.env.CRON_SECRET}`,
+            },
+            body: JSON.stringify({
+              title: finalTitle,
+              excerpt,
+              url: `https://www.infodaily.net/${category}/${finalSlug}`,
+              category,
+            }),
+          });
+        } catch {
+          // Push failure should not block article generation
+        }
+      } catch (err: unknown) {
+        const msg = err instanceof Error ? err.message : 'Unknown error';
+        skipped.push(`${rawTopic}: ${msg}`);
       }
-    } catch (err: unknown) {
-      const msg = err instanceof Error ? err.message : 'Unknown error';
-      skipped.push(`${title}: ${msg}`);
     }
   }
-
-  const total = CONTENT_CALENDAR.length;
-  const done = generated.length;
 
   return NextResponse.json({
     generated,
     skipped,
-    calendar: { total, done, remaining: total - done },
+    categoriesTargeted: todayCategories,
+    count: generated.length,
   });
 }
