@@ -43,3 +43,6 @@ next-env.d.ts
 # daily article generation logs
 /logs
 *.log
+
+# sensitive credentials
+service-account.json
