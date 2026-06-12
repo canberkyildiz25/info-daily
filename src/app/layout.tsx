@@ -113,6 +113,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: `gtag('js',new Date());gtag('config','G-PD06ZLVSY6');` }} />
         {/* Restore consent if previously accepted */}
         <script dangerouslySetInnerHTML={{ __html: `(function(){try{if(localStorage.getItem('cookie_consent')==='accepted'){gtag('consent','update',{analytics_storage:'granted',ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted'});}}catch(e){}})();` }} />
+        {/* Google AdSense */}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3696555619228561" crossOrigin="anonymous" />
       </head>
       <body className={`${jakarta.variable} ${inter.variable} ${merriweather.variable} ${playfair.variable} ${lora.variable} font-sans bg-gray-50 dark:bg-slate-900 text-gray-900 dark:text-slate-100 antialiased`} suppressHydrationWarning>
         <script

@@ -54,6 +54,16 @@ export function InArticleAd() {
   );
 }
 
+export function SidebarAd() {
+  return (
+    <AdBanner
+      slot="2054764996"
+      format="auto"
+      className="sidebar-ad"
+    />
+  );
+}
+
 // Placeholder shown before AdSense approval (remove after approval)
 export function AdPlaceholder({ label = 'Advertisement', height = 90 }: { label?: string; height?: number }) {
   return (
