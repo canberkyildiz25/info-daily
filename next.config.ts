@@ -13,6 +13,7 @@ const nextConfig: NextConfig = {
       // Anti-inflammatory
       { source: '/health/the-best-anti-inflammatory-foods', destination: '/health/the-best-anti-inflammatory-foods-to-add-to-your-diet', permanent: true },
       // Finance
+      { source: '/finance/passive-income-ideas-that-actually-work-in-2025', destination: '/finance/passive-income-ideas-that-actually-work-in-2026', permanent: true },
       { source: '/finance/7-passive-income-ideas-for-2025', destination: '/finance/passive-income-ideas-that-actually-work-in-2026', permanent: true },
       { source: '/finance/how-to-invest-1000-dollars-for-beginners', destination: '/finance/how-to-invest-your-first-1000-in-2026', permanent: true },
       { source: '/finance/how-to-create-a-monthly-budget-that-actually-works', destination: '/finance/how-to-create-a-monthly-budget-you-will-actually-stick-to', permanent: true },
