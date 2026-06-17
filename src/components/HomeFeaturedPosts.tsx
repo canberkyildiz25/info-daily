@@ -32,15 +32,18 @@ export default function HomeFeaturedPosts({ posts }: { posts: Post[] }) {
         return (
           <section key={cat.slug}>
             {/* Section header */}
-            <div className="flex items-center justify-between mb-4">
-              <div className="flex items-center gap-3">
-                <span className={`w-1 h-6 rounded-full bg-gradient-to-b ${grad} inline-block`} />
-                <span className="text-lg">{cat.icon}</span>
-                <h2 className="text-lg font-bold text-gray-900 dark:text-slate-100">{cat.label}</h2>
+            <div className="flex items-center justify-between mb-5">
+              <div>
+                <div className="flex items-center gap-2.5 mb-1.5">
+                  <span className="text-xl leading-none">{cat.icon}</span>
+                  <h2 className="text-base font-black text-[var(--text-base)] tracking-tight uppercase" style={{ letterSpacing: '0.08em' }}>{cat.label}</h2>
+                </div>
+                <div className={`h-[2px] w-10 rounded-full bg-gradient-to-r ${grad}`} />
               </div>
               <Link
                 href={`/category/${cat.slug}`}
-                className="text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline flex items-center gap-1"
+                className="text-xs font-bold text-[var(--accent)] hover:underline flex items-center gap-1 tracking-wide uppercase"
+                style={{ letterSpacing: '0.06em' }}
               >
                 See all <span>→</span>
               </Link>

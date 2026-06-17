@@ -168,24 +168,23 @@ export default function Header() {
 
   return (
     <header className="bg-white/80 dark:bg-slate-900/90 backdrop-blur-md border-b border-gray-200/60 dark:border-slate-700/60 sticky top-0 z-50 shadow-sm">
+      <div className="header-top-strip" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Row 1: Logo + nav + tools */}
         <div className="flex items-center justify-between h-14 gap-4">
           {/* Left: logo + nav links */}
           <div className="flex items-center gap-6 min-w-0">
-            <Link href="/" className="flex items-center gap-2.5 shrink-0">
-              {/* Logo mark – circle with "i" */}
-              <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="animate-float">
-                <circle cx="18" cy="18" r="18" fill="#2563eb"/>
-                <circle cx="18" cy="11" r="3" fill="white"/>
-                <rect x="14.5" y="17" width="7" height="10" rx="2.5" fill="white"/>
-                <circle cx="18" cy="18" r="22" fill="none" stroke="#2563eb" strokeWidth="1" opacity="0.25"/>
+            <Link href="/" className="flex items-center gap-3 shrink-0 group">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="transition-transform duration-300 group-hover:scale-105">
+                <rect width="32" height="32" rx="6" fill="#1a3fa8"/>
+                <circle cx="16" cy="10" r="2.5" fill="white"/>
+                <rect x="13" y="15" width="6" height="9" rx="2" fill="white"/>
               </svg>
-              <span className="tracking-tight leading-none">
-                <span className="font-bold text-xl text-blue-600 dark:text-blue-400" style={{ fontFamily: 'Georgia, serif' }}>Info</span>
-                <span className="font-bold text-xl text-gray-900 dark:text-white">Daily</span>
-                <span className="text-sm font-normal text-gray-400 dark:text-slate-500">.net</span>
+              <span className="leading-none tracking-tight">
+                <span className="font-black text-[1.2rem]" style={{ fontFamily: 'Georgia, serif', color: 'var(--accent)' }}>Info</span>
+                <span className="font-black text-[1.2rem] text-gray-900 dark:text-white">Daily</span>
+                <span className="text-xs font-normal text-gray-400 dark:text-slate-500 ml-0.5">.net</span>
               </span>
             </Link>
 
