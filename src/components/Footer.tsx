@@ -5,12 +5,13 @@ import SubscribeForm from './SubscribeForm';
 export default function Footer() {
   return (
     <footer className="site-footer mt-16 border-t">
+      <div className="h-[3px] bg-gradient-to-r from-[var(--accent,#1a3fa8)] via-[#b8860b] to-[var(--accent,#1a3fa8)]" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="mb-3 leading-none">
-              <span className="font-bold text-xl text-blue-400" style={{ fontFamily: 'Georgia, serif' }}>Info</span>
-              <span className="font-bold text-xl text-white">Daily</span>
+              <span className="font-black text-xl text-blue-400" style={{ fontFamily: 'Georgia, serif' }}>Info</span>
+              <span className="font-black text-xl text-white">Daily</span>
               <span className="text-sm font-normal text-slate-500">.net</span>
             </h3>
             <p className="text-sm text-gray-400 leading-relaxed">
