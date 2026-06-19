@@ -12,10 +12,22 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://www.infodaily.net' },
 };
 
+function newsLink(article: NewsArticle): string {
+  const p = new URLSearchParams({
+    title: article.title,
+    ...(article.description ? { desc: article.description } : {}),
+    ...(article.urlToImage   ? { img: article.urlToImage }   : {}),
+    src: article.source.name,
+    url: article.url,
+    at: article.publishedAt,
+  });
+  return `/news?${p.toString()}`;
+}
+
 function NewsCard({ article, large = false }: { article: NewsArticle; large?: boolean }) {
   if (large) {
     return (
-      <a href={article.url} target="_blank" rel="noopener noreferrer" className="group block">
+      <Link href={newsLink(article)} className="group block">
         <div className="relative rounded-2xl overflow-hidden" style={{ height: '420px' }}>
           {article.urlToImage ? (
             <Image
@@ -58,12 +70,12 @@ function NewsCard({ article, large = false }: { article: NewsArticle; large?: bo
             </div>
           </div>
         </div>
-      </a>
+      </Link>
     );
   }
 
   return (
-    <a href={article.url} target="_blank" rel="noopener noreferrer" className="group flex items-start gap-3 py-3.5 border-b border-[var(--border)] last:border-0 hover:bg-[var(--bg-card-hover)] -mx-3 px-3 rounded-xl transition-colors">
+    <Link href={newsLink(article)} className="group flex items-start gap-3 py-3.5 border-b border-[var(--border)] last:border-0 hover:bg-[var(--bg-card-hover)] -mx-3 px-3 rounded-xl transition-colors">
       <div className="flex-1 min-w-0">
         <div className="flex items-center gap-2 mb-1">
           <span className="text-[10px] font-bold text-[var(--accent)] uppercase tracking-wider">{article.source.name}</span>
@@ -79,7 +91,7 @@ function NewsCard({ article, large = false }: { article: NewsArticle; large?: bo
           <Image src={article.urlToImage} alt={article.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" sizes="64px" unoptimized />
         </div>
       )}
-    </a>
+    </Link>
   );
 }
 
