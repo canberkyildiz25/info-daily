@@ -1,6 +1,19 @@
 'use client';
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
+import Link from 'next/link';
 import type { NewsArticle } from '@/lib/news';
+
+function newsLink(article: NewsArticle): string {
+  const p = new URLSearchParams({
+    title: article.title,
+    ...(article.description ? { desc: article.description } : {}),
+    ...(article.urlToImage   ? { img: article.urlToImage }   : {}),
+    src: article.source.name,
+    url: article.url,
+    at: article.publishedAt,
+  });
+  return `/news?${p.toString()}`;
+}
 
 export default function BreakingNewsTicker({ articles }: { articles: NewsArticle[] }) {
   const [paused, setPaused] = useState(false);
@@ -34,16 +47,14 @@ export default function BreakingNewsTicker({ articles }: { articles: NewsArticle
         >
           {/* Duplicate for seamless loop */}
           {[...articles, ...articles].map((a, i) => (
-            <a
+            <Link
               key={i}
-              href={a.url}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={newsLink(a)}
               className="inline-flex items-center gap-2 px-6 py-2.5 text-sm font-medium hover:text-white/80 transition-colors border-r border-white/20 last:border-0 shrink-0"
             >
               <span className="text-white/50 text-xs font-bold">{a.source.name}</span>
               <span className="text-white">{a.title}</span>
-            </a>
+            </Link>
           ))}
         </div>
       </div>
