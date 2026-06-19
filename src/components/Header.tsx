@@ -111,15 +111,16 @@ function FontPicker() {
 
 function CategoryNav() {
   const scrollRef = useRef<HTMLDivElement>(null);
+  const [activeSlug, setActiveSlug] = useState<string | null>(null);
 
   const scroll = (dir: 'left' | 'right') => {
     scrollRef.current?.scrollBy({ left: dir === 'right' ? 200 : -200, behavior: 'smooth' });
   };
 
   return (
-    <div className="hidden md:flex items-center border-t border-gray-100 dark:border-slate-800 py-2 gap-1 relative">
+    <div className="hidden md:flex items-center border-t border-[var(--border)] gap-1 relative">
       {/* Left fade + arrow */}
-      <div className="absolute left-0 top-0 h-full w-10 bg-gradient-to-r from-white dark:from-slate-900 to-transparent z-10 pointer-events-none" />
+      <div className="absolute left-0 top-0 h-full w-8 bg-gradient-to-r from-[var(--bg-header)] to-transparent z-10 pointer-events-none" />
       <button
         onClick={() => scroll('left')}
         className="relative z-20 shrink-0 p-1 rounded-full text-gray-400 dark:text-slate-500 hover:text-gray-700 dark:hover:text-slate-200 hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors"
@@ -130,16 +131,24 @@ function CategoryNav() {
         </svg>
       </button>
 
-      {/* Scrollable pills */}
+      {/* Tab-style scrollable nav */}
       <div
         ref={scrollRef}
-        className="flex items-center gap-1.5 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden px-1"
+        className="flex items-end overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
         {CATEGORIES.map(cat => (
           <Link
             key={cat.slug}
             href={`/category/${cat.slug}`}
-            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap border transition-all hover:scale-105 active:scale-95 ${CAT_COLORS[cat.slug]}`}
+            onClick={() => setActiveSlug(cat.slug)}
+            className={`
+              group relative flex items-center gap-1.5 px-4 py-3 text-xs font-semibold whitespace-nowrap
+              transition-colors duration-150
+              ${activeSlug === cat.slug
+                ? 'text-[var(--accent)] border-b-2 border-[var(--accent)]'
+                : 'text-gray-500 dark:text-slate-400 hover:text-[var(--text-base)] border-b-2 border-transparent hover:border-gray-300 dark:hover:border-slate-600'
+              }
+            `}
           >
             <span className="text-sm leading-none">{cat.icon}</span>
             <span>{cat.label}</span>
@@ -157,7 +166,7 @@ function CategoryNav() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
         </svg>
       </button>
-      <div className="absolute right-0 top-0 h-full w-10 bg-gradient-to-l from-white dark:from-slate-900 to-transparent z-10 pointer-events-none" />
+      <div className="absolute right-0 top-0 h-full w-8 bg-gradient-to-l from-[var(--bg-header)] to-transparent z-10 pointer-events-none" />
     </div>
   );
 }
@@ -193,10 +202,17 @@ export default function Header() {
 
             {/* Desktop nav links */}
             <nav className="hidden md:flex items-center gap-0.5">
-              <Link href="/authors" className="group flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
-                <svg className="w-3.5 h-3.5 opacity-60 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
+              <Link href="/" className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
+                <span className="relative flex h-1.5 w-1.5">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
+                  <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-red-500" />
+                </span>
+                News
+              </Link>
+              <Link href="/articles" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
+                Articles
+              </Link>
+              <Link href="/authors" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
                 Authors
               </Link>
               <Link href="/about" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
@@ -243,8 +259,22 @@ export default function Header() {
           {/* Quick nav links */}
           <div className="flex gap-2 flex-wrap">
             <Link
-              href="/authors"
+              href="/"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-300 border border-red-200 dark:border-red-800"
+              onClick={() => setMenuOpen(false)}
+            >
+              🔴 News
+            </Link>
+            <Link
+              href="/articles"
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800"
+              onClick={() => setMenuOpen(false)}
+            >
+              📄 Articles
+            </Link>
+            <Link
+              href="/authors"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-gray-100 dark:bg-slate-700 text-gray-700 dark:text-slate-300 border border-gray-200 dark:border-slate-600"
               onClick={() => setMenuOpen(false)}
             >
               ✍️ Authors

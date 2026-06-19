@@ -1,9 +1,9 @@
 import { getAllPosts } from '@/lib/posts';
-import { CATEGORIES } from '@/lib/categories';
 import HomeFeaturedPosts from '@/components/HomeFeaturedPosts';
-import TrendingTopics from '@/components/TrendingTopics';
-import { getCoverImageUrl } from '@/lib/pexels';
-import { getAuthorByName, authorNameToSlug } from '@/lib/authors';
+import TrendingSidebar from '@/components/TrendingSidebar';
+import BreakingNewsTicker from '@/components/BreakingNewsTicker';
+import { getBreakingNews, getTopHeadlines, timeAgo } from '@/lib/news';
+import type { NewsArticle } from '@/lib/news';
 import Link from 'next/link';
 import Image from 'next/image';
 import type { Metadata } from 'next';
@@ -12,146 +12,163 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://www.infodaily.net' },
 };
 
+function NewsCard({ article, large = false }: { article: NewsArticle; large?: boolean }) {
+  if (large) {
+    return (
+      <a href={article.url} target="_blank" rel="noopener noreferrer" className="group block">
+        <div className="relative rounded-2xl overflow-hidden" style={{ height: '420px' }}>
+          {article.urlToImage ? (
+            <Image
+              src={article.urlToImage}
+              alt={article.title}
+              fill
+              className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+              sizes="(max-width: 1024px) 100vw, 66vw"
+              priority
+              unoptimized
+            />
+          ) : (
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-indigo-700" />
+          )}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
+
+          <div className="absolute top-4 left-4 flex items-center gap-2">
+            <span className="bg-red-600 text-white text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full animate-pulse">
+              ● Live
+            </span>
+            <span className="bg-black/40 backdrop-blur-sm text-white/80 text-[10px] px-2.5 py-1 rounded-full">
+              {article.source.name}
+            </span>
+          </div>
+
+          <div className="absolute bottom-0 left-0 right-0 p-6">
+            <h2 className="text-white text-xl sm:text-2xl lg:text-3xl font-black leading-tight mb-3 group-hover:text-white/90 transition-colors" style={{ fontFamily: 'Georgia, serif' }}>
+              {article.title}
+            </h2>
+            {article.description && (
+              <p className="text-white/70 text-sm leading-relaxed line-clamp-2 mb-4 max-w-xl">
+                {article.description}
+              </p>
+            )}
+            <div className="flex items-center justify-between">
+              <span className="text-white/60 text-xs">{timeAgo(article.publishedAt)}</span>
+              <span className="bg-white text-gray-900 text-xs font-black px-4 py-2 rounded-full group-hover:bg-white/90 transition-colors uppercase tracking-wide">
+                Read →
+              </span>
+            </div>
+          </div>
+        </div>
+      </a>
+    );
+  }
+
+  return (
+    <a href={article.url} target="_blank" rel="noopener noreferrer" className="group flex items-start gap-3 py-3.5 border-b border-[var(--border)] last:border-0 hover:bg-[var(--bg-card-hover)] -mx-3 px-3 rounded-xl transition-colors">
+      <div className="flex-1 min-w-0">
+        <div className="flex items-center gap-2 mb-1">
+          <span className="text-[10px] font-bold text-[var(--accent)] uppercase tracking-wider">{article.source.name}</span>
+          <span className="text-[var(--border)]">·</span>
+          <span className="text-[var(--text-muted)] text-[11px]">{timeAgo(article.publishedAt)}</span>
+        </div>
+        <h3 className="text-sm font-bold text-[var(--text-base)] group-hover:text-[var(--accent)] leading-snug line-clamp-2 transition-colors" style={{ fontFamily: 'Georgia, serif' }}>
+          {article.title}
+        </h3>
+      </div>
+      {article.urlToImage && (
+        <div className="relative w-16 h-14 rounded-lg overflow-hidden flex-shrink-0">
+          <Image src={article.urlToImage} alt={article.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" sizes="64px" unoptimized />
+        </div>
+      )}
+    </a>
+  );
+}
+
 export default async function HomePage() {
   const allPosts = getAllPosts();
 
-  // Only fetch Pexels images for hero + featured (7 posts) to keep the page fast
-  const heroAndFeatured = allPosts.slice(0, 7);
-  const upgraded = await Promise.all(
-    heroAndFeatured.map(async post => {
-      const hasValidImage = post.coverImage &&
-        !post.coverImage.startsWith('/images/') &&
-        !post.coverImage.includes('source.unsplash.com');
-      return {
-        ...post,
-        coverImage: hasValidImage
-          ? post.coverImage
-          : await getCoverImageUrl(`${post.title} ${post.category}`, post.slug) || post.coverImage,
-      };
-    })
-  );
+  // Fetch news + articles in parallel
+  const [breakingNews, topHeadlines] = await Promise.all([
+    getBreakingNews(8),
+    getTopHeadlines(12),
+  ]);
 
-  const todayPost = upgraded[0];
-  // All posts except hero: first 6 have Pexels-upgraded images, rest use frontmatter images
-  const featuredPosts = [...upgraded.slice(1), ...allPosts.slice(7)];
-  const todayCat = CATEGORIES.find(c => c.slug === todayPost?.category);
-  const todayAuthor = todayPost ? getAuthorByName(todayPost.author) : undefined;
-  const todayAvatarColor = todayAuthor?.avatarColor ?? 'bg-blue-600';
+  const featuredPosts = allPosts.slice(1);
+  const heroNews = topHeadlines[0] ?? null;
+  const sideNews = topHeadlines.slice(1, 6);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
 
-      {/* Hero */}
-      <section className="mb-10 pt-2 border-b border-[var(--border)] pb-8">
-        <p className="animate-fade-in text-xs font-bold uppercase tracking-[0.18em] text-[var(--accent)] mb-3">
-          {new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' })}
-        </p>
-        <h1 className="animate-fade-in-up text-3xl sm:text-4xl lg:text-5xl font-black text-[var(--text-base)] mb-3 leading-[1.1]" style={{ fontFamily: 'Georgia, serif' }}>
-          Knowledge for Every Day
-        </h1>
-        <p className="animate-fade-in-up delay-150 text-[var(--text-muted)] text-base mb-6 max-w-2xl leading-relaxed">
-          Expert articles on health, finance, technology, travel, food, science, and more — curated daily for curious minds.
-        </p>
-        <div className="animate-fade-in-up delay-200 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-[var(--text-muted)]">
-          <span className="flex items-center gap-1.5">
-            <span className="w-1.5 h-1.5 rounded-full bg-[var(--accent)] inline-block" />
-            <strong className="text-[var(--text-base)]">{allPosts.length}+</strong> articles
-          </span>
-          <span className="flex items-center gap-1.5">
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block" />
-            <strong className="text-[var(--text-base)]">18</strong> expert authors
-          </span>
-          <span className="flex items-center gap-1.5">
-            <span className="w-1.5 h-1.5 rounded-full bg-violet-500 inline-block" />
-            <strong className="text-[var(--text-base)]">{CATEGORIES.length}</strong> topics
-          </span>
-          <Link href="/authors" className="flex items-center gap-1 text-[var(--accent)] font-bold hover:underline ml-auto text-xs uppercase tracking-wide">
-            Meet our authors →
-          </Link>
+      {/* Breaking news ticker */}
+      <BreakingNewsTicker articles={breakingNews} />
+
+      {/* Page header */}
+      <div className="mb-6 flex items-center justify-between">
+        <div>
+          <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--accent)] mb-1">
+            {new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' })}
+          </p>
+          <h1 className="text-2xl sm:text-3xl font-black text-[var(--text-base)] leading-tight" style={{ fontFamily: 'Georgia, serif' }}>
+            Today&rsquo;s Top Stories
+          </h1>
         </div>
-      </section>
+        <Link href="/articles" className="hidden sm:flex items-center gap-1.5 text-xs font-bold text-[var(--accent)] hover:underline uppercase tracking-wide">
+          Expert Articles →
+        </Link>
+      </div>
 
-      {/* Trending Topics */}
-      <TrendingTopics />
+      {/* Main 2-column layout */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
-      {/* Article of the Day */}
-      {todayPost && (
-        <section className="mb-10">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-[var(--accent)] inline-block" />
-              <span className="text-xs font-black uppercase tracking-[0.16em] text-[var(--text-base)]">Article of the Day</span>
-            </div>
-            <div className="flex-1 h-px bg-[var(--border)]" />
-          </div>
+        {/* Left: main content (2/3) */}
+        <div className="lg:col-span-2 space-y-8">
 
-          <Link href={`/${todayPost.category}/${todayPost.slug}`} className="group block">
-            <div className="premium-card card-hover overflow-hidden">
-              <div className="grid grid-cols-1 md:grid-cols-2">
-                {/* Image */}
-                <div className="relative h-56 md:h-72 overflow-hidden bg-gray-100 dark:bg-slate-700">
-                  {todayPost.coverImage ? (
-                    <Image
-                      src={todayPost.coverImage}
-                      alt={todayPost.title}
-                      fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
-                      sizes="(max-width: 768px) 100vw, 50vw"
-                      priority
-                    />
-                  ) : (
-                    <div className="w-full h-full flex items-center justify-center text-8xl bg-gradient-to-br from-blue-500 to-indigo-600">
-                      {todayCat?.icon}
-                    </div>
-                  )}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-                </div>
+          {/* Live news hero */}
+          {heroNews && (
+            <section>
+              <NewsCard article={heroNews} large />
+            </section>
+          )}
 
-                {/* Content */}
-                <div className="p-6 md:p-8 flex flex-col justify-center bg-[var(--bg-card)]">
-                  <div className="flex items-center gap-2.5 mb-4">
-                    <span className="text-xs font-bold uppercase tracking-widest text-[var(--accent)] border border-[var(--accent)] px-2.5 py-0.5 rounded">
-                      {todayCat?.icon} {todayCat?.label}
-                    </span>
-                    <span className="text-[var(--text-muted)] text-xs">{todayPost.readingTime}</span>
-                  </div>
-                  <h2 className="text-xl md:text-2xl font-black text-[var(--text-base)] group-hover:text-[var(--accent)] transition-colors leading-snug mb-3" style={{ fontFamily: 'Georgia, serif' }}>
-                    {todayPost.title}
-                  </h2>
-                  <p className="text-[var(--text-muted)] leading-relaxed line-clamp-3 mb-6 text-sm">
-                    {todayPost.excerpt}
-                  </p>
-                  <div className="flex items-center gap-3 pt-4 border-t border-[var(--border)]">
-                    <img
-                      src={todayAuthor?.avatar ?? `https://i.pravatar.cc/300?u=infodaily-${authorNameToSlug(todayPost.author)}`}
-                      alt={todayPost.author}
-                      className="w-8 h-8 rounded-full object-cover flex-shrink-0"
-                      fetchPriority="low"
-                    />
-                    <span className="text-sm font-semibold text-[var(--text-base)]">{todayPost.author}</span>
-                    <span className="ml-auto text-xs font-black text-[var(--accent)] group-hover:underline uppercase tracking-wide">
-                      Read →
-                    </span>
-                  </div>
-                </div>
+          {/* More top stories — compact list */}
+          {sideNews.length > 0 && (
+            <section>
+              <div className="flex items-center gap-3 mb-4">
+                <span className="w-2 h-2 rounded-full bg-[var(--accent)]" />
+                <h2 className="text-xs font-black uppercase tracking-widest text-[var(--text-base)]">More Top Stories</h2>
+                <div className="flex-1 h-px bg-[var(--border)]" />
               </div>
+              <div className="bg-[var(--bg-card)] border border-[var(--border)] rounded-2xl px-3 py-1">
+                {sideNews.map((article, i) => (
+                  <NewsCard key={i} article={article} />
+                ))}
+              </div>
+            </section>
+          )}
+
+          {/* Expert Articles section */}
+          <section>
+            <div className="flex items-center justify-between mb-6">
+              <div className="flex items-center gap-3">
+                <span className="w-2 h-2 rounded-full bg-emerald-500" />
+                <h2 className="text-xs font-black uppercase tracking-widest text-[var(--text-base)]">Expert Articles</h2>
+                <div className="h-px w-24 bg-[var(--border)]" />
+              </div>
+              <Link href="/articles" className="text-xs font-bold text-[var(--accent)] hover:underline uppercase tracking-wide">
+                See all →
+              </Link>
             </div>
-          </Link>
-        </section>
-      )}
-
-      {/* Featured Articles */}
-      <section className="mb-10">
-        <div className="flex items-center gap-3 mb-7">
-          <div className="flex items-center gap-2">
-            <span className="w-2.5 h-2.5 rounded-full bg-[var(--accent)] inline-block" />
-            <h2 className="text-xs font-black uppercase tracking-[0.16em] text-[var(--text-base)]">Featured Articles</h2>
-          </div>
-          <div className="flex-1 h-px bg-[var(--border)]" />
+            <HomeFeaturedPosts posts={featuredPosts} />
+          </section>
         </div>
-        <HomeFeaturedPosts posts={featuredPosts} />
-      </section>
 
+        {/* Right: sidebar (1/3) */}
+        <div className="lg:col-span-1">
+          <div className="sticky top-20">
+            <TrendingSidebar />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
