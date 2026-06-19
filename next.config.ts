@@ -82,6 +82,11 @@ const nextConfig: NextConfig = {
         hostname: 'deadline.com',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'i.pravatar.cc',
+        pathname: '/**',
+      },
     ],
     unoptimized: true,
     minimumCacheTTL: 60,
