@@ -1,8 +1,8 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import type { Post } from '@/lib/posts';
 import { CATEGORIES } from '@/lib/categories';
 import { getAuthorByName, authorNameToSlug } from '@/lib/authors';
+import CardImage from '@/components/CardImage';
 
 interface ArticleCardProps {
   post: Post;
@@ -35,20 +35,14 @@ export default function ArticleCard({ post, featured = false, imagePriority = fa
 
           {/* Image */}
           <div className="relative h-48 overflow-hidden bg-gray-100 dark:bg-slate-700 flex-shrink-0">
-            {post.coverImage ? (
-              <Image
-                src={post.coverImage}
-                alt={post.title}
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                priority={imagePriority}
-              />
-            ) : (
-              <div className={`bg-gradient-to-br ${gradient} h-full flex items-center justify-center text-6xl`}>
-                {category?.icon}
-              </div>
-            )}
+            <CardImage
+              src={post.coverImage}
+              alt={post.title}
+              fill
+              className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              priority={imagePriority}
+            />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
 
             {/* Badges row */}
@@ -106,19 +100,13 @@ export default function ArticleCard({ post, featured = false, imagePriority = fa
     <Link href={`/${post.category}/${post.slug}`} className="group block">
       <article className="flex gap-4 py-3.5 border-b border-gray-100 dark:border-slate-700 last:border-0 hover:bg-blue-50/50 dark:hover:bg-slate-800/60 -mx-2 px-2 rounded-xl transition-all duration-200">
         <div className="relative w-16 h-16 rounded-xl overflow-hidden flex-shrink-0 bg-gray-100 dark:bg-slate-700 group-hover:scale-105 transition-transform duration-300">
-          {post.coverImage ? (
-            <Image
-              src={post.coverImage}
-              alt={post.title}
-              fill
-              className="object-cover"
-              sizes="64px"
-            />
-          ) : (
-            <div className={`bg-gradient-to-br ${gradient} w-full h-full flex items-center justify-center text-2xl`}>
-              {category?.icon}
-            </div>
-          )}
+          <CardImage
+            src={post.coverImage}
+            alt={post.title}
+            fill
+            className="object-cover"
+            sizes="64px"
+          />
           {fresh && (
             <span className="absolute top-0.5 right-0.5 w-2 h-2 bg-blue-500 rounded-full border border-white" />
           )}

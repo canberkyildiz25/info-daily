@@ -2,7 +2,7 @@ import { getAllPosts } from '@/lib/posts';
 import { CATEGORIES } from '@/lib/categories';
 import { getCoverImageUrl } from '@/lib/pexels';
 import Link from 'next/link';
-import Image from 'next/image';
+import CardImage from '@/components/CardImage';
 
 const CAT_COLORS: Record<string, string> = {
   health:        'text-emerald-600 dark:text-emerald-400',
@@ -91,7 +91,7 @@ export default async function TrendingSidebar() {
 
                 {/* Thumbnail */}
                 <div className="relative w-16 h-14 rounded-xl overflow-hidden flex-shrink-0 bg-[var(--bg-card-hover)]">
-                  <Image
+                  <CardImage
                     src={post.coverImage}
                     alt={post.title}
                     fill

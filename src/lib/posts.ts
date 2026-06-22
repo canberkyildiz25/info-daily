@@ -10,6 +10,11 @@ export { CATEGORIES } from './categories';
 
 const postsDirectory = path.join(process.cwd(), 'content/posts');
 
+function defaultCover(slug: string): string {
+  const n = Math.abs(slug.split('').reduce((a, c) => a * 31 + c.charCodeAt(0), 0)) % 1000;
+  return `https://picsum.photos/seed/${n}/800/450`;
+}
+
 function slugify(text: string): string {
   return text
     .replace(/<[^>]+>/g, '')
@@ -79,7 +84,7 @@ export function getAllPosts(): Post[] {
         updatedAt: data.updatedAt,
         canonicalUrl: data.canonicalUrl,
         author: data.author || 'Editorial Team',
-        coverImage: data.coverImage || `/images/${category.slug}-default.jpg`,
+        coverImage: data.coverImage || defaultCover(slug),
         readingTime: stats.text,
         tags: data.tags || [],
       });
@@ -117,7 +122,7 @@ export async function getPost(category: string, slug: string): Promise<Post | nu
     updatedAt: data.updatedAt,
     canonicalUrl: data.canonicalUrl,
     author: data.author || 'Editorial Team',
-    coverImage: data.coverImage || `/images/${category}-default.jpg`,
+    coverImage: data.coverImage || defaultCover(slug),
     readingTime: stats.text,
     tags: data.tags || [],
     content: htmlContent,
