@@ -2,6 +2,14 @@ import { Resend } from 'resend';
 import { NextRequest, NextResponse } from 'next/server';
 import { getAllPosts, CATEGORIES } from '@/lib/posts';
 import { getCoverImageUrl } from '@/lib/pexels';
+import { Redis } from '@upstash/redis';
+
+const redis = new Redis({
+  url: process.env.UPSTASH_REDIS_REST_URL!,
+  token: process.env.UPSTASH_REDIS_REST_TOKEN!,
+});
+
+const LAST_SENT_KEY = 'newsletter:last_slug';
 
 export const maxDuration = 60;
 
@@ -19,6 +27,11 @@ export async function GET(req: NextRequest) {
   const posts = getAllPosts();
   const todayPost = posts[0];
   if (!todayPost) return NextResponse.json({ error: 'No posts found' }, { status: 404 });
+
+  const lastSentSlug = await redis.get<string>(LAST_SENT_KEY);
+  if (lastSentSlug === todayPost.slug) {
+    return NextResponse.json({ skipped: true, reason: 'Already sent this article', article: todayPost.title });
+  }
 
   const cat = CATEGORIES.find(c => c.slug === todayPost.category);
   const coverImage = await getCoverImageUrl(`${todayPost.title} ${todayPost.category}`, todayPost.slug) || todayPost.coverImage;
@@ -70,6 +83,8 @@ export async function GET(req: NextRequest) {
         </div>
       `,
     });
+
+    await redis.set(LAST_SENT_KEY, todayPost.slug);
 
     return NextResponse.json({ success: true, sent: emails.length, article: todayPost.title });
   } catch (err: unknown) {
