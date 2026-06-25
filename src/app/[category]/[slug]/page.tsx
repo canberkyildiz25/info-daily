@@ -1,5 +1,6 @@
 import { getPost, getAllPosts, CATEGORIES, extractHeadings } from '@/lib/posts';
 import { InArticleAd, MultiplexAd, SidebarAd } from '@/components/AdBanner';
+import ArticleTranslator from '@/components/ArticleTranslator';
 import TableOfContents from '@/components/TableOfContents';
 import ArticleHeroImage from '@/components/ArticleHeroImage';
 import { getCoverImageUrl } from '@/lib/pexels';
@@ -16,8 +17,12 @@ import { authorNameToSlug, getAuthorByName } from '@/lib/authors';
 import { extractFaqFromHtml, buildFaqJsonLd } from '@/lib/faq';
 import { injectInternalLinks } from '@/lib/injectInternalLinks';
 
+export const revalidate = 86400; // ISR: regenerate each article page after 24h
+
 export async function generateStaticParams() {
-  const posts = getAllPosts();
+  // Only pre-render the 20 most recent articles at build time.
+  // Older pages are generated on first request and cached via ISR.
+  const posts = getAllPosts().slice(0, 20);
   return posts.map(post => ({ category: post.category, slug: post.slug }));
 }
 
@@ -98,25 +103,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
 
   const headings = extractHeadings(contentWithLinks);
 
-  // Split content after 2nd </p> to inject in-article ad (Google recommendation)
-  const splitContent = (() => {
-    let count = 0;
-    let splitIndex = -1;
-    let from = 0;
-    while (count < 2) {
-      const idx = contentWithLinks.indexOf('</p>', from);
-      if (idx === -1) break;
-      count++;
-      if (count === 2) splitIndex = idx + '</p>'.length;
-      from = idx + 4;
-    }
-    if (splitIndex === -1) return { first: contentWithLinks, second: '' };
-    return {
-      first: contentWithLinks.slice(0, splitIndex),
-      second: contentWithLinks.slice(splitIndex),
-    };
-  })();
-
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <ReadingProgress />
@@ -189,24 +175,16 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
             objectPosition={post.imagePosition}
           />
 
-          {/* Content — first part (2 paragraphs) */}
-          <div
-            className="prose prose-lg prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-slate-100 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-slate-100"
-            dangerouslySetInnerHTML={{ __html: splitContent.first }}
+          {/* Article content with language switcher */}
+          <ArticleTranslator
+            slug={post.slug}
+            originalTitle={post.title}
+            originalExcerpt={post.excerpt}
+            originalContent={contentWithLinks}
           />
 
-
-
-          {/* In-article ad between paragraph 2 and the rest (Google recommended position) */}
-          {splitContent.second && <InArticleAd />}
-
-          {/* Content — second part */}
-          {splitContent.second && (
-            <div
-              className="prose prose-lg prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-slate-100 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-slate-100"
-              dangerouslySetInnerHTML={{ __html: splitContent.second }}
-            />
-          )}
+          {/* In-article ad after content */}
+          <InArticleAd />
 
           {/* Multiplex / related content ad at end of article */}
           <div className="mt-8">
