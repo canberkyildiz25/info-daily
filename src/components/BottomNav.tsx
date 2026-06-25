@@ -8,6 +8,7 @@ export default function BottomNav() {
   const pathname = usePathname();
   const [showCats, setShowCats] = useState(false);
   const isHome = pathname === '/';
+  const isVideos = pathname.startsWith('/videos');
 
   return (
     <>
@@ -38,10 +39,23 @@ export default function BottomNav() {
             <span className="text-[10px] font-semibold">Categories</span>
           </button>
 
+          {/* Videos */}
+          <Link
+            href="/videos"
+            className={`flex flex-col items-center gap-1 px-4 py-2 rounded-xl transition-colors ${
+              isVideos ? 'text-blue-600 dark:text-blue-400' : 'text-gray-500 dark:text-slate-400'
+            }`}
+          >
+            <svg className="w-6 h-6" viewBox="0 0 24 24" fill={isVideos ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth={isVideos ? 0 : 1.8}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 10l4.553-2.069A1 1 0 0121 8.882v6.236a1 1 0 01-1.447.894L15 14M3 8a2 2 0 012-2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z" />
+            </svg>
+            <span className="text-[10px] font-semibold">Videos</span>
+          </Link>
+
           {/* Search — scrolls to top so the sticky header search is reachable */}
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="flex flex-col items-center gap-1 px-5 py-2 rounded-xl text-gray-500 dark:text-slate-400 transition-colors"
+            className="flex flex-col items-center gap-1 px-4 py-2 rounded-xl text-gray-500 dark:text-slate-400 transition-colors"
           >
             <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />

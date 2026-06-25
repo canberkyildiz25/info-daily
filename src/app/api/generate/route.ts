@@ -83,7 +83,12 @@ async function commitFileToGitHub(filePath: string, content: string, title: stri
   }
 }
 
-export async function POST(req: NextRequest) {
+export async function POST(_req: NextRequest) {
+  // Auto-generation temporarily disabled (API credits exhausted)
+  return NextResponse.json({ disabled: true, message: 'Article generation is currently disabled.' }, { status: 503 });
+}
+
+export async function _POST(req: NextRequest) {
   const secret = req.headers.get('x-admin-secret');
   if (secret !== process.env.ADMIN_SECRET) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
