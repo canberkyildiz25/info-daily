@@ -88,12 +88,12 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
     !post.coverImage.includes('source.unsplash.com');
   const coverImage = hasFrontmatterImage
     ? post.coverImage
-    : await getCoverImageUrl(`${post.title} ${category}`, post.slug) || post.coverImage;
+    : (await getCoverImageUrl(`${post.title} ${category}`, post.slug).catch(() => null)) ?? post.coverImage;
 
   // Inject inline images after every 2nd section heading (skipped if noInlineImages: true)
   const contentWithImages = post.noInlineImages
     ? (post.content || '')
-    : await injectInlineImages(post.content || '', post.title, category);
+    : await injectInlineImages(post.content || '', post.title, category).catch(() => post.content || '');
 
   // Inject internal links every 3 paragraphs
   const contentWithLinks = injectInternalLinks(contentWithImages, post.slug, category, post.tags);
