@@ -28,13 +28,15 @@ interface Translated {
 
 function getInitialLang(): string {
   if (typeof window === 'undefined') return 'en';
-  // 1. localStorage
-  const stored = localStorage.getItem('lang');
-  if (stored) return stored;
-  // 2. Cookie (IP-based)
-  const cookieLang = document.cookie.split(';').map(c => c.trim())
-    .find(c => c.startsWith('lang='))?.split('=')[1];
-  if (cookieLang) return cookieLang;
+  try {
+    const stored = localStorage.getItem('lang');
+    if (stored) return stored;
+    const cookieLang = document.cookie.split(';').map(c => c.trim())
+      .find(c => c.startsWith('lang='))?.split('=')[1];
+    if (cookieLang) return cookieLang;
+  } catch {
+    // Storage blocked by browser tracking prevention
+  }
   return 'en';
 }
 
