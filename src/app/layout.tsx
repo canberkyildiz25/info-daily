@@ -98,8 +98,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" translate="no" suppressHydrationWarning>
       <head suppressHydrationWarning>
+        <meta name="google" content="notranslate" />
         <meta name="yandex-verification" content="79961fae532083c7" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/favicon.svg" />
