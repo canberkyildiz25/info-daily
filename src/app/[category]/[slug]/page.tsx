@@ -18,6 +18,7 @@ import { extractFaqFromHtml, buildFaqJsonLd } from '@/lib/faq';
 import { injectInternalLinks } from '@/lib/injectInternalLinks';
 
 export const revalidate = 86400; // ISR: regenerate each article page after 24h
+export const dynamicParams = true; // Allow non-pre-rendered articles to be generated on demand
 
 export async function generateStaticParams() {
   // Only pre-render the 20 most recent articles at build time.
@@ -37,7 +38,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
     !post.coverImage.includes('picsum.photos');
   const ogImage = hasFrontmatterImage
     ? post.coverImage
-    : await getCoverImageUrl(`${post.title} ${category}`, post.slug) || post.coverImage;
+    : (await getCoverImageUrl(`${post.title} ${category}`, post.slug).catch(() => null)) ?? post.coverImage;
 
   return {
     title: post.title,
