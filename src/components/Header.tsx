@@ -4,7 +4,6 @@ import { useState, useRef } from 'react';
 import { CATEGORIES } from '@/lib/categories';
 import { useTheme, THEMES } from './ThemeProvider';
 import SearchBar from './SearchBar';
-import LangPicker from './LangPicker';
 import { useFont, FONTS } from './FontProvider';
 
 const CAT_COLORS: Record<string, string> = {
@@ -228,7 +227,6 @@ export default function Header() {
           <div className="flex items-center gap-2 shrink-0">
             <SearchBar />
             <div className="hidden sm:flex items-center gap-2">
-              <LangPicker />
               <FontPicker />
             </div>
             <ThemePicker />
@@ -254,10 +252,9 @@ export default function Header() {
       {/* Mobile menu */}
       {menuOpen && (
         <div className="md:hidden border-t border-gray-100 dark:border-slate-700 px-4 py-3 space-y-3">
-          {/* Font & Language tools */}
+          {/* Font tool */}
           <div className="flex gap-2 items-center">
             <FontPicker />
-            <LangPicker />
           </div>
           {/* Quick nav links */}
           <div className="flex gap-2 flex-wrap">
