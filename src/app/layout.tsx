@@ -5,8 +5,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ThemeProvider from '@/components/ThemeProvider';
 import FontProvider from '@/components/FontProvider';
-import NotificationPrompt from '@/components/NotificationPrompt';
-import SubscribePopup from '@/components/SubscribePopup';
 import CookieBanner from '@/components/CookieBanner';
 import BackToTop from '@/components/BackToTop';
 import BottomNav from '@/components/BottomNav';
@@ -127,8 +125,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <FontProvider>
             <Header />
             <main className="min-h-screen pb-16 md:pb-0">{children}</main>
-            <NotificationPrompt />
-            <SubscribePopup />
             <CookieBanner />
             <BackToTop />
             <BottomNav />
