@@ -1,6 +1,5 @@
 import { getPost, getAllPosts, CATEGORIES, extractHeadings } from '@/lib/posts';
 import { InArticleAd, MultiplexAd, SidebarAd } from '@/components/AdBanner';
-import ArticleTranslator from '@/components/ArticleTranslator';
 import TableOfContents from '@/components/TableOfContents';
 import ArticleHeroImage from '@/components/ArticleHeroImage';
 import { getCoverImageUrl } from '@/lib/pexels';
@@ -176,12 +175,10 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
             objectPosition={post.imagePosition}
           />
 
-          {/* Article content with language switcher */}
-          <ArticleTranslator
-            slug={post.slug}
-            originalTitle={post.title}
-            originalExcerpt={post.excerpt}
-            originalContent={contentWithLinks}
+          {/* Article content */}
+          <div
+            className="prose prose-lg prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-slate-100 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-slate-100"
+            dangerouslySetInnerHTML={{ __html: contentWithLinks }}
           />
 
           {/* In-article ad after content */}
