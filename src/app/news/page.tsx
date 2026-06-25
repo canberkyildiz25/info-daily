@@ -45,18 +45,19 @@ const expandNewsArticle = unstable_cache(
     const apiKey = process.env.ANTHROPIC_API_KEY;
     if (!apiKey) return '';
 
-    const client = new Anthropic({ apiKey });
-    const context = [
-      description,
-      truncatedContent ? stripNewsApiTruncation(truncatedContent) : null,
-    ].filter(Boolean).join('\n\n');
+    try {
+      const client = new Anthropic({ apiKey });
+      const context = [
+        description,
+        truncatedContent ? stripNewsApiTruncation(truncatedContent) : null,
+      ].filter(Boolean).join('\n\n');
 
-    const message = await client.messages.create({
-      model: 'claude-haiku-4-5-20251001',
-      max_tokens: 1200,
-      messages: [{
-        role: 'user',
-        content: `You are a professional news journalist. Based on the headline and summary below, write a comprehensive news article of 450–650 words.
+      const message = await client.messages.create({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 1200,
+        messages: [{
+          role: 'user',
+          content: `You are a professional news journalist. Based on the headline and summary below, write a comprehensive news article of 450–650 words.
 
 Headline: ${title}
 Source: ${source}
@@ -69,10 +70,13 @@ Guidelines:
 - Do NOT fabricate specific quotes, names, or statistics not implied by the summary
 - Do NOT include the headline as a heading — start directly with the article body
 - Plain paragraphs only, no markdown headers or bullet points`,
-      }],
-    });
+        }],
+      });
 
-    return (message.content[0] as { text: string }).text;
+      return (message.content[0] as { text: string }).text;
+    } catch {
+      return '';
+    }
   },
   ['news-expand-v1'],
   { revalidate: 86400 } // cache 24 hours per article
