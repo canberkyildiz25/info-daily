@@ -212,6 +212,9 @@ export default function Header() {
               <Link href="/articles" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
                 Articles
               </Link>
+              <Link href="/videos" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
+                Videos
+              </Link>
               <Link href="/authors" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
                 Authors
               </Link>
@@ -271,6 +274,13 @@ export default function Header() {
               onClick={() => setMenuOpen(false)}
             >
               📄 Articles
+            </Link>
+            <Link
+              href="/videos"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-purple-50 dark:bg-purple-900/20 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800"
+              onClick={() => setMenuOpen(false)}
+            >
+              📺 Videos
             </Link>
             <Link
               href="/authors"

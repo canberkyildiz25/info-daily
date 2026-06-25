@@ -17,6 +17,7 @@ function newsLink(article: NewsArticle): string {
     title: article.title,
     ...(article.description ? { desc: article.description } : {}),
     ...(article.urlToImage   ? { img: article.urlToImage }   : {}),
+    ...(article.content      ? { ct: article.content }       : {}),
     src: article.source.name,
     url: article.url,
     at: article.publishedAt,

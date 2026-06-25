@@ -87,6 +87,11 @@ const nextConfig: NextConfig = {
         hostname: 'i.pravatar.cc',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'img.youtube.com',
+        pathname: '/**',
+      },
     ],
     unoptimized: true,
     minimumCacheTTL: 60,

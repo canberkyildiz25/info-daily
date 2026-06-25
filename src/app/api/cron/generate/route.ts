@@ -160,6 +160,9 @@ const DAILY_CATEGORIES = [
 ];
 
 export async function GET(req: NextRequest) {
+  // Auto-generation temporarily disabled (API credits exhausted)
+  return NextResponse.json({ disabled: true, message: 'Article auto-generation is currently disabled.' }, { status: 503 });
+
   // Vercel Cron authentication
   const authHeader = req.headers.get('authorization');
   if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
