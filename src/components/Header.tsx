@@ -217,6 +217,9 @@ export default function Header() {
               <Link href="/authors" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
                 Authors
               </Link>
+              <Link href="/games" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
+                Games
+              </Link>
               <Link href="/about" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
                 About
               </Link>
@@ -285,6 +288,13 @@ export default function Header() {
               onClick={() => setMenuOpen(false)}
             >
               ✍️ Authors
+            </Link>
+            <Link
+              href="/games"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-300 border border-green-200 dark:border-green-800"
+              onClick={() => setMenuOpen(false)}
+            >
+              🎮 Games
             </Link>
             <Link
               href="/about"

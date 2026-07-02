@@ -9,6 +9,7 @@ export default function BottomNav() {
   const [showCats, setShowCats] = useState(false);
   const isHome = pathname === '/';
   const isVideos = pathname.startsWith('/videos');
+  const isGames = pathname.startsWith('/games');
 
   return (
     <>
@@ -50,6 +51,19 @@ export default function BottomNav() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M15 10l4.553-2.069A1 1 0 0121 8.882v6.236a1 1 0 01-1.447.894L15 14M3 8a2 2 0 012-2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z" />
             </svg>
             <span className="text-[10px] font-semibold">Videos</span>
+          </Link>
+
+          {/* Games */}
+          <Link
+            href="/games"
+            className={`flex flex-col items-center gap-1 px-4 py-2 rounded-xl transition-colors ${
+              isGames ? 'text-blue-600 dark:text-blue-400' : 'text-gray-500 dark:text-slate-400'
+            }`}
+          >
+            <svg className="w-6 h-6" viewBox="0 0 24 24" fill={isGames ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth={isGames ? 0 : 1.8}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
+            </svg>
+            <span className="text-[10px] font-semibold">Games</span>
           </Link>
 
           {/* Search — scrolls to top so the sticky header search is reachable */}
