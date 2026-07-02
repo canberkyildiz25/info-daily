@@ -71,14 +71,19 @@ function newsLink(a: NewsArticle): string {
 
 function GameModal({ game, onClose }: { game: typeof GAMES[0]; onClose: () => void }) {
   useEffect(() => {
-    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
+    // Push a history entry so the back button closes the modal instead of leaving the page
+    history.pushState({ game: game.id }, '');
+    const onPop = () => onClose();
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') { history.back(); } };
+    window.addEventListener('popstate', onPop);
     document.addEventListener('keydown', onKey);
     document.body.style.overflow = 'hidden';
     return () => {
+      window.removeEventListener('popstate', onPop);
       document.removeEventListener('keydown', onKey);
       document.body.style.overflow = '';
     };
-  }, [onClose]);
+  }, [onClose, game.id]);
 
   return (
     <div className="fixed inset-0 z-50 flex flex-col bg-black/95">
@@ -139,35 +144,8 @@ export default function GamesPage() {
           </p>
         </div>
 
-        {/* Browser Games */}
-        <section className="mb-14">
-          <h2 className="text-xs font-black uppercase tracking-widest text-[var(--text-muted)] mb-5 flex items-center gap-2">
-            <span className="w-4 h-px bg-[var(--accent)] inline-block" />
-            Play Now
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
-            {GAMES.map(game => (
-              <button
-                key={game.id}
-                onClick={() => setActiveGame(game)}
-                className={`group relative rounded-2xl border ${game.border} bg-gradient-to-br ${game.color} p-6 text-left hover:scale-[1.02] active:scale-[0.99] transition-transform duration-200 cursor-pointer`}
-              >
-                <div className="text-4xl mb-4">{game.icon}</div>
-                <h3 className={`text-xl font-black ${game.accent} mb-1`}>{game.title}</h3>
-                <p className="text-sm text-white/60 mb-5">{game.description}</p>
-                <span className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-4 py-2 rounded-full transition-colors uppercase tracking-wide">
-                  <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
-                  </svg>
-                  Play
-                </span>
-              </button>
-            ))}
-          </div>
-        </section>
-
         {/* Gaming News */}
-        <section>
+        <section className="mb-14">
           <h2 className="text-xs font-black uppercase tracking-widest text-[var(--text-muted)] mb-5 flex items-center gap-2">
             <span className="w-4 h-px bg-[var(--accent)] inline-block" />
             Gaming News
@@ -219,6 +197,33 @@ export default function GamesPage() {
               ))}
             </div>
           )}
+        </section>
+
+        {/* Browser Games */}
+        <section className="mb-14">
+          <h2 className="text-xs font-black uppercase tracking-widest text-[var(--text-muted)] mb-5 flex items-center gap-2">
+            <span className="w-4 h-px bg-[var(--accent)] inline-block" />
+            Play Now
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+            {GAMES.map(game => (
+              <button
+                key={game.id}
+                onClick={() => setActiveGame(game)}
+                className={`group relative rounded-2xl border ${game.border} bg-gradient-to-br ${game.color} p-6 text-left hover:scale-[1.02] active:scale-[0.99] transition-transform duration-200 cursor-pointer`}
+              >
+                <div className="text-4xl mb-4">{game.icon}</div>
+                <h3 className={`text-xl font-black ${game.accent} mb-1`}>{game.title}</h3>
+                <p className="text-sm text-white/60 mb-5">{game.description}</p>
+                <span className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-4 py-2 rounded-full transition-colors uppercase tracking-wide">
+                  <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
+                  </svg>
+                  Play
+                </span>
+              </button>
+            ))}
+          </div>
         </section>
       </div>
     </>
