@@ -9,4 +9,5 @@ export const CATEGORIES = [
   { slug: 'science', label: 'Science & Nature', description: 'Fascinating science made simple', icon: '🔬' },
   { slug: 'relationships', label: 'Relationships', description: 'Better connections, better life', icon: '❤️' },
   { slug: 'entertainment', label: 'Entertainment', description: 'Movies, TV shows, music, and pop culture', icon: '🎬' },
+  { slug: 'gaming', label: 'Gaming', description: 'Games, gear, and gaming culture', icon: '🎮' },
 ];

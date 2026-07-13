@@ -19,7 +19,7 @@ const path = require('path');
 
 const VALID_CATEGORIES = [
   'health', 'finance', 'technology', 'life-hacks',
-  'travel', 'food', 'business', 'science', 'relationships', 'entertainment',
+  'travel', 'food', 'business', 'science', 'relationships', 'entertainment', 'gaming',
 ];
 
 const CATEGORY_AUTHORS = {
@@ -33,6 +33,7 @@ const CATEGORY_AUTHORS = {
   science: 'Dr. Lena Fischer',
   relationships: 'Jessica Morgan',
   entertainment: 'Maria Chen',
+  gaming: 'Alex Rivera',
 };
 
 // Unsplash keyword map — no API key needed (Source API)
@@ -47,6 +48,7 @@ const CATEGORY_UNSPLASH_KEYWORDS = {
   science: 'science laboratory nature',
   relationships: 'people connection friendship',
   entertainment: 'cinema music entertainment',
+  gaming: 'video games gaming setup',
 };
 
 function titleToSlug(title) {
