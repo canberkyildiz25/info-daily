@@ -1,17 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
-
-interface NewsArticle {
-  title: string;
-  description: string | null;
-  url: string;
-  urlToImage: string | null;
-  publishedAt: string;
-  source: { name: string };
-  content: string | null;
-}
 
 const GAMES = [
   {
@@ -23,6 +12,7 @@ const GAMES = [
     border: 'border-green-700/40',
     accent: 'text-green-400',
     src: '/games/snake.html',
+    cover: '/games/covers/snake.svg',
   },
   {
     id: 'memory',
@@ -33,6 +23,7 @@ const GAMES = [
     border: 'border-violet-700/40',
     accent: 'text-violet-400',
     src: '/games/memory.html',
+    cover: '/games/covers/memory.svg',
   },
   {
     id: '2048',
@@ -43,31 +34,31 @@ const GAMES = [
     border: 'border-orange-700/40',
     accent: 'text-orange-400',
     src: '/games/2048.html',
+    cover: '/games/covers/2048.svg',
+  },
+  {
+    id: 'tictactoe',
+    title: 'Tic Tac Toe',
+    description: 'Beat the CPU at classic X and O.',
+    icon: '❌',
+    color: 'from-blue-900/60 to-blue-800/40',
+    border: 'border-blue-700/40',
+    accent: 'text-blue-400',
+    src: '/games/tictactoe.html',
+    cover: '/games/covers/tictactoe.svg',
+  },
+  {
+    id: 'breakout',
+    title: 'Breakout',
+    description: 'Smash bricks with a bouncing ball.',
+    icon: '🧱',
+    color: 'from-cyan-900/60 to-cyan-800/40',
+    border: 'border-cyan-700/40',
+    accent: 'text-cyan-400',
+    src: '/games/breakout.html',
+    cover: '/games/covers/breakout.svg',
   },
 ];
-
-function timeAgo(dateStr: string): string {
-  const diff = Date.now() - new Date(dateStr).getTime();
-  const mins = Math.floor(diff / 60000);
-  if (mins < 1) return 'just now';
-  if (mins < 60) return `${mins}m ago`;
-  const hrs = Math.floor(mins / 60);
-  if (hrs < 24) return `${hrs}h ago`;
-  return `${Math.floor(hrs / 24)}d ago`;
-}
-
-function newsLink(a: NewsArticle): string {
-  const p = new URLSearchParams({
-    title: a.title,
-    ...(a.description ? { desc: a.description } : {}),
-    ...(a.urlToImage ? { img: a.urlToImage } : {}),
-    ...(a.content ? { ct: a.content } : {}),
-    src: a.source.name,
-    url: a.url,
-    at: a.publishedAt,
-  });
-  return `/news?${p.toString()}`;
-}
 
 function GameModal({ game, onClose }: { game: typeof GAMES[0]; onClose: () => void }) {
   useEffect(() => {
@@ -116,16 +107,6 @@ function GameModal({ game, onClose }: { game: typeof GAMES[0]; onClose: () => vo
 
 export default function GamesPage() {
   const [activeGame, setActiveGame] = useState<typeof GAMES[0] | null>(null);
-  const [news, setNews] = useState<NewsArticle[]>([]);
-  const [newsLoading, setNewsLoading] = useState(true);
-
-  useEffect(() => {
-    fetch('/api/gaming-news')
-      .then(r => r.json())
-      .then((data: NewsArticle[]) => setNews(data))
-      .catch(() => setNews([]))
-      .finally(() => setNewsLoading(false));
-  }, []);
 
   return (
     <>
@@ -140,64 +121,9 @@ export default function GamesPage() {
             <h1 className="text-3xl sm:text-4xl font-black text-[var(--text-base)] tracking-tight">Games</h1>
           </div>
           <p className="text-[var(--text-muted)] text-base max-w-xl">
-            Play browser games instantly — no download needed. Plus the latest gaming news.
+            Play browser games instantly — no download needed.
           </p>
         </div>
-
-        {/* Gaming News */}
-        <section className="mb-14">
-          <h2 className="text-xs font-black uppercase tracking-widest text-[var(--text-muted)] mb-5 flex items-center gap-2">
-            <span className="w-4 h-px bg-[var(--accent)] inline-block" />
-            Gaming News
-          </h2>
-
-          {newsLoading ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {Array.from({ length: 6 }).map((_, i) => (
-                <div key={i} className="rounded-2xl bg-[var(--bg-card)] border border-[var(--border)] overflow-hidden animate-pulse">
-                  <div className="h-44 bg-[var(--border)]" />
-                  <div className="p-4 space-y-2">
-                    <div className="h-4 bg-[var(--border)] rounded w-3/4" />
-                    <div className="h-3 bg-[var(--border)] rounded w-1/2" />
-                  </div>
-                </div>
-              ))}
-            </div>
-          ) : news.length === 0 ? (
-            <p className="text-[var(--text-muted)] text-sm">No gaming news available right now.</p>
-          ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {news.map((article, i) => (
-                <Link key={i} href={newsLink(article)} className="group block rounded-2xl bg-[var(--bg-card)] border border-[var(--border)] overflow-hidden hover:border-[var(--accent)]/40 transition-colors">
-                  <div className="relative h-44 bg-[var(--border)]">
-                    {article.urlToImage ? (
-                      <Image
-                        src={article.urlToImage}
-                        alt={article.title}
-                        fill
-                        className="object-cover group-hover:scale-105 transition-transform duration-500"
-                        sizes="(max-width: 640px) 100vw, 33vw"
-                        unoptimized
-                      />
-                    ) : (
-                      <div className="absolute inset-0 bg-gradient-to-br from-indigo-800/60 to-purple-900/60 flex items-center justify-center text-4xl">🎮</div>
-                    )}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                    <span className="absolute top-3 left-3 text-[10px] font-black uppercase tracking-widest text-white bg-black/50 backdrop-blur-sm px-2 py-0.5 rounded-full">
-                      {article.source.name}
-                    </span>
-                  </div>
-                  <div className="p-4">
-                    <h3 className="text-sm font-bold text-[var(--text-base)] leading-snug line-clamp-2 mb-2 group-hover:text-[var(--accent)] transition-colors">
-                      {article.title}
-                    </h3>
-                    <span className="text-xs text-[var(--text-muted)]">{timeAgo(article.publishedAt)}</span>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          )}
-        </section>
 
         {/* Browser Games */}
         <section className="mb-14">
@@ -205,22 +131,32 @@ export default function GamesPage() {
             <span className="w-4 h-px bg-[var(--accent)] inline-block" />
             Play Now
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {GAMES.map(game => (
               <button
                 key={game.id}
                 onClick={() => setActiveGame(game)}
-                className={`group relative rounded-2xl border ${game.border} bg-gradient-to-br ${game.color} p-6 text-left hover:scale-[1.02] active:scale-[0.99] transition-transform duration-200 cursor-pointer`}
+                className={`group relative rounded-2xl border ${game.border} bg-gradient-to-br ${game.color} overflow-hidden text-left hover:scale-[1.02] active:scale-[0.99] transition-transform duration-200 cursor-pointer`}
               >
-                <div className="text-4xl mb-4">{game.icon}</div>
-                <h3 className={`text-xl font-black ${game.accent} mb-1`}>{game.title}</h3>
-                <p className="text-sm text-white/60 mb-5">{game.description}</p>
-                <span className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-4 py-2 rounded-full transition-colors uppercase tracking-wide">
-                  <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
-                  </svg>
-                  Play
-                </span>
+                <div className="relative h-36 w-full">
+                  <Image
+                    src={game.cover}
+                    alt={game.title}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 640px) 100vw, 33vw"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className={`text-xl font-black ${game.accent} mb-1`}>{game.title}</h3>
+                  <p className="text-sm text-white/60 mb-5">{game.description}</p>
+                  <span className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-4 py-2 rounded-full transition-colors uppercase tracking-wide">
+                    <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
+                    </svg>
+                    Play
+                  </span>
+                </div>
               </button>
             ))}
           </div>

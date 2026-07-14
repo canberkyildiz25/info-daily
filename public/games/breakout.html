@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Breakout</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #082f36;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: system-ui, sans-serif;
+    color: #f8fafc;
+    user-select: none;
+  }
+  h1 { font-size: 1.4rem; font-weight: 900; letter-spacing: 0.1em; margin-bottom: 8px; color: #22d3ee; }
+  #score-bar { display: flex; gap: 24px; margin-bottom: 12px; font-size: 0.8rem; color: #94a3b8; font-weight: 600; }
+  #score-bar span { color: #f8fafc; font-size: 1rem; font-weight: 800; }
+  canvas {
+    border: 2px solid #164e63;
+    border-radius: 12px;
+    background: #082f36;
+    display: block;
+    touch-action: none;
+  }
+  #overlay {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    pointer-events: none;
+  }
+  #msg { font-size: 1.6rem; font-weight: 900; color: #22d3ee; text-align: center; }
+  #sub { font-size: 0.85rem; color: #94a3b8; text-align: center; }
+  #btn {
+    pointer-events: all;
+    background: #22d3ee;
+    color: #082f36;
+    font-weight: 900;
+    border: none;
+    border-radius: 999px;
+    padding: 10px 28px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    transition: opacity .15s;
+  }
+  #btn:hover { opacity: 0.85; }
+  #hint { margin-top: 12px; font-size: 0.75rem; color: #64748b; }
+</style>
+</head>
+<body>
+<h1>BREAKOUT</h1>
+<div id="score-bar">
+  SCORE <span id="score">0</span>
+  &nbsp;&nbsp;BEST <span id="best">0</span>
+</div>
+<div style="position:relative">
+  <canvas id="c" width="400" height="300"></canvas>
+  <div id="overlay">
+    <div id="msg">BREAKOUT</div>
+    <div id="sub">Move mouse or drag to steer the paddle</div>
+    <button id="btn">PLAY</button>
+  </div>
+</div>
+<div id="hint">Arrow keys also work</div>
+<script>
+const canvas = document.getElementById('c');
+const ctx = canvas.getContext('2d');
+const W = canvas.width, H = canvas.height;
+
+const overlay = document.getElementById('overlay');
+const msgEl = document.getElementById('msg');
+const subEl = document.getElementById('sub');
+const scoreEl = document.getElementById('score');
+const bestEl = document.getElementById('best');
+
+const PADDLE_W = 70, PADDLE_H = 10;
+const BALL_R = 6;
+const ROWS = 5, COLS = 8;
+const BRICK_W = W / COLS, BRICK_H = 16;
+const COLORS = ['#f87171', '#fb923c', '#facc15', '#4ade80', '#22d3ee'];
+
+let paddleX, ball, bricks, score, best = 0, running = false, raf, leftKey = false, rightKey = false;
+
+function initBricks() {
+  bricks = [];
+  for (let r = 0; r < ROWS; r++)
+    for (let c = 0; c < COLS; c++)
+      bricks.push({ x: c * BRICK_W, y: r * BRICK_H + 30, alive: true, color: COLORS[r % COLORS.length] });
+}
+
+function start() {
+  paddleX = W / 2 - PADDLE_W / 2;
+  ball = { x: W / 2, y: H - 40, vx: 2.4, vy: -3.2 };
+  score = 0; scoreEl.textContent = 0;
+  initBricks();
+  overlay.style.display = 'none';
+  running = true;
+  if (raf) cancelAnimationFrame(raf);
+  loop();
+}
+
+function loop() {
+  if (!running) return;
+  tick();
+  draw();
+  raf = requestAnimationFrame(loop);
+}
+
+function tick() {
+  if (leftKey) paddleX -= 5;
+  if (rightKey) paddleX += 5;
+  paddleX = Math.max(0, Math.min(W - PADDLE_W, paddleX));
+
+  ball.x += ball.vx;
+  ball.y += ball.vy;
+
+  if (ball.x < BALL_R || ball.x > W - BALL_R) ball.vx *= -1;
+  if (ball.y < BALL_R) ball.vy *= -1;
+
+  if (ball.y > H - 20 - BALL_R && ball.y < H - 10 &&
+      ball.x > paddleX && ball.x < paddleX + PADDLE_W && ball.vy > 0) {
+    const hit = (ball.x - (paddleX + PADDLE_W / 2)) / (PADDLE_W / 2);
+    ball.vx = hit * 4;
+    ball.vy = -Math.abs(ball.vy);
+  }
+
+  for (const b of bricks) {
+    if (!b.alive) continue;
+    if (ball.x > b.x && ball.x < b.x + BRICK_W && ball.y - BALL_R < b.y + BRICK_H && ball.y + BALL_R > b.y) {
+      b.alive = false;
+      ball.vy *= -1;
+      score++; scoreEl.textContent = score;
+      break;
+    }
+  }
+
+  if (ball.y > H + BALL_R) {
+    running = false;
+    if (score > best) { best = score; bestEl.textContent = best; }
+    msgEl.textContent = 'GAME OVER';
+    subEl.textContent = `Score: ${score}`;
+    document.getElementById('btn').textContent = 'PLAY AGAIN';
+    overlay.style.display = 'flex';
+    return;
+  }
+
+  if (bricks.every(b => !b.alive)) {
+    running = false;
+    if (score > best) { best = score; bestEl.textContent = best; }
+    msgEl.textContent = 'YOU WIN! 🎉';
+    subEl.textContent = `Score: ${score}`;
+    document.getElementById('btn').textContent = 'PLAY AGAIN';
+    overlay.style.display = 'flex';
+  }
+}
+
+function draw() {
+  ctx.fillStyle = '#082f36';
+  ctx.fillRect(0, 0, W, H);
+
+  bricks.forEach(b => {
+    if (!b.alive) return;
+    ctx.fillStyle = b.color;
+    ctx.beginPath();
+    ctx.roundRect(b.x + 2, b.y + 2, BRICK_W - 4, BRICK_H - 4, 3);
+    ctx.fill();
+  });
+
+  ctx.fillStyle = '#22d3ee';
+  ctx.beginPath();
+  ctx.roundRect(paddleX, H - 20, PADDLE_W, PADDLE_H, 5);
+  ctx.fill();
+
+  ctx.fillStyle = '#e2e8f0';
+  ctx.beginPath();
+  ctx.arc(ball.x, ball.y, BALL_R, 0, Math.PI * 2);
+  ctx.fill();
+}
+
+document.getElementById('btn').addEventListener('click', start);
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowLeft') leftKey = true;
+  if (e.key === 'ArrowRight') rightKey = true;
+});
+document.addEventListener('keyup', e => {
+  if (e.key === 'ArrowLeft') leftKey = false;
+  if (e.key === 'ArrowRight') rightKey = false;
+});
+
+canvas.addEventListener('mousemove', e => {
+  const rect = canvas.getBoundingClientRect();
+  paddleX = (e.clientX - rect.left) * (W / rect.width) - PADDLE_W / 2;
+  paddleX = Math.max(0, Math.min(W - PADDLE_W, paddleX));
+});
+canvas.addEventListener('touchmove', e => {
+  const rect = canvas.getBoundingClientRect();
+  const t = e.touches[0];
+  paddleX = (t.clientX - rect.left) * (W / rect.width) - PADDLE_W / 2;
+  paddleX = Math.max(0, Math.min(W - PADDLE_W, paddleX));
+}, { passive: true });
+
+initBricks();
+draw();
+</script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tic Tac Toe</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0c1a3d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: system-ui, sans-serif;
+    color: #f8fafc;
+    user-select: none;
+  }
+  h1 { font-size: 1.4rem; font-weight: 900; letter-spacing: 0.1em; margin-bottom: 8px; color: #60a5fa; }
+  #status { font-size: 0.85rem; color: #94a3b8; font-weight: 600; margin-bottom: 16px; }
+  #board {
+    display: grid;
+    grid-template-columns: repeat(3, 84px);
+    grid-template-rows: repeat(3, 84px);
+    gap: 8px;
+  }
+  .cell {
+    background: #1e293b;
+    border: none;
+    border-radius: 12px;
+    font-size: 2.2rem;
+    font-weight: 900;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f8fafc;
+    transition: background .15s;
+  }
+  .cell:hover:not(:disabled) { background: #334155; }
+  .cell:disabled { cursor: default; }
+  .cell.x { color: #f87171; }
+  .cell.o { color: #facc15; }
+  #btn {
+    margin-top: 18px;
+    background: #60a5fa;
+    color: #0c1a3d;
+    font-weight: 900;
+    border: none;
+    border-radius: 999px;
+    padding: 10px 28px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    transition: opacity .15s;
+  }
+  #btn:hover { opacity: 0.85; }
+</style>
+</head>
+<body>
+<h1>TIC TAC TOE</h1>
+<div id="status">Your turn (X)</div>
+<div id="board"></div>
+<button id="btn">RESTART</button>
+<script>
+const boardEl = document.getElementById('board');
+const statusEl = document.getElementById('status');
+let board, over;
+
+function start() {
+  board = Array(9).fill(null);
+  over = false;
+  statusEl.textContent = 'Your turn (X)';
+  render();
+}
+
+function render() {
+  boardEl.innerHTML = '';
+  board.forEach((v, i) => {
+    const b = document.createElement('button');
+    b.className = 'cell' + (v ? ' ' + v.toLowerCase() : '');
+    b.textContent = v || '';
+    b.disabled = !!v || over;
+    b.addEventListener('click', () => play(i));
+    boardEl.appendChild(b);
+  });
+}
+
+const LINES = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];
+function winner(b) {
+  for (const [a,c,d] of LINES) if (b[a] && b[a] === b[c] && b[a] === b[d]) return b[a];
+  return b.every(x => x) ? 'draw' : null;
+}
+
+function play(i) {
+  if (over || board[i]) return;
+  board[i] = 'X';
+  const w = winner(board);
+  if (w) return finish(w);
+  render();
+  setTimeout(cpuMove, 300);
+}
+
+function cpuMove() {
+  if (over) return;
+  const empty = board.map((v, i) => v ? -1 : i).filter(i => i >= 0);
+  let move = bestMove();
+  board[move] = 'O';
+  const w = winner(board);
+  if (w) return finish(w);
+  statusEl.textContent = 'Your turn (X)';
+  render();
+}
+
+function bestMove() {
+  // win if possible
+  for (const i of emptyCells()) {
+    const copy = board.slice(); copy[i] = 'O';
+    if (winner(copy) === 'O') return i;
+  }
+  // block player
+  for (const i of emptyCells()) {
+    const copy = board.slice(); copy[i] = 'X';
+    if (winner(copy) === 'X') return i;
+  }
+  // center, corners, else random
+  if (!board[4]) return 4;
+  const corners = [0,2,6,8].filter(i => !board[i]);
+  if (corners.length) return corners[Math.floor(Math.random() * corners.length)];
+  const empty = emptyCells();
+  return empty[Math.floor(Math.random() * empty.length)];
+}
+
+function emptyCells() { return board.map((v, i) => v ? -1 : i).filter(i => i >= 0); }
+
+function finish(w) {
+  over = true;
+  statusEl.textContent = w === 'draw' ? "It's a draw!" : (w === 'X' ? 'You win! 🎉' : 'CPU wins!');
+  render();
+}
+
+document.getElementById('btn').addEventListener('click', start);
+start();
+</script>
+</body>
+</html>
