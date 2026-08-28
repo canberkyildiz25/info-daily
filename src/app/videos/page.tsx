@@ -100,7 +100,7 @@ export default async function VideosPage({ searchParams }: Props) {
               <div className="p-3.5">
                 <div className="flex items-center gap-2 mb-2">
                   <span className="text-[10px] font-black uppercase tracking-widest text-[var(--accent)]">{video.channelName}</span>
-                  <span className="text-[var(--border)]">·</span>
+                  <span className="text-[var(--text-muted)]" aria-hidden>·</span>
                   <span className="text-[10px] text-[var(--text-muted)]">{timeAgo(video.publishedAt)}</span>
                 </div>
                 <h3 className="text-sm font-bold text-[var(--text-base)] group-hover:text-[var(--accent)] leading-snug line-clamp-2 transition-colors" style={{ fontFamily: 'Georgia, serif' }}>

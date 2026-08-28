@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef, useCallback } from 'react';
+import CategoryIcon from './CategoryIcon';
 import Link from 'next/link';
 import { CATEGORIES } from '@/lib/categories';
 
@@ -88,7 +89,7 @@ export default function SearchBar() {
       {/* Search button */}
       <button
         onClick={() => setOpen(true)}
-        className="flex items-center gap-2 px-3 py-1.5 rounded-lg border border-gray-200 dark:border-slate-700 text-gray-400 dark:text-slate-500 hover:border-blue-400 dark:hover:border-blue-500 hover:text-blue-500 transition-all text-sm bg-white dark:bg-slate-800"
+        className="flex items-center gap-2 px-3 py-1.5 rounded-lg border border-gray-200 dark:border-slate-700 text-gray-500 dark:text-slate-400 hover:border-blue-400 dark:hover:border-blue-500 hover:text-blue-500 transition-all text-sm bg-white dark:bg-slate-800"
         aria-label="Search"
       >
         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -143,7 +144,7 @@ export default function SearchBar() {
                         onClick={close}
                         className={`flex items-start gap-3 px-4 py-3 transition-colors ${i === selected ? 'bg-blue-50 dark:bg-slate-800' : 'hover:bg-gray-50 dark:hover:bg-slate-800/60'}`}
                       >
-                        <span className="text-xl mt-0.5 flex-shrink-0">{cat?.icon}</span>
+                        <span className="text-xl mt-0.5 flex-shrink-0">{cat ? <CategoryIcon slug={cat.slug} size={16} /> : null}</span>
                         <div className="flex-1 min-w-0">
                           <p
                             className="text-sm font-semibold text-gray-900 dark:text-slate-100 leading-snug"

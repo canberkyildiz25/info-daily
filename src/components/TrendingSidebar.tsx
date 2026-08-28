@@ -1,20 +1,21 @@
 import { getAllPosts } from '@/lib/posts';
+import CategoryIcon from './CategoryIcon';
 import { CATEGORIES } from '@/lib/categories';
 import { getCoverImageUrl } from '@/lib/pexels';
 import Link from 'next/link';
 import Image from 'next/image';
 
 const CAT_COLORS: Record<string, string> = {
-  health:        'text-emerald-600 dark:text-emerald-400',
-  finance:       'text-amber-600 dark:text-amber-400',
-  technology:    'text-blue-600 dark:text-blue-400',
-  'life-hacks':  'text-violet-600 dark:text-violet-400',
-  travel:        'text-sky-600 dark:text-sky-400',
-  food:          'text-orange-600 dark:text-orange-400',
-  business:      'text-slate-600 dark:text-slate-400',
-  science:       'text-teal-600 dark:text-teal-400',
-  relationships: 'text-rose-600 dark:text-rose-400',
-  entertainment: 'text-purple-600 dark:text-purple-400',
+  health:        'text-emerald-700 dark:text-emerald-400',
+  finance:       'text-amber-700 dark:text-amber-400',
+  technology:    'text-blue-700 dark:text-blue-400',
+  'life-hacks':  'text-violet-700 dark:text-violet-400',
+  travel:        'text-sky-700 dark:text-sky-400',
+  food:          'text-orange-700 dark:text-orange-400',
+  business:      'text-slate-700 dark:text-slate-400',
+  science:       'text-teal-700 dark:text-teal-400',
+  relationships: 'text-rose-700 dark:text-rose-400',
+  entertainment: 'text-purple-700 dark:text-purple-400',
 };
 
 export default async function TrendingSidebar() {
@@ -70,7 +71,7 @@ export default async function TrendingSidebar() {
         <div className="divide-y divide-[var(--border)]">
           {withImages.map((post, i) => {
             const cat = CATEGORIES.find(c => c.slug === post.category);
-            const color = CAT_COLORS[post.category] ?? 'text-blue-600 dark:text-blue-400';
+            const color = CAT_COLORS[post.category] ?? 'text-blue-700 dark:text-blue-400';
             return (
               <Link key={post.slug} href={`/${post.category}/${post.slug}`} className="group flex items-start gap-3 px-5 py-3.5 hover:bg-[var(--bg-card-hover)] transition-colors">
                 {/* Number */}
@@ -81,7 +82,7 @@ export default async function TrendingSidebar() {
                 {/* Text */}
                 <div className="flex-1 min-w-0">
                   <span className={`text-[10px] font-bold uppercase tracking-wider ${color}`}>
-                    {cat?.icon} {cat?.label}
+                    {cat ? <CategoryIcon slug={cat.slug} size={14} /> : null} {cat?.label}
                   </span>
                   <p className="text-sm font-semibold text-[var(--text-base)] group-hover:text-[var(--accent)] transition-colors leading-snug line-clamp-2 mt-0.5" style={{ fontFamily: 'Georgia, serif' }}>
                     {post.title}
@@ -115,14 +116,14 @@ export default async function TrendingSidebar() {
         </div>
         <div className="divide-y divide-[var(--border)]">
           {catStats.map((cat, i) => {
-            const color = CAT_COLORS[cat.slug] ?? 'text-blue-600 dark:text-blue-400';
+            const color = CAT_COLORS[cat.slug] ?? 'text-blue-700 dark:text-blue-400';
             return (
               <Link
                 key={cat.slug}
                 href={`/category/${cat.slug}`}
                 className="group flex items-center gap-3 px-5 py-3 hover:bg-[var(--bg-card-hover)] transition-colors"
               >
-                <span className="text-lg leading-none">{cat.icon}</span>
+                <span className="text-lg leading-none"><CategoryIcon slug={cat.slug} size={16} /></span>
                 <span className={`flex-1 text-sm font-semibold ${color} group-hover:underline`}>{cat.label}</span>
                 <span className="text-xs text-[var(--text-muted)] font-medium">{cat.count} articles</span>
                 <svg className="w-3.5 h-3.5 text-[var(--text-muted)] group-hover:text-[var(--accent)] transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">

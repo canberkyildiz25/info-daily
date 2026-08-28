@@ -1,17 +1,19 @@
 'use client';
 
 import { useState } from 'react';
+import CategoryIcon from './CategoryIcon';
 import Image from 'next/image';
 
 interface ArticleHeroImageProps {
   src: string | null;
   alt: string;
   gradient: string;
-  icon?: string;
+  /* Emoji yerine kategori slug’i: ikonu bileşen kendi çiziyor. */
+  categorySlug?: string;
   objectPosition?: string;
 }
 
-export default function ArticleHeroImage({ src, alt, gradient, icon, objectPosition = 'center' }: ArticleHeroImageProps) {
+export default function ArticleHeroImage({ src, alt, gradient, categorySlug, objectPosition = 'center' }: ArticleHeroImageProps) {
   const [imageError, setImageError] = useState(false);
 
   return (
@@ -23,13 +25,13 @@ export default function ArticleHeroImage({ src, alt, gradient, icon, objectPosit
           fill
           className="object-cover"
           style={{ objectPosition }}
-          priority
+          preload
           sizes="(max-width: 1024px) 100vw, 66vw"
           onError={() => setImageError(true)}
         />
       ) : (
-        <div className={`bg-gradient-to-br ${gradient} h-full flex items-center justify-center text-8xl`}>
-          {icon}
+        <div className={`bg-gradient-to-br ${gradient} h-full flex items-center justify-center`}>
+          {categorySlug ? <CategoryIcon slug={categorySlug} size={84} className="text-white/60" /> : null}
         </div>
       )}
       <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />

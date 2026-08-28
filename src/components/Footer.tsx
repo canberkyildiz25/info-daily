@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import CategoryIcon from './CategoryIcon';
 import { CATEGORIES } from '@/lib/categories';
 import SubscribeForm from './SubscribeForm';
 
@@ -12,9 +13,9 @@ export default function Footer() {
             <h3 className="mb-3 leading-none">
               <span className="font-black text-xl text-blue-400" style={{ fontFamily: 'Georgia, serif' }}>Info</span>
               <span className="font-black text-xl text-white">Daily</span>
-              <span className="text-sm font-normal text-slate-500">.net</span>
+              <span className="text-sm font-normal text-gray-300">.net</span>
             </h3>
-            <p className="text-sm text-gray-400 leading-relaxed">
+            <p className="text-sm text-gray-300 leading-relaxed">
               Your daily source of knowledge across health, finance, technology, life hacks, and travel.
             </p>
           </div>
@@ -23,8 +24,8 @@ export default function Footer() {
             <ul className="space-y-2">
               {CATEGORIES.map(cat => (
                 <li key={cat.slug}>
-                  <Link href={`/category/${cat.slug}`} className="text-sm text-gray-400 hover:text-white transition-colors">
-                    {cat.icon} {cat.label}
+                  <Link href={`/category/${cat.slug}`} className="text-sm text-gray-300 hover:text-white transition-colors">
+                    <CategoryIcon slug={cat.slug} size={14} /> {cat.label}
                   </Link>
                 </li>
               ))}
@@ -35,16 +36,16 @@ export default function Footer() {
             <div className="mt-6">
             <h4 className="text-white font-semibold mb-3">Legal</h4>
             <ul className="space-y-2">
-              <li><Link href="/privacy-policy" className="text-sm text-gray-400 hover:text-white transition-colors">Privacy Policy</Link></li>
-              <li><Link href="/terms" className="text-sm text-gray-400 hover:text-white transition-colors">Terms of Service</Link></li>
-              <li><Link href="/about" className="text-sm text-gray-400 hover:text-white transition-colors">About Us</Link></li>
-              <li><Link href="/authors" className="text-sm text-gray-400 hover:text-white transition-colors">Our Authors</Link></li>
-              <li><Link href="/contact" className="text-sm text-gray-400 hover:text-white transition-colors">Contact</Link></li>
+              <li><Link href="/privacy-policy" className="text-sm text-gray-300 hover:text-white transition-colors">Privacy Policy</Link></li>
+              <li><Link href="/terms" className="text-sm text-gray-300 hover:text-white transition-colors">Terms of Service</Link></li>
+              <li><Link href="/about" className="text-sm text-gray-300 hover:text-white transition-colors">About Us</Link></li>
+              <li><Link href="/authors" className="text-sm text-gray-300 hover:text-white transition-colors">Our Authors</Link></li>
+              <li><Link href="/contact" className="text-sm text-gray-300 hover:text-white transition-colors">Contact</Link></li>
             </ul>
             </div>
           </div>
         </div>
-        <div className="border-t border-gray-800 mt-8 pt-6 text-center text-xs text-gray-500">
+        <div className="border-t border-gray-800 mt-8 pt-6 text-center text-xs text-gray-400">
           © {new Date().getFullYear()} InfoDaily. All rights reserved.
         </div>
       </div>

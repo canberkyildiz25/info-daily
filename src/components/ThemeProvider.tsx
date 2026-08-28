@@ -3,15 +3,15 @@ import { createContext, useContext, useEffect, useState } from 'react';
 
 export type Theme = 'light' | 'dark' | 'ocean' | 'forest' | 'sunset' | 'rose' | 'midnight' | 'sepia';
 
-export const THEMES: { id: Theme; label: string; icon: string; dark: boolean }[] = [
-  { id: 'light',    label: 'Light',    icon: '☀️',  dark: false },
-  { id: 'dark',     label: 'Dark',     icon: '🌙',  dark: true  },
-  { id: 'ocean',    label: 'Ocean',    icon: '🌊',  dark: true  },
-  { id: 'forest',   label: 'Forest',   icon: '🌲',  dark: true  },
-  { id: 'sunset',   label: 'Sunset',   icon: '🌅',  dark: true  },
-  { id: 'rose',     label: 'Rose',     icon: '🌸',  dark: false },
-  { id: 'midnight', label: 'Midnight', icon: '🔮',  dark: true  },
-  { id: 'sepia',    label: 'Sepia',    icon: '📜',  dark: false },
+export const THEMES: { id: Theme; label: string; dark: boolean }[] = [
+  { id: 'light',    label: 'Light',  dark: false },
+  { id: 'dark',     label: 'Dark',  dark: true  },
+  { id: 'ocean',    label: 'Ocean',  dark: true  },
+  { id: 'forest',   label: 'Forest',  dark: true  },
+  { id: 'sunset',   label: 'Sunset',  dark: true  },
+  { id: 'rose',     label: 'Rose',  dark: false },
+  { id: 'midnight', label: 'Midnight',  dark: true  },
+  { id: 'sepia',    label: 'Sepia',  dark: false },
 ];
 
 interface ThemeCtx { theme: Theme; setTheme: (t: Theme) => void; }

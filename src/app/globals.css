@@ -296,3 +296,27 @@ figure img {
   width: 100%;
   height: auto;
 }
+
+/* ── Dokunma hedefleri ────────────────────────────────────────────────
+   Gezinme bağlantılarının tamamı 32px yüksekliğindeydi (py-1.5). 44px,
+   başparmağın güvenilir şekilde isabet ettirdiği alt sınır; altında kalan
+   hedefler mobilde komşusuna basılmasına yol açıyor.
+
+   Yükseklik dolgu yerine min-height ile veriliyor: dolguyu artırmak
+   satırların optik konumunu kaydırırdı, bu ise tıklama alanını büyütüp
+   etiketi yerinde bırakıyor. Kural yalnızca bağımsız kontrollere uygulanır —
+   paragraf içindeki bağlantılar metin akışının parçasıdır ve bu kurala
+   tabi değildir. */
+header a,
+header button,
+footer nav a,
+footer ul a,
+[class*='BottomNav'] a,
+nav a,
+nav button,
+[class*="CookieBanner"] button,
+form button[type="submit"] {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}

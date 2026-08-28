@@ -1,4 +1,5 @@
 import ArticleCard from './ArticleCard';
+import CategoryIcon from './CategoryIcon';
 import type { Post } from '@/lib/posts';
 import { CATEGORIES } from '@/lib/categories';
 import Link from 'next/link';
@@ -19,22 +20,22 @@ const CAT_GRADIENTS: Record<string, string> = {
 };
 
 const CAT_ACCENT: Record<string, string> = {
-  health: 'text-emerald-600 dark:text-emerald-400 border-emerald-500',
-  finance: 'text-amber-600 dark:text-amber-400 border-amber-500',
-  technology: 'text-blue-600 dark:text-blue-400 border-blue-500',
-  'life-hacks': 'text-violet-600 dark:text-violet-400 border-violet-500',
-  travel: 'text-sky-600 dark:text-sky-400 border-sky-500',
-  food: 'text-orange-600 dark:text-orange-400 border-orange-500',
-  business: 'text-slate-600 dark:text-slate-400 border-slate-500',
-  science: 'text-teal-600 dark:text-teal-400 border-teal-500',
-  relationships: 'text-rose-600 dark:text-rose-400 border-rose-500',
-  entertainment: 'text-purple-600 dark:text-purple-400 border-purple-500',
+  health: 'text-emerald-700 dark:text-emerald-400 border-emerald-500',
+  finance: 'text-amber-700 dark:text-amber-400 border-amber-500',
+  technology: 'text-blue-700 dark:text-blue-400 border-blue-500',
+  'life-hacks': 'text-violet-700 dark:text-violet-400 border-violet-500',
+  travel: 'text-sky-700 dark:text-sky-400 border-sky-500',
+  food: 'text-orange-700 dark:text-orange-400 border-orange-500',
+  business: 'text-slate-700 dark:text-slate-400 border-slate-500',
+  science: 'text-teal-700 dark:text-teal-400 border-teal-500',
+  relationships: 'text-rose-700 dark:text-rose-400 border-rose-500',
+  entertainment: 'text-purple-700 dark:text-purple-400 border-purple-500',
 };
 
 function HorizontalArticleRow({ post, index }: { post: Post; index: number }) {
   const cat = CATEGORIES.find(c => c.slug === post.category);
   const author = getAuthorByName(post.author);
-  const accent = CAT_ACCENT[post.category] ?? 'text-blue-600 dark:text-blue-400 border-blue-500';
+  const accent = CAT_ACCENT[post.category] ?? 'text-blue-700 dark:text-blue-400 border-blue-500';
   const grad = CAT_GRADIENTS[post.category] ?? 'from-blue-500 to-indigo-600';
   const isNew = (Date.now() - new Date(post.date).getTime()) < 7 * 24 * 60 * 60 * 1000;
 
@@ -51,9 +52,9 @@ function HorizontalArticleRow({ post, index }: { post: Post; index: number }) {
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-1.5">
             <span className={`text-[10px] font-bold uppercase tracking-wider ${accent.split(' ')[0]} ${accent.split(' ')[1]}`}>
-              {cat?.icon} {cat?.label}
+              {cat ? <CategoryIcon slug={cat.slug} size={14} /> : null} {cat?.label}
             </span>
-            <span className="text-[var(--border)]">·</span>
+            <span className="text-[var(--text-muted)]" aria-hidden>·</span>
             <span className="text-[var(--text-muted)] text-[11px]">{post.readingTime}</span>
             {isNew && (
               <span className="bg-[var(--accent)] text-white text-[9px] font-black px-1.5 py-0.5 rounded-full uppercase tracking-widest">
@@ -88,7 +89,7 @@ function HorizontalArticleRow({ post, index }: { post: Post; index: number }) {
             />
           ) : (
             <div className={`bg-gradient-to-br ${grad} w-full h-full flex items-center justify-center text-2xl`}>
-              {cat?.icon}
+              {cat ? <CategoryIcon slug={cat.slug} size={16} /> : null}
             </div>
           )}
         </div>
@@ -109,7 +110,7 @@ export default function HomeFeaturedPosts({ posts }: { posts: Post[] }) {
     <div className="space-y-10">
       {categoriesWithPosts.map((cat, idx) => {
         const grad = CAT_GRADIENTS[cat.slug] ?? 'from-blue-500 to-indigo-600';
-        const accent = CAT_ACCENT[cat.slug] ?? 'text-blue-600 dark:text-blue-400 border-blue-500';
+        const accent = CAT_ACCENT[cat.slug] ?? 'text-blue-700 dark:text-blue-400 border-blue-500';
         const [featuredPost, ...restPosts] = cat.posts;
 
         return (
@@ -118,7 +119,7 @@ export default function HomeFeaturedPosts({ posts }: { posts: Post[] }) {
             <div className="flex items-center justify-between mb-5">
               <div className="flex items-center gap-2.5">
                 <div className={`w-0.5 h-5 rounded-full bg-gradient-to-b ${grad}`} />
-                <span className="text-lg leading-none">{cat.icon}</span>
+                <span className="text-lg leading-none"><CategoryIcon slug={cat.slug} size={16} /></span>
                 <h2 className={`text-sm font-black uppercase tracking-widest ${accent.split(' ')[0]} ${accent.split(' ')[1]}`}>
                   {cat.label}
                 </h2>
