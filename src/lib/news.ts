@@ -1,3 +1,5 @@
+import { fetchLatestRssNews } from './rss';
+
 export interface NewsArticle {
   source: { id: string | null; name: string };
   author: string | null;
@@ -37,11 +39,11 @@ export async function getTopHeadlines(pageSize = 10): Promise<NewsArticle[]> {
       `${BASE}/top-headlines?language=en&pageSize=${pageSize}&apiKey=${KEY}`,
       { next: { revalidate: 900 } } // 15 min cache
     );
-    if (!res.ok) return [];
+    if (!res.ok) return fetchLatestRssNews(pageSize);
     const data: NewsResponse = await res.json();
     return data.articles.filter(a => a.title && a.title !== '[Removed]');
   } catch {
-    return [];
+    return fetchLatestRssNews(pageSize);
   }
 }
 
@@ -52,11 +54,11 @@ export async function getNewsByCategory(category: string, pageSize = 6): Promise
       `${BASE}/everything?q=${encodeURIComponent(q)}&language=en&sortBy=publishedAt&pageSize=${pageSize}&apiKey=${KEY}`,
       { next: { revalidate: 1800 } } // 30 min cache
     );
-    if (!res.ok) return [];
+    if (!res.ok) return fetchLatestRssNews(pageSize, category);
     const data: NewsResponse = await res.json();
     return data.articles.filter(a => a.title && a.title !== '[Removed]' && a.urlToImage);
   } catch {
-    return [];
+    return fetchLatestRssNews(pageSize, category);
   }
 }
 
@@ -66,11 +68,11 @@ export async function getBreakingNews(pageSize = 5): Promise<NewsArticle[]> {
       `${BASE}/top-headlines?language=en&category=general&pageSize=${pageSize}&apiKey=${KEY}`,
       { next: { revalidate: 300 } } // 5 min cache — more frequent for breaking
     );
-    if (!res.ok) return [];
+    if (!res.ok) return fetchLatestRssNews(pageSize);
     const data: NewsResponse = await res.json();
     return data.articles.filter(a => a.title && a.title !== '[Removed]');
   } catch {
-    return [];
+    return fetchLatestRssNews(pageSize);
   }
 }
 
