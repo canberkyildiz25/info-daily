@@ -33,8 +33,13 @@ const FEEDS: Record<string, string[]> = {
     'https://www.theverge.com/rss/index.xml',
     'https://feeds.arstechnica.com/arstechnica/index',
   ],
+  /* lifehacker 2.06 MB donuyordu — Next'in 2 MB veri onbellegi tavanini az
+     farkla asiyor, yani her istekte yeniden indiriliyordu (build bunu uyari
+     olarak basiyor). Besleme 100 oge tasiyor; sayfa ise en yeni 12 tanesini
+     kullaniyor. Yerine gelen iki kaynak toplam 38 KB ve ayni tazelikte. */
   'life-hacks': [
-    'https://lifehacker.com/rss',
+    'https://www.makeuseof.com/feed/',
+    'https://zapier.com/blog/feeds/latest/',
     'https://www.fastcompany.com/latest/rss',
   ],
   travel: [

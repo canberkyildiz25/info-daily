@@ -96,7 +96,7 @@ export default function SearchBar() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />
         </svg>
         <span className="hidden sm:inline text-xs">Search</span>
-        <kbd className="hidden sm:inline text-[10px] bg-gray-100 dark:bg-slate-700 px-1.5 py-0.5 rounded border border-gray-200 dark:border-slate-600 font-mono">⌘K</kbd>
+        <kbd className="hidden sm:inline text-[10px] text-gray-600 dark:text-slate-300 bg-gray-100 dark:bg-slate-700 px-1.5 py-0.5 rounded border border-gray-200 dark:border-slate-600 font-mono">⌘K</kbd>
       </button>
 
       {/* Overlay */}
