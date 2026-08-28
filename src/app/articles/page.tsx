@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Articles — InfoDaily',
-  description: 'Expert articles on health, finance, technology, travel, food, science, and more.',
+  description: 'Practical guides and source-led explainers on health, finance, technology, travel, food, science, and more.',
   alternates: { canonical: 'https://www.infodaily.net/articles' },
 };
 
@@ -26,12 +26,12 @@ export default function ArticlesPage() {
 
       {/* Page header */}
       <div className="mb-8 pb-6 border-b border-[var(--border)]">
-        <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--accent)] mb-2">Expert Knowledge</p>
+        <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--accent)] mb-2">Practical Knowledge</p>
         <h1 className="text-3xl sm:text-4xl font-black text-[var(--text-base)] mb-3" style={{ fontFamily: 'Georgia, serif' }}>
           In-Depth Articles
         </h1>
         <p className="text-[var(--text-muted)] max-w-xl leading-relaxed">
-          Long-form, research-backed articles on health, finance, technology, and more — written by our expert authors.
+          Reader-first guides and source-led explainers on health, finance, technology, and more.
         </p>
         <div className="flex flex-wrap gap-2 mt-4">
           {categoriesWithPosts.map(cat => (

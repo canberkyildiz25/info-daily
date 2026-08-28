@@ -3,8 +3,8 @@ import { getAllPosts } from '@/lib/posts';
 export const dynamic = 'force-dynamic';
 
 const SITE_URL = 'https://www.infodaily.net';
-const SITE_TITLE = 'InfoDaily – Health, Finance, Tech & Life Hacks';
-const SITE_DESCRIPTION = 'Expert articles on health, finance, technology, life hacks, travel, food, business, science, and relationships.';
+const SITE_TITLE = 'InfoDaily – Practical Guides, Tech & Daily Life';
+const SITE_DESCRIPTION = 'Practical guides and timely explainers on health, personal finance, technology, travel, food, science, and everyday life.';
 
 export async function GET() {
   const posts = getAllPosts()
@@ -41,7 +41,7 @@ export async function GET() {
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     <atom:link href="${SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
-      <url>${SITE_URL}/og-image.png</url>
+      <url>${SITE_URL}/opengraph-image</url>
       <title>${escapeXml(SITE_TITLE)}</title>
       <link>${SITE_URL}</link>
     </image>
