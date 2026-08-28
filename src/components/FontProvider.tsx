@@ -1,14 +1,11 @@
 'use client';
 import { createContext, useContext, useEffect, useState } from 'react';
 
-export type FontId = 'jakarta' | 'inter' | 'merriweather' | 'playfair' | 'lora';
+export type FontId = 'jakarta' | 'merriweather';
 
 export const FONTS: { id: FontId; label: string; variable: string; serif: boolean }[] = [
   { id: 'jakarta',     label: 'Jakarta',     variable: '--font-jakarta',     serif: false },
-  { id: 'inter',       label: 'Inter',       variable: '--font-inter',       serif: false },
   { id: 'merriweather',label: 'Merriweather',variable: '--font-merriweather',serif: true  },
-  { id: 'playfair',    label: 'Playfair',    variable: '--font-playfair',    serif: true  },
-  { id: 'lora',        label: 'Lora',        variable: '--font-lora',        serif: true  },
 ];
 
 interface FontCtx { font: FontId; setFont: (f: FontId) => void; }
@@ -25,17 +22,11 @@ export default function FontProvider({ children }: { children: React.ReactNode }
   const [font, setFontState] = useState<FontId>('jakarta');
 
   useEffect(() => {
-    const stored = localStorage.getItem('font') as FontId | null;
-    const valid = FONTS.map(f => f.id);
-    const resolved: FontId = stored && valid.includes(stored) ? stored : 'jakarta';
-    setFontState(resolved);
-    applyFont(resolved);
-  }, []);
+    applyFont(font);
+  }, [font]);
 
   const setFont = (f: FontId) => {
     setFontState(f);
-    localStorage.setItem('font', f);
-    applyFont(f);
   };
 
   return (

@@ -10,8 +10,10 @@ import InternalLinks from '@/components/InternalLinks';
 import ReadingProgress from '@/components/ReadingProgress';
 import ShareButtons from '@/components/ShareButtons';
 import BookmarkButton from '@/components/BookmarkButton';
+import ArticleEngagement from '@/components/ArticleEngagement';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import type { Metadata } from 'next';
 import { authorNameToSlug, getAuthorByName } from '@/lib/authors';
 import { extractFaqFromHtml, buildFaqJsonLd } from '@/lib/faq';
@@ -81,7 +83,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
   const cat = CATEGORIES.find(c => c.slug === category);
   const gradient = CATEGORY_GRADIENTS[category] ?? 'from-blue-500 to-indigo-600';
   const postAuthor = getAuthorByName(post.author);
-  const avatarColor = postAuthor?.avatarColor ?? 'bg-blue-600';
 
   // Use frontmatter coverImage if valid, otherwise fetch from Pexels
   const hasFrontmatterImage = post.coverImage &&
@@ -110,6 +111,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Article */}
         <article className="lg:col-span-2">
+          <ArticleEngagement category={category} slug={slug} />
           {/* Breadcrumb */}
           <nav className="flex items-center gap-2 text-sm text-gray-400 dark:text-slate-500 mb-6">
             <Link href="/" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Home</Link>
@@ -140,9 +142,11 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
 
             <div className="flex items-center justify-between pb-6 border-b border-gray-200 dark:border-slate-700">
               <div className="flex items-center gap-3">
-                <img
+                <Image
                   src={postAuthor?.avatar ?? `https://i.pravatar.cc/300?u=infodaily-${authorNameToSlug(post.author)}`}
                   alt={post.author}
+                  width={40}
+                  height={40}
                   className="w-10 h-10 rounded-full object-cover flex-shrink-0"
                 />
                 <div>
@@ -153,7 +157,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
                     {post.author}
                   </Link>
                   <p className="text-xs text-gray-400 dark:text-slate-500">
-                    {new Date(post.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                    Published {new Date(post.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+                    {post.updatedAt && ` · Updated ${new Date(post.updatedAt).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}`}
                   </p>
                 </div>
               </div>
@@ -203,7 +208,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
             dangerouslySetInnerHTML={{
               __html: JSON.stringify({
                 '@context': 'https://schema.org',
-                '@type': 'NewsArticle',
+                '@type': 'Article',
                 headline: post.title,
                 description: post.excerpt,
                 image: coverImage ? {
@@ -227,9 +232,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
                   url: 'https://www.infodaily.net',
                   logo: {
                     '@type': 'ImageObject',
-                    url: 'https://www.infodaily.net/logo.png',
-                    width: 200,
-                    height: 60,
+                    url: 'https://www.infodaily.net/logo.svg',
                   },
                 },
                 mainEntityOfPage: {
@@ -271,6 +274,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
           <ShareButtons
             title={post.title}
             url={`https://www.infodaily.net/${category}/${slug}`}
+            category={category}
           />
 
           {/* Tags */}

@@ -11,7 +11,10 @@ export interface Author {
   joinedYear: number;
 }
 
-export const AUTHORS: Author[] = [
+// Legacy records are retained only to preserve source history. They are not
+// published or exposed through the site because their individual credentials
+// cannot be independently verified here.
+const LEGACY_AUTHORS: Author[] = [
   {
     name: 'Dr. Sarah Collins',
     slug: 'dr-sarah-collins',
@@ -230,15 +233,38 @@ export const AUTHORS: Author[] = [
   },
 ];
 
+void LEGACY_AUTHORS;
+
+export const EDITORIAL_TEAM: Author = {
+  name: 'InfoDaily Editorial Team',
+  slug: 'infodaily-editorial-team',
+  title: 'Editorial Desk',
+  bio: 'InfoDaily’s editorial desk publishes practical explainers, source-led guides, and curated news briefs for everyday readers.',
+  longBio: 'InfoDaily is published by an editorial desk, not by anonymous or unverifiable individual profiles. We aim to make complex subjects easier to understand, link to useful primary sources where they inform a claim, and update a guide when its underlying information changes. Our content is for general information and is not a substitute for professional medical, legal, financial, or other specialist advice.',
+  specialty: 'Editorial standards & practical guides',
+  avatarColor: 'bg-blue-700',
+  avatar: '/logo.svg',
+  expertise: ['Source-led explainers', 'Practical guides', 'Editorial standards'],
+  joinedYear: 2025,
+};
+
+export const AUTHORS: Author[] = [EDITORIAL_TEAM];
+
+export function normalizeAuthorName(_name?: string): string {
+  void _name;
+  return EDITORIAL_TEAM.name;
+}
+
 export function getAuthorByName(name: string): Author | undefined {
-  return AUTHORS.find(a => a.name === name);
+  return name === EDITORIAL_TEAM.name ? EDITORIAL_TEAM : undefined;
 }
 
 export function getAuthorBySlug(slug: string): Author | undefined {
-  return AUTHORS.find(a => a.slug === slug);
+  return slug === EDITORIAL_TEAM.slug ? EDITORIAL_TEAM : undefined;
 }
 
 export function authorNameToSlug(name: string): string {
+  if (name === EDITORIAL_TEAM.name) return EDITORIAL_TEAM.slug;
   return name
     .toLowerCase()
     .replace(/[^a-z0-9\s-]/g, '')

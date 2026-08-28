@@ -5,6 +5,7 @@ import { remark } from 'remark';
 import remarkHtml from 'remark-html';
 import readingTime from 'reading-time';
 import { CATEGORIES } from './categories';
+import { normalizeAuthorName } from './authors';
 
 export { CATEGORIES } from './categories';
 
@@ -83,7 +84,7 @@ export function getAllPosts(): Post[] {
         date: data.date,
         updatedAt: data.updatedAt,
         canonicalUrl: data.canonicalUrl,
-        author: data.author || 'Editorial Team',
+        author: normalizeAuthorName(data.author),
         coverImage: data.coverImage || defaultCover(slug),
         readingTime: stats.text,
         tags: data.tags || [],
@@ -121,7 +122,7 @@ export async function getPost(category: string, slug: string): Promise<Post | nu
     date: data.date,
     updatedAt: data.updatedAt,
     canonicalUrl: data.canonicalUrl,
-    author: data.author || 'Editorial Team',
+    author: normalizeAuthorName(data.author),
     coverImage: data.coverImage || defaultCover(slug),
     readingTime: stats.text,
     tags: data.tags || [],

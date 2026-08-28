@@ -1,19 +1,20 @@
 import { AUTHORS } from '@/lib/authors';
 import { getPostsByAuthor } from '@/lib/posts';
 import Link from 'next/link';
+import Image from 'next/image';
 import type { Metadata } from 'next';
 
 const SITE_URL = 'https://www.infodaily.net';
 
 export const metadata: Metadata = {
-  title: 'Meet Our Authors | InfoDaily',
+  title: 'InfoDaily Editorial Team | Standards & Coverage',
   description:
-    'InfoDaily is written by a team of expert writers, researchers, and specialists across health, finance, technology, travel, and more.',
+    'Meet the InfoDaily editorial desk and learn how we approach practical guides, source-led explainers, and updates.',
   alternates: { canonical: `${SITE_URL}/authors` },
   openGraph: {
-    title: 'Meet Our Authors | InfoDaily',
+    title: 'InfoDaily Editorial Team | Standards & Coverage',
     description:
-      'InfoDaily is written by a team of expert writers, researchers, and specialists across health, finance, technology, travel, and more.',
+      'Meet the InfoDaily editorial desk and learn how we approach practical guides, source-led explainers, and updates.',
     url: `${SITE_URL}/authors`,
     siteName: 'InfoDaily',
     type: 'website',
@@ -40,10 +41,10 @@ export default function AuthorsPage() {
       {/* Header */}
       <div className="mb-10">
         <h1 className="text-3xl sm:text-4xl font-black text-gray-900 dark:text-slate-100 mb-3">
-          Meet Our Authors
+          InfoDaily Editorial Team
         </h1>
         <p className="text-gray-500 dark:text-slate-400 max-w-2xl text-lg">
-          InfoDaily is written by a diverse team of journalists, researchers, and subject-matter experts. Every article is crafted to be accurate, practical, and genuinely useful.
+          We publish practical guides and timely explainers under one accountable editorial byline. Read our standards, see what we cover, and know what to expect from every article.
         </p>
       </div>
 
@@ -51,7 +52,7 @@ export default function AuthorsPage() {
       <div className="grid grid-cols-3 gap-4 mb-12">
         <div className="bg-white dark:bg-slate-800 rounded-xl border border-gray-100 dark:border-slate-700 p-5 text-center">
           <div className="text-2xl font-black text-blue-600 dark:text-blue-400">{AUTHORS.length}</div>
-          <div className="text-sm text-gray-500 dark:text-slate-400 mt-1">Expert Writers</div>
+          <div className="text-sm text-gray-500 dark:text-slate-400 mt-1">Editorial desk</div>
         </div>
         <div className="bg-white dark:bg-slate-800 rounded-xl border border-gray-100 dark:border-slate-700 p-5 text-center">
           <div className="text-2xl font-black text-blue-600 dark:text-blue-400">
@@ -60,8 +61,8 @@ export default function AuthorsPage() {
           <div className="text-sm text-gray-500 dark:text-slate-400 mt-1">Articles Published</div>
         </div>
         <div className="bg-white dark:bg-slate-800 rounded-xl border border-gray-100 dark:border-slate-700 p-5 text-center">
-          <div className="text-2xl font-black text-blue-600 dark:text-blue-400">10+</div>
-          <div className="text-sm text-gray-500 dark:text-slate-400 mt-1">Topics Covered</div>
+          <div className="text-2xl font-black text-blue-600 dark:text-blue-400">11</div>
+          <div className="text-sm text-gray-500 dark:text-slate-400 mt-1">Topics covered</div>
         </div>
       </div>
 
@@ -75,9 +76,11 @@ export default function AuthorsPage() {
           >
             {/* Avatar + name */}
             <div className="flex items-center gap-4 mb-4">
-              <img
+              <Image
                 src={author.avatar}
                 alt={author.name}
+                width={56}
+                height={56}
                 className="w-14 h-14 rounded-full object-cover flex-shrink-0"
               />
               <div className="min-w-0">
@@ -113,7 +116,7 @@ export default function AuthorsPage() {
                 {author.articleCount} article{author.articleCount !== 1 ? 's' : ''}
               </span>
               <span className="text-xs font-semibold text-blue-600 dark:text-blue-400 group-hover:underline">
-                View profile →
+                Read our standards →
               </span>
             </div>
           </Link>

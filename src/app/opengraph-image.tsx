@@ -1,62 +1,63 @@
 import { ImageResponse } from 'next/og';
 
 export const runtime = 'edge';
-export const alt = 'InfoDaily – Knowledge for Every Day';
+export const alt = 'InfoDaily – Practical Knowledge for Every Day';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
+
+const BRAND = {
+  paper: '#f8f7f4',
+  ink: '#0d1117',
+  muted: '#5a6270',
+  rule: '#d8d4cb',
+  accent: '#1a3fa8',
+};
 
 export default function OGImage() {
   return new ImageResponse(
     (
       <div
         style={{
-          background: 'linear-gradient(135deg, #1e3a8a 0%, #1d4ed8 50%, #0ea5e9 100%)',
+          background: BRAND.paper,
           width: '100%',
           height: '100%',
           display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          justifyContent: 'center',
-          fontFamily: 'sans-serif',
+          flexDirection: 'row',
+          padding: '74px 86px',
+          color: BRAND.ink,
         }}
       >
-        <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '24px' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', width: '100%', height: '100%' }}>
           <div
             style={{
-              background: 'white',
-              borderRadius: '16px',
-              width: '72px',
-              height: '72px',
               display: 'flex',
               alignItems: 'center',
-              justifyContent: 'center',
-              fontSize: '40px',
+              gap: '18px',
             }}
           >
-            📰
-          </div>
-          <span style={{ color: 'white', fontSize: '56px', fontWeight: 800, letterSpacing: '-1px' }}>
-            InfoDaily
-          </span>
-        </div>
-        <p style={{ color: '#bfdbfe', fontSize: '28px', margin: '0 0 40px', textAlign: 'center' }}>
-          Knowledge for Every Day
-        </p>
-        <div style={{ display: 'flex', gap: '16px' }}>
-          {['Health', 'Finance', 'Technology', 'Travel', 'Science', 'Business', 'Entertainment'].map(cat => (
             <div
-              key={cat}
               style={{
-                background: 'rgba(255,255,255,0.15)',
-                borderRadius: '999px',
-                padding: '8px 20px',
-                color: 'white',
-                fontSize: '18px',
+                width: '22px',
+                height: '22px',
+                background: BRAND.accent,
+                borderRadius: '50%',
               }}
-            >
-              {cat}
-            </div>
-          ))}
+            />
+            <span style={{ fontFamily: 'Georgia, serif', fontSize: '40px', fontWeight: 700, letterSpacing: '-1.6px' }}>InfoDaily</span>
+            <span style={{ fontSize: '20px', color: BRAND.muted }}>Independent guides &amp; timely explainers</span>
+          </div>
+
+          <div style={{ display: 'flex', flexDirection: 'column', maxWidth: '900px' }}>
+            <div style={{ width: '88px', height: '8px', background: BRAND.accent, marginBottom: '28px' }} />
+            <span style={{ fontFamily: 'Georgia, serif', fontSize: '74px', lineHeight: 1.04, fontWeight: 700, letterSpacing: '-3.2px' }}>
+              Practical knowledge for everyday decisions.
+            </span>
+          </div>
+
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderTop: `2px solid ${BRAND.rule}`, paddingTop: '22px', fontSize: '20px', color: BRAND.muted }}>
+            <span>Health · Money · Technology · Culture</span>
+            <span style={{ color: BRAND.accent, fontWeight: 700 }}>infodaily.net</span>
+          </div>
         </div>
       </div>
     ),

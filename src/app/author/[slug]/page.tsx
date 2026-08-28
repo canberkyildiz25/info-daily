@@ -1,9 +1,10 @@
 import { AUTHORS, getAuthorBySlug } from '@/lib/authors';
-import { getPostsByAuthor, CATEGORIES } from '@/lib/posts';
+import { getPostsByAuthor } from '@/lib/posts';
 import { getCoverImageUrl } from '@/lib/pexels';
 import ArticleCard from '@/components/ArticleCard';
-import { notFound } from 'next/navigation';
+import { permanentRedirect } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import type { Metadata } from 'next';
 
 const SITE_URL = 'https://www.infodaily.net';
@@ -15,7 +16,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const author = getAuthorBySlug(slug);
-  if (!author) return {};
+  if (!author) return { robots: { index: false, follow: true } };
   const title = `${author.name} – ${author.title} | InfoDaily`;
   return {
     title,
@@ -24,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     openGraph: {
       title,
       description: author.bio,
-      type: 'profile',
+      type: 'website',
       url: `${SITE_URL}/author/${slug}`,
       siteName: 'InfoDaily',
     },
@@ -34,11 +35,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function AuthorPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const author = getAuthorBySlug(slug);
-  if (!author) notFound();
+  if (!author) permanentRedirect('/authors');
 
-  const rawPosts = getPostsByAuthor(author.name);
+  const allPosts = getPostsByAuthor(author.name);
   const posts = await Promise.all(
-    rawPosts.map(async post => ({
+    allPosts.slice(0, 24).map(async post => ({
       ...post,
       coverImage: await getCoverImageUrl(`${post.title} ${post.category}`, post.slug) || post.coverImage,
     }))
@@ -46,23 +47,13 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
 
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Person',
+    '@type': 'Organization',
     name: author.name,
     jobTitle: author.title,
     description: author.longBio || author.bio,
     url: `${SITE_URL}/author/${slug}`,
-    image: author.avatar,
-    worksFor: {
-      '@type': 'Organization',
-      name: 'InfoDaily',
-      url: SITE_URL,
-    },
+    logo: `${SITE_URL}/logo.svg`,
     knowsAbout: author.expertise,
-    hasOccupation: {
-      '@type': 'Occupation',
-      name: author.title,
-      occupationLocation: { '@type': 'Country', name: 'United States' },
-    },
   };
 
   return (
@@ -84,9 +75,11 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
       {/* Author profile */}
       <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm p-8 mb-10">
         <div className="flex items-start gap-6 mb-6">
-          <img
+          <Image
             src={author.avatar}
             alt={author.name}
+            width={80}
+            height={80}
             className="w-20 h-20 rounded-full object-cover flex-shrink-0"
           />
           <div className="flex-1">
@@ -97,7 +90,7 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
                 {author.specialty}
               </span>
               <span className="text-gray-400 dark:text-slate-500 text-sm">
-                {posts.length} article{posts.length !== 1 ? 's' : ''}
+                {allPosts.length} article{allPosts.length !== 1 ? 's' : ''} in the archive
               </span>
               {author.joinedYear && (
                 <span className="text-gray-400 dark:text-slate-500 text-sm">
@@ -128,7 +121,7 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
 
       {/* Articles */}
       <h2 className="text-xl font-bold text-gray-900 dark:text-slate-100 mb-5">
-        Articles by {author.name}
+        Latest guides from {author.name}
       </h2>
 
       {posts.length === 0 ? (

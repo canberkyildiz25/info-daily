@@ -126,7 +126,7 @@ export default async function HomePage() {
           </h1>
         </div>
         <Link href="/articles" className="hidden sm:flex items-center gap-1.5 text-xs font-bold text-[var(--accent)] hover:underline uppercase tracking-wide">
-          Expert Articles →
+          Featured Guides →
         </Link>
       </div>
 
@@ -159,12 +159,12 @@ export default async function HomePage() {
             </section>
           )}
 
-          {/* Expert Articles section */}
+          {/* Featured guides section */}
           <section>
             <div className="flex items-center justify-between mb-6">
               <div className="flex items-center gap-3">
                 <span className="w-2 h-2 rounded-full bg-emerald-500" />
-                <h2 className="text-xs font-black uppercase tracking-widest text-[var(--text-base)]">Expert Articles</h2>
+                <h2 className="text-xs font-black uppercase tracking-widest text-[var(--text-base)]">Featured Guides</h2>
                 <div className="h-px w-24 bg-[var(--border)]" />
               </div>
               <Link href="/articles" className="text-xs font-bold text-[var(--accent)] hover:underline uppercase tracking-wide">

@@ -217,7 +217,7 @@ export default function Header() {
                 Videos
               </Link>
               <Link href="/authors" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
-                Authors
+                Editorial
               </Link>
               <Link href="/games" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
                 Games
@@ -268,35 +268,36 @@ export default function Header() {
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-300 border border-red-200 dark:border-red-800"
               onClick={() => setMenuOpen(false)}
             >
-              🔴 News
+              <span className="w-1.5 h-1.5 rounded-full bg-red-500" aria-hidden="true" />
+              News
             </Link>
             <Link
               href="/articles"
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800"
               onClick={() => setMenuOpen(false)}
             >
-              📄 Articles
+              Articles
             </Link>
             <Link
               href="/videos"
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-purple-50 dark:bg-purple-900/20 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800"
               onClick={() => setMenuOpen(false)}
             >
-              📺 Videos
+              Videos
             </Link>
             <Link
               href="/authors"
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-gray-100 dark:bg-slate-700 text-gray-700 dark:text-slate-300 border border-gray-200 dark:border-slate-600"
               onClick={() => setMenuOpen(false)}
             >
-              ✍️ Authors
+              Editorial
             </Link>
             <Link
               href="/games"
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-300 border border-green-200 dark:border-green-800"
               onClick={() => setMenuOpen(false)}
             >
-              🎮 Games
+              Games
             </Link>
             <Link
               href="/about"

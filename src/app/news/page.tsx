@@ -19,9 +19,13 @@ interface Props {
 export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
   const p = await searchParams;
   return {
-    title: p.title ? `${p.title} — InfoDaily` : 'News — InfoDaily',
+    title: p.title ? `${p.title} - InfoDaily` : 'News - InfoDaily',
     description: p.desc ?? 'Breaking news and top stories on InfoDaily.',
     openGraph: p.img ? { images: [p.img] } : undefined,
+    robots: {
+      index: false,
+      follow: true,
+    },
   };
 }
 
