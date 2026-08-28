@@ -1,5 +1,7 @@
 'use client';
 import Link from 'next/link';
+import ThemeIcon from './ThemeIcon';
+import CategoryIcon from './CategoryIcon';
 import { useState, useRef } from 'react';
 import { CATEGORIES } from '@/lib/categories';
 import { useTheme, THEMES } from './ThemeProvider';
@@ -30,7 +32,7 @@ function ThemePicker() {
         onClick={() => setOpen(o => !o)}
         className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-gray-200 dark:border-slate-700 text-gray-500 dark:text-slate-400 hover:border-blue-400 dark:hover:border-blue-500 transition-all text-sm bg-white dark:bg-slate-800"
       >
-        <span>{current.icon}</span>
+        <ThemeIcon id={current.id} size={16} />
         <span className="hidden sm:inline text-xs font-medium">{current.label}</span>
         <svg className="w-3 h-3 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -51,7 +53,7 @@ function ThemePicker() {
                     : 'text-gray-700 dark:text-slate-300 hover:bg-gray-50 dark:hover:bg-slate-700'
                 }`}
               >
-                <span>{t.icon}</span>
+                <ThemeIcon id={t.id} size={16} />
                 <span>{t.label}</span>
                 {theme === t.id && <span className="ml-auto text-blue-500">✓</span>}
               </button>
@@ -122,7 +124,7 @@ function CategoryNav() {
       <div className="absolute left-0 top-0 h-full w-8 bg-gradient-to-r from-[var(--bg-header)] to-transparent z-10 pointer-events-none" />
       <button
         onClick={() => scroll('left')}
-        className="relative z-20 shrink-0 p-1 rounded-full text-gray-400 dark:text-slate-500 hover:text-gray-700 dark:hover:text-slate-200 hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors"
+        className="relative z-20 shrink-0 p-1 rounded-full text-gray-500 dark:text-slate-400 hover:text-gray-700 dark:hover:text-slate-200 hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors"
         aria-label="Scroll left"
       >
         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -149,7 +151,7 @@ function CategoryNav() {
               }
             `}
           >
-            <span className="text-sm leading-none">{cat.icon}</span>
+            <CategoryIcon slug={cat.slug} size={15} />
             <span>{cat.label}</span>
           </Link>
         ))}
@@ -158,7 +160,7 @@ function CategoryNav() {
       {/* Right arrow + fade */}
       <button
         onClick={() => scroll('right')}
-        className="relative z-20 shrink-0 p-1 rounded-full text-gray-400 dark:text-slate-500 hover:text-gray-700 dark:hover:text-slate-200 hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors"
+        className="relative z-20 shrink-0 p-1 rounded-full text-gray-500 dark:text-slate-400 hover:text-gray-700 dark:hover:text-slate-200 hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors"
         aria-label="Scroll right"
       >
         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -192,7 +194,7 @@ export default function Header() {
               <span className="leading-none tracking-tight">
                 <span className="font-black text-[1.2rem]" style={{ fontFamily: 'Georgia, serif', color: 'var(--accent)' }}>Info</span>
                 <span className="font-black text-[1.2rem] text-gray-900 dark:text-white">Daily</span>
-                <span className="text-xs font-normal text-gray-400 dark:text-slate-500 ml-0.5">.net</span>
+                <span className="text-xs font-normal text-gray-500 dark:text-slate-400 ml-0.5">.net</span>
               </span>
             </Link>
 
@@ -313,7 +315,7 @@ export default function Header() {
                 className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border transition-all ${CAT_COLORS[cat.slug]}`}
                 onClick={() => setMenuOpen(false)}
               >
-                <span>{cat.icon}</span>
+                <CategoryIcon slug={cat.slug} size={16} />
                 <span>{cat.label}</span>
               </Link>
             ))}

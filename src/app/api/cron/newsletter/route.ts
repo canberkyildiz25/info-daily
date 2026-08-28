@@ -69,7 +69,7 @@ export async function GET(req: NextRequest) {
 
           <!-- Content -->
           <div style="padding:24px 32px">
-            <p style="color:#6b7280;font-size:12px;margin:0 0 8px">${cat?.icon ?? ''} ${cat?.label ?? ''} · ${todayPost.readingTime}</p>
+            <p style="color:#6b7280;font-size:12px;margin:0 0 8px">${cat?.label ?? ''} · ${todayPost.readingTime}</p>
             <h2 style="color:#111827;font-size:24px;font-weight:800;margin:0 0 12px;line-height:1.3">${todayPost.title}</h2>
             <p style="color:#4b5563;font-size:15px;line-height:1.7;margin:0 0 24px">${todayPost.excerpt}</p>
             <a href="${articleUrl}" style="display:inline-block;padding:14px 32px;background:#2563eb;color:#fff;border-radius:8px;text-decoration:none;font-weight:700;font-size:15px">Read Full Article →</a>

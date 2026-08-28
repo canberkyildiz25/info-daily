@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import CategoryIcon from './CategoryIcon';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { CATEGORIES } from '@/lib/categories';
@@ -98,7 +99,7 @@ export default function BottomNav() {
                   onClick={() => setShowCats(false)}
                   className="flex items-center gap-2.5 p-3 rounded-xl bg-gray-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-slate-700 text-gray-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                 >
-                  <span className="text-xl">{cat.icon}</span>
+                  <CategoryIcon slug={cat.slug} size={22} />
                   <span className="text-sm font-medium leading-snug">{cat.label}</span>
                 </Link>
               ))}

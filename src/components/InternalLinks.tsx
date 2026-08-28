@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import CategoryIcon from './CategoryIcon';
 import { getAllPosts, CATEGORIES } from '@/lib/posts';
 
 interface Props {
@@ -41,7 +42,7 @@ export default function InternalLinks({ currentSlug, currentCategory, currentTag
               >
                 {post.title}
                 <span className="ml-1 text-xs text-gray-400 dark:text-slate-500 font-normal">
-                  {cat?.icon}
+                  {cat ? <CategoryIcon slug={cat.slug} size={16} /> : null}
                 </span>
               </Link>
             </li>

@@ -150,7 +150,7 @@ export default async function NewsPage({ searchParams }: Props) {
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 768px"
             unoptimized
-            priority
+            preload
           />
         </div>
       )}

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import CategoryIcon from './CategoryIcon';
 import Image from 'next/image';
 import type { Post } from '@/lib/posts';
 import { CATEGORIES } from '@/lib/categories';
@@ -42,11 +43,12 @@ export default function ArticleCard({ post, featured = false, imagePriority = fa
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                priority={imagePriority}
+                fetchPriority={imagePriority ? 'high' : 'auto'}
+                loading={imagePriority ? 'eager' : 'lazy'}
               />
             ) : (
-              <div className={`bg-gradient-to-br ${gradient} h-full flex items-center justify-center text-6xl`}>
-                {category?.icon}
+              <div className={`bg-gradient-to-br ${gradient} h-full flex items-center justify-center`}>
+                {category ? <CategoryIcon slug={category.slug} size={56} className="text-white/70" /> : null}
               </div>
             )}
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
@@ -54,7 +56,7 @@ export default function ArticleCard({ post, featured = false, imagePriority = fa
             {/* Badges row */}
             <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between">
               <span className="bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm text-gray-800 dark:text-slate-100 text-xs font-bold px-2.5 py-1 rounded-full shadow-sm tracking-wide">
-                {category?.icon} {category?.label}
+                {category ? <CategoryIcon slug={category.slug} size={13} /> : null} {category?.label}
               </span>
               {fresh && (
                 <span className="bg-[var(--accent)] text-white text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-widest shadow">
@@ -68,7 +70,7 @@ export default function ArticleCard({ post, featured = false, imagePriority = fa
           <div className="p-5 flex flex-col flex-1">
             <div className="flex items-center gap-2 mb-2.5">
               <span className="text-[var(--text-muted)] text-xs font-medium">{post.readingTime}</span>
-              <span className="text-[var(--border)]">·</span>
+              <span className="text-[var(--text-muted)]" aria-hidden>·</span>
               <span className="text-[var(--text-muted)] text-xs">
                 {new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
               </span>
@@ -116,7 +118,7 @@ export default function ArticleCard({ post, featured = false, imagePriority = fa
             />
           ) : (
             <div className={`bg-gradient-to-br ${gradient} w-full h-full flex items-center justify-center text-2xl`}>
-              {category?.icon}
+              {category ? <CategoryIcon slug={category.slug} size={16} /> : null}
             </div>
           )}
           {fresh && (

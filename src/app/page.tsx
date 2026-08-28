@@ -37,7 +37,7 @@ function NewsCard({ article, large = false }: { article: NewsArticle; large?: bo
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
               sizes="(max-width: 1024px) 100vw, 66vw"
-              priority
+              preload
               unoptimized
             />
           ) : (
@@ -80,7 +80,7 @@ function NewsCard({ article, large = false }: { article: NewsArticle; large?: bo
       <div className="flex-1 min-w-0">
         <div className="flex items-center gap-2 mb-1">
           <span className="text-[10px] font-bold text-[var(--accent)] uppercase tracking-wider">{article.source.name}</span>
-          <span className="text-[var(--border)]">·</span>
+          <span className="text-[var(--text-muted)]" aria-hidden>·</span>
           <span className="text-[var(--text-muted)] text-[11px]">{timeAgo(article.publishedAt)}</span>
         </div>
         <h3 className="text-sm font-bold text-[var(--text-base)] group-hover:text-[var(--accent)] leading-snug line-clamp-2 transition-colors" style={{ fontFamily: 'Georgia, serif' }}>

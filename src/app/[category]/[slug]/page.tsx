@@ -1,4 +1,5 @@
 import { getPost, getAllPosts, CATEGORIES, extractHeadings } from '@/lib/posts';
+import CategoryIcon from '@/components/CategoryIcon';
 import { InArticleAd, MultiplexAd, SidebarAd } from '@/components/AdBanner';
 import TableOfContents from '@/components/TableOfContents';
 import ArticleHeroImage from '@/components/ArticleHeroImage';
@@ -125,7 +126,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
                 href={`/category/${category}`}
                 className="bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 text-xs font-semibold px-3 py-1 rounded-full hover:bg-blue-200 dark:hover:bg-blue-900 transition-colors"
               >
-                {cat?.icon} {cat?.label}
+                {cat ? <CategoryIcon slug={cat.slug} size={14} /> : null} {cat?.label}
               </Link>
               <span className="text-gray-300 dark:text-slate-600">·</span>
               <span className="text-gray-400 dark:text-slate-500 text-sm">{post.readingTime}</span>
@@ -171,7 +172,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
             src={coverImage}
             alt={post.title}
             gradient={gradient}
-            icon={cat?.icon}
+            categorySlug={cat?.slug}
             objectPosition={post.imagePosition}
           />
 
@@ -311,7 +312,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
                   href={`/category/${c.slug}`}
                   className="flex items-center gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-700 text-sm text-gray-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium transition-colors"
                 >
-                  {c.icon} {c.label}
+                  <CategoryIcon slug={c.slug} size={14} /> {c.label}
                 </Link>
               ))}
             </div>

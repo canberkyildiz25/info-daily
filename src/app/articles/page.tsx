@@ -1,4 +1,5 @@
 import { getAllPosts } from '@/lib/posts';
+import CategoryIcon from '@/components/CategoryIcon';
 import { CATEGORIES } from '@/lib/categories';
 import ArticleCard from '@/components/ArticleCard';
 import Link from 'next/link';
@@ -39,7 +40,7 @@ export default function ArticlesPage() {
               href={`#${cat.slug}`}
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-[var(--bg-card)] border border-[var(--border)] text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors"
             >
-              {cat.icon} {cat.label}
+              <CategoryIcon slug={cat.slug} size={14} /> {cat.label}
               <span className="ml-1 text-[10px] opacity-60">{cat.posts.length}</span>
             </Link>
           ))}
@@ -52,7 +53,7 @@ export default function ArticlesPage() {
           <section key={cat.slug} id={cat.slug}>
             <div className="flex items-center justify-between mb-5">
               <div className="flex items-center gap-2.5">
-                <span className="text-xl">{cat.icon}</span>
+                <CategoryIcon slug={cat.slug} size={22} className="text-[var(--accent)]" />
                 <h2 className="text-base font-black text-[var(--text-base)] uppercase tracking-widest">{cat.label}</h2>
                 <span className="text-xs text-[var(--text-muted)] font-medium">{cat.posts.length} articles</span>
               </div>

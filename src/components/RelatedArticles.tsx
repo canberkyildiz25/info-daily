@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import CategoryIcon from './CategoryIcon';
 import Image from 'next/image';
 import { getAllPosts, CATEGORIES, type Post } from '@/lib/posts';
 import { getCoverImageUrl } from '@/lib/pexels';
@@ -58,7 +59,7 @@ export default async function RelatedArticles({ currentSlug, currentCategory, cu
           href={`/category/${currentCategory}`}
           className="text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline flex items-center gap-1"
         >
-          {currentCat?.icon} Browse all {totalInCategory} {currentCat?.label} articles →
+          {currentCat ? <CategoryIcon slug={currentCat.slug} size={16} /> : null} Browse all {totalInCategory} {currentCat?.label} articles →
         </Link>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -82,7 +83,7 @@ export default async function RelatedArticles({ currentSlug, currentCategory, cu
                   />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center text-4xl">
-                    {cat?.icon}
+                    {cat ? <CategoryIcon slug={cat.slug} size={16} /> : null}
                   </div>
                 )}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
@@ -91,7 +92,7 @@ export default async function RelatedArticles({ currentSlug, currentCategory, cu
               {/* Content */}
               <div className="p-4">
                 <span className="text-xs font-semibold text-blue-600 dark:text-blue-400">
-                  {cat?.icon} {cat?.label}
+                  {cat ? <CategoryIcon slug={cat.slug} size={14} /> : null} {cat?.label}
                 </span>
                 <h3 className="mt-1 text-sm font-bold text-gray-900 dark:text-slate-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2 leading-snug">
                   {post.title}

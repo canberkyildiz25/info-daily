@@ -1,4 +1,5 @@
 import { getPostsByCategory, CATEGORIES } from '@/lib/posts';
+import CategoryIcon from '@/components/CategoryIcon';
 import CategoryPostGrid from '@/components/CategoryPostGrid';
 import { getCoverImageUrl } from '@/lib/pexels';
 import { notFound } from 'next/navigation';
@@ -87,7 +88,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
       {/* Category header */}
       <div className="mb-8 pb-6 border-b border-gray-200 dark:border-slate-700">
         <div className="flex items-center gap-3 mb-2">
-          <span className="text-4xl">{cat.icon}</span>
+          <CategoryIcon slug={cat.slug} size={40} className="text-[var(--accent)]" />
           <h1 className="text-3xl font-black text-gray-900 dark:text-slate-100">{cat.label}</h1>
         </div>
         <p className="text-gray-500 dark:text-slate-400 text-lg">{cat.description}</p>
@@ -114,7 +115,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
                   href={`/category/${c.slug}`}
                   className="flex items-center gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-700 text-sm text-gray-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium transition-colors"
                 >
-                  {c.icon} {c.label}
+                  <CategoryIcon slug={c.slug} size={14} /> {c.label}
                 </a>
               ))}
             </div>
