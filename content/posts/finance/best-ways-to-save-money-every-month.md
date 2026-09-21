@@ -2,7 +2,7 @@
 title: "17 Proven Ways to Save Money Every Month (Without Feeling Deprived)"
 excerpt: "Real, actionable money-saving strategies that don't require giving up everything you love. Start saving hundreds more each month with these simple changes."
 date: "2025-03-30"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Lisa Chen"
 tags: ["saving money", "budgeting", "frugal living", "personal finance", "money tips"]
 coverImage: "https://images.pexels.com/photos/31330436/pexels-photo-31330436.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -34,7 +34,7 @@ Mid-tier carriers like Mint Mobile, Visible, or Cricket use the same towers as A
 ## Groceries
 
 ### 5. Meal Plan on Sundays
-People who meal plan spend 25% less on food than those who don't, according to research from the Harvard School of Public Health. Plan 5 dinners each Sunday and shop with a list.
+Meal planning cuts food spending for the same reason it cuts food waste: you shop against a list instead of against hunger, and less of what you buy rots in the drawer. Plan 5 dinners each Sunday and shop with a list.
 
 ### 6. Buy Generic Brands
 For 80%+ of grocery categories, store-brand products are made by the same manufacturers as name brands. You can save 20-40% by switching to generics for things like pasta, canned goods, and cleaning supplies.

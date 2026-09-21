@@ -2,7 +2,7 @@
 title: "The Real Reason You're Still Broke (And It Has Nothing to Do With Your Income)"
 excerpt: "Most financial advice targets the wrong problem. New behavioral research reveals the psychological traps that keep people broke — no matter how much they earn."
 date: "2026-05-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "James Park, CFP"
 coverImage: "https://images.pexels.com/photos/7735783/pexels-photo-7735783.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["personal finance", "money habits", "budgeting", "behavioral economics", "wealth building"]
@@ -20,7 +20,7 @@ The single most wealth-destroying force for people with growing incomes is lifes
 
 You get a raise. You upgrade your apartment. You buy a better car. You eat out more. You take a nicer vacation. Each individual decision seems reasonable, even deserved. But the cumulative effect is that your savings rate remains unchanged — or shrinks — while your income climbs.
 
-A 2024 analysis of household income and savings data from the Federal Reserve's Survey of Consumer Finances found that Americans who saw their income increase by 30% or more over a five-year period increased their discretionary spending by nearly the same amount. Their savings rate barely budged. Objectively wealthier people, living paycheck to paycheck in more expensive circumstances.
+This is lifestyle creep, and it is why a raise so often fails to show up in anyone's savings: discretionary spending expands to meet the new income almost as fast as the income arrives. The savings rate barely budges. Objectively wealthier people, living paycheck to paycheck in more expensive circumstances.
 
 The psychological engine behind lifestyle inflation is **hedonic adaptation** — the brain's tendency to normalize new conditions and quickly return to baseline satisfaction. That apartment upgrade feels amazing for three months. Then it's just your apartment. You need the next thing.
 

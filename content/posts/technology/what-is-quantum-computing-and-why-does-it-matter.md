@@ -2,7 +2,7 @@
 title: "What Is Quantum Computing and Why Does It Matter"
 excerpt: "Discover what quantum computing is, how it works, and why it's poised to transform industries from healthcare to cybersecurity in the coming years."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Alex Rivera"
 coverImage: "https://images.pexels.com/photos/18475683/pexels-photo-18475683.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["quantum computing", "emerging technology", "future of computing", "cybersecurity", "tech innovation"]
@@ -41,7 +41,7 @@ Quantum computers use **interference** to boost the probability of correct answe
 
 ## Why Quantum Computing Matters Right Now
 
-You might think this is all theoretical, but the race to build practical quantum computers is very real — and accelerating fast. According to McKinsey & Company, quantum computing could create **$450 billion to $850 billion in economic value** by 2040 across industries like pharmaceuticals, chemicals, automotive, and finance.
+You might think this is all theoretical, but the race to build practical quantum computers is very real — and accelerating fast. According to [McKinsey's Quantum Technology Monitor](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-year-of-quantum-from-concept-to-reality-in-2025), quantum computing could create **$450 billion to $850 billion in economic value** by 2040 across industries like pharmaceuticals, chemicals, automotive and finance. That is value created for the industries using it — the market for quantum hardware and software itself is forecast at a fraction of that.
 
 Here's why major players are investing billions:
 

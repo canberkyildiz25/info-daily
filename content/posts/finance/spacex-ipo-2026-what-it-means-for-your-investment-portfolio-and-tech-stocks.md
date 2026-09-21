@@ -2,6 +2,7 @@
 title: "SpaceX IPO 2026: What It Means for Your Investment Portfolio and Tech Stocks"
 excerpt: "SpaceX is finally going public — here's how this landmark IPO could reshape tech stocks and what smart investors should do right now."
 date: "2026-06-14"
+updatedAt: "2026-09-21"
 author: "James Park, CFP"
 coverImage: "https://picsum.photos/seed/192/800/450"
 tags: ["SpaceX IPO", "tech stocks", "investment portfolio", "IPO 2026", "space industry investing"]
@@ -93,4 +94,4 @@ Here's your checklist:
 3. **Assess your overall portfolio** for concentration risk before adding a position
 4. **Think in decades**, not days, if you believe in the long-term space economy thesis
 
-The space economy is projected to reach $1.8 trillion by 2035, according to McKinsey's 2025 analysis. SpaceX will likely capture a significant share of that growth. The question isn't whether SpaceX is a remarkable company — it's whether the price you pay today gives you a remarkable return tomorrow. Invest accordingly.
+The space economy is projected to reach $1.8 trillion by 2035, according to [*Space: The $1.8 Trillion Opportunity for Global Economic Growth*](https://www.weforum.org/publications/space-the-1-8-trillion-opportunity-for-global-economic-growth/), published by the World Economic Forum with McKinsey & Company in April 2024 — up from $630 billion in 2023. SpaceX will likely capture a significant share of that growth. The question isn't whether SpaceX is a remarkable company — it's whether the price you pay today gives you a remarkable return tomorrow. Invest accordingly.

@@ -2,7 +2,7 @@
 title: "Apple's Smart Glasses vs. Meta Ray-Bans: What We Know About Apple's Upcoming AR Eyewear"
 excerpt: "Apple's long-rumored AR smart glasses are finally taking shape. Here's how they stack up against Meta's Ray-Bans and what to expect."
 date: "2026-04-14"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Alex Rivera"
 coverImage: "https://images.pexels.com/photos/3928120/pexels-photo-3928120.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Apple smart glasses", "Meta Ray-Bans", "AR eyewear", "augmented reality", "wearable technology"]
@@ -14,7 +14,7 @@ Let's break down everything we know so far.
 
 ## The State of Play: Where Things Stand in April 2026
 
-Meta launched its latest Ray-Ban Meta smart glasses in late 2023 and has since rolled out significant software updates, including real-time AI visual identification, live translation overlays, and expanded hands-free calling features. According to a report from IDC, Meta shipped an estimated 4.5 million Ray-Ban smart glasses units globally in 2025, making them the best-selling smart eyewear product by a wide margin.
+Meta launched its latest Ray-Ban Meta smart glasses in late 2023 and has since rolled out significant software updates, including real-time AI visual identification, live translation overlays, and expanded hands-free calling features. Meta's Ray-Ban line is the best-selling smart eyewear on the market by a wide margin, and that is what makes Apple's entry interesting: it would arrive second, into a category a competitor has already defined.
 
 Apple, on the other hand, has been playing the long game. After launching Apple Vision Pro in early 2024 as its first spatial computing headset, the company has repeatedly signaled that a lighter, glasses-form-factor device is the ultimate goal. Multiple credible sources — including Bloomberg's Mark Gurman and analyst Ming-Chi Kuo — have indicated that Apple's smart glasses project (internally rumored as "N421" or sometimes referred to as "Apple Glass") is in advanced prototyping stages with a potential announcement window in late 2026 or early 2027.
 

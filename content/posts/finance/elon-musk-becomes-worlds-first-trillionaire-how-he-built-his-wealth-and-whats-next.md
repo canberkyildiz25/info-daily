@@ -2,6 +2,7 @@
 title: "Elon Musk Becomes World's First Trillionaire: How He Built His Wealth and What's Next"
 excerpt: "Elon Musk just crossed the $1 trillion mark. Here's exactly how he built his fortune across Tesla, SpaceX, and xAI — and where the money goes from here."
 date: "2026-06-13"
+updatedAt: "2026-09-21"
 author: "James Park, CFP"
 coverImage: "https://picsum.photos/seed/256/800/450"
 tags: ["Elon Musk", "trillionaire", "wealth building", "Tesla stock", "SpaceX valuation"]
@@ -80,7 +81,7 @@ Supporters counter that:
 - **SpaceX has saved NASA billions** and restored U.S. launch capability.
 - **Innovation at this scale requires concentrated capital** and risk-taking that traditional institutions can't replicate.
 
-A 2026 Gallup poll found that 58% of Americans believe billionaire wealth should be taxed more aggressively, while 61% simultaneously view Musk's companies as "important for America's future." It's a complicated picture.
+Public opinion on extreme wealth tends to pull in two directions at once: broad support for taxing it more heavily, alongside genuine admiration for what Musk's companies have actually built. It's a complicated picture.
 
 ## What's Next for Musk?
 

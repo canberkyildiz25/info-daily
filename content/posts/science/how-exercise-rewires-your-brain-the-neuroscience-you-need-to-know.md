@@ -2,6 +2,7 @@
 title: "How Exercise Rewires Your Brain: The Neuroscience You Need to Know"
 excerpt: "Physical exercise doesn't just build muscle — it fundamentally changes the structure and chemistry of your brain in ways that improve mood, memory, and mental health."
 date: "2026-06-23"
+updatedAt: "2026-09-21"
 author: "Dr. Lena Fischer"
 coverImage: "https://images.unsplash.com/photo-1532094349884-543290bf8bf5?w=1200&q=80"
 tags: ["neuroscience", "exercise", "brain health", "mental health", "fitness", "BDNF", "cognition"]
@@ -25,7 +26,7 @@ For most of the 20th century, neuroscientists believed the adult brain couldn't 
 
 The hippocampus is your brain's memory center. It's critical for converting short-term experiences into long-term memories and for spatial navigation. It's also one of the first regions to shrink in Alzheimer's disease.
 
-Exercise is one of the most potent known triggers of hippocampal neurogenesis. A landmark study from Stanford found that adults who walked briskly for 40 minutes three times per week showed a 2% increase in hippocampal volume over a year — effectively reversing age-related hippocampal shrinkage by one to two years. A sedentary control group showed a 1.4% decrease over the same period.
+Exercise is one of the most potent known triggers of hippocampal neurogenesis. A [landmark 2011 trial published in *PNAS*](https://www.pnas.org/doi/abs/10.1073/pnas.1015950108), run by researchers at the universities of Pittsburgh and Illinois, found that older adults who walked briskly three times a week for a year gained about 2% in hippocampal volume, while the control group's shrank by roughly 1.4% — effectively turning back age-related loss by one to two years.
 
 That's not a rounding error. It's a measurable, meaningful structural difference driven purely by movement.
 

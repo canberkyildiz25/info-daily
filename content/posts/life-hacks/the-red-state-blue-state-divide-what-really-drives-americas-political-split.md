@@ -2,6 +2,7 @@
 title: "The Red State-Blue State Divide: What Really Drives America's Political Split"
 excerpt: "Explore the real forces behind America's red state-blue state divide, from economics and geography to culture, media, and education."
 date: "2026-06-08"
+updatedAt: "2026-09-21"
 author: "Emma Johnson"
 coverImage: "https://images.pexels.com/photos/4669102/pexels-photo-4669102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["red state blue state", "political divide", "US politics", "American polarization", "political geography"]
@@ -13,7 +14,7 @@ America has never been a monolith, but the chasm between so-called "red states" 
 
 Before we dig into causes, it helps to remember that the red-blue color scheme is surprisingly recent. It wasn't until the 2000 presidential election — and the prolonged Bush v. Gore recount — that television networks settled on a consistent color map: red for Republican, blue for Democrat. Before that, networks alternated colors from cycle to cycle.
 
-What started as a broadcast shorthand quickly became an identity. By the mid-2000s, people weren't just voting red or blue — they were *living* red or blue, choosing neighborhoods, news sources, and social circles that reinforced their political worldview. According to the Pew Research Center's 2025 American Values Survey, 78% of Americans say they would prefer to live in a community where most people share their political beliefs, up from 50% in 2016.
+What started as a broadcast shorthand quickly became an identity. By the mid-2000s, people weren't just voting red or blue — they were *living* red or blue, choosing neighborhoods, news sources, and social circles that reinforced their political worldview. That sorting is geographic as well as cultural, and it compounds: the more sorted a place becomes, the fewer everyday encounters anyone living there has with the other side.
 
 ## It's Not Just Ideology — It's Geography
 

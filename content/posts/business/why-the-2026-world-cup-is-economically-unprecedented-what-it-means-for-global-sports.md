@@ -2,6 +2,7 @@
 title: "Why the 2026 World Cup Is Economically Unprecedented: What It Means for Global Sports"
 excerpt: "The 2026 World Cup is shattering every economic record in sports history. Discover the staggering numbers and what they signal for the future of global athletics."
 date: "2026-06-12"
+updatedAt: "2026-09-21"
 author: "David Kim"
 coverImage: "https://picsum.photos/seed/24/800/450"
 tags: ["2026 World Cup", "sports economics", "FIFA World Cup", "global sports", "mega events"]
@@ -73,7 +74,7 @@ For the 16 host cities in 2026, the actionable advice is straightforward:
 
 Beyond the World Cup itself, the 2026 tournament is reshaping how we think about the economics of sport at a fundamental level.
 
-The global sports industry was valued at approximately **$620 billion in 2025**, according to PwC's Global Sports Survey. Events like the 2026 World Cup act as accelerants, pushing investment into adjacent sectors — sports tech, athletic tourism, media production, and urban development.
+The global sports industry turns over hundreds of billions of dollars a year, and a World Cup is the single largest event inside it. Events like the 2026 World Cup act as accelerants, pushing investment into adjacent sectors — sports tech, athletic tourism, media production, and urban development.
 
 Perhaps most significantly, the 2026 World Cup is proving that **scale doesn't have to mean waste.** By distributing matches across existing world-class venues rather than constructing purpose-built stadiums in a single location, FIFA has reduced the environmental and financial risk that has plagued previous hosts. Whether intentional or not, this may be the most important economic lesson of all.
 

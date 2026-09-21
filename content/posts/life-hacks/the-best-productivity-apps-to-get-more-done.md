@@ -2,13 +2,13 @@
 title: "The Best Productivity Apps to Get More Done"
 excerpt: "Discover the top productivity apps that can help you manage tasks, stay focused, and accomplish more every single day."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Emma Johnson"
 coverImage: "https://images.pexels.com/photos/33266834/pexels-photo-33266834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["productivity apps", "task management", "time management", "focus tools", "getting things done"]
 ---
 
-We've all been there — staring at a growing to-do list, bouncing between browser tabs, and somehow ending the day feeling like nothing meaningful got done. The truth is, willpower alone isn't enough to stay productive in a world designed to distract you. That's where the right apps come in. According to a 2023 study by McKinsey, workers spend nearly 60% of their time on "work about work" — things like searching for information, switching between tools, and managing communications rather than doing deep, meaningful tasks. The right productivity apps can dramatically shrink that wasted time and help you reclaim your day.
+We've all been there — staring at a growing to-do list, bouncing between browser tabs, and somehow ending the day feeling like nothing meaningful got done. The truth is, willpower alone isn't enough to stay productive in a world designed to distract you. That's where the right apps come in. According to Asana's [Anatomy of Work Index](https://asana.com/resources/anatomy-of-work-index), workers spend about 60% of their time on "work about work" — searching for information, switching between tools, and managing communications rather than doing the job they were hired to do. The right productivity apps can dramatically shrink that wasted time and help you reclaim your day.
 
 But with thousands of options flooding the App Store and Google Play, how do you know which ones are actually worth your time? We've done the heavy lifting for you. Here's a curated breakdown of the best productivity apps across every category that matters, along with practical tips for making them work in your real life.
 

@@ -2,7 +2,7 @@
 title: "Best Travel Credit Cards in 2026"
 excerpt: "Maximize your travel rewards with our expert guide to the best travel credit cards in 2026. Compare top options, earning rates, and benefits."
 date: "2026-04-14"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Sophie Martinez"
 coverImage: "https://images.pexels.com/photos/4430246/pexels-photo-4430246.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["travel", "credit cards", "rewards", "personal finance", "travel tips"]
@@ -12,7 +12,7 @@ Planning your next adventure? A strategic travel credit card can transform how y
 
 ## Why Travel Credit Cards Matter in 2026
 
-Travel rewards have never been more valuable. According to a 2024 study by the Federal Reserve, Americans charged over $8 trillion to credit cards annually, with travel and dining representing the fastest-growing reward categories. Smart cardholders leverage this by strategically using travel credit cards to earn points worth far more than the annual fee.
+Travel rewards have never been more valuable. Travel and dining are the categories card issuers compete hardest on, which is why the richest earn rates and the most generous sign-up bonuses cluster there. Smart cardholders leverage this by strategically using travel credit cards to earn points worth far more than the annual fee.
 
 The best travel credit cards offer three key advantages:
 

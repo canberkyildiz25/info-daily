@@ -2,7 +2,7 @@
 title: "How to Cut Your Grocery Bill in Half Without Coupons"
 excerpt: "Coupons are fine, but they're not where the real savings are. These structural changes to how you shop will slash your grocery bill without clipping a single coupon."
 date: "2026-05-04"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Emma Johnson"
 coverImage: "https://images.pexels.com/photos/27175867/pexels-photo-27175867.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["grocery shopping", "saving money", "budgeting", "food", "life hacks"]
@@ -56,7 +56,7 @@ This doesn't require becoming vegetarian. It requires two or three dinners per w
 
 ## Stop Throwing Food Away
 
-The USDA estimates that American households waste 30–40% of the food they purchase. For a family spending $1,200/month on groceries, that's $360–$480 in food thrown away every month.
+The [USDA estimates](https://www.usda.gov/about-food/food-safety/food-loss-and-waste) that 30–40% of the U.S. food supply goes to waste — a figure measured across the retail and consumer levels, not households alone. For a family spending $1,200/month on groceries, that's $360–$480 in food thrown away every month.
 
 The interventions that actually reduce food waste:
 - **Shop more frequently, in smaller quantities** rather than doing one giant weekly shop

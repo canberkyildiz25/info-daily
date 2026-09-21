@@ -2,6 +2,7 @@
 title: "What to Expect From WWDC 2026: New iOS 27, macOS 27, and AI-Powered Siri"
 excerpt: "WWDC 2026 is here. Here's everything we expect from iOS 27, macOS 27, and Apple's most intelligent Siri upgrade yet."
 date: "2026-06-06"
+updatedAt: "2026-09-21"
 author: "Alex Rivera"
 coverImage: "https://images.pexels.com/photos/35655037/pexels-photo-35655037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["WWDC 2026", "iOS 27", "macOS 27", "AI Siri", "Apple"]
@@ -78,7 +79,7 @@ Apple's differentiator has always been privacy, and the new Siri will reportedly
 - **Private Cloud Compute** for heavier AI workloads, where data is processed on Apple Silicon servers and never stored or accessible to Apple
 - **End-to-end encryption** for any data that moves between your device and the cloud
 
-This matters. A 2025 Pew Research study found that 72% of Americans are concerned about how AI companies use their personal data. Apple is betting that privacy-first AI isn't just ethical — it's a competitive advantage.
+This matters. A [2025 Pew Research Center study](https://www.pewresearch.org/internet/2025/04/03/how-the-us-public-and-ai-experts-view-artificial-intelligence/) found that 70% of Americans who have heard of AI have little or no trust in companies to make responsible decisions about how they use it. Apple is betting that privacy-first AI isn't just ethical — it's a competitive advantage.
 
 ## What Else Could Show Up
 

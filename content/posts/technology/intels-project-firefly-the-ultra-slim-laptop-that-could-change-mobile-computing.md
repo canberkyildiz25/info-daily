@@ -2,6 +2,7 @@
 title: "Intel's Project Firefly: The Ultra-Slim Laptop That Could Change Mobile Computing"
 excerpt: "Intel's Project Firefly promises a sub-7mm laptop with all-day battery life. Here's why it could redefine what portable computing really means."
 date: "2026-06-11"
+updatedAt: "2026-09-21"
 author: "Alex Rivera"
 coverImage: "https://picsum.photos/seed/416/800/450"
 tags: ["Intel Project Firefly", "ultra-slim laptops", "mobile computing", "Intel 2026", "thin laptops"]
@@ -52,7 +53,7 @@ It's easy to dismiss ultra-thin laptops as vanity projects. Do we really *need* 
 
 ### It Raises the Baseline
 
-Every time a reference design pushes boundaries, it trickles down. According to IDC's May 2026 report on the global PC market, laptops under 15mm thick now account for 41% of all notebook sales — up from just 27% in 2023. Project Firefly's innovations, particularly DTM cooling and stacked battery cells, will likely appear in mid-range laptops within 18 to 24 months.
+Every time a reference design pushes boundaries, it trickles down. Thin-and-light notebooks have taken a steadily larger share of PC sales for a decade, which is why a chassis measured in millimetres is now a headline specification rather than a footnote. Project Firefly's innovations, particularly DTM cooling and stacked battery cells, will likely appear in mid-range laptops within 18 to 24 months.
 
 ### It Challenges Apple's M-Series Dominance
 

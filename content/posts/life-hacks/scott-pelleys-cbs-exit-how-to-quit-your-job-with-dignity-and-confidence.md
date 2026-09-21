@@ -2,6 +2,7 @@
 title: "Scott Pelley's CBS Exit: How to Quit Your Job with Dignity and Confidence"
 excerpt: "Scott Pelley's graceful departure from CBS offers powerful lessons on quitting your job with professionalism, dignity, and confidence."
 date: "2026-06-05"
+updatedAt: "2026-09-21"
 author: "Emma Johnson"
 coverImage: "https://images.pexels.com/photos/9046696/pexels-photo-9046696.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["quitting your job", "career advice", "Scott Pelley CBS", "professional resignation", "workplace transitions"]
@@ -15,7 +16,7 @@ Whether you're a household name or someone quietly planning your next career mov
 
 Most people spend considerable energy thinking about how to *get* a job. Far fewer think carefully about how to *leave* one. That's a mistake.
 
-According to a 2023 survey by the Harvard Business Review, **nearly 80% of hiring managers said a candidate's reputation for professionalism during past departures influenced their hiring decisions.** In other words, the bridge you burn today could be the one you desperately need to cross tomorrow.
+**How you leave follows you.** Reference checks are informal more often than they are formal, industries are smaller than they look from the inside, and the manager you walk out on may well be the one somebody calls about you three jobs from now. The bridge you burn today could be the one you desperately need to cross tomorrow.
 
 Scott Pelley understood this intuitively. Despite reports over the years of behind-the-scenes tensions at CBS — disagreements over editorial direction, resource allocation, and the changing landscape of broadcast news — Pelley consistently took the high road in public. He expressed gratitude for his colleagues, praised the institution that shaped his career, and focused on what lay ahead rather than what went wrong.
 

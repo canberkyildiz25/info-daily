@@ -2,7 +2,7 @@
 title: "Scientists Identified the Exact Window When Your Brain Peaks — and Most People Waste It"
 excerpt: "Neuroscience has mapped the brain's daily performance curve with surprising precision. When you work matters almost as much as how hard you work."
 date: "2026-05-14"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "David Kim"
 coverImage: "https://images.pexels.com/photos/8538937/pexels-photo-8538937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["brain science", "productivity", "circadian rhythm", "focus", "neuroscience", "cognitive performance"]
@@ -65,7 +65,7 @@ The practical application is straightforward, though implementing it often requi
 
 **Schedule creative and collaborative work for the rebound.** Brainstorming sessions, feedback conversations, creative writing, conceptual planning — these benefit from slightly looser associative thinking and work well in the late afternoon window.
 
-**Consider a nap in the trough.** Research consistently shows that a 10-20 minute nap during the trough phase partially resets the circadian cycle, improving performance for the rest of the day — particularly in the rebound phase. NASA studies on military pilots found that a 26-minute nap improved performance by 34% and alertness by 100%.
+**Consider a nap in the trough.** Research consistently shows that a 10-20 minute nap during the trough phase partially resets the circadian cycle, improving performance for the rest of the day — particularly in the rebound phase. A [NASA study of long-haul commercial flight crews](https://www.sleepfoundation.org/sleep-hygiene/nasa-nap), led by Mark Rosekind, found that pilots given a rest opportunity slept an average of 26 minutes and showed a 34% improvement in reaction-time performance and up to a 54% improvement in physiological alertness, measured against a no-rest control group.
 
 **Align your chronotype with your schedule where possible.** Remote work, flexible hours, and asynchronous communication are, from a neuroscience perspective, significant productivity advantages — not just quality-of-life benefits. The ability to work when your brain is actually ready to work is genuinely valuable.
 

@@ -2,7 +2,7 @@
 title: "Foldable Phone Redesigns From Samsung and Apple: What's New and Why You Should Care"
 excerpt: "Samsung and Apple are redefining foldable phones in 2026. Here's what's changed, what's improved, and why these redesigns matter for everyday users."
 date: "2026-04-14"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Alex Rivera"
 coverImage: "https://images.pexels.com/photos/4313857/pexels-photo-4313857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["foldable phones", "Samsung Galaxy Z Fold", "Apple foldable", "smartphone technology", "tech news 2026"]
@@ -40,7 +40,7 @@ After years of patents, rumors, and supply chain leaks, Apple officially entered
 
 ### The Price Question
 
-Apple's foldable launches at $1,799, positioning it as a premium device even by foldable standards. Samsung's Z Fold 7, by comparison, starts at $1,599 — a $200 price drop from the Z Fold 6's launch price. According to a report from IDC published in March 2026, global foldable phone shipments grew 28% year-over-year in 2025, reaching approximately 27.5 million units. With Apple now in the mix and Samsung lowering prices, analysts project that number could surge past 40 million units by the end of 2026.
+Apple's foldable launches at $1,799, positioning it as a premium device even by foldable standards. Samsung's Z Fold 7, by comparison, starts at $1,599 — a $200 price drop from the Z Fold 6's launch price. According to [IDC](https://my.idc.com/getdoc.jsp?containerId=prUS54017625), global foldable shipments reached about 19.8 million units in 2025, up 6% year over year — and IDC forecasts that to accelerate to 30% growth in 2026, with Apple entering the category and Samsung cutting prices as the two drivers.
 
 ## Head-to-Head: Samsung vs. Apple Foldable
 

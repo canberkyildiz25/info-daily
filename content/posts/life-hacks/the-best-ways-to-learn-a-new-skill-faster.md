@@ -2,7 +2,7 @@
 title: "The Best Ways to Learn a New Skill Faster"
 excerpt: "Discover proven strategies to accelerate your learning curve and master any new skill in less time with these actionable techniques."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Emma Johnson"
 coverImage: "https://images.pexels.com/photos/37822453/pexels-photo-37822453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["learning", "skill development", "productivity", "self-improvement", "personal growth"]
@@ -83,7 +83,7 @@ The act of teaching transforms passive knowledge into active understanding, and 
 
 ## Prioritize Sleep and Recovery
 
-This might sound like generic wellness advice, but it's directly tied to skill acquisition. During sleep — particularly during deep sleep and REM cycles — your brain consolidates the day's learning, strengthens neural pathways, and prunes unnecessary information. A study from Harvard Medical School found that people who slept after learning a new motor task showed a 20% improvement in performance the next day, while those who stayed awake showed no improvement at all.
+This might sound like generic wellness advice, but it's directly tied to skill acquisition. During sleep — particularly during deep sleep and REM cycles — your brain consolidates the day's learning, strengthens neural pathways, and prunes unnecessary information. Work by Matthew Walker and Robert Stickgold at Harvard Medical School found that [a night of sleep after learning a finger-tapping sequence produced significant overnight gains in speed and accuracy](https://dash.harvard.edu/bitstreams/5dc3db1f-69f0-470a-8013-ab0be6c28572/download), while an equivalent stretch of time awake produced none.
 
 Skipping sleep to squeeze in more practice is one of the worst things you can do for learning. You're essentially telling your brain to throw away the work you just put in.
 

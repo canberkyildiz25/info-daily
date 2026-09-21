@@ -2,6 +2,7 @@
 title: "H-1B Visa Fee Ruling Overturned: What This Means for Your Tech Career and Job Market"
 excerpt: "A major court ruling just shook up H-1B visa fees—and the ripple effects could reshape tech hiring, salaries, and your career prospects in unexpected ways."
 date: "2026-06-09"
+updatedAt: "2026-09-21"
 author: "David Kim"
 coverImage: "https://images.pexels.com/photos/29502365/pexels-photo-29502365.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["H-1B visa", "tech careers", "immigration policy", "job market", "visa fees"]
@@ -74,7 +75,7 @@ Whether you're a hiring manager, job seeker, or current H-1B holder, here's your
 
 This ruling doesn't exist in a vacuum. Congress has been debating comprehensive H-1B reform since at least 2024, with proposals ranging from raising the annual cap from 85,000 to 130,000 to implementing a wage-based selection system instead of the current lottery. The fee ruling adds pressure to legislators from both sides—business groups want cost predictability, while labor advocates want stronger worker protections.
 
-What's clear is that **the demand for skilled tech workers isn't going away**. The Bureau of Labor Statistics projects that computer and information technology occupations will grow by 15% through 2032, adding roughly 377,500 new jobs. No single policy change—fee increase or otherwise—will alter that fundamental reality.
+What's clear is that **the demand for skilled tech workers isn't going away**. The [Bureau of Labor Statistics](https://www.bls.gov/ooh/computer-and-information-technology/home.htm) projects computer and information technology employment to grow faster than the average for all occupations from 2025 to 2035, with about 280,000 openings a year. That last number is routinely quoted as new jobs, which it is not — it counts both growth and the need to replace workers who leave these occupations permanently. No single policy change—fee increase or otherwise—will alter that fundamental reality.
 
 ## Final Thoughts
 

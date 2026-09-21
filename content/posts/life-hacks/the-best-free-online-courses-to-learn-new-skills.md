@@ -2,7 +2,7 @@
 title: "The Best Free Online Courses to Learn New Skills"
 excerpt: "Discover the best free online courses to learn valuable new skills in tech, business, and more — no wallet required."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Emma Johnson"
 coverImage: "https://images.pexels.com/photos/4754688/pexels-photo-4754688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["free online courses", "learn new skills", "online education", "self-improvement", "career development"]
@@ -74,7 +74,7 @@ Sometimes the most valuable skills aren't technical — they're personal. These 
 
 ## Tips for Getting the Most Out of Free Courses
 
-Enrolling in a course is easy. Finishing it is another story. Research from the Harvard Business Review suggests that MOOC completion rates hover between 5% and 15%. Here's how to beat those odds:
+Enrolling in a course is easy. Finishing it is another story. Completion rates for free online courses are low enough that every major platform treats them as a known problem — most people who enrol never finish. Here's how to beat those odds:
 
 - **Set a schedule:** Treat your course like an appointment. Block 30–60 minutes a few times per week.
 - **Take notes actively:** Don't just watch videos passively. Write summaries, create flashcards, or teach the material to someone else.

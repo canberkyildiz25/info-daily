@@ -2,7 +2,7 @@
 title: "How to Start Investing With $100"
 excerpt: "Think you need thousands to start investing? Think again. Here's exactly how to grow your wealth starting with just $100."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "James Park, CFP"
 coverImage: "https://images.pexels.com/photos/16886249/pexels-photo-16886249.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["investing for beginners", "how to invest", "investing with little money", "personal finance", "building wealth"]
@@ -10,7 +10,7 @@ tags: ["investing for beginners", "how to invest", "investing with little money"
 
 There's a stubborn myth in personal finance that refuses to die: you need a lot of money to start investing. Maybe a few thousand dollars, at least. The truth? You can begin building real, long-term wealth with as little as $100. In fact, thanks to fractional shares, zero-commission brokerages, and low-cost index funds, there has never been a better time in history to be a small investor. The barriers that once kept everyday people out of the markets have essentially disappeared.
 
-According to a 2024 Gallup poll, 62% of American adults own stocks in some form — but millions more sit on the sidelines, often because they believe they don't have "enough" to get started. If that sounds like you, this guide will walk you through exactly how to put your first $100 to work, step by step.
+According to [Gallup's April 2026 Economy and Personal Finance survey](https://news.gallup.com/poll/266807/percentage-americans-owns-stock.aspx), 58% of American adults own stock in some form — down from 62% a year earlier, and the first meaningful decline in about a decade. Millions more sit on the sidelines, often because they believe they don't have "enough" to get started. If that sounds like you, this guide will walk you through exactly how to put your first $100 to work, step by step.
 
 ## Why Starting With $100 Actually Matters
 

@@ -2,6 +2,7 @@
 title: "Apple Intelligence and Siri Revamp: What to Expect From WWDC 2026"
 excerpt: "WWDC 2026 promises the biggest Siri overhaul ever and major Apple Intelligence upgrades. Here's everything we expect Apple to announce this year."
 date: "2026-06-07"
+updatedAt: "2026-09-21"
 author: "Alex Rivera"
 coverImage: "https://images.pexels.com/photos/9546371/pexels-photo-9546371.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Apple Intelligence", "Siri", "WWDC 2026", "artificial intelligence", "Apple"]
@@ -20,7 +21,7 @@ By early 2026, Apple Intelligence has already delivered:
 - **Smart summaries** for notifications, emails, and Safari web pages
 - **On-device large language model processing** for privacy-sensitive tasks
 
-But critics and users alike have noted that Siri — arguably the most visible face of Apple's AI — still feels like it's playing catch-up. According to a 2025 Statista survey, only 36% of iPhone users described Siri as "very useful" for complex tasks, compared to 54% satisfaction rates for Google Assistant and 49% for Amazon Alexa. Apple clearly got the message, and WWDC 2026 appears to be the moment they respond.
+But critics and users alike have noted that Siri — arguably the most visible face of Apple's AI — still feels like it's playing catch-up. Siri's reputation is the problem Apple has to solve before anything else. For years it has been the assistant people ask to set a timer and little more, while its rivals absorbed the harder requests. Apple clearly got the message, and WWDC 2026 appears to be the moment they respond.
 
 ## The Siri Revamp: What's Actually Changing?
 
