@@ -67,7 +67,7 @@ function HorizontalArticleRow({ post, index }: { post: Post; index: number }) {
           </h3>
           <div className="flex items-center gap-2">
             <Image
-              src={author?.avatar ?? `https://i.pravatar.cc/300?u=infodaily-${authorNameToSlug(post.author)}`}
+              src={author?.avatar ?? '/logo.svg'}
               alt={post.author}
               width={18}
               height={18}

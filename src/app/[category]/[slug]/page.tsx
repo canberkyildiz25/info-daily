@@ -143,7 +143,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
             <div className="flex items-center justify-between pb-6 border-b border-gray-200 dark:border-slate-700">
               <div className="flex items-center gap-3">
                 <Image
-                  src={postAuthor?.avatar ?? `https://i.pravatar.cc/300?u=infodaily-${authorNameToSlug(post.author)}`}
+                  src={postAuthor?.avatar ?? '/logo.svg'}
                   alt={post.author}
                   width={40}
                   height={40}
@@ -219,12 +219,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
                 } : undefined,
                 datePublished: post.date,
                 dateModified: post.updatedAt ?? post.date,
+                /* Person değil Organization: yazan bir birey değil, editör masası.
+                   Person olarak işaretlemek arama motoruna bir kişi varmış gibi
+                   bildirir ve sayfadaki imzayla çelişir. jobTitle/knowsAbout da
+                   kaldırıldı — o alanlar sahte kimliklerden geliyordu. */
                 author: {
-                  '@type': 'Person',
+                  '@type': 'Organization',
                   name: post.author,
-                  url: `https://www.infodaily.net/author/${authorNameToSlug(post.author)}`,
-                  jobTitle: postAuthor?.title,
-                  knowsAbout: postAuthor?.expertise,
+                  url: 'https://www.infodaily.net/authors',
                 },
                 publisher: {
                   '@type': 'Organization',
