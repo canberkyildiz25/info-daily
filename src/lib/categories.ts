@@ -1,16 +1,12 @@
-/* Emoji ikon alani kaldirildi: emoji bir ikon seti degil — her platformda
-   baska cizilir, optik agirliklari tutmaz, currentColor almaz. Kategori
-   ikonlari artik components/CategoryIcon.tsx icinde SVG olarak duruyor. */
+/* Site teknolojiye odaklandı. Dokuz kategori daha vardı — sağlık, finans,
+   seyahat, yemek, ilişkiler, eğlence, iş, bilim, yaşam — ve hepsi kaldırıldı.
+   Bir teknoloji yayınının bunlar hakkında söyleyecek sahici bir şeyi yoktu,
+   Google da 90 gün boyunca hiçbirine tek gösterim vermedi.
+
+   Emoji ikon alanı daha önce kaldırılmıştı: emoji bir ikon seti değil — her
+   platformda başka çizilir, optik ağırlıkları tutmaz, currentColor almaz.
+   Kategori ikonları components/CategoryIcon.tsx içinde SVG olarak duruyor. */
 export const CATEGORIES = [
-  { slug: 'health', label: 'Health & Wellness', description: 'Tips for a healthier, happier life' },
-  { slug: 'finance', label: 'Personal Finance', description: 'Grow your wealth and save money' },
-  { slug: 'technology', label: 'Technology', description: 'Latest tech trends and how-tos' },
-  { slug: 'life-hacks', label: 'Life Hacks', description: 'Smart tricks to improve your daily life' },
-  { slug: 'travel', label: 'Travel', description: 'Destinations, tips, and travel guides' },
-  { slug: 'food', label: 'Food & Recipes', description: 'Delicious recipes and food tips' },
-  { slug: 'business', label: 'Business & Career', description: 'Grow your career and business' },
-  { slug: 'science', label: 'Science & Nature', description: 'Fascinating science made simple' },
-  { slug: 'relationships', label: 'Relationships', description: 'Better connections, better life' },
-  { slug: 'entertainment', label: 'Entertainment', description: 'Movies, TV shows, music, and pop culture' },
-  { slug: 'gaming', label: 'Gaming', description: 'Games, gear, and gaming culture' },
+  { slug: 'technology', label: 'Technology', description: 'Devices, software, security, and how to get more out of both' },
+  { slug: 'gaming', label: 'Gaming', description: 'Hardware guides, setups, and games worth your time' },
 ];
