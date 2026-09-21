@@ -3,7 +3,7 @@ title: "Foldable Phone Redesigns From Samsung and Apple: What's New and Why You 
 excerpt: "Samsung and Apple are redefining foldable phones in 2026. Here's what's changed, what's improved, and why these redesigns matter for everyday users."
 date: "2026-04-14"
 updatedAt: "2026-09-21"
-author: "Alex Rivera"
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/4313857/pexels-photo-4313857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["foldable phones", "Samsung Galaxy Z Fold", "Apple foldable", "smartphone technology", "tech news 2026"]
 ---

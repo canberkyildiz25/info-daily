@@ -3,7 +3,7 @@ title: "The Most Useful Chrome Extensions for Productivity"
 excerpt: "Discover the best Chrome extensions that can supercharge your productivity, save hours each week, and help you stay focused online."
 date: "2026-04-13"
 updatedAt: "2026-09-21"
-author: "Alex Rivera"
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/5882638/pexels-photo-5882638.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Chrome extensions", "productivity tools", "browser extensions", "time management", "workflow optimization"]
 ---

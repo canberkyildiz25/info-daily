@@ -3,7 +3,7 @@ title: "MacBook Neo vs. MacBook Pro: Which Apple Laptop Is Right for You?"
 excerpt: "Apple's MacBook Neo shakes up the laptop lineup — but does it dethrone the Pro? Here's how to pick the perfect MacBook for your needs and budget."
 date: "2026-06-13"
 updatedAt: "2026-09-21"
-author: "Alex Rivera"
+author: "InfoDaily Editorial Team"
 coverImage: "https://picsum.photos/seed/176/800/450"
 tags: ["MacBook Neo", "MacBook Pro", "Apple laptops", "MacBook comparison", "tech buying guide"]
 ---

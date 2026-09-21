@@ -2,7 +2,7 @@
 title: "How to Back Up Your Phone Photos Without Using iCloud or Google Photos"
 excerpt: "iCloud and Google Photos are convenient — but they cost money, raise privacy questions, and can lock you in. Here are the best alternatives for backing up your phone photos."
 date: "2026-06-16"
-author: "Alex Rivera"
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1200&q=80"
 tags: ["photo backup", "privacy", "iCloud alternative", "technology", "storage"]
 ---

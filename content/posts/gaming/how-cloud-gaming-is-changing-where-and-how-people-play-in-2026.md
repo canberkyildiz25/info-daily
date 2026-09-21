@@ -3,7 +3,7 @@ title: "How Cloud Gaming Is Changing Where and How People Play in 2026"
 excerpt: "Cloud gaming finally works the way it was promised to — here's what changed, and whether it's worth building your library around it."
 date: "2026-07-06"
 updatedAt: "2026-07-06"
-author: Alex Rivera
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/25568867/pexels-photo-25568867.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["cloud gaming", "gaming trends 2026", "game streaming", "gaming technology", "cross platform gaming"]
 ---

@@ -3,7 +3,7 @@ title: "How AI Agents Are Changing the Way We Work in 2026"
 excerpt: "AI agents can now browse the web, write code, send emails, and manage schedules on your behalf. Here's what's actually useful today and what to watch for."
 date: "2026-04-17"
 updatedAt: "2026-05-18"
-author: "Alex Rivera"
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/5467599/pexels-photo-5467599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["AI", "productivity", "technology", "future of work", "automation"]
 ---

@@ -3,7 +3,7 @@ title: "How to Get Better at Competitive Gaming Without Spending Money on Gear"
 excerpt: "A $300 mouse won't make you a better player. These free and low-cost approaches to skill improvement will actually move the needle."
 date: "2026-06-29"
 updatedAt: "2026-07-02"
-author: Alex Rivera
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.unsplash.com/photo-1560253023-3ec5d502959f?w=1200&q=80"
 tags: ["competitive gaming", "improve at gaming", "gaming skills", "esports training", "gaming tips 2026"]
 ---

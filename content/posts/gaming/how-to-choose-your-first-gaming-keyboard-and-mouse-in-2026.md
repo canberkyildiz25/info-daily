@@ -3,7 +3,7 @@ title: "How to Choose Your First Gaming Keyboard and Mouse in 2026"
 excerpt: "Switch types, DPI, polling rate — here's what actually matters when buying your first gaming keyboard and mouse, and what to ignore."
 date: "2026-07-10"
 updatedAt: "2026-07-10"
-author: Alex Rivera
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/9072315/pexels-photo-9072315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["gaming keyboard", "gaming mouse", "PC gaming gear", "mechanical keyboard", "beginner gaming setup"]
 ---

@@ -3,7 +3,7 @@ title: "How to Build a Home Gaming Setup on a Tight Budget in 2026"
 excerpt: "You don't need $2,000 to build a setup you'll actually enjoy using. Here's where to spend, where to skip, and what to buy last."
 date: "2026-07-04"
 updatedAt: "2026-07-04"
-author: Alex Rivera
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/3977908/pexels-photo-3977908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["gaming setup", "budget gaming", "gaming gear 2026", "PC gaming", "gaming on a budget"]
 ---

@@ -3,7 +3,7 @@ title: "How to Build Healthy Gaming Habits Without Burning Out"
 excerpt: "Loving games shouldn't mean dreading how you feel after a session. Here's how to keep gaming enjoyable instead of exhausting."
 date: "2026-07-08"
 updatedAt: "2026-07-08"
-author: Dr. Lena Fischer
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/7915361/pexels-photo-7915361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["gaming habits", "gaming and mental health", "digital wellness", "healthy gaming", "screen time"]
 ---

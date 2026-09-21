@@ -3,7 +3,7 @@ title: "Best Gaming Headsets Under $100 in 2026"
 excerpt: "You don't need to spend $250 for great gaming audio — these budget headsets deliver clear positional sound and mics that don't sound tinny."
 date: "2026-07-05"
 updatedAt: "2026-07-05"
-author: Alex Rivera
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/35730072/pexels-photo-35730072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["gaming headsets", "budget gaming gear", "best headsets 2026", "gaming audio", "PC accessories"]
 ---

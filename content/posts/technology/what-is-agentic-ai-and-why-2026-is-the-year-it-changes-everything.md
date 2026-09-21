@@ -2,7 +2,7 @@
 title: "What Is Agentic AI — and Why 2026 Is the Year It Changes Everything"
 excerpt: "AI that just answers questions is yesterday's news. Agentic AI actually takes actions, runs workflows, and makes decisions. Here's what that really means for your life and work."
 date: "2026-06-20"
-author: "Alex Rivera"
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["agentic AI", "artificial intelligence", "AI agents", "automation", "future of work"]
 ---
