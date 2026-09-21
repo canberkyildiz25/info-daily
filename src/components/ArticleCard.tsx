@@ -86,7 +86,7 @@ export default function ArticleCard({ post, featured = false, imagePriority = fa
             <div className="flex items-center justify-between mt-auto pt-3 border-t border-[var(--border)]">
               <div className="flex items-center gap-2 min-w-0">
                 <img
-                  src={author?.avatar ?? `https://i.pravatar.cc/300?u=infodaily-${authorNameToSlug(post.author)}`}
+                  src={author?.avatar ?? '/logo.svg'}
                   alt={post.author}
                   className="w-6 h-6 rounded-full object-cover flex-shrink-0"
                   loading="lazy"

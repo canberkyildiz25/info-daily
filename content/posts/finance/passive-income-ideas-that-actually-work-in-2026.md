@@ -1,6 +1,6 @@
 ---
 title: "9 Best Passive Income Ideas That Actually Work in 2026 (Ranked by Ease & Earnings)"
-excerpt: "Looking for passive income ideas that actually work in 2026? A CFP ranks 9 real strategies by startup cost, time to first dollar, and realistic monthly earnings — no hype, no fluff."
+excerpt: "Looking for passive income ideas that actually work in 2026? This guide ranks nine strategies by startup cost, time to first dollar, and realistic monthly earnings — no hype, no fluff."
 date: "2026-04-13"
 updatedAt: "2026-05-18"
 author: "James Park, CFP"
