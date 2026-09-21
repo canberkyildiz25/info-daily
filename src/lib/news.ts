@@ -37,7 +37,7 @@ export async function getTopHeadlines(pageSize = 10): Promise<NewsArticle[]> {
   try {
     const res = await fetch(
       `${BASE}/top-headlines?language=en&pageSize=${pageSize}&apiKey=${KEY}`,
-      { next: { revalidate: 900 } } // 15 min cache
+      { next: { revalidate: 1800 } } // 30 min — kept level with the others so one fetch does not pull the page down
     );
     if (!res.ok) return fetchLatestRssNews(pageSize);
     const data: NewsResponse = await res.json();
@@ -66,7 +66,7 @@ export async function getBreakingNews(pageSize = 5): Promise<NewsArticle[]> {
   try {
     const res = await fetch(
       `${BASE}/top-headlines?language=en&category=general&pageSize=${pageSize}&apiKey=${KEY}`,
-      { next: { revalidate: 300 } } // 5 min cache — more frequent for breaking
+      { next: { revalidate: 1800 } } // 30 min — was 300s, which regenerated the whole homepage 288x/day
     );
     if (!res.ok) return fetchLatestRssNews(pageSize);
     const data: NewsResponse = await res.json();
