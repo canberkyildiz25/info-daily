@@ -14,7 +14,7 @@ export default function BottomNav() {
 
   return (
     <>
-      <nav className="md:hidden fixed bottom-0 inset-x-0 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-t border-gray-200 dark:border-slate-700 bottom-nav-safe">
+      <nav className="md:hidden fixed bottom-0 inset-x-0 z-[var(--z-nav)] bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-t border-gray-200 dark:border-slate-700 bottom-nav-safe">
         <div className="flex items-center justify-around h-16 px-2">
 
           {/* Home */}
