@@ -32,7 +32,7 @@ export default async function VideosPage({ searchParams }: Props) {
       {/* Page header */}
       <div className="mb-6">
         <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--accent)] mb-1">Watch & Learn</p>
-        <h1 className="text-2xl sm:text-3xl font-black text-[var(--text-base)] leading-tight" style={{ fontFamily: 'Georgia, serif' }}>
+        <h1 className="text-2xl sm:text-3xl font-black text-[var(--text-base)] leading-tight" style={{ fontFamily: 'var(--font-serif)' }}>
           Curated Videos
         </h1>
         <p className="text-sm text-[var(--text-muted)] mt-1">
@@ -103,7 +103,7 @@ export default async function VideosPage({ searchParams }: Props) {
                   <span className="text-[var(--text-muted)]" aria-hidden>·</span>
                   <span className="text-[10px] text-[var(--text-muted)]">{timeAgo(video.publishedAt)}</span>
                 </div>
-                <h3 className="text-sm font-bold text-[var(--text-base)] group-hover:text-[var(--accent)] leading-snug line-clamp-2 transition-colors" style={{ fontFamily: 'Georgia, serif' }}>
+                <h3 className="text-sm font-bold text-[var(--text-base)] group-hover:text-[var(--accent)] leading-snug line-clamp-2 transition-colors" style={{ fontFamily: 'var(--font-serif)' }}>
                   {video.title}
                 </h3>
               </div>

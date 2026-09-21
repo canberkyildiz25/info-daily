@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     default: 'InfoDaily – Practical Guides, Tech & Daily Life',
     template: '%s | InfoDaily',
   },
-  description: 'Practical guides and timely explainers on health, personal finance, technology, travel, food, science, and everyday life.',
+  description: 'Practical technology and gaming guides: how to make the hardware and software you already own faster, safer, and longer-lived.',
   keywords: [
     'health tips', 'personal finance', 'technology news', 'life hacks', 'travel guide',
     'food recipes', 'business advice', 'science facts', 'relationship tips',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://www.infodaily.net',
     title: 'InfoDaily – Practical Knowledge for Every Day',
-    description: 'Practical guides and timely explainers on the things that shape everyday life.',
+    description: 'Practical technology and gaming guides for the devices you already own.',
     images: [
       {
         url: '/opengraph-image',
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     site: '@infodaily',
     creator: '@infodaily',
     title: 'InfoDaily – Practical Knowledge for Every Day',
-    description: 'Practical guides and timely explainers on the things that shape everyday life.',
+    description: 'Practical technology and gaming guides for the devices you already own.',
     images: ['/opengraph-image'],
   },
   robots: {

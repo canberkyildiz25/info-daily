@@ -3,6 +3,12 @@
 
 @theme {
   --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  /* Merriweather zaten next/font ile indiriliyordu ama hiçbir yerde
+     kullanılmıyordu: başlıklar sekiz ayrı dosyada satır içi
+     `fontFamily: 'Georgia, serif'` yazıyordu. Yani ziyaretçi her sayfada
+     kullanılmayan bir font indiriyor, başlıklar da makinesinde ne varsa
+     onunla çiziliyordu. Token artık gerçek fontu gösteriyor. */
+  --font-serif: var(--font-merriweather), Georgia, 'Times New Roman', serif;
 }
 
 /* ─── Theme variants ──────────────────────────────────── */

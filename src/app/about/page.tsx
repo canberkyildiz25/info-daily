@@ -23,7 +23,7 @@ const ORGANIZATION_SCHEMA = {
     '@type': 'ImageObject',
     url: 'https://www.infodaily.net/logo.svg',
   },
-  description: 'InfoDaily is an independent digital publication covering health, personal finance, technology, travel, food, science, relationships, business, and entertainment with research-backed editorial standards.',
+  description: 'InfoDaily is an independent digital publication covering technology and gaming, with research-backed editorial standards.',
   foundingDate: '2025',
   contactPoint: {
     '@type': 'ContactPoint',
@@ -80,7 +80,7 @@ export default function AboutPage() {
         <div className="prose prose-lg prose-gray dark:prose-invert max-w-none">
           <h2>Our Mission</h2>
           <p>
-            InfoDaily exists to make useful information easier to understand. We cover health, personal finance, technology, life skills, travel, food, business, science, relationships, entertainment, and gaming — subjects where clear context can make a real difference to daily decisions.
+            InfoDaily exists to make useful information easier to understand. We cover technology and gaming: the devices and software people already own, and how to get more out of them.
           </p>
 
           <h2>What We Publish</h2>
