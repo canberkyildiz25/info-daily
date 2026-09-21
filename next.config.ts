@@ -3,50 +3,32 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   async redirects() {
     return [
-      // IF duplicate
-      { source: '/health/the-beginners-guide-to-intermittent-fasting', destination: '/health/intermittent-fasting-for-beginners', permanent: true },
-      // Sleep cluster
-      { source: '/health/how-to-improve-your-sleep-quality-in-7-days', destination: '/health/how-to-fix-your-sleep-schedule-in-one-week', permanent: true },
-      { source: '/health/why-you-wake-up-tired-even-after-8-hours-of-sleep', destination: '/health/why-you-are-always-tired-and-what-actually-fixes-it', permanent: true },
-      // Headache
-      { source: '/health/how-to-stop-headaches-naturally', destination: '/health/natural-remedies-for-headaches-that-actually-work', permanent: true },
-      // Anti-inflammatory
-      { source: '/health/the-best-anti-inflammatory-foods', destination: '/health/the-best-anti-inflammatory-foods-to-add-to-your-diet', permanent: true },
-      // Finance
-      { source: '/finance/passive-income-ideas-that-actually-work-in-2025', destination: '/finance/passive-income-ideas-that-actually-work-in-2026', permanent: true },
-      { source: '/finance/7-passive-income-ideas-for-2025', destination: '/finance/passive-income-ideas-that-actually-work-in-2026', permanent: true },
-      { source: '/finance/how-to-invest-1000-dollars-for-beginners', destination: '/finance/how-to-invest-your-first-1000-in-2026', permanent: true },
-      { source: '/finance/how-to-create-a-monthly-budget-that-actually-works', destination: '/finance/how-to-create-a-monthly-budget-you-will-actually-stick-to', permanent: true },
-      { source: '/finance/how-to-pay-off-debt-fast', destination: '/finance/best-ways-to-pay-off-debt-faster', permanent: true },
-      { source: '/finance/best-high-yield-savings-accounts-in-2025', destination: '/finance/the-best-high-yield-savings-accounts-in-2026', permanent: true },
-      // Review rewritten from published sources; the old slug promised a hands-on test
-      { source: '/technology/logitech-mobi-fold-review-is-this-ultra-compact-travel-mouse-worth-it', destination: '/technology/logitech-mobi-fold-what-the-specs-and-reviews-say', permanent: true },
-      // Unpublished: the article was a first-hand test that never took place
-      { source: '/technology/testing-apples-new-siri-ai-assistant-does-it-actually-work', destination: '/category/technology', permanent: true },
-      // Technology
+  // Eski adıyla kalan teknoloji yazıları
       { source: '/technology/how-to-speed-up-your-computer', destination: '/technology/how-to-speed-up-your-slow-computer-in-10-minutes', permanent: true },
       { source: '/technology/how-to-protect-your-privacy-online', destination: '/technology/how-to-protect-your-privacy-online-in-2026', permanent: true },
       { source: '/technology/best-password-managers-in-2025', destination: '/technology/best-password-managers-to-keep-your-accounts-safe', permanent: true },
-      { source: '/technology/best-ai-tools-2025', destination: '/technology/best-ai-tools-for-everyday-life-2026', permanent: true },
-      { source: '/technology/best-free-ai-tools-in-2025', destination: '/technology/the-best-free-ai-tools-you-should-be-using-right-now', permanent: true },
-      // Business → Technology (AI jobs)
+      // İncelemesi yayımlanmış kaynaklardan yeniden yazıldı; eski slug elde test vaat ediyordu
+      { source: '/technology/logitech-mobi-fold-review-is-this-ultra-compact-travel-mouse-worth-it', destination: '/technology/logitech-mobi-fold-what-the-specs-and-reviews-say', permanent: true },
+      // Yayından kaldırıldı: yazı, hiç yapılmamış bir ilk elden testi anlatıyordu
+      { source: '/technology/testing-apples-new-siri-ai-assistant-does-it-actually-work', destination: '/category/technology', permanent: true },
+      // Beş ayrı "en iyi AI aracı" listesi tek bir yazıda birleşti
+      { source: '/technology/best-ai-tools-2025', destination: '/technology/the-ai-tools-actually-worth-paying-for-in-2026', permanent: true },
+      { source: '/technology/best-ai-tools-for-everyday-life-2026', destination: '/technology/the-ai-tools-actually-worth-paying-for-in-2026', permanent: true },
+      { source: '/technology/best-free-ai-tools-in-2025', destination: '/technology/the-ai-tools-actually-worth-paying-for-in-2026', permanent: true },
+      { source: '/technology/the-best-free-ai-tools-you-should-be-using-right-now', destination: '/technology/the-ai-tools-actually-worth-paying-for-in-2026', permanent: true },
+      { source: '/technology/the-best-ai-tools-for-students-in-2026', destination: '/technology/the-ai-tools-actually-worth-paying-for-in-2026', permanent: true },
+      // İş kategorisi kapandı; yapay zekâ ve istihdam yazısı teknolojide
       { source: '/business/how-ai-is-changing-your-job', destination: '/technology/how-ai-is-changing-the-job-market-in-2026', permanent: true },
       { source: '/business/ai-and-job-displacement-in-2026-what-the-data-shows-about-automation-in-the-workplace', destination: '/technology/how-ai-is-changing-the-job-market-in-2026', permanent: true },
-      // Slug carried a first-person claim the editorial desk cannot make
-      { source: '/life-hacks/the-japanese-method-that-finally-fixed-my-procrastination', destination: '/life-hacks/kaizen-the-japanese-method-for-beating-procrastination', permanent: true },
-      // Life-hacks
-      { source: '/life-hacks/how-to-wake-up-early-without-feeling-terrible', destination: '/life-hacks/how-to-wake-up-early-and-actually-feel-rested', permanent: true },
-      { source: '/life-hacks/how-to-wake-up-early-and-actually-feel-good', destination: '/life-hacks/how-to-wake-up-early-and-actually-feel-rested', permanent: true },
-      { source: '/life-hacks/how-to-learn-any-skill-twice-as-fast', destination: '/life-hacks/the-best-ways-to-learn-a-new-skill-faster', permanent: true },
-      // Relationships
-      { source: '/relationships/how-to-make-friends-as-an-adult', destination: '/relationships/how-to-make-new-friends-as-an-adult', permanent: true },
-      // Science
-      { source: '/science/why-you-dream-the-science-explained', destination: '/science/why-do-we-dream-and-what-do-our-dreams-mean', permanent: true },
-      // Food
-      { source: '/food/how-to-meal-prep-for-the-entire-week', destination: '/food/how-to-meal-prep-for-the-entire-week-in-2-hours', permanent: true },
-      // Travel
-      { source: '/travel/best-travel-insurance-options-explained', destination: '/travel/what-travel-insurance-actually-covers-and-when-you-need-it', permanent: true },
-      { source: '/travel/cheapest-countries-to-visit-2025', destination: '/travel/the-best-countries-to-visit-on-a-budget', permanent: true },
+      // Siri kümesi: yedi ayrı yazı vardı, biri kaldı
+      { source: '/technology/apples-ai-moment-is-siri-finally-getting-the-upgrade-it-needs', destination: '/technology/what-is-apple-intelligence-everything-to-know-about-siris-revamp-at-wwdc-2026', permanent: true },
+      { source: '/technology/apples-new-siri-ai-whats-changed-and-how-it-works-better', destination: '/technology/what-is-apple-intelligence-everything-to-know-about-siris-revamp-at-wwdc-2026', permanent: true },
+      { source: '/technology/apples-new-siri-ai-update-whats-changed-and-how-to-use-it-on-your-mac', destination: '/technology/what-is-apple-intelligence-everything-to-know-about-siris-revamp-at-wwdc-2026', permanent: true },
+      { source: '/technology/what-is-apples-new-siri-ai-which-devices-get-the-update-and-what-it-can-do', destination: '/technology/what-is-apple-intelligence-everything-to-know-about-siris-revamp-at-wwdc-2026', permanent: true },
+      { source: '/technology/what-to-expect-from-wwdc-2026-new-ios-27-macos-27-and-ai-powered-siri', destination: '/technology/what-is-apple-intelligence-everything-to-know-about-siris-revamp-at-wwdc-2026', permanent: true },
+      { source: '/technology/apple-intelligence-and-siri-revamp-what-to-expect-from-wwdc-2026', destination: '/technology/what-is-apple-intelligence-everything-to-know-about-siris-revamp-at-wwdc-2026', permanent: true },
+      // Wi-Fi: iki yazı aynı soruyu soruyordu
+      { source: '/technology/why-your-wi-fi-is-slower-than-you-pay-for-and-how-to-fix-it', destination: '/technology/how-to-speed-up-your-wi-fi-at-home', permanent: true },
     ];
   },
   images: {
