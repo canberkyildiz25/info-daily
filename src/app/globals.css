@@ -136,6 +136,26 @@
 .bottom-nav-safe  { padding-bottom: env(safe-area-inset-bottom, 0px); }
 .bottom-sheet-safe { padding-bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px)); }
 
+/* ─── Sabit katman sırası ─────────────────────────────
+   Dört ayrı bileşen kendi z-index'ini kendisi seçiyordu ve ikisi aynı
+   değeri almıştı: çerez bandı ve alt menü, ikisi de `fixed bottom-0 z-40`.
+   Alt menü DOM'da sonra geldiği için üste biniyor, Accept ve Decline
+   butonlarının 37 pikselinin 36'sını kapatıyordu — yani banner mobilde
+   hiç kapatılamıyordu. Çakışma bir kural olmadığı için oluştu, o yüzden
+   çözüm de bir kural: katmanlar buradan numara alır, kendi kafasına göre
+   değil. Onay bandı en üstte, çünkü kullanıcının ona her koşulda
+   erişebilmesi gerekir. */
+:root {
+  --z-float:   30;  /* başa dön düğmesi */
+  --z-nav:     40;  /* üst başlık, alt menü */
+  --z-overlay: 50;  /* açılır menüler, arama katmanı */
+  --z-consent: 60;  /* çerez onayı — her şeyin üstünde kalmalı */
+
+  /* Alt menünün ölçülen yüksekliği. Onay bandı mobilde bunun kadar
+     yukarıdan başlar ki menüyle çakışmasın. */
+  --bottom-nav-h: 65px;
+}
+
 /* ─── Hide Google Translate banner ───────────────────── */
 .goog-te-banner-frame, .skiptranslate { display: none !important; }
 body { top: 0 !important; }
