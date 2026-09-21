@@ -2,7 +2,7 @@
 title: "The AI Tools Actually Worth Paying For in 2026"
 excerpt: "The AI tool market has exploded. Most of it is noise. After testing dozens of tools, here are the ones that have genuinely changed how I work — and the ones you can skip."
 date: "2026-06-17"
-author: "Alex Rivera"
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1200&q=80"
 tags: ["AI tools", "productivity", "technology", "ChatGPT", "artificial intelligence", "2026"]
 ---

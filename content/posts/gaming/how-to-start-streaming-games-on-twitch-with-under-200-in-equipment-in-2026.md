@@ -3,7 +3,7 @@ title: "How to Start Streaming Games on Twitch with Under $200 in Equipment in 2
 excerpt: "You don't need a professional studio to start streaming. The right $200 setup will have you live on Twitch looking and sounding better than most new streamers."
 date: "2026-06-29"
 updatedAt: "2026-07-02"
-author: Alex Rivera
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.unsplash.com/photo-1598550487031-0898b4852123?w=1200&q=80"
 tags: ["Twitch streaming", "how to stream games", "streaming setup 2026", "game streaming", "OBS tutorial"]
 ---

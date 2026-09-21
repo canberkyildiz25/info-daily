@@ -3,7 +3,7 @@ title: "Google's New Gemini Feature: What It Does and Why It Matters"
 excerpt: "Google's latest Gemini update introduces groundbreaking AI capabilities. Here's what the new feature does and why it matters for everyone."
 date: "2026-06-06"
 updatedAt: "2026-09-21"
-author: "Alex Rivera"
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/33453386/pexels-photo-33453386.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Google Gemini", "AI technology", "Google AI updates", "Gemini features", "artificial intelligence"]
 ---

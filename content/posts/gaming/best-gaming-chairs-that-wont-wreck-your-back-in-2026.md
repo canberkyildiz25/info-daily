@@ -3,7 +3,7 @@ title: "Best Gaming Chairs That Won't Wreck Your Back in 2026"
 excerpt: "Most gaming chairs prioritize looks over spine health — here's how to pick one that actually supports long sessions without pain."
 date: "2026-07-13"
 updatedAt: "2026-07-13"
-author: Alex Rivera
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/9072216/pexels-photo-9072216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["gaming chairs", "ergonomic gaming chair", "back pain gaming", "gaming setup", "best gaming chairs 2026"]
 ---

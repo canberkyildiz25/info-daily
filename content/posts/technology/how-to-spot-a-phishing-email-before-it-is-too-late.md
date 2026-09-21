@@ -3,7 +3,7 @@ title: "How to Spot a Phishing Email Before It Is Too Late"
 excerpt: "Learn how to identify phishing emails with practical tips, real examples, and red flags that can protect you from costly cyber scams."
 date: "2026-04-13"
 updatedAt: "2026-05-18"
-author: "Alex Rivera"
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/5426403/pexels-photo-5426403.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["phishing emails", "cybersecurity", "email scams", "online safety", "digital security"]
 ---

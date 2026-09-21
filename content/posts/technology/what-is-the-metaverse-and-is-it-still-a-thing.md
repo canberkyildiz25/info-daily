@@ -3,7 +3,7 @@ title: "What Is the Metaverse and Is It Still a Thing"
 excerpt: "Explore what the metaverse really is, where it stands in 2026, and whether this once-hyped concept still matters for everyday people and businesses."
 date: "2026-04-13"
 updatedAt: "2026-09-21"
-author: "Alex Rivera"
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/7561970/pexels-photo-7561970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["metaverse", "virtual reality", "technology trends", "Web3", "digital innovation"]
 ---

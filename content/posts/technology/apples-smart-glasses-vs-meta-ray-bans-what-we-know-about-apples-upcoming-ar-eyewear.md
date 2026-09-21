@@ -3,7 +3,7 @@ title: "Apple's Smart Glasses vs. Meta Ray-Bans: What We Know About Apple's Upco
 excerpt: "Apple's long-rumored AR smart glasses are finally taking shape. Here's how they stack up against Meta's Ray-Bans and what to expect."
 date: "2026-04-14"
 updatedAt: "2026-09-21"
-author: "Alex Rivera"
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/3928120/pexels-photo-3928120.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Apple smart glasses", "Meta Ray-Bans", "AR eyewear", "augmented reality", "wearable technology"]
 ---

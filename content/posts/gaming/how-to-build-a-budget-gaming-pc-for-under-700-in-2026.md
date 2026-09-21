@@ -3,7 +3,7 @@ title: "How to Build a Budget Gaming PC for Under $700 in 2026"
 excerpt: "You don't need to spend $2,000 to game on PC. A carefully chosen $700 build will outperform a current-gen console and handle modern games at 1080p without compromise."
 date: "2026-06-30"
 updatedAt: "2026-07-02"
-author: Alex Rivera
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?w=1200&q=80"
 tags: ["budget gaming PC", "PC build 2026", "gaming PC under $700", "PC gaming setup", "build your own PC"]
 ---

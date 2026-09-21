@@ -3,7 +3,7 @@ title: "How to Choose a Gaming Monitor Without Wasting Money in 2026"
 excerpt: "Monitor specs are confusing by design. Here's what actually matters for gaming, what's marketing fluff, and which specs to prioritize at every budget."
 date: "2026-07-02"
 updatedAt: "2026-07-02"
-author: Alex Rivera
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=1200&q=80"
 tags: ["gaming monitor 2026", "best gaming monitor", "monitor buying guide", "144hz monitor", "gaming display"]
 ---

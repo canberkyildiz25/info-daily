@@ -3,7 +3,7 @@ title: "How AI Is Changing the Job Market in 2026"
 excerpt: "AI isn't just automating tasks — it's reshaping which skills are valuable, which jobs are growing, and how workers need to adapt to stay relevant."
 date: "2026-05-04"
 updatedAt: "2026-05-18"
-author: "Alex Rivera"
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/8566526/pexels-photo-8566526.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["AI", "job market", "career", "automation", "future of work"]
 ---

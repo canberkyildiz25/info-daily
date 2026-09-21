@@ -3,7 +3,7 @@ title: "How to Make Your Smartphone Battery Last All Day"
 excerpt: "Your phone dying at 2 PM isn't inevitable. These practical tweaks will dramatically extend your battery life without sacrificing what you actually use."
 date: "2026-05-02"
 updatedAt: "2026-05-18"
-author: "Alex Rivera"
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/4387770/pexels-photo-4387770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["smartphone", "battery life", "technology tips", "Android", "iPhone"]
 ---

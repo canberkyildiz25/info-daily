@@ -3,7 +3,7 @@ title: "What Is VPN and Do You Really Need One"
 excerpt: "VPN companies promise complete online privacy and security. The reality is more nuanced — here's what a VPN actually does and whether it's worth paying for."
 date: "2025-10-21"
 updatedAt: "2026-05-18"
-author: "Alex Rivera"
+author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/5117989/pexels-photo-5117989.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["VPN", "online security", "privacy", "internet", "cybersecurity"]
 ---
