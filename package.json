@@ -13,7 +13,8 @@
     "setup:scheduler": "node setup-windows-scheduler.bat",
     "setup:cron": "chmod +x setup-linux-cron.sh && ./setup-linux-cron.sh",
     "indexnow": "node scripts/indexnow.js",
-    "indexnow:new": "node scripts/indexnow.js --new-only"
+    "indexnow:new": "node scripts/indexnow.js --new-only",
+    "gsc": "node scripts/search-console.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.86.1",
@@ -39,7 +40,6 @@
     "@types/web-push": "^3.6.4",
     "eslint": "^9",
     "eslint-config-next": "16.2.3",
-    "google-auth-library": "^10.6.2",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
