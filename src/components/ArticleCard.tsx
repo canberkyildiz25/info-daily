@@ -11,12 +11,13 @@ interface ArticleCardProps {
   imagePriority?: boolean;
 }
 
-const CATEGORY_GRADIENTS: Record<string, string> = {
-  health: 'from-emerald-500 to-teal-600',
-  finance: 'from-amber-500 to-orange-600',
-  technology: 'from-blue-500 to-indigo-600',
-  'life-hacks': 'from-violet-500 to-purple-600',
-  travel: 'from-sky-500 to-cyan-600',
+/* Kapak görseli olmayan yazılar için yedek zemin. Eski hâli beş kategori
+   sayıyordu — dördü artık yok — ve teknolojiyi mavi-indigo degradesiyle
+   çiziyordu, ki bu degrade üretilmiş arayüzün en tanınan imzalarından biri.
+   Yerine sitenin kendi vurgu rengi geldi, düz renk olarak. */
+const CATEGORY_TINT: Record<string, string> = {
+  technology: 'bg-[var(--accent)]',
+  gaming: 'bg-[var(--text-base)]',
 };
 
 function isNew(dateStr: string) {
@@ -25,7 +26,7 @@ function isNew(dateStr: string) {
 
 export default function ArticleCard({ post, featured = false, imagePriority = false }: ArticleCardProps) {
   const category = CATEGORIES.find(c => c.slug === post.category);
-  const gradient = CATEGORY_GRADIENTS[post.category] ?? 'from-blue-500 to-indigo-600';
+  const tint = CATEGORY_TINT[post.category] ?? 'bg-[var(--accent)]';
   const author = getAuthorByName(post.author);
   const fresh = isNew(post.date);
 
@@ -47,7 +48,7 @@ export default function ArticleCard({ post, featured = false, imagePriority = fa
                 loading={imagePriority ? 'eager' : 'lazy'}
               />
             ) : (
-              <div className={`bg-gradient-to-br ${gradient} h-full flex items-center justify-center`}>
+              <div className={`${tint} h-full flex items-center justify-center`}>
                 {category ? <CategoryIcon slug={category.slug} size={56} className="text-white/70" /> : null}
               </div>
             )}
@@ -76,7 +77,7 @@ export default function ArticleCard({ post, featured = false, imagePriority = fa
               </span>
             </div>
 
-            <h2 className="text-[0.95rem] font-bold text-[var(--text-base)] group-hover:text-[var(--accent)] transition-colors duration-200 leading-snug mb-2.5 flex-1 line-clamp-3" style={{ fontFamily: 'Georgia, serif' }}>
+            <h2 className="text-[0.95rem] font-bold text-[var(--text-base)] group-hover:text-[var(--accent)] transition-colors duration-200 leading-snug mb-2.5 flex-1 line-clamp-3" style={{ fontFamily: 'var(--font-serif)' }}>
               {post.title}
             </h2>
 
@@ -117,7 +118,7 @@ export default function ArticleCard({ post, featured = false, imagePriority = fa
               sizes="64px"
             />
           ) : (
-            <div className={`bg-gradient-to-br ${gradient} w-full h-full flex items-center justify-center text-2xl`}>
+            <div className={`${tint} w-full h-full flex items-center justify-center text-2xl`}>
               {category ? <CategoryIcon slug={category.slug} size={16} /> : null}
             </div>
           )}

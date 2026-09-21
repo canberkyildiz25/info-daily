@@ -77,7 +77,7 @@ function FontPicker() {
         className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-gray-200 dark:border-slate-700 text-gray-500 dark:text-slate-400 hover:border-blue-400 dark:hover:border-blue-500 transition-all text-sm bg-white dark:bg-slate-800"
         title="Font"
       >
-        <span className="text-xs font-bold tracking-tight leading-none" style={{ fontFamily: 'Georgia, serif' }}>Aa</span>
+        <span className="text-xs font-bold tracking-tight leading-none" style={{ fontFamily: 'var(--font-serif)' }}>Aa</span>
         <span className="hidden sm:inline text-xs font-medium">{current.label}</span>
         <svg className="w-3 h-3 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -192,7 +192,7 @@ export default function Header() {
                 <rect x="13" y="15" width="6" height="9" rx="2" fill="white"/>
               </svg>
               <span className="leading-none tracking-tight">
-                <span className="font-black text-[1.2rem]" style={{ fontFamily: 'Georgia, serif', color: 'var(--accent)' }}>Info</span>
+                <span className="font-black text-[1.2rem]" style={{ fontFamily: 'var(--font-serif)', color: 'var(--accent)' }}>Info</span>
                 <span className="font-black text-[1.2rem] text-gray-900 dark:text-white">Daily</span>
                 <span className="text-xs font-normal text-gray-500 dark:text-slate-400 ml-0.5">.net</span>
               </span>
@@ -203,12 +203,12 @@ export default function Header() {
 
             {/* Desktop nav links */}
             <nav className="hidden md:flex items-center gap-0.5">
-              <Link href="/" className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
-                <span className="relative flex h-1.5 w-1.5">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
-                  <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-red-500" />
-                </span>
-                News
+              {/* Eskiden "News" yazıyor ve yanında yanıp sönen kırmızı bir
+                  canlı noktası taşıyordu. Anasayfa artık haber akışı değil,
+                  rehberlerin dizini — hem etiket hem de o nokta yanlış bir
+                  şey söylüyordu. */}
+              <Link href="/" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
+                Home
               </Link>
               <Link href="/articles" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
                 Articles
@@ -265,11 +265,10 @@ export default function Header() {
           <div className="flex gap-2 flex-wrap">
             <Link
               href="/"
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-300 border border-red-200 dark:border-red-800"
+              className="px-3 py-1.5 rounded-full text-xs font-semibold bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800"
               onClick={() => setMenuOpen(false)}
             >
-              <span className="w-1.5 h-1.5 rounded-full bg-red-500" aria-hidden="true" />
-              News
+              Home
             </Link>
             <Link
               href="/articles"

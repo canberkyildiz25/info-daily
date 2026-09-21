@@ -43,7 +43,7 @@ export default async function VideoPlayerPage({ params, searchParams }: Props) {
       {p.title && (
         <h1
           className="text-xl sm:text-2xl lg:text-3xl font-black text-[var(--text-base)] leading-tight mb-6"
-          style={{ fontFamily: 'Georgia, serif' }}
+          style={{ fontFamily: 'var(--font-serif)' }}
         >
           {p.title}
         </h1>

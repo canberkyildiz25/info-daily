@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Articles — InfoDaily',
-  description: 'Practical guides and source-led explainers on health, finance, technology, travel, food, science, and more.',
+  description: 'Every technology and gaming guide on InfoDaily, newest first.',
   alternates: { canonical: 'https://www.infodaily.net/articles' },
 };
 
@@ -27,7 +27,7 @@ export default function ArticlesPage() {
       {/* Page header */}
       <div className="mb-8 pb-6 border-b border-[var(--border)]">
         <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--accent)] mb-2">Practical Knowledge</p>
-        <h1 className="text-3xl sm:text-4xl font-black text-[var(--text-base)] mb-3" style={{ fontFamily: 'Georgia, serif' }}>
+        <h1 className="text-3xl sm:text-4xl font-black text-[var(--text-base)] mb-3" style={{ fontFamily: 'var(--font-serif)' }}>
           In-Depth Articles
         </h1>
         <p className="text-[var(--text-muted)] max-w-xl leading-relaxed">

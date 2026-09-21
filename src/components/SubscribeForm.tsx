@@ -51,7 +51,14 @@ export default function SubscribeForm() {
             onChange={e => setEmail(e.target.value)}
             placeholder="your@email.com"
             required
-            className="flex-1 px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-white placeholder-gray-500 text-sm focus:outline-none focus:border-blue-500 transition-colors"
+            /* min-w-0: flex-1 tek başına yetmiyor. Bir flex öğesinin varsayılan
+               asgari genişliği içeriğine göre belirlenir, o yüzden input
+               kendini kaptan daha geniş tutup Subscribe butonunu dışarı
+               itiyordu — 768px'te sayfa 35px yatay kayıyordu.
+               focus-visible halkası da geri geldi: focus:outline-none tek
+               başına bırakılmış, yerine sadece kenarlık rengi konmuştu, ki o
+               klavyeyle gezen için yeterli bir işaret değil. */
+            className="flex-1 min-w-0 px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-white placeholder-gray-500 text-sm transition-colors focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400 focus:border-blue-500"
           />
           <button
             type="submit"

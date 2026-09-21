@@ -1,187 +1,125 @@
-import { getAllPosts } from '@/lib/posts';
-import HomeFeaturedPosts from '@/components/HomeFeaturedPosts';
-import TrendingSidebar from '@/components/TrendingSidebar';
-import BreakingNewsTicker from '@/components/BreakingNewsTicker';
-import { getBreakingNews, getTopHeadlines, timeAgo } from '@/lib/news';
-import type { NewsArticle } from '@/lib/news';
+/* Hallmark · macrostructure: Ecosystem Index · genre: editorial
+ * tone: editorial-utilitarian · theme: project palette preserved (paper #f8f7f4 · ink #0d1117 · accent #1a3fa8 ink-blue)
+ * nav: existing Header component (untouched) · footer: existing Footer component (untouched)
+ * enrichment: none — typography and the posts' own cover images
+ * motion: none beyond the hover transitions already in ArticleCard (motion-cut project)
+ * pre-emit critique: P5 H5 E4 S5 R5 V4
+ *
+ * Was: a news-aggregator front page. A breaking-news ticker, a hero card and a
+ * "More Top Stories" list, all of it other publishers' headlines pulled from
+ * NewsAPI, with the site's own guides pushed below them. Every one of those
+ * headlines linked to /news, which took the other publisher's summary and had
+ * an LLM write a 450-650 word article from it.
+ *
+ * Ecosystem Index instead: rails that surface the site's own 49 guides, because
+ * browsing them is the only thing this page should be for.
+ */
 import Link from 'next/link';
-import Image from 'next/image';
 import type { Metadata } from 'next';
+import { getAllPosts, CATEGORIES } from '@/lib/posts';
+import type { Post } from '@/lib/posts';
+import ArticleCard from '@/components/ArticleCard';
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://www.infodaily.net' },
 };
 
-function newsLink(article: NewsArticle): string {
-  const p = new URLSearchParams({
-    title: article.title,
-    ...(article.description ? { desc: article.description } : {}),
-    ...(article.urlToImage   ? { img: article.urlToImage }   : {}),
-    ...(article.content      ? { ct: article.content }       : {}),
-    src: article.source.name,
-    url: article.url,
-    at: article.publishedAt,
-  });
-  return `/news?${p.toString()}`;
-}
-
-function NewsCard({ article, large = false }: { article: NewsArticle; large?: boolean }) {
-  if (large) {
-    return (
-      <Link href={newsLink(article)} className="group block">
-        <div className="relative rounded-2xl overflow-hidden" style={{ height: '420px' }}>
-          {article.urlToImage ? (
-            <Image
-              src={article.urlToImage}
-              alt={article.title}
-              fill
-              className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
-              sizes="(max-width: 1024px) 100vw, 66vw"
-              preload
-              unoptimized
-            />
-          ) : (
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-indigo-700" />
-          )}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
-
-          <div className="absolute top-4 left-4 flex items-center gap-2">
-            <span className="bg-red-600 text-white text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full animate-pulse">
-              ● Live
-            </span>
-            <span className="bg-black/40 backdrop-blur-sm text-white/80 text-[10px] px-2.5 py-1 rounded-full">
-              {article.source.name}
-            </span>
-          </div>
-
-          <div className="absolute bottom-0 left-0 right-0 p-6">
-            <h2 className="text-white text-xl sm:text-2xl lg:text-3xl font-black leading-tight mb-3 group-hover:text-white/90 transition-colors" style={{ fontFamily: 'Georgia, serif' }}>
-              {article.title}
-            </h2>
-            {article.description && (
-              <p className="text-white/70 text-sm leading-relaxed line-clamp-2 mb-4 max-w-xl">
-                {article.description}
-              </p>
-            )}
-            <div className="flex items-center justify-between">
-              <span className="text-white/60 text-xs">{timeAgo(article.publishedAt)}</span>
-              <span className="bg-white text-gray-900 text-xs font-black px-4 py-2 rounded-full group-hover:bg-white/90 transition-colors uppercase tracking-wide">
-                Read →
-              </span>
-            </div>
-          </div>
-        </div>
-      </Link>
-    );
-  }
-
+/* Rail band. The count is read off the archive, never written by hand —
+   a number typed into a heading is a number that goes stale silently. */
+function RailHead({ title, href, count, linkLabel }: { title: string; href: string; count: number; linkLabel: string }) {
   return (
-    <Link href={newsLink(article)} className="group flex items-start gap-3 py-3.5 border-b border-[var(--border)] last:border-0 hover:bg-[var(--bg-card-hover)] -mx-3 px-3 rounded-xl transition-colors">
-      <div className="flex-1 min-w-0">
-        <div className="flex items-center gap-2 mb-1">
-          <span className="text-[10px] font-bold text-[var(--accent)] uppercase tracking-wider">{article.source.name}</span>
-          <span className="text-[var(--text-muted)]" aria-hidden>·</span>
-          <span className="text-[var(--text-muted)] text-[11px]">{timeAgo(article.publishedAt)}</span>
-        </div>
-        <h3 className="text-sm font-bold text-[var(--text-base)] group-hover:text-[var(--accent)] leading-snug line-clamp-2 transition-colors" style={{ fontFamily: 'Georgia, serif' }}>
-          {article.title}
-        </h3>
-      </div>
-      {article.urlToImage && (
-        <div className="relative w-16 h-14 rounded-lg overflow-hidden flex-shrink-0">
-          <Image src={article.urlToImage} alt={article.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" sizes="64px" unoptimized />
-        </div>
-      )}
-    </Link>
+    <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1 mb-5 pb-2 border-b border-[var(--border)]">
+      <h2
+        className="text-lg sm:text-xl font-bold text-[var(--text-base)] tracking-tight"
+        style={{ fontFamily: 'var(--font-serif)' }}
+      >
+        {title}
+      </h2>
+      <span className="text-xs text-[var(--text-muted)] tabular-nums">{count}</span>
+      <Link
+        href={href}
+        className="ml-auto text-xs font-semibold text-[var(--accent)] hover:underline whitespace-nowrap"
+      >
+        {linkLabel} <span aria-hidden>→</span>
+      </Link>
+    </div>
   );
 }
 
-export default async function HomePage() {
+function Rail({ title, href, linkLabel, posts, total, lead = false }: {
+  title: string;
+  href: string;
+  linkLabel: string;
+  posts: Post[];
+  total: number;
+  lead?: boolean;
+}) {
+  if (posts.length === 0) return null;
+  return (
+    <section className="mb-14">
+      <RailHead title={title} href={href} count={total} linkLabel={linkLabel} />
+      {/* minmax(0,1fr) rather than a bare 1fr: the tracks carry images, and a
+          bare 1fr lets a wide image push the track past the viewport. */}
+      <div className="grid gap-5 [grid-template-columns:repeat(auto-fill,minmax(min(100%,17rem),1fr))]">
+        {posts.map((post, i) => (
+          <ArticleCard key={`${post.category}/${post.slug}`} post={post} featured imagePriority={lead && i === 0} />
+        ))}
+      </div>
+    </section>
+  );
+}
+
+export default function HomePage() {
   const allPosts = getAllPosts();
 
-  // Fetch news + articles in parallel
-  const [breakingNews, topHeadlines] = await Promise.all([
-    getBreakingNews(8),
-    getTopHeadlines(12),
-  ]);
-
-  const featuredPosts = allPosts.slice(1);
-  const heroNews = topHeadlines[0] ?? null;
-  const sideNews = topHeadlines.slice(1, 6);
+  const byCategory = (slug: string) => allPosts.filter((p) => p.category === slug);
+  const today = new Date().toLocaleDateString('en-US', {
+    weekday: 'long', month: 'long', day: 'numeric', year: 'numeric',
+  });
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
 
-      {/* Breaking news ticker */}
-      <BreakingNewsTicker articles={breakingNews} />
+      {/* Positioning, not a display hero. Ecosystem Index opens with a short
+          statement of what is on the page, then gets out of the way. */}
+      <header className="mb-12 max-w-2xl">
+        <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-[var(--accent)] mb-3">
+          {today}
+        </p>
+        <p
+          className="text-xl sm:text-2xl leading-snug text-[var(--text-base)] [overflow-wrap:anywhere]"
+          style={{ fontFamily: 'var(--font-serif)' }}
+        >
+          Guides for the hardware and software you already own.
+        </p>
+        <p className="mt-3 text-sm sm:text-base text-[var(--text-muted)] leading-relaxed">
+          How to make it faster, keep it secure, and get more years out of it.
+          Written up once, kept current, and sourced where a claim needs a source.
+        </p>
+      </header>
 
-      {/* Page header */}
-      <div className="mb-6 flex items-center justify-between">
-        <div>
-          <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--accent)] mb-1">
-            {new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' })}
-          </p>
-          <h1 className="text-2xl sm:text-3xl font-black text-[var(--text-base)] leading-tight" style={{ fontFamily: 'Georgia, serif' }}>
-            Today&rsquo;s Top Stories
-          </h1>
-        </div>
-        <Link href="/articles" className="hidden sm:flex items-center gap-1.5 text-xs font-bold text-[var(--accent)] hover:underline uppercase tracking-wide">
-          Featured Guides →
-        </Link>
-      </div>
+      <Rail
+        title="Latest"
+        href="/articles"
+        linkLabel="All guides"
+        posts={allPosts.slice(0, 6)}
+        total={allPosts.length}
+        lead
+      />
 
-      {/* Main 2-column layout */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-
-        {/* Left: main content (2/3) */}
-        <div className="lg:col-span-2 space-y-8">
-
-          {/* Live news hero */}
-          {heroNews && (
-            <section>
-              <NewsCard article={heroNews} large />
-            </section>
-          )}
-
-          {/* More top stories — compact list */}
-          {sideNews.length > 0 && (
-            <section>
-              <div className="flex items-center gap-3 mb-4">
-                <span className="w-2 h-2 rounded-full bg-[var(--accent)]" />
-                <h2 className="text-xs font-black uppercase tracking-widest text-[var(--text-base)]">More Top Stories</h2>
-                <div className="flex-1 h-px bg-[var(--border)]" />
-              </div>
-              <div className="bg-[var(--bg-card)] border border-[var(--border)] rounded-2xl px-3 py-1">
-                {sideNews.map((article, i) => (
-                  <NewsCard key={i} article={article} />
-                ))}
-              </div>
-            </section>
-          )}
-
-          {/* Featured guides section */}
-          <section>
-            <div className="flex items-center justify-between mb-6">
-              <div className="flex items-center gap-3">
-                <span className="w-2 h-2 rounded-full bg-emerald-500" />
-                <h2 className="text-xs font-black uppercase tracking-widest text-[var(--text-base)]">Featured Guides</h2>
-                <div className="h-px w-24 bg-[var(--border)]" />
-              </div>
-              <Link href="/articles" className="text-xs font-bold text-[var(--accent)] hover:underline uppercase tracking-wide">
-                See all →
-              </Link>
-            </div>
-            <HomeFeaturedPosts posts={featuredPosts} />
-          </section>
-        </div>
-
-        {/* Right: sidebar (1/3) */}
-        <div className="lg:col-span-1">
-          <div className="sticky top-20">
-            <TrendingSidebar />
-          </div>
-        </div>
-      </div>
+      {CATEGORIES.map((cat) => {
+        const posts = byCategory(cat.slug);
+        return (
+          <Rail
+            key={cat.slug}
+            title={cat.label}
+            href={`/category/${cat.slug}`}
+            linkLabel={`All ${cat.label.toLowerCase()}`}
+            posts={posts.slice(0, 6)}
+            total={posts.length}
+          />
+        );
+      })}
     </div>
   );
 }
