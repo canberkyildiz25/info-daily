@@ -28,6 +28,8 @@ const nextConfig: NextConfig = {
       // Business → Technology (AI jobs)
       { source: '/business/how-ai-is-changing-your-job', destination: '/technology/how-ai-is-changing-the-job-market-in-2026', permanent: true },
       { source: '/business/ai-and-job-displacement-in-2026-what-the-data-shows-about-automation-in-the-workplace', destination: '/technology/how-ai-is-changing-the-job-market-in-2026', permanent: true },
+      // Slug carried a first-person claim the editorial desk cannot make
+      { source: '/life-hacks/the-japanese-method-that-finally-fixed-my-procrastination', destination: '/life-hacks/kaizen-the-japanese-method-for-beating-procrastination', permanent: true },
       // Life-hacks
       { source: '/life-hacks/how-to-wake-up-early-without-feeling-terrible', destination: '/life-hacks/how-to-wake-up-early-and-actually-feel-rested', permanent: true },
       { source: '/life-hacks/how-to-wake-up-early-and-actually-feel-good', destination: '/life-hacks/how-to-wake-up-early-and-actually-feel-rested', permanent: true },
