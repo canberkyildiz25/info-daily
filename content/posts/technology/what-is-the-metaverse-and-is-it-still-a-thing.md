@@ -2,7 +2,7 @@
 title: "What Is the Metaverse and Is It Still a Thing"
 excerpt: "Explore what the metaverse really is, where it stands in 2026, and whether this once-hyped concept still matters for everyday people and businesses."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Alex Rivera"
 coverImage: "https://images.pexels.com/photos/7561970/pexels-photo-7561970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["metaverse", "virtual reality", "technology trends", "Web3", "digital innovation"]
@@ -26,7 +26,7 @@ The term itself was coined by science fiction author Neal Stephenson in his 1992
 
 ## What Happened to the Metaverse Hype?
 
-Let's be honest — the metaverse went through a classic hype cycle. In 2021 and 2022, investment was staggering. According to McKinsey & Company, more than **$120 billion was invested in metaverse-related technologies in the first half of 2022 alone**, more than double the amount invested in all of 2021. Companies like Meta, Microsoft, Epic Games, and Roblox were racing to build their versions of this digital frontier.
+Let's be honest — the metaverse went through a classic hype cycle. In 2021 and 2022, investment was staggering. According to McKinsey's [*Value Creation in the Metaverse*](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/value-creation-in-the-metaverse), about **$120 billion was invested in metaverse-related technologies in the first five months of 2022 alone** — more than double the amount invested in all of 2021. Companies like Meta, Microsoft, Epic Games, and Roblox were racing to build their versions of this digital frontier.
 
 Then reality set in. Several factors contributed to the cooling:
 

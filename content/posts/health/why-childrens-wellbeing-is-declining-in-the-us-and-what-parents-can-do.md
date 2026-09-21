@@ -2,6 +2,7 @@
 title: "Why Children's Wellbeing Is Declining in the U.S. and What Parents Can Do"
 excerpt: "Children's wellbeing in the U.S. is declining at alarming rates. Discover the key causes and practical steps parents can take to protect their kids."
 date: "2026-06-08"
+updatedAt: "2026-09-21"
 author: "Dr. Sarah Collins"
 coverImage: "https://images.pexels.com/photos/36712827/pexels-photo-36712827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["children's wellbeing", "parenting tips", "child mental health", "screen time", "family wellness"]
@@ -11,9 +12,9 @@ Something is going wrong for American kids. Despite living in one of the wealthi
 
 ## The Numbers Tell a Troubling Story
 
-The U.S. Surgeon General's ongoing advisory on youth mental health, first issued in 2021 and reinforced with updated data through 2025, has consistently highlighted a crisis in children's psychological wellbeing. According to the Centers for Disease Control and Prevention (CDC), nearly 42% of high school students reported persistent feelings of sadness or hopelessness in the most recent Youth Risk Behavior Survey — a figure that has nearly doubled since 2011. Emergency room visits for pediatric mental health crises have surged, and suicide remains the second leading cause of death among young people aged 10 to 24.
+The U.S. Surgeon General's ongoing advisory on youth mental health, first issued in 2021 and reinforced with updated data through 2025, has consistently highlighted a crisis in children's psychological wellbeing. According to the Centers for Disease Control and Prevention, 40% of high school students reported persistent feelings of sadness or hopelessness in the [2023 Youth Risk Behavior Survey](https://www.cdc.gov/yrbs/results/2023-yrbs-results.html) — down slightly from 42% in 2021, but well above the 28.5% recorded a decade earlier. Emergency room visits for pediatric mental health crises have surged, and suicide remains the second leading cause of death among young people aged 10 to 24.
 
-But the decline isn't limited to mental health. Childhood obesity rates continue to climb, with the CDC reporting that roughly 20% of U.S. children and adolescents are now classified as obese. Academic performance, particularly in reading and math, still hasn't fully recovered from pandemic-era learning loss. And loneliness among young people has reached levels that researchers describe as epidemic.
+But the decline isn't limited to mental health. Childhood obesity rates continue to climb, with the CDC reporting that [21.1% of U.S. children and adolescents aged 2–19](https://www.cdc.gov/obesity/childhood-obesity-facts/childhood-obesity-facts.html) had obesity in 2021–2023, including 7% with severe obesity. Academic performance, particularly in reading and math, still hasn't fully recovered from pandemic-era learning loss. And loneliness among young people has reached levels that researchers describe as epidemic.
 
 These aren't isolated problems. They're deeply interconnected — and they share common root causes.
 

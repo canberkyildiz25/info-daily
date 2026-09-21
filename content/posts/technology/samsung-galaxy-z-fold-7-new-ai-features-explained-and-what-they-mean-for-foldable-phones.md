@@ -2,6 +2,7 @@
 title: "Samsung Galaxy Z Fold 7: New AI Features Explained and What They Mean for Foldable Phones"
 excerpt: "Samsung's Galaxy Z Fold 7 packs groundbreaking AI features that could redefine foldable phones forever. Here's what each one actually does."
 date: "2026-06-13"
+updatedAt: "2026-09-21"
 author: "Alex Rivera"
 coverImage: "https://picsum.photos/seed/432/800/450"
 tags: ["Samsung Galaxy Z Fold 7", "foldable phones", "AI features", "Galaxy AI", "smartphone technology"]
@@ -13,7 +14,7 @@ Samsung has never been shy about pushing the boundaries of what a foldable phone
 
 Before diving into specific features, it's worth understanding why Samsung is betting so heavily on the intersection of AI and foldables. A foldable phone like the Z Fold 7 offers something no traditional smartphone can: a large, tablet-sized inner display that unfolds from a pocket-friendly form factor. That extra screen real estate creates unique opportunities for AI-driven multitasking, content creation, and productivity that simply aren't possible on a standard 6.7-inch slab.
 
-According to IDC's Q1 2026 report, the global foldable smartphone market grew 28% year-over-year, with Samsung maintaining a commanding 52% market share. As foldables move from niche curiosity to mainstream contender, AI is the differentiator Samsung is using to justify the premium price tag — and based on what the Z Fold 7 delivers, the strategy is starting to make real sense.
+According to [IDC](https://my.idc.com/getdoc.jsp?containerId=prUS54017625), the global foldable market grew about 6% in 2025 to roughly 19.8 million units, with Samsung holding around 64% of it — and IDC forecasts 30% growth in 2026. As foldables move from niche curiosity to mainstream contender, AI is the differentiator Samsung is using to justify the premium price tag — and based on what the Z Fold 7 delivers, the strategy is starting to make real sense.
 
 ## The Headline AI Features on the Galaxy Z Fold 7
 

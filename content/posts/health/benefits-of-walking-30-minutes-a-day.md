@@ -2,7 +2,7 @@
 title: "Benefits of Walking 30 Minutes a Day"
 excerpt: "Walking is the most underrated form of exercise. Just 30 minutes daily delivers measurable improvements to your heart, brain, mood, and longevity."
 date: "2025-11-29"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Mark Stevens, CSCS"
 coverImage: "https://images.pexels.com/photos/3785405/pexels-photo-3785405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["walking", "exercise", "health benefits", "fitness", "longevity"]
@@ -21,7 +21,7 @@ Cardiovascular disease is the number one killer worldwide, and walking directly 
 - Lowers resting heart rate and blood pressure
 - Reduces LDL ("bad") cholesterol and triglycerides
 - Improves arterial flexibility and blood flow
-- Reduces the risk of heart attack by up to 35%, per a Harvard study of 72,000 nurses
+- Cut the risk of coronary events by 30–40% among the 72,488 women in the Harvard-led [Nurses' Health Study](https://pubmed.ncbi.nlm.nih.gov/10460816/), for those walking briskly at least three hours a week
 
 A landmark 2019 study in the *European Journal of Preventive Cardiology* found that walking at least 3 days per week reduced cardiovascular mortality by 39% compared to sedentary individuals.
 
@@ -56,7 +56,7 @@ Walking also increases insulin sensitivity, meaning your body needs less insulin
 
 The relationship between walking and lifespan is among the most robustly documented in medicine. A large study published in *JAMA Internal Medicine* found that every 2,000 additional steps per day (roughly 1 mile) was associated with a 9% lower risk of premature death from any cause.
 
-A separate Harvard analysis of 16,000 women found that those averaging 4,400 steps per day had 41% lower mortality rates than those averaging 2,700 steps. Notably, benefits plateaued around 7,500 steps — you don't need 10,000 to get significant life-extension benefits.
+A separate Harvard-led analysis of nearly 17,000 older women, [published in *JAMA Internal Medicine* in 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709), found that those averaging 4,400 steps a day had 41% lower mortality than those averaging 2,700. Notably, benefits plateaued around 7,500 steps — you don't need 10,000 to get significant life-extension benefits.
 
 ## Bone and Joint Health
 

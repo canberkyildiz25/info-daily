@@ -2,7 +2,7 @@
 title: "Earth Day 2026: What the Science Says Actually Works for the Planet"
 excerpt: "Not all climate actions are created equal. On Earth Day, here's what the research says has the largest real-world impact — and what's mostly symbolic."
 date: "2026-04-22"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Sophie Martinez"
 coverImage: "https://images.pexels.com/photos/30596274/pexels-photo-30596274.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Earth Day", "climate change", "environment", "sustainability", "science"]
@@ -46,7 +46,7 @@ This number is deeply contested and arguably doesn't belong in the same category
 
 ### Switching to an Electric Vehicle — With a Caveat
 
-EVs have lower lifetime emissions than internal combustion vehicles in nearly every electricity grid scenario globally, including grids still heavily dependent on coal. A comprehensive 2021 analysis in *Nature Sustainability* found that EVs are already better than petrol cars in 95% of the world.
+EVs have lower lifetime emissions than internal combustion vehicles across almost every electricity grid in use today. A [2020 analysis in *Nature Sustainability*](https://www.nature.com/articles/s41893-020-0488-7) covering 59 world regions found that electric cars are already lower-emission than petrol cars in regions representing 95% of global transport demand. The remaining 5% are places still generating most of their electricity from coal — Poland is the usual example.
 
 The caveat: manufacturing an EV has a higher upfront carbon cost than manufacturing a conventional car. The break-even point (where lifetime emissions favor the EV) typically occurs at 1–3 years of driving, depending on the local electricity grid. The implication: **don't buy a new EV to replace a working car**. The math favors EVs most when they replace aging vehicles that would have been replaced anyway.
 

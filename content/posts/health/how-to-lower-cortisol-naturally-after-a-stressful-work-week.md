@@ -2,7 +2,7 @@
 title: "How to Lower Cortisol Naturally After a Stressful Work Week"
 excerpt: "Learn science-backed techniques to reduce cortisol levels and recover from work stress naturally this weekend."
 date: "2026-05-06"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Dr. Elena Russo"
 coverImage: "https://images.pexels.com/photos/9063392/pexels-photo-9063392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["stress management", "cortisol", "wellness", "mental health", "work-life balance"]
@@ -16,7 +16,7 @@ Cortisol isn't inherently bad; it's actually essential for survival. However, wh
 
 Before diving into solutions, it's helpful to understand what's happening in your body. Cortisol follows a natural daily rhythm called the diurnal cycle—levels are highest in the morning to help you wake up and gradually decline throughout the day. However, chronic workplace stress disrupts this pattern, keeping cortisol elevated when it should be dropping.
 
-Research from the American Psychological Association found that **77% of adults regularly experience stress**, with work being the leading cause. When cortisol remains elevated for extended periods, it can lead to:
+The American Psychological Association's [*Stress in America* survey](https://www.apa.org/news/press/releases/stress/2023/collective-trauma-recovery) found that **75% of adults reported at least one symptom of stress in the previous month**, with money and work among the leading sources. When cortisol remains elevated for extended periods, it can lead to:
 
 - Disrupted sleep patterns
 - Weakened immune function

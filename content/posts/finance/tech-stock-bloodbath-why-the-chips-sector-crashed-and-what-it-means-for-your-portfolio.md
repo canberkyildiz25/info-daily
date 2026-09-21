@@ -2,6 +2,7 @@
 title: "Tech Stock Bloodbath: Why the Chips Sector Crashed and What It Means for Your Portfolio"
 excerpt: "The semiconductor sector just suffered its worst sell-off in years. Here's what triggered the crash and how to protect your portfolio."
 date: "2026-06-06"
+updatedAt: "2026-09-21"
 author: "James Park, CFP"
 coverImage: "https://images.pexels.com/photos/5717758/pexels-photo-5717758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["tech stocks", "semiconductor crash", "chip stocks", "portfolio strategy", "stock market 2026"]
@@ -28,7 +29,7 @@ To understand the crash, you need to understand the setup. The semiconductor sec
 
 ### The AI Hype Cycle Hit a Reality Check
 
-The promise of artificial intelligence isn't dead — far from it. But the market had gotten ahead of itself. Enterprise spending on AI infrastructure began showing signs of rationalization in Q1 2026, as companies shifted from "buy everything" to "prove the ROI." A McKinsey report published in March 2026 found that only 28% of companies that invested heavily in generative AI infrastructure had achieved measurable productivity gains, leading many CFOs to slow down procurement cycles.
+The promise of artificial intelligence isn't dead — far from it. But the market had gotten ahead of itself. Enterprise spending on AI infrastructure began showing signs of rationalization in Q1 2026, as companies shifted from "buy everything" to "prove the ROI." The gap between AI spending and demonstrable productivity became a standing question on earnings calls, and finance chiefs responded the way finance chiefs do — by slowing procurement until someone could show a return.
 
 ### The Inventory Problem
 

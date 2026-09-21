@@ -2,6 +2,7 @@
 title: "Apple's iOS 27 Beta: 5 New Features You'll Actually Want to Use"
 excerpt: "iOS 27 beta is here with game-changing features from ambient AI to redesigned notifications. Here's what's actually worth getting excited about."
 date: "2026-06-09"
+updatedAt: "2026-09-21"
 author: "Alex Rivera"
 coverImage: "https://images.pexels.com/photos/15944460/pexels-photo-15944460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["iOS 27", "Apple", "iPhone features", "iOS beta", "mobile technology"]
@@ -19,7 +20,7 @@ Here's what that looks like in practice:
 - **You land in a new city.** Your Lock Screen automatically displays local transit cards, currency conversion, and weather without you opening a single app.
 - **You're running late for a meeting.** Siri drafts a contextual message to attendees, adjusts your ETA in Maps, and silences non-urgent notifications — all with a single tap to confirm.
 
-According to Apple, Ambient Intelligence processes everything on-device using the Neural Engine, with no data sent to Apple's servers unless you explicitly opt in to cloud-enhanced features. Given that a 2025 Pew Research study found 79% of Americans express concern about how companies use their personal data, this privacy-first approach feels deliberately timed — and genuinely reassuring.
+According to Apple, Ambient Intelligence processes everything on-device using the Neural Engine, with no data sent to Apple's servers unless you explicitly opt in to cloud-enhanced features. Given that [Pew Research Center](https://www.pewresearch.org/short-reads/2023/10/18/key-findings-about-americans-and-data-privacy/) found 67% of U.S. adults say they understand little or nothing about what companies do with their personal data, this privacy-first approach feels deliberately timed.
 
 ### Why You'll Actually Use It
 

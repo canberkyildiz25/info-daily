@@ -2,6 +2,7 @@
 title: "Why the Job Market Is Thriving Despite Economic Uncertainty in 2026"
 excerpt: "Discover why the 2026 job market remains resilient despite economic headwinds — and how you can position yourself to take advantage of it."
 date: "2026-06-07"
+updatedAt: "2026-09-21"
 author: "James Park, CFP"
 coverImage: "https://images.pexels.com/photos/7948055/pexels-photo-7948055.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["job market 2026", "economic uncertainty", "employment trends", "career advice", "labor market"]
@@ -13,7 +14,7 @@ The answer is more nuanced — and more encouraging — than you might expect. L
 
 ## The Numbers Tell a Surprising Story
 
-As of May 2026, the U.S. Bureau of Labor Statistics reports the unemployment rate hovering at 3.7%, well below the long-term historical average of roughly 5.7%. Employers added an average of 195,000 nonfarm payroll jobs per month during the first quarter of 2026 — not the blazing pace of the post-pandemic recovery, but remarkably steady given global headwinds.
+The U.S. [Bureau of Labor Statistics](https://www.bls.gov/news.release/empsit.nr0.htm) put the unemployment rate at 4.1% in August 2026 — up from the 3.7% of two years earlier, but still below the post-war average of roughly 5.7%. Employers added an average of 195,000 nonfarm payroll jobs per month during the first quarter of 2026 — not the blazing pace of the post-pandemic recovery, but remarkably steady given global headwinds.
 
 Meanwhile, the Job Openings and Labor Turnover Survey (JOLTS) still shows approximately 8.2 million unfilled positions across the country. That's a ratio of roughly 1.2 open jobs for every unemployed person — a labor market that, by any historical standard, still tilts firmly in favor of workers.
 

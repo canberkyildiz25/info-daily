@@ -2,6 +2,7 @@
 title: "Disclosure Day: Steven Spielberg's Best Film in Over 20 Years Explained"
 excerpt: "Steven Spielberg returns to top form with Disclosure Day — a gripping UFO thriller that critics call his best work since Minority Report. Here's why it matters."
 date: "2026-06-10"
+updatedAt: "2026-09-21"
 author: "Maria Chen"
 coverImage: "https://picsum.photos/seed/304/800/450"
 tags: ["Disclosure Day", "Steven Spielberg", "UFO movies", "science fiction films", "2026 movies"]
@@ -31,7 +32,7 @@ As of early June 2026, *Disclosure Day* holds a 96% critics score on Rotten Toma
 
 ### The Timeliness Factor
 
-What separates *Disclosure Day* from being merely a well-crafted thriller is its uncanny relevance. Since 2023, the U.S. government has held multiple congressional hearings on UAPs. Former intelligence officials have testified under oath about retrieval programs for non-human craft. A 2024 Gallup poll found that 68% of Americans believe the government knows more about UFOs than it's telling the public.
+What separates *Disclosure Day* from being merely a well-crafted thriller is its uncanny relevance. Since 2023, the U.S. government has held multiple congressional hearings on UAPs. Former intelligence officials have testified under oath about retrieval programs for non-human craft. A [July 2026 Gallup poll](https://news.gallup.com/poll/713765/americans-skeptical-ufos-aliens.aspx) found that 78% of Americans believe the government knows more about UFOs than it is telling the public — up from 68% in 2019.
 
 Spielberg didn't just make a movie about aliens. He made a movie about **trust** — trust in institutions, trust in government, trust between generations. The alien element is almost a MacGuffin. The real question the film asks is devastating in its simplicity: *If you knew the truth, would you want to hear it?*
 

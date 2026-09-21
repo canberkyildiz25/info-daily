@@ -2,6 +2,7 @@
 title: "The Two-Minute Rule and 5 Other Productivity Hacks That Actually Work"
 excerpt: "Most productivity advice is noise. These six techniques have decades of research and millions of real users behind them. Here's what they are and exactly how to use them."
 date: "2026-06-21"
+updatedAt: "2026-09-21"
 author: "Emma Johnson"
 coverImage: "https://images.pexels.com/photos/3243090/pexels-photo-3243090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["productivity", "time management", "GTD", "focus", "habits", "work smarter"]
@@ -25,7 +26,7 @@ The rule comes from David Allen's *Getting Things Done* system, which has been t
 
 Instead of a to-do list, schedule specific tasks into specific calendar slots.
 
-Research from Stanford and the University of California shows that people who time-block complete an average of 28% more meaningful work than those who work from a task list. The reason: a task list tells you *what* to do but not *when*, which leaves the decision open every moment of the day. Each open decision creates decision fatigue and procrastination.
+Time-blocking works where a task list fails for one reason: a list tells you *what* to do but not *when*, which leaves the decision open every moment of the day. A calendar closes it. Each open decision creates decision fatigue and procrastination.
 
 **How to use it**: At the start of each week, identify your top 3–5 important (not just urgent) tasks. Schedule them as fixed appointments, usually in your first 2–3 hours of work before reactive demands take over. Protect these blocks like meetings with your most important client.
 

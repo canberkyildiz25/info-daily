@@ -2,13 +2,13 @@
 title: "How to Reduce Stress Without Medication"
 excerpt: "Discover proven, natural strategies to reduce stress without medication — from breathwork and movement to journaling and social connection."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Dr. Elena Russo"
 coverImage: "https://images.pexels.com/photos/12955556/pexels-photo-12955556.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["stress relief", "mental health", "natural remedies", "wellness tips", "healthy lifestyle"]
 ---
 
-Stress is one of the most universal human experiences — and one of the most damaging when left unchecked. According to the American Psychological Association's 2023 Stress in America survey, more than 75% of adults reported experiencing at least one stress-related health symptom in the previous month, ranging from headaches and fatigue to feelings of anxiety and depression. The good news? You don't need a prescription to start feeling better. There are dozens of evidence-backed, natural strategies you can use to lower your stress levels starting today.
+Stress is one of the most universal human experiences — and one of the most damaging when left unchecked. According to the American Psychological Association's [2023 *Stress in America* survey](https://www.apa.org/news/press/releases/stress/2023/collective-trauma-recovery), 75% of adults reported experiencing at least one stress-related symptom in the previous month, ranging from headaches and fatigue to feelings of anxiety and depression. The good news? You don't need a prescription to start feeling better. There are dozens of evidence-backed, natural strategies you can use to lower your stress levels starting today.
 
 Whether you're dealing with work pressure, family obligations, financial worries, or just the constant hum of modern life, this guide will walk you through practical, actionable techniques that real people use every day to take control of their mental well-being.
 
@@ -41,7 +41,7 @@ Do this before bed, during a stressful meeting, or anytime you feel tension buil
 
 ### 2. Move Your Body — Even for 10 Minutes
 
-Exercise is one of the most well-researched natural stress relievers available. A 2018 study published in *The Lancet Psychiatry* analyzed data from over 1.2 million Americans and found that people who exercised regularly experienced 43% fewer days of poor mental health compared to those who didn't.
+Exercise is one of the most well-researched natural stress relievers available. A 2018 study published in [*The Lancet Psychiatry*](https://www.thelancet.com/article/S2215-0366%2818%2930227-X/fulltext) analyzed data from over 1.2 million Americans and found that people who exercised regularly reported 43% fewer days of poor mental health than those who didn't — about 1.5 days fewer per month.
 
 You don't need to run a marathon or spend hours in the gym. Here's what counts:
 

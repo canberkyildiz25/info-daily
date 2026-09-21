@@ -2,6 +2,7 @@
 title: "Google's New Gemini Feature: What It Does and Why It Matters"
 excerpt: "Google's latest Gemini update introduces groundbreaking AI capabilities. Here's what the new feature does and why it matters for everyone."
 date: "2026-06-06"
+updatedAt: "2026-09-21"
 author: "Alex Rivera"
 coverImage: "https://images.pexels.com/photos/33453386/pexels-photo-33453386.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Google Gemini", "AI technology", "Google AI updates", "Gemini features", "artificial intelligence"]
@@ -62,7 +63,7 @@ Planning a major purchase? Researching health conditions? Trying to understand a
 
 ### For the AI Industry
 
-Google's move puts significant pressure on competitors. OpenAI's ChatGPT, Anthropic's Claude, and other major AI players have been developing similar agentic capabilities, but Google's integration with its massive search infrastructure gives Gemini a unique advantage in real-time data access. A recent report from Gartner projects that by the end of 2027, over 60% of knowledge workers will rely on AI agents for research-intensive tasks — and Google is clearly positioning Gemini to lead that charge.
+Google's move puts significant pressure on competitors. OpenAI's ChatGPT, Anthropic's Claude, and other major AI players have been developing similar agentic capabilities, but Google's integration with its massive search infrastructure gives Gemini a unique advantage in real-time data access. Research-heavy work is the obvious first beachhead for AI agents — repetitive, time-consuming, and comparatively easy to check — and Google is clearly positioning Gemini for it.
 
 ## Practical Tips for Getting the Most Out of the Feature
 

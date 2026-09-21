@@ -2,6 +2,7 @@
 title: "YouTube's New In-App Messaging: What You Need to Know About Invite-Only Chats"
 excerpt: "YouTube just rolled out invite-only in-app messaging — here's how it works, who can use it, and why it could change how creators connect with fans."
 date: "2026-06-11"
+updatedAt: "2026-09-21"
 author: "Alex Rivera"
 coverImage: "https://picsum.photos/seed/992/800/450"
 tags: ["YouTube messaging", "invite-only chats", "YouTube features 2026", "social media updates", "creator tools"]
@@ -11,7 +12,7 @@ YouTube is making another bold move into social territory. As of mid-2026, the p
 
 ## What Exactly Is YouTube's New In-App Messaging?
 
-YouTube's new messaging system isn't the platform's first attempt at direct communication. Back in 2018, the company quietly killed off its original messaging feature due to low adoption. But the landscape has changed dramatically since then. With over 2.7 billion monthly logged-in users as of early 2026 (according to Statista), YouTube has become much more than a video-hosting site — it's a full-blown social ecosystem.
+YouTube's new messaging system isn't the platform's first attempt at direct communication. Back in 2018, the company quietly killed off its original messaging feature due to low adoption. But the landscape has changed dramatically since then. With a monthly logged-in audience measured in billions, YouTube has become much more than a video-hosting site — it's a full-blown social ecosystem.
 
 The new messaging feature, which YouTube has been testing since late 2025 and is now expanding to broader markets, works differently from traditional DMs. Here's the gist:
 

@@ -2,7 +2,7 @@
 title: "How the Human Brain Actually Forms Memories"
 excerpt: "Discover the fascinating science behind how your brain encodes, stores, and retrieves memories — and practical ways to boost your recall."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Dr. Lena Fischer"
 coverImage: "https://images.pexels.com/photos/7203695/pexels-photo-7203695.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["neuroscience", "memory formation", "brain health", "cognitive science", "learning"]
@@ -35,7 +35,7 @@ The hippocampus — a seahorse-shaped structure tucked deep in the temporal lobe
 
 During deep slow-wave sleep, the hippocampus and cortex engage in a carefully choreographed dialogue. The hippocampus fires bursts of activity called **sharp-wave ripples**, essentially re-broadcasting the day's important experiences. The cortex listens, strengthens the relevant synaptic connections, and eventually takes ownership of the memory.
 
-Here's a striking statistic: research published in *Nature Neuroscience* found that people who slept after learning a task showed a **20-40% improvement** in memory retention compared to those who stayed awake for the same period. Sleep isn't just rest — it's active memory construction.
+This is why sleep matters so much to learning: **across a range of tasks, people who sleep after studying retain more than people who stay awake for the same stretch of time.** The consolidation happens while you are unconscious, not while you are revising. Sleep isn't just rest — it's active memory construction.
 
 At the molecular level, consolidation involves a process called **long-term potentiation (LTP)**. When two neurons fire together repeatedly, the synaptic connection between them becomes stronger and more efficient. This is the biological basis of the famous neuroscience principle: *"Neurons that fire together, wire together."* Proteins are synthesized, new dendritic spines grow, and the physical structure of your brain literally changes to accommodate the new memory.
 

@@ -2,7 +2,7 @@
 title: "How to Set Healthy Boundaries With Family"
 excerpt: "Learn how to set healthy boundaries with family members without guilt. Practical strategies, real examples, and scripts to protect your peace."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Jessica Morgan"
 coverImage: "https://images.pexels.com/photos/6957043/pexels-photo-6957043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["healthy boundaries", "family relationships", "mental health", "self-care", "communication skills"]
@@ -16,7 +16,7 @@ The good news? Setting boundaries isn't selfish. It's one of the most loving thi
 
 Let's be honest: setting boundaries with coworkers or acquaintances is one thing. Setting them with your mother, your brother, or your partner's family is an entirely different challenge. There are deep emotional roots at play — childhood dynamics, cultural expectations, fear of rejection, and the persistent myth that family should come before everything, including your own well-being.
 
-According to a 2021 survey conducted by the American Psychological Association, 58% of adults reported that family relationships were a significant source of stress in their lives. That number isn't surprising when you consider how many people struggle to speak up when a family member oversteps.
+Family is a common source of stress precisely because it is the relationship you cannot resign from — the obligations are long-standing, largely unnegotiated, and almost never written down. None of that is surprising when you consider how many people struggle to speak up the first time a family member oversteps.
 
 The resistance to boundary-setting often stems from a few core fears:
 

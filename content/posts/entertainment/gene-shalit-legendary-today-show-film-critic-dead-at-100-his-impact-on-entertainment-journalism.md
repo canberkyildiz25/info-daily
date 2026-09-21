@@ -2,6 +2,7 @@
 title: "Gene Shalit, Legendary 'Today' Show Film Critic, Dead at 100: His Impact on Entertainment Journalism"
 excerpt: "Gene Shalit's century-long life reshaped how America talks about movies. Discover the lasting legacy of the 'Today' show's most iconic film critic."
 date: "2026-06-13"
+updatedAt: "2026-09-21"
 author: "Maria Chen"
 coverImage: "https://picsum.photos/seed/744/800/450"
 tags: ["Gene Shalit", "Today Show", "film criticism", "entertainment journalism", "celebrity obituary"]
@@ -35,7 +36,7 @@ Shalit's influence on the field of entertainment journalism cannot be overstated
 
 ### He Proved Critics Could Be Stars
 
-At the peak of his career, a 2004 Pew Research Center study found that **nearly 70% of Americans consulted reviews before deciding to see a film**, and morning show critics like Shalit were among the most trusted sources. He demonstrated that a critic's personality and delivery could be just as compelling as the films being discussed, paving the way for figures like Richard Roeper, Lisa Kennedy Montgomery, and the countless YouTube and TikTok film critics who thrive today.
+**At the peak of his career, a favourable notice on a network morning show could fill theatres in a way no single voice can today.** The audience for film criticism was concentrated in a handful of broadcast slots, and Shalit held one of them. He demonstrated that a critic's personality and delivery could be just as compelling as the films being discussed, paving the way for figures like Richard Roeper, Lisa Kennedy Montgomery, and the countless YouTube and TikTok film critics who thrive today.
 
 ### He Democratized Film Discussion
 
