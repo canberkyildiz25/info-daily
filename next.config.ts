@@ -19,6 +19,10 @@ const nextConfig: NextConfig = {
       { source: '/finance/how-to-create-a-monthly-budget-that-actually-works', destination: '/finance/how-to-create-a-monthly-budget-you-will-actually-stick-to', permanent: true },
       { source: '/finance/how-to-pay-off-debt-fast', destination: '/finance/best-ways-to-pay-off-debt-faster', permanent: true },
       { source: '/finance/best-high-yield-savings-accounts-in-2025', destination: '/finance/the-best-high-yield-savings-accounts-in-2026', permanent: true },
+      // Review rewritten from published sources; the old slug promised a hands-on test
+      { source: '/technology/logitech-mobi-fold-review-is-this-ultra-compact-travel-mouse-worth-it', destination: '/technology/logitech-mobi-fold-what-the-specs-and-reviews-say', permanent: true },
+      // Unpublished: the article was a first-hand test that never took place
+      { source: '/technology/testing-apples-new-siri-ai-assistant-does-it-actually-work', destination: '/category/technology', permanent: true },
       // Technology
       { source: '/technology/how-to-speed-up-your-computer', destination: '/technology/how-to-speed-up-your-slow-computer-in-10-minutes', permanent: true },
       { source: '/technology/how-to-protect-your-privacy-online', destination: '/technology/how-to-protect-your-privacy-online-in-2026', permanent: true },
