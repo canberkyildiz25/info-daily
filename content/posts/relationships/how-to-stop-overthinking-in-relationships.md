@@ -2,7 +2,7 @@
 title: "How to Stop Overthinking in Relationships"
 excerpt: "Learn proven techniques to quiet your anxious mind and build stronger, healthier relationships by breaking the overthinking cycle today."
 date: "2026-04-10"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Jessica Morgan"
 coverImage: "https://images.pexels.com/photos/28575900/pexels-photo-28575900.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["relationships", "mental-health", "anxiety", "communication", "personal-growth"]
@@ -18,7 +18,7 @@ Before we tackle solutions, it's important to understand what drives this behavi
 
 ### The Root Causes
 
-**Anxiety and insecurity** are the primary culprits. When we doubt ourselves or our partner's feelings, our brains go into overdrive trying to predict outcomes and protect us from potential hurt. According to research published in the *Journal of Cognitive Psychotherapy*, approximately 73% of people with relationship anxiety engage in chronic overthinking patterns.
+**Anxiety and insecurity** are the primary culprits. When we doubt ourselves or our partner's feelings, our brains go into overdrive trying to predict outcomes and protect us from potential hurt. Relationship anxiety and chronic overthinking travel together so reliably that clinicians tend to treat them as two descriptions of one pattern rather than two separate problems.
 
 **Past experiences** also play a significant role. If you've been hurt before, your brain develops a hypervigilance system—constantly scanning for signs of danger or rejection. Even innocent behaviors from your partner get filtered through this lens of fear.
 

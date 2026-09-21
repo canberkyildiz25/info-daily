@@ -43,7 +43,7 @@ The classic morning peak/afternoon trough/evening rebound pattern describes the 
 
 About 15-20% of people are genuine "night owls" (late chronotypes) whose biological cycle runs several hours behind the norm. For them, the morning peak might not arrive until mid-morning or early afternoon, with their analytical best coming when most people are already in their trough. A comparable minority are "early birds" (early chronotypes), whose peak arrives sooner and whose rebound ends earlier in the evening.
 
-Research by sleep scientist Till Roenneberg has identified a third group, roughly 5% of the population, with extremely early chronotypes — these are the rare people who genuinely thrive at 5am without an alarm and feel genuinely tired by 9pm.
+There is also a third and much smaller group with extremely early chronotypes — the rare people who genuinely thrive at 5am without an alarm and are tired by nine in the evening.
 
 Morningness-eveningness questionnaires (available free online, validated by research) can give you a rough sense of where you fall. But a simpler method: track your most and least productive natural states across two weeks without forcing early starts. Your body will tell you.
 

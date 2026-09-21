@@ -29,7 +29,7 @@ A landmark 2019 study in the *European Journal of Preventive Cardiology* found t
 
 Walking stimulates the production of BDNF (brain-derived neurotrophic factor), a protein that promotes the growth of new brain cells and strengthens neural connections — particularly in the hippocampus, the brain's memory center.
 
-Research from the University of British Columbia found that regular aerobic exercise (including walking) increased hippocampal volume by approximately 2% — effectively reversing age-related brain shrinkage by 1–2 years. Studies following older adults over decades show that walkers have significantly lower rates of dementia and cognitive decline.
+A [six-month randomised trial at the University of British Columbia](https://pubmed.ncbi.nlm.nih.gov/24711660/), published in the *British Journal of Sports Medicine*, found that twice-weekly brisk walking significantly increased hippocampal volume in older women with mild cognitive impairment — where resistance and balance training did not. Studies following older adults over decades show that walkers have significantly lower rates of dementia and cognitive decline.
 
 ## Mental Health and Mood
 
@@ -54,7 +54,7 @@ Walking also increases insulin sensitivity, meaning your body needs less insulin
 
 ## Longevity
 
-The relationship between walking and lifespan is among the most robustly documented in medicine. A large study published in *JAMA Internal Medicine* found that every 2,000 additional steps per day (roughly 1 mile) was associated with a 9% lower risk of premature death from any cause.
+The relationship between walking and lifespan is among the most robustly documented in medicine. A [large study in *JAMA Internal Medicine*](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2796058) found that every 2,000 additional steps a day (roughly a mile) was associated with an 8–11% lower risk of premature death from any cause.
 
 A separate Harvard-led analysis of nearly 17,000 older women, [published in *JAMA Internal Medicine* in 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709), found that those averaging 4,400 steps a day had 41% lower mortality than those averaging 2,700. Notably, benefits plateaued around 7,500 steps — you don't need 10,000 to get significant life-extension benefits.
 

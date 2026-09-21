@@ -2,7 +2,7 @@
 title: "The Best Ways to Improve Communication With Your Partner"
 excerpt: "Discover proven strategies to improve communication with your partner, strengthen your bond, and resolve conflicts with confidence and compassion."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Jessica Morgan"
 coverImage: "https://images.pexels.com/photos/5699837/pexels-photo-5699837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["relationship communication", "healthy relationships", "couples advice", "conflict resolution", "emotional intimacy"]
@@ -14,7 +14,7 @@ Whether you're navigating a rough patch or simply want to deepen your connection
 
 ## Why Communication Breaks Down in Relationships
 
-Before diving into solutions, it helps to understand why couples struggle to communicate in the first place. According to a study published in the *Journal of Marriage and Family*, poor communication is the most commonly cited reason for relationship dissatisfaction and divorce, with over 65% of divorced couples identifying it as a major contributing factor.
+Before diving into solutions, it helps to understand why couples struggle to communicate in the first place. Poor communication is the reason couples name most often when asked what went wrong — ahead of money, ahead of infidelity, ahead of everything that makes a better story.
 
 Communication breakdowns rarely happen overnight. They tend to develop gradually through a combination of:
 

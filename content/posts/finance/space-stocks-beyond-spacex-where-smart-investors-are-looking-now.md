@@ -2,12 +2,13 @@
 title: "Space Stocks Beyond SpaceX: Where Smart Investors Are Looking Now"
 excerpt: "SpaceX isn't publicly traded, but the space economy is booming. Discover where savvy investors are putting their money in 2026's hottest sector."
 date: "2026-06-05"
+updatedAt: "2026-09-21"
 author: "James Park, CFP"
 coverImage: "https://images.pexels.com/photos/8474973/pexels-photo-8474973.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["space stocks", "investing", "space economy", "stock market", "aerospace investing"]
 ---
 
-Everyone wants a piece of SpaceX. The problem? You can't buy it on the open market. Elon Musk's rocket company remains stubbornly private, and unless you're a venture capitalist or an accredited investor with the right connections, you're watching from the sidelines. But here's what most people miss: the space economy extends far beyond a single company, and publicly traded opportunities are multiplying fast. According to a 2026 report by Morgan Stanley, the global space economy is projected to surpass $600 billion by 2030, with some analysts pushing that estimate closer to $1 trillion. That's not science fiction — it's a massive investable trend unfolding right now.
+Everyone wants a piece of SpaceX. The problem? You can't buy it on the open market. Elon Musk's rocket company remains stubbornly private, and unless you're a venture capitalist or an accredited investor with the right connections, you're watching from the sidelines. But here's what most people miss: the space economy extends far beyond a single company, and publicly traded opportunities are multiplying fast. [Morgan Stanley's space team](https://www.morganstanley.com/Themes/global-space-economy) projects the global space economy passing $1 trillion by 2040, with satellite broadband accounting for around half of that growth. That's not science fiction — it's a massive investable trend unfolding right now.
 
 So where should smart investors be looking? Let's break it down.
 

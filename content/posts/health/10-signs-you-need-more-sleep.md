@@ -2,7 +2,7 @@
 title: "10 Signs You Need More Sleep"
 excerpt: "Feeling off but not sure why? Your body may be screaming for more sleep. Here are the top signs — and what to do about them."
 date: "2025-09-19"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Dr. Sarah Collins"
 coverImage: "https://images.pexels.com/photos/7445324/pexels-photo-7445324.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["sleep", "fatigue", "health", "insomnia", "rest"]
@@ -22,7 +22,7 @@ This sounds like a superpower, but it's actually a warning sign. Healthy sleeper
 
 ## 3. Your Emotions Are All Over the Place
 
-The amygdala — your brain's emotional alarm center — becomes 60% more reactive after one night of poor sleep, according to research from UC Berkeley. You snap at people you love. Small frustrations feel enormous. Sadness lingers longer. If you've noticed your emotional responses are disproportionate to the situation, sleep is the first variable to examine.
+The amygdala — your brain's emotional alarm centre — showed 60% greater activation to negative images after a night without sleep in a [2007 study in *Current Biology*](https://pubmed.ncbi.nlm.nih.gov/17956744/) from UC Berkeley and Harvard Medical School. You snap at people you love. Small frustrations feel enormous. Sadness lingers longer. If you've noticed your emotional responses are disproportionate to the situation, sleep is the first variable to examine.
 
 ## 4. You're Constantly Getting Sick
 

@@ -2,7 +2,7 @@
 title: "Why Retro Gaming Is Making a Huge Comeback"
 excerpt: "From NES classics to arcade revivals, retro gaming is surging in popularity. Discover what's driving the comeback and how to join in."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: Canberk Yildiz
 coverImage: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=1200&q=80"
 tags: ["retro gaming", "classic video games", "gaming nostalgia", "vintage consoles", "gaming culture"]
@@ -12,7 +12,7 @@ If you've walked into a gaming store recently, scrolled through social media, or
 
 ## The Numbers Don't Lie
 
-The retro gaming market has exploded in recent years. According to a 2024 report by Grand View Research, the global retro gaming market was valued at over $36 billion and is projected to grow at a compound annual growth rate of more than 8% through 2030. That's not a niche hobby — that's a full-blown industry resurgence. From reissued classic consoles to thriving online marketplaces for original cartridges, money is pouring into the space from collectors, casual players, and major corporations alike.
+The retro gaming market has exploded in recent years. Retro gaming has grown from a hobbyist corner into a substantial commercial category, spanning re-releases, mini consoles, emulation handhelds and a collector market with real money in it. That's not a niche hobby — that's a full-blown industry resurgence. From reissued classic consoles to thriving online marketplaces for original cartridges, money is pouring into the space from collectors, casual players, and major corporations alike.
 
 Nintendo's NES Classic Edition, which launched back in 2016, sold out within minutes and ultimately moved over 10 million units worldwide across its run. Sony followed with the PlayStation Classic, and Sega released the Genesis Mini to widespread acclaim. These weren't just novelty items — they proved that demand for retro experiences is enormous and enduring.
 

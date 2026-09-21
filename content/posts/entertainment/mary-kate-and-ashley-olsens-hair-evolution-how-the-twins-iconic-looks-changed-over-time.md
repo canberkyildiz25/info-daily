@@ -2,6 +2,7 @@
 title: "Mary-Kate and Ashley Olsen's Hair Evolution: How the Twins' Iconic Looks Changed Over Time"
 excerpt: "From matching childhood curls to boho waves and sleek minimalism, discover how the Olsen twins' hair became as iconic as their fashion empire."
 date: "2026-06-13"
+updatedAt: "2026-09-21"
 author: "Maria Chen"
 coverImage: "https://picsum.photos/seed/328/800/450"
 tags: ["Olsen twins", "celebrity hair evolution", "iconic hairstyles", "Mary-Kate and Ashley", "hair transformation"]
@@ -20,7 +21,7 @@ Key features of their early hair era included:
 - **Side-swept or curtain bangs** that framed their round faces
 - **Matching styles** that reinforced their twin identity as a brand
 
-Their early hair was more than just a look — it was a business strategy. According to a 2019 analysis by *Business Insider*, the Olsen twins' brand generated over $1 billion in retail sales by the time they turned 18, and their coordinated, wholesome appearance was central to that empire.
+Their early hair was more than just a look — it was a business strategy. By the time they turned eighteen the Olsen twins presided over a retail empire measured in the hundreds of millions, and their coordinated, wholesome appearance was central to the whole enterprise.
 
 ## The Teen Idol Phase: Sun-Kissed and California Cool (2000–2004)
 
@@ -79,7 +80,7 @@ Current hair hallmarks include:
 - **Air-dried or lightly styled waves** that embrace natural texture
 - **Minimal use of heat tools**, aligning with the broader clean beauty movement
 
-Their approach mirrors a larger trend in celebrity beauty. According to a 2025 report from *Mintel*, 62% of consumers now prefer "natural-looking" hair over heavily styled looks — a philosophy the Olsens arguably pioneered years before it went mainstream.
+Their approach mirrors a larger trend in celebrity beauty. Undone, natural-looking hair has since become the mainstream preference over heavily styled looks — a philosophy the Olsens arguably reached years before the rest of the industry did.
 
 ## What We Can Learn From the Olsen Twins' Hair Journey
 

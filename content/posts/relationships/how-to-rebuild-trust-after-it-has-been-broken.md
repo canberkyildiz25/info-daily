@@ -2,7 +2,7 @@
 title: "How to Rebuild Trust After It Has Been Broken"
 excerpt: "Discover practical, actionable steps to rebuild trust in any relationship after betrayal, dishonesty, or disappointment has shattered it."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Jessica Morgan"
 coverImage: "https://images.pexels.com/photos/37448071/pexels-photo-37448071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["rebuilding trust", "relationship advice", "trust issues", "healthy relationships", "personal growth"]
@@ -72,7 +72,7 @@ Rebuilding trust works best when both people explicitly agree on what the path f
 
 ### 6. Seek Professional Support When Needed
 
-There's no shame in getting help. In fact, research from the American Association for Marriage and Family Therapy shows that over **97% of couples who went through therapy reported they received the help they needed**, and nearly **93% said therapy gave them more effective tools for dealing with conflict**.
+There's no shame in getting help. The great majority of couples who go through therapy report that they got the help they were looking for, and that they came away with more effective tools for handling conflict than they went in with.
 
 A skilled therapist can mediate difficult conversations, help identify unhealthy patterns, and provide a structured framework for rebuilding. This applies to non-romantic relationships too — family therapy and even workplace mediation can be enormously helpful.
 

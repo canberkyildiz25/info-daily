@@ -2,7 +2,7 @@
 title: "Easy Healthy Breakfast Ideas That Take 5 Minutes"
 excerpt: "Discover quick, nutritious breakfast ideas you can make in 5 minutes or less. Start your morning right without sacrificing time or flavor."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Maria Chen"
 coverImage: "https://images.pexels.com/photos/7167855/pexels-photo-7167855.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["healthy breakfast", "quick recipes", "meal prep", "morning routine", "nutrition tips"]
@@ -12,7 +12,7 @@ We've all been there — the alarm goes off late, the morning spirals into chaos
 
 ## Why Breakfast Still Matters (Even When You're Busy)
 
-There's a reason nutritionists keep beating this drum. A study published in the *Journal of the American College of Cardiology* found that people who regularly skip breakfast have a 87% higher risk of cardiovascular mortality compared to those who eat breakfast daily. Beyond the long-term health implications, eating a balanced morning meal stabilizes blood sugar, improves concentration, and helps regulate appetite throughout the day.
+There's a reason nutritionists keep beating this drum. A [study in the *Journal of the American College of Cardiology*](https://www.jacc.org/doi/10.1016/j.jacc.2019.01.065), following 6,550 American adults for an average of 18 years, found that those who never ate breakfast had an 87% higher risk of death from cardiovascular disease than those who ate it daily. It is observational, so it shows an association rather than proving breakfast caused it. Beyond the long-term health implications, eating a balanced morning meal stabilizes blood sugar, improves concentration, and helps regulate appetite throughout the day.
 
 The key word here is *balanced*. A breakfast that combines protein, healthy fats, and fiber will keep you full and focused far longer than a sugary granola bar or a plain bagel. Every idea on this list hits that nutritional trifecta — and none of them require you to turn on the stove.
 

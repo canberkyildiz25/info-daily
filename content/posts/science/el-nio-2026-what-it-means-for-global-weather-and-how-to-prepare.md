@@ -2,6 +2,7 @@
 title: "El Niño 2026: What It Means for Global Weather and How to Prepare"
 excerpt: "El Niño 2026 is already reshaping weather worldwide. Discover what's coming next and the smartest steps to protect your family and finances."
 date: "2026-06-12"
+updatedAt: "2026-09-21"
 author: "Dr. Lena Fischer"
 coverImage: "https://picsum.photos/seed/888/800/450"
 tags: ["El Niño 2026", "global weather patterns", "climate preparedness", "extreme weather", "natural disasters"]
@@ -50,7 +51,7 @@ East Africa tends to see above-average rainfall during El Niño events, sometime
 
 ## The Economic Ripple Effects
 
-El Niño isn't just a weather story — it's an economic one. A 2023 study published in *Science* by researchers at Dartmouth College estimated that the 1997–98 El Niño event caused approximately **$5.7 trillion in global economic losses** over the five years that followed. The costs came from crop failures, infrastructure damage, health crises, and supply chain disruptions.
+El Niño isn't just a weather story — it's an economic one. A [2023 study in *Science*](https://www.science.org/doi/10.1126/science.adf2983) by researchers at Dartmouth attributed roughly **$5.7 trillion in global income losses** to the 1997–98 El Niño, and $4.1 trillion to the 1982–83 event — with the drag lasting as long as fourteen years rather than resolving in one. The costs came from crop failures, infrastructure damage, health crises, and supply chain disruptions.
 
 In 2026, key economic concerns include:
 

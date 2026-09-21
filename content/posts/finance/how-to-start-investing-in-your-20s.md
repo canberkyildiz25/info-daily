@@ -2,7 +2,7 @@
 title: "How to Start Investing in Your 20s"
 excerpt: "Your 20s are the most powerful time to start investing — time works in your favor like nothing else. Here's exactly where to begin with any amount."
 date: "2025-12-15"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "James Park, CFP"
 coverImage: "https://images.pexels.com/photos/6694484/pexels-photo-6694484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["investing", "20s", "Roth IRA", "compound interest", "wealth building"]
@@ -53,7 +53,7 @@ In your 20s, complexity is the enemy. The most appropriate portfolio for most 20
 
 The allure of picking stocks or trading crypto is understandable — occasional stories of massive gains get attention. The statistical reality:
 
-- Studies show 80–90% of actively managed funds underperform simple index funds over 15+ years
+- S&P's [SPIVA scorecard](https://www.spglobal.com/spdji/en/spiva/article/spiva-us/) finds roughly 90% of active US large-cap funds underperform the S&P 500 over 15 years — and that over that horizon, no US equity category has a majority of managers beating their benchmark
 - Individual stock picking requires deep research and even professionals rarely beat the market consistently
 - Cryptocurrency is appropriate as a speculative allocation for money you can afford to lose entirely (if any)
 - Options trading is a wealth transfer from retail traders to market makers — over 90% of retail options traders lose money

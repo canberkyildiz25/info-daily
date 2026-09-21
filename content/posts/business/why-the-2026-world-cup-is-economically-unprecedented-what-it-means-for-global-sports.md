@@ -14,7 +14,7 @@ As the 2026 FIFA World Cup kicks off across the United States, Canada, and Mexic
 
 Let's start with the raw economics, because the figures are genuinely staggering.
 
-FIFA projects that the 2026 World Cup will generate an estimated **$11 billion in total economic impact** across the three host countries — dwarfing the $5.3 billion economic output of Qatar 2022. According to a study published by the Boston Consulting Group in partnership with FIFA, the expanded 48-team format alone is expected to drive a **40% increase in total revenue** compared to the previous cycle.
+FIFA projects that the 2026 World Cup will generate an estimated **$11 billion in total economic impact** across the three host countries — dwarfing the $5.3 billion economic output of Qatar 2022. The expanded 48-team format is expected to lift total revenue substantially against the previous cycle, simply by adding matches, host cities and broadcast inventory.
 
 Here's how the numbers break down:
 

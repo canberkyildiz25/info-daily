@@ -2,13 +2,13 @@
 title: "How to Boost Your Metabolism After 40"
 excerpt: "Metabolism does slow with age, but it's far more controllable than you think. These science-backed strategies can reignite your calorie burn after 40."
 date: "2025-12-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Mark Stevens, CSCS"
 coverImage: "https://images.pexels.com/photos/11618177/pexels-photo-11618177.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["metabolism", "over 40", "weight loss", "hormones", "fitness"]
 ---
 
-There's a widespread belief that once you hit 40, your metabolism falls off a cliff and weight gain becomes inevitable. The reality is more nuanced. Yes, metabolic rate does decline with age — but research from the Duke University Human Vaccine Institute found that metabolism stays remarkably stable from age 20 to 60, then declines by about 0.7% per year after that. The bigger issue isn't age itself; it's the lifestyle changes that tend to accompany it.
+There's a widespread belief that once you hit 40, your metabolism falls off a cliff and weight gain becomes inevitable. The reality is more nuanced. Yes, metabolic rate does decline with age — but later than most people assume. A [2021 study in *Science*](https://www.science.org/doi/10.1126/science.abe5017), led by Herman Pontzer at Duke, measured energy expenditure across more than 6,400 people and found it stays remarkably stable from age 20 to 60, then declines about 0.7% a year after that. The bigger issue isn't age itself; it's the lifestyle changes that tend to accompany it.
 
 The good news: most metabolic slowdown after 40 is reversible. Here's how.
 
@@ -28,7 +28,7 @@ Before fixing the problem, it helps to know what's actually happening:
 
 This is the single most effective lever for metabolism after 40. Building and maintaining muscle mass increases your resting metabolic rate because muscle tissue burns more calories at rest than fat tissue.
 
-Research from Tufts University showed that older adults who engaged in progressive resistance training for 16 weeks increased their resting metabolic rate by about 7% — equivalent to burning an extra 100–150 calories per day without additional exercise.
+Progressive resistance training raises resting metabolic rate in older adults, because muscle costs more to maintain at rest than fat does. The effect is real but modest — worth having, not a substitute for the training itself.
 
 **What to do:**
 - Lift weights 2–3 times per week

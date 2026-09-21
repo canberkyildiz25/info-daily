@@ -2,7 +2,7 @@
 title: "20 Productivity Hacks to Get More Done in Less Time"
 excerpt: "Stop being busy, start being productive. These 20 research-backed techniques will help you accomplish more — while working fewer hours."
 date: "2025-03-27"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Ryan Cooper"
 tags: ["productivity", "time management", "focus", "work smarter", "life hacks"]
 coverImage: "https://images.pexels.com/photos/36730937/pexels-photo-36730937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -29,7 +29,7 @@ Do your most important (and often most dreaded) task first thing in the morning 
 Multitasking reduces efficiency by up to 40%. Your brain doesn't actually multitask — it rapidly switches between tasks, each switch costing time and cognitive resources. Do one thing at a time.
 
 ### 5. Use Noise-Cancelling Headphones
-Office noise reduces productivity by 66%, according to research from Cornell. Noise-cancelling headphones create an immediate focus bubble. Playing brown noise or lo-fi music amplifies this effect.
+Ambient office noise measurably degrades concentration and raises stress, which is the entire reason open-plan floors sell so many headphones. Noise-cancelling headphones create an immediate focus bubble. Playing brown noise or lo-fi music amplifies this effect.
 
 ## Task Management
 

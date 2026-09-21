@@ -2,7 +2,7 @@
 title: "10 Signs You Need More Sleep If You Work Night Shifts"
 excerpt: "Night shift workers often miss critical sleep signals. Discover 10 key signs your body needs more rest and actionable strategies to improve your sleep quality."
 date: "2026-05-07"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Dr. Sarah Collins"
 coverImage: "https://images.pexels.com/photos/36713392/pexels-photo-36713392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["sleep health", "night shift work", "sleep deprivation", "workplace wellness", "sleep hygiene"]
@@ -42,7 +42,7 @@ You've had days off, taken naps, yet you still feel physically drained. This per
 
 ### 4. Slowed Reaction Times and Increased Errors
 
-Night shift work in safety-sensitive positions becomes dangerous when sleep-deprived. Studies show that a person awake for 17 hours performs similarly to someone with a blood alcohol content of 0.05%. If you're noticing:
+Night shift work in safety-sensitive positions becomes dangerous when sleep-deprived. A [1997 study in *Nature*](https://www.nature.com/articles/40775) found that 17 hours of sustained wakefulness impairs performance about as much as a blood alcohol concentration of 0.05% — and 24 hours about as much as 0.10%. If you're noticing:
 
 - Near-misses at work
 - Increased accident involvement

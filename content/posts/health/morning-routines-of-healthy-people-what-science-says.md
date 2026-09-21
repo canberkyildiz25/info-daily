@@ -2,7 +2,7 @@
 title: "Morning Routines of Healthy People: What Science Says"
 excerpt: "Discover the science-backed morning habits that healthy people swear by — and how to build your own routine that actually sticks."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Dr. Sarah Collins"
 coverImage: "https://images.pexels.com/photos/27177598/pexels-photo-27177598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["morning routines", "healthy habits", "wellness", "productivity", "science-backed health"]
@@ -12,7 +12,7 @@ What you do in the first hour after waking up can shape your entire day — your
 
 ## Why Morning Routines Matter More Than You Think
 
-Your morning isn't just the start of your day — it's the foundation. According to a 2023 study published in the *Journal of Behavioral Medicine*, individuals who followed a consistent morning routine reported 25% lower perceived stress levels and significantly higher life satisfaction compared to those with irregular morning habits. The researchers attributed this to something psychologists call "cognitive anchoring": when your day begins with predictable, positive actions, your brain enters a state of calm readiness rather than reactive chaos.
+Your morning isn't just the start of your day — it's the foundation. A consistent morning routine tends to lower perceived stress for a structural reason rather than a mystical one: it removes a block of decisions from the part of the day when you are least equipped to make them. Psychologists call the underlying effect "cognitive anchoring": when your day begins with predictable, positive actions, your brain enters a state of calm readiness rather than reactive chaos.
 
 There's also a neurological component. Cortisol — your body's primary stress hormone — naturally peaks within 30 to 45 minutes of waking in what's known as the cortisol awakening response (CAR). How you spend that window matters. Healthy routines can help channel that cortisol spike into focused energy, while scrolling through anxiety-inducing news or rushing out the door can turn it into chronic stress.
 
@@ -55,7 +55,7 @@ You don't need to run a 5K at dawn. Even light movement — a 10-minute walk, a 
 
 ### 5. Eating a Balanced Breakfast (or Intentionally Fasting)
 
-The "breakfast is the most important meal of the day" narrative is more nuanced than cereal companies would have you believe. What science does support is *intentionality*. If you eat breakfast, make it count — prioritize protein, healthy fats, and fiber over sugary cereals and pastries. A study from the *American Journal of Clinical Nutrition* found that a high-protein breakfast (around 30 grams of protein) reduced cravings and unhealthy snacking later in the day by up to 40%.
+The "breakfast is the most important meal of the day" narrative is more nuanced than cereal companies would have you believe. What science does support is *intentionality*. If you eat breakfast, make it count — prioritize protein, healthy fats, and fiber over sugary cereals and pastries. A high-protein breakfast — around 30 grams — blunts cravings and reduces snacking later in the day, which is why the protein number matters more than the calorie number at that meal.
 
 If intermittent fasting works for your body and lifestyle, that's fine too. The key is making a conscious choice rather than defaulting to whatever is fastest or skipping meals because you're too rushed.
 

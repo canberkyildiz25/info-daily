@@ -109,7 +109,7 @@ Don't underestimate the cortisol-lowering power of quality time with loved ones.
 
 Certain herbs support natural cortisol management:
 
-- **Ashwagandha:** Clinical studies show it reduces cortisol by up to 28%
+- **Ashwagandha:** a [randomised placebo-controlled trial](https://pubmed.ncbi.nlm.nih.gov/23439798/) found 300mg twice daily for 60 days cut serum cortisol by 27.9%
 - **Rhodiola:** Helps with stress resilience and fatigue
 - **Chamomile tea:** Promotes relaxation and better sleep
 - **Lemon balm:** Calms anxiety naturally

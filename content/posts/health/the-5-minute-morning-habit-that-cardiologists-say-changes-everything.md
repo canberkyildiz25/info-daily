@@ -2,7 +2,7 @@
 title: "The 5-Minute Morning Habit That Cardiologists Say Changes Everything"
 excerpt: "It costs nothing, takes five minutes, and the cardiovascular evidence behind it is stronger than most people realize. Here's what cardiologists actually do each morning."
 date: "2026-05-12"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Mark Stevens, CSCS"
 coverImage: "https://images.pexels.com/photos/27177607/pexels-photo-27177607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["heart health", "morning routine", "cardiology", "habits", "fitness", "wellness"]
@@ -20,7 +20,7 @@ The cardiovascular system undergoes a significant shift in the early hours after
 
 A brief bout of movement in this window does several things simultaneously: it accelerates the normalization of blood pressure, improves arterial elasticity, and activates the parasympathetic nervous system, which counterbalances the morning cortisol spike.
 
-A 2023 study published in the *European Heart Journal* tracked 10,000 adults over five years and found that those who incorporated light-to-moderate physical activity within the first hour of waking had a 26% lower rate of major cardiovascular events compared to those who were sedentary in the morning — even when total daily activity levels were similar.
+A [study of 86,657 UK Biobank participants](https://academic.oup.com/eurjpc/article/30/3/232/6814439), published in the *European Journal of Preventive Cardiology*, found that people most active in the mid-to-late morning were 16% less likely to develop coronary artery disease and 17% less likely to have a stroke than those most active in the middle of the day — and that this held regardless of how much total activity they did.
 
 ## What "Brisk" Actually Means
 

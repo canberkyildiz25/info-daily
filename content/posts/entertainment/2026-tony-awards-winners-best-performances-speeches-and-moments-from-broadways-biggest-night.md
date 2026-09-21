@@ -2,6 +2,7 @@
 title: "2026 Tony Awards Winners: Best Performances, Speeches, and Moments from Broadway's Biggest Night"
 excerpt: "Relive the 2026 Tony Awards with a full breakdown of winners, standout performances, memorable speeches, and the biggest moments from Broadway's top night."
 date: "2026-06-08"
+updatedAt: "2026-09-21"
 author: "Maria Chen"
 coverImage: "https://images.pexels.com/photos/7267547/pexels-photo-7267547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["2026 Tony Awards", "Broadway", "Tony Awards winners", "theater", "live performances"]
@@ -11,7 +12,7 @@ Broadway's biggest night has come and gone, and the 2026 Tony Awards did not dis
 
 ## Why the 2026 Tony Awards Season Mattered
 
-The 2025–2026 Broadway season was one of the most competitive in recent memory. Box office revenues across Broadway surpassed $1.8 billion for the season, according to data from the Broadway League — a strong indicator that audiences are not only returning to theaters post-pandemic but actively seeking out bold, innovative new work. This year's slate of nominees reflected that energy, featuring a diverse mix of original musicals, daring revivals, new plays tackling urgent social themes, and a handful of star-powered productions that brought Hollywood talent back to the stage.
+The 2025–2026 Broadway season was one of the most competitive in recent memory. Broadway box office has recovered strongly from the shutdown years, and the recovery has been led by new work rather than by the long-running titles that carried the district before it. This year's slate of nominees reflected that energy, featuring a diverse mix of original musicals, daring revivals, new plays tackling urgent social themes, and a handful of star-powered productions that brought Hollywood talent back to the stage.
 
 With over 30 productions eligible for nominations, the race for top honors was fierce, and the ceremony itself lived up to the anticipation.
 

@@ -2,7 +2,7 @@
 title: "Why Your Older Cat Prefers Kitten Food: A Vet's Guide to Senior Pet Nutrition"
 excerpt: "Discover why your senior cat craves kitten food, whether it's safe, and how to manage their nutrition for optimal health in their golden years."
 date: "2026-04-15"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Dr. Sarah Collins"
 coverImage: "https://images.pexels.com/photos/6816836/pexels-photo-6816836.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["senior cat nutrition", "kitten food for older cats", "cat diet tips", "pet health", "veterinary advice"]
@@ -22,7 +22,7 @@ Here's how kitten food typically differs from senior formulas:
 - **Smaller, softer kibble** — easier on aging teeth and gums
 - **Higher calorie density** — more energy per bite
 
-Cats are obligate carnivores with a strong instinctive drive toward protein and fat. As cats age, their sense of smell and taste can diminish — a condition veterinary researchers have documented extensively. A 2023 study published in the *Journal of Feline Medicine and Surgery* found that approximately 50% of cats over the age of 12 experience measurable declines in olfactory sensitivity. When their regular senior food smells bland, the richer, more pungent kitten food becomes almost impossible to resist.
+Cats are obligate carnivores with a strong instinctive drive toward protein and fat. As cats age, their sense of smell and taste can diminish — a condition veterinary researchers have documented extensively. Older cats commonly lose olfactory sensitivity, and because cats decide what is food largely by smell, a diminished sense of smell shows up at the bowl before it shows up anywhere else. When their regular senior food smells bland, the richer, more pungent kitten food becomes almost impossible to resist.
 
 ## Is It Actually Safe for Older Cats to Eat Kitten Food?
 

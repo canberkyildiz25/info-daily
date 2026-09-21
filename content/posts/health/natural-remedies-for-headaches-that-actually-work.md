@@ -2,7 +2,7 @@
 title: "Natural Remedies for Headaches That Actually Work"
 excerpt: "Discover proven natural remedies for headaches, from hydration and essential oils to acupressure and magnesium, backed by science and real results."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Dr. Sarah Collins"
 coverImage: "https://images.pexels.com/photos/28927702/pexels-photo-28927702.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["natural remedies", "headache relief", "holistic health", "wellness tips", "migraine treatment"]
@@ -29,7 +29,7 @@ Before you try anything else on this list, make sure you're drinking enough wate
 
 Peppermint oil has been used for centuries as a headache remedy, and modern science confirms it's more than folklore. The active compound, menthol, increases blood flow and provides a cooling sensation that can relax tense muscles around the forehead and temples.
 
-A clinical study published in *Cephalalgia* found that applying a 10% peppermint oil solution to the temples was as effective as 1,000 mg of acetaminophen for tension-type headache relief.
+A [1996 controlled trial](https://pubmed.ncbi.nlm.nih.gov/8805113/) found that a 10% peppermint oil solution applied to the forehead and temples relieved tension-type headache with no statistically significant difference from 1,000mg of paracetamol.
 
 **How to use it:**
 

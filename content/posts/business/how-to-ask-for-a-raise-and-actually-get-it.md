@@ -2,13 +2,13 @@
 title: "How to Ask for a Raise and Actually Get It"
 excerpt: "Most people either never ask for raises or ask ineffectively. This step-by-step approach significantly increases your chances of getting a yes — and a larger yes."
 date: "2025-10-15"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "David Kim"
 coverImage: "https://images.pexels.com/photos/31984656/pexels-photo-31984656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["salary negotiation", "career", "raise", "workplace", "negotiation"]
 ---
 
-Research from Carnegie Mellon University found that people who negotiate their salary consistently earn significantly more over their careers than those who don't — an estimated $1 million more in lifetime earnings for a typical professional career. Yet most people never ask for a raise, and many who do ask ineffectively.
+Salary negotiation compounds in a way that a single conversation disguises: every future raise, bonus and offer is calculated from the number you accept now, so a gap that opens in your twenties keeps widening for the rest of your career. Yet most people never ask for a raise, and many who do ask ineffectively.
 
 The problem isn't courage — it's strategy. Most people approach salary conversations with a vague sense that they deserve more and no systematic framework for making the case. Here's the framework that works.
 

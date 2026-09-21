@@ -2,6 +2,7 @@
 title: "Situationships: What They Are and How to Navigate Them"
 excerpt: "Situationships are the defining relationship trend of our era. Here's what they actually are and how to handle one without losing yourself."
 date: "2026-06-15"
+updatedAt: "2026-09-21"
 author: "Jessica Morgan"
 coverImage: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=1200&q=80"
 tags: ["situationship", "modern dating", "relationships", "dating trends", "emotional health"]
@@ -15,7 +16,7 @@ So what exactly is a situationship, why are they so common, and most importantly
 
 A situationship is a romantic connection that has all the emotional and physical hallmarks of a relationship — texting constantly, spending weekends together, meeting each other's friends — but without any formal commitment or defined label.
 
-It lives in the grey zone between "just friends" and "in a relationship." Both people often know something is there, but neither takes the step to name it. According to a 2025 survey by the dating app Hinge, nearly **67% of Gen Z and Millennial daters** reported being in or having been in a situationship at some point.
+It lives in the grey zone between "just friends" and "in a relationship." Both people often know something is there, but neither takes the step to name it. Being in, or having been in, a situationship is close to a universal experience for people who have dated through the app era — which is why the word caught on so fast.
 
 The term went mainstream around 2022 but the dynamic itself is nothing new. What *is* new is how long people stay in them — often months or even years.
 

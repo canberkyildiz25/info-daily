@@ -2,6 +2,7 @@
 title: "SpaceX's Historic IPO: Why Elon Musk Rushed to Take the Company Public"
 excerpt: "SpaceX finally went public in 2026 — but why now? Discover the financial pressures, strategic moves, and investor frenzy behind the most anticipated IPO in decades."
 date: "2026-06-13"
+updatedAt: "2026-09-21"
 author: "James Park, CFP"
 coverImage: "https://picsum.photos/seed/600/800/450"
 tags: ["SpaceX IPO", "Elon Musk", "stock market", "investing", "space industry"]
@@ -33,7 +34,7 @@ Timing also mattered from a regulatory standpoint. The current political environ
 
 ### Competitive Pressure
 
-The space economy is no longer a one-company show. According to a 2026 report from Morgan Stanley, the global space economy is projected to exceed $1.8 trillion by 2035, and competition for that market share is intensifying rapidly. Blue Origin has ramped up its New Glenn launch cadence, Rocket Lab continues to expand, and sovereign space programs from China and India are investing aggressively. Going public now gives SpaceX a war chest to stay ahead.
+The space economy is no longer a one-company show. The [World Economic Forum, with McKinsey](https://www.weforum.org/publications/space-the-1-8-trillion-opportunity-for-global-economic-growth/), projects the global space economy reaching $1.8 trillion by 2035, and competition for that market share is intensifying rapidly. Blue Origin has ramped up its New Glenn launch cadence, Rocket Lab continues to expand, and sovereign space programs from China and India are investing aggressively. Going public now gives SpaceX a war chest to stay ahead.
 
 ## How the IPO Was Structured
 

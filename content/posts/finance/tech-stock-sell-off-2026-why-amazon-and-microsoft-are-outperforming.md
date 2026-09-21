@@ -2,6 +2,7 @@
 title: "Tech Stock Sell-Off 2026: Why Amazon and Microsoft Are Outperforming"
 excerpt: "Amid the 2026 tech stock sell-off, Amazon and Microsoft are bucking the trend. Here's why these giants are outperforming and what it means for investors."
 date: "2026-06-07"
+updatedAt: "2026-09-21"
 author: "James Park, CFP"
 coverImage: "https://images.pexels.com/photos/30609092/pexels-photo-30609092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["tech stocks", "stock market 2026", "Amazon stock", "Microsoft stock", "investing strategy"]
@@ -18,7 +19,7 @@ Before we talk about the winners, it's worth understanding why the broader tech 
 - **Rising interest rate expectations:** After a brief pause in late 2025, the Federal Reserve signaled in March 2026 that rate cuts would be delayed further due to persistent services inflation. Higher-for-longer rates compress the valuations of growth stocks, which rely on future earnings being worth more today.
 - **AI revenue disappointment:** Many companies that rode the AI hype wave in 2024 and 2025 have failed to translate massive capital expenditures into proportional revenue. Investors are finally demanding receipts.
 - **Geopolitical headwinds:** Escalating trade tensions with China and new semiconductor export restrictions have rattled supply chains and dampened sentiment, particularly for hardware-heavy companies.
-- **Valuation reset:** According to data from FactSet, the forward price-to-earnings ratio for the Nasdaq 100 hit 32x in early 2026 — well above the 10-year average of approximately 24x. A correction was, in many analysts' view, overdue.
+- **Valuation reset:** the Nasdaq 100 entered 2026 trading at a forward price-to-earnings ratio well above its ten-year average, which is the condition that makes a sell-off on disappointing news much sharper. A correction was, in many analysts' view, overdue.
 
 Against this backdrop, the sell-off isn't random. It's a repricing of risk. And companies that can demonstrate durable earnings, diversified revenue streams, and clear AI monetization are being rewarded — or at least, punished less severely.
 

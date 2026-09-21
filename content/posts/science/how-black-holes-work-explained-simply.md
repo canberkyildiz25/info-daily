@@ -2,7 +2,7 @@
 title: "How Black Holes Work Explained Simply"
 excerpt: "Discover how black holes form, why nothing escapes them, and what scientists actually know about these cosmic mysteries — explained in plain English."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Dr. Lena Fischer"
 coverImage: "https://images.pexels.com/photos/10033759/pexels-photo-10033759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["black holes", "space science", "astrophysics", "universe", "science explained"]
@@ -44,7 +44,7 @@ Understanding a black hole becomes much easier when you break it into its key pa
 Not all black holes are created equal. Scientists generally classify them into three categories:
 
 ### Stellar Black Holes
-These form from collapsed stars and typically have masses ranging from about 5 to several tens of times our Sun's mass. There are an estimated **100 million stellar black holes** in the Milky Way alone, according to research published in *Monthly Notices of the Royal Astronomical Society* (2022).
+These form from collapsed stars and typically have masses ranging from about 5 to several tens of times our Sun's mass. The Milky Way is thought to contain on the order of **a hundred million stellar-mass black holes** — a number that comes from modelling how many massive stars have lived and died here, not from counting them, because almost all of them are invisible.
 
 ### Supermassive Black Holes
 These giants sit at the centers of most galaxies, including our own. Sagittarius A*, the supermassive black hole at the heart of the Milky Way, has a mass roughly **4 million times** that of our Sun. The one famously photographed by the Event Horizon Telescope in galaxy M87 has a mass of about 6.5 billion Suns.

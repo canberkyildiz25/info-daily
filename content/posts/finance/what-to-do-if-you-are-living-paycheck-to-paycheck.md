@@ -2,13 +2,13 @@
 title: "What to Do If You Are Living Paycheck to Paycheck"
 excerpt: "Practical steps to break the paycheck-to-paycheck cycle, build savings, and regain control of your finances starting today."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "James Park, CFP"
 coverImage: "https://images.pexels.com/photos/7735717/pexels-photo-7735717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["paycheck to paycheck", "budgeting tips", "personal finance", "saving money", "financial planning"]
 ---
 
-If your bank account hovers near zero right before payday — every single payday — you're far from alone. According to a 2024 survey by Bankrate, roughly 59% of American adults say they live paycheck to paycheck. That means the majority of working people in the country feel like they're one unexpected expense away from a financial crisis. The good news? Living paycheck to paycheck doesn't have to be permanent. With the right mindset and a clear plan, you can start building a cushion, reducing stress, and taking back control of your money — even on a modest income.
+If your bank account hovers near zero right before payday — every single payday — you're far from alone. According to [Bankrate](https://www.bankrate.com/credit-cards/news/living-paycheck-to-paycheck-statistics/), more than one in three American workers — 34% — say they live paycheck to paycheck. That is a very large number of working people who feel like they're one unexpected expense away from a financial crisis. The good news? Living paycheck to paycheck doesn't have to be permanent. With the right mindset and a clear plan, you can start building a cushion, reducing stress, and taking back control of your money — even on a modest income.
 
 ## Understand Why You're Stuck in the Cycle
 
@@ -65,7 +65,7 @@ Two popular repayment strategies:
 
 Both methods work. Choose the one that fits your personality. If you're someone who needs to see fast results to stay committed, the snowball method is incredibly powerful. If you're motivated by pure math, go avalanche.
 
-Additionally, consider calling your credit card companies to negotiate a lower interest rate. It sounds simple, but a polite five-minute phone call results in a rate reduction more often than you might expect. Some studies suggest success rates as high as 70% for cardholders who simply ask.
+Additionally, consider calling your credit card companies to negotiate a lower interest rate. It sounds simple, but a polite five-minute call results in a rate reduction far more often than people expect — and it costs one phone call to find out.
 
 ## Find Ways to Increase Your Income
 

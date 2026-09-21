@@ -2,7 +2,7 @@
 title: "What Scientists Have Discovered About Aging"
 excerpt: "From telomeres to senolytics, discover the groundbreaking science behind aging and what researchers say you can do to slow the clock."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Dr. Lena Fischer"
 coverImage: "https://images.pexels.com/photos/8540828/pexels-photo-8540828.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["aging science", "longevity research", "healthy aging", "anti-aging discoveries", "cellular health"]
@@ -44,7 +44,7 @@ Here's what's actionable: a 2022 study published in *JAMA Network Open* found th
 
 One of the most exciting frontiers in aging research involves senescent cells. These are cells that have stopped dividing but refuse to undergo apoptosis (programmed cell death). Instead, they linger in tissues and release inflammatory molecules known as the senescence-associated secretory phenotype (SASP). This chronic inflammation damages neighboring healthy cells and accelerates aging throughout the body.
 
-Researchers at the Mayo Clinic demonstrated in a groundbreaking 2018 study that clearing senescent cells in mice extended their healthy lifespan by up to 36%. The mice showed improved heart function, reduced cancer incidence, and delayed onset of age-related diseases.
+Researchers at the Mayo Clinic showed in a [2018 study in *Nature Medicine*](https://www.nature.com/articles/s41591-018-0092-9) that clearing senescent cells from very old mice raised their average remaining lifespan by 36%. The caveat is the one that applies to all of this work: it was mice, not people. The mice showed improved heart function, reduced cancer incidence, and delayed onset of age-related diseases.
 
 A new class of drugs called **senolytics** — designed to selectively destroy zombie cells — is now in human clinical trials. The combination of dasatinib and quercetin (a plant flavonoid) has shown early promise, and companies like Unity Biotechnology are actively developing senolytic therapies.
 
@@ -64,7 +64,7 @@ Chronological age tells you how many birthdays you've celebrated. Biological age
 
 This matters because biological age is a far better predictor of disease risk and mortality than the number on your driver's license. Someone who is 55 chronologically could be 45 or 65 biologically, depending on lifestyle, genetics, and environmental factors.
 
-Research from the CALERIE trial — the first controlled study of caloric restriction in healthy humans — found that participants who reduced caloric intake by roughly 25% over two years showed a measurable **slowing of their epigenetic clock** compared to the control group. Their biological aging rate decreased by 2–3% per year, which translates to a 10–15% reduction in mortality risk.
+The CALERIE trial — the first randomised controlled study of caloric restriction in healthy humans, which asked participants to cut intake by around 25% for two years — reported a measurable **slowing of the epigenetic clock** in the restricted group relative to controls. Their biological aging rate decreased by 2–3% per year, which translates to a 10–15% reduction in mortality risk.
 
 ### How to Lower Your Biological Age
 

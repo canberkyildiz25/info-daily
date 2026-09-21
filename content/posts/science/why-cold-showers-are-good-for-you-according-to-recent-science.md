@@ -2,6 +2,7 @@
 title: "Why Cold Showers Are Good for You According to Recent Science"
 excerpt: "Cold showers went from fringe wellness habit to mainstream — but is there actual science behind them? The research is more nuanced than the hype suggests."
 date: "2026-06-16"
+updatedAt: "2026-09-21"
 author: "Dr. Lena Fischer"
 coverImage: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80"
 tags: ["cold showers", "science", "health", "wellness", "stress resilience"]
@@ -43,7 +44,7 @@ However, let's be realistic about the scale. The metabolic effect of a daily col
 
 ## Immune Function
 
-One of the bolder claims about cold showers is that they boost the immune system. The most-cited evidence comes from a 2016 Dutch study published in *PLOS ONE*, which found that people who ended their morning shower with at least 30 seconds of cold water took 29% fewer sick days than the control group.
+One of the bolder claims about cold showers is that they boost the immune system. The most-cited evidence is a [2016 Dutch randomised trial in *PLOS ONE*](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0161749) with just over 3,000 participants, which found that ending the morning shower with at least 30 seconds of cold water was followed by 29% fewer days of sickness absence.
 
 The effect was consistent across cold shower durations (30, 60, or 90 seconds of cold) but didn't increase with longer duration. Interestingly, the researchers noted this wasn't because cold-shower participants got sick less often — they still got sick at similar rates — but because they felt well enough to go to work more often.
 

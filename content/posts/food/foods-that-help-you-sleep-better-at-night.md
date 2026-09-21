@@ -2,7 +2,7 @@
 title: "Foods That Help You Sleep Better at Night"
 excerpt: "Discover the best foods scientifically shown to improve sleep quality, from tart cherries to fatty fish, and learn when to eat them for optimal rest."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Maria Chen"
 coverImage: "https://images.pexels.com/photos/371109/pexels-photo-371109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["sleep foods", "better sleep", "healthy eating", "nutrition tips", "sleep quality"]
@@ -40,7 +40,7 @@ Almonds are an excellent source of **magnesium**, a mineral that plays a critica
 
 ### 4. Kiwi
 
-This small, fuzzy fruit packs a surprising sleep punch. A study from *Asia Pacific Journal of Clinical Nutrition* found that participants who ate two kiwis one hour before bedtime fell asleep **42% faster** than those who didn't. Researchers believe kiwi's high concentration of serotonin and antioxidants — particularly vitamins C and E — contribute to its sleep-enhancing effects.
+This small, fuzzy fruit packs a surprising sleep punch. A [small trial in the *Asia Pacific Journal of Clinical Nutrition*](https://pubmed.ncbi.nlm.nih.gov/21669584/) found that participants who ate two kiwifruit an hour before bed fell asleep **42% faster** over four weeks. It had 24 participants and no placebo group, so treat it as suggestive rather than settled. Researchers believe kiwi's high concentration of serotonin and antioxidants — particularly vitamins C and E — contribute to its sleep-enhancing effects.
 
 **How to enjoy it:** Simply slice two kiwis in half and scoop out the flesh with a spoon about 60 minutes before you plan to sleep.
 

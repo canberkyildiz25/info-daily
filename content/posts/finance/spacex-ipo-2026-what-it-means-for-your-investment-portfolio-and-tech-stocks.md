@@ -38,7 +38,7 @@ Stocks that could feel the squeeze include:
 
 ### Index Inclusion Anticipation
 
-If SpaceX's public market cap holds above $300 billion, it will quickly become a candidate for S&P 500 inclusion. According to a 2024 study by S&P Dow Jones Indices, stocks added to the S&P 500 see an average price increase of 3.5% in the weeks surrounding their inclusion, as index funds are forced to buy shares. This creates a built-in short-term tailwind for early investors.
+If SpaceX's public market cap holds above $300 billion, it will quickly become a candidate for S&P 500 inclusion. Stocks added to the S&P 500 have historically seen a price bump around inclusion, because index funds are obliged to buy them — though the effect has weakened as the trade became well known. This creates a built-in short-term tailwind for early investors.
 
 ### A Rising Tide for Space Stocks?
 

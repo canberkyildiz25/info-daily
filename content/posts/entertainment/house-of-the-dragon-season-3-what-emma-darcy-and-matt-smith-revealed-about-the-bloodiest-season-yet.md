@@ -2,6 +2,7 @@
 title: "House of the Dragon Season 3: What Emma D'Arcy and Matt Smith Revealed About the Bloodiest Season Yet"
 excerpt: "Emma D'Arcy and Matt Smith tease shocking deaths and massive dragon battles in House of the Dragon Season 3. Here's everything they revealed."
 date: "2026-06-09"
+updatedAt: "2026-09-21"
 author: "Maria Chen"
 coverImage: "https://images.pexels.com/photos/15855218/pexels-photo-15855218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["House of the Dragon Season 3", "Emma D'Arcy", "Matt Smith", "HBO", "Game of Thrones"]
@@ -65,7 +66,7 @@ Beyond the cast's revelations, production reports and crew interviews paint a pi
 - **Three separate unit teams** filmed simultaneously at different locations to accommodate the expanded scope of the war.
 - **Composer Ramin Djawadi** reportedly delivered what insiders are calling his most ambitious score since the original Game of Thrones finale.
 
-The visual effects team at DNEG, which handles the dragon sequences, expanded their crew by 30% for Season 3, according to a report from befores & afters, a VFX industry publication.
+The dragon sequences are the most VFX-intensive part of the show, and the scale of the effects work has grown with each season as the story has moved toward open war.
 
 ## What This Means for Fans
 

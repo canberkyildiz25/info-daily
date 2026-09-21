@@ -2,6 +2,7 @@
 title: "Switzerland's Population Cap Vote: What It Means and Why Countries Are Considering It"
 excerpt: "Switzerland could become the first nation to legally cap its population. Here's why the vote matters and what it signals for immigration policy worldwide."
 date: "2026-06-13"
+updatedAt: "2026-09-21"
 author: "Sophie Martinez"
 coverImage: "https://picsum.photos/seed/384/800/450"
 tags: ["Switzerland population cap", "immigration policy", "population growth", "Swiss referendum", "global migration trends"]
@@ -31,7 +32,7 @@ Switzerland isn't acting in a vacuum. The country faces real pressures that have
 
 ### 1. Housing and Cost of Living
 
-Swiss housing markets — especially in Zurich, Geneva, and Basel — have been under enormous strain. Rental prices have increased by roughly 18% over the past five years, according to data from Wüest Partner, a Swiss real estate consultancy. Many Swiss residents, particularly younger renters, blame rapid population growth for making affordable housing nearly impossible to find.
+Swiss housing markets — especially in Zurich, Geneva, and Basel — have been under enormous strain. Rents have climbed steeply over the past five years, and in the cities the shortage of available flats has become one of the defining political issues. Many Swiss residents, particularly younger renters, blame rapid population growth for making affordable housing nearly impossible to find.
 
 ### 2. Infrastructure and Public Services
 

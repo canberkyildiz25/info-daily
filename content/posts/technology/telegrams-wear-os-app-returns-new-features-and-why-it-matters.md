@@ -2,6 +2,7 @@
 title: "Telegram's Wear OS App Returns: New Features and Why It Matters"
 excerpt: "Telegram is back on your wrist with a rebuilt Wear OS app packed with fresh features. Here's what changed and why smartwatch users should care."
 date: "2026-06-12"
+updatedAt: "2026-09-21"
 author: "Alex Rivera"
 coverImage: "https://picsum.photos/seed/872/800/450"
 tags: ["Telegram", "Wear OS", "smartwatch apps", "wearable technology", "messaging apps"]
@@ -17,7 +18,7 @@ Telegram quietly pulled its Wear OS app from the Google Play Store in late 2024,
 - **Low engagement metrics**: Smartwatch messaging apps historically struggled with retention, as tiny screens made meaningful interaction difficult.
 - **Resource prioritization**: Telegram was heavily investing in its Premium subscription features and bot platform, leaving wearable development on the back burner.
 
-The absence was felt acutely. According to a 2025 report from Counterpoint Research, Wear OS captured approximately 30% of the global smartwatch market — a number that has only grown in 2026 with new devices from Google, Samsung, and OnePlus. That's a massive user base left without one of the world's most popular messaging platforms on their wrists.
+The absence was felt acutely. Wear OS now holds a substantial slice of the smartwatch market, and it has kept growing on the back of new hardware from Google, Samsung and OnePlus. That's a massive user base left without one of the world's most popular messaging platforms on their wrists.
 
 ## What's New in the 2026 Telegram Wear OS App
 

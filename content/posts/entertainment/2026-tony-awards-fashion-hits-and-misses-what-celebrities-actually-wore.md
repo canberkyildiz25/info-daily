@@ -2,6 +2,7 @@
 title: "2026 Tony Awards Fashion Hits and Misses: What Celebrities Actually Wore"
 excerpt: "From jaw-dropping gowns to bold fashion risks, here are the standout red carpet moments from the 2026 Tony Awards that everyone is still talking about."
 date: "2026-06-09"
+updatedAt: "2026-09-21"
 author: "Maria Chen"
 coverImage: "https://images.pexels.com/photos/13681747/pexels-photo-13681747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Tony Awards 2026", "red carpet fashion", "celebrity style", "Broadway fashion", "awards show looks"]
@@ -24,7 +25,7 @@ Every awards ceremony has that one look that stops the scroll, and the 2026 Tony
 
 ### Emerging Designers Get Their Moment
 
-One of the most exciting trends on the 2026 Tony red carpet was the spotlight on emerging and independent designers. According to a recent report from the Council of Fashion Designers of America (CFDA), celebrity endorsements of independent designers at major awards shows increased by 34% between 2023 and 2026, reflecting a broader industry shift toward championing new talent.
+One of the most exciting trends on the 2026 Tony red carpet was the spotlight on emerging and independent designers. Independent designers have been showing up on awards-show red carpets far more often than they used to, as stylists have gained the latitude to pick outside the handful of houses that once monopolised the night.
 
 Several nominees chose lesser-known labels, including:
 

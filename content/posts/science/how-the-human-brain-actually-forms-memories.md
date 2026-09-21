@@ -82,7 +82,7 @@ Since the amygdala amplifies memory encoding, try to connect new information to 
 
 ### Exercise Regularly
 
-Aerobic exercise increases levels of **brain-derived neurotrophic factor (BDNF)**, a protein that supports the growth of new neurons in the hippocampus. A 2011 study from the University of Pittsburgh found that adults who walked briskly three times a week for a year actually **increased their hippocampal volume by 2%**, effectively reversing age-related shrinkage by one to two years.
+Aerobic exercise increases levels of **brain-derived neurotrophic factor (BDNF)**, a protein that supports the growth of new neurons in the hippocampus. A [2011 trial published in *PNAS*](https://www.pnas.org/doi/abs/10.1073/pnas.1015950108), led from the University of Pittsburgh, found that older adults who walked briskly three times a week for a year **increased their hippocampal volume by about 2%**, while the control group's shrank — effectively turning back age-related loss by one to two years.
 
 ### Minimize Chronic Stress
 
