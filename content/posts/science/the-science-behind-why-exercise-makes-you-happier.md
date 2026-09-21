@@ -2,7 +2,7 @@
 title: "The Science Behind Why Exercise Makes You Happier"
 excerpt: "Discover the fascinating brain chemistry behind the exercise-happiness connection and learn how to harness movement for better mental health."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Dr. Lena Fischer"
 coverImage: "https://images.pexels.com/photos/13621292/pexels-photo-13621292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["exercise and happiness", "mental health", "brain chemistry", "endorphins", "wellness science"]
@@ -44,7 +44,7 @@ The happiness benefits of exercise aren't limited to a temporary chemical boost.
 
 ## What the Research Actually Says
 
-The evidence isn't anecdotal — it's overwhelming. A comprehensive meta-analysis published in *JAMA Psychiatry* in 2019, which reviewed data from nearly 267,000 participants, concluded that individuals who engaged in regular physical activity had **17% lower odds of developing depression** compared to those who were sedentary. Even more striking, the protective effect kicked in at relatively low levels of activity — roughly 150 minutes of moderate exercise per week, or about 20 minutes a day.
+The evidence isn't anecdotal — it's overwhelming. A [meta-analysis of 49 prospective studies covering 266,939 people](https://psychiatryonline.org/doi/10.1176/appi.ajp.2018.17111194), published in the *American Journal of Psychiatry*, concluded that people with high levels of physical activity had **about 17% lower odds of developing depression** than those with low levels. Even more striking, the protective effect kicked in at relatively low levels of activity — roughly 150 minutes of moderate exercise per week, or about 20 minutes a day.
 
 Another study from Harvard's T.H. Chan School of Public Health found that running for 15 minutes a day or walking for an hour reduced the risk of major depression by 26%. And for people already experiencing depressive symptoms, exercise was shown to be as effective as medication in some cases, particularly for mild to moderate depression.
 

@@ -2,12 +2,13 @@
 title: "AI's Impact on Education: Why Teachers Say It Will Rival the Internet and Computers"
 excerpt: "Teachers across the globe believe AI will transform education as profoundly as the internet and computers did. Here's what that shift looks like in 2026."
 date: "2026-06-05"
+updatedAt: "2026-09-21"
 author: "Alex Rivera"
 coverImage: "https://images.pexels.com/photos/10638070/pexels-photo-10638070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["AI in education", "education technology", "artificial intelligence", "teaching with AI", "future of learning"]
 ---
 
-When the internet first entered classrooms in the 1990s, skeptics dismissed it as a distraction. When personal computers became standard in schools, critics worried students would forget how to think for themselves. Both technologies went on to fundamentally reshape how we teach and learn. Now, in 2026, a growing chorus of educators is saying the same thing about artificial intelligence — and the data backs them up. A 2025 survey by the Walton Family Foundation and Impact Research found that 65% of teachers believe AI will have a transformative impact on education comparable to the internet and personal computers. The question is no longer *if* AI will change education, but *how* — and whether we'll get it right.
+When the internet first entered classrooms in the 1990s, skeptics dismissed it as a distraction. When personal computers became standard in schools, critics worried students would forget how to think for themselves. Both technologies went on to fundamentally reshape how we teach and learn. Now, in 2026, a growing chorus of educators is saying the same thing about artificial intelligence — and the data backs them up. Teachers have moved on this faster than almost any other profession — from treating AI as a cheating problem to treating it as the next thing they will have to teach with, in the space of about two years. The question is no longer *if* AI will change education, but *how* — and whether we'll get it right.
 
 ## The Classroom Is Already Changing
 

@@ -33,7 +33,7 @@ What makes this more than just a spec sheet exercise is that Intel has reportedl
 
 The biggest enemy of thin laptops has always been heat. Shrink the chassis and you shrink the space available for cooling, which typically means throttling performance. Intel's answer is what they're calling **Distributed Thermal Mesh (DTM)** — a network of ultra-thin vapor chambers spread across the entire bottom panel rather than concentrated around the CPU.
 
-According to Intel's whitepaper published in April 2026, DTM reduces peak surface temperature by up to 23% compared to traditional single-vapor-chamber designs at equivalent performance loads. The result is sustained performance without the hot spots that plague current ultrabooks.
+Intel's claim for DTM is that it holds peak surface temperature meaningfully lower than a conventional single-vapour-chamber design at the same sustained load — a manufacturer figure, and one worth waiting for independent testing on. The result is sustained performance without the hot spots that plague current ultrabooks.
 
 ### The Battery Breakthrough
 

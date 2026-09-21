@@ -2,6 +2,7 @@
 title: "Deadly Philippines Earthquakes: How to Prepare Your Home and Family for Seismic Events"
 excerpt: "The Philippines faces 100+ earthquakes daily. Discover proven strategies to earthquake-proof your home and keep your family safe when the ground shakes."
 date: "2026-06-09"
+updatedAt: "2026-09-21"
 author: "Emma Johnson"
 coverImage: "https://images.pexels.com/photos/13710318/pexels-photo-13710318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Philippines earthquakes", "earthquake preparedness", "seismic safety", "disaster preparedness Philippines", "earthquake survival tips"]
@@ -111,7 +112,7 @@ Individual preparedness matters, but community-level action multiplies its impac
 - **Map your community's evacuation routes and shelters** with neighbors.
 - **Advocate for building code enforcement** in your area. Poorly constructed buildings don't just endanger their occupants — they threaten everyone nearby when they collapse.
 
-A study published in the *International Journal of Disaster Risk Reduction* found that communities with active disaster preparedness programs experience up to 50% fewer casualties during seismic events compared to unprepared communities. That's a staggering difference that starts with people like you taking action.
+Communities with active preparedness programmes consistently suffer fewer casualties in earthquakes than unprepared ones of comparable size and construction. Preparation does not reduce the shaking; it reduces how much of the harm the shaking is able to do. That's a staggering difference that starts with people like you taking action.
 
 ## The Bottom Line
 

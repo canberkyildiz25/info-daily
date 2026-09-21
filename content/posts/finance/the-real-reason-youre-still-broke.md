@@ -32,7 +32,7 @@ People tend to be quite rational about large purchases. They research cars, comp
 
 Behavioral economists call this **the small purchase illusion**: because each individual transaction feels inconsequential, the brain's cost-evaluation system effectively turns off. A $7 coffee, a $15 streaming service, a $25 impulse buy — none triggers the deliberation that a $500 purchase would. But $47 per day in unconsidered micro-spending amounts to over $17,000 per year.
 
-What makes this especially pernicious is that most of it is invisible. Research by personal finance platform Rocket Money found that the average American underestimates their monthly subscription spending by 79%. People confidently report spending $86 per month on subscriptions; the actual average is closer to $219.
+What makes this especially pernicious is that most of it is invisible. Almost everyone underestimates what they spend on subscriptions, usually by a wide margin, because each one is individually too small to remember and they are designed never to require a decision again. Ask someone what they spend per month on subscriptions and the answer is usually a small fraction of what their statement says.
 
 The fix is not to stop buying coffee. It's to make the invisible visible. A single honest audit of three months of bank and credit card statements — categorizing every purchase — is often enough to produce permanent behavioral change. You cannot unsee where your money actually goes.
 
@@ -42,7 +42,7 @@ A large and underappreciated driver of financial dysfunction is spending tied to
 
 This is not limited to luxury goods. It shows up in the gym membership you pay for but rarely use (you see yourself as someone who works out). The business-class upgrade you can't really afford (you've worked hard and deserve this). The newer phone model when the current one works fine (you keep up with technology).
 
-Identity spending is hard to audit honestly because it requires acknowledging a gap between who you are and who you want to be seen as. But the cost is real. A 2023 study from the Journal of Consumer Research found that identity-motivated purchases were 64% more likely to be regretted one year later than utility-motivated ones — yet people continued making them at the same rate.
+Identity spending is hard to audit honestly because it requires acknowledging a gap between who you are and who you want to be seen as. But the cost is real. Purchases made to signal something about who you are get regretted far more often than purchases made because you needed the thing — and knowing that does remarkably little to stop anyone making them.
 
 A useful check before any non-essential purchase: *Am I buying this because it will meaningfully improve my life, or because of how it will look to others — including the story I tell myself?*
 

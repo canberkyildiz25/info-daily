@@ -2,7 +2,7 @@
 title: "What Climate Change Is Really Doing to Our Oceans"
 excerpt: "Rising temps, acidifying waters, and dying reefs — here's what climate change is truly doing to our oceans and what you can do about it."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Dr. Lena Fischer"
 coverImage: "https://images.pexels.com/photos/28456036/pexels-photo-28456036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["climate change", "ocean health", "marine ecosystems", "sea level rise", "ocean acidification"]
@@ -36,7 +36,7 @@ Ocean acidification directly threatens organisms that build shells and skeletons
 - **Shellfish** — Oysters, mussels, clams, and scallops that millions of people depend on for food and livelihood
 - **Plankton** — Tiny organisms at the base of the marine food web, including pteropods (sometimes called "sea butterflies") whose shells are literally dissolving in increasingly acidic waters
 
-A 2020 study published in *Nature Climate Change* found that if CO₂ emissions continue on their current trajectory, ocean acidity could increase by **150% by 2100** compared to pre-industrial levels. That's a chemical shift the ocean hasn't experienced in at least 20 million years.
+On current emissions trajectories, ocean acidity is projected to rise by around **150% over pre-industrial levels by 2100** — a rate of change the oceans have not seen in tens of millions of years. That's a chemical shift the ocean hasn't experienced in at least 20 million years.
 
 ## Coral Reefs Are in Crisis
 

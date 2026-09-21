@@ -2,7 +2,7 @@
 title: "How Music Affects Your Brain and Mood"
 excerpt: "Discover how music rewires your brain, shifts your mood, and boosts mental health — plus practical ways to harness its power every day."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: Canberk Yildiz
 coverImage: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=1200&q=80"
 tags: ["music and brain", "mood boosting", "mental health", "neuroscience", "music therapy"]
@@ -42,7 +42,7 @@ The therapeutic power of music goes far beyond casual listening. Music therapy i
 
 ### Stress and Anxiety Reduction
 
-Listening to slow, calming music — particularly tracks around 60 beats per minute — has been shown to reduce cortisol levels and lower blood pressure. A study conducted by Mindlab International found that the song "Weightless" by Marconi Union reduced participants' anxiety levels by up to 65%. While that specific result has been debated, the broader finding is consistent: calming music reliably dampens the body's stress response.
+Listening to slow, calming music — particularly tracks around 60 beats per minute — has been shown to reduce cortisol levels and lower blood pressure. The track most often cited in this context is "Weightless" by Marconi Union, written with input from sound therapists specifically to slow heart rate and breathing. The study behind its reputation was commissioned by a consumer brand rather than independently funded, which is worth knowing before treating the figures attached to it as settled science. While that specific result has been debated, the broader finding is consistent: calming music reliably dampens the body's stress response.
 
 ### Depression and Emotional Processing
 

@@ -2,7 +2,7 @@
 title: "The Difference Between a Roth IRA and Traditional IRA"
 excerpt: "Roth IRA vs. Traditional IRA — learn the key differences in taxes, withdrawals, and income limits so you can pick the right retirement account."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "James Park, CFP"
 coverImage: "https://images.pexels.com/photos/7691771/pexels-photo-7691771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Roth IRA", "Traditional IRA", "retirement planning", "tax strategy", "investing"]
@@ -96,7 +96,7 @@ There's no universally right answer, but here are some practical guidelines:
 3. Don't qualify for Roth IRA contributions due to income limits
 4. Want to reduce this year's taxable income immediately
 
-According to a 2024 study by the Investment Company Institute, approximately 35.7 million U.S. households owned Traditional IRAs, while 29.8 million owned Roth IRAs. Interestingly, the Roth IRA has been steadily gaining ground, especially among younger investors who prioritize tax-free growth over immediate deductions.
+Traditional IRAs are still held by more U.S. households than Roth IRAs, though the gap has narrowed steadily as younger investors, who tend to prioritise tax-free growth over an immediate deduction, have favoured the Roth.
 
 ### Consider Doing Both
 

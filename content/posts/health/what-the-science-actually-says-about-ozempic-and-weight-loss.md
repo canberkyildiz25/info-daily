@@ -2,6 +2,7 @@
 title: "What the Science Actually Says About Ozempic and Weight Loss"
 excerpt: "GLP-1 drugs like Ozempic and Wegovy are the most talked-about medications in a generation. Here's what the research actually shows — the benefits, the risks, and what nobody's telling you."
 date: "2026-06-17"
+updatedAt: "2026-09-21"
 author: "Dr. Sarah Collins"
 coverImage: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&q=80"
 tags: ["Ozempic", "GLP-1", "weight loss", "health", "medication", "diabetes"]
@@ -33,7 +34,7 @@ The side effect profile is real and worth understanding clearly.
 
 **Gastrointestinal symptoms** are the most common: nausea, vomiting, diarrhea, and constipation affect a significant proportion of users, particularly in the early weeks as the dose is escalated. For many people, these effects diminish over time. For some, they're significant enough to stop the medication.
 
-**Muscle loss** is a serious and underreported concern. Studies suggest that 25–40% of the weight lost on GLP-1 drugs may come from lean mass (muscle) rather than fat — significantly higher than the 20–25% typically seen with dietary weight loss alone. This is metabolically problematic and can affect long-term health outcomes. High protein intake and resistance training appear to substantially mitigate this.
+**Muscle loss** is a serious and underreported concern. A substantial share of the weight lost on GLP-1 drugs comes from lean mass rather than fat — which is why resistance training and adequate protein are not optional extras alongside them. Losing lean mass is metabolically costly and can affect long-term health outcomes; high protein intake and resistance training appear to substantially mitigate it. Discuss this with your prescriber rather than acting on an article.
 
 **Weight regain after stopping** is nearly universal and rapid. The STEP 4 trial found that one year after stopping semaglutide, participants regained about two-thirds of their lost weight. The drug doesn't change your biology permanently — it manages a condition that returns when treatment stops, much like blood pressure medication.
 

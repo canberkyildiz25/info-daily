@@ -2,6 +2,7 @@
 title: "The 2026 Tony Awards: Everything You Need to Know From the Official Playbill"
 excerpt: "Your complete guide to the 2026 Tony Awards — nominees, performers, host details, and how to watch Broadway's biggest night live."
 date: "2026-06-07"
+updatedAt: "2026-09-21"
 author: "Maria Chen"
 coverImage: "https://images.pexels.com/photos/7005627/pexels-photo-7005627.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Tony Awards 2026", "Broadway", "theater awards", "Playbill", "live theater"]
@@ -56,7 +57,7 @@ Several performers have delivered career-defining work this season, and the acti
 
 One of the biggest draws of the Tony Awards broadcast is the live performance lineup. Nominated musicals traditionally perform a number from their show, giving millions of viewers a taste of what's playing on Broadway right now. The official Playbill has confirmed that all Best Musical and Best Revival of a Musical nominees will perform during the telecast.
 
-These performances often serve as powerful marketing moments. Historically, shows that perform on the Tonys see a measurable bump in ticket sales — sometimes as much as 20–30% in the weeks following the broadcast, according to data from the Broadway League.
+These performances often serve as powerful marketing moments. Historically, shows that perform on the Tonys see a real bump in ticket sales in the weeks that follow — which is why the performance slots are negotiated as hard as the nominations.
 
 ### Special Performances and Tributes
 

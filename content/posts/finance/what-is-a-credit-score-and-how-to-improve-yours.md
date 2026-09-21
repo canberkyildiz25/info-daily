@@ -2,13 +2,13 @@
 title: "What Is a Credit Score and How to Improve Yours"
 excerpt: "Learn what a credit score is, why it matters for your financial future, and proven strategies to boost your score starting today."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "James Park, CFP"
 coverImage: "https://images.pexels.com/photos/164571/pexels-photo-164571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["credit score", "personal finance", "credit repair", "financial literacy", "money management"]
 ---
 
-Your credit score is one of the most powerful three-digit numbers in your life — and yet, according to a 2024 survey by the Consumer Financial Protection Bureau, nearly 30% of Americans have never checked theirs. Whether you're applying for a mortgage, renting an apartment, or even negotiating a car insurance rate, your credit score quietly shapes the financial opportunities available to you. The good news? Once you understand how it works, improving it is entirely within your control.
+Your credit score is one of the most powerful three-digit numbers in your life — and a substantial share of Americans have never once looked at theirs. Whether you're applying for a mortgage, renting an apartment, or even negotiating a car insurance rate, your credit score quietly shapes the financial opportunities available to you. The good news? Once you understand how it works, improving it is entirely within your control.
 
 ## What Exactly Is a Credit Score?
 
@@ -89,7 +89,7 @@ Avoid applying for multiple credit cards or loans within a short window. Each ap
 
 ### Monitor Your Credit Reports for Errors
 
-A study by the Federal Trade Commission found that **one in five consumers** had an error on at least one of their credit reports. Errors can include accounts that don't belong to you, incorrect balances, or payments reported as late when they weren't.
+An [FTC study](https://www.ftc.gov/news-events/news/press-releases/2013/02/ftc-study-five-percent-consumers-had-errors-their-credit-reports-could-result-less-favorable-terms) of 1,001 consumers found that **one in five had an error on at least one of their three credit reports**, and 5% had an error serious enough to cost them worse terms on a loan or insurance. Errors can include accounts that don't belong to you, incorrect balances, or payments reported as late when they weren't.
 
 You're entitled to a free credit report from each bureau every year at **AnnualCreditReport.com**. Review each one carefully and dispute any inaccuracies directly with the bureau. Correcting an error can produce a significant and immediate score boost.
 

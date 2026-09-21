@@ -2,7 +2,7 @@
 title: "Dating in 2026: The Biggest Trends Changing How We Find Love"
 excerpt: "From 'clear coding' to AI companions, dating in 2026 looks very different from even five years ago. Here are the trends reshaping modern romance — and what they mean for you."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Maria Chen"
 tags: ["dating", "relationships", "dating trends", "modern dating", "2026", "romance"]
 coverImage: "https://images.pexels.com/photos/5911040/pexels-photo-5911040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -18,7 +18,7 @@ Perhaps the most significant behavioral shift in dating is the movement toward e
 
 Instead of letting things remain undefined for weeks or months (the "situationship" era), more daters — particularly younger ones — are having the intentions conversation early: Are we casually dating? Looking for something serious? Open to different possibilities?
 
-Surveys suggest that over 60% of singles in 2026 prefer partners who state their intentions clearly upfront, compared to around 40% just a few years ago. The pandemic accelerated a broader cultural shift toward valuing time and directness — and that's showing up in dating behavior.
+Stating your intentions clearly and early has gone from unusual to expected in a remarkably short time — a direct reaction to years of ambiguity being the default setting. The pandemic accelerated a broader cultural shift toward valuing time and directness — and that's showing up in dating behavior.
 
 **Why it's happening:** Dating app fatigue, widespread experience of situationships, and a growing recognition that ambiguity usually serves the person who wants less commitment.
 

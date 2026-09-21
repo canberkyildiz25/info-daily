@@ -2,7 +2,7 @@
 title: "7 Morning Routine Habits of Highly Successful People"
 excerpt: "What you do in the first 60 minutes of your day shapes everything that follows. These 7 science-backed habits can transform your mornings — and your life."
 date: "2025-03-25"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Emma Johnson"
 tags: ["morning routine", "productivity", "habits", "success", "self improvement"]
 coverImage: "https://images.pexels.com/photos/8424937/pexels-photo-8424937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -49,7 +49,7 @@ The most successful people don't just react to their day — they design it. Tak
 2. For each one, write WHEN and WHERE you'll do it
 3. Put the list where you can see it
 
-Studies show this simple exercise increases goal achievement by 91%.
+Writing a goal down makes you measurably more likely to follow through on it than holding it in your head.
 
 ## 6. Eat a Protein-Rich Breakfast
 

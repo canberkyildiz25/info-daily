@@ -2,6 +2,7 @@
 title: "How to Reduce Inflammation Naturally: What the Science Actually Says"
 excerpt: "Chronic inflammation is linked to almost every major disease. Here's what research actually shows works — and what's just wellness hype."
 date: "2026-06-20"
+updatedAt: "2026-09-21"
 author: "Dr. Sarah Collins"
 coverImage: "https://images.pexels.com/photos/3622608/pexels-photo-3622608.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["inflammation", "health", "anti-inflammatory diet", "wellness", "chronic disease"]
@@ -30,7 +31,7 @@ What drives inflammation up: ultra-processed foods, refined sugars, trans fats, 
 
 ## Sleep Is the Most Underrated Anti-Inflammatory Tool
 
-Most people focus on diet and exercise, but sleep deprivation might be the single biggest driver of chronic inflammation. A 2024 study from the University of California showed that just one week of sleeping 6 hours per night (instead of 8) increased inflammatory gene expression by 76%. Not 76% higher CRP — 76% more genes related to inflammation were activated.
+Most people focus on diet and exercise, but sleep deprivation might be the single biggest driver of chronic inflammation. Even partial sleep restriction measurably activates inflammatory signalling — sleep loss switches on the same pro-inflammatory gene pathways that chronic stress does, and it does so within days rather than months. The effect shows up in gene expression, not just in blood markers.
 
 The mechanism matters: during deep sleep, your glymphatic system clears metabolic waste from the brain, and your body regulates cortisol. Elevated cortisol — the stress hormone — is one of the most potent triggers of systemic inflammation. Cut sleep, spike cortisol, spike inflammation. It's that direct.
 

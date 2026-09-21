@@ -2,6 +2,7 @@
 title: "SpaceX IPO: What You Should Know Before Investing in Elon Musk's Space Company"
 excerpt: "SpaceX may finally go public — but is it the right investment for you? Here's what smart investors need to evaluate before buying shares."
 date: "2026-06-11"
+updatedAt: "2026-09-21"
 author: "James Park, CFP"
 coverImage: "https://picsum.photos/seed/408/800/450"
 tags: ["SpaceX IPO", "investing", "Elon Musk", "stock market", "space industry"]
@@ -13,7 +14,7 @@ After years of speculation, the prospect of a SpaceX initial public offering has
 
 SpaceX isn't just another tech company going public. It's a vertically integrated aerospace manufacturer, satellite internet provider, and — if Musk's vision holds — humanity's ticket to Mars. The company operates across multiple revenue-generating segments that make it genuinely unique in the public markets:
 
-- **Falcon 9 & Falcon Heavy launch services** — SpaceX dominates the global commercial launch market, capturing roughly 80% of all commercial orbital launches in 2025, according to data from Bryce Tech's annual report.
+- **Falcon 9 & Falcon Heavy launch services** — SpaceX performs the large majority of the world's commercial orbital launches, by a margin no competitor is currently close to
 - **Starlink** — The satellite internet constellation now serves over 5 million subscribers across 100+ countries, generating an estimated $12–14 billion in annual recurring revenue.
 - **Starship** — The fully reusable super heavy-lift vehicle represents the future of deep space exploration, lunar missions, and point-to-point Earth transport.
 - **Government contracts** — NASA, the Department of Defense, and the National Reconnaissance Office are among SpaceX's largest institutional customers.

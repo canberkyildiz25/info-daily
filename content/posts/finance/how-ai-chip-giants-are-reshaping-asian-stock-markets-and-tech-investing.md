@@ -2,6 +2,7 @@
 title: "How AI Chip Giants Are Reshaping Asian Stock Markets and Tech Investing"
 excerpt: "Discover how AI chip powerhouses like NVIDIA, TSMC, and Samsung are transforming Asian stock markets and creating new opportunities for tech investors."
 date: "2026-06-08"
+updatedAt: "2026-09-21"
 author: "James Park, CFP"
 coverImage: "https://images.pexels.com/photos/33955927/pexels-photo-33955927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["AI chips", "Asian stock markets", "tech investing", "semiconductor stocks", "TSMC"]
@@ -11,7 +12,7 @@ If you've been watching Asian stock markets over the past 18 months, you've noti
 
 ## The AI Chip Boom: Why Asia Is Ground Zero
 
-The global AI revolution runs on chips, and the vast majority of those chips are designed, manufactured, or packaged in Asia. As of Q1 2026, Taiwan Semiconductor Manufacturing Company (TSMC) commands approximately 62% of the global foundry market share, according to data from TrendForce. That single statistic tells you everything about why Asian markets have become the epicenter of AI-driven investing.
+The global AI revolution runs on chips, and the vast majority of those chips are designed, manufactured, or packaged in Asia. Taiwan Semiconductor Manufacturing Company holds the clear majority of the global contract-chipmaking market, and an even larger share at the leading-edge nodes that AI accelerators actually require. That concentration is why Asian markets have become the epicentre of AI-driven investing.
 
 But it's not just TSMC. The ecosystem is sprawling and deeply interconnected:
 

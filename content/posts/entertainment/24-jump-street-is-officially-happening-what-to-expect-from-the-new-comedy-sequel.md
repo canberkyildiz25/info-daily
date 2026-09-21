@@ -2,6 +2,7 @@
 title: "'24 Jump Street' Is Officially Happening: What to Expect From the New Comedy Sequel"
 excerpt: "The Jump Street franchise is back with '24 Jump Street.' Here's everything we know about the cast, plot, and wild new direction for this beloved comedy sequel."
 date: "2026-06-11"
+updatedAt: "2026-09-21"
 author: "Maria Chen"
 coverImage: "https://picsum.photos/seed/224/800/450"
 tags: ["24 Jump Street", "comedy sequels", "Channing Tatum", "Jonah Hill", "movie news"]
@@ -48,7 +49,7 @@ Here's the thing about comedy sequels that arrive years after the original: they
 
 But *24 Jump Street* has a secret weapon: **self-awareness is baked into its DNA.** This is a franchise that openly mocked sequel culture in its second installment. A long-delayed threequel doesn't feel like a cash grab — it feels like the next logical punchline.
 
-According to a 2024 study by research firm Nash Information Services, comedy sequels released more than five years after their predecessors average roughly 35% less at the domestic box office compared to their originals. The *Jump Street* team clearly knows this, and every indication suggests they're using that expectation — that sense of "this probably shouldn't work" — as fuel for the comedy itself.
+Comedy sequels that arrive a long gap after the original tend to underperform them, because the joke has aged, the cast has moved on, and the audience that turned up first time has scattered. The *Jump Street* team clearly knows this, and every indication suggests they're using that expectation — that sense of "this probably shouldn't work" — as fuel for the comedy itself.
 
 ### What Fans Should Expect Tonally
 

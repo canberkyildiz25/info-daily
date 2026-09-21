@@ -21,7 +21,7 @@ The sell-off didn't happen overnight. Warning signs had been building for months
 3. **Mid-May 2026:** NVIDIA's highly anticipated Q1 2026 earnings report revealed that data center revenue growth had decelerated sharply — from triple-digit year-over-year gains to just 31%. While still impressive by any normal standard, the market had priced in perfection.
 4. **Late May 2026:** A cascade of analyst downgrades triggered algorithmic selling, margin calls, and panic liquidation across the entire chip complex.
 
-The result? A bloodbath that erased approximately $1.2 trillion in semiconductor market value in less than three weeks, according to data tracked by Bloomberg.
+The result? A sell-off that erased something over a trillion dollars of semiconductor market value in less than three weeks.
 
 ## Why the Chips Sector Was Vulnerable
 

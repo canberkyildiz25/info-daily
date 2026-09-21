@@ -2,7 +2,7 @@
 title: "How to Negotiate a Higher Salary in 2026 (And Actually Get It)"
 excerpt: "Most people leave money on the table because they don't negotiate. Here's the research-backed approach that works — including what to say, when to say it, and how to handle pushback."
 date: "2026-04-25"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "James Mercer"
 coverImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
 tags: ["salary", "career", "negotiation", "finance", "job"]
@@ -14,7 +14,7 @@ This guide covers what actually works, based on research in negotiation psycholo
 
 ## Why You Must Negotiate (Every Time)
 
-The first offer is almost never the final offer. In a 2025 survey by LinkedIn, 85% of hiring managers said they expected candidates to negotiate. More striking: 70% said they were prepared to go higher than the initial number, and most of them didn't have to, because candidates didn't ask.
+The first offer is almost never the final offer. Hiring managers generally expect candidates to negotiate, and budget for it — the first number is rarely the last one they are authorised to pay. More to the point, many are prepared to go higher than the opening number and never have to, because the candidate does not ask.
 
 The fear of negotiating costs people an average of $5,000—$20,000 per job offer, with those losses multiplying over the course of a career. The worst realistic outcome of asking for more is that you hear "no" — and in practice, even a declined negotiation rarely results in an offer being rescinded. Employers don't withdraw offers because someone asked for a higher salary.
 

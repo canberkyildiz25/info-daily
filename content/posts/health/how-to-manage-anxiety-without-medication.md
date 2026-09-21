@@ -2,7 +2,7 @@
 title: "How to Manage Anxiety Without Medication"
 excerpt: "Anxiety is one of the most common mental health struggles in the world — and there are evidence-based tools that work beyond medication. Here's what the research actually supports."
 date: "2026-04-24"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Dr. Elena Russo"
 coverImage: "https://images.pexels.com/photos/14387794/pexels-photo-14387794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["anxiety", "mental health", "wellness", "stress", "therapy"]
@@ -60,7 +60,7 @@ Running, cycling, swimming, and brisk walking all qualify. The key is making it 
 
 ## 4. Sleep as a Non-Negotiable
 
-Anxiety and sleep have a bidirectional relationship: anxiety disrupts sleep, and poor sleep dramatically worsens anxiety. Research from UC Berkeley found that even one night of poor sleep increased anxiety levels the next day by up to 30%.
+Anxiety and sleep have a bidirectional relationship: anxiety disrupts sleep, and poor sleep dramatically worsens anxiety. [Research from UC Berkeley](https://news.berkeley.edu/2019/11/04/deep-sleep-can-rewire-the-anxious-brain/), published in *Nature Human Behaviour*, found that a single sleepless night raised next-day anxiety by up to 30% — and that deep sleep brought it back down.
 
 Prioritizing sleep hygiene isn't a soft recommendation — it's foundational to anxiety management:
 

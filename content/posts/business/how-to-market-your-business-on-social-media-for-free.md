@@ -2,7 +2,7 @@
 title: "How to Market Your Business on Social Media for Free"
 excerpt: "Discover proven strategies to market your business on social media without spending a dime. Grow your brand, audience, and sales organically."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "David Kim"
 coverImage: "https://images.pexels.com/photos/15635239/pexels-photo-15635239.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["social media marketing", "free marketing strategies", "organic social media growth", "small business marketing", "content marketing"]
@@ -89,7 +89,7 @@ Here's how to encourage and use it:
 - **Repost and reshare** customer content on your own feed (with permission). This makes customers feel valued and provides you with authentic social proof.
 - **Feature testimonials** in your stories, highlights, or as standalone posts.
 
-A study by Stackla found that 79% of consumers say user-generated content significantly influences their purchasing decisions — making it more trusted than traditional branded content or influencer posts.
+Customers consistently trust content made by other customers more than content made by the brand — which is why a mediocre photo from a real buyer often outperforms a polished studio shot.
 
 ## Stay Consistent With a Realistic Posting Schedule
 

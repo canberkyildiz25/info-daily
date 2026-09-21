@@ -2,7 +2,7 @@
 title: "7 Money Habits of Millionaires"
 excerpt: "Most millionaires didn't inherit wealth — they built it with consistent habits. These seven behaviors separate the financially successful from everyone else."
 date: "2025-09-21"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "James Park, CFP"
 coverImage: "https://images.pexels.com/photos/6694950/pexels-photo-6694950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["millionaire habits", "wealth building", "personal finance", "investing", "money mindset"]
@@ -52,7 +52,7 @@ A simple monthly habit: tally your assets minus liabilities. Watching net worth 
 
 ## 5. They Read and Continuously Learn
 
-A survey by author Thomas Corley of 233 wealthy individuals found that 88% read 30 minutes or more per day for education or career development, compared to just 2% of the poor. They read about investing, business, industry trends, and personal development — not primarily for entertainment.
+The habit most commonly reported by people who have built wealth over a career is unglamorous: a daily reading habit, half an hour or so, aimed at their own field rather than at entertainment — investing, business, industry trends, professional development.
 
 This isn't about reading being magic. It's about staying competent in a fast-changing economic environment, understanding new opportunities, and continuously upgrading decision-making capacity. Many millionaires also have mentors or advisors from whom they actively seek input.
 

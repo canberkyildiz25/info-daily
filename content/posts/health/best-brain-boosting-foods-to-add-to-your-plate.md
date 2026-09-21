@@ -2,7 +2,7 @@
 title: "Best Brain-Boosting Foods to Add to Your Plate"
 excerpt: "What you eat directly affects how well your brain performs. These science-backed foods improve memory, focus, and long-term cognitive health."
 date: "2026-05-08"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Jessica Morgan"
 coverImage: "https://images.pexels.com/photos/15410078/pexels-photo-15410078.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["brain health", "cognitive function", "memory", "focus", "nutrition"]
@@ -58,7 +58,7 @@ Egg yolks also contain lutein and zeaxanthin, carotenoids that reduce oxidative 
 
 Dark chocolate (70% cocoa or higher) contains flavanols that increase blood flow to the brain, particularly to the hippocampus and prefrontal cortex — the regions governing memory and executive function. It also contains small amounts of caffeine and theobromine, which provide a gentle cognitive boost without the crash of coffee.
 
-A 2018 study from Loma Linda University found that consuming dark chocolate with 70% cacao positively affected stress levels, inflammation, mood, memory, and immunity.
+Small pilot studies on dark chocolate at 70% cacao and above have reported effects on stress markers and mood, though the samples have been tiny and the results are preliminary rather than settled.
 
 **Aim for:** 1–2 squares (about 20–30g) of 70%+ dark chocolate per day. More than that and the calorie density starts to outweigh the benefits.
 

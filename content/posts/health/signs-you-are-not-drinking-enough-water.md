@@ -2,13 +2,13 @@
 title: "Signs You Are Not Drinking Enough Water"
 excerpt: "Discover the surprising warning signs of dehydration and learn how to ensure you're drinking enough water every single day."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Jessica Morgan"
 coverImage: "https://images.pexels.com/photos/12585554/pexels-photo-12585554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["dehydration signs", "drinking enough water", "hydration tips", "health warning signs", "daily water intake"]
 ---
 
-Water is the single most important nutrient your body needs, yet most of us walk around chronically dehydrated without even realizing it. According to a study published in the *Journal of Hospital Medicine*, up to 75% of Americans may be functioning in a state of chronic dehydration on any given day. That's a staggering number — and the consequences go far beyond simply feeling thirsty. Your body sends you dozens of subtle signals when it's running low on water, but most people have learned to ignore them, mistake them for something else, or simply power through. Let's change that today.
+Water is the single most important nutrient your body needs, and plenty of people are mildly short of it without noticing. You may also have seen the claim that 75% of Americans are chronically dehydrated — it is not supported by any published study, and traces back to a 2013 local television segment. Measured prevalence is [highest among older adults, at roughly 17–28%](https://www.ncbi.nlm.nih.gov/books/NBK555956/). The point is not the headline figure; it is that the consequences go well beyond simply feeling thirsty. Your body sends you dozens of subtle signals when it's running low on water, but most people have learned to ignore them, mistake them for something else, or simply power through. Let's change that today.
 
 ## Why Water Matters More Than You Think
 

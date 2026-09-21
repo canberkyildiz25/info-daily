@@ -2,13 +2,13 @@
 title: "How to Fix Bad Posture If You Work at a Desk"
 excerpt: "Desk job ruining your posture? Discover practical fixes, stretches, and ergonomic tips to relieve pain and sit better every day."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Mark Stevens, CSCS"
 coverImage: "https://images.pexels.com/photos/4269490/pexels-photo-4269490.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["posture correction", "desk ergonomics", "back pain relief", "workplace health", "office wellness"]
 ---
 
-If you spend eight or more hours a day sitting at a desk, there's a good chance your posture has quietly deteriorated over the years. Maybe you've noticed a persistent ache between your shoulder blades, a stiff neck by 3 p.m., or a lower back that screams at you every time you stand up. You're far from alone. According to a study published in the *International Journal of Environmental Research and Public Health*, approximately 80% of desk workers experience musculoskeletal discomfort related to prolonged sitting and poor posture. The good news? Bad posture isn't permanent. With the right adjustments, exercises, and awareness, you can reverse the damage and feel dramatically better — even if you're chained to a desk for work.
+If you spend eight or more hours a day sitting at a desk, there's a good chance your posture has quietly deteriorated over the years. Maybe you've noticed a persistent ache between your shoulder blades, a stiff neck by 3 p.m., or a lower back that screams at you every time you stand up. You're far from alone. Musculoskeletal discomfort related to prolonged sitting is close to universal among desk workers — neck, shoulders and lower back, in roughly that order. The good news? Bad posture isn't permanent. With the right adjustments, exercises, and awareness, you can reverse the damage and feel dramatically better — even if you're chained to a desk for work.
 
 ## Why Desk Work Destroys Your Posture
 

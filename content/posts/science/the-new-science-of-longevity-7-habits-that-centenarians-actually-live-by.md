@@ -2,7 +2,7 @@
 title: "The New Science of Longevity: 7 Habits That Centenarians Actually Live By"
 excerpt: "Researchers studying the world's longest-lived people have uncovered 7 surprising habits that add decades to your life — backed by the latest science."
 date: "2026-04-28"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Dr. Lena Fischer"
 coverImage: "https://images.pexels.com/photos/7544917/pexels-photo-7544917.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["longevity", "centenarians", "healthy aging", "blue zones", "lifespan"]
@@ -18,7 +18,7 @@ Centenarians aren't training for marathons. Research from the Blue Zones Project
 
 They walk to visit neighbors. They garden. They knead bread by hand. They take the stairs without thinking about it.
 
-A landmark study published in *The Lancet* in 2025 tracked 8,000 adults over 20 years and found that those who accumulated 7,000–8,000 steps per day through incidental movement (not structured exercise) had a 50–70% lower risk of all-cause mortality compared to sedentary peers.
+The step-count research consistently finds most of the mortality benefit arriving well before 10,000, and arriving the same way whether the steps come from a workout or from a day spent on your feet.
 
 **What to apply:** Stop waiting for your gym session. Park farther away. Use a standing desk. Walk during phone calls. These micro-movements compound over decades.
 
@@ -34,7 +34,7 @@ You don't need to count calories. Slow down while eating (it takes 20 minutes fo
 
 ## 3. Their Social Bonds Are Treated Like Medicine
 
-Loneliness is now classified by the World Health Organization as a public health crisis. A 2024 meta-analysis of 148 studies found that strong social relationships are associated with a **50% increased likelihood of survival** — an effect size comparable to quitting smoking.
+Loneliness is now classified by the World Health Organization as a public health crisis. A [meta-analysis of 148 studies covering 308,849 people](https://journals.plos.org/plosmedicine/article?id=10.1371%2Fjournal.pmed.1000316), published in *PLoS Medicine*, found that strong social relationships are associated with a **50% increased likelihood of survival** — an effect size comparable to quitting smoking, and larger than obesity or physical inactivity.
 
 Centenarians across all Blue Zone regions share one striking trait: they are deeply embedded in social networks. Sardinian men gather for daily walks with lifelong friends. Okinawan women maintain *moai* — groups of five friends formed in childhood who support each other for life financially, emotionally, and practically.
 
@@ -78,7 +78,7 @@ Adding one cup of beans to your daily diet is one of the single most evidence-ba
 
 Sleep is not a luxury. It is when your glymphatic system flushes metabolic waste from your brain, when your immune system consolidates its defenses, and when your cells undergo the repair processes that slow the accumulation of damage.
 
-Centenarians almost universally sleep 7–9 hours per night without apology. Many also take short afternoon naps (20–30 minutes), a habit that a 2024 study published in *Sleep Medicine Reviews* found was associated with a 37% reduction in heart disease mortality.
+Centenarians almost universally sleep 7–9 hours per night without apology. Many also take short afternoon naps of twenty to thirty minutes — long enough to restore alertness, short enough not to leave you groggy or to eat into that night's sleep.
 
 Sleep deprivation, by contrast, accelerates the biological aging process. Research from the University of California found that a single night of short sleep (under 6 hours) significantly increased the expression of genes associated with inflammation and cellular stress.
 

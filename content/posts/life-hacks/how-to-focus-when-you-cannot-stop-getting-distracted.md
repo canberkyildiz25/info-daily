@@ -2,7 +2,7 @@
 title: "How to Focus When You Cannot Stop Getting Distracted"
 excerpt: "Struggling to concentrate? Discover proven strategies to regain your focus, beat distractions, and get more done — even on your worst days."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Emma Johnson"
 coverImage: "https://images.pexels.com/photos/6173668/pexels-photo-6173668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["focus", "productivity", "distractions", "concentration", "mental health"]
@@ -66,7 +66,7 @@ If a nagging thought involves a task that would take less than two minutes, jot 
 
 ## Prioritize One Thing at a Time
 
-Multitasking is a myth. What we call "multitasking" is actually rapid task-switching, and every switch costs you time and mental energy. A study published in the *Journal of Experimental Psychology* found that task-switching can reduce productivity by up to **40%**.
+Multitasking is a myth. What we call "multitasking" is actually rapid task-switching, and every switch costs you time and mental energy. Task-switching carries a real and repeatedly measured cost: every switch forces your brain to reload context, and the reload is neither free nor instant.
 
 Instead, try this:
 

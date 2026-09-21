@@ -2,13 +2,13 @@
 title: "The Best Books to Read If You Want to Be Smarter"
 excerpt: "Discover the most powerful books that sharpen your thinking, expand your knowledge, and genuinely make you smarter in everyday life."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: Canberk Yildiz
 coverImage: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=1200&q=80"
 tags: ["best books", "self-improvement", "critical thinking", "reading list", "personal development"]
 ---
 
-Let's get one thing straight — reading alone doesn't make you smarter. Reading the *right* books, and actually thinking about what you've read, does. According to a study published in the journal *Neurology*, people who engage in regular mentally stimulating activities like reading experience 32% slower cognitive decline compared to those who don't. The point isn't to collect titles on a shelf. It's to reshape how you think, question, and understand the world around you.
+Let's get one thing straight — reading alone doesn't make you smarter. Reading the *right* books, and actually thinking about what you've read, does. People who keep up mentally demanding activities like reading tend to show slower cognitive decline in later life than those who don't — the effect is well documented, though teasing apart cause from effect remains genuinely hard. The point isn't to collect titles on a shelf. It's to reshape how you think, question, and understand the world around you.
 
 So if you're ready to level up your mental game, here are the best books across multiple categories that will genuinely sharpen your mind — not just fill it with trivia.
 

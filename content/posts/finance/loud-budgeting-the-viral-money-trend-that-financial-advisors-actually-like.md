@@ -2,6 +2,7 @@
 title: "Loud Budgeting: The Viral Money Trend That Financial Advisors Actually Like"
 excerpt: "For the first time in years, a money trend went viral on TikTok and financial experts nodded along. Here's what loud budgeting is, why it works, and how to do it without making your friends hate you."
 date: "2026-06-17"
+updatedAt: "2026-09-21"
 author: "James Park, CFP"
 coverImage: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80"
 tags: ["loud budgeting", "personal finance", "budgeting", "money", "saving", "financial wellness"]
@@ -31,7 +32,7 @@ Loud budgeting short-circuits this loop by removing shame from the equation. Whe
 
 ## What the Research Says
 
-There's solid behavioral economics behind this. A 2023 study from the University of Colorado found that people who verbally disclosed savings goals to their social networks saved an average of 31% more than those who kept goals private — even controlling for income and starting balance. The mechanism isn't accountability from others (nobody was checking up on participants) — it's the psychological consistency effect: we feel compelled to act in line with our stated identities.
+There's solid behavioral economics behind this. Saying a savings goal out loud to people who will notice changes the arithmetic of breaking it: a private goal costs nothing to abandon, and a public one costs an explanation. The mechanism isn't really other people checking up on you — it's the psychological consistency effect: we feel compelled to act in line with our stated identities.
 
 ## How to Actually Do It
 

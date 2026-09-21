@@ -2,6 +2,7 @@
 title: "How to Have Difficult Conversations Without Destroying the Relationship"
 excerpt: "Most people either avoid hard conversations entirely or handle them badly. Research from The Gottman Institute and others shows exactly what the difference looks like."
 date: "2026-06-22"
+updatedAt: "2026-09-21"
 author: "Maria Chen"
 coverImage: "https://images.pexels.com/photos/4149052/pexels-photo-4149052.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["relationships", "communication", "conflict", "emotional intelligence", "psychology"]
@@ -77,7 +78,7 @@ What's not appropriate: indefinitely postponing or refusing to return to the con
 
 ## What the Research Says About Resolution
 
-Counterintuitively, the Gottman data shows that about 69% of relationship conflict is *perpetual* — recurring disagreements that stem from genuine differences in personality, values, or needs. These are never "solved."
+Counterintuitively, [the Gottman Institute's research](https://www.gottman.com/blog/manage-conflict-the-six-skills/) finds that roughly 69% of relationship conflict is *perpetual* — recurring disagreements rooted in genuine differences of personality, values or needs, which are managed rather than solved. These are never "solved."
 
 The goal for perpetual problems isn't resolution. It's managing them with humor, acceptance, and ongoing dialogue instead of gridlock. Couples who thrive long-term are able to move fluidly between discussing a recurring tension and still feeling connection. Couples who struggle get stuck in the same conversation over and over, escalating each time.
 

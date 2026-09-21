@@ -24,7 +24,7 @@ LCA studies repeatedly produce results that are counterintuitive to casual envir
 
 ### Eating Less Meat — Especially Beef
 
-This is consistently the single highest-impact dietary change an individual can make. A comprehensive 2018 study published in *Science* by Poore and Nemecek, analyzing 38,700 farms across 119 countries, found that livestock farming contributes 14.5% of global greenhouse gas emissions — and beef accounts for the majority of that.
+This is consistently the single highest-impact dietary change an individual can make. A [2018 study in *Science*](https://www.science.org/doi/10.1126/science.aaq0216) by Poore and Nemecek, analysing 38,700 farms across 119 countries, found that food production as a whole accounts for around 26% of global greenhouse gas emissions — and that beef is far and away the most emissions-intensive thing on the list.
 
 The footprint of beef is roughly 20 times that of legumes per gram of protein. Eliminating beef from your diet reduces your food-related carbon footprint by more than any other single food swap — more than going entirely local, more than eliminating packaging, more than eliminating food waste (though food waste is also significant).
 

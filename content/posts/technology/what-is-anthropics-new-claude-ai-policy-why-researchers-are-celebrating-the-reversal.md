@@ -2,6 +2,7 @@
 title: "What Is Anthropic's New Claude AI Policy? Why Researchers Are Celebrating the Reversal"
 excerpt: "Anthropic just reversed a controversial Claude AI policy — and the research community is thrilled. Here's what changed and why it matters for everyone."
 date: "2026-06-11"
+updatedAt: "2026-09-21"
 author: "Alex Rivera"
 coverImage: "https://picsum.photos/seed/960/800/450"
 tags: ["Anthropic", "Claude AI", "AI policy", "AI safety", "AI research"]
@@ -24,7 +25,7 @@ Anthropic's stated reasoning was safety: they argued that unrestricted access to
 
 Within weeks of the RIF rollout, over 1,200 AI researchers signed an open letter urging Anthropic to reconsider. The letter, organized by a coalition of academics from Stanford, MIT, and the University of Toronto, argued that the restrictions were "fundamentally incompatible with the transparency and accountability that safe AI development requires."
 
-A 2026 survey by the AI Policy Institute found that **78% of AI safety researchers** believed the restrictions actively hindered their ability to identify and report vulnerabilities in Claude — the exact opposite of what Anthropic intended.
+The complaint from safety researchers was consistent: **the restrictions made it harder to find and report vulnerabilities**, which is the opposite of what a policy aimed at safety is supposed to do.
 
 The criticism wasn't just academic. Several prominent AI safety organizations, including the Center for AI Safety and MIRI, published detailed analyses showing that the restrictions had a chilling effect on independent oversight. Bug reports and vulnerability disclosures related to Claude dropped by an estimated 40% in the first quarter of 2026 compared to the same period the year before.
 

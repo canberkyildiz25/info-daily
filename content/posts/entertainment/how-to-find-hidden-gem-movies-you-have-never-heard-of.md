@@ -2,7 +2,7 @@
 title: "How to Find Hidden Gem Movies You Have Never Heard Of"
 excerpt: "Tired of watching the same mainstream films? Discover proven strategies to uncover brilliant hidden gem movies you never knew existed."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: Canberk Yildiz
 coverImage: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=1200&q=80"
 tags: ["hidden gem movies", "movie recommendations", "indie films", "film discovery", "underrated movies"]
@@ -12,7 +12,7 @@ There's something uniquely thrilling about stumbling upon a movie that completel
 
 ## Why Hidden Gems Get Overlooked in the First Place
 
-Before diving into how to find them, it helps to understand why great movies go unnoticed. According to a 2023 study by Stephen Follows, a film data researcher, roughly 80% of films produced globally each year receive little to no theatrical distribution. Many of these are independent productions, foreign language films, or festival darlings that never secure the marketing budgets needed to compete with blockbuster franchises.
+Before diving into how to find them, it helps to understand why great movies go unnoticed. The great majority of films made in any given year never receive meaningful theatrical distribution. They are not bad films by definition — they are films nobody bought. Many of these are independent productions, foreign language films, or festival darlings that never secure the marketing budgets needed to compete with blockbuster franchises.
 
 Streaming algorithms don't help either. Netflix, Hulu, and other platforms are designed to serve you content similar to what you've already watched, creating an echo chamber that keeps you cycling through the same genres and styles. Breaking out of that loop requires intentional effort — and that's exactly what this guide is about.
 

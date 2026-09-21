@@ -10,7 +10,7 @@ tags: ["free online courses", "learn new skills", "online education", "self-impr
 
 Whether you want to switch careers, pick up a creative hobby, or simply stay competitive in a rapidly changing job market, free online courses have made it easier than ever to learn something new — from anywhere, at any time. The best part? You don't need to spend a single dollar to access world-class education from top universities and industry leaders.
 
-According to a 2024 report by Class Central, over 300 million learners worldwide have enrolled in at least one massive open online course (MOOC), and the number of free courses available has surpassed 20,000. The barrier to learning has never been lower. But with so many options, knowing where to start can feel overwhelming. That's exactly why we've put together this guide — to help you find the best free online courses across the most in-demand skill categories.
+Hundreds of millions of people have now enrolled in at least one massive open online course, and the catalogue of free courses runs well into the tens of thousands. The barrier to learning has never been lower. But with so many options, knowing where to start can feel overwhelming. That's exactly why we've put together this guide — to help you find the best free online courses across the most in-demand skill categories.
 
 ## Why Free Online Courses Are Worth Your Time
 

@@ -2,7 +2,7 @@
 title: "The Best Anti-Inflammatory Foods to Add to Your Diet"
 excerpt: "Discover the most powerful anti-inflammatory foods backed by science and learn how to easily incorporate them into your everyday meals."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Jessica Morgan"
 coverImage: "https://images.pexels.com/photos/10112135/pexels-photo-10112135.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["anti-inflammatory foods", "healthy eating", "inflammation", "nutrition tips", "wellness diet"]
@@ -10,7 +10,7 @@ tags: ["anti-inflammatory foods", "healthy eating", "inflammation", "nutrition t
 
 Chronic inflammation is one of the most talked-about health concerns of our time — and for good reason. Unlike the acute inflammation that helps your body heal a cut or fight off an infection, chronic low-grade inflammation simmers quietly beneath the surface and has been linked to heart disease, type 2 diabetes, cancer, Alzheimer's, and a host of autoimmune conditions. The good news? One of the most effective tools for fighting back is sitting right on your plate. By choosing the right foods consistently, you can help calm inflammation, protect your cells, and feel noticeably better in the process.
 
-According to a landmark study published in the *Journal of the American College of Cardiology*, dietary patterns rich in anti-inflammatory foods were associated with a 20% lower risk of cardiovascular disease and up to a 18% lower risk of all-cause mortality. That's a powerful argument for rethinking what ends up in your grocery cart each week.
+A [2020 study in the *Journal of the American College of Cardiology*](https://www.jacc.org/doi/10.1016/j.jacc.2020.09.535), following more than 200,000 people, found the reverse framing is the stronger one: people eating the most pro-inflammatory diets had a 46% higher risk of coronary heart disease and a 28% higher risk of stroke than those eating the most anti-inflammatory ones. That's a powerful argument for rethinking what ends up in your grocery cart each week.
 
 ## Understanding Inflammation and Why Food Matters
 

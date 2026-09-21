@@ -2,13 +2,13 @@
 title: "The 50/30/20 Budget Rule: A Beginner's Guide"
 excerpt: "Learn how the 50/30/20 budget rule can simplify your finances by splitting income into needs, wants, and savings — with practical tips to get started today."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "James Park, CFP"
 coverImage: "https://images.pexels.com/photos/37416563/pexels-photo-37416563.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["budgeting", "50/30/20 rule", "personal finance", "money management", "saving money"]
 ---
 
-If the idea of budgeting makes your eyes glaze over, you're not alone. A 2024 survey by the National Foundation for Credit Counseling found that only 40% of American adults follow a detailed budget. The rest? They're winging it — and often paying the price in stress, debt, and missed financial goals. The good news is that budgeting doesn't have to be complicated. The 50/30/20 rule is one of the simplest, most effective frameworks ever created for managing your money, and it takes just minutes to set up.
+If the idea of budgeting makes your eyes glaze over, you're not alone. Most American adults do not keep a detailed budget, which is less a character flaw than a sign that most budgeting methods ask for more bookkeeping than anyone will sustain. Everyone else is winging it — and often paying for it in stress, debt, and missed financial goals. The good news is that budgeting doesn't have to be complicated. The 50/30/20 rule is one of the simplest, most effective frameworks ever created for managing your money, and it takes just minutes to set up.
 
 ## What Is the 50/30/20 Budget Rule?
 

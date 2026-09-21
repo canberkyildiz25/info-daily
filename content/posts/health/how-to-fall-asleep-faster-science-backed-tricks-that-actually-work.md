@@ -2,7 +2,7 @@
 title: "How to Fall Asleep Faster: Science-Backed Tricks That Actually Work"
 excerpt: "Struggling to fall asleep? Research reveals why your brain fights sleep — and the proven techniques that can cut your sleep onset time in half."
 date: "2026-04-30"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Dr. Sarah Collins"
 coverImage: "https://images.pexels.com/photos/6541068/pexels-photo-6541068.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["sleep", "insomnia", "health", "wellness", "sleep hygiene", "relaxation"]
@@ -10,7 +10,7 @@ tags: ["sleep", "insomnia", "health", "wellness", "sleep hygiene", "relaxation"]
 
 You lie down, close your eyes, and your brain immediately starts replaying every awkward conversation you had in 2019. An hour later, you're still staring at the ceiling. You're not broken — but your sleep environment and pre-bed habits probably are.
 
-Sleep scientists call the time it takes to go from wakefulness to sleep your "sleep onset latency." Ideally, that window is 10 to 20 minutes. Studies show that roughly one in three adults takes significantly longer — some lying awake for 45 minutes or more every night. Multiply that across a year, and you're losing hundreds of hours of your life staring at the ceiling.
+Sleep scientists call the time it takes to go from wakefulness to sleep your "sleep onset latency." Ideally, that window is 10 to 20 minutes. For a great many adults it takes considerably longer than that, and some lie awake for 45 minutes or more most nights. Multiply that across a year, and you're losing hundreds of hours of your life staring at the ceiling.
 
 The good news: the research on what actually helps is clearer than ever. Here's what works — and why.
 

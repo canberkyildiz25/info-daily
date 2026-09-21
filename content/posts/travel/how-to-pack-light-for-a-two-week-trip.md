@@ -2,13 +2,13 @@
 title: "How to Pack Light for a Two Week Trip"
 excerpt: "Master the art of packing light for a two-week trip with proven strategies, smart clothing choices, and expert tips to travel carry-on only."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Sophie Martinez"
 coverImage: "https://images.pexels.com/photos/8212231/pexels-photo-8212231.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["packing light", "travel tips", "carry-on travel", "minimalist packing", "two week trip"]
 ---
 
-Here's a truth that seasoned travelers know well: the size of your suitcase has almost nothing to do with the length of your trip. Whether you're gone for five days or fourteen, you can absolutely travel with a single carry-on bag — and you'll enjoy every moment more because of it. No waiting at baggage carousels, no dragging a heavy suitcase over cobblestone streets, and no anxiety about lost luggage. According to a 2023 survey by luggage brand Away, nearly 40% of frequent travelers reported that overpacking was their number one travel regret. Let's make sure that's not you. This guide will walk you through exactly how to pack light for a two-week trip without sacrificing comfort or style.
+Here's a truth that seasoned travelers know well: the size of your suitcase has almost nothing to do with the length of your trip. Whether you're gone for five days or fourteen, you can absolutely travel with a single carry-on bag — and you'll enjoy every moment more because of it. No waiting at baggage carousels, no dragging a heavy suitcase over cobblestone streets, and no anxiety about lost luggage. Ask frequent travellers what they regret and overpacking comes up more than almost anything else — nobody arrives home wishing they had brought a second pair of boots. Let's make sure that's not you. This guide will walk you through exactly how to pack light for a two-week trip without sacrificing comfort or style.
 
 ## Shift Your Mindset Before You Open Your Suitcase
 

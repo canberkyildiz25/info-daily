@@ -2,7 +2,7 @@
 title: “Why You're Always Tired — And What Actually Fixes It”
 excerpt: “Constant fatigue isn't always about sleep. New research reveals the real reasons you're exhausted — and the evidence-backed fixes that work.”
 date: "2026-04-29"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Dr. Elena Russo"
 coverImage: "https://images.unsplash.com/photo-1541199249251-f713e6145474?w=800&q=80"
 tags: ["fatigue", "sleep", "energy", "health", "wellness", "burnout"]
@@ -10,7 +10,7 @@ tags: ["fatigue", "sleep", "energy", "health", "wellness", "burnout"]
 
 You slept eight hours last night. You have a cup of coffee in hand. And somehow, you're still exhausted before noon. If this sounds familiar, you're not alone — and more importantly, you're probably not dealing with a simple sleep problem.
 
-Chronic tiredness has become one of the most common complaints in primary care medicine. In a 2025 survey by the American Academy of Sleep Medicine, 45% of Americans reported feeling tired most days of the week, even when they believed they were getting adequate sleep. The culprits are more varied — and more fixable — than most people realize.
+Chronic tiredness has become one of the most common complaints in primary care medicine. A great many people report feeling tired most days of the week even when they believe they are sleeping enough — which is the clue that the problem is often sleep quality, or something other than sleep entirely. The culprits are more varied — and more fixable — than most people realize.
 
 ## The Sleep Quantity Trap
 

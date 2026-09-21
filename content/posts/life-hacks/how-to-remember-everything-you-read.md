@@ -2,13 +2,13 @@
 title: "How to Remember Everything You Read"
 excerpt: "Discover proven strategies to retain more of what you read, from active recall techniques to smart note-taking habits that boost long-term memory."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Emma Johnson"
 coverImage: "https://images.pexels.com/photos/20835885/pexels-photo-20835885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["memory techniques", "reading habits", "active recall", "productivity", "learning strategies"]
 ---
 
-You just finished an incredible book. It was packed with insights, compelling arguments, and ideas that felt life-changing in the moment. But two weeks later, someone asks you what it was about, and you draw a blank. Sound familiar? You're not alone. Research from the University of Waterloo suggests that within 24 hours of learning something new, we forget approximately 70% of it — and within a week, that number can climb to 90% if we don't take deliberate steps to retain the information.
+You just finished an incredible book. It was packed with insights, compelling arguments, and ideas that felt life-changing in the moment. But two weeks later, someone asks you what it was about, and you draw a blank. Sound familiar? You're not alone. The forgetting curve is steep and it is old news — Hermann Ebbinghaus mapped it in the 1880s. Most of what you read is gone within a day, and most of the remainder within a week, unless you do something deliberate to keep it.
 
 The good news? Remembering what you read isn't about having a gifted memory. It's about using the right strategies before, during, and after you read. Let's break down the techniques that actually work.
 
@@ -60,7 +60,7 @@ These micro-reflections force your brain to engage with the material rather than
 
 ### 3. Pause and Summarize
 
-At the end of every chapter or major section, close the book and summarize what you just read in two to three sentences — in your own words. This technique, known as **active recall**, is one of the most powerful memory tools backed by cognitive science. A landmark study published in *Science* by Karpicke and Blunt (2011) found that students who practiced retrieval (recalling information from memory) retained 50% more material than those who simply re-read or created concept maps.
+At the end of every chapter or major section, close the book and summarize what you just read in two to three sentences — in your own words. This technique, known as **active recall**, is one of the most powerful memory tools backed by cognitive science. A [landmark 2011 study in *Science*](https://pubmed.ncbi.nlm.nih.gov/21252317/) by Karpicke and Blunt found that students who practised retrieval — closing the book and recalling what they had read — substantially outperformed students who re-read the text or built concept maps, and the gap was still there a week later.
 
 ### 4. Ask Questions
 

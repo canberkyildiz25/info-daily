@@ -2,6 +2,7 @@
 title: "HP's New AI PC with Nvidia GB300: Specs, Price, and What It Means for Creators"
 excerpt: "HP's latest AI PC packs Nvidia's GB300 GPU for creators. Here's a full breakdown of specs, pricing, and why it matters."
 date: "2026-06-07"
+updatedAt: "2026-09-21"
 author: "Alex Rivera"
 coverImage: "https://images.pexels.com/photos/19356873/pexels-photo-19356873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["HP AI PC", "Nvidia GB300", "AI for creators", "workstation GPU", "creative technology"]
@@ -44,7 +45,7 @@ Let's address the elephant in the room. The HP Z8 Fury G6 is not cheap.
 
 These prices put the Z8 Fury G6 firmly in the professional workstation category. It's not a consumer PC, and HP isn't pretending it is. However, when you compare it to the cost of equivalent rack-mounted AI compute — or even the price of a high-end Mac Pro with the M3 Ultra — the value proposition starts to look more reasonable, especially for studios and freelancers who bill for GPU-intensive work.
 
-According to a 2026 report from Jon Peddie Research, the professional GPU workstation market has grown by 34% year-over-year, driven almost entirely by demand for local AI inference and generative content creation. HP is clearly chasing that wave.
+The professional GPU workstation market has grown sharply, driven almost entirely by demand for local AI inference and generative content work that people would rather not send to a cloud. HP is clearly chasing that wave.
 
 ## What This Means for Creators in 2026
 

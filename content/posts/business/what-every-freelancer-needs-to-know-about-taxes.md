@@ -2,13 +2,13 @@
 title: "What Every Freelancer Needs to Know About Taxes"
 excerpt: "Freelancing brings freedom—but also tax headaches. Here's your complete guide to managing taxes, deductions, and deadlines as a self-employed pro."
 date: "2026-04-13"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "David Kim"
 coverImage: "https://images.pexels.com/photos/7111516/pexels-photo-7111516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["freelancer taxes", "self-employment tax", "tax deductions", "freelance finances", "quarterly taxes"]
 ---
 
-The moment you earn your first dollar as a freelancer, your relationship with taxes changes fundamentally. There's no employer withholding income tax from your paycheck, no HR department handing you a neat W-2 at the end of the year. Instead, you're the business owner, the accountant, and the employee all rolled into one. According to a 2023 report by Upwork, approximately 64 million Americans performed freelance work that year — and a significant number of them were caught off guard by their tax obligations. If you don't want to be one of them, keep reading.
+The moment you earn your first dollar as a freelancer, your relationship with taxes changes fundamentally. There's no employer withholding income tax from your paycheck, no HR department handing you a neat W-2 at the end of the year. Instead, you're the business owner, the accountant, and the employee all rolled into one. Tens of millions of Americans do some form of freelance work, and a great many of them are caught off guard the first year by what they owe. If you don't want to be one of them, keep reading.
 
 ## You're a Business Now — Act Like One
 

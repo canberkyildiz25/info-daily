@@ -2,6 +2,7 @@
 title: "Godzilla: Destroy All Monsters Melee Remastered: Nintendo Switch 2's Leaked Game Details"
 excerpt: "Everything we know about the leaked Godzilla: Destroy All Monsters Melee Remastered for Nintendo Switch 2, including roster, gameplay, and release details."
 date: "2026-06-07"
+updatedAt: "2026-09-21"
 author: "Maria Chen"
 coverImage: "https://images.pexels.com/photos/34482312/pexels-photo-34482312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["Godzilla", "Nintendo Switch 2", "Destroy All Monsters Melee", "remastered games", "kaiju gaming"]
@@ -55,7 +56,7 @@ Beyond the cosmetic upgrades, the leaks point to meaningful gameplay enhancement
 
 The Nintendo Switch 2, which launched in 2025, has been building its library steadily throughout its first year. A title like *Godzilla: Destroy All Monsters Melee Remastered* fills a specific gap in the platform's catalog — there's currently no dedicated kaiju fighting game on the system, and the broader fighting game genre on Switch 2 has room for a unique entry that isn't competing directly with traditional fighters like *Street Fighter* or *Tekken*.
 
-There's also the nostalgia factor. The original game's core audience — gamers who were kids or teenagers in the early 2000s — are now in their 30s and 40s, a demographic with significant purchasing power and a documented appetite for remastered classics. According to a 2025 report by Newzoo, remastered and remake titles accounted for roughly 18% of total console game revenue, a figure that's been climbing steadily year over year.
+There's also the nostalgia factor. The original game's core audience — gamers who were kids or teenagers in the early 2000s — are now in their 30s and 40s, a demographic with significant purchasing power and a documented appetite for remastered classics. Remasters and remakes now account for a meaningful and growing slice of console revenue — they are cheaper to make than new titles and arrive with an audience already attached.
 
 ## What Fans Should Keep in Mind
 

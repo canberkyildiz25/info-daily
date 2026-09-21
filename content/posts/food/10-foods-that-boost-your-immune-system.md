@@ -2,7 +2,7 @@
 title: "10 Foods That Boost Your Immune System (Backed by Science)"
 excerpt: "Your immune system runs on the nutrients you eat. Here are 10 scientifically backed foods to keep it strong all year round."
 date: "2025-03-28"
-updatedAt: "2026-05-18"
+updatedAt: "2026-09-21"
 author: "Maria Chen"
 coverImage: "https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 tags: ["immune system", "nutrition", "healthy foods", "wellness", "vitamins"]
@@ -56,7 +56,7 @@ A small handful as a snack or sprinkled on oatmeal is all you need.
 
 Curcumin, the compound that gives turmeric its yellow color, is one of the most studied anti-inflammatory substances in nutritional science. Hundreds of peer-reviewed studies show its ability to modulate immune cell activity and reduce chronic inflammation.
 
-The catch: curcumin has poor bioavailability on its own. Consuming it with black pepper (which contains piperine) increases absorption by up to 2,000%, according to research in the journal Planta Medica. Most turmeric latte recipes already include this pairing.
+The catch: curcumin has poor bioavailability on its own. Consuming it with black pepper, which contains piperine, raises curcumin bioavailability dramatically — [the original *Planta Medica* study](https://pubmed.ncbi.nlm.nih.gov/9619120/) measured a 2,000% increase in humans. Most turmeric latte recipes already include this pairing.
 
 ## 8. Green Tea
 
