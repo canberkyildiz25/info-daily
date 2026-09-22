@@ -11,9 +11,19 @@ export { CATEGORIES } from './categories';
 
 const postsDirectory = path.join(process.cwd(), 'content/posts');
 
-function defaultCover(slug: string): string {
-  const n = Math.abs(slug.split('').reduce((a, c) => a * 31 + c.charCodeAt(0), 0)) % 1000;
-  return `https://picsum.photos/seed/${n}/800/450`;
+/* Kapak görseli olmayan yazı için görsel üretilmez.
+   Burada Lorem Picsum vardı: slug'dan bir sayı türetip
+   picsum.photos/seed/N adresinden rastgele bir fotoğraf çekiyordu.
+   Rastgele kelimesi tam anlamıyla — içerikle hiçbir bağı yok. Bir
+   teknoloji sitesinin anasayfasında kaktüs ve otoyol fotoğrafları bu
+   yüzden çıkıyordu.
+
+   Alakasız bir fotoğraf, fotoğrafsızlıktan kötüdür: okura yanlış bilgi
+   verir ve siteyi otomatik üretilmiş gösterir. Boş dönüyoruz; ArticleCard
+   görsel yoksa kategori rengini ve ikonunu çiziyor, ki o en azından
+   doğru şeyi söylüyor. */
+function defaultCover(): string {
+  return '';
 }
 
 function slugify(text: string): string {
@@ -85,7 +95,7 @@ export function getAllPosts(): Post[] {
         updatedAt: data.updatedAt,
         canonicalUrl: data.canonicalUrl,
         author: normalizeAuthorName(data.author),
-        coverImage: data.coverImage || defaultCover(slug),
+        coverImage: data.coverImage || defaultCover(),
         readingTime: stats.text,
         tags: data.tags || [],
       });
@@ -123,7 +133,7 @@ export async function getPost(category: string, slug: string): Promise<Post | nu
     updatedAt: data.updatedAt,
     canonicalUrl: data.canonicalUrl,
     author: normalizeAuthorName(data.author),
-    coverImage: data.coverImage || defaultCover(slug),
+    coverImage: data.coverImage || defaultCover(),
     readingTime: stats.text,
     tags: data.tags || [],
     content: htmlContent,

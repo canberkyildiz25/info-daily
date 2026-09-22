@@ -1,4 +1,4 @@
-import { getPexelsImage, getUnsplashFallback } from './pexels';
+import { getPexelsImage } from './pexels';
 
 function stripTags(html: string): string {
   return html.replace(/<[^>]*>/g, '').trim();
@@ -30,9 +30,11 @@ export async function injectInlineImages(html: string, articleTitle: string, cat
       const headingText = stripTags(h2Match[1]);
       const query = `${category ? category + ' ' : ''}${headingText}`.slice(0, 60);
 
-      const imageUrl =
-        (await getPexelsImage(query, headingText)) ??
-        getUnsplashFallback(query, headingText);
+      /* Pexels bulamazsa görsel eklenmiyor. Yedek olarak Lorem Picsum
+         vardı, yani makalenin ortasına konuyla ilgisiz rastgele bir
+         fotoğraf giriyordu. Boş bırakmak her zaman daha iyi. */
+      const imageUrl = await getPexelsImage(query, headingText);
+      if (!imageUrl) continue;
 
       // Find the end of the first paragraph after the h2
       const pEnd = parts[i].indexOf('</p>');

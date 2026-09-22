@@ -30,14 +30,12 @@ export async function getPexelsImage(query: string, seed?: string): Promise<stri
   }
 }
 
-// Fallback: picsum.photos (no API key needed, stable URLs)
-export function getUnsplashFallback(query: string, seed: string): string {
-  const sig = Math.abs(seed.split('').reduce((a, c) => a * 31 + c.charCodeAt(0), 0) % 1000);
-  return `https://picsum.photos/seed/${sig}/800/450`;
-}
-
+/* Pexels bir şey bulamazsa hiçbir şey döndürmüyoruz.
+   Burada da Lorem Picsum vardı — slug'dan türetilen bir sayıyla rastgele
+   bir fotoğraf. Konuyla ilgisi olmayan bir görsel, görselsizlikten kötü:
+   okura yanlış bir şey söyler ve siteyi otomatik doldurulmuş gösterir.
+   Boş dönünce ArticleHeroImage ve ArticleCard kategori rengiyle ikonu
+   çiziyor, ki o doğru olanı söylüyor. */
 export async function getCoverImageUrl(query: string, seed: string): Promise<string> {
-  const pexels = await getPexelsImage(query, seed);
-  if (pexels) return pexels;
-  return getUnsplashFallback(query, seed);
+  return (await getPexelsImage(query, seed)) ?? '';
 }

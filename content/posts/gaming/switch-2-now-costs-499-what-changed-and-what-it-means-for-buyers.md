@@ -4,6 +4,7 @@ excerpt: "Nintendo raised the Switch 2's US price by $50 on 1 September. The off
 date: "2026-09-21"
 updatedAt: "2026-09-21"
 author: "InfoDaily Editorial Team"
+coverImage: "https://images.pexels.com/photos/14629382/pexels-photo-14629382.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 tags: ["Nintendo Switch 2", "console pricing", "gaming hardware", "buying guide", "handheld gaming"]
 ---
 
