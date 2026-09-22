@@ -4,6 +4,7 @@ excerpt: "Logitech's first foldable mouse costs $79.99 and folds to the size of 
 date: "2026-06-10"
 updatedAt: "2026-09-21"
 author: "InfoDaily Editorial Team"
+coverImage: "https://images.pexels.com/photos/7006946/pexels-photo-7006946.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 tags: ["Logitech Mobi Fold", "travel mouse", "portable mouse", "foldable mouse", "work from anywhere"]
 ---
 

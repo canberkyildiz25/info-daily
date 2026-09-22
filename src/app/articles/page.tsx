@@ -31,7 +31,7 @@ export default function ArticlesPage() {
           In-Depth Articles
         </h1>
         <p className="text-[var(--text-muted)] max-w-xl leading-relaxed">
-          Reader-first guides and source-led explainers on health, finance, technology, and more.
+          Every technology and gaming guide on InfoDaily, newest first.
         </p>
         <div className="flex flex-wrap gap-2 mt-4">
           {categoriesWithPosts.map(cat => (

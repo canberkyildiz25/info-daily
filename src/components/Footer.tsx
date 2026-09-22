@@ -16,7 +16,7 @@ export default function Footer() {
               <span className="text-sm font-normal text-gray-300">.net</span>
             </h3>
             <p className="text-sm text-gray-300 leading-relaxed">
-              Practical guides and timely explainers across health, finance, technology, life, and culture.
+              Practical guides for the hardware and software you already own.
             </p>
           </div>
           <div>
