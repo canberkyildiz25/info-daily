@@ -1,6 +1,7 @@
 import { getPost, getAllPosts, CATEGORIES, extractHeadings } from '@/lib/posts';
 import CategoryIcon from '@/components/CategoryIcon';
 import { InArticleAd, MultiplexAd, SidebarAd } from '@/components/AdBanner';
+import AuthorBadge from '@/components/AuthorBadge';
 import TableOfContents from '@/components/TableOfContents';
 import ArticleHeroImage from '@/components/ArticleHeroImage';
 import { getCoverImageUrl } from '@/lib/pexels';
@@ -15,7 +16,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import type { Metadata } from 'next';
-import { authorNameToSlug, getAuthorByName } from '@/lib/authors';
+import { authorNameToSlug } from '@/lib/authors';
 import { extractFaqFromHtml, buildFaqJsonLd } from '@/lib/faq';
 import { injectInternalLinks } from '@/lib/injectInternalLinks';
 
@@ -67,12 +68,13 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   };
 }
 
-const CATEGORY_GRADIENTS: Record<string, string> = {
-  health: 'from-emerald-500 to-teal-600',
-  finance: 'from-amber-500 to-orange-600',
-  technology: 'from-blue-500 to-indigo-600',
-  'life-hacks': 'from-violet-500 to-purple-600',
-  travel: 'from-sky-500 to-cyan-600',
+/* Kapak görseli çözülemezse kullanılan yedek zemin. ArticleCard'daki
+   eşiyle aynı sorunu taşıyordu: beş kategoriden dördü artık yok, ve
+   teknoloji mavi-indigo degradesiyle çiziliyordu — üretilmiş arayüzün
+   en tanınan imzası. Düz renk, sitenin kendi vurgu değişkeninden. */
+const CATEGORY_TINT: Record<string, string> = {
+  technology: 'bg-[var(--accent)]',
+  gaming: 'bg-[var(--text-base)]',
 };
 
 export default async function ArticlePage({ params }: { params: Promise<{ category: string; slug: string }> }) {
@@ -81,8 +83,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
   if (!post) notFound();
 
   const cat = CATEGORIES.find(c => c.slug === category);
-  const gradient = CATEGORY_GRADIENTS[category] ?? 'from-blue-500 to-indigo-600';
-  const postAuthor = getAuthorByName(post.author);
+  const tint = CATEGORY_TINT[category] ?? 'bg-[var(--accent)]';
 
   // Use frontmatter coverImage if valid, otherwise fetch from Pexels
   const hasFrontmatterImage = post.coverImage &&
@@ -142,13 +143,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
 
             <div className="flex items-center justify-between pb-6 border-b border-gray-200 dark:border-slate-700">
               <div className="flex items-center gap-3">
-                <Image
-                  src={postAuthor?.avatar ?? '/logo.svg'}
-                  alt={post.author}
-                  width={40}
-                  height={40}
-                  className="w-10 h-10 rounded-full object-cover flex-shrink-0"
-                />
+                <AuthorBadge name={post.author} size={40} />
                 <div>
                   <Link
                     href={`/author/${authorNameToSlug(post.author)}`}
@@ -176,7 +171,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
           <ArticleHeroImage
             src={coverImage}
             alt={post.title}
-            gradient={gradient}
+            tint={tint}
             categorySlug={cat?.slug}
             objectPosition={post.imagePosition}
           />
@@ -316,7 +311,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
                 <Link
                   key={c.slug}
                   href={`/category/${c.slug}`}
-                  className="flex items-center gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-700 text-sm text-gray-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium transition-colors"
+                  className="flex items-center gap-2 min-h-11 px-3 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-700 text-sm text-gray-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium transition-colors"
                 >
                   <CategoryIcon slug={c.slug} size={14} /> {c.label}
                 </Link>
