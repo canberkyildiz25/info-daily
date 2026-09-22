@@ -1,9 +1,9 @@
 import { getAllPosts } from './posts';
 
 function buildLinkHtml(title: string, href: string): string {
-  return `<div class="my-5 pl-4 border-l-4 border-blue-400 dark:border-blue-600 not-prose">
-  <p class="text-xs font-semibold uppercase tracking-widest text-blue-500 dark:text-blue-400 mb-1">Read also</p>
-  <a href="${href}" class="text-blue-700 dark:text-blue-300 hover:underline font-semibold text-sm leading-snug">${title}</a>
+  return `<div class="my-5 pl-4 border-l-4 border-accent-400 dark:border-accent-600 not-prose">
+  <p class="text-xs font-semibold uppercase tracking-widest text-accent-700 dark:text-accent-300 mb-1">Read also</p>
+  <a href="${href}" class="text-accent-700 dark:text-accent-300 hover:underline font-semibold text-sm leading-snug">${title}</a>
 </div>`;
 }
 

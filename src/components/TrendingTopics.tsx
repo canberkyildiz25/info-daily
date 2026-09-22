@@ -56,7 +56,7 @@ const CAT_ICONS: Record<string, string> = {
 };
 
 const CAT_DOT: Record<string, string> = {
-  health: 'bg-emerald-500', finance: 'bg-amber-500', technology: 'bg-blue-500',
+  health: 'bg-emerald-500', finance: 'bg-amber-500', technology: 'bg-accent-500',
   'life-hacks': 'bg-violet-500', travel: 'bg-sky-500', food: 'bg-orange-500',
   business: 'bg-slate-500', science: 'bg-teal-500', relationships: 'bg-rose-500',
   entertainment: 'bg-purple-500',
@@ -65,7 +65,7 @@ const CAT_DOT: Record<string, string> = {
 const CAT_BADGE: Record<string, string> = {
   health: 'bg-emerald-100 dark:bg-emerald-900/60 text-emerald-700 dark:text-emerald-300',
   finance: 'bg-amber-100 dark:bg-amber-900/60 text-amber-700 dark:text-amber-300',
-  technology: 'bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300',
+  technology: 'bg-accent-100 dark:bg-accent-900/60 text-accent-700 dark:text-accent-300',
   'life-hacks': 'bg-violet-100 dark:bg-violet-900/60 text-violet-700 dark:text-violet-300',
   travel: 'bg-sky-100 dark:bg-sky-900/60 text-sky-700 dark:text-sky-300',
   food: 'bg-orange-100 dark:bg-orange-900/60 text-orange-700 dark:text-orange-300',
@@ -109,7 +109,7 @@ export default async function TrendingTopics() {
       {/* 4-column grid */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         {topics.map((topic, i) => {
-          const dot = CAT_DOT[topic.category] ?? 'bg-blue-500';
+          const dot = CAT_DOT[topic.category] ?? 'bg-accent-500';
           const badge = CAT_BADGE[topic.category] ?? CAT_BADGE.technology;
           const icon = CAT_ICONS[topic.category] ?? '📰';
 
@@ -145,7 +145,7 @@ export default async function TrendingTopics() {
 
               {/* Title below image */}
               <div className="p-3">
-                <p className="text-xs font-semibold text-gray-900 dark:text-slate-100 leading-snug line-clamp-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-200">
+                <p className="text-xs font-semibold text-gray-900 dark:text-slate-100 leading-snug line-clamp-2 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors duration-200">
                   {topic.title}
                 </p>
               </div>

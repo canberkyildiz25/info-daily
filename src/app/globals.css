@@ -9,6 +9,37 @@
      kullanılmayan bir font indiriyor, başlıklar da makinesinde ne varsa
      onunla çiziliyordu. Token artık gerçek fontu gösteriyor. */
   --font-serif: var(--font-merriweather), Georgia, 'Times New Roman', serif;
+
+  /* ─── Vurgu ölçeği ──────────────────────────────────
+     Site jenerik bir teknoloji mavisi (#1a3fa8) kullanıyordu. Türk
+     teknoloji basınının rengini ölçtük: DonanımHaber turuncu
+     rgb(238,143,0), ShiftDelete sarı rgb(249,211,13), Chip kırmızı
+     rgb(235,20,27). Sıcak uç dolu, soğuk uç da varsayılan maviyle
+     dolu — boş kalan yer ikisinin arası.
+
+     Konuyla da örtüşüyor: burada lansman haberi yapılmıyor, sahip
+     olduğun cihazı çalışır tutmakla ilgileniliyor. Teşhis ve bakım,
+     ölçü aletinin dili. Ton 205, petrol.
+
+     OKLCH'te üretildi, elle yazılmadı: on basamağın algısal olarak
+     eşit aralıklı olması gerekiyor, sRGB'de elle seçilen tonlar orta
+     basamaklarda toplanıyor. 600 ilk hesapta açık zeminde 4.39
+     veriyordu — 4.5'in altı — o yüzden açıklığı 0.545'ten 0.520'ye
+     çekildi. Şimdi 4.88.
+
+     Kritik ölçümler: 600 açık zeminde 4.88 · beyaz kartta 5.23 ·
+     üstünde beyaz metin 5.23 · 400 koyu zeminde 7.36 · koyu kartta
+     6.03. Hepsi AA eşiğinin üstünde. */
+  --color-accent-50:  #eef9fb;
+  --color-accent-100: #d7f1f4;
+  --color-accent-200: #b0e2e8;
+  --color-accent-300: #7fcdd6;
+  --color-accent-400: #4ab5c0;
+  --color-accent-500: #0395a1;
+  --color-accent-600: #007883;
+  --color-accent-700: #00636c;
+  --color-accent-800: #004b51;
+  --color-accent-900: #043338;
 }
 
 /* ─── Theme variants ──────────────────────────────────── */
@@ -26,9 +57,9 @@
   --text-base:     #0d1117;
   --text-muted:    #5a6270;
   --border:        #e0ddd7;
-  --accent:        #1a3fa8;
+  --accent:        #007883;  /* accent-600 */
   --accent-gold:   #b8860b;
-  --accent-light:  #dbeafe;
+  --accent-light:  #d7f1f4;  /* accent-100 */
 }
 
 [data-theme="dark"] {
@@ -39,8 +70,8 @@
   --text-base:     #f1f5f9;
   --text-muted:    #94a3b8;
   --border:        #334155;
-  --accent:        #60a5fa;
-  --accent-light:  #1e3a5f;
+  --accent:        #4ab5c0;  /* accent-400 */
+  --accent-light:  #043338;  /* accent-900 */
 }
 
 [data-theme="ocean"] {
@@ -87,7 +118,7 @@
   --text-base:     #1f0a0c;
   --text-muted:    #9f1239;
   --border:        #fecdd3;
-  --accent:        #e11d48;
+  --accent:        #be123c;  /* 4.28 -> 5.72 */
   --accent-light:  #ffe4e6;
 }
 
@@ -99,7 +130,7 @@
   --text-base:     #ede9fe;
   --text-muted:    #a78bfa;
   --border:        #2e1a5a;
-  --accent:        #7c3aed;
+  --accent:        #a78bfa;  /* 3.53 -> 7.39 */
   --accent-light:  #1e0a3c;
 }
 
@@ -253,7 +284,7 @@ header {
 .badge-shimmer {
   background: linear-gradient(
     90deg,
-    #2563eb 0%, #60a5fa 40%, #2563eb 60%, #1d4ed8 100%
+    #007883 0%, #4ab5c0 40%, #007883 60%, #00636c 100%
   );
   background-size: 300% auto;
   animation: shimmer 3s linear infinite;

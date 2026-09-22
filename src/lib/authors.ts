@@ -18,7 +18,7 @@ export const EDITORIAL_TEAM: Author = {
   bio: 'InfoDaily’s editorial desk publishes practical explainers, source-led guides, and curated news briefs for everyday readers.',
   longBio: 'InfoDaily is published by an editorial desk, not by anonymous or unverifiable individual profiles. We aim to make complex subjects easier to understand, link to useful primary sources where they inform a claim, and update a guide when its underlying information changes. Our content is for general information and is not a substitute for professional medical, legal, financial, or other specialist advice.',
   specialty: 'Editorial standards & practical guides',
-  avatarColor: 'bg-blue-700',
+  avatarColor: 'bg-accent-700',
   avatar: '/logo.svg',
   expertise: ['Source-led explainers', 'Practical guides', 'Editorial standards'],
   joinedYear: 2025,

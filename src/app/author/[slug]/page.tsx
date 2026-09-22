@@ -65,7 +65,7 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
 
       {/* Breadcrumb */}
       <nav className="flex items-center gap-2 text-sm text-gray-400 dark:text-slate-500 mb-8">
-        <Link href="/" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Home</Link>
+        <Link href="/" className="hover:text-accent-600 dark:hover:text-accent-400 transition-colors">Home</Link>
         <span>/</span>
         <span className="text-gray-600 dark:text-slate-400">Authors</span>
         <span>/</span>
@@ -84,7 +84,7 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
           />
           <div className="flex-1">
             <h1 className="text-2xl font-black text-gray-900 dark:text-slate-100 mb-1">{author.name}</h1>
-            <p className="text-blue-600 dark:text-blue-400 font-semibold text-sm mb-3">{author.title}</p>
+            <p className="text-accent-600 dark:text-accent-400 font-semibold text-sm mb-3">{author.title}</p>
             <div className="flex flex-wrap items-center gap-2">
               <span className="bg-gray-100 dark:bg-slate-700 text-gray-600 dark:text-slate-400 text-xs font-medium px-3 py-1 rounded-full">
                 {author.specialty}
@@ -110,7 +110,7 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
             <p className="text-xs font-semibold text-gray-400 dark:text-slate-500 uppercase tracking-wider mb-2">Areas of Expertise</p>
             <div className="flex flex-wrap gap-2">
               {author.expertise.map(tag => (
-                <span key={tag} className="bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 text-xs font-medium px-3 py-1 rounded-full">
+                <span key={tag} className="bg-accent-50 dark:bg-accent-900/20 text-accent-700 dark:text-accent-300 text-xs font-medium px-3 py-1 rounded-full">
                   {tag}
                 </span>
               ))}

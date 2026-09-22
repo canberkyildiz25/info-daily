@@ -70,8 +70,8 @@ export default function AboutPage() {
             { number: 'Open', label: 'Sources linked where relevant' },
             { number: 'Free', label: 'Access for every reader' },
           ].map(({ number, label }) => (
-            <div key={label} className="bg-blue-50 dark:bg-slate-800 rounded-xl p-4 text-center">
-              <div className="text-2xl font-black text-blue-600 dark:text-blue-400">{number}</div>
+            <div key={label} className="bg-accent-50 dark:bg-slate-800 rounded-xl p-4 text-center">
+              <div className="text-2xl font-black text-accent-600 dark:text-accent-400">{number}</div>
               <div className="text-xs text-gray-600 dark:text-slate-400 mt-1">{label}</div>
             </div>
           ))}
@@ -110,7 +110,7 @@ export default function AboutPage() {
             For health, finance, legal, or other high-stakes questions, our articles are general information only. Readers should use the original sources and seek qualified professional advice for decisions specific to their circumstances.
           </p>
           <p>
-            <Link href="/authors" className="text-blue-600 hover:underline font-medium">Read about the editorial desk →</Link>
+            <Link href="/authors" className="text-accent-600 hover:underline font-medium">Read about the editorial desk →</Link>
           </p>
 
           <h2>How We Source Our Information</h2>
@@ -125,7 +125,7 @@ export default function AboutPage() {
 
           <h2>Corrections Policy</h2>
           <p>
-            If you spot an error — a wrong statistic, a broken link, or a claim that no longer reflects current evidence — please use our <Link href="/contact" className="text-blue-600 hover:underline">Contact page</Link> to let us know. We review reports and correct material issues when they are confirmed.
+            If you spot an error — a wrong statistic, a broken link, or a claim that no longer reflects current evidence — please use our <Link href="/contact" className="text-accent-600 hover:underline">Contact page</Link> to let us know. We review reports and correct material issues when they are confirmed.
           </p>
 
           <h2>Advertising</h2>
@@ -138,7 +138,7 @@ export default function AboutPage() {
 
           <h2>Contact Us</h2>
           <p>
-            For editorial inquiries, corrections, or partnership questions, please visit our <Link href="/contact" className="text-blue-600 hover:underline">Contact page</Link>. We read every message and respond to most within two business days.
+            For editorial inquiries, corrections, or partnership questions, please visit our <Link href="/contact" className="text-accent-600 hover:underline">Contact page</Link>. We read every message and respond to most within two business days.
           </p>
         </div>
       </div>

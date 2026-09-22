@@ -115,9 +115,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
           <ArticleEngagement category={category} slug={slug} />
           {/* Breadcrumb */}
           <nav className="flex items-center gap-2 text-sm text-gray-400 dark:text-slate-500 mb-6">
-            <Link href="/" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Home</Link>
+            <Link href="/" className="hover:text-accent-600 dark:hover:text-accent-400 transition-colors">Home</Link>
             <span>/</span>
-            <Link href={`/category/${category}`} className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">{cat?.label}</Link>
+            <Link href={`/category/${category}`} className="hover:text-accent-600 dark:hover:text-accent-400 transition-colors">{cat?.label}</Link>
             <span>/</span>
             <span className="text-gray-600 dark:text-slate-400 truncate max-w-xs">{post.title}</span>
           </nav>
@@ -127,7 +127,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
             <div className="flex items-center gap-2 mb-3">
               <Link
                 href={`/category/${category}`}
-                className="bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 text-xs font-semibold px-3 py-1 rounded-full hover:bg-blue-200 dark:hover:bg-blue-900 transition-colors"
+                className="bg-accent-100 dark:bg-accent-900/50 text-accent-700 dark:text-accent-300 text-xs font-semibold px-3 py-1 rounded-full hover:bg-accent-200 dark:hover:bg-accent-900 transition-colors"
               >
                 {cat ? <CategoryIcon slug={cat.slug} size={14} /> : null} {cat?.label}
               </Link>
@@ -147,7 +147,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
                 <div>
                   <Link
                     href={`/author/${authorNameToSlug(post.author)}`}
-                    className="text-sm font-semibold text-gray-800 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                    className="text-sm font-semibold text-gray-800 dark:text-slate-200 hover:text-accent-600 dark:hover:text-accent-400 transition-colors"
                   >
                     {post.author}
                   </Link>
@@ -178,7 +178,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
 
           {/* Article content */}
           <div
-            className="prose prose-lg prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-slate-100 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-slate-100"
+            className="prose prose-lg prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-slate-100 prose-a:text-accent-600 dark:prose-a:text-accent-400 prose-strong:text-gray-900 dark:prose-strong:text-slate-100"
             dangerouslySetInnerHTML={{ __html: contentWithLinks }}
           />
 
@@ -311,7 +311,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
                 <Link
                   key={c.slug}
                   href={`/category/${c.slug}`}
-                  className="flex items-center gap-2 min-h-11 px-3 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-700 text-sm text-gray-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium transition-colors"
+                  className="flex items-center gap-2 min-h-11 px-3 rounded-lg hover:bg-accent-50 dark:hover:bg-slate-700 text-sm text-gray-700 dark:text-slate-300 hover:text-accent-600 dark:hover:text-accent-400 font-medium transition-colors"
                 >
                   <CategoryIcon slug={c.slug} size={14} /> {c.label}
                 </Link>

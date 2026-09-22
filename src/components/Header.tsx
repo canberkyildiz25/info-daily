@@ -11,7 +11,7 @@ import { useFont, FONTS } from './FontProvider';
 const CAT_COLORS: Record<string, string> = {
   health:        'bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 hover:bg-emerald-100 dark:hover:bg-emerald-900/50 border-emerald-200 dark:border-emerald-800',
   finance:       'bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300 hover:bg-amber-100 dark:hover:bg-amber-900/50 border-amber-200 dark:border-amber-800',
-  technology:    'bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 hover:bg-blue-100 dark:hover:bg-blue-900/50 border-blue-200 dark:border-blue-800',
+  technology:    'bg-accent-50 dark:bg-accent-900/30 text-accent-700 dark:text-accent-300 hover:bg-accent-100 dark:hover:bg-accent-900/50 border-accent-200 dark:border-accent-800',
   'life-hacks':  'bg-violet-50 dark:bg-violet-900/30 text-violet-700 dark:text-violet-300 hover:bg-violet-100 dark:hover:bg-violet-900/50 border-violet-200 dark:border-violet-800',
   travel:        'bg-sky-50 dark:bg-sky-900/30 text-sky-700 dark:text-sky-300 hover:bg-sky-100 dark:hover:bg-sky-900/50 border-sky-200 dark:border-sky-800',
   food:          'bg-orange-50 dark:bg-orange-900/30 text-orange-700 dark:text-orange-300 hover:bg-orange-100 dark:hover:bg-orange-900/50 border-orange-200 dark:border-orange-800',
@@ -30,7 +30,7 @@ function ThemePicker() {
     <div className="relative">
       <button
         onClick={() => setOpen(o => !o)}
-        className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-gray-200 dark:border-slate-700 text-gray-500 dark:text-slate-400 hover:border-blue-400 dark:hover:border-blue-500 transition-all text-sm bg-white dark:bg-slate-800"
+        className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-gray-200 dark:border-slate-700 text-gray-500 dark:text-slate-400 hover:border-accent-400 dark:hover:border-accent-500 transition-all text-sm bg-white dark:bg-slate-800"
       >
         <ThemeIcon id={current.id} size={16} />
         <span className="hidden sm:inline text-xs font-medium">{current.label}</span>
@@ -49,13 +49,13 @@ function ThemePicker() {
                 onClick={() => { setTheme(t.id); setOpen(false); }}
                 className={`w-full flex items-center gap-2.5 px-4 py-2.5 text-sm transition-colors ${
                   theme === t.id
-                    ? 'bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 font-semibold'
+                    ? 'bg-accent-50 dark:bg-accent-900/30 text-accent-600 dark:text-accent-400 font-semibold'
                     : 'text-gray-700 dark:text-slate-300 hover:bg-gray-50 dark:hover:bg-slate-700'
                 }`}
               >
                 <ThemeIcon id={t.id} size={16} />
                 <span>{t.label}</span>
-                {theme === t.id && <span className="ml-auto text-blue-500">✓</span>}
+                {theme === t.id && <span className="ml-auto text-accent-500">✓</span>}
               </button>
             ))}
           </div>
@@ -74,7 +74,7 @@ function FontPicker() {
     <div className="relative">
       <button
         onClick={() => setOpen(o => !o)}
-        className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-gray-200 dark:border-slate-700 text-gray-500 dark:text-slate-400 hover:border-blue-400 dark:hover:border-blue-500 transition-all text-sm bg-white dark:bg-slate-800"
+        className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-gray-200 dark:border-slate-700 text-gray-500 dark:text-slate-400 hover:border-accent-400 dark:hover:border-accent-500 transition-all text-sm bg-white dark:bg-slate-800"
         title="Font"
       >
         <span className="text-xs font-bold tracking-tight leading-none" style={{ fontFamily: 'var(--font-serif)' }}>Aa</span>
@@ -95,7 +95,7 @@ function FontPicker() {
                 style={{ fontFamily: `var(${f.variable}), ${f.serif ? 'serif' : 'sans-serif'}` }}
                 className={`w-full flex items-center justify-between px-4 py-2.5 text-sm transition-colors ${
                   font === f.id
-                    ? 'bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 font-semibold'
+                    ? 'bg-accent-50 dark:bg-accent-900/30 text-accent-600 dark:text-accent-400 font-semibold'
                     : 'text-gray-700 dark:text-slate-300 hover:bg-gray-50 dark:hover:bg-slate-700'
                 }`}
               >
@@ -187,7 +187,7 @@ export default function Header() {
           <div className="flex items-center gap-6 min-w-0">
             <Link href="/" className="flex items-center gap-3 shrink-0 group">
               <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="transition-transform duration-300 group-hover:scale-105">
-                <rect width="32" height="32" rx="6" fill="#1a3fa8"/>
+                <rect width="32" height="32" rx="6" fill="#007883"/>
                 <circle cx="16" cy="10" r="2.5" fill="white"/>
                 <rect x="13" y="15" width="6" height="9" rx="2" fill="white"/>
               </svg>
@@ -207,22 +207,22 @@ export default function Header() {
                   canlı noktası taşıyordu. Anasayfa artık haber akışı değil,
                   rehberlerin dizini — hem etiket hem de o nokta yanlış bir
                   şey söylüyordu. */}
-              <Link href="/" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
+              <Link href="/" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-accent-600 dark:hover:text-accent-400 hover:bg-accent-50 dark:hover:bg-accent-900/20 transition-colors">
                 Home
               </Link>
-              <Link href="/articles" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
+              <Link href="/articles" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-accent-600 dark:hover:text-accent-400 hover:bg-accent-50 dark:hover:bg-accent-900/20 transition-colors">
                 Articles
               </Link>
-              <Link href="/videos" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
+              <Link href="/videos" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-accent-600 dark:hover:text-accent-400 hover:bg-accent-50 dark:hover:bg-accent-900/20 transition-colors">
                 Videos
               </Link>
-              <Link href="/authors" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
+              <Link href="/authors" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-accent-600 dark:hover:text-accent-400 hover:bg-accent-50 dark:hover:bg-accent-900/20 transition-colors">
                 Editorial
               </Link>
-              <Link href="/games" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
+              <Link href="/games" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-accent-600 dark:hover:text-accent-400 hover:bg-accent-50 dark:hover:bg-accent-900/20 transition-colors">
                 Games
               </Link>
-              <Link href="/about" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors">
+              <Link href="/about" className="px-3 py-1.5 rounded-lg text-sm font-semibold text-gray-600 dark:text-slate-300 hover:text-accent-600 dark:hover:text-accent-400 hover:bg-accent-50 dark:hover:bg-accent-900/20 transition-colors">
                 About
               </Link>
             </nav>
@@ -265,14 +265,14 @@ export default function Header() {
           <div className="flex gap-2 flex-wrap">
             <Link
               href="/"
-              className="px-3 py-1.5 rounded-full text-xs font-semibold bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800"
+              className="px-3 py-1.5 rounded-full text-xs font-semibold bg-accent-50 dark:bg-accent-900/20 text-accent-700 dark:text-accent-300 border border-accent-200 dark:border-accent-800"
               onClick={() => setMenuOpen(false)}
             >
               Home
             </Link>
             <Link
               href="/articles"
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-accent-50 dark:bg-accent-900/20 text-accent-700 dark:text-accent-300 border border-accent-200 dark:border-accent-800"
               onClick={() => setMenuOpen(false)}
             >
               Articles
