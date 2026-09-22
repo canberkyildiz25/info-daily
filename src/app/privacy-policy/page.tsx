@@ -34,7 +34,7 @@ export default function PrivacyPolicyPage() {
 
         <h2>Google AdSense and Third-Party Advertising</h2>
         <p>
-          We use Google AdSense to display advertisements. Google may use cookies to serve ads based on your prior visits to this website or other websites. You can opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" className="text-blue-600 hover:underline" rel="noopener noreferrer" target="_blank">Google Ad Settings</a>.
+          We use Google AdSense to display advertisements. Google may use cookies to serve ads based on your prior visits to this website or other websites. You can opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" className="text-accent-600 hover:underline" rel="noopener noreferrer" target="_blank">Google Ad Settings</a>.
         </p>
 
         <h2>Cookies</h2>
@@ -52,7 +52,7 @@ export default function PrivacyPolicyPage() {
 
         <h2>Contact</h2>
         <p>
-          If you have questions about this privacy policy, please contact us through our <a href="/contact" className="text-blue-600 hover:underline">Contact page</a>.
+          If you have questions about this privacy policy, please contact us through our <a href="/contact" className="text-accent-600 hover:underline">Contact page</a>.
         </p>
       </div>
     </div>

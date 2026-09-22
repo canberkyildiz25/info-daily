@@ -26,8 +26,8 @@ export default function InternalLinks({ currentSlug, currentCategory, currentTag
   if (scored.length < 2) return null;
 
   return (
-    <aside className="my-8 p-5 bg-blue-50 dark:bg-slate-800 border border-blue-100 dark:border-slate-700 rounded-2xl">
-      <p className="text-xs font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-3">
+    <aside className="my-8 p-5 bg-accent-50 dark:bg-slate-800 border border-accent-100 dark:border-slate-700 rounded-2xl">
+      <p className="text-xs font-bold uppercase tracking-widest text-accent-600 dark:text-accent-400 mb-3">
         Related Reading
       </p>
       <ul className="space-y-2">
@@ -35,10 +35,10 @@ export default function InternalLinks({ currentSlug, currentCategory, currentTag
           const cat = CATEGORIES.find(c => c.slug === post.category);
           return (
             <li key={post.slug} className="flex items-start gap-2">
-              <span className="mt-0.5 text-blue-400 dark:text-blue-500 flex-shrink-0">→</span>
+              <span className="mt-0.5 text-accent-700 dark:text-accent-300 flex-shrink-0">→</span>
               <Link
                 href={`/${post.category}/${post.slug}`}
-                className="text-sm text-gray-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium transition-colors leading-snug"
+                className="text-sm text-gray-700 dark:text-slate-300 hover:text-accent-600 dark:hover:text-accent-400 font-medium transition-colors leading-snug"
               >
                 {post.title}
                 <span className="ml-1 text-xs text-gray-400 dark:text-slate-500 font-normal">

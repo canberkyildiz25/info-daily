@@ -31,7 +31,7 @@ export default function AuthorsPage() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       {/* Breadcrumb */}
       <nav className="flex items-center gap-2 text-sm text-gray-400 dark:text-slate-500 mb-8">
-        <Link href="/" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+        <Link href="/" className="hover:text-accent-600 dark:hover:text-accent-400 transition-colors">
           Home
         </Link>
         <span>/</span>
@@ -51,17 +51,17 @@ export default function AuthorsPage() {
       {/* Stats bar */}
       <div className="grid grid-cols-3 gap-4 mb-12">
         <div className="bg-white dark:bg-slate-800 rounded-xl border border-gray-100 dark:border-slate-700 p-5 text-center">
-          <div className="text-2xl font-black text-blue-600 dark:text-blue-400">{AUTHORS.length}</div>
+          <div className="text-2xl font-black text-accent-600 dark:text-accent-400">{AUTHORS.length}</div>
           <div className="text-sm text-gray-500 dark:text-slate-400 mt-1">Editorial desk</div>
         </div>
         <div className="bg-white dark:bg-slate-800 rounded-xl border border-gray-100 dark:border-slate-700 p-5 text-center">
-          <div className="text-2xl font-black text-blue-600 dark:text-blue-400">
+          <div className="text-2xl font-black text-accent-600 dark:text-accent-400">
             {authorsWithCounts.reduce((sum, a) => sum + a.articleCount, 0)}
           </div>
           <div className="text-sm text-gray-500 dark:text-slate-400 mt-1">Articles Published</div>
         </div>
         <div className="bg-white dark:bg-slate-800 rounded-xl border border-gray-100 dark:border-slate-700 p-5 text-center">
-          <div className="text-2xl font-black text-blue-600 dark:text-blue-400">11</div>
+          <div className="text-2xl font-black text-accent-600 dark:text-accent-400">11</div>
           <div className="text-sm text-gray-500 dark:text-slate-400 mt-1">Topics covered</div>
         </div>
       </div>
@@ -72,7 +72,7 @@ export default function AuthorsPage() {
           <Link
             key={author.slug}
             href={`/author/${author.slug}`}
-            className="group bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm hover:shadow-md hover:border-blue-200 dark:hover:border-blue-700 transition-all duration-200 p-6 flex flex-col"
+            className="group bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm hover:shadow-md hover:border-accent-200 dark:hover:border-accent-700 transition-all duration-200 p-6 flex flex-col"
           >
             {/* Avatar + name */}
             <div className="flex items-center gap-4 mb-4">
@@ -84,10 +84,10 @@ export default function AuthorsPage() {
                 className="w-14 h-14 rounded-full object-cover flex-shrink-0"
               />
               <div className="min-w-0">
-                <h2 className="text-base font-bold text-gray-900 dark:text-slate-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors leading-tight truncate">
+                <h2 className="text-base font-bold text-gray-900 dark:text-slate-100 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors leading-tight truncate">
                   {author.name}
                 </h2>
-                <p className="text-xs text-blue-600 dark:text-blue-400 font-medium mt-0.5 truncate">
+                <p className="text-xs text-accent-600 dark:text-accent-400 font-medium mt-0.5 truncate">
                   {author.title}
                 </p>
               </div>
@@ -115,7 +115,7 @@ export default function AuthorsPage() {
               <span className="text-xs text-gray-400 dark:text-slate-500">
                 {author.articleCount} article{author.articleCount !== 1 ? 's' : ''}
               </span>
-              <span className="text-xs font-semibold text-blue-600 dark:text-blue-400 group-hover:underline">
+              <span className="text-xs font-semibold text-accent-600 dark:text-accent-400 group-hover:underline">
                 Read our standards →
               </span>
             </div>

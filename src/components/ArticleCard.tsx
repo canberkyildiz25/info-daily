@@ -100,7 +100,7 @@ export default function ArticleCard({ post, featured = false, imagePriority = fa
 
   return (
     <Link href={`/${post.category}/${post.slug}`} className="group block">
-      <article className="flex gap-4 py-3.5 border-b border-gray-100 dark:border-slate-700 last:border-0 hover:bg-blue-50/50 dark:hover:bg-slate-800/60 -mx-2 px-2 rounded-xl transition-all duration-200">
+      <article className="flex gap-4 py-3.5 border-b border-gray-100 dark:border-slate-700 last:border-0 hover:bg-accent-50/50 dark:hover:bg-slate-800/60 -mx-2 px-2 rounded-xl transition-all duration-200">
         <div className="relative w-16 h-16 rounded-xl overflow-hidden flex-shrink-0 bg-gray-100 dark:bg-slate-700 group-hover:scale-105 transition-transform duration-300">
           {post.coverImage ? (
             <Image
@@ -116,16 +116,16 @@ export default function ArticleCard({ post, featured = false, imagePriority = fa
             </div>
           )}
           {fresh && (
-            <span className="absolute top-0.5 right-0.5 w-2 h-2 bg-blue-500 rounded-full border border-white" />
+            <span className="absolute top-0.5 right-0.5 w-2 h-2 bg-accent-500 rounded-full border border-white" />
           )}
         </div>
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-1">
-            <span className="text-blue-600 dark:text-blue-400 text-xs font-semibold">{category?.label}</span>
+            <span className="text-accent-600 dark:text-accent-400 text-xs font-semibold">{category?.label}</span>
             <span className="text-gray-300 dark:text-slate-600">·</span>
             <span className="text-gray-400 dark:text-slate-500 text-xs">{post.readingTime}</span>
           </div>
-          <h3 className="font-semibold text-gray-900 dark:text-slate-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-200 text-sm leading-snug line-clamp-2">
+          <h3 className="font-semibold text-gray-900 dark:text-slate-100 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors duration-200 text-sm leading-snug line-clamp-2">
             {post.title}
           </h3>
           <div className="flex items-center gap-2 mt-1">

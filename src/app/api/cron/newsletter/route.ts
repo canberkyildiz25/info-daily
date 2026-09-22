@@ -54,14 +54,14 @@ export async function GET(req: NextRequest) {
       html: `
         <div style="font-family:sans-serif;max-width:600px;margin:0 auto;background:#ffffff">
           <!-- Header -->
-          <div style="background:#2563eb;padding:24px 32px;border-radius:12px 12px 0 0">
+          <div style="background:#007883;padding:24px 32px;border-radius:12px 12px 0 0">
             <h1 style="color:#fff;font-size:22px;margin:0;font-weight:800">InfoDaily</h1>
             <p style="color:#bfdbfe;font-size:13px;margin:4px 0 0">Knowledge for Every Day</p>
           </div>
 
           <!-- Label -->
           <div style="padding:24px 32px 0">
-            <span style="background:#eff6ff;color:#1d4ed8;font-size:11px;font-weight:700;padding:4px 12px;border-radius:999px;letter-spacing:0.05em;text-transform:uppercase">✦ Article of the Day</span>
+            <span style="background:#eff6ff;color:#00636c;font-size:11px;font-weight:700;padding:4px 12px;border-radius:999px;letter-spacing:0.05em;text-transform:uppercase">✦ Article of the Day</span>
           </div>
 
           <!-- Cover image -->
@@ -72,7 +72,7 @@ export async function GET(req: NextRequest) {
             <p style="color:#6b7280;font-size:12px;margin:0 0 8px">${cat?.label ?? ''} · ${todayPost.readingTime}</p>
             <h2 style="color:#111827;font-size:24px;font-weight:800;margin:0 0 12px;line-height:1.3">${todayPost.title}</h2>
             <p style="color:#4b5563;font-size:15px;line-height:1.7;margin:0 0 24px">${todayPost.excerpt}</p>
-            <a href="${articleUrl}" style="display:inline-block;padding:14px 32px;background:#2563eb;color:#fff;border-radius:8px;text-decoration:none;font-weight:700;font-size:15px">Read Full Article →</a>
+            <a href="${articleUrl}" style="display:inline-block;padding:14px 32px;background:#007883;color:#fff;border-radius:8px;text-decoration:none;font-weight:700;font-size:15px">Read Full Article →</a>
           </div>
 
           <!-- Footer -->

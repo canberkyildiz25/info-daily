@@ -116,13 +116,13 @@ export default function AdminPage() {
               value={secret}
               onChange={e => setSecret(e.target.value)}
               placeholder="Admin secret..."
-              className="w-full border border-gray-200 dark:border-slate-600 rounded-xl px-4 py-3 text-sm bg-white dark:bg-slate-700 text-gray-900 dark:text-slate-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 mb-4"
+              className="w-full border border-gray-200 dark:border-slate-600 rounded-xl px-4 py-3 text-sm bg-white dark:bg-slate-700 text-gray-900 dark:text-slate-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-accent-500 mb-4"
               autoFocus
             />
             <button
               type="submit"
               disabled={!secret}
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-xl text-sm transition-colors disabled:opacity-50"
+              className="w-full bg-accent-600 hover:bg-accent-700 text-white font-semibold py-3 rounded-xl text-sm transition-colors disabled:opacity-50"
             >
               Enter
             </button>
@@ -174,7 +174,7 @@ export default function AdminPage() {
                 value={title}
                 onChange={e => setTitle(e.target.value)}
                 placeholder="e.g. 10 Ways to Save Money Every Month"
-                className="w-full border border-gray-200 dark:border-slate-600 rounded-xl px-4 py-3 text-sm bg-white dark:bg-slate-700 text-gray-900 dark:text-slate-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full border border-gray-200 dark:border-slate-600 rounded-xl px-4 py-3 text-sm bg-white dark:bg-slate-700 text-gray-900 dark:text-slate-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-accent-500"
               />
             </div>
 
@@ -183,7 +183,7 @@ export default function AdminPage() {
               <select
                 value={category}
                 onChange={e => setCategory(e.target.value)}
-                className="w-full border border-gray-200 dark:border-slate-600 rounded-xl px-4 py-3 text-sm bg-white dark:bg-slate-700 text-gray-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full border border-gray-200 dark:border-slate-600 rounded-xl px-4 py-3 text-sm bg-white dark:bg-slate-700 text-gray-900 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-accent-500"
               >
                 {CATEGORIES.map(c => (
                   <option key={c.slug} value={c.slug}>{c.label}</option>
@@ -200,7 +200,7 @@ export default function AdminPage() {
                     key={s}
                     type="button"
                     onClick={() => setTitle(s)}
-                    className="text-xs bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 px-3 py-1.5 rounded-full hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
+                    className="text-xs bg-accent-50 dark:bg-accent-900/30 text-accent-700 dark:text-accent-300 px-3 py-1.5 rounded-full hover:bg-accent-100 dark:hover:bg-accent-900/50 transition-colors"
                   >
                     {s}
                   </button>
@@ -211,7 +211,7 @@ export default function AdminPage() {
             <button
               type="submit"
               disabled={loading || !title.trim()}
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-xl text-sm transition-colors disabled:opacity-50 flex items-center justify-center gap-2"
+              className="w-full bg-accent-600 hover:bg-accent-700 text-white font-semibold py-3 rounded-xl text-sm transition-colors disabled:opacity-50 flex items-center justify-center gap-2"
             >
               {loading ? (
                 <>
@@ -236,13 +236,13 @@ export default function AdminPage() {
                 onChange={e => setBatchText(e.target.value)}
                 rows={8}
                 placeholder={`How to Start Investing | finance\n10 Foods That Boost Energy | health\nBest Laptops for Students 2025 | technology\nHow to Meal Prep for the Week | food`}
-                className="w-full border border-gray-200 dark:border-slate-600 rounded-xl px-4 py-3 text-sm bg-white dark:bg-slate-700 text-gray-900 dark:text-slate-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 font-mono"
+                className="w-full border border-gray-200 dark:border-slate-600 rounded-xl px-4 py-3 text-sm bg-white dark:bg-slate-700 text-gray-900 dark:text-slate-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-accent-500 font-mono"
               />
             </div>
             <button
               type="submit"
               disabled={loading || !batchText.trim()}
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-xl text-sm transition-colors disabled:opacity-50 flex items-center justify-center gap-2"
+              className="w-full bg-accent-600 hover:bg-accent-700 text-white font-semibold py-3 rounded-xl text-sm transition-colors disabled:opacity-50 flex items-center justify-center gap-2"
             >
               {loading ? (
                 <>
@@ -264,7 +264,7 @@ export default function AdminPage() {
               {[
                 { label: 'Total', value: calendarStats.total, color: 'text-gray-700 dark:text-slate-300' },
                 { label: 'Done', value: calendarStats.done, color: 'text-green-600 dark:text-green-400' },
-                { label: 'Remaining', value: calendarStats.remaining, color: 'text-blue-600 dark:text-blue-400' },
+                { label: 'Remaining', value: calendarStats.remaining, color: 'text-accent-600 dark:text-accent-400' },
               ].map(s => (
                 <div key={s.label} className="flex-1 bg-gray-50 dark:bg-slate-700 rounded-xl p-4 text-center">
                   <p className={`text-2xl font-black ${s.color}`}>{s.value}</p>
@@ -287,8 +287,8 @@ export default function AdminPage() {
                     onClick={() => setAutoCount(n)}
                     className={`flex-1 py-2.5 rounded-xl text-sm font-semibold transition-colors border ${
                       autoCount === n
-                        ? 'bg-blue-600 text-white border-blue-600'
-                        : 'bg-white dark:bg-slate-700 text-gray-700 dark:text-slate-300 border-gray-200 dark:border-slate-600 hover:border-blue-400'
+                        ? 'bg-accent-600 text-white border-accent-600'
+                        : 'bg-white dark:bg-slate-700 text-gray-700 dark:text-slate-300 border-gray-200 dark:border-slate-600 hover:border-accent-400'
                     }`}
                   >
                     {n}
@@ -303,7 +303,7 @@ export default function AdminPage() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-xl text-sm transition-colors disabled:opacity-50 flex items-center justify-center gap-2"
+              className="w-full bg-accent-600 hover:bg-accent-700 text-white font-semibold py-3 rounded-xl text-sm transition-colors disabled:opacity-50 flex items-center justify-center gap-2"
             >
               {loading ? (
                 <>
@@ -341,7 +341,7 @@ export default function AdminPage() {
                       href={r.url}
                       target="_blank"
                       rel="noreferrer"
-                      className="text-xs text-blue-600 dark:text-blue-400 hover:underline"
+                      className="text-xs text-accent-600 dark:text-accent-400 hover:underline"
                     >
                       View →
                     </a>

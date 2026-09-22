@@ -47,7 +47,7 @@ export default function TableOfContents({ headings }: { headings: Heading[] }) {
                   block text-sm py-1 transition-colors leading-snug
                   ${level === 3 ? 'pl-3 border-l border-gray-200 dark:border-slate-600' : ''}
                   ${activeId === id
-                    ? 'text-blue-600 dark:text-blue-400 font-medium'
+                    ? 'text-accent-600 dark:text-accent-400 font-medium'
                     : 'text-gray-500 dark:text-slate-400 hover:text-gray-800 dark:hover:text-slate-200'
                   }
                 `}

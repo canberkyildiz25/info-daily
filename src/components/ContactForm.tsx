@@ -25,7 +25,7 @@ export default function ContactForm() {
           name="name"
           required
           placeholder="Your name"
-          className="w-full px-4 py-2.5 border border-gray-300 dark:border-slate-600 dark:bg-slate-800 dark:text-white rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm"
+          className="w-full px-4 py-2.5 border border-gray-300 dark:border-slate-600 dark:bg-slate-800 dark:text-white rounded-xl focus:outline-none focus:ring-2 focus:ring-accent-500 focus:border-transparent text-sm"
         />
         <ValidationError field="name" prefix="Name" errors={state.errors} className="text-red-500 text-xs mt-1" />
       </div>
@@ -38,7 +38,7 @@ export default function ContactForm() {
           name="email"
           required
           placeholder="your@email.com"
-          className="w-full px-4 py-2.5 border border-gray-300 dark:border-slate-600 dark:bg-slate-800 dark:text-white rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm"
+          className="w-full px-4 py-2.5 border border-gray-300 dark:border-slate-600 dark:bg-slate-800 dark:text-white rounded-xl focus:outline-none focus:ring-2 focus:ring-accent-500 focus:border-transparent text-sm"
         />
         <ValidationError field="email" prefix="Email" errors={state.errors} className="text-red-500 text-xs mt-1" />
       </div>
@@ -48,7 +48,7 @@ export default function ContactForm() {
         <select
           id="subject"
           name="subject"
-          className="w-full px-4 py-2.5 border border-gray-300 dark:border-slate-600 dark:bg-slate-800 dark:text-white rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm"
+          className="w-full px-4 py-2.5 border border-gray-300 dark:border-slate-600 dark:bg-slate-800 dark:text-white rounded-xl focus:outline-none focus:ring-2 focus:ring-accent-500 focus:border-transparent text-sm"
         >
           <option value="general">General question</option>
           <option value="correction">Article correction</option>
@@ -66,7 +66,7 @@ export default function ContactForm() {
           rows={6}
           required
           placeholder="Your message..."
-          className="w-full px-4 py-2.5 border border-gray-300 dark:border-slate-600 dark:bg-slate-800 dark:text-white rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm resize-none"
+          className="w-full px-4 py-2.5 border border-gray-300 dark:border-slate-600 dark:bg-slate-800 dark:text-white rounded-xl focus:outline-none focus:ring-2 focus:ring-accent-500 focus:border-transparent text-sm resize-none"
         />
         <ValidationError field="message" prefix="Message" errors={state.errors} className="text-red-500 text-xs mt-1" />
       </div>
@@ -78,7 +78,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={state.submitting}
-        className="w-full bg-blue-600 text-white font-semibold py-3 rounded-xl hover:bg-blue-700 disabled:opacity-60 disabled:cursor-not-allowed transition-colors"
+        className="w-full bg-accent-600 text-white font-semibold py-3 rounded-xl hover:bg-accent-700 disabled:opacity-60 disabled:cursor-not-allowed transition-colors"
       >
         {state.submitting ? 'Sending…' : 'Send Message'}
       </button>

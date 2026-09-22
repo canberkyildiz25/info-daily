@@ -16,7 +16,7 @@ export default function ContactPage() {
       </p>
       <p className="text-gray-500 dark:text-gray-400 text-sm mb-10">
         You can also reach us directly at{' '}
-        <a href="mailto:contact@infodaily.net" className="text-blue-600 hover:underline">
+        <a href="mailto:contact@infodaily.net" className="text-accent-600 hover:underline">
           contact@infodaily.net
         </a>
       </p>

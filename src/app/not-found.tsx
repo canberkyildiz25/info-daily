@@ -80,7 +80,7 @@ export default function NotFound() {
       <h1
         className="text-[96px] font-extrabold leading-none tracking-tight mb-2"
         style={{
-          background: 'linear-gradient(135deg, #60a5fa 0%, #22d3ee 100%)',
+          background: 'linear-gradient(135deg, #4ab5c0 0%, #22d3ee 100%)',
           WebkitBackgroundClip: 'text',
           WebkitTextFillColor: 'transparent',
           backgroundClip: 'text',
@@ -97,7 +97,7 @@ export default function NotFound() {
       <Link
         href="/"
         className="px-7 py-3 rounded-full font-semibold text-sm transition-transform hover:scale-105 active:scale-95"
-        style={{ background: 'linear-gradient(135deg, #2563eb, #06b6d4)', color: '#fff' }}
+        style={{ background: '#007883', color: '#fff' }}
       >
         Back to Home
       </Link>

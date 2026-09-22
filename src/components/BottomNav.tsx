@@ -21,7 +21,7 @@ export default function BottomNav() {
           <Link
             href="/"
             className={`flex flex-col items-center gap-1 px-5 py-2 rounded-xl transition-colors ${
-              isHome ? 'text-blue-600 dark:text-blue-400' : 'text-gray-500 dark:text-slate-400'
+              isHome ? 'text-accent-600 dark:text-accent-400' : 'text-gray-500 dark:text-slate-400'
             }`}
           >
             <svg className="w-6 h-6" viewBox="0 0 24 24" fill={isHome ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth={isHome ? 0 : 1.8}>
@@ -45,7 +45,7 @@ export default function BottomNav() {
           <Link
             href="/videos"
             className={`flex flex-col items-center gap-1 px-4 py-2 rounded-xl transition-colors ${
-              isVideos ? 'text-blue-600 dark:text-blue-400' : 'text-gray-500 dark:text-slate-400'
+              isVideos ? 'text-accent-600 dark:text-accent-400' : 'text-gray-500 dark:text-slate-400'
             }`}
           >
             <svg className="w-6 h-6" viewBox="0 0 24 24" fill={isVideos ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth={isVideos ? 0 : 1.8}>
@@ -58,7 +58,7 @@ export default function BottomNav() {
           <Link
             href="/games"
             className={`flex flex-col items-center gap-1 px-4 py-2 rounded-xl transition-colors ${
-              isGames ? 'text-blue-600 dark:text-blue-400' : 'text-gray-500 dark:text-slate-400'
+              isGames ? 'text-accent-600 dark:text-accent-400' : 'text-gray-500 dark:text-slate-400'
             }`}
           >
             <svg className="w-6 h-6" viewBox="0 0 24 24" fill={isGames ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth={isGames ? 0 : 1.8}>
@@ -97,7 +97,7 @@ export default function BottomNav() {
                   key={cat.slug}
                   href={`/category/${cat.slug}`}
                   onClick={() => setShowCats(false)}
-                  className="flex items-center gap-2.5 p-3 rounded-xl bg-gray-50 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-slate-700 text-gray-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                  className="flex items-center gap-2.5 p-3 rounded-xl bg-gray-50 dark:bg-slate-800 hover:bg-accent-50 dark:hover:bg-slate-700 text-gray-700 dark:text-slate-300 hover:text-accent-600 dark:hover:text-accent-400 transition-colors"
                 >
                   <CategoryIcon slug={cat.slug} size={22} />
                   <span className="text-sm font-medium leading-snug">{cat.label}</span>

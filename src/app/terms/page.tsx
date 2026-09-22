@@ -78,7 +78,7 @@ export default function TermsPage() {
 
         <h2>10. Contact</h2>
         <p>
-          If you have questions about these terms, please reach out through our <a href="/contact" className="text-blue-600 hover:underline">Contact page</a>.
+          If you have questions about these terms, please reach out through our <a href="/contact" className="text-accent-600 hover:underline">Contact page</a>.
         </p>
       </div>
     </div>

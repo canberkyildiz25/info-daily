@@ -10,7 +10,7 @@ const BRAND = {
   ink: '#0d1117',
   muted: '#5a6270',
   rule: '#d8d4cb',
-  accent: '#1a3fa8',
+  accent: '#007883',
 };
 
 export default function OGImage() {

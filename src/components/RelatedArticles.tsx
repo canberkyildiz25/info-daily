@@ -57,7 +57,7 @@ export default async function RelatedArticles({ currentSlug, currentCategory, cu
         </h2>
         <Link
           href={`/category/${currentCategory}`}
-          className="text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-1 min-h-11"
+          className="text-sm font-semibold text-accent-600 dark:text-accent-400 hover:underline inline-flex items-center gap-1 min-h-11"
         >
           {currentCat ? <CategoryIcon slug={currentCat.slug} size={16} /> : null} Browse all {totalInCategory} {currentCat?.label} articles →
         </Link>
@@ -91,10 +91,10 @@ export default async function RelatedArticles({ currentSlug, currentCategory, cu
 
               {/* Content */}
               <div className="p-4">
-                <span className="text-xs font-semibold text-blue-600 dark:text-blue-400">
+                <span className="text-xs font-semibold text-accent-600 dark:text-accent-400">
                   {cat ? <CategoryIcon slug={cat.slug} size={14} /> : null} {cat?.label}
                 </span>
-                <h3 className="mt-1 text-sm font-bold text-gray-900 dark:text-slate-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2 leading-snug">
+                <h3 className="mt-1 text-sm font-bold text-gray-900 dark:text-slate-100 group-hover:text-accent-600 dark:group-hover:text-accent-400 transition-colors line-clamp-2 leading-snug">
                   {post.title}
                 </h3>
                 <p className="mt-1 text-xs text-gray-400 dark:text-slate-500">{post.readingTime}</p>

@@ -79,7 +79,7 @@ export default function SubscribePopup() {
             <div className="text-4xl mb-3">🎉</div>
             <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-2">You're in!</h2>
             <p className="text-gray-500 dark:text-gray-400 text-sm mb-6">Check your inbox for a welcome email. We'll send you the best articles every day.</p>
-            <button onClick={dismiss} className="px-6 py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl transition-colors text-sm">
+            <button onClick={dismiss} className="px-6 py-2.5 bg-accent-600 hover:bg-accent-700 text-white font-semibold rounded-xl transition-colors text-sm">
               Continue Reading
             </button>
           </div>
@@ -102,12 +102,12 @@ export default function SubscribePopup() {
                 onChange={e => setEmail(e.target.value)}
                 placeholder="your@email.com"
                 required
-                className="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-slate-600 dark:bg-slate-700 dark:text-white placeholder-gray-400 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors"
+                className="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-slate-600 dark:bg-slate-700 dark:text-white placeholder-gray-400 text-sm focus:outline-none focus:ring-2 focus:ring-accent-500 transition-colors"
               />
               <button
                 type="submit"
                 disabled={status === 'loading'}
-                className="w-full py-3 bg-blue-600 hover:bg-blue-700 disabled:opacity-60 text-white font-semibold rounded-xl transition-colors text-sm"
+                className="w-full py-3 bg-accent-600 hover:bg-accent-700 disabled:opacity-60 text-white font-semibold rounded-xl transition-colors text-sm"
               >
                 {status === 'loading' ? 'Subscribing…' : 'Subscribe — It\'s Free'}
               </button>

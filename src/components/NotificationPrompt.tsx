@@ -74,7 +74,7 @@ export default function NotificationPrompt() {
       {(state === 'visible' || state === 'loading') && (
         <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-2xl border border-gray-200 dark:border-slate-700 p-4 flex items-start gap-3">
           {/* Icon */}
-          <div className="shrink-0 w-10 h-10 rounded-xl bg-blue-50 dark:bg-blue-900/30 flex items-center justify-center text-xl">
+          <div className="shrink-0 w-10 h-10 rounded-xl bg-accent-50 dark:bg-accent-900/30 flex items-center justify-center text-xl">
             🔔
           </div>
 
@@ -92,7 +92,7 @@ export default function NotificationPrompt() {
               <button
                 onClick={handleAllow}
                 disabled={state === 'loading'}
-                className="flex-1 px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-700 disabled:opacity-60 text-white text-xs font-semibold transition-colors"
+                className="flex-1 px-3 py-1.5 rounded-lg bg-accent-600 hover:bg-accent-700 disabled:opacity-60 text-white text-xs font-semibold transition-colors"
               >
                 {state === 'loading' ? 'Enabling…' : 'Allow notifications'}
               </button>

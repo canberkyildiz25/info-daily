@@ -25,9 +25,9 @@ export async function POST(req: NextRequest) {
       subject: 'Welcome to InfoDaily! 🎉',
       html: `
         <div style="font-family:sans-serif;max-width:560px;margin:0 auto;padding:32px;background:#f9fafb;border-radius:12px">
-          <h1 style="color:#1d4ed8;font-size:28px;margin-bottom:8px">Welcome to InfoDaily!</h1>
+          <h1 style="color:#00636c;font-size:28px;margin-bottom:8px">Welcome to InfoDaily!</h1>
           <p style="color:#374151;font-size:16px;line-height:1.6">You're now subscribed to our daily newsletter. Every day you'll receive the <strong>Article of the Day</strong> — a practical technology or gaming guide.</p>
-          <a href="https://www.infodaily.net" style="display:inline-block;margin-top:24px;padding:12px 28px;background:#2563eb;color:#fff;border-radius:8px;text-decoration:none;font-weight:600">Visit InfoDaily →</a>
+          <a href="https://www.infodaily.net" style="display:inline-block;margin-top:24px;padding:12px 28px;background:#007883;color:#fff;border-radius:8px;text-decoration:none;font-weight:600">Visit InfoDaily →</a>
           <p style="color:#9ca3af;font-size:12px;margin-top:32px">You can unsubscribe at any time.</p>
         </div>
       `,

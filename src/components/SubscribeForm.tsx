@@ -58,12 +58,12 @@ export default function SubscribeForm() {
                focus-visible halkası da geri geldi: focus:outline-none tek
                başına bırakılmış, yerine sadece kenarlık rengi konmuştu, ki o
                klavyeyle gezen için yeterli bir işaret değil. */
-            className="flex-1 min-w-0 px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-white placeholder-gray-500 text-sm transition-colors focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400 focus:border-blue-500"
+            className="flex-1 min-w-0 px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-white placeholder-gray-500 text-sm transition-colors focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-400 focus:border-accent-500"
           />
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold rounded-lg transition-colors disabled:opacity-50 whitespace-nowrap"
+            className="px-4 py-2 bg-accent-600 hover:bg-accent-700 text-white text-sm font-semibold rounded-lg transition-colors disabled:opacity-50 whitespace-nowrap"
           >
             {status === 'loading' ? '...' : 'Subscribe'}
           </button>

@@ -130,8 +130,8 @@ export default function ArticleTranslator({ slug, originalTitle, originalExcerpt
             disabled={loading}
             className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold transition-all ${
               currentLang === lang.code
-                ? 'bg-blue-600 text-white shadow-sm'
-                : 'bg-gray-100 dark:bg-slate-800 text-gray-600 dark:text-slate-400 hover:bg-blue-50 dark:hover:bg-slate-700 hover:text-blue-600 dark:hover:text-blue-400'
+                ? 'bg-accent-600 text-white shadow-sm'
+                : 'bg-gray-100 dark:bg-slate-800 text-gray-600 dark:text-slate-400 hover:bg-accent-50 dark:hover:bg-slate-700 hover:text-accent-600 dark:hover:text-accent-400'
             } disabled:opacity-50`}
           >
             <span>{lang.flag}</span>
@@ -143,7 +143,7 @@ export default function ArticleTranslator({ slug, originalTitle, originalExcerpt
       {/* Loading */}
       {loading && (
         <div className="flex items-center gap-3 py-6 text-gray-500 dark:text-slate-400">
-          <span className="w-5 h-5 border-2 border-blue-600/30 border-t-blue-600 rounded-full animate-spin flex-shrink-0" />
+          <span className="w-5 h-5 border-2 border-accent-600/30 border-t-accent-600 rounded-full animate-spin flex-shrink-0" />
           <span className="text-sm">Translating article... (~15 seconds)</span>
         </div>
       )}
@@ -157,7 +157,7 @@ export default function ArticleTranslator({ slug, originalTitle, originalExcerpt
 
       {/* Translated Title & Excerpt */}
       {current && currentLang !== 'en' && !loading && (
-        <div className="mb-6 p-4 bg-blue-50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800 rounded-xl">
+        <div className="mb-6 p-4 bg-accent-50 dark:bg-accent-900/20 border border-accent-100 dark:border-accent-800 rounded-xl">
           <h1 className="text-2xl sm:text-3xl font-black text-gray-900 dark:text-slate-100 leading-tight mb-2">
             {current.title}
           </h1>
@@ -167,7 +167,7 @@ export default function ArticleTranslator({ slug, originalTitle, originalExcerpt
 
       {/* Article Content — always show something */}
       <div
-        className="prose prose-lg prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-slate-100 prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-strong:text-gray-900 dark:prose-strong:text-slate-100"
+        className="prose prose-lg prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-slate-100 prose-a:text-accent-600 dark:prose-a:text-accent-400 prose-strong:text-gray-900 dark:prose-strong:text-slate-100"
         dangerouslySetInnerHTML={{ __html: current?.content ?? originalContent }}
       />
     </>

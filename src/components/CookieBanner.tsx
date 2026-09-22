@@ -58,7 +58,7 @@ export default function CookieBanner() {
           <div className="flex-1 min-w-0">
             <p className="text-sm text-gray-600 dark:text-slate-300 leading-relaxed">
               We use cookies to improve your experience and show relevant content. See our{' '}
-              <Link href="/privacy-policy" className="text-blue-600 dark:text-blue-400 underline hover:no-underline">
+              <Link href="/privacy-policy" className="text-accent-600 dark:text-accent-400 underline hover:no-underline">
                 Privacy Policy
               </Link>
               .
@@ -77,13 +77,13 @@ export default function CookieBanner() {
           <div className="flex gap-2 shrink-0 w-full sm:w-auto">
             <button
               onClick={decline}
-              className="flex-1 sm:flex-none min-h-11 px-4 text-sm text-gray-600 dark:text-slate-400 hover:text-gray-900 dark:hover:text-white border border-gray-200 dark:border-slate-600 rounded-xl transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+              className="flex-1 sm:flex-none min-h-11 px-4 text-sm text-gray-600 dark:text-slate-400 hover:text-gray-900 dark:hover:text-white border border-gray-200 dark:border-slate-600 rounded-xl transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-600"
             >
               Decline
             </button>
             <button
               onClick={accept}
-              className="flex-1 sm:flex-none min-h-11 px-5 text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-xl transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+              className="flex-1 sm:flex-none min-h-11 px-5 text-sm font-semibold text-white bg-accent-600 hover:bg-accent-700 rounded-xl transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-600"
             >
               Accept
             </button>

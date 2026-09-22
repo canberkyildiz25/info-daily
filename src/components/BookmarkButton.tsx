@@ -52,8 +52,8 @@ export default function BookmarkButton({ slug, category, title, excerpt, date }:
       title={saved ? 'Remove bookmark' : 'Save article'}
       className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-xs font-semibold transition-colors ${
         saved
-          ? 'bg-blue-50 dark:bg-blue-900/30 border-blue-300 dark:border-blue-700 text-blue-600 dark:text-blue-400'
-          : 'bg-white dark:bg-slate-800 border-gray-200 dark:border-slate-600 text-gray-500 dark:text-slate-400 hover:border-blue-300 dark:hover:border-blue-600'
+          ? 'bg-accent-50 dark:bg-accent-900/30 border-accent-300 dark:border-accent-700 text-accent-600 dark:text-accent-400'
+          : 'bg-white dark:bg-slate-800 border-gray-200 dark:border-slate-600 text-gray-500 dark:text-slate-400 hover:border-accent-300 dark:hover:border-accent-600'
       }`}
     >
       <svg className="w-3.5 h-3.5" fill={saved ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">

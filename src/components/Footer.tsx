@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="mb-3 leading-none">
-              <span className="font-black text-xl text-blue-400" style={{ fontFamily: 'var(--font-serif)' }}>Info</span>
+              <span className="font-black text-xl text-accent-400" style={{ fontFamily: 'var(--font-serif)' }}>Info</span>
               <span className="font-black text-xl text-white">Daily</span>
               <span className="text-sm font-normal text-gray-300">.net</span>
             </h3>
