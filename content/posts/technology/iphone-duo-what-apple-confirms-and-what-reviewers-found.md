@@ -4,6 +4,7 @@ excerpt: "Apple's first foldable iPhone starts at $1,999 and tops out at $3,199.
 date: "2026-09-21"
 updatedAt: "2026-09-21"
 author: "InfoDaily Editorial Team"
+coverImage: "https://images.pexels.com/photos/4313857/pexels-photo-4313857.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 tags: ["iPhone Duo", "foldable phone", "Apple", "Galaxy Z Fold 8", "smartphone buying guide"]
 ---
 

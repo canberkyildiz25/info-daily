@@ -4,6 +4,7 @@ excerpt: "Valve's wireless VR headset launched at $1,059. Reviewers agree it is 
 date: "2026-09-21"
 updatedAt: "2026-09-21"
 author: "InfoDaily Editorial Team"
+coverImage: "https://images.pexels.com/photos/5207559/pexels-photo-5207559.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 tags: ["Steam Frame", "Valve", "VR headset", "PC gaming", "gaming hardware"]
 ---
 
