@@ -3,6 +3,7 @@ title: "What Is Apple's New Foundation Models? A Guide to On-Device and Cloud AI
 excerpt: "Apple's Foundation Models power on-device and cloud AI across every Apple product. Discover how they work and why they matter for your privacy."
 date: "2026-06-12"
 author: "InfoDaily Editorial Team"
+coverImage: "https://images.pexels.com/photos/20870805/pexels-photo-20870805.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 tags: ["Apple Foundation Models", "Apple Intelligence", "on-device AI", "cloud AI", "Apple AI privacy"]
 ---
 
