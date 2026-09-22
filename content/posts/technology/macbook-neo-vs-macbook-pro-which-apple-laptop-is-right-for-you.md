@@ -4,7 +4,6 @@ excerpt: "Apple's MacBook Neo shakes up the laptop lineup — but does it dethro
 date: "2026-06-13"
 updatedAt: "2026-09-21"
 author: "InfoDaily Editorial Team"
-coverImage: "https://picsum.photos/seed/176/800/450"
 tags: ["MacBook Neo", "MacBook Pro", "Apple laptops", "MacBook comparison", "tech buying guide"]
 ---
 

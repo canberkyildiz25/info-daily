@@ -3,7 +3,6 @@ title: "WhatsApp Multi-Account Support on iOS: Everything You Need to Know"
 excerpt: "Juggling two WhatsApp accounts on your iPhone is finally seamless. Here's how multi-account support works on iOS and why it changes everything."
 date: "2026-06-12"
 author: "InfoDaily Editorial Team"
-coverImage: "https://picsum.photos/seed/272/800/450"
 tags: ["WhatsApp", "iOS", "multi-account", "iPhone tips", "messaging apps"]
 ---
 
