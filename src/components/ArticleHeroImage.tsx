@@ -7,13 +7,13 @@ import Image from 'next/image';
 interface ArticleHeroImageProps {
   src: string | null;
   alt: string;
-  gradient: string;
+  tint: string;
   /* Emoji yerine kategori slug’i: ikonu bileşen kendi çiziyor. */
   categorySlug?: string;
   objectPosition?: string;
 }
 
-export default function ArticleHeroImage({ src, alt, gradient, categorySlug, objectPosition = 'center' }: ArticleHeroImageProps) {
+export default function ArticleHeroImage({ src, alt, tint, categorySlug, objectPosition = 'center' }: ArticleHeroImageProps) {
   const [imageError, setImageError] = useState(false);
 
   return (
@@ -30,7 +30,7 @@ export default function ArticleHeroImage({ src, alt, gradient, categorySlug, obj
           onError={() => setImageError(true)}
         />
       ) : (
-        <div className={`bg-gradient-to-br ${gradient} h-full flex items-center justify-center`}>
+        <div className={`${tint} h-full flex items-center justify-center`}>
           {categorySlug ? <CategoryIcon slug={categorySlug} size={84} className="text-white/60" /> : null}
         </div>
       )}

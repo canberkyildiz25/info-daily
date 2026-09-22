@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import CategoryIcon from './CategoryIcon';
+import AuthorBadge from './AuthorBadge';
 import Image from 'next/image';
 import type { Post } from '@/lib/posts';
 import { CATEGORIES } from '@/lib/categories';
-import { getAuthorByName, authorNameToSlug } from '@/lib/authors';
 
 interface ArticleCardProps {
   post: Post;
@@ -27,7 +27,6 @@ function isNew(dateStr: string) {
 export default function ArticleCard({ post, featured = false, imagePriority = false }: ArticleCardProps) {
   const category = CATEGORIES.find(c => c.slug === post.category);
   const tint = CATEGORY_TINT[post.category] ?? 'bg-[var(--accent)]';
-  const author = getAuthorByName(post.author);
   const fresh = isNew(post.date);
 
   if (featured) {
@@ -86,13 +85,7 @@ export default function ArticleCard({ post, featured = false, imagePriority = fa
             {/* Footer: author + read link */}
             <div className="flex items-center justify-between mt-auto pt-3 border-t border-[var(--border)]">
               <div className="flex items-center gap-2 min-w-0">
-                <img
-                  src={author?.avatar ?? '/logo.svg'}
-                  alt={post.author}
-                  className="w-6 h-6 rounded-full object-cover flex-shrink-0"
-                  loading="lazy"
-                  fetchPriority="low"
-                />
+                <AuthorBadge name={post.author} size={24} />
                 <span className="text-xs text-[var(--text-muted)] truncate font-medium">{post.author}</span>
               </div>
               <span className="text-xs font-bold text-[var(--accent)] flex items-center gap-1 group-hover:gap-2 transition-all duration-200 shrink-0 ml-2 tracking-wide">

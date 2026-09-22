@@ -57,7 +57,7 @@ export default async function RelatedArticles({ currentSlug, currentCategory, cu
         </h2>
         <Link
           href={`/category/${currentCategory}`}
-          className="text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline flex items-center gap-1"
+          className="text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-1 min-h-11"
         >
           {currentCat ? <CategoryIcon slug={currentCat.slug} size={16} /> : null} Browse all {totalInCategory} {currentCat?.label} articles →
         </Link>
