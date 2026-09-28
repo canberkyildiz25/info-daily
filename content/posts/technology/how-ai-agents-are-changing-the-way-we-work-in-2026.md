@@ -1,5 +1,5 @@
 ---
-title: "How AI Agents Are Changing the Way We Work in 2026"
+title: "How AI Agents Are Changing the Way We Work"
 excerpt: "AI agents can now browse the web, write code, send emails, and manage schedules on your behalf. Here's what's actually useful today and what to watch for."
 date: "2026-04-17"
 updatedAt: "2026-05-18"

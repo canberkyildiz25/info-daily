@@ -69,7 +69,7 @@ The most important factor in a VPN isn't speed or price — it's trust. A dishon
 
 **Avoid:** Any free VPN without a clear business model. They monetize by selling your data — the very thing you're trying to protect.
 
-## The Bottom Line
+## Who Needs a VPN and Who Doesn't
 
 **You need a VPN if you:**
 - Frequently use public Wi-Fi

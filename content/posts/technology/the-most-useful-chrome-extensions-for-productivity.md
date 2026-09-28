@@ -109,7 +109,7 @@ Follow this approach instead:
 3. **Review quarterly** — Set a calendar reminder to prune extensions every three months.
 4. **Use profiles** — Chrome lets you create separate profiles, each with its own set of extensions. Use a lean profile for focused work and a more feature-rich one for research or personal browsing.
 
-## The Bottom Line
+## Add One or Two, Then Build From There
 
 The best Chrome extensions are the ones that quietly remove friction from your day. They block distractions before temptation strikes, organize chaos into clean workspaces, and automate the tedious tasks that chip away at your mental energy. Start with one or two from this list that address your biggest pain points, give them a week, and then build from there. Your future self — the one with fewer tabs and more focus — will thank you.
 

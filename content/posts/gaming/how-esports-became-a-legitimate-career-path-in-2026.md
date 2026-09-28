@@ -1,5 +1,5 @@
 ---
-title: "How Esports Became a Legitimate Career Path in 2026"
+title: "How Esports Became a Legitimate Career Path"
 excerpt: "Beyond the pro players, esports now supports coaches, analysts, and broadcasters in careers that barely existed a decade ago."
 date: "2026-07-12"
 updatedAt: "2026-07-12"
@@ -43,7 +43,7 @@ For people seriously considering an esports career beyond playing competitively,
 3. **Get involved with amateur or collegiate scenes first** — most professional roles are filled from people who proved themselves at lower competitive tiers
 4. **Stay adaptable across games** — being known for skills that transfer across titles (analytics, shoutcasting, coaching philosophy) is more durable than expertise in a single game that may decline in popularity
 
-## The Bottom Line
+## The Durable Careers Are in the Support Roles
 
 Esports in 2026 has moved well past the "is this a real career" conversation. What's changed isn't primarily player salaries — it's the depth and stability of the ecosystem surrounding competitive play: education pathways, broadcasting infrastructure, and support roles that offer more durable careers than the spotlight positions ever did.
 

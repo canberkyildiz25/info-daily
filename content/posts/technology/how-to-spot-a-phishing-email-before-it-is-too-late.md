@@ -107,7 +107,7 @@ Spotting phishing isn't a one-time skill — it's an ongoing habit. Here are som
 - **Educate your household and coworkers.** Phishing works because it only takes one person to click. Make awareness a shared responsibility.
 - **Stay informed.** Phishing tactics evolve constantly. Follow cybersecurity news and subscribe to alerts from organizations like the Cybersecurity and Infrastructure Security Agency (CISA).
 
-## The Bottom Line
+## Slow Down Before You Click
 
 Phishing emails are designed to exploit the moments when you're distracted, stressed, or simply moving too fast. The attackers behind them are counting on you not to pause, not to verify, and not to question. Your greatest defense isn't expensive software or IT expertise — it's the habit of slowing down and asking, "Does this feel right?"
 

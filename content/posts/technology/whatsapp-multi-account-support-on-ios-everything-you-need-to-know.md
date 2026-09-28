@@ -87,7 +87,7 @@ While multi-account support is a massive improvement, it's not without boundarie
 - **Widgets and Siri integration** currently default to your primary account. Switching the default requires going into WhatsApp settings.
 - **iPad support** for multi-account is still limited. WhatsApp's linked devices feature works, but true multi-account on iPad remains in beta as of mid-2026.
 
-## Final Thoughts
+## Worth Five Minutes to Set Up
 
 WhatsApp multi-account support on iOS is one of those features that feels overdue — but now that it's here, it's hard to imagine going back. Whether you're a freelancer separating client communication from personal chats, a dual-SIM user who's been waiting for this exact functionality, or simply someone who values a cleaner digital life, this feature delivers.
 

@@ -113,7 +113,7 @@ Practical steps to lighten the load:
 - **Use a tab management extension** like OneTab or The Great Suspender to automatically suspend inactive tabs.
 - **Consider switching browsers** — if Chrome is too heavy for your system, Firefox or Edge may perform better with fewer resources.
 
-## The Bottom Line
+## Make It a Monthly Ten-Minute Habit
 
 You don't need to spend money on new hardware or hire a technician to breathe new life into a slow computer. By tackling startup programs, freeing up disk space, managing resource-hungry processes, and keeping your software updated, you can achieve a noticeably faster machine in 10 minutes or less. The key is making these small optimizations part of your regular routine — a quick monthly checkup can prevent slowdowns from creeping back in. Your computer was fast once, and with a little attention, it can feel that way again.
 

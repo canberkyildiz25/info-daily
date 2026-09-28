@@ -101,7 +101,7 @@ This is one of the biggest decisions you'll make, and it often comes down to you
 
 Don't dismiss certified refurbished machines. Retailers like Amazon Renewed, Dell Refurbished, and Apple's own refurbished store sell laptops that look and perform like new, often at 20-30% discounts. A refurbished MacBook Air M3 for $650 or a refurbished ThinkPad for $300 can be an outstanding deal if you're willing to skip the shrink-wrap experience.
 
-## Final Thoughts
+## RAM, Storage, Battery and Screen Matter Most
 
 The student laptop market in 2026 rewards smart shoppers. You don't need to spend $1,000 to get a machine that handles everything college throws at you. Focus on the specs that matter — RAM, storage type, battery life, and display quality — and let your specific needs guide your choice. Whether you go with the all-around excellence of the Acer Aspire Go 15, the ultraportable Lenovo IdeaPad Slim 3, or the gorgeous OLED panel on the ASUS VivoBook 15, you're getting more laptop for less money than any previous generation of students ever did.
 

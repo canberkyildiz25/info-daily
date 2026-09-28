@@ -50,7 +50,7 @@ The goal isn't to game less for its own sake — it's to make sure gaming stays 
 3. Being honest about whether a session is genuine enjoyment or compulsive continuation
 4. Treating breaks as part of a session, not an interruption of it
 
-## The Bottom Line
+## Watch How You Feel, Not the Clock
 
 Healthy gaming isn't about hitting a specific hour limit — it's about staying aware of how gaming makes you feel and being willing to adjust when a pattern stops serving you. The games that are worth your time are the ones that leave you feeling better, not worse, when you put the controller down.
 

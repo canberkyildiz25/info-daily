@@ -1,5 +1,5 @@
 ---
-title: "The Best Free Productivity Apps of 2026"
+title: "The Best Free Productivity Apps"
 excerpt: "From AI-powered note-taking to smart calendar blocking, these free apps have quietly become essential tools for getting more done with less effort."
 date: "2026-06-19"
 author: "InfoDaily Editorial Team"

@@ -1,5 +1,5 @@
 ---
-title: "How to Build a Home Gaming Setup on a Tight Budget in 2026"
+title: "How to Build a Home Gaming Setup on a Tight Budget"
 excerpt: "You don't need $2,000 to build a setup you'll actually enjoy using. Here's where to spend, where to skip, and what to buy last."
 date: "2026-07-04"
 updatedAt: "2026-07-04"
@@ -56,7 +56,7 @@ A few popular "must-haves" are genuinely optional:
 
 For a complete, comfortable setup under $600 total: a used or previous-gen GPU-equipped PC or a current console (the bulk of the budget), a 144Hz 1080p monitor, a budget mechanical keyboard, a comfortable mouse, and headphones you already own or can find secondhand. That combination will outperform a flashier setup assembled with less intention.
 
-## The Bottom Line
+## Monitor and Chair First, Decoration Last
 
 A great gaming setup is about matching your spending to what actually changes your experience — responsiveness, comfort, and reliability — rather than chasing the aesthetic of a setup built for a YouTube thumbnail. Prioritize the monitor and chair, buy peripherals that fit your hands, and skip anything purely decorative until the essentials are covered.
 

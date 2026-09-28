@@ -76,7 +76,7 @@ In 2026, pre-built PCs have closed the value gap somewhat. Brands like CLX, Skyt
 
 If you've never built a PC, the process is more approachable than it seems. YouTube tutorials from channels like Linus Tech Tips and GamersNexus walk through every step, and the process typically takes two to three hours for a first-time builder.
 
-## The Bottom Line
+## A Ryzen 5 7600 and an RX 7600 XT or RTX 4060
 
 A $700 gaming PC in 2026 is a genuinely capable machine. The AMD Ryzen 5 7600 paired with an RX 7600 XT or RTX 4060 handles modern games at 1080p with comfort, and the platform has meaningful upgrade paths as your budget grows.
 
