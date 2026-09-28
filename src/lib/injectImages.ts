@@ -5,8 +5,8 @@ function stripTags(html: string): string {
 }
 
 function imageHtml(src: string, alt: string): string {
-  return `<figure class="my-8 rounded-2xl overflow-hidden not-prose">
-  <img src="${src}" alt="${alt}" loading="lazy" class="w-full object-cover max-h-80 rounded-2xl" />
+  return `<figure class="my-10 not-prose">
+  <img src="${src}" alt="${alt}" loading="lazy" class="w-full aspect-[16/9] object-cover" />
 </figure>`;
 }
 

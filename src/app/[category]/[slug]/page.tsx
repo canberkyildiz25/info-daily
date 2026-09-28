@@ -1,10 +1,11 @@
 import { getPost, getAllPosts, CATEGORIES, extractHeadings } from '@/lib/posts';
-import CategoryIcon from '@/components/CategoryIcon';
 import { InArticleAd, MultiplexAd, SidebarAd } from '@/components/AdBanner';
 import AuthorBadge from '@/components/AuthorBadge';
 import TableOfContents from '@/components/TableOfContents';
 import ArticleHeroImage from '@/components/ArticleHeroImage';
 import { getCoverImageUrl } from '@/lib/pexels';
+import { widePexels } from '@/lib/images';
+import { keepHyphenated } from '@/lib/typeset';
 import { injectInlineImages } from '@/lib/injectImages';
 import RelatedArticles from '@/components/RelatedArticles';
 import InternalLinks from '@/components/InternalLinks';
@@ -14,7 +15,6 @@ import BookmarkButton from '@/components/BookmarkButton';
 import ArticleEngagement from '@/components/ArticleEngagement';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import Image from 'next/image';
 import type { Metadata } from 'next';
 import { authorNameToSlug } from '@/lib/authors';
 import { extractFaqFromHtml, buildFaqJsonLd } from '@/lib/faq';
@@ -106,91 +106,103 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
 
   const headings = extractHeadings(contentWithLinks);
 
+  const published = new Date(post.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+  const updated = post.updatedAt && post.updatedAt !== post.date
+    ? new Date(post.updatedAt).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
+    : null;
+
+  /* Hallmark · macrostructure: Long Document · design.md § Macrostructure
+     Tek okuma sütunu (42rem, ~70 karakter), serif gövde, manşet sıkışık
+     görüntü yüzünde. Kenar boşluklarında yalnızca gezinme — içindekiler
+     solda — ve 1400 pikselin üstünde sağda tek bir reklam yuvası. Eskiden
+     sağ kenar çubuğunda kategori listesi kutusu da vardı; başlıktaki
+     menüyle aynı iki bağlantıyı tekrar ediyordu. */
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div>
       <ReadingProgress />
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        {/* Article */}
-        <article className="lg:col-span-2">
-          <ArticleEngagement category={category} slug={slug} />
-          {/* Breadcrumb */}
-          <nav className="flex items-center gap-2 text-sm text-gray-400 dark:text-slate-500 mb-6">
-            <Link href="/" className="hover:text-accent-600 dark:hover:text-accent-400 transition-colors">Home</Link>
-            <span>/</span>
-            <Link href={`/category/${category}`} className="hover:text-accent-600 dark:hover:text-accent-400 transition-colors">{cat?.label}</Link>
-            <span>/</span>
-            <span className="text-gray-600 dark:text-slate-400 truncate max-w-xs">{post.title}</span>
-          </nav>
+      <ArticleEngagement category={category} slug={slug} />
 
-          {/* Header */}
-          <header className="mb-8">
-            <div className="flex items-center gap-2 mb-3">
+      <header className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-10 pt-10 sm:pt-16">
+        <nav aria-label="Breadcrumb" className="type-label text-[var(--text-muted)] flex flex-wrap items-center gap-x-2">
+          <Link href="/" className="hover:text-[var(--text-base)] transition-colors">Home</Link>
+          <span aria-hidden>/</span>
+          <Link href={`/category/${category}`} className="text-[var(--accent)] hover:text-[var(--text-base)] transition-colors">{cat?.label}</Link>
+        </nav>
+
+        <h1 className="type-display type-display-l mt-6 max-w-[22ch] text-[var(--text-base)]">
+          {keepHyphenated(post.title)}
+        </h1>
+
+        <p className="reading mt-6 max-w-[40rem] text-[1.25rem] sm:text-[1.375rem] leading-[1.5] text-[var(--text-muted)]">
+          {post.excerpt}
+        </p>
+
+        <div className="mt-8 flex flex-wrap items-center justify-between gap-4 py-4 border-y border-[var(--border)]">
+          <div className="flex items-center gap-3 min-w-0">
+            <AuthorBadge name={post.author} size={36} />
+            <div className="min-w-0">
               <Link
-                href={`/category/${category}`}
-                className="bg-accent-100 dark:bg-accent-900/50 text-accent-700 dark:text-accent-300 text-xs font-semibold px-3 py-1 rounded-full hover:bg-accent-200 dark:hover:bg-accent-900 transition-colors"
+                href={`/author/${authorNameToSlug(post.author)}`}
+                className="text-[0.9375rem] font-semibold text-[var(--text-base)] hover:text-[var(--accent)] transition-colors"
               >
-                {cat ? <CategoryIcon slug={cat.slug} size={14} /> : null} {cat?.label}
+                {post.author}
               </Link>
-              <span className="text-gray-300 dark:text-slate-600">·</span>
-              <span className="text-gray-400 dark:text-slate-500 text-sm">{post.readingTime}</span>
+              <p className="type-label text-[var(--text-muted)]">
+                <time dateTime={post.date}>{published}</time>
+                {updated && <> · Updated <time dateTime={post.updatedAt}>{updated}</time></>}
+                {' · '}{post.readingTime}
+              </p>
             </div>
-
-            <h1 className="text-3xl sm:text-4xl font-black text-gray-900 dark:text-slate-100 leading-tight mb-4">
-              {post.title}
-            </h1>
-
-            <p className="text-xl text-gray-500 dark:text-slate-400 leading-relaxed mb-6">{post.excerpt}</p>
-
-            <div className="flex items-center justify-between pb-6 border-b border-gray-200 dark:border-slate-700">
-              <div className="flex items-center gap-3">
-                <AuthorBadge name={post.author} size={40} />
-                <div>
-                  <Link
-                    href={`/author/${authorNameToSlug(post.author)}`}
-                    className="text-sm font-semibold text-gray-800 dark:text-slate-200 hover:text-accent-600 dark:hover:text-accent-400 transition-colors"
-                  >
-                    {post.author}
-                  </Link>
-                  <p className="text-xs text-gray-400 dark:text-slate-500">
-                    Published {new Date(post.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
-                    {post.updatedAt && ` · Updated ${new Date(post.updatedAt).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}`}
-                  </p>
-                </div>
-              </div>
-              <BookmarkButton
-                slug={post.slug}
-                category={post.category}
-                title={post.title}
-                excerpt={post.excerpt}
-                date={post.date}
-              />
-            </div>
-          </header>
-
-          {/* Cover image / hero */}
-          <ArticleHeroImage
-            src={coverImage}
-            alt={post.title}
-            tint={tint}
-            categorySlug={cat?.slug}
-            objectPosition={post.imagePosition}
+          </div>
+          <BookmarkButton
+            slug={post.slug}
+            category={post.category}
+            title={post.title}
+            excerpt={post.excerpt}
+            date={post.date}
           />
+        </div>
+      </header>
 
-          {/* Article content */}
+      <div className="max-w-[90rem] mx-auto sm:px-6 lg:px-10 mt-8 sm:mt-10">
+        <ArticleHeroImage
+          src={coverImage ? widePexels(coverImage) : coverImage}
+          alt={post.title}
+          tint={tint}
+          categorySlug={cat?.slug}
+          objectPosition={post.imagePosition}
+        />
+      </div>
+
+      <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-10 mt-12 sm:mt-16 grid gap-x-12 lg:grid-cols-[14rem_minmax(0,42rem)] lg:justify-center min-[1400px]:grid-cols-[minmax(0,1fr)_42rem_minmax(0,1fr)]">
+        <aside className="hidden lg:block" aria-label="In this guide">
+          <div className="sticky top-24">
+            <TableOfContents headings={headings} />
+          </div>
+        </aside>
+
+        <article className="min-w-0">
+          {headings.length >= 2 && (
+            <details className="lg:hidden mb-10 border-y border-[var(--border)] group/toc">
+              <summary className="flex items-center justify-between min-h-12 cursor-pointer list-none type-label text-[var(--text-muted)]">
+                In this guide
+                <span aria-hidden className="text-lg leading-none transition-transform group-open/toc:rotate-45">+</span>
+              </summary>
+              <div className="pb-4"><TableOfContents headings={headings} bare /></div>
+            </details>
+          )}
+
           <div
-            className="prose prose-lg prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-slate-100 prose-a:text-accent-600 dark:prose-a:text-accent-400 prose-strong:text-gray-900 dark:prose-strong:text-slate-100"
+            className="article-body reading prose prose-lg max-w-none"
             dangerouslySetInnerHTML={{ __html: contentWithLinks }}
           />
 
-          {/* In-article ad after content */}
           <InArticleAd />
 
-          {/* Multiplex / related content ad at end of article */}
           <div className="mt-8">
             <MultiplexAd />
           </div>
 
-          {/* Internal links */}
           <InternalLinks
             currentSlug={post.slug}
             currentCategory={post.category}
@@ -267,59 +279,34 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
             />
           )}
 
-          {/* Share buttons */}
           <ShareButtons
             title={post.title}
             url={`https://www.infodaily.net/${category}/${slug}`}
             category={category}
           />
 
-          {/* Tags */}
           {post.tags.length > 0 && (
-            <div className="mt-8 pt-6 border-t border-gray-200 dark:border-slate-700">
-              <div className="flex flex-wrap gap-2">
-                {post.tags.map(tag => (
-                  <span key={tag} className="bg-gray-100 dark:bg-slate-800 text-gray-600 dark:text-slate-400 text-xs font-medium px-3 py-1 rounded-full">
-                    #{tag}
-                  </span>
-                ))}
-              </div>
-            </div>
+            <ul className="mt-6 flex flex-wrap gap-x-5 gap-y-1" aria-label="Topics">
+              {post.tags.map(tag => (
+                <li key={tag} className="type-label text-[var(--text-muted)]">{tag}</li>
+              ))}
+            </ul>
           )}
-
-          {/* Related articles */}
-          <RelatedArticles
-            currentSlug={post.slug}
-            currentCategory={post.category}
-            currentTags={post.tags}
-          />
-
         </article>
 
-        {/* Sidebar */}
-        <aside className="space-y-6">
-          <div className="sticky top-24 space-y-6">
-            <TableOfContents headings={headings} />
+        <aside className="hidden min-[1400px]:block" aria-label="Advertisement">
+          <div className="sticky top-24 ml-auto max-w-[300px]">
+            <SidebarAd />
           </div>
-
-          <SidebarAd />
-
-          <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm p-5">
-            <h3 className="font-bold text-gray-900 dark:text-slate-100 mb-4">Browse Categories</h3>
-            <div className="space-y-1">
-              {CATEGORIES.map(c => (
-                <Link
-                  key={c.slug}
-                  href={`/category/${c.slug}`}
-                  className="flex items-center gap-2 min-h-11 px-3 rounded-lg hover:bg-accent-50 dark:hover:bg-slate-700 text-sm text-gray-700 dark:text-slate-300 hover:text-accent-600 dark:hover:text-accent-400 font-medium transition-colors"
-                >
-                  <CategoryIcon slug={c.slug} size={14} /> {c.label}
-                </Link>
-              ))}
-            </div>
-          </div>
-
         </aside>
+      </div>
+
+      <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-10">
+        <RelatedArticles
+          currentSlug={post.slug}
+          currentCategory={post.category}
+          currentTags={post.tags}
+        />
       </div>
     </div>
   );

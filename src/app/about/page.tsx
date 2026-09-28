@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import PageHead from '@/components/PageHead';
+import { CATEGORIES } from '@/lib/categories';
 import Link from 'next/link';
 import { getAllPosts } from '@/lib/posts';
 
@@ -58,26 +60,21 @@ export default function AboutPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ORGANIZATION_SCHEMA) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(WEBPAGE_SCHEMA) }} />
 
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <h1 className="text-4xl font-black text-gray-900 dark:text-white mb-3">About InfoDaily</h1>
-        <p className="text-gray-500 dark:text-gray-400 text-lg mb-10">Practical guides and timely explainers for everyday decisions.</p>
+      {/* Dört eşit kutulu "güven şeridi" kaldırıldı: biri elle yazılmış
+          "11 Subject areas covered" idi — site iki bölüme indiğinden beri
+          yanlış. Sayılar arşivden okunuyor, tek satırda. */}
+      <PageHead
+        label="About"
+        title="About InfoDaily"
+        intro="Practical guides and timely explainers for the technology and games you already own."
+      >
+        <p className="type-label mt-6 text-[var(--text-muted)] tabular-nums">
+          {articleCount} guides · {CATEGORIES.length} sections · free to read
+        </p>
+      </PageHead>
 
-        {/* Trust signals bar */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-12 not-prose">
-          {[
-            { number: '11', label: 'Subject areas covered' },
-            { number: String(articleCount), label: 'Articles published' },
-            { number: 'Open', label: 'Sources linked where relevant' },
-            { number: 'Free', label: 'Access for every reader' },
-          ].map(({ number, label }) => (
-            <div key={label} className="bg-accent-50 dark:bg-slate-800 rounded-xl p-4 text-center">
-              <div className="text-2xl font-black text-accent-600 dark:text-accent-400">{number}</div>
-              <div className="text-xs text-gray-600 dark:text-slate-400 mt-1">{label}</div>
-            </div>
-          ))}
-        </div>
-
-        <div className="prose prose-lg prose-gray dark:prose-invert max-w-none">
+      <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-10">
+        <div className="article-body reading prose prose-lg max-w-[42rem]">
           <h2>Our Mission</h2>
           <p>
             InfoDaily exists to make useful information easier to understand. We cover technology and gaming: the devices and software people already own, and how to get more out of them.
@@ -110,7 +107,7 @@ export default function AboutPage() {
             For health, finance, legal, or other high-stakes questions, our articles are general information only. Readers should use the original sources and seek qualified professional advice for decisions specific to their circumstances.
           </p>
           <p>
-            <Link href="/authors" className="text-accent-600 hover:underline font-medium">Read about the editorial desk →</Link>
+            <Link href="/authors">Read about the editorial desk →</Link>
           </p>
 
           <h2>How We Source Our Information</h2>
@@ -125,7 +122,7 @@ export default function AboutPage() {
 
           <h2>Corrections Policy</h2>
           <p>
-            If you spot an error — a wrong statistic, a broken link, or a claim that no longer reflects current evidence — please use our <Link href="/contact" className="text-accent-600 hover:underline">Contact page</Link> to let us know. We review reports and correct material issues when they are confirmed.
+            If you spot an error — a wrong statistic, a broken link, or a claim that no longer reflects current evidence — please use our <Link href="/contact">Contact page</Link> to let us know. We review reports and correct material issues when they are confirmed.
           </p>
 
           <h2>Advertising</h2>
@@ -138,7 +135,7 @@ export default function AboutPage() {
 
           <h2>Contact Us</h2>
           <p>
-            For editorial inquiries, corrections, or partnership questions, please visit our <Link href="/contact" className="text-accent-600 hover:underline">Contact page</Link>. We read every message and respond to most within two business days.
+            For editorial inquiries, corrections, or partnership questions, please visit our <Link href="/contact">Contact page</Link>. We read every message and respond to most within two business days.
           </p>
         </div>
       </div>

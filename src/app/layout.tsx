@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Plus_Jakarta_Sans, Merriweather } from 'next/font/google';
+import { Archivo, Source_Serif_4 } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -10,15 +10,20 @@ import BackToTop from '@/components/BackToTop';
 import BottomNav from '@/components/BottomNav';
 import { Analytics } from '@vercel/analytics/next';
 
-const jakarta = Plus_Jakarta_Sans({
+/* design.md § Typography. Archivo değişken dosya olarak yükleniyor ve
+   genişlik ekseni (wdth) de dahil: manşetler font-stretch: 75% ile aynı
+   dosyadan sıkışık çiziliyor, ikinci bir "condensed" aile indirmeden.
+   Source Serif 4'ün optik boyut ekseni metin boyutunda gövdeyi
+   biraz kalınlaştırıp harf aralığını açıyor — uzun okumada fark ediyor. */
+const archivo = Archivo({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700', '800'],
-  variable: '--font-jakarta',
+  axes: ['wdth'],
+  variable: '--font-archivo',
 });
-const merriweather = Merriweather({
+const sourceSerif = Source_Serif_4({
   subsets: ['latin'],
-  weight: ['400', '700'],
-  variable: '--font-merriweather',
+  axes: ['opsz'],
+  variable: '--font-source-serif',
 });
 
 export const metadata: Metadata = {
@@ -112,8 +117,12 @@ const SITE_SCHEMA = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  /* Font değişkenleri <html>'de, <body>'de değil: Tailwind --font-sans'ı
+     :root'ta tanımlıyor ve var(--font-archivo)'yu orada çözüyor. Değişken
+     body'de kalınca :root'ta boş, --font-sans geçersiz sayılıyor ve bütün
+     site sistem fontuna düşüyordu. */
   return (
-    <html lang="en" translate="no" suppressHydrationWarning>
+    <html lang="en" translate="no" className={`${archivo.variable} ${sourceSerif.variable}`} suppressHydrationWarning>
       <head suppressHydrationWarning>
         <meta name="google" content="notranslate" />
         <meta name="yandex-verification" content="79961fae532083c7" />
@@ -130,18 +139,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Google AdSense */}
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3696555619228561" crossOrigin="anonymous" />
       </head>
-      <body className={`${jakarta.variable} ${merriweather.variable} font-sans bg-gray-50 dark:bg-slate-900 text-gray-900 dark:text-slate-100 antialiased`} suppressHydrationWarning>
+      <body className="font-sans antialiased" suppressHydrationWarning>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(SITE_SCHEMA) }} />
         <script
           suppressHydrationWarning
           dangerouslySetInnerHTML={{
-            __html: `(function(){try{var s=localStorage.getItem('theme');var p=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';var t=(['light','dark','ocean','forest'].includes(s)?s:p)||'light';document.documentElement.setAttribute('data-theme',t);if(t!=='light')document.documentElement.classList.add('dark')}catch(e){}})()`,
+            /* İlk boyamadan önce tema ve okuma yazı tipi. Liste eskiden dört
+               temayla sınırlıydı: sunset, rose, midnight ya da sepia seçen
+               okur her sayfa açılışında bir an açık temayı görüyordu. Rose ve
+               sepia da açık tema olduğu hâlde `dark` sınıfı alıyordu. */
+            __html: `(function(){try{var d=document.documentElement;var s=localStorage.getItem('theme');var p=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';var all=['light','dark','ocean','forest','sunset','rose','midnight','sepia'];var t=all.indexOf(s)>-1?s:p;d.setAttribute('data-theme',t);if(['dark','ocean','forest','sunset','midnight'].indexOf(t)>-1)d.classList.add('dark');var f=localStorage.getItem('reading_font');if(f==='sans')d.setAttribute('data-font','sans')}catch(e){}})()`,
           }}
         />
         <ThemeProvider>
           <FontProvider>
             <Header />
-            <main className="min-h-screen pb-16 md:pb-0">{children}</main>
+            <main className="min-h-screen">{children}</main>
             <CookieBanner />
             <BackToTop />
             <BottomNav />

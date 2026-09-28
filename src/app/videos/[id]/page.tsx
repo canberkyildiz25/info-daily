@@ -21,12 +21,12 @@ export default async function VideoPlayerPage({ params, searchParams }: Props) {
   const backHref = p.cat && p.cat !== 'all' ? `/videos?cat=${p.cat}` : '/videos';
 
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-10 pt-10 sm:pt-14">
 
       {/* Back link */}
       <Link
         href={backHref}
-        className="inline-flex items-center gap-1.5 text-sm text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors mb-6 group"
+        className="type-label inline-flex items-center gap-2 min-h-11 text-[var(--text-muted)] hover:text-[var(--text-base)] transition-colors mb-4 group"
       >
         <svg className="w-4 h-4 group-hover:-translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -36,23 +36,20 @@ export default async function VideoPlayerPage({ params, searchParams }: Props) {
 
       {/* Channel badge */}
       {p.channel && (
-        <p className="text-xs font-black uppercase tracking-widest text-[var(--accent)] mb-3">{p.channel}</p>
+        <p className="type-label text-[var(--accent)] mb-3">{p.channel}</p>
       )}
 
       {/* Title */}
       {p.title && (
-        <h1
-          className="text-xl sm:text-2xl lg:text-3xl font-black text-[var(--text-base)] leading-tight mb-6"
-          style={{ fontFamily: 'var(--font-serif)' }}
-        >
+        <h1 className="type-display type-display-l max-w-[24ch] text-[var(--text-base)] mb-8">
           {p.title}
         </h1>
       )}
 
       {/* YouTube embed — responsive 16:9 */}
-      <div className="relative w-full rounded-2xl overflow-hidden shadow-2xl bg-black mb-6" style={{ paddingBottom: '56.25%' }}>
+      <div className="relative w-full aspect-video overflow-hidden bg-black mb-4">
         <iframe
-          src={`https://www.youtube.com/embed/${id}?autoplay=1&rel=0`}
+          src={`https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0`}
           title={p.title ?? 'Video'}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
@@ -79,14 +76,14 @@ export default async function VideoPlayerPage({ params, searchParams }: Props) {
       </div>
 
       {/* Browse more */}
-      <div className="pt-8 border-t border-[var(--border)]">
-        <p className="text-xs font-black uppercase tracking-widest text-[var(--text-muted)] mb-4">Browse more videos</p>
-        <div className="flex flex-wrap gap-3">
+      <div className="pt-6 border-t border-[var(--border)]">
+        <p className="type-label text-[var(--text-muted)] mb-2">Browse more videos</p>
+        <div className="flex flex-wrap gap-x-6">
           {['technology', 'science', 'health', 'finance', 'food', 'travel'].map(cat => (
             <Link
               key={cat}
               href={`/videos?cat=${cat}`}
-              className="px-4 py-2 rounded-full border border-[var(--border)] text-sm font-semibold text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors capitalize"
+              className="inline-flex items-center min-h-11 text-[0.9375rem] font-medium text-[var(--text-base)] underline decoration-[var(--border)] underline-offset-[6px] hover:decoration-[var(--accent)] transition-colors capitalize"
             >
               {cat}
             </Link>

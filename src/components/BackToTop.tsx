@@ -17,10 +17,14 @@ export default function BackToTop() {
     <button
       onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       aria-label="Back to top"
-      className="fixed bottom-6 right-6 z-[var(--z-float)] w-10 h-10 rounded-full bg-accent-600 hover:bg-accent-700 text-white shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center"
+      data-surface="stage"
+      /* Mobilde alt menünün üstünde duruyor; eskiden bottom-6'daydı ve
+         alt menünün arkasında kalıyordu. Yuvarlak, gölgeli, dolgun vurgu
+         renkli düğme sitenin geri kalanıyla konuşmuyordu. */
+      className="dark fixed right-4 sm:right-6 bottom-[calc(var(--bottom-nav-h)+env(safe-area-inset-bottom,0px)+1rem)] md:bottom-6 z-[var(--z-float)] w-11 h-11 bg-[var(--bg-card)] border border-[var(--border)] text-[var(--text-base)] hover:border-[var(--text-muted)] active:scale-[0.97] transition-[border-color,transform] duration-150 ease-[var(--ease-out)] flex items-center justify-center"
     >
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-        <polyline points="18 15 12 9 6 15" />
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.75} aria-hidden>
+        <path d="M12 19V5M6 11l6-6 6 6" strokeLinecap="square" />
       </svg>
     </button>
   );

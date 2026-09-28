@@ -1,10 +1,9 @@
 import { AUTHORS, getAuthorBySlug } from '@/lib/authors';
 import { getPostsByAuthor } from '@/lib/posts';
-import { getCoverImageUrl } from '@/lib/pexels';
 import ArticleCard from '@/components/ArticleCard';
 import { permanentRedirect } from 'next/navigation';
-import Link from 'next/link';
-import Image from 'next/image';
+import PageHead from '@/components/PageHead';
+import SectionHead from '@/components/SectionHead';
 import type { Metadata } from 'next';
 
 const SITE_URL = 'https://www.infodaily.net';
@@ -38,12 +37,10 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
   if (!author) permanentRedirect('/authors');
 
   const allPosts = getPostsByAuthor(author.name);
-  const posts = await Promise.all(
-    allPosts.slice(0, 24).map(async post => ({
-      ...post,
-      coverImage: await getCoverImageUrl(`${post.title} ${post.category}`, post.slug) || post.coverImage,
-    }))
-  );
+  /* Her yazı için Pexels'ten yeni görsel istenip yazının kendi kapağının
+     önüne geçiriliyordu — 24 API çağrısı ve anasayfadakinden farklı
+     fotoğraflar. Kapaklar artık içerikte, olduğu gibi kullanılıyor. */
+  const posts = allPosts.slice(0, 24);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -57,82 +54,42 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      {/* Breadcrumb */}
-      <nav className="flex items-center gap-2 text-sm text-gray-400 dark:text-slate-500 mb-8">
-        <Link href="/" className="hover:text-accent-600 dark:hover:text-accent-400 transition-colors">Home</Link>
-        <span>/</span>
-        <span className="text-gray-600 dark:text-slate-400">Authors</span>
-        <span>/</span>
-        <span className="text-gray-600 dark:text-slate-400">{author.name}</span>
-      </nav>
-
-      {/* Author profile */}
-      <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm p-8 mb-10">
-        <div className="flex items-start gap-6 mb-6">
-          <Image
-            src={author.avatar}
-            alt={author.name}
-            width={80}
-            height={80}
-            className="w-20 h-20 rounded-full object-cover flex-shrink-0"
-          />
-          <div className="flex-1">
-            <h1 className="text-2xl font-black text-gray-900 dark:text-slate-100 mb-1">{author.name}</h1>
-            <p className="text-accent-600 dark:text-accent-400 font-semibold text-sm mb-3">{author.title}</p>
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="bg-gray-100 dark:bg-slate-700 text-gray-600 dark:text-slate-400 text-xs font-medium px-3 py-1 rounded-full">
-                {author.specialty}
-              </span>
-              <span className="text-gray-400 dark:text-slate-500 text-sm">
-                {allPosts.length} article{allPosts.length !== 1 ? 's' : ''} in the archive
-              </span>
-              {author.joinedYear && (
-                <span className="text-gray-400 dark:text-slate-500 text-sm">
-                  · Writing since {author.joinedYear}
-                </span>
-              )}
+      <PageHead label="Editorial" labelHref="/authors" title={author.name} intro={author.title}>
+        <div className="mt-8 grid gap-8 lg:grid-cols-[minmax(0,42rem)_minmax(0,1fr)]">
+          <p className="reading text-[1.1875rem] leading-[1.7] text-[var(--text-base)]">
+            {author.longBio || author.bio}
+          </p>
+          {author.expertise && author.expertise.length > 0 && (
+            <div>
+              <p className="type-label text-[var(--text-muted)] mb-3">Covers</p>
+              <ul className="space-y-1.5">
+                {author.expertise.map(tag => (
+                  <li key={tag} className="text-[0.9375rem] text-[var(--text-base)]">{tag}</li>
+                ))}
+              </ul>
             </div>
-          </div>
+          )}
         </div>
+      </PageHead>
 
-        <p className="text-gray-600 dark:text-slate-300 leading-relaxed mb-5">
-          {author.longBio || author.bio}
-        </p>
-
-        {author.expertise && author.expertise.length > 0 && (
-          <div>
-            <p className="text-xs font-semibold text-gray-400 dark:text-slate-500 uppercase tracking-wider mb-2">Areas of Expertise</p>
-            <div className="flex flex-wrap gap-2">
-              {author.expertise.map(tag => (
-                <span key={tag} className="bg-accent-50 dark:bg-accent-900/20 text-accent-700 dark:text-accent-300 text-xs font-medium px-3 py-1 rounded-full">
-                  {tag}
-                </span>
-              ))}
-            </div>
+      <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-10">
+        <SectionHead id="guides" title="Guides" meta={`${allPosts.length} in the archive`} />
+        {posts.length === 0 ? (
+          <p className="text-[var(--text-muted)] py-20">No guides yet.</p>
+        ) : (
+          <div className="grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
+            {posts.map(post => (
+              <ArticleCard key={`${post.category}-${post.slug}`} post={post} featured />
+            ))}
           </div>
         )}
       </div>
-
-      {/* Articles */}
-      <h2 className="text-xl font-bold text-gray-900 dark:text-slate-100 mb-5">
-        Latest guides from {author.name}
-      </h2>
-
-      {posts.length === 0 ? (
-        <p className="text-gray-500 dark:text-slate-400 text-center py-20">No articles yet.</p>
-      ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {posts.map(post => (
-            <ArticleCard key={`${post.category}-${post.slug}`} post={post} featured />
-          ))}
-        </div>
-      )}
     </div>
   );
 }

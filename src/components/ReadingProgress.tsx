@@ -1,26 +1,34 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef } from 'react';
 
+/* Okuma ilerlemesi: sayfanın en üstünde 2 piksellik vurgu çizgisi.
+   Genişlik yerine transform: scaleX — genişlik her kaydırmada yerleşim
+   hesaplatıyordu. React durumu da yok: her kaydırma olayı bileşeni
+   yeniden çizdiriyordu, şimdi doğrudan elemanın stilini yazıyor. */
 export default function ReadingProgress() {
-  const [progress, setProgress] = useState(0);
+  const bar = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    let frame = 0;
     const update = () => {
-      const scrollTop = window.scrollY;
+      frame = 0;
       const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-      setProgress(docHeight > 0 ? (scrollTop / docHeight) * 100 : 0);
+      const p = docHeight > 0 ? Math.min(1, window.scrollY / docHeight) : 0;
+      if (bar.current) bar.current.style.transform = `scaleX(${p})`;
     };
-    window.addEventListener('scroll', update, { passive: true });
-    return () => window.removeEventListener('scroll', update);
+    const onScroll = () => { if (!frame) frame = requestAnimationFrame(update); };
+    update();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      if (frame) cancelAnimationFrame(frame);
+    };
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 h-1 bg-gray-200/50 dark:bg-slate-700/50">
-      <div
-        className="h-full bg-accent-500 transition-none"
-        style={{ width: `${progress}%` }}
-      />
+    <div aria-hidden className="fixed top-0 inset-x-0 z-[var(--z-overlay)] h-0.5 pointer-events-none">
+      <div ref={bar} className="h-full origin-left bg-[var(--accent)]" style={{ transform: 'scaleX(0)' }} />
     </div>
   );
 }

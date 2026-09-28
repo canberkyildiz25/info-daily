@@ -1,5 +1,6 @@
 import { getAllPosts } from '@/lib/posts';
-import CategoryIcon from '@/components/CategoryIcon';
+import PageHead from '@/components/PageHead';
+import SectionHead from '@/components/SectionHead';
 import { CATEGORIES } from '@/lib/categories';
 import ArticleCard from '@/components/ArticleCard';
 import Link from 'next/link';
@@ -22,63 +23,40 @@ export default function ArticlesPage() {
     .filter(c => c.posts.length > 0);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-
-      {/* Page header */}
-      <div className="mb-8 pb-6 border-b border-[var(--border)]">
-        <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--accent)] mb-2">Practical Knowledge</p>
-        <h1 className="text-3xl sm:text-4xl font-black text-[var(--text-base)] mb-3" style={{ fontFamily: 'var(--font-serif)' }}>
-          In-Depth Articles
-        </h1>
-        <p className="text-[var(--text-muted)] max-w-xl leading-relaxed">
-          Every technology and gaming guide on InfoDaily, newest first.
-        </p>
-        <div className="flex flex-wrap gap-2 mt-4">
+    <div>
+      <PageHead
+        label="Index"
+        title="All guides"
+        intro="Every technology and gaming guide on InfoDaily, newest first."
+      >
+        <nav aria-label="Jump to section" className="mt-8 flex flex-wrap gap-x-8">
           {categoriesWithPosts.map(cat => (
             <Link
               key={cat.slug}
               href={`#${cat.slug}`}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-[var(--bg-card)] border border-[var(--border)] text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors"
+              className="text-[0.9375rem] font-medium text-[var(--text-base)] underline decoration-[var(--border)] underline-offset-[6px] hover:decoration-[var(--accent)] transition-colors"
             >
-              <CategoryIcon slug={cat.slug} size={14} /> {cat.label}
-              <span className="ml-1 text-[10px] opacity-60">{cat.posts.length}</span>
+              {cat.label} <span className="text-[var(--text-muted)] tabular-nums">{cat.posts.length}</span>
             </Link>
           ))}
-        </div>
-      </div>
+        </nav>
+      </PageHead>
 
-      {/* Articles by category */}
-      <div className="space-y-12">
+      <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-10 space-y-20 sm:space-y-28">
         {categoriesWithPosts.map(cat => (
-          <section key={cat.slug} id={cat.slug}>
-            <div className="flex items-center justify-between mb-5">
-              <div className="flex items-center gap-2.5">
-                <CategoryIcon slug={cat.slug} size={22} className="text-[var(--accent)]" />
-                <h2 className="text-base font-black text-[var(--text-base)] uppercase tracking-widest">{cat.label}</h2>
-                <span className="text-xs text-[var(--text-muted)] font-medium">{cat.posts.length} articles</span>
-              </div>
-              <Link
-                href={`/category/${cat.slug}`}
-                className="text-xs font-bold text-[var(--accent)] hover:underline uppercase tracking-wide"
-              >
-                See all →
-              </Link>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {cat.posts.slice(0, 6).map(post => (
+          <section key={cat.slug} id={cat.slug} aria-labelledby={`h-${cat.slug}`} className="scroll-mt-20">
+            <SectionHead
+              id={`h-${cat.slug}`}
+              title={cat.label}
+              meta={`${cat.posts.length} guides`}
+              href={`/category/${cat.slug}`}
+              linkLabel={`${cat.label} page`}
+            />
+            <div className="grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
+              {cat.posts.map(post => (
                 <ArticleCard key={`${post.category}-${post.slug}`} post={post} featured />
               ))}
             </div>
-            {cat.posts.length > 6 && (
-              <div className="mt-4 text-center">
-                <Link
-                  href={`/category/${cat.slug}`}
-                  className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full border border-[var(--border)] text-sm font-semibold text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors"
-                >
-                  View all {cat.posts.length} {cat.label} articles →
-                </Link>
-              </div>
-            )}
           </section>
         ))}
       </div>

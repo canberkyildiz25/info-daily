@@ -5,5 +5,17 @@
     "theme": "project palette preserved (paper #f8f7f4 · ink #0d1117 · accent #1a3fa8 ink-blue)",
     "enrichment": "none — typography and the posts' own cover images",
     "brief": "InfoDaily homepage · replaced a third-party news aggregation front page with rails over the site's own 49 technology and gaming guides"
+  },
+  {
+    "date": "2026-09-28",
+    "target": "src/app/page.tsx + site-wide system (design.md)",
+    "macrostructure": "Marquee Hero → index (home); Long Document (article); Index-First (lists)",
+    "genre": "editorial",
+    "theme": "custom (tuned) — petrol stage #060f11 / paper #f8f7f4, accent #007883/#4ab5c0",
+    "type": "Archivo (wdth 75, 800) display + UI · Source Serif 4 reading",
+    "nav": "N9 edge-aligned",
+    "footer": "Ft5 statement",
+    "motion": "hero settle + staggered rise, scroll-timeline parallax, one-shot band reveals, reduced-motion gated",
+    "critique": "P5 H5 E4 S5 R4 V5"
   }
 ]

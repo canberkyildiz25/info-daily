@@ -12,20 +12,22 @@ export default function CategoryPostGrid({ posts }: { posts: Post[] }) {
 
   return (
     <div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+      <div className="grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
         {visible.map(post => (
           <ArticleCard key={`${post.category}-${post.slug}`} post={post} featured />
         ))}
       </div>
 
       {remaining > 0 && (
-        <div className="mt-8 flex justify-center">
+        <div className="mt-16 pt-6 border-t border-[var(--border)] flex flex-wrap items-center justify-between gap-4">
+          <span className="type-label text-[var(--text-muted)] tabular-nums">
+            Showing {visible.length} of {posts.length}
+          </span>
           <button
             onClick={() => setCount(c => c + PAGE_SIZE)}
-            className="flex items-center gap-2 px-7 py-3 bg-accent-600 hover:bg-accent-700 active:bg-accent-800 text-white font-semibold rounded-full text-sm transition-all duration-200 shadow-md shadow-accent-500/25 hover:shadow-lg hover:shadow-accent-500/30 hover:-translate-y-0.5"
+            className="inline-flex items-center gap-3 h-12 px-6 bg-[var(--text-base)] text-[var(--bg-base)] text-[0.9375rem] font-semibold hover:bg-[var(--accent)] active:scale-[0.97] transition-[background-color,transform] duration-150"
           >
-            Load More
-            <span className="bg-white/20 px-2 py-0.5 rounded-full text-xs">{remaining} more articles</span>
+            Show {Math.min(PAGE_SIZE, remaining)} more
           </button>
         </div>
       )}

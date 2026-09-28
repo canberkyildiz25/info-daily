@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import PageHead from '@/components/PageHead';
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
@@ -8,10 +9,12 @@ export const metadata: Metadata = {
 
 export default function TermsPage() {
   return (
-    <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <h1 className="text-4xl font-black text-gray-900 dark:text-white mb-2">Terms of Service</h1>
-      <p className="text-gray-400 text-sm mb-8">Last updated: April 2026</p>
-      <div className="prose prose-lg prose-gray dark:prose-invert max-w-none">
+    <div>
+      <PageHead label="Legal" title="Terms of Service" size="l">
+        <p className="type-label mt-6 text-[var(--text-muted)]">Last updated: April 2026</p>
+      </PageHead>
+      <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-10">
+      <div className="article-body reading prose prose-lg max-w-[42rem]">
         <p>
           Welcome to InfoDaily. By accessing or using our website at <strong>infodaily.net</strong>, you agree to be bound by these Terms of Service. Please read them carefully. If you do not agree to these terms, please do not use the site.
         </p>
@@ -80,6 +83,7 @@ export default function TermsPage() {
         <p>
           If you have questions about these terms, please reach out through our <a href="/contact" className="text-accent-600 hover:underline">Contact page</a>.
         </p>
+      </div>
       </div>
     </div>
   );
