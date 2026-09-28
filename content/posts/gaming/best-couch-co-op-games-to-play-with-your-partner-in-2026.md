@@ -1,5 +1,5 @@
 ---
-title: "Best Couch Co-Op Games to Play with Your Partner in 2026"
+title: "Best Couch Co-Op Games to Play with Your Partner"
 excerpt: "Gaming together is one of the best ways to spend an evening. These couch co-op games work for couples, friends, and families — no competitive stress required."
 date: "2026-07-01"
 updatedAt: "2026-07-02"
@@ -65,7 +65,7 @@ The biggest obstacle to couch co-op for couples is when one person is a veteran 
 
 The goal is a good evening, not a gaming achievement. The best co-op games understand this and design around it. *It Takes Two* does this better than almost anything else ever made.
 
-## The Bottom Line
+## If You Only Buy One, Make It It Takes Two
 
 Couch co-op gaming in 2026 has never been in a better place. From the inventive brilliance of *It Takes Two* to the chaos of *Overcooked* to the timeless fun of *Mario Kart*, there's something that works for every pairing.
 

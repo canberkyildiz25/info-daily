@@ -47,7 +47,7 @@ A few practical habits help surface hidden gems before they disappear from store
 3. **Wishlist during festivals** like major digital showcases, where discovery algorithms briefly favor newly announced titles
 4. **Revisit "overlooked games" roundups** at the end of each year — many genuinely great titles get a second wind through these lists
 
-## The Bottom Line
+## Worth Looking Past the Storefront Front Page
 
 The best games of any given year aren't always the ones with the biggest marketing budgets. This list represents some of the most thoughtful, inventive, and genuinely well-crafted games released this year — all of which are easy to miss if you're only paying attention to what storefronts push to the front page.
 

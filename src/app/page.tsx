@@ -70,18 +70,18 @@ function LeadStory({ post }: { post: Post }) {
           </div>
         </div>
       )}
-      {/* Okunurluk perdesi: üstte başlık için, altta manşet için. Ortası
-          açık kalıyor ki fotoğraf görünsün. Renk sahne zemininin kendisi,
-          siyah değil — alt kenar bir sonraki bölüme dikişsiz geçiyor. */}
+      {/* Okunurluk perdesi, üç katman. Metin sol altta durduğu için koyuluk
+          orada yoğunlaşıyor (eliptik degrade, sol alt köşeden); fotoğrafın
+          sağ ve orta kısmı açık kalıyor. Önceki tam genişlikteki perde koyu
+          bir fotoğrafı neredeyse siyaha çeviriyordu. Üstte başlık için ince
+          bir şerit, altta bir sonraki bölüme dikişsiz geçiş. */}
       <div
         aria-hidden
-        className="absolute inset-0 -z-10 bg-[linear-gradient(to_bottom,rgb(6_15_17/0.75)_0%,rgb(6_15_17/0)_24%,rgb(6_15_17/0.2)_42%,rgb(6_15_17/0.9)_76%,var(--bg-base)_100%)]"
+        className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_100%_115%_at_0%_100%,rgb(6_15_17/0.9)_0%,rgb(6_15_17/0.7)_40%,rgb(6_15_17/0)_80%)]"
       />
-      {/* Metin sola yaslı, o yüzden sol kenar ayrıca koyulaşıyor: etiket ve
-          spot fotoğrafın en parlak yerine denk gelse de okunuyor. */}
       <div
         aria-hidden
-        className="absolute inset-0 -z-10 bg-[linear-gradient(to_right,rgb(6_15_17/0.8)_0%,rgb(6_15_17/0.45)_40%,rgb(6_15_17/0)_70%)]"
+        className="absolute inset-0 -z-10 bg-[linear-gradient(to_bottom,rgb(6_15_17/0.55)_0%,rgb(6_15_17/0)_20%,rgb(6_15_17/0)_82%,var(--bg-base)_100%)]"
       />
 
       <div className="w-full max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-10 pt-40 pb-10 sm:pb-16">

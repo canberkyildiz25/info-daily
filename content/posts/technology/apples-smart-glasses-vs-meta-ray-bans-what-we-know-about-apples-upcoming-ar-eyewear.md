@@ -98,7 +98,7 @@ Meta has proven that people *will* wear smart glasses daily if they're stylish, 
 - **Supply chain signals**: Watch for reports from LG, Sony, or TSMC about micro-LED display production ramping up.
 - **Meta Connect 2026 (Fall)**: Meta will likely counter with its own display-equipped Ray-Bans, intensifying the competition.
 
-## Final Thoughts
+## Ship Now or Wait for Better: Two Different Bets
 
 The Apple vs. Meta smart glasses battle isn't just about hardware specs — it's about two fundamentally different philosophies. Meta wants to get something useful on your face right now at an accessible price. Apple wants to wait until it can deliver a transformative experience, even if it costs more and arrives later.
 

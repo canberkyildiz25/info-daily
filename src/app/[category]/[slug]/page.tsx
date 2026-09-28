@@ -172,6 +172,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
           categorySlug={cat?.slug}
           objectPosition={post.imagePosition}
         />
+        {post.coverCaption && (
+          <p className="mt-3 px-4 sm:px-0 text-sm text-[var(--text-muted)]">{post.coverCaption}</p>
+        )}
       </div>
 
       <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-10 mt-12 sm:mt-16 grid gap-x-12 lg:grid-cols-[14rem_minmax(0,42rem)] lg:justify-center min-[1400px]:grid-cols-[minmax(0,1fr)_42rem_minmax(0,1fr)]">

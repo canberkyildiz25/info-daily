@@ -99,7 +99,7 @@ Three hours total, structured. This beats five hours of mindless queue.
 
 The most important variable isn't time invested — it's intentionality. Players who actively think about what they're doing wrong and what they're trying to fix improve at dramatically faster rates than those who simply accumulate hours.
 
-## The Bottom Line
+## Practice and VOD Review Beat New Peripherals
 
 Better gear has diminishing returns after a certain baseline. The investments that actually move the needle — aim trainer practice, VOD review, mental game management, and structured improvement — cost nothing beyond time.
 

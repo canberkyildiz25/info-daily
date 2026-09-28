@@ -68,6 +68,10 @@ export interface Post {
   content?: string;
   noInlineImages?: boolean;
   imagePosition?: string;
+  /* Kapak fotoğrafı yazının konusunu birebir göstermiyorsa bunu söyleyen
+     kısa alt yazı — örneğin henüz basın görseli olmayan yeni bir cihaz
+     için eski bir modelin fotoğrafı kullanıldığında. */
+  coverCaption?: string;
   /* Anasayfanın açılışını bu yazı alır. Birden fazla varsa en yenisi.
      Hiçbiri yoksa en yeni yazı. */
   featured?: boolean;
@@ -144,6 +148,7 @@ export async function getPost(category: string, slug: string): Promise<Post | nu
     content: htmlContent,
     noInlineImages: data.noInlineImages ?? false,
     imagePosition: data.imagePosition,
+    coverCaption: data.coverCaption,
   };
 }
 
