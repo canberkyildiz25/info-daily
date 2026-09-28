@@ -21,7 +21,7 @@ export default function TermsPage() {
 
         <h2>1. Use of the Site</h2>
         <p>
-          InfoDaily provides informational articles on health, finance, technology, lifestyle, travel, food, business, science, relationships, and entertainment. The content on this site is intended for general informational purposes only and does not constitute professional advice of any kind.
+          InfoDaily provides informational guides about consumer technology and gaming: devices, software, security settings, and games. The content on this site is intended for general informational purposes only and does not constitute professional advice of any kind.
         </p>
         <p>
           You may use this site for personal, non-commercial purposes. You may not:

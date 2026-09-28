@@ -29,33 +29,35 @@ const sourceSerif = Source_Serif_4({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.infodaily.net'),
   title: {
-    default: 'InfoDaily – Practical Guides, Tech & Daily Life',
+    default: 'InfoDaily — Tech & Gaming Guides for What You Already Own',
     template: '%s | InfoDaily',
   },
   description: 'Practical technology and gaming guides: how to make the hardware and software you already own faster, safer, and longer-lived.',
+  /* Site teknolojiye döndüğü hâlde burada hâlâ sağlık, yemek, ilişki,
+     seyahat anahtar kelimeleri duruyordu — sayfanın beyan ettiği konu ile
+     içeriği birbirini tutmuyordu. */
   keywords: [
-    'health tips', 'personal finance', 'technology news', 'life hacks', 'travel guide',
-    'food recipes', 'business advice', 'science facts', 'relationship tips',
-    'wellness', 'money saving', 'productivity', 'self improvement',
+    'tech guides', 'how-to', 'smartphone tips', 'PC hardware', 'gaming hardware',
+    'console gaming', 'Wi-Fi', 'privacy settings', 'security', 'AI tools', 'buying guide',
   ],
   authors: [{ name: 'InfoDaily Editorial Team', url: 'https://www.infodaily.net' }],
   creator: 'InfoDaily',
   publisher: 'InfoDaily',
   applicationName: 'InfoDaily',
-  category: 'lifestyle',
+  category: 'technology',
   openGraph: {
     type: 'website',
     siteName: 'InfoDaily',
     locale: 'en_US',
     url: 'https://www.infodaily.net',
-    title: 'InfoDaily – Practical Knowledge for Every Day',
+    title: 'InfoDaily — Tech & Gaming Guides for What You Already Own',
     description: 'Practical technology and gaming guides for the devices you already own.',
     images: [
       {
         url: '/opengraph-image',
         width: 1200,
         height: 630,
-        alt: 'InfoDaily – Knowledge for Every Day',
+        alt: 'InfoDaily — Guides for the hardware and software you already own.',
       },
     ],
   },
@@ -63,7 +65,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@infodaily',
     creator: '@infodaily',
-    title: 'InfoDaily – Practical Knowledge for Every Day',
+    title: 'InfoDaily — Tech & Gaming Guides for What You Already Own',
     description: 'Practical technology and gaming guides for the devices you already own.',
     images: ['/opengraph-image'],
   },

@@ -146,3 +146,31 @@ export async function getPost(category: string, slug: string): Promise<Post | nu
     imagePosition: data.imagePosition,
   };
 }
+
+/* Yazıların gövdesinde bağlantı verilen alan adları.
+   Hakkında sayfasındaki "en çok atıf yaptığımız kaynaklar" listesi elle
+   yazılmıyor, buradan okunuyor: yazılar değiştikçe liste de değişiyor ve
+   sayfa hiçbir zaman içerikte olmayan bir kaynağı iddia etmiyor. Sıralama
+   bağlantı sayısına değil, kaç ayrı yazıda geçtiğine göre — tek bir yazıda
+   yirmi kez anılan bir kaynak listeyi domine etmesin. */
+export function getCitedDomains(limit = 12): { domain: string; guides: number }[] {
+  const guides = new Map<string, Set<string>>();
+  for (const category of CATEGORIES) {
+    const dir = path.join(postsDirectory, category.slug);
+    if (!fs.existsSync(dir)) continue;
+    for (const file of fs.readdirSync(dir).filter(f => f.endsWith('.md'))) {
+      const { content } = matter(fs.readFileSync(path.join(dir, file), 'utf8'));
+      for (const m of content.matchAll(/https?:\/\/[^\s)"'<>\]]+/g)) {
+        let host: string;
+        try { host = new URL(m[0]).hostname.replace(/^www\./, ''); } catch { continue; }
+        if (/pexels|unsplash|infodaily/.test(host)) continue;
+        if (!guides.has(host)) guides.set(host, new Set());
+        guides.get(host)!.add(file);
+      }
+    }
+  }
+  return [...guides.entries()]
+    .map(([domain, set]) => ({ domain, guides: set.size }))
+    .sort((a, b) => b.guides - a.guides || a.domain.localeCompare(b.domain))
+    .slice(0, limit);
+}
