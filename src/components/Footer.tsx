@@ -1,52 +1,54 @@
+/* Hallmark · footer: Ft5 statement · design.md § Footer
+ * Sitenin ne olduğunu söyleyen tek bir cümle, bir satır bağlantı, bülten,
+ * yasal satır. Her zaman sahne yüzeyinde: iki yüzeyli sistemde altbilgi
+ * için üçüncü bir koyu gri icat etmeye gerek yok. */
 import Link from 'next/link';
-import CategoryIcon from './CategoryIcon';
-import { CATEGORIES } from '@/lib/categories';
 import SubscribeForm from './SubscribeForm';
+
+const LINKS = [
+  { href: '/category/technology', label: 'Technology' },
+  { href: '/category/gaming', label: 'Gaming' },
+  { href: '/articles', label: 'All guides' },
+  { href: '/videos', label: 'Videos' },
+  { href: '/about', label: 'About' },
+  { href: '/authors', label: 'Editorial standards' },
+  { href: '/contact', label: 'Contact' },
+];
 
 export default function Footer() {
   return (
-    <footer className="site-footer mt-16 border-t">
-      <div className="h-[3px] bg-[var(--accent)]" />
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer
+      data-surface="stage"
+      className="dark mt-24 border-t border-[var(--border)] pb-[calc(var(--bottom-nav-h)+env(safe-area-inset-bottom,0px))] md:pb-0"
+    >
+      <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-10">
+        <div className="grid gap-12 py-16 sm:py-20 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)]">
           <div>
-            <h3 className="mb-3 leading-none">
-              <span className="font-black text-xl text-accent-400" style={{ fontFamily: 'var(--font-serif)' }}>Info</span>
-              <span className="font-black text-xl text-white">Daily</span>
-              <span className="text-sm font-normal text-gray-300">.net</span>
-            </h3>
-            <p className="text-sm text-gray-300 leading-relaxed">
-              Practical guides for the hardware and software you already own.
+            <p className="type-display type-display-l max-w-[18ch] text-[var(--text-base)]">
+              Guides for the hardware and software you already own.
             </p>
+            <nav aria-label="Footer" className="mt-10">
+              <ul className="flex flex-wrap gap-x-7">
+                {LINKS.map(l => (
+                  <li key={l.href}>
+                    <Link href={l.href} className="text-[0.9375rem] text-[var(--text-muted)] hover:text-[var(--text-base)] transition-colors whitespace-nowrap">
+                      {l.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
           </div>
-          <div>
-            <h4 className="text-white font-semibold mb-3">Categories</h4>
-            <ul className="space-y-2">
-              {CATEGORIES.map(cat => (
-                <li key={cat.slug}>
-                  <Link href={`/category/${cat.slug}`} className="inline-flex items-center gap-1 min-h-11 text-sm text-gray-300 hover:text-white transition-colors">
-                    <CategoryIcon slug={cat.slug} size={14} /> {cat.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div>
+          <div className="lg:pt-3">
             <SubscribeForm />
-            <div className="mt-6">
-            <h4 className="text-white font-semibold mb-3">Legal</h4>
-            <ul className="space-y-2">
-              <li><Link href="/privacy-policy" className="text-sm text-gray-300 hover:text-white transition-colors">Privacy Policy</Link></li>
-              <li><Link href="/terms" className="text-sm text-gray-300 hover:text-white transition-colors">Terms of Service</Link></li>
-              <li><Link href="/about" className="text-sm text-gray-300 hover:text-white transition-colors">About Us</Link></li>
-              <li><Link href="/authors" className="text-sm text-gray-300 hover:text-white transition-colors">Editorial Standards</Link></li>
-              <li><Link href="/contact" className="text-sm text-gray-300 hover:text-white transition-colors">Contact</Link></li>
-            </ul>
-            </div>
           </div>
         </div>
-        <div className="border-t border-gray-800 mt-8 pt-6 text-center text-xs text-gray-400">
-          © {new Date().getFullYear()} InfoDaily. All rights reserved.
+
+        <div className="flex flex-wrap items-center gap-x-7 gap-y-1 py-6 border-t border-[var(--border)] text-sm text-[var(--text-muted)]">
+          <span className="type-display text-lg text-[var(--text-base)] mr-auto">InfoDaily</span>
+          <Link href="/privacy-policy" className="inline-flex items-center min-h-11 hover:text-[var(--text-base)] transition-colors">Privacy</Link>
+          <Link href="/terms" className="inline-flex items-center min-h-11 hover:text-[var(--text-base)] transition-colors">Terms</Link>
+          <span className="tabular-nums">© {new Date().getFullYear()} InfoDaily</span>
         </div>
       </div>
     </footer>

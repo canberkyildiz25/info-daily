@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import PageHead from '@/components/PageHead';
 import ContactForm from '@/components/ContactForm';
 
 export const metadata: Metadata = {
@@ -9,18 +10,24 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <h1 className="text-4xl font-black text-gray-900 dark:text-white mb-4">Contact Us</h1>
-      <p className="text-gray-500 dark:text-gray-400 text-lg mb-2">
-        Have a question, feedback, or spotted an error in one of our articles? We read every message and respond within two business days.
-      </p>
-      <p className="text-gray-500 dark:text-gray-400 text-sm mb-10">
-        You can also reach us directly at{' '}
-        <a href="mailto:contact@infodaily.net" className="text-accent-600 hover:underline">
-          contact@infodaily.net
-        </a>
-      </p>
-      <ContactForm />
+    <div>
+      <PageHead
+        label="Contact"
+        title="Write to us"
+        intro="A question, feedback, or an error in one of our guides? We read every message and respond within two business days."
+      >
+        <p className="mt-6 text-[0.9375rem] text-[var(--text-muted)]">
+          Or email{' '}
+          <a href="mailto:contact@infodaily.net" className="text-[var(--text-base)] underline decoration-[var(--accent)] underline-offset-4 hover:text-[var(--accent)]">
+            contact@infodaily.net
+          </a>
+        </p>
+      </PageHead>
+      <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-10">
+        <div className="max-w-[42rem]">
+          <ContactForm />
+        </div>
+      </div>
     </div>
   );
 }

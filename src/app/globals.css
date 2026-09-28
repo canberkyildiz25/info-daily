@@ -2,13 +2,13 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
-  /* Merriweather zaten next/font ile indiriliyordu ama hiçbir yerde
-     kullanılmıyordu: başlıklar sekiz ayrı dosyada satır içi
-     `fontFamily: 'Georgia, serif'` yazıyordu. Yani ziyaretçi her sayfada
-     kullanılmayan bir font indiriyor, başlıklar da makinesinde ne varsa
-     onunla çiziliyordu. Token artık gerçek fontu gösteriyor. */
-  --font-serif: var(--font-merriweather), Georgia, 'Times New Roman', serif;
+  /* Tipografi — design.md § Typography.
+     Archivo hem arayüzü hem de başlıkları taşıyor: genişlik ekseni
+     (wdth 62–125) değişken, yani aynı aile %75'te sıkışık bir manşet,
+     %100'de normal bir menü metni oluyor. İki ayrı sans yüklemek
+     yerine tek dosya. Source Serif 4 yalnızca makale gövdesi için. */
+  --font-sans: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-source-serif), Georgia, 'Times New Roman', serif;
 
   /* ─── Vurgu ölçeği ──────────────────────────────────
      Site jenerik bir teknoloji mavisi (#1a3fa8) kullanıyordu. Türk
@@ -60,18 +60,23 @@
   --accent:        #007883;  /* accent-600 */
   --accent-gold:   #b8860b;
   --accent-light:  #d7f1f4;  /* accent-100 */
+  --danger:        #b42318;
 }
 
+/* Koyu tema sahnenin paletini kullanıyor. Eskiden Tailwind'in slate
+   mavisiydi (#0f172a) — anasayfanın petrol koyusundan bir makaleye
+   geçince zemin başka bir maviye dönüyordu. */
 [data-theme="dark"] {
-  --bg-base:       #0f172a;
-  --bg-card:       #1e293b;
-  --bg-card-hover: #334155;
-  --bg-header:     rgba(15,23,42,0.9);
-  --text-base:     #f1f5f9;
-  --text-muted:    #94a3b8;
-  --border:        #334155;
+  --bg-base:       #060f11;
+  --bg-card:       #0e191b;
+  --bg-card-hover: #152123;
+  --bg-header:     rgba(6,15,17,0.92);
+  --text-base:     #f1f0eb;
+  --text-muted:    #a9b3b5;
+  --border:        #253032;
   --accent:        #4ab5c0;  /* accent-400 */
   --accent-light:  #043338;  /* accent-900 */
+  --danger:        #ff9d8a;
 }
 
 [data-theme="ocean"] {
@@ -146,10 +151,42 @@
   --accent-light:  #fde8c8;
 }
 
-/* ─── Footer theme variables ─────────────────────────── */
+/* ─── Sahne (stage) ──────────────────────────────────
+   Yalnızca anasayfa. Okurun tema seçiminden bağımsız, her zaman koyu.
+   Sitenin zaten kullandığı değişken adlarını yeniden tanımlıyor, yani
+   içindeki bileşenler düzenlenmeden koyuya geçiyor. Aynı elemana `dark`
+   sınıfı da verilir ki `dark:` yardımcıları da devreye girsin.
+
+   OKLCH'te ton 210'da üretildi — vurgunun (205) bir adım yanı — ki koyu
+   jenerik siyah değil, petrole çalan bir koyu olsun.
+   Ölçülen kontrast: mürekkep 16.98 · soluk 9.04 · vurgu 7.99.
+   Çizgi 1.43 — yalnızca dekoratif ayraç, durum taşımıyor. */
+[data-surface="stage"] {
+  --bg-base:       #060f11;
+  --bg-card:       #0e191b;
+  --bg-card-hover: #152123;
+  --bg-header:     rgba(6,15,17,0.92);
+  --text-base:     #f1f0eb;
+  --text-muted:    #a9b3b5;
+  --border:        #253032;
+  --accent:        #4ab5c0;  /* accent-400 */
+  --accent-light:  #043338;
+  --danger:        #ff9d8a;
+  background-color: var(--bg-base);
+  color: var(--text-base);
+}
+/* Anasayfada gövde de sahne renginde: yoksa ana içerik ile altbilgi
+   arasındaki boşlukta ve iOS'un aşırı kaydırma bölgesinde kâğıt rengi
+   bir şerit görünüyor. */
+html:has(main [data-surface="stage"]),
+html:has(main [data-surface="stage"]) body { background-color: #060f11; }
+
+/* ─── Footer theme variables ─────────────────────────────
+   Açık ve koyu temada altbilgi sahneyle aynı koyuyu kullanıyor: sitenin
+   iki yüzeyi var, üçüncü bir gri icat etmeye gerek yok. */
 :root,
-[data-theme="light"]    { --bg-footer: #111827; --text-footer: #d1d5db; --border-footer: #1f2937; }
-[data-theme="dark"]     { --bg-footer: #020617; --text-footer: #94a3b8; --border-footer: #0f172a; }
+[data-theme="light"]    { --bg-footer: #060f11; --text-footer: #a9b3b5; --border-footer: #253032; }
+[data-theme="dark"]     { --bg-footer: #060f11; --text-footer: #a9b3b5; --border-footer: #253032; }
 [data-theme="ocean"]    { --bg-footer: #020a18; --text-footer: #7dd3fc; --border-footer: #0a1a32; }
 [data-theme="forest"]   { --bg-footer: #020a04; --text-footer: #86efac; --border-footer: #0a1f0e; }
 [data-theme="sunset"]   { --bg-footer: #0f0500; --text-footer: #fdba74; --border-footer: #1a0a00; }
@@ -193,53 +230,189 @@ body { top: 0 !important; }
 .goog-te-combo { display: none !important; }
 
 /* ─── Base styles ─────────────────────────────────────── */
+/* clip, hidden değil: hidden gövdeyi kaydırma kabı yapar ve sticky
+   başlığı bozar. */
+html, body { overflow-x: clip; }
+/* Klavye odağı: tarayıcının varsayılan halkası yerine vurgu rengi. Yalnızca
+   focus-visible — fareyle tıklayınca halka çıkmıyor. */
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 body {
   background-color: var(--bg-base);
   color: var(--text-base);
   transition: background-color 0.25s ease, color 0.25s ease;
 }
 
-/* ─── Override card / surface backgrounds ────────────── */
+/* ─── Override card / surface backgrounds ──────────────
+   Bileşenlerin bir kısmı hâlâ Tailwind'in slate sınıflarını taşıyor.
+   Koyu temalarda ve sahnede bunlar zeminin tonuna eşleniyor, yoksa
+   petrol koyusunun üstünde mavi-gri kutular kalıyor. */
+[data-theme="dark"] .bg-white,
 [data-theme="ocean"] .bg-white,
 [data-theme="forest"] .bg-white,
 [data-theme="sunset"] .bg-white,
-[data-theme="midnight"] .bg-white {
+[data-theme="midnight"] .bg-white,
+[data-surface="stage"] .bg-white {
   background-color: var(--bg-card) !important;
 }
 
+[data-theme="dark"] .bg-gray-50,
 [data-theme="ocean"] .bg-gray-50,
 [data-theme="forest"] .bg-gray-50,
 [data-theme="sunset"] .bg-gray-50,
-[data-theme="midnight"] .bg-gray-50 {
+[data-theme="midnight"] .bg-gray-50,
+[data-surface="stage"] .bg-gray-50 {
   background-color: var(--bg-base) !important;
 }
 
+[data-theme="dark"] .dark\:bg-slate-800,
 [data-theme="ocean"] .dark\:bg-slate-800,
 [data-theme="forest"] .dark\:bg-slate-800,
 [data-theme="sunset"] .dark\:bg-slate-800,
-[data-theme="midnight"] .dark\:bg-slate-800 {
+[data-theme="midnight"] .dark\:bg-slate-800,
+[data-surface="stage"] .dark\:bg-slate-800 {
   background-color: var(--bg-card) !important;
 }
 
+[data-theme="dark"] .dark\:bg-slate-900,
 [data-theme="ocean"] .dark\:bg-slate-900,
 [data-theme="forest"] .dark\:bg-slate-900,
 [data-theme="sunset"] .dark\:bg-slate-900,
-[data-theme="midnight"] .dark\:bg-slate-900 {
+[data-theme="midnight"] .dark\:bg-slate-900,
+[data-surface="stage"] .dark\:bg-slate-900 {
   background-color: var(--bg-base) !important;
 }
 
+[data-theme="dark"] .dark\:border-slate-700,
 [data-theme="ocean"] .dark\:border-slate-700,
 [data-theme="forest"] .dark\:border-slate-700,
 [data-theme="sunset"] .dark\:border-slate-700,
-[data-theme="midnight"] .dark\:border-slate-700 {
+[data-theme="midnight"] .dark\:border-slate-700,
+[data-surface="stage"] .dark\:border-slate-700 {
   border-color: var(--border) !important;
 }
 
-/* ─── Header ──────────────────────────────────────────── */
-header {
-  background-color: var(--bg-header) !important;
-  border-bottom-color: var(--border) !important;
+/* ─── Site başlığı ───────────────────────────────────────
+   Bu kural eskiden çıplak `header` seçicisine yazılmıştı, yani sayfadaki
+   her <header>'a — makale başlığına, anasayfanın açılış bloğuna — yarı
+   saydam beyaz zemin veriyordu. Anasayfada metnin arkasında beliren
+   "kazara beyaz kutu" buydu. Artık yalnızca sitenin başlığını hedefliyor. */
+.site-header {
+  background-color: var(--bg-header);
+  border-bottom: 1px solid var(--border);
+  transition: background-color 0.3s var(--ease-out), border-color 0.3s var(--ease-out);
 }
+/* Sahnede, sayfanın en üstündeyken: başlık açılış görselinin üstünde
+   saydam durur. Kaydırınca zemin geri gelir. */
+.site-header[data-surface="stage"][data-at-top="true"] {
+  background-color: transparent;
+  border-bottom-color: transparent;
+}
+
+/* ─── Tipografi sınıfları — design.md § Typography ──── */
+:root {
+  /* Eğriler animate skill'inin tablosundan, elle uydurulmadı. */
+  --ease-out:    cubic-bezier(0.23, 1, 0.32, 1);     /* giriş/çıkış */
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);    /* ekranda yer değiştirme */
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);     /* çekmece */
+  /* @theme dışında: hiçbir yardımcı sınıf kullanmadığı için Tailwind onu
+     çıktıya yazmıyordu ve .type-display boşa düşüyordu. */
+  --font-display: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
+  --text-display:   clamp(3rem, 7.5vw, 7rem);
+  --text-display-s: clamp(2.25rem, 5vw, 4.25rem);
+  --text-headline:  clamp(1.625rem, 3vw, 2.25rem);
+}
+/* Sıkışık manşet yüzü. Başlıklar asla italik değil — vurgu ağırlık ve
+   renkle taşınıyor. overflow-wrap: çok uzun tek kelimeler 320 pikselde
+   taşmasın diye. */
+.type-display {
+  font-family: var(--font-display);
+  font-stretch: 75%;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: -0.02em;
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+/* Yalnızca anasayfa açılışında, kısa bir üst satır için (en çok 16 harf). */
+.type-display-hero { font-size: clamp(4.5rem, 13vw, 11.5rem); line-height: 0.86; letter-spacing: -0.03em; }
+.type-display-xl { font-size: var(--text-display);   line-height: 0.92; }
+.type-display-l  { font-size: var(--text-display-s); line-height: 0.95; }
+.type-display-m  { font-size: var(--text-headline);  line-height: 1.08; }
+.type-display, .type-balance { text-wrap: balance; }
+
+/* Küçük büyük harf etiket: yalnızca kategori ve tarih için. */
+.type-label {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+/* Okuma metni. Varsayılan serif; okur yazı tipi seçicisinden sans'a
+   geçebiliyor (FontProvider → html[data-font]). */
+.reading {
+  font-family: var(--font-serif);
+  font-optical-sizing: auto;
+}
+[data-font="sans"] .reading { font-family: var(--font-sans); }
+
+/* ─── Makale gövdesi — design.md § Typography ───────────
+   Typography eklentisinin renkleri temanın değişkenlerine bağlanıyor:
+   böylece sekiz temanın hepsinde doğru renk, ayrı bir prose-invert
+   katmanına gerek kalmadan. Ara başlıklar sıkışık görüntü yüzünde,
+   gövde serif, 19 piksel, satır aralığı 1.7. */
+.article-body {
+  --tw-prose-body: var(--text-base);
+  --tw-prose-headings: var(--text-base);
+  --tw-prose-lead: var(--text-muted);
+  --tw-prose-links: var(--text-base);
+  --tw-prose-bold: var(--text-base);
+  --tw-prose-counters: var(--text-muted);
+  --tw-prose-bullets: var(--accent);
+  --tw-prose-hr: var(--border);
+  --tw-prose-quotes: var(--text-base);
+  --tw-prose-quote-borders: var(--accent);
+  --tw-prose-captions: var(--text-muted);
+  --tw-prose-code: var(--text-base);
+  --tw-prose-th-borders: var(--border);
+  --tw-prose-td-borders: var(--border);
+  font-size: 1.1875rem;
+  line-height: 1.7;
+}
+.article-body :where(h2) {
+  font-family: var(--font-display);
+  font-stretch: 75%;
+  font-weight: 800;
+  font-size: clamp(1.875rem, 3.2vw, 2.5rem);
+  line-height: 1.02;
+  letter-spacing: -0.015em;
+  margin-top: 2.2em;
+  margin-bottom: 0.6em;
+  scroll-margin-top: 6rem;
+  text-wrap: balance;
+}
+.article-body :where(h3) {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 1.1875rem;
+  line-height: 1.3;
+  margin-top: 2em;
+  scroll-margin-top: 6rem;
+}
+.article-body :where(a) {
+  text-decoration-line: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  font-weight: inherit;
+  transition: color 0.15s ease;
+}
+.article-body :where(a):hover { color: var(--accent); }
+.article-body :where(blockquote) { font-style: normal; font-weight: 400; }
+.article-body :where(table) { font-family: var(--font-sans); font-size: 0.9375rem; }
+.article-body :where(strong) { font-weight: 650; }
 
 /* ─── Keyframe animations ─────────────────────────────── */
 @keyframes fadeInUp {
@@ -303,37 +476,93 @@ header {
 .delay-600 { animation-delay: 600ms; }
 .delay-700 { animation-delay: 700ms; }
 
-/* Card hover lift */
+/* Card hover lift — yalnızca TrendingTopics kullanıyor. */
 .card-hover {
-  transition: transform 0.28s cubic-bezier(.22,1,.36,1),
-              box-shadow 0.28s cubic-bezier(.22,1,.36,1),
-              border-color 0.28s ease;
+  transition: transform 0.28s var(--ease-out), box-shadow 0.28s var(--ease-out);
 }
 .card-hover:hover {
   transform: translateY(-4px);
-  box-shadow: 0 20px 40px -12px rgba(0,0,0,0.14), 0 8px 16px -8px rgba(26,63,168,0.09);
+  box-shadow: 0 20px 40px -12px rgba(0,0,0,0.14);
 }
 
-/* Premium card */
-.premium-card {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 1rem;
-  overflow: hidden;
-  transition: transform 0.28s cubic-bezier(.22,1,.36,1),
-              box-shadow 0.28s cubic-bezier(.22,1,.36,1),
-              border-color 0.28s ease;
+/* ─── Kart görseli — design.md § Motion ──────────────────
+   Kartta kıpırdayan tek şey fotoğraf: 700 ms'de %4 büyüme. Kart
+   yukarı zıplamıyor, gölge açılmıyor, kenar renk değiştirmiyor.
+   Eskiden üçü birden oluyordu — üretilmiş arayüzün en tanıdık
+   üzerine gelme hareketi. Dokunmatikte kapalı: parmak dokununca
+   sahte bir hover tetikleniyor ve görsel büyük takılı kalıyor. */
+.card-media img {
+  transition: transform 0.7s var(--ease-out);
 }
-.premium-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 20px 40px -12px rgba(0,0,0,0.14), 0 8px 16px -8px rgba(26,63,168,0.09);
-  border-color: var(--accent);
+@media (hover: hover) and (pointer: fine) {
+  .group:hover .card-media img { transform: scale(1.04); }
+  .group:hover .play-disc { transform: scale(1.06); }
+}
+.play-disc { transition: transform 0.2s var(--ease-out); }
+.group:active .play-disc { transform: scale(0.97); }
+
+/* ─── Anasayfa açılışı — design.md § Motion ─────────────
+   Ziyaret başına bir kez oynuyor. Fotoğraf 2.4 sn'de %8'den yerine
+   oturuyor; yalnızca transform, opaklık değil — görsel sayfanın LCP
+   öğesi, saydam başlasaydı LCP animasyon bitene kadar gecikirdi.
+   Metin fotoğrafın ardından sırayla, 80 ms arayla. Manşet kendi
+   maskesinin içinden yukarı kayıyor. */
+@keyframes hero-settle { from { transform: scale(1.08); } }
+@keyframes hero-rise   { from { opacity: 0; transform: translateY(24px); } }
+@keyframes hero-line   { from { transform: translateY(105%); } }
+@keyframes hero-fade   { from { opacity: 0; } }
+
+.hero-media  { animation: hero-settle 2.4s var(--ease-out) both; }
+.hero-rise   { animation: hero-rise 0.9s var(--ease-out) both; animation-delay: calc(250ms + var(--i, 0) * 80ms); }
+.hero-mask   { display: block; overflow: hidden; padding-bottom: 0.1em; margin-bottom: -0.1em; }
+.hero-line   { display: block; animation: hero-line 1s var(--ease-out) both; animation-delay: calc(250ms + var(--i, 0) * 80ms); }
+
+/* Kaydırırken fotoğraf metinden yavaş kayıyor. Kaydırmaya bağlı CSS
+   zaman çizelgesi: ana iş parçacığında değil, JS yok. Desteklemeyen
+   tarayıcıda fotoğraf yalnızca durur. */
+@keyframes hero-drift { to { transform: translateY(16%); } }
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .hero-parallax {
+      animation: hero-drift linear both;
+      animation-timeline: scroll(root);
+      animation-range: 0 100vh;
+    }
+  }
 }
 
-/* Header top strip */
-.header-top-strip {
-  height: 3px;
-  background: linear-gradient(90deg, var(--accent) 0%, var(--accent-gold, #b8860b) 50%, var(--accent) 100%);
+/* ─── Kaydırınca belirme — components/Reveal.tsx ────────
+   Bir kez. Gizleme yalnızca JS 'pending' dediğinde, yani ekran
+   altındaki bloklarda. */
+[data-reveal="pending"] { opacity: 0; transform: translateY(32px); }
+[data-reveal="visible"] {
+  transition: opacity 0.8s var(--ease-out), transform 0.8s var(--ease-out);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* Daha az ve daha yumuşak, sıfır değil: konum değişimleri gidiyor,
+     opaklık kalıyor. */
+  .hero-media, .hero-line { animation: none; }
+  .hero-rise { animation: hero-fade 0.2s ease both; }
+  [data-reveal="pending"] { transform: none; }
+  [data-reveal="visible"] { transition: opacity 0.2s ease; transition-delay: 0ms; }
+}
+.card-title {
+  text-decoration-line: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.12em;
+  transition: text-decoration-color 0.2s ease;
+}
+@media (hover: hover) {
+  .group:hover .card-title { text-decoration-color: var(--accent); }
+}
+.group:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .card-media img, .card-hover, .site-header { transition: opacity 0.15s ease; }
+  .group:hover .card-media img, .card-hover:hover { transform: none; }
 }
 
 /* ─── Smooth images ───────────────────────────────────── */
@@ -347,7 +576,7 @@ img {
 
 .prose img,
 figure img {
-  border-radius: 0.75rem;
+  border-radius: 2px;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   width: 100%;
@@ -364,8 +593,8 @@ figure img {
    etiketi yerinde bırakıyor. Kural yalnızca bağımsız kontrollere uygulanır —
    paragraf içindeki bağlantılar metin akışının parçasıdır ve bu kurala
    tabi değildir. */
-header a,
-header button,
+.site-header a,
+.site-header button,
 footer nav a,
 footer ul a,
 [class*='BottomNav'] a,

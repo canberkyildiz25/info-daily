@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import PageHead from '@/components/PageHead';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
@@ -8,10 +9,12 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicyPage() {
   return (
-    <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <h1 className="text-4xl font-black text-gray-900 mb-2">Privacy Policy</h1>
-      <p className="text-gray-400 text-sm mb-8">Last updated: April 2026</p>
-      <div className="prose prose-lg prose-gray max-w-none">
+    <div>
+      <PageHead label="Legal" title="Privacy Policy" size="l">
+        <p className="type-label mt-6 text-[var(--text-muted)]">Last updated: April 2026</p>
+      </PageHead>
+      <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-10">
+      <div className="article-body reading prose prose-lg max-w-[42rem]">
         <p>
           InfoDaily (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) is committed to protecting your privacy. This policy explains what information we collect, how we use it, and your rights.
         </p>
@@ -54,6 +57,7 @@ export default function PrivacyPolicyPage() {
         <p>
           If you have questions about this privacy policy, please contact us through our <a href="/contact" className="text-accent-600 hover:underline">Contact page</a>.
         </p>
+      </div>
       </div>
     </div>
   );

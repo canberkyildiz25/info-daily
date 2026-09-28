@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { getVideos, VIDEO_CATEGORIES } from '@/lib/videos';
+import PageHead from '@/components/PageHead';
 
 export const metadata: Metadata = {
   title: 'Videos — InfoDaily',
@@ -27,90 +28,69 @@ export default async function VideosPage({ searchParams }: Props) {
   const videos = await getVideos(activeCategory === 'all' ? undefined : activeCategory);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div>
+      <PageHead
+        label="Watch"
+        title="Videos"
+        intro="The latest from channels we read ourselves. Refreshed every hour; each video credits its channel and plays from YouTube."
+      >
+        <nav aria-label="Filter by topic" className="mt-8 flex gap-x-6 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          {VIDEO_CATEGORIES.map(c => {
+            const active = activeCategory === c.id;
+            return (
+              <Link
+                key={c.id}
+                href={c.id === 'all' ? '/videos' : `/videos?cat=${c.id}`}
+                aria-current={active ? 'page' : undefined}
+                className={`relative shrink-0 text-[0.9375rem] font-medium whitespace-nowrap transition-colors ${
+                  active ? 'text-[var(--text-base)]' : 'text-[var(--text-muted)] hover:text-[var(--text-base)]'
+                }`}
+              >
+                {c.label}
+                {active && <span aria-hidden className="absolute left-0 right-0 bottom-2 h-0.5 bg-[var(--accent)]" />}
+              </Link>
+            );
+          })}
+        </nav>
+      </PageHead>
 
-      {/* Page header */}
-      <div className="mb-6">
-        <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--accent)] mb-1">Watch & Learn</p>
-        <h1 className="text-2xl sm:text-3xl font-black text-[var(--text-base)] leading-tight" style={{ fontFamily: 'var(--font-serif)' }}>
-          Curated Videos
-        </h1>
-        <p className="text-sm text-[var(--text-muted)] mt-1">
-          Latest from top educational channels — updated hourly.
-        </p>
-      </div>
-
-      {/* Category filter tabs */}
-      <div className="flex items-center gap-2 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden pb-1 mb-8">
-        {VIDEO_CATEGORIES.map(c => (
-          <Link
-            key={c.id}
-            href={c.id === 'all' ? '/videos' : `/videos?cat=${c.id}`}
-            className={`shrink-0 px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wide transition-colors border ${
-              activeCategory === c.id
-                ? 'bg-[var(--accent)] text-white border-[var(--accent)]'
-                : 'border-[var(--border)] text-[var(--text-muted)] hover:border-[var(--accent)] hover:text-[var(--accent)]'
-            }`}
-          >
-            {c.label}
-          </Link>
-        ))}
-      </div>
-
-      {/* Video grid */}
-      {videos.length === 0 ? (
-        <div className="text-center py-20 text-[var(--text-muted)]">
-          <p className="text-4xl mb-4">📺</p>
-          <p className="font-semibold">No videos found.</p>
-          <p className="text-sm mt-1">Try another category or check back later.</p>
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-          {videos.map(video => (
-            <Link
-              key={video.id}
-              href={`/videos/${video.id}?title=${encodeURIComponent(video.title)}&channel=${encodeURIComponent(video.channelName)}&cat=${video.category}`}
-              className="group block bg-[var(--bg-card)] border border-[var(--border)] rounded-2xl overflow-hidden hover:border-[var(--accent)] hover:shadow-lg transition-all"
-            >
-              {/* Thumbnail */}
-              <div className="relative w-full overflow-hidden" style={{ paddingBottom: '56.25%' }}>
-                <Image
-                  src={video.thumbnail}
-                  alt={video.title}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                  unoptimized
-                />
-                {/* Play overlay */}
-                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black/30">
-                  <div className="w-14 h-14 rounded-full bg-white/90 flex items-center justify-center shadow-lg">
-                    <svg className="w-6 h-6 text-gray-900 ml-1" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                  </div>
+      <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-10">
+        {videos.length === 0 ? (
+          <p className="py-20 text-[var(--text-muted)] border-t border-[var(--border)]">
+            No videos came back from YouTube just now. Try another topic, or check again in a few minutes.
+          </p>
+        ) : (
+          <div className="grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-10 border-t border-[var(--border)]">
+            {videos.map(video => (
+              <Link
+                key={video.id}
+                href={`/videos/${video.id}?title=${encodeURIComponent(video.title)}&channel=${encodeURIComponent(video.channelName)}&cat=${video.category}`}
+                className="group block min-w-0"
+              >
+                <div className="card-media relative aspect-video overflow-hidden bg-black">
+                  <Image
+                    src={video.thumbnail}
+                    alt=""
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    unoptimized
+                  />
+                  <span aria-hidden className="play-disc absolute left-3 bottom-3 inline-flex items-center justify-center w-11 h-11 rounded-full bg-[var(--text-base)] text-[var(--bg-base)]">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" className="ml-0.5"><path d="M7 4.5v15l13-7.5z" /></svg>
+                  </span>
                 </div>
-                {/* Duration badge placeholder */}
-                <div className="absolute bottom-2 right-2 bg-black/80 text-white text-[10px] font-bold px-1.5 py-0.5 rounded">
-                  ▶ YouTube
-                </div>
-              </div>
-
-              {/* Card body */}
-              <div className="p-3.5">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="text-[10px] font-black uppercase tracking-widest text-[var(--accent)]">{video.channelName}</span>
-                  <span className="text-[var(--text-muted)]" aria-hidden>·</span>
-                  <span className="text-[10px] text-[var(--text-muted)]">{timeAgo(video.publishedAt)}</span>
-                </div>
-                <h3 className="text-sm font-bold text-[var(--text-base)] group-hover:text-[var(--accent)] leading-snug line-clamp-2 transition-colors" style={{ fontFamily: 'var(--font-serif)' }}>
+                <p className="type-label mt-4 text-[var(--text-muted)]">
+                  <span className="text-[var(--accent)]">{video.channelName}</span> · {timeAgo(video.publishedAt)}
+                </p>
+                <h2 className="card-title mt-1 text-[0.9375rem] font-semibold leading-snug text-[var(--text-base)] line-clamp-2">
                   {video.title}
-                </h3>
-              </div>
-            </Link>
-          ))}
-        </div>
-      )}
+                </h2>
+              </Link>
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   );
 }

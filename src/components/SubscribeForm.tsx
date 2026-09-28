@@ -35,21 +35,19 @@ export default function SubscribeForm() {
 
   return (
     <div>
-      <h4 className="text-white font-semibold mb-1">Daily Newsletter</h4>
-      <p className="text-sm text-gray-400 mb-3">Get the Article of the Day in your inbox.</p>
+      <h2 className="type-label text-[var(--text-muted)] mb-2">Newsletter</h2>
+      <p className="text-[0.9375rem] text-[var(--text-base)] mb-4">New guides in your inbox.</p>
 
       {status === 'success' ? (
-        <div className="flex items-center gap-2 text-emerald-400 text-sm">
-          <span>✓</span>
-          <span>{message}</span>
-        </div>
+        <p role="status" className="text-sm text-[var(--accent)]">{message}</p>
       ) : (
-        <form onSubmit={handleSubmit} className="flex gap-2">
+        <form onSubmit={handleSubmit} className="flex border border-[var(--border)] focus-within:border-[var(--text-muted)] transition-colors">
           <input
             type="email"
             value={email}
             onChange={e => setEmail(e.target.value)}
-            placeholder="your@email.com"
+            placeholder="you@example.com"
+            aria-label="Email address"
             required
             /* min-w-0: flex-1 tek başına yetmiyor. Bir flex öğesinin varsayılan
                asgari genişliği içeriğine göre belirlenir, o yüzden input
@@ -58,20 +56,20 @@ export default function SubscribeForm() {
                focus-visible halkası da geri geldi: focus:outline-none tek
                başına bırakılmış, yerine sadece kenarlık rengi konmuştu, ki o
                klavyeyle gezen için yeterli bir işaret değil. */
-            className="flex-1 min-w-0 px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-white placeholder-gray-500 text-sm transition-colors focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-400 focus:border-accent-500"
+            className="flex-1 min-w-0 h-12 px-4 bg-transparent text-[var(--text-base)] placeholder:text-[var(--text-muted)] text-[0.9375rem] focus:outline-none focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-[var(--accent)]"
           />
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="px-4 py-2 bg-accent-600 hover:bg-accent-700 text-white text-sm font-semibold rounded-lg transition-colors disabled:opacity-50 whitespace-nowrap"
+            className="h-12 px-5 bg-[var(--text-base)] text-[var(--bg-base)] hover:bg-[var(--accent)] text-[0.9375rem] font-semibold transition-colors disabled:opacity-50 whitespace-nowrap"
           >
-            {status === 'loading' ? '...' : 'Subscribe'}
+            {status === 'loading' ? 'Sending…' : 'Subscribe'}
           </button>
         </form>
       )}
 
       {status === 'error' && (
-        <p className="text-red-400 text-xs mt-2">{message}</p>
+        <p role="alert" className="text-[var(--danger)] text-sm mt-2">{message}</p>
       )}
     </div>
   );

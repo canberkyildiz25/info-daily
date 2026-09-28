@@ -3,7 +3,10 @@
 import { useEffect, useState } from 'react';
 import type { Heading } from '@/lib/posts';
 
-export default function TableOfContents({ headings }: { headings: Heading[] }) {
+/* İçindekiler. Kutusuz: kenar boşluğunda duran ince bir liste, okunan
+   bölümün yanında vurgu renginde bir çizgi. `bare` — mobilde açılır
+   bloğun içinde, başlıksız. */
+export default function TableOfContents({ headings, bare = false }: { headings: Heading[]; bare?: boolean }) {
   const [activeId, setActiveId] = useState<string>('');
 
   useEffect(() => {
@@ -28,36 +31,33 @@ export default function TableOfContents({ headings }: { headings: Heading[] }) {
   if (headings.length < 2) return null;
 
   return (
-    <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm p-5">
-      <h3 className="font-bold text-gray-900 dark:text-slate-100 mb-3 text-sm uppercase tracking-wide">
-        In This Article
-      </h3>
-      <nav>
-        <ul className="space-y-1">
-          {headings.map(({ id, text, level }) => (
+    <div>
+      {!bare && <p className="type-label text-[var(--text-muted)] mb-4">In this guide</p>}
+      <ol className="border-l border-[var(--border)]">
+        {headings.map(({ id, text, level }) => {
+          const active = activeId === id;
+          return (
             <li key={id}>
               <a
                 href={`#${id}`}
                 onClick={(e) => {
                   e.preventDefault();
                   document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                  history.replaceState(null, '', `#${id}`);
                   setActiveId(id);
                 }}
-                className={`
-                  block text-sm py-1 transition-colors leading-snug
-                  ${level === 3 ? 'pl-3 border-l border-gray-200 dark:border-slate-600' : ''}
-                  ${activeId === id
-                    ? 'text-accent-600 dark:text-accent-400 font-medium'
-                    : 'text-gray-500 dark:text-slate-400 hover:text-gray-800 dark:hover:text-slate-200'
-                  }
-                `}
+                aria-current={active ? 'location' : undefined}
+                className={`relative block py-1.5 text-[0.875rem] leading-snug transition-colors ${level === 3 ? 'pl-7' : 'pl-4'} ${
+                  active ? 'text-[var(--text-base)] font-medium' : 'text-[var(--text-muted)] hover:text-[var(--text-base)]'
+                }`}
               >
+                {active && <span aria-hidden className="absolute -left-px top-1.5 bottom-1.5 w-0.5 bg-[var(--accent)]" />}
                 {text}
               </a>
             </li>
-          ))}
-        </ul>
-      </nav>
+          );
+        })}
+      </ol>
     </div>
   );
 }

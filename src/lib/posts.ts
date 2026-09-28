@@ -68,6 +68,9 @@ export interface Post {
   content?: string;
   noInlineImages?: boolean;
   imagePosition?: string;
+  /* Anasayfanın açılışını bu yazı alır. Birden fazla varsa en yenisi.
+     Hiçbiri yoksa en yeni yazı. */
+  featured?: boolean;
 }
 
 export function getAllPosts(): Post[] {
@@ -98,6 +101,8 @@ export function getAllPosts(): Post[] {
         coverImage: data.coverImage || defaultCover(),
         readingTime: stats.text,
         tags: data.tags || [],
+        featured: data.featured === true,
+        imagePosition: data.imagePosition,
       });
     }
   }

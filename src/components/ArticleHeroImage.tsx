@@ -13,11 +13,14 @@ interface ArticleHeroImageProps {
   objectPosition?: string;
 }
 
+/* Kapak: okuma sütunundan geniş, sayfa kabının tamamı. Köşe yuvarlaması
+   ve üstündeki karartma kaldırıldı — fotoğrafın üstünde metin yok, karartı
+   yalnızca fotoğrafı soluklaştırıyordu. */
 export default function ArticleHeroImage({ src, alt, tint, categorySlug, objectPosition = 'center' }: ArticleHeroImageProps) {
   const [imageError, setImageError] = useState(false);
 
   return (
-    <div className="relative rounded-2xl overflow-hidden h-64 sm:h-80 mb-8 bg-gray-100 dark:bg-slate-700">
+    <div className="relative aspect-[4/3] sm:aspect-[16/9] lg:aspect-[21/9] overflow-hidden bg-[var(--bg-card-hover)]">
       {src && !imageError ? (
         <Image
           src={src}
@@ -26,7 +29,7 @@ export default function ArticleHeroImage({ src, alt, tint, categorySlug, objectP
           className="object-cover"
           style={{ objectPosition }}
           preload
-          sizes="(max-width: 1024px) 100vw, 66vw"
+          sizes="(max-width: 1440px) 100vw, 1360px"
           onError={() => setImageError(true)}
         />
       ) : (
@@ -34,7 +37,6 @@ export default function ArticleHeroImage({ src, alt, tint, categorySlug, objectP
           {categorySlug ? <CategoryIcon slug={categorySlug} size={84} className="text-white/60" /> : null}
         </div>
       )}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
     </div>
   );
 }

@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import CategoryIcon from './CategoryIcon';
-import { getAllPosts, CATEGORIES } from '@/lib/posts';
+import { getAllPosts } from '@/lib/posts';
 
 interface Props {
   currentSlug: string;
@@ -26,28 +25,19 @@ export default function InternalLinks({ currentSlug, currentCategory, currentTag
   if (scored.length < 2) return null;
 
   return (
-    <aside className="my-8 p-5 bg-accent-50 dark:bg-slate-800 border border-accent-100 dark:border-slate-700 rounded-2xl">
-      <p className="text-xs font-bold uppercase tracking-widest text-accent-600 dark:text-accent-400 mb-3">
-        Related Reading
-      </p>
-      <ul className="space-y-2">
-        {scored.map(post => {
-          const cat = CATEGORIES.find(c => c.slug === post.category);
-          return (
-            <li key={post.slug} className="flex items-start gap-2">
-              <span className="mt-0.5 text-accent-700 dark:text-accent-300 flex-shrink-0">→</span>
-              <Link
-                href={`/${post.category}/${post.slug}`}
-                className="text-sm text-gray-700 dark:text-slate-300 hover:text-accent-600 dark:hover:text-accent-400 font-medium transition-colors leading-snug"
-              >
-                {post.title}
-                <span className="ml-1 text-xs text-gray-400 dark:text-slate-500 font-normal">
-                  {cat ? <CategoryIcon slug={cat.slug} size={16} /> : null}
-                </span>
-              </Link>
-            </li>
-          );
-        })}
+    <aside className="mt-12 border-l-2 border-[var(--accent)] pl-5 sm:pl-6">
+      <p className="type-label text-[var(--text-muted)] mb-3">Related reading</p>
+      <ul className="space-y-1">
+        {scored.map(post => (
+          <li key={post.slug}>
+            <Link
+              href={`/${post.category}/${post.slug}`}
+              className="inline-block py-1.5 text-[0.9375rem] font-medium leading-snug text-[var(--text-base)] underline decoration-[var(--border)] underline-offset-4 hover:decoration-[var(--accent)] transition-colors"
+            >
+              {post.title}
+            </Link>
+          </li>
+        ))}
       </ul>
     </aside>
   );

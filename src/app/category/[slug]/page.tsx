@@ -1,5 +1,5 @@
 import { getPostsByCategory, CATEGORIES } from '@/lib/posts';
-import CategoryIcon from '@/components/CategoryIcon';
+import PageHead from '@/components/PageHead';
 import CategoryPostGrid from '@/components/CategoryPostGrid';
 import { getCoverImageUrl } from '@/lib/pexels';
 import { notFound } from 'next/navigation';
@@ -61,7 +61,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
   );
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -85,43 +85,16 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
           ]),
         }}
       />
-      {/* Category header */}
-      <div className="mb-8 pb-6 border-b border-gray-200 dark:border-slate-700">
-        <div className="flex items-center gap-3 mb-2">
-          <CategoryIcon slug={cat.slug} size={40} className="text-[var(--accent)]" />
-          <h1 className="text-3xl font-black text-gray-900 dark:text-slate-100">{cat.label}</h1>
-        </div>
-        <p className="text-gray-500 dark:text-slate-400 text-lg">{cat.description}</p>
-        <p className="text-sm text-gray-400 dark:text-slate-500 mt-1">{posts.length} articles</p>
-      </div>
+      <PageHead label="Section" title={cat.label} intro={cat.description + '.'}>
+        <p className="type-label mt-6 text-[var(--text-muted)] tabular-nums">{posts.length} guides</p>
+      </PageHead>
 
-      {/* Articles grid + Sidebar */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        <div className="lg:col-span-2">
-          {posts.length === 0 ? (
-            <p className="text-gray-500 dark:text-slate-400 text-center py-20">No articles yet. Check back soon!</p>
-          ) : (
-            <CategoryPostGrid posts={posts} />
-          )}
-        </div>
-
-        <aside className="space-y-6">
-          <div className="bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm p-5">
-            <h3 className="font-bold text-gray-900 dark:text-slate-100 mb-4">Other Categories</h3>
-            <div className="space-y-1">
-              {CATEGORIES.filter(c => c.slug !== slug).map(c => (
-                <a
-                  key={c.slug}
-                  href={`/category/${c.slug}`}
-                  className="flex items-center gap-2 min-h-11 px-3 rounded-lg hover:bg-accent-50 dark:hover:bg-slate-700 text-sm text-gray-700 dark:text-slate-300 hover:text-accent-600 dark:hover:text-accent-400 font-medium transition-colors"
-                >
-                  <CategoryIcon slug={c.slug} size={14} /> {c.label}
-                </a>
-              ))}
-            </div>
-          </div>
-
-        </aside>
+      <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-10">
+        {posts.length === 0 ? (
+          <p className="text-[var(--text-muted)] py-20">No guides here yet.</p>
+        ) : (
+          <CategoryPostGrid posts={posts} />
+        )}
       </div>
     </div>
   );

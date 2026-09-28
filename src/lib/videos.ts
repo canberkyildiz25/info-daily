@@ -47,7 +47,10 @@ function parseChannelRSS(
   category: string,
   max = 5
 ): VideoItem[] {
-  const entries = xml.split('<entry>').slice(1, max + 1);
+  /* Shorts ayıklanıyor: dikey videolar 16:9 karelerde iki yanı bulanık
+     bantlarla, oynatıcıda da dar bir şerit olarak çıkıyordu. Akış onları
+     /shorts/ adresiyle işaretliyor. */
+  const entries = xml.split('<entry>').slice(1).filter(e => !e.includes('/shorts/')).slice(0, max);
   return entries
     .map(entry => {
       const videoId   = entry.match(/<yt:videoId>([^<]+)<\/yt:videoId>/)?.[1] ?? '';
@@ -67,7 +70,10 @@ function parseChannelRSS(
     .filter((v): v is VideoItem => v !== null);
 }
 
-export async function getVideos(category?: string): Promise<VideoItem[]> {
+/* revalidateSeconds: /videos saatte bir tazeleniyor. Anasayfa daha seyrek
+   ister — her tazeleme bir ISR yazımı demek, anasayfanın geri kalanı da
+   zaten yalnızca yeni yazı eklenince değişiyor. */
+export async function getVideos(category?: string, revalidateSeconds = 3600): Promise<VideoItem[]> {
   const channels =
     category && category !== 'all'
       ? CHANNELS.filter(c => c.category === category)
@@ -77,7 +83,7 @@ export async function getVideos(category?: string): Promise<VideoItem[]> {
     channels.map(async ch => {
       const res = await fetch(
         `https://www.youtube.com/feeds/videos.xml?channel_id=${ch.id}`,
-        { next: { revalidate: 3600 } } // 1-hour cache
+        { next: { revalidate: revalidateSeconds } }
       );
       if (!res.ok) return [] as VideoItem[];
       const xml = await res.text();
