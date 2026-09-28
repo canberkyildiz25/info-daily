@@ -3,8 +3,8 @@ import { getAllPosts } from '@/lib/posts';
 export const dynamic = 'force-dynamic';
 
 const SITE_URL = 'https://www.infodaily.net';
-const SITE_TITLE = 'InfoDaily – Practical Guides, Tech & Daily Life';
-const SITE_DESCRIPTION = 'Practical guides and timely explainers on health, personal finance, technology, travel, food, science, and everyday life.';
+const SITE_TITLE = 'InfoDaily — Tech & Gaming Guides for What You Already Own';
+const SITE_DESCRIPTION = 'Practical technology and gaming guides: how to make the hardware and software you already own faster, safer, and longer-lived.';
 
 export async function GET() {
   const posts = getAllPosts()

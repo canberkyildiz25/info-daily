@@ -56,7 +56,7 @@ export async function GET(req: NextRequest) {
           <!-- Header -->
           <div style="background:#007883;padding:24px 32px;border-radius:12px 12px 0 0">
             <h1 style="color:#fff;font-size:22px;margin:0;font-weight:800">InfoDaily</h1>
-            <p style="color:#bfdbfe;font-size:13px;margin:4px 0 0">Knowledge for Every Day</p>
+            <p style="color:#d7f1f4;font-size:13px;margin:4px 0 0">Guides for the hardware and software you already own.</p>
           </div>
 
           <!-- Label -->

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import PageHead from '@/components/PageHead';
 import { CATEGORIES } from '@/lib/categories';
 import Link from 'next/link';
-import { getAllPosts } from '@/lib/posts';
+import { getAllPosts, getCitedDomains } from '@/lib/posts';
 
 export const metadata: Metadata = {
   title: 'About InfoDaily – Our Mission, Editorial Standards & Team',
@@ -34,7 +34,6 @@ const ORGANIZATION_SCHEMA = {
   },
   sameAs: [],
   publishingPrinciples: 'https://www.infodaily.net/about',
-  diversityPolicy: 'https://www.infodaily.net/about',
   ethicsPolicy: 'https://www.infodaily.net/about',
   correctionsPolicy: 'https://www.infodaily.net/about',
 };
@@ -44,7 +43,7 @@ const WEBPAGE_SCHEMA = {
   '@type': 'AboutPage',
   name: 'About InfoDaily',
   url: 'https://www.infodaily.net/about',
-  description: 'Learn about InfoDaily — who we are, our editorial standards, and the team behind our daily articles.',
+  description: 'What InfoDaily covers, how a guide is researched and written, the sources we cite most, and how to report an error.',
   publisher: {
     '@type': 'Organization',
     name: 'InfoDaily',
@@ -53,7 +52,10 @@ const WEBPAGE_SCHEMA = {
 };
 
 export default function AboutPage() {
-  const articleCount = getAllPosts().length;
+  const posts = getAllPosts();
+  const articleCount = posts.length;
+  const countOf = (slug: string) => posts.filter(p => p.category === slug).length;
+  const cited = getCitedDomains(12);
 
   return (
     <>
@@ -66,7 +68,7 @@ export default function AboutPage() {
       <PageHead
         label="About"
         title="About InfoDaily"
-        intro="Practical guides and timely explainers for the technology and games you already own."
+        intro="Guides for the hardware and software you already own — and straight answers on whether the new stuff is worth buying."
       >
         <p className="type-label mt-6 text-[var(--text-muted)] tabular-nums">
           {articleCount} guides · {CATEGORIES.length} sections · free to read
@@ -75,67 +77,58 @@ export default function AboutPage() {
 
       <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-10">
         <div className="article-body reading prose prose-lg max-w-[42rem]">
-          <h2>Our Mission</h2>
+          <h2>What InfoDaily is</h2>
           <p>
-            InfoDaily exists to make useful information easier to understand. We cover technology and gaming: the devices and software people already own, and how to get more out of them.
+            InfoDaily is a guide publication about consumer technology and gaming. Most of what we write is about the phones, laptops, consoles, routers and software people already own: how to set them up, keep them secure, make them faster and get more years out of them. When new hardware comes out, we write about it from the same angle — what actually changed, and whether it is worth buying.
           </p>
 
-          <h2>What We Publish</h2>
+          <h2>What we cover</h2>
+          <ul>
+            <li><Link href="/category/technology">Technology</Link> — devices, software, security and privacy settings, and the AI tools now built into all three. {countOf('technology')} guides.</li>
+            <li><Link href="/category/gaming">Gaming</Link> — hardware, setups and accessories, platform and price changes, and games worth your time. {countOf('gaming')} guides.</li>
+          </ul>
+
+          <h2>How a guide is written</h2>
           <p>
-            InfoDaily publishes deep-dive guides, research explainers, practical how-tos, and clearly labelled news briefs. We aim to distinguish reported facts from general guidance, and we link to primary or authoritative material when it is relevant to the reader’s next step.
+            Most of our guides are research, not lab testing. We work from the manufacturer&rsquo;s own specification sheet and support documentation, from independent reviewers who measured the thing themselves, and from standards bodies and security agencies where a claim depends on them. Each source is linked where it is used.
           </p>
           <p>
-            Publication dates are visible on every post, and substantial updates are labelled so readers can judge freshness. Articles that depend on research, official guidance, or data should include a <strong>Sources &amp; References</strong> section; if a source is missing or no longer works, readers can report it through our contact page.
+            When we have not handled a device ourselves, the guide says so in plain words, and every measurement is attributed to whoever took it. Where two accounts disagree — the spec sheet and a reviewer, or two reviewers — we show both rather than pick the more flattering one.
+          </p>
+          <p>
+            Every guide shows the date it was published, and an updated date when its substance changes. We revise a guide when a price, a setting or a recommendation in it stops being true, rather than re-dating a page that has not changed.
           </p>
 
-          <h2>Our Editorial Process</h2>
-          <p>Our editorial workflow prioritizes three things:</p>
-          <ol>
-            <li><strong>Clear scope</strong> — a guide should tell readers what it can and cannot answer.</li>
-            <li><strong>Useful attribution</strong> — source material should be linked when it supports a factual or high-stakes claim.</li>
-            <li><strong>Plain-language updates</strong> — we aim to revise dated guidance rather than make an old page look new without meaningful changes.</li>
-          </ol>
+          <h2>The sources we cite most</h2>
           <p>
-            Editorial pages are written for readers first. Display advertising, where shown, is visually separated from the surrounding editorial content.
+            Counted from the links inside our {articleCount} guides, not written by hand. The list changes when the guides do.
+          </p>
+          <ul>
+            {cited.map(c => (
+              <li key={c.domain}>
+                <strong>{c.domain}</strong> — cited in {c.guides} guide{c.guides === 1 ? '' : 's'}
+              </li>
+            ))}
+          </ul>
+
+          <h2>Who writes it</h2>
+          <p>
+            Guides are published under the <strong>InfoDaily Editorial Team</strong> byline. We do not invent personal profiles or credentials to look more authoritative. <Link href="/authors">More about the editorial desk</Link>.
           </p>
 
-          <h2>Authorship and Accountability</h2>
+          <h2>Corrections</h2>
           <p>
-            InfoDaily articles are published under the <strong>InfoDaily Editorial Team</strong> byline. We do not present unverifiable personal credentials as a signal of expertise.
-          </p>
-          <p>
-            For health, finance, legal, or other high-stakes questions, our articles are general information only. Readers should use the original sources and seek qualified professional advice for decisions specific to their circumstances.
-          </p>
-          <p>
-            <Link href="/authors">Read about the editorial desk →</Link>
-          </p>
-
-          <h2>How We Source Our Information</h2>
-          <p>When we cite sources, we prioritize the following types of material:</p>
-          <ol>
-            <li><strong>Peer-reviewed journals</strong> — PubMed, Nature, Science, JAMA, NEJM, and other indexed publications</li>
-            <li><strong>Government and institutional data</strong> — NIH, CDC, WHO, FDA, U.S. Bureau of Labor Statistics, Federal Reserve</li>
-            <li><strong>Academic institutions</strong> — Harvard Health, Mayo Clinic, Stanford, MIT</li>
-            <li><strong>Professional associations</strong> — APA, AMA, AHA, Academy of Nutrition and Dietetics</li>
-          </ol>
-          <p>We aim to link directly to the material that informed a claim so readers can verify it for themselves.</p>
-
-          <h2>Corrections Policy</h2>
-          <p>
-            If you spot an error — a wrong statistic, a broken link, or a claim that no longer reflects current evidence — please use our <Link href="/contact">Contact page</Link> to let us know. We review reports and correct material issues when they are confirmed.
+            If you spot an error — a wrong spec, a price that has changed, a setting that has moved, a broken link — tell us through the <Link href="/contact">contact page</Link>. We check every report and correct confirmed errors in the guide itself.
           </p>
 
           <h2>Advertising</h2>
           <p>
-            InfoDaily is supported by display advertising through Google AdSense. Ads are served automatically based on page content and reader interest. We do not control which specific ads appear, and advertisers have no influence over our editorial content.
-          </p>
-          <p>
-            If a commercial relationship materially affects a recommendation, it should be disclosed clearly in the article.
+            InfoDaily is supported by display advertising through Google AdSense. Ads are served automatically; we do not choose which ones appear, and advertisers have no say in what we write. If a commercial relationship ever affects a recommendation, the guide will say so.
           </p>
 
-          <h2>Contact Us</h2>
+          <h2>Contact</h2>
           <p>
-            For editorial inquiries, corrections, or partnership questions, please visit our <Link href="/contact">Contact page</Link>. We read every message and respond to most within two business days.
+            For corrections, questions or partnership enquiries, use the <Link href="/contact">contact page</Link>. We read every message and reply to most within two business days.
           </p>
         </div>
       </div>
