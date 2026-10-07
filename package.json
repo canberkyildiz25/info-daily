@@ -7,17 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "generate:article": "node generate-article.js",
-    "generate:daily": "node generate-article.js --batch daily-articles.txt",
-    "automate:start": "node automate-daily-articles.js",
-    "setup:scheduler": "node setup-windows-scheduler.bat",
-    "setup:cron": "chmod +x setup-linux-cron.sh && ./setup-linux-cron.sh",
     "indexnow": "node scripts/indexnow.js",
     "indexnow:new": "node scripts/indexnow.js --new-only",
     "gsc": "node scripts/search-console.js"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.86.1",
     "@formspree/react": "^3.0.0",
     "@tailwindcss/typography": "^0.5.19",
     "@upstash/redis": "^1.37.0",

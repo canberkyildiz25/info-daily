@@ -2,7 +2,7 @@ name: Tweet New Articles
 
 on:
   schedule:
-    # Her gün saat 10:00 UTC (Türkiye saatiyle 13:00) — makale üretiminden 1 saat sonra
+    # Her gün saat 10:00 UTC (Türkiye saatiyle 13:00)
     - cron: '0 10 * * *'
   workflow_dispatch:
 
