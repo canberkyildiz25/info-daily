@@ -1,7 +1,5 @@
 'use client';
-/* Hallmark · nav: N9 edge-aligned · design.md § Navigation
- *
- * Eskiden başlık yaklaşık on iki kontrol taşıyordu: altı metin bağlantısı,
+/* Eskiden başlık yaklaşık on iki kontrol taşıyordu: altı metin bağlantısı,
  * arama, yazı tipi seçici, tema seçici, mobil menü, ve altında kaydırma
  * oklarıyla ikinci bir kategori satırı — sayfadaki en yoğun şey. Şimdi
  * logo solda; iki kategori, Articles, arama ve menü sağda. Geri kalan her

@@ -1,8 +1,7 @@
 # Design — InfoDaily
 
-A locked design system for the whole site. Every page reads this file before
-its code changes. Do not regenerate per page — amend this file when the system
-needs to grow.
+The design system for the whole site, and the reasons behind it. A page is
+changed to fit this file; when the system has to grow, this file is changed first.
 
 The brief was "a site that feels like it cost $10,000". The owner's own
 reference for that is two sites he built, FORGE and FORNACE: both dark and

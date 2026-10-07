@@ -1,5 +1,4 @@
-/* Hallmark · footer: Ft5 statement · design.md § Footer
- * Sitenin ne olduğunu söyleyen tek bir cümle, bir satır bağlantı, bülten,
+/* Sitenin ne olduğunu söyleyen tek bir cümle, bir satır bağlantı, bülten,
  * yasal satır. Her zaman sahne yüzeyinde: iki yüzeyli sistemde altbilgi
  * için üçüncü bir koyu gri icat etmeye gerek yok. */
 import Link from 'next/link';

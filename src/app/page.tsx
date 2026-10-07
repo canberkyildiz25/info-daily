@@ -1,18 +1,7 @@
-/* Hallmark · macrostructure: Marquee Hero → index · genre: editorial
- * surface: stage (design.md § Surfaces) · theme: custom (tuned), petrol anchor
- * type: Archivo 800 @ wdth 75 display · Archivo UI · Source Serif 4 reading
- * nav: N9 edge-aligned, transparent over the lead · footer: Ft5 statement
- * enrichment: the lead guide's own cover photograph; real review videos from
- *   the channels already curated on /videos — nothing generated
- * motion: hero settle + staggered text rise on load, scroll-linked parallax on
- *   the lead photo, one-shot reveals on the bands, card image scale on hover.
- *   All transform/opacity, all gated on prefers-reduced-motion.
- * pre-emit critique: P5 H5 E4 S5 R4 V5
- *
- * Previous run was Ecosystem Index (rails of evenly sized cards under a short
- * positioning line). This one lets the featured guide own the first screen,
- * then turns into an index whose bands each have a different shape, so the
- * page does not read as the same rail repeated.
+/* The featured guide owns the first screen. Under it the page turns into an
+ * index whose bands each have a different shape, so that it does not read as
+ * the same rail repeated. Motion is transform and opacity only, and all of it
+ * is gated on prefers-reduced-motion.
  */
 import Link from 'next/link';
 import Image from 'next/image';

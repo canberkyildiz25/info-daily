@@ -111,8 +111,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
     ? new Date(post.updatedAt).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
     : null;
 
-  /* Hallmark · macrostructure: Long Document · design.md § Macrostructure
-     Tek okuma sütunu (42rem, ~70 karakter), serif gövde, manşet sıkışık
+  /* Tek okuma sütunu (42rem, ~70 karakter), serif gövde, manşet sıkışık
      görüntü yüzünde. Kenar boşluklarında yalnızca gezinme — içindekiler
      solda — ve 1400 pikselin üstünde sağda tek bir reklam yuvası. Eskiden
      sağ kenar çubuğunda kategori listesi kutusu da vardı; başlıktaki
