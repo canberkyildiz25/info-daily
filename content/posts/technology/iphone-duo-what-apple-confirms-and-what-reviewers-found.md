@@ -8,7 +8,6 @@ coverImage: "https://images.pexels.com/photos/10883732/pexels-photo-10883732.jpe
 imagePosition: "65% center"
 coverCaption: "Pictured: an earlier iPhone, not the iPhone Duo."
 tags: ["iPhone Duo", "foldable phone", "Apple", "Galaxy Z Fold 8", "smartphone buying guide"]
-featured: true
 ---
 
 Apple announced the iPhone Duo at Apple Park on 9 September 2026 — its first foldable iPhone, seven years after Samsung shipped the original Galaxy Fold. It opens to a 7.6-inch inner display, closes to a 5.4-inch outer one, and starts at $1,999.
