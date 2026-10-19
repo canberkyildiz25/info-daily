@@ -411,8 +411,54 @@ body {
 }
 .article-body :where(a):hover { color: var(--accent); }
 .article-body :where(blockquote) { font-style: normal; font-weight: 400; }
-.article-body :where(table) { font-family: var(--font-sans); font-size: 0.9375rem; }
 .article-body :where(strong) { font-weight: 650; }
+
+/* ─── Tablolar ──────────────────────────────────────────
+   Gazete tablosu düzeni: üstte iki piksellik mürekkep çizgi, başlık
+   satırının altında bir piksellik mürekkep çizgi, satırlar arasında
+   yalnızca saç çizgisi, sonda kapanış çizgisi. Dikey çizgi, zebra
+   şerit, renkli başlık zemini yok; üçü birden tabloyu bir yönetim
+   panelinden kopyalanmış gibi gösteriyor. Rakamlar eşit genişlikte,
+   fiyat sütunu alt alta hizalı okunuyor.
+
+   Kutu posts.ts'teki wrapTables'tan geliyor. Dar ekranda okuma
+   sütununun dolgusunu yiyip ekran kenarına kadar uzanıyor: sığmayan
+   sütun kenarda kesik göründüğü için kaydırılabildiği belli oluyor.
+   Dört sütunlu tabloya asgari genişlik var, yoksa 375 pikselde her
+   hücreye bir iki kelime düşüyor. */
+.article-body .table-scroll {
+  --tw-prose-th-borders: var(--text-base);
+  margin-block: 2.5rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+}
+@media (width < 40rem) {
+  .article-body .table-scroll {
+    margin-inline: -1rem;
+    padding-inline: 1rem;
+  }
+}
+.article-body .table-scroll :where(table) {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  font-variant-numeric: tabular-nums;
+  border-top: 2px solid var(--text-base);
+  border-bottom: 1px solid var(--text-base);
+}
+.article-body .table-scroll :where(table:has(th:nth-child(4))) { min-width: 36rem; }
+.article-body .table-scroll :where(th, td) {
+  padding: 0.75rem;
+  text-align: start;
+}
+.article-body .table-scroll :where(th) {
+  font-weight: 600;
+  vertical-align: bottom;
+}
+.article-body .table-scroll :where(td) { vertical-align: top; }
+.article-body .table-scroll :where(th, td):first-child { padding-inline-start: 0; }
+.article-body .table-scroll :where(th, td):last-child { padding-inline-end: 0; }
 
 /* ─── Keyframe animations ─────────────────────────────── */
 @keyframes fadeInUp {

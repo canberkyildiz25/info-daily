@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
+import remarkGfm from 'remark-gfm';
 import remarkHtml from 'remark-html';
 import readingTime from 'reading-time';
 import { CATEGORIES } from './categories';
@@ -41,6 +42,16 @@ function addHeadingIds(html: string): string {
     const id = slugify(inner);
     return `<h${level}${attrs} id="${id}">${inner}</h${level}>`;
   });
+}
+
+/* Dar ekranda geniş bir tablo okuma sütununu taşırmasın diye her tablo
+   yatay kayan bir kutuya giriyor. Tablonun kendisine display: block
+   vermek daha kısa olurdu ama bazı ekran okuyucular o zaman onu tablo
+   olarak tanımıyor. Görünüm globals.css'te, .table-scroll altında. */
+function wrapTables(html: string): string {
+  return html
+    .replace(/<table\b/g, '<div class="table-scroll"><table')
+    .replace(/<\/table>/g, '</table></div>');
 }
 
 export interface Heading { id: string; text: string; level: number; }
@@ -130,8 +141,14 @@ export async function getPost(category: string, slug: string): Promise<Post | nu
   const { data, content } = matter(fileContents);
   const stats = readingTime(content);
 
-  const processedContent = await remark().use(remarkHtml).process(content);
-  const htmlContent = addHeadingIds(processedContent.toString());
+  /* remark-gfm tabloları, üstü çiziliyi ve çıplak bağlantıları açıyor.
+     singleTilde kapalı: yazılarda "~$70 new, ~$40 used" gibi yaklaşık
+     fiyatlar var ve tek tilde açık olsaydı aradaki metnin üstü çizilirdi. */
+  const processedContent = await remark()
+    .use(remarkGfm, { singleTilde: false })
+    .use(remarkHtml)
+    .process(content);
+  const htmlContent = wrapTables(addHeadingIds(processedContent.toString()));
 
   return {
     slug,
