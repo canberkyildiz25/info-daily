@@ -90,9 +90,4 @@ Use it as a powerful first-draft and thinking partner, not a replacement for the
 
 ## Sources & References
 
-- [MIT Technology Review](https://www.technologyreview.com/)
-- [IEEE Spectrum](https://spectrum.ieee.org/)
-- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
-- [Stanford AI Index Report](https://aiindex.stanford.edu/report/)
 - [MIT AI Policy](https://computing.mit.edu/artificial-intelligence/)
-- [OpenAI Research](https://openai.com/research)

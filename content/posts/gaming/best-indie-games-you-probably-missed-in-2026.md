@@ -50,9 +50,3 @@ A few practical habits help surface hidden gems before they disappear from store
 ## Worth Looking Past the Storefront Front Page
 
 The best games of any given year aren't always the ones with the biggest marketing budgets. This list represents some of the most thoughtful, inventive, and genuinely well-crafted games released this year — all of which are easy to miss if you're only paying attention to what storefronts push to the front page.
-
-## Sources & References
-
-- [Polygon](https://www.polygon.com/)
-- [Rock Paper Shotgun](https://www.rockpapershotgun.com/)
-- [IGN](https://www.ign.com/)

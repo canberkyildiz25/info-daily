@@ -152,8 +152,4 @@ The question isn't really "Is my phone listening to me?" It's "What am I willing
 
 ## Sources & References
 
-- [MIT Technology Review](https://www.technologyreview.com/)
-- [IEEE Spectrum](https://spectrum.ieee.org/)
-- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
 - [Pew Research Center – Reading Habits](https://www.pewresearch.org/internet/2021/01/09/who-doesnt-read-books-in-america/)
-- [American Library Association](https://www.ala.org/)

@@ -7,6 +7,7 @@ import remarkHtml from 'remark-html';
 import readingTime from 'reading-time';
 import { CATEGORIES } from './categories';
 import { normalizeAuthorName } from './authors';
+import { decodeEntities } from './entities';
 
 export { CATEGORIES } from './categories';
 
@@ -28,8 +29,7 @@ function defaultCover(): string {
 }
 
 function slugify(text: string): string {
-  return text
-    .replace(/<[^>]+>/g, '')
+  return decodeEntities(text.replace(/<[^>]+>/g, ''))
     .toLowerCase()
     .replace(/[^a-z0-9\s-]/g, '')
     .trim()
@@ -60,7 +60,7 @@ export function extractHeadings(html: string): Heading[] {
   return [...html.matchAll(/<h([23])[^>]*id="([^"]*)"[^>]*>(.*?)<\/h[23]>/gi)].map(m => ({
     level: parseInt(m[1]),
     id: m[2],
-    text: m[3].replace(/<[^>]+>/g, ''),
+    text: decodeEntities(m[3].replace(/<[^>]+>/g, '')),
   }));
 }
 
@@ -77,7 +77,6 @@ export interface Post {
   readingTime: string;
   tags: string[];
   content?: string;
-  noInlineImages?: boolean;
   imagePosition?: string;
   /* Kapak fotoğrafı yazının konusunu birebir göstermiyorsa bunu söyleyen
      kısa alt yazı — örneğin henüz basın görseli olmayan yeni bir cihaz
@@ -163,7 +162,6 @@ export async function getPost(category: string, slug: string): Promise<Post | nu
     readingTime: stats.text,
     tags: data.tags || [],
     content: htmlContent,
-    noInlineImages: data.noInlineImages ?? false,
     imagePosition: data.imagePosition,
     coverCaption: data.coverCaption,
   };

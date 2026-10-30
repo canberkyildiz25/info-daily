@@ -104,9 +104,3 @@ The most important variable isn't time invested — it's intentionality. Players
 Better gear has diminishing returns after a certain baseline. The investments that actually move the needle — aim trainer practice, VOD review, mental game management, and structured improvement — cost nothing beyond time.
 
 The players climbing the ladder in 2026 aren't the ones with the most expensive peripherals. They're the ones who take the game seriously enough to study it.
-
-## Sources & References
-
-- [Aim Lab](https://aimlab.gg/)
-- [HLTV.org](https://www.hltv.org/)
-- [ProGuides](https://www.proguides.com/)

@@ -46,9 +46,3 @@ If you're considering making cloud gaming your primary way to play, a few things
 ## A Complement to Your Hardware, Not a Replacement
 
 Cloud gaming in 2026 has moved from novelty to legitimate option, particularly for genres that don't require frame-perfect input timing and for extending where you can play games you'd otherwise only access on a single device. It hasn't replaced local hardware for competitive or latency-sensitive genres, and it's unlikely to for the foreseeable future — but as a complement to a existing setup, it's now genuinely useful rather than a gimmick.
-
-## Sources & References
-
-- [Digital Foundry](https://www.digitalfoundry.net/)
-- [The Verge](https://www.theverge.com/)
-- [PCMag](https://www.pcmag.com/)

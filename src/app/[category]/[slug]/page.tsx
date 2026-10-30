@@ -6,7 +6,6 @@ import ArticleHeroImage from '@/components/ArticleHeroImage';
 import { getCoverImageUrl } from '@/lib/pexels';
 import { widePexels } from '@/lib/images';
 import { keepHyphenated } from '@/lib/typeset';
-import { injectInlineImages } from '@/lib/injectImages';
 import RelatedArticles from '@/components/RelatedArticles';
 import InternalLinks from '@/components/InternalLinks';
 import ReadingProgress from '@/components/ReadingProgress';
@@ -93,13 +92,13 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
     ? post.coverImage
     : (await getCoverImageUrl(`${post.title} ${category}`, post.slug).catch(() => null)) ?? post.coverImage;
 
-  // Inject inline images after every 2nd section heading (skipped if noInlineImages: true)
-  const contentWithImages = post.noInlineImages
-    ? (post.content || '')
-    : await injectInlineImages(post.content || '', post.title, category).catch(() => post.content || '');
-
-  // Inject internal links every 3 paragraphs
-  const contentWithLinks = injectInternalLinks(contentWithImages, post.slug, category, post.tags);
+  /* Yazının içine fotoğraf eklenmiyor. Eskiden her ikinci ara başlıktan
+     sonra, başlığın kelimeleriyle Pexels'te arama yapılıp bulunan ilk
+     fotoğraf konuyordu: "Restart Your Computer" için sunucu dolabı,
+     "Visual Effects" için VR gözlüğü. Alternatif metin de başlığın
+     kendisiydi, yani fotoğrafı tarif etmiyordu. Konuyu gösteren görsel
+     gerekiyorsa yazının içine Markdown ile elle konur. */
+  const contentWithLinks = injectInternalLinks(post.content || '', post.slug, category, post.tags);
 
   // Extract FAQ schema from article headings ending with "?"
   const faqJsonLd = buildFaqJsonLd(extractFaqFromHtml(contentWithLinks));
@@ -273,11 +272,12 @@ export default async function ArticlePage({ params }: { params: Promise<{ catego
             }}
           />
 
-          {/* FAQ JSON-LD */}
+          {/* FAQ JSON-LD. Soru ve cevaplar yazı metninden çözülerek geliyor;
+              metinde "<" olursa betik etiketini erken kapatmasın diye kaçırılıyor. */}
           {faqJsonLd && (
             <script
               type="application/ld+json"
-              dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+              dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd).replace(/</g, '\\u003c') }}
             />
           )}
 

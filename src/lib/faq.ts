@@ -1,3 +1,5 @@
+import { decodeEntities } from './entities';
+
 interface FaqItem {
   question: string;
   answer: string;
@@ -14,13 +16,11 @@ export function extractFaqFromHtml(html: string): FaqItem[] {
 
   const faqs: FaqItem[] = [];
   let match: RegExpExecArray | null;
-  let lastIndex = 0;
-  let lastQuestion: string | null = null;
 
   const allMatches: { index: number; end: number; text: string }[] = [];
 
   while ((match = headingRegex.exec(html)) !== null) {
-    const text = match[1].replace(tagStripRegex, '').trim();
+    const text = decodeEntities(match[1].replace(tagStripRegex, '')).trim();
     allMatches.push({ index: match.index, end: headingRegex.lastIndex, text });
   }
 
@@ -32,8 +32,7 @@ export function extractFaqFromHtml(html: string): FaqItem[] {
     const answerStart = current.end;
     const answerEnd = allMatches[i + 1]?.index ?? html.length;
     const answerHtml = html.slice(answerStart, answerEnd);
-    const answerText = answerHtml
-      .replace(tagStripRegex, ' ')
+    const answerText = decodeEntities(answerHtml.replace(tagStripRegex, ' '))
       .replace(/\s+/g, ' ')
       .trim()
       .slice(0, 500); // cap at 500 chars for schema

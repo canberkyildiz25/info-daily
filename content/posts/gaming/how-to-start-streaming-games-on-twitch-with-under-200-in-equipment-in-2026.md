@@ -97,6 +97,4 @@ Start with good audio. Everything else can wait.
 
 ## Sources & References
 
-- [OBS Project](https://obsproject.com/)
-- [Twitch](https://www.twitch.tv/)
 - [Streamlabs Blog](https://streamlabs.com/content-hub/)

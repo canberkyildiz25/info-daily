@@ -93,9 +93,3 @@ Even though you probably won't be buying a quantum laptop anytime soon, there ar
 Quantum computing isn't going to replace your laptop or make classical computers obsolete. Instead, think of it as a powerful new tool designed for a specific class of extraordinarily difficult problems. The technology is still maturing, but the trajectory is clear: quantum computing will reshape industries, redefine cybersecurity, and unlock scientific discoveries that are simply impossible with today's machines.
 
 The best time to start paying attention was five years ago. The second best time is right now.
-
-## Sources & References
-
-- [MIT Technology Review](https://www.technologyreview.com/)
-- [IEEE Spectrum](https://spectrum.ieee.org/)
-- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)

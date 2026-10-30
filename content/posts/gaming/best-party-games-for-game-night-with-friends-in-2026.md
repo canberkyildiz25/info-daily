@@ -48,9 +48,3 @@ A few practical tips that matter more than game selection:
 ## Pick for Your Least Experienced Player
 
 The best party games share the same DNA: low barrier to entry, high ceiling for chaos, and rules simple enough to explain in under a minute. Whether you're hosting two people or eight, prioritizing games that work for your least experienced player over the most skilled one is what actually makes game night memorable.
-
-## Sources & References
-
-- [IGN](https://www.ign.com/)
-- [Polygon](https://www.polygon.com/)
-- [Nintendo Life](https://www.nintendolife.com/)

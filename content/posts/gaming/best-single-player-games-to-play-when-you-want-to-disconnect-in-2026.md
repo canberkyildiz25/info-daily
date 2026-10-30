@@ -61,9 +61,3 @@ The single-player games on this list offer something streaming, social media, an
 Start with *What Remains of Edith Finch* if you have two hours. Start with *Hollow Knight* if you want to disappear for a month. Start with *Red Dead Redemption 2* if you're ready for the best narrative the medium has produced.
 
 Close the apps. Put on headphones. Disconnect.
-
-## Sources & References
-
-- [Eurogamer](https://www.eurogamer.net/)
-- [IGN](https://www.ign.com/)
-- [The Guardian Games](https://www.theguardian.com/games)

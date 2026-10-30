@@ -135,9 +135,4 @@ A password manager is no longer a luxury — it's a necessity. The average perso
 
 ## Sources & References
 
-- [MIT Technology Review](https://www.technologyreview.com/)
-- [IEEE Spectrum](https://spectrum.ieee.org/)
-- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
 - [CISA – Cybersecurity Resources](https://www.cisa.gov/topics/cybersecurity-best-practices)
-- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [Electronic Frontier Foundation – Surveillance Self-Defense](https://ssd.eff.org/)

@@ -2,13 +2,12 @@
 title: "GTA 6: Getting Your PS5 or Xbox Ready Before 19 November"
 excerpt: "Every copy of GTA 6 is a download, including the boxed one. Here is how much room each console really has, what Rockstar has and has not confirmed about the size, and the fake downloads to stay away from."
 date: "2026-10-19"
-updatedAt: "2026-10-19"
+updatedAt: "2026-10-30"
 author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/14332615/pexels-photo-14332615.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 imagePosition: "center 60%"
 coverCaption: "Pictured: Ocean Drive, Miami Beach. GTA VI's Vice City is modelled on Miami."
 tags: ["GTA 6", "PS5 storage", "Xbox Series S", "pre-load", "game downloads"]
-noInlineImages: true
 featured: true
 ---
 
@@ -29,11 +28,11 @@ Two smaller points from the same page:
 
 ## How Big Is It? Nobody Outside Rockstar Knows Yet
 
-As of 19 October, Rockstar has not published an install size. The figure will appear on the PlayStation Store and Microsoft Store listings, and we will add it here when it does.
+Rockstar still has not published a size. The closest thing to a number comes from PlayStation Game Size, an account that tracks PlayStation Store data, which [puts the PS5 download at 210GB](https://www.gamesradar.com/games/grand-theft-auto/gta-6-is-a-210gb-download-says-playstation-store-sleuth/). GamesRadar, which reported it, calls the figure unconfirmed and points out that download and install sizes can differ, as can the PS5 and Xbox versions.
 
-You will see confident numbers online anyway. Treat them as guesses. The "113GB ISO" that circulated in August, for instance, turned out to be malware (more on that below).
+You will see other confident numbers online. Treat them as guesses. The "113GB ISO" that circulated in August, for instance, turned out to be malware (more on that below).
 
-The most useful reference point is Rockstar's previous game: for the 2019 PC release of Red Dead Redemption 2, [Rockstar listed 150GB](https://www.tomsguide.com/news/red-dead-redemption-2-pc-specs) of storage. GTA VI is a newer and larger game. **Clearing at least 200GB** gives you a sensible margin until the real number is published. That figure is our planning margin, not an estimate of the game's size.
+The most useful reference point is Rockstar's previous game: for the 2019 PC release of Red Dead Redemption 2, [Rockstar listed 150GB](https://www.tomsguide.com/news/red-dead-redemption-2-pc-specs) of storage. A 210GB download would fit that pattern. **Aim for about 250GB free**, which covers the reported size plus room for a launch-day update. That margin is our own advice, not a figure from Rockstar.
 
 ## How Much Room Your Console Actually Has
 
@@ -68,7 +67,7 @@ Be aware that SSD prices are well up this year because of the [global memory sho
 
 Pre-loading is the reason to pre-order digitally, or to redeem a boxed code as soon as you have it. The download can then run for a week instead of an evening.
 
-To put numbers on it: a 200GB download on a steady 100Mbps connection takes roughly four and a half hours. At 50Mbps that doubles. Real-world speeds on launch week tend to be lower than the advertised rate, when millions of people are downloading the same thing. If your provider caps monthly data, a download this size can use a large share of the allowance.
+To put numbers on it: a 210GB download on a steady 100Mbps connection takes a little under five hours. At 50Mbps that doubles. Real-world speeds on launch week tend to be lower than the advertised rate, when millions of people are downloading the same thing. If your provider caps monthly data, a download this size can use a large share of the allowance.
 
 Downloads carry on overnight if the console is in rest mode with "Stay Connected to the Internet" switched on (PS5), or in the Sleep power mode (Xbox). Leave some room beyond the game itself as well: Rockstar has not said whether there will be a launch-day update, but large releases often get one.
 
@@ -96,6 +95,7 @@ Nothing about launch day is in your hands except your console's storage. Check h
 - [TechRadar — PS5 usable storage confirmed](https://www.techradar.com/news/ps5-usable-storage-confirmed-and-its-much-less-than-825gb)
 - [Digital Trends — The new 1TB PS5 has more usable storage than the Xbox Series X](https://www.digitaltrends.com/gaming/ps5-1tb-usable-storage-answer/)
 - [PlayStation Universe — The PS5 Pro has 1.89TB of usable storage](https://www.psu.com/news/the-ps5-pro-has-1-89tb-of-usable-storage/)
+- [GamesRadar — GTA 6 is a 210GB download, says PlayStation Store sleuth](https://www.gamesradar.com/games/grand-theft-auto/gta-6-is-a-210gb-download-says-playstation-store-sleuth/)
 - [Tom's Guide — Red Dead Redemption 2 PC specs](https://www.tomsguide.com/news/red-dead-redemption-2-pc-specs)
 - [TechRadar — Fake GTA VI ISO is malware](https://www.techradar.com/pro/of-course-this-fake-gta-vi-iso-download-is-malware-testers-reveal-113gb-download-is-99-99-empty-zeroes-with-a-tiny-virus-attached)
 - [Help Net Security — Fake GTA 6 download delivers malware-packed bundle](https://www.helpnetsecurity.com/2026/09/10/fake-gta-6-downloads-malware-ransomware/)

@@ -6,7 +6,10 @@ import PageHead from '@/components/PageHead';
 
 export const metadata: Metadata = {
   title: 'Videos — InfoDaily',
-  description: 'Watch curated educational and informational videos across technology, science, health, finance, food, and travel.',
+  description: 'Recent technology and gaming videos from channels we follow.',
+  /* Sayfadaki her şey başka kanalların videosu; okuyucu için kullanışlı ama
+     arama sonucunda InfoDaily'nin içeriği gibi durmasın. */
+  robots: { index: false, follow: true },
 };
 
 function timeAgo(dateStr: string): string {
@@ -32,7 +35,7 @@ export default async function VideosPage({ searchParams }: Props) {
       <PageHead
         label="Watch"
         title="Videos"
-        intro="The latest from channels we read ourselves. Refreshed every hour; each video credits its channel and plays from YouTube."
+        intro="The latest from technology and gaming channels we follow. Refreshed every hour; each video credits its channel and plays from YouTube."
       >
         <nav aria-label="Filter by topic" className="mt-8 flex gap-x-6 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {VIDEO_CATEGORIES.map(c => {

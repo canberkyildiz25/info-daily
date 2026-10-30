@@ -52,9 +52,3 @@ A few features common in marketing but not worth prioritizing under $100:
 ## Buy for Tuning, Not for Price
 
 The $100-and-under headset category is one of the strongest value tiers in gaming gear right now. Prioritize balanced sound over bass-heavy tuning if you play competitively, check independent microphone tests before buying, and don't assume a higher price automatically means better audio — at this tier, tuning quality varies more than raw specs suggest.
-
-## Sources & References
-
-- [RTINGS](https://www.rtings.com/)
-- [PCMag](https://www.pcmag.com/)
-- [Tom's Guide](https://www.tomsguide.com/)

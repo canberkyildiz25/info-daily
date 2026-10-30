@@ -55,9 +55,3 @@ Wireless gaming peripherals have closed the latency gap with wired almost comple
 ## Fit and Feel Over Spec Sheets
 
 The best first gaming keyboard and mouse aren't necessarily the most expensive ones — they're the ones that match your hand size, grip style, and switch preference. Spend your research time on fit and feel rather than spec sheets, and you'll end up with gear that feels better in practice than a higher price tag would suggest.
-
-## Sources & References
-
-- [RTINGS](https://www.rtings.com/)
-- [Tom's Hardware](https://www.tomshardware.com/)
-- [PCMag](https://www.pcmag.com/)

@@ -59,9 +59,3 @@ For a complete, comfortable setup under $600 total: a used or previous-gen GPU-e
 ## Monitor and Chair First, Decoration Last
 
 A great gaming setup is about matching your spending to what actually changes your experience — responsiveness, comfort, and reliability — rather than chasing the aesthetic of a setup built for a YouTube thumbnail. Prioritize the monitor and chair, buy peripherals that fit your hands, and skip anything purely decorative until the essentials are covered.
-
-## Sources & References
-
-- [PCMag](https://www.pcmag.com/)
-- [Tom's Hardware](https://www.tomshardware.com/)
-- [RTINGS](https://www.rtings.com/)

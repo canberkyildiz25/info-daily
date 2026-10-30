@@ -85,9 +85,6 @@ The bottom line: most battery problems are behavioral before they're hardware. S
 
 ## Sources & References
 
-- [MIT Technology Review](https://www.technologyreview.com/)
-- [IEEE Spectrum](https://spectrum.ieee.org/)
-- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
 - [FCC – Broadband Resources](https://www.fcc.gov/consumers/guides/broadband-speed-guide)
 - [IEEE – Wireless Standards](https://standards.ieee.org/featured/802-11/)
 - [Pew Research Center – Reading Habits](https://www.pewresearch.org/internet/2021/01/09/who-doesnt-read-books-in-america/)

@@ -8,26 +8,17 @@ export interface VideoItem {
   category: string;
 }
 
-// Curated educational/news YouTube channels, one per major category
+/* Yalnızca sitenin konusu: teknoloji ve oyun. Burada yemek, finans, seyahat
+   ve sağlık kanalları da vardı; bir teknoloji rehberinde acı kanat programı
+   ve faiz yorumu çıkıyordu. */
 const CHANNELS: { id: string; name: string; category: string }[] = [
-  // General
-  { id: 'UCAuUUnT6oDeKwE6v1NGQxug', name: 'TED',            category: 'general' },
-  { id: 'UCLXo7UDZvByw2ixzpQCufnA', name: 'Vox',            category: 'general' },
   // Technology
   { id: 'UCsBjURrPoezykLs9EqgamOA', name: 'Fireship',        category: 'technology' },
   { id: 'UCBJycsmduvYEL83R_U4JriQ', name: 'MKBHD',          category: 'technology' },
   { id: 'UCXuqSBlHAE6Xw-yeJA0Tunw', name: 'Linus Tech Tips', category: 'technology' },
-  // Science
-  { id: 'UCHnyfMqiRRG1u-2MsSQLbXA', name: 'Veritasium',     category: 'science' },
-  { id: 'UCsXVk37bltHxD1rDPwtNM8Q', name: 'Kurzgesagt',     category: 'science' },
-  // Health
-  { id: 'UC0QHWhjbe5fGJEPz3sZqH6A', name: 'Doctor Mike',    category: 'health' },
-  // Finance
-  { id: 'UCV6KDgJskWaEckne5aPA0aQ', name: 'Graham Stephan', category: 'finance' },
-  // Food
-  { id: 'UCPD_bxCRGpmmeQcbe2kpPaA', name: 'Joshua Weissman', category: 'food' },
-  // Travel
-  { id: 'UCBcRF18a7Qf58cCRy5xuWwQ', name: 'Mark Wiens',     category: 'travel' },
+  // Gaming
+  { id: 'UC9PBzalIcEQCsiIkq36PyUA', name: 'Digital Foundry', category: 'gaming' },
+  { id: 'UChIs72whgZI9w6d6FhwGGHA', name: 'Gamers Nexus',    category: 'gaming' },
 ];
 
 function decodeEntities(str: string): string {
@@ -99,11 +90,6 @@ export async function getVideos(category?: string, revalidateSeconds = 3600): Pr
 
 export const VIDEO_CATEGORIES = [
   { id: 'all',        label: 'All' },
-  { id: 'general',    label: 'General' },
   { id: 'technology', label: 'Technology' },
-  { id: 'science',    label: 'Science' },
-  { id: 'health',     label: 'Health' },
-  { id: 'finance',    label: 'Finance' },
-  { id: 'food',       label: 'Food' },
-  { id: 'travel',     label: 'Travel' },
+  { id: 'gaming',     label: 'Gaming' },
 ];

@@ -115,9 +115,5 @@ The best Chrome extensions are the ones that quietly remove friction from your d
 
 ## Sources & References
 
-- [MIT Technology Review](https://www.technologyreview.com/)
-- [IEEE Spectrum](https://spectrum.ieee.org/)
-- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
 - [APA – Procrastination](https://www.apa.org/news/press/releases/2010/04/procrastination)
-- [James Clear – Atomic Habits Research](https://jamesclear.com/habits)
 - [Harvard Business Review – Productivity](https://hbr.org/topic/subject/productivity)

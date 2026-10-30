@@ -103,9 +103,3 @@ Meta has proven that people *will* wear smart glasses daily if they're stylish, 
 The Apple vs. Meta smart glasses battle isn't just about hardware specs — it's about two fundamentally different philosophies. Meta wants to get something useful on your face right now at an accessible price. Apple wants to wait until it can deliver a transformative experience, even if it costs more and arrives later.
 
 Both approaches have merit, and honestly, consumers win either way. If you're in the market for smart eyewear in 2026, Meta's Ray-Bans are a proven, practical choice available today. But if you've been waiting for the moment AR glasses feel like *magic* — Apple might finally be ready to deliver. Keep your eyes open. Literally.
-
-## Sources & References
-
-- [MIT Technology Review](https://www.technologyreview.com/)
-- [IEEE Spectrum](https://spectrum.ieee.org/)
-- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)

@@ -72,9 +72,3 @@ Couch co-op gaming in 2026 has never been in a better place. From the inventive 
 If you're new to gaming together, start with *It Takes Two*. If you want something relaxed and beautiful, try *Unravel Two*. If you want to laugh and argue in equal measure, buy *Overcooked! 2*.
 
 Some of the best conversations happen with a controller in your hand.
-
-## Sources & References
-
-- [IGN](https://www.ign.com/)
-- [Nintendo](https://www.nintendo.com/)
-- [Eurogamer](https://www.eurogamer.net/)

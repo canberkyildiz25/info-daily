@@ -6,7 +6,6 @@ updatedAt: "2026-10-19"
 author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/33513532/pexels-photo-33513532.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 tags: ["console maintenance", "PS5", "Xbox Series X", "Nintendo Switch 2", "controller drift"]
-noInlineImages: true
 ---
 
 Console prices normally fall as a generation ages. This one went the other way. A global shortage of memory and storage chips, on top of last year's tariffs, has pushed every major console up, and buyers have noticed: US hardware sales in August were the [lowest for that month in 13 years](https://finance.yahoo.com/technology/article/video-game-hardware-sales-plunge-to-13-year-low-as-prices-soar-on-memory-storage-shortage-155535332.html), according to the market research firm Circana.

@@ -6,7 +6,6 @@ updatedAt: "2026-10-19"
 author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/1466609/pexels-photo-1466609.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 tags: ["Windows 10", "Extended Security Updates", "Windows security", "Windows 11 upgrade", "PC maintenance"]
-noInlineImages: true
 ---
 
 Windows 10 reached the end of support on 14 October 2025. For home users who were not ready to move, Microsoft offered a year of Extended Security Updates (ESU), due to end on 13 October 2026.

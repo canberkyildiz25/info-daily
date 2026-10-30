@@ -2,16 +2,15 @@
 title: "iOS 27 on an iPhone 11 to 15: What You Get, and Whether to Update Yet"
 excerpt: "Since 8 October, iPhones still on iOS 26 have been offered iOS 27 as the main update. On most phones from the iPhone 11 to the iPhone 15 it arrives without the new Siri. Here is what those phones do get, and how to keep getting security fixes if you would rather wait."
 date: "2026-10-19"
-updatedAt: "2026-10-19"
+updatedAt: "2026-10-30"
 author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/13886741/pexels-photo-13886741.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 tags: ["iOS 27", "iPhone 11", "iPhone 15", "software update", "Apple Intelligence"]
-noInlineImages: true
 ---
 
 Apple released iOS 27 on 14 September 2026. Like iOS 26, it [runs on every iPhone from the iPhone 11 onwards](https://support.apple.com/guide/iphone/iphone-models-compatible-with-ios-27-iphe3fa5df43/ios), plus the second- and third-generation iPhone SE. No model was dropped this year.
 
-For more than three weeks, phones still on iOS 26 were offered a security update as the main option, with iOS 27 tucked further down. That changed on 8 October. [According to MacRumors](https://www.macrumors.com/2026/10/08/apple-now-pushing-ios-27/), iOS 27.0.1 is now "the prominent software update" for those phones. If you own an older iPhone, you have probably just seen it.
+For more than three weeks, phones still on iOS 26 were offered a security update as the main option, with iOS 27 tucked further down. That changed on 8 October. [According to MacRumors](https://www.macrumors.com/2026/10/08/apple-now-pushing-ios-27/), iOS 27 became "the prominent software update" for those phones. If you own an older iPhone, you have probably seen it.
 
 We have not measured iOS 27 on older iPhones ourselves. This guide is built from Apple's documentation and the reporting linked throughout.
 
@@ -45,17 +44,17 @@ On the standard iPhone 15 and older, you will not get the new Siri or its separa
 
 Apple does not force the upgrade. In its own words, it "continues to offer security updates to the previous major operating system version for a period of time" for people who want to wait ([Apple Support](https://support.apple.com/en-us/125039)).
 
-That is happening now. Alongside iOS 27, Apple shipped **iOS 26.7**, a security-only update that [Cult of Mac reports](https://www.cultofmac.com/news/ios-26-7-security-update-alternative-to-ios-27) carries 82 fixes. Two weeks later came **iOS 26.7.1**, which fixes a flaw in how the phone handles certain files. [Apple says that flaw](https://9to5mac.com/2026/09/28/ios-26-7-1-available-now-for-iphone-with-security-fixes/) "may have been exploited in an extremely sophisticated attack against specific targeted individuals."
+That is happening now. Alongside iOS 27, Apple shipped **iOS 26.7**, a security-only update that [Cult of Mac reports](https://www.cultofmac.com/news/ios-26-7-security-update-alternative-to-ios-27) carries 82 fixes. Two weeks later came **iOS 26.7.1**, which fixes a flaw in how the phone handles certain files. [Apple says that flaw](https://9to5mac.com/2026/09/28/ios-26-7-1-available-now-for-iphone-with-security-fixes/) "may have been exploited in an extremely sophisticated attack against specific targeted individuals." On 26 October Apple followed with **iOS 26.7.2**, which [covers 134 more vulnerabilities](https://www.macrumors.com/2026/10/27/apple-fixes-coregraphics-flaw-older-iphones/), none of them flagged as exploited.
 
 To stay on iOS 26 and stay patched:
 
 1. Open **Settings → General → Software Update**.
-2. Ignore the large iOS 27.0.1 prompt.
-3. Scroll down to **Also Available** and install **iOS 26.7.1**.
+2. Ignore the large iOS 27 prompt.
+3. Scroll down to **Also Available** and install the newest iOS 26 version listed. That was **iOS 26.7.2** when we last updated this guide.
 
 Apple has not said how long iOS 26 will keep receiving fixes. Last year's pattern is encouraging: [iOS 18.7.7 shipped in April 2026](https://tidbits.com/2026/04/01/apple-offers-ios-18-7-7-security-update-as-alternative-to-ios-26-4-upgrade/), more than six months after iOS 26 came out.
 
-The one choice that is not safe is doing nothing. An iPhone still on an older build of iOS 26, without 26.7.1, is missing a fix for a flaw Apple says may already have been used against people.
+The one choice that is not safe is doing nothing. An iPhone on a build of iOS 26 older than 26.7.1 is missing a fix for a flaw Apple says may already have been used against people.
 
 ## How to Decide
 
@@ -67,7 +66,7 @@ Either way, back the phone up to iCloud or a computer before a major update.
 
 ## The Real Choice Is Between Two Patched Versions
 
-The real choice is between iOS 27.0.1 and iOS 26.7.1. Both are patched. On the standard iPhone 15 and older, iOS 27 brings a cleaner interface and a handful of useful controls but none of the new Siri, so waiting costs very little. Staying on an unpatched iOS 26 build does.
+The real choice is between the current iOS 27 and iOS 26.7.2. Both are patched. On the standard iPhone 15 and older, iOS 27 brings a cleaner interface and a handful of useful controls but none of the new Siri, so waiting costs very little. Staying on an unpatched iOS 26 build does.
 
 **Sources**
 
@@ -78,4 +77,5 @@ The real choice is between iOS 27.0.1 and iOS 26.7.1. Both are patched. On the s
 - [MacRumors — Apple now pushing iPhone users still on iOS 26 to install iOS 27](https://www.macrumors.com/2026/10/08/apple-now-pushing-ios-27/)
 - [Cult of Mac — iOS 26.7 arrives as Apple's security-only alternative to iOS 27](https://www.cultofmac.com/news/ios-26-7-security-update-alternative-to-ios-27)
 - [9to5Mac — iOS 26.7.1 available now with security fixes](https://9to5mac.com/2026/09/28/ios-26-7-1-available-now-for-iphone-with-security-fixes/)
+- [MacRumors — Apple fixes possibly exploited CoreGraphics flaw on older iPhones](https://www.macrumors.com/2026/10/27/apple-fixes-coregraphics-flaw-older-iphones/)
 - [TidBITS — Apple offers iOS 18.7.7 security update as alternative to iOS 26.4 upgrade](https://tidbits.com/2026/04/01/apple-offers-ios-18-7-7-security-update-as-alternative-to-ios-26-4-upgrade/)

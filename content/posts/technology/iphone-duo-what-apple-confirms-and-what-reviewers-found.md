@@ -2,7 +2,7 @@
 title: "iPhone Duo: What Apple Confirms and What Hands-On Reviewers Found"
 excerpt: "Apple's first foldable iPhone starts at $1,999 and tops out at $3,199. Here is what the official specification sheet states, what reviewers measured for themselves, and the two places where the two accounts do not line up."
 date: "2026-09-21"
-updatedAt: "2026-09-21"
+updatedAt: "2026-10-30"
 author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/10883732/pexels-photo-10883732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 imagePosition: "65% center"
@@ -43,7 +43,7 @@ Per [MacRumors](https://www.macrumors.com/2026/09/09/iphone-duo-pricing-pre-orde
 | 1TB | $2,599 |
 | 2TB | $3,199 |
 
-Pre-orders open 16 October, shipping begins 23 October, across the US and more than 70 other countries. At $3,199 the top configuration is [the most expensive iPhone Apple has sold](https://www.bloomberg.com/news/articles/2026-09-09/apple-s-priciest-iphone-duo-hits-3-199-setting-industry-record).
+Pre-orders opened on 16 October and shipping began on 23 October, across the US and more than 70 other countries. At $3,199 the top configuration is [the most expensive iPhone Apple has sold](https://www.bloomberg.com/news/articles/2026-09-09/apple-s-priciest-iphone-duo-hits-3-199-setting-industry-record).
 
 ## What Reviewers Measured
 

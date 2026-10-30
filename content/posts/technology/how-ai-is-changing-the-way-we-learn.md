@@ -61,4 +61,3 @@ The goal is not AI education but AI-enhanced education — learning environments
 
 - [Khan Academy Khanmigo](https://www.khanacademy.org/khan-labs)
 - [Gates Foundation Education Research](https://www.gatesfoundation.org/our-work/programs/us-program/k-12-education)
-- [MIT Technology Review – AI and Education](https://www.technologyreview.com/)

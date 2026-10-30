@@ -11,6 +11,7 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   return {
     title: p.title ? `${p.title} — InfoDaily Videos` : 'Watch — InfoDaily Videos',
     description: p.channel ? `Watch on InfoDaily: ${p.title} by ${p.channel}` : undefined,
+    robots: { index: false, follow: true },
   };
 }
 

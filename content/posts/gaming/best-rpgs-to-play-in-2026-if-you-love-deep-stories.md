@@ -43,9 +43,3 @@ The best narrative RPGs share a few traits beyond just having good writing: choi
 ## Start With Clair Obscur or Baldur's Gate 3
 
 If character and consequence matter more to you than build theorycrafting, this year's RPG lineup has real depth to offer. Start with Clair Obscur: Expedition 33 if you want the newest standout, or Baldur's Gate 3 if you want the genre's current gold standard for reactive storytelling — either is a strong entry point into what narrative RPGs can do in 2026.
-
-## Sources & References
-
-- [IGN](https://www.ign.com/)
-- [RPG Site](https://www.rpgsite.net/)
-- [Polygon](https://www.polygon.com/)

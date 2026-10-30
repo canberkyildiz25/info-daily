@@ -89,9 +89,3 @@ For most gamers, the right monitor choice is straightforward: match resolution t
 A 1080p 144Hz IPS monitor at $160-180 is the best upgrade for anyone still on a 60Hz display. A 1440p 165Hz IPS monitor at $250-300 is the best choice for mid-range builds.
 
 Don't be distracted by the spec sheet arms race. The monitor that makes your games feel better is the one that matches your hardware and gaming habits — not the one with the most impressive numbers in the advertisement.
-
-## Sources & References
-
-- [Digital Foundry](https://www.digitalfoundry.net/)
-- [Rtings.com](https://www.rtings.com/)
-- [Tom's Hardware](https://www.tomshardware.com/)

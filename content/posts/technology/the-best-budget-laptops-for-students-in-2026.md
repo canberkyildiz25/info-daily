@@ -109,9 +109,5 @@ Invest wisely, protect your purchase with a good case and warranty, and that bud
 
 ## Sources & References
 
-- [MIT Technology Review](https://www.technologyreview.com/)
-- [IEEE Spectrum](https://spectrum.ieee.org/)
-- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
-- [CDC Traveler's Health](https://wwwnc.cdc.gov/travel)
 - [U.S. Department of State – Travel Advisories](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html)
 - [USDA – Food Plans and Costs](https://www.ers.usda.gov/topics/food-choices-health/food-consumption-demand/food-expenditures/)

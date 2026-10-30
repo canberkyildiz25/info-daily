@@ -97,9 +97,6 @@ The combination of good router placement, the right frequency band, and ethernet
 
 ## Sources & References
 
-- [MIT Technology Review](https://www.technologyreview.com/)
-- [IEEE Spectrum](https://spectrum.ieee.org/)
-- [Pew Research Center – Internet & Technology](https://www.pewresearch.org/internet/)
 - [FCC – Broadband Resources](https://www.fcc.gov/consumers/guides/broadband-speed-guide)
 - [IEEE – Wireless Standards](https://standards.ieee.org/featured/802-11/)
 - [Psychology Today – Clutter and Well-Being](https://www.psychologytoday.com/us/basics/clutter)

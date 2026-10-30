@@ -65,9 +65,3 @@ Free-to-play gaming in 2026 is better than it's ever been. The best games in the
 Start with Warframe if you want a solo-friendly experience with an exceptional story. Start with Apex Legends if you want polished competitive shooting. Start with Path of Exile 2 if you want something deep enough to consume the next six months of your gaming life.
 
 None of them will cost you anything to find out.
-
-## Sources & References
-
-- [PC Gamer](https://www.pcgamer.com/)
-- [Rock Paper Shotgun](https://www.rockpapershotgun.com/)
-- [Steam](https://store.steampowered.com/)

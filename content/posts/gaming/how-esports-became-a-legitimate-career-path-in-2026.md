@@ -46,9 +46,3 @@ For people seriously considering an esports career beyond playing competitively,
 ## The Durable Careers Are in the Support Roles
 
 Esports in 2026 has moved well past the "is this a real career" conversation. What's changed isn't primarily player salaries — it's the depth and stability of the ecosystem surrounding competitive play: education pathways, broadcasting infrastructure, and support roles that offer more durable careers than the spotlight positions ever did.
-
-## Sources & References
-
-- [ESPN Esports](https://www.espn.com/esports/)
-- [Esports Insider](https://esportsinsider.com/)
-- [Dot Esports](https://dotesports.com/)

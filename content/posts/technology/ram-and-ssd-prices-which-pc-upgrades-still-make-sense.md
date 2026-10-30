@@ -6,7 +6,6 @@ updatedAt: "2026-10-19"
 author: "InfoDaily Editorial Team"
 coverImage: "https://images.pexels.com/photos/31993524/pexels-photo-31993524.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
 tags: ["RAM prices", "SSD prices", "DDR5", "PC upgrades", "memory shortage"]
-noInlineImages: true
 ---
 
 On 14 October, the cheapest 32GB kit of DDR5-6000 memory in the US cost **$449.97**. [Tom's Hardware](https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-6000-ram-now-costs-usd450-ai-induced-shortage-reaches-worst-milestone-yet), which tracks that kit daily, had it at $400 in August and says RAM prices are up more than 500% in a year. A slower 32GB DDR5-4800 kit from Corsair was $399. The same kit once sold for $80.

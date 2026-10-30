@@ -54,9 +54,3 @@ A common mistake is assuming the most expensive chair automatically has the best
 ## Adjustability Beats Racing Stripes
 
 The chairs that actually protect your back are defined by adjustability and material quality, not racing stripes or brand logos. If you sit for long sessions regularly, prioritize a chair with genuine lumbar and seat-depth adjustment — even if it means choosing a less "gamer-coded" design over a flashier one.
-
-## Sources & References
-
-- [RTINGS](https://www.rtings.com/)
-- [Wirecutter](https://www.nytimes.com/wirecutter/)
-- [PCMag](https://www.pcmag.com/)
